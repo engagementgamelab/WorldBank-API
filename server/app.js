@@ -7,6 +7,7 @@ var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
+var gamedata = require('./routes/gamedata');
 
 var app = express();
 
@@ -25,6 +26,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/users', users);
+app.use('/gamedata', gamedata);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -57,5 +59,9 @@ app.use(function(err, req, res, next) {
   });
 });
 
+// API status handler
+app.get('/api', function (req, res) {
+  res.send('Engagement Lab API is running');
+});
 
 module.exports = app;
