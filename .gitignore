@@ -5,4 +5,4 @@ WorldBank-API.sublime-project
 
 content/problems/phase.sh
 
-node_modules
+server/node_modules/
