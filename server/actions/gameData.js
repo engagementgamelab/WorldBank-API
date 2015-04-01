@@ -4,9 +4,10 @@
 // -------------
 // Game Data Web Service
 // ==============
+
 exports.action = {
   name:                   'gameData',
-  description:            'gameData',
+  description:            'Retrieve all current game data.',
   blockedConnectionTypes: [],
   outputExample:          {},
   matchExtensionMimeType: false,
@@ -20,23 +21,25 @@ exports.action = {
 
     "use strict";
 
+    var _fileOptions = { root: "content", filter: "yml", encoding: "utf8" };
+
     var fs = require('fs');
     var dir = require('node-dir');
+    var _ = require('underscore');
     var YAML = require('yamljs');
 
-    var doc = undefined;
     var response = [];
 
-    function loadYML (content) {           
+    function loadYML (filePath) {           
         // Test YAML, and throw exception on error
         try {
-            
-            var data = YAML.parse(content);
-            var str = JSON.stringify(data);
+            var data = undefined;
 
-            response.push(data);
+            var fileContent = fs.readFileSync(filePath, _fileOptions.encoding);
+            data = YAML.parse(fileContent);
 
-            return true;
+            return data;
+
         } catch (err) {
 
             // Error, throw
@@ -46,22 +49,69 @@ exports.action = {
         }
     }
 
+    function attachData(filePath) {
+
+      response = [];
+
+      var fileDir = filePath.substring(0, filePath.lastIndexOf('/'));
+      var arrFileRoot = fileDir.split('/')
+      var arrFileParentDirs = arrFileRoot.splice(arrFileRoot.indexOf('content')+1, arrFileRoot.length);
+
+      var currentDirs = [];
+
+      for(var f = 0; f < arrFileParentDirs.length; f++)
+      {
+
+        if(f > 0 && response[currentDirs[f-1]] !== undefined)
+        {
+
+          response[currentDirs[f-1]][currentDirs[f]] = [];
+          var parent = {};
+          parent[arrFileParentDirs[f]] = [];
+          response.push(parent);
+        }
+        else 
+        {
+          var parent = {};
+          parent[arrFileParentDirs[f]] = [];
+          
+          response.push(parent);
+        }
+
+      }
+
+      return response;
+
+    }
+
     // Go through all YAML files in our content folder
-    dir.readFiles("../content/", {
-        match: /.yaml|.yml$/,
-        exclude: /^\./
-        }, function(err, content, next) {
-            if (err) throw err;
-            
-            if(loadYML(content))
-               next();
-        },
-        function(err, files){
-            if (err) throw err;
-          connection.response = response;
-          next(connection, true);
-         }
-    );
+    dir.files("../content/", function(err, files) {
+      if (err) throw err;
+
+      var filesFiltered = _.filter(files, function(filePath) {
+
+        return filePath.indexOf("." + _fileOptions.filter) !== -1;
+
+      });
+
+
+      _.each(filesFiltered, function(filePath) {
+
+        var fileContent = loadYML(filePath);
+
+        if(fileContent !== undefined) {
+        // response.push(fileContent);
+        attachData(fileContent, filePath);
+
+
+
+        }
+
+      });
+
+      connection.response = response;
+      next(connection, true);
+    });
 
   }
 };

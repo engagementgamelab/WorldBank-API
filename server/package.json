@@ -11,7 +11,9 @@
     "ws"         : "latest",
     "grunt"      : "latest",
     "serve-favicon": "latest",
-    "yamljs": "latest"
+    "yamljs": "latest",
+    "underscore": "latest",
+    "node-inspector": "x"
   },
   "devDependencies" : {
     "mocha"  : "latest",
