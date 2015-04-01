@@ -29,7 +29,7 @@
 
     // Go through all YAML files in our content folder
     dir.readFiles("../content/", {
-        match: /.yaml$/,
+        match: /.yaml|.yml$/,
         exclude: /^\./
         }, function(err, content, next) {
             if (err) throw err;
