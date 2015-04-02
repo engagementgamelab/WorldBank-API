@@ -1,117 +1,111 @@
-// ===============
-// World Bank RBF
-// Engagement Lab, 2015
-// -------------
-// Game Data Web Service
-// ==============
+/* 
+World Bank API
+Created by Engagement Lab, 2015
+==============
+ gameData.js
+ Game Data Web Service.
+
+ Created by Johnny Richardson on 4/1/15.
+==============
+*/
 
 exports.action = {
-  name:                   'gameData',
-  description:            'Retrieve all current game data.',
-  blockedConnectionTypes: [],
-  outputExample:          {},
-  matchExtensionMimeType: false,
-  version:                1.0,
-  toDocument:             true,
+    name: 'gameData',
+    description: 'Retrieve all current game data.',
+    blockedConnectionTypes: [],
+    outputExample: {},
+    matchExtensionMimeType: false,
+    version: 1.0,
+    toDocument: true,
 
-  inputs: {},
+    inputs: {},
 
-  /* GET game data. */
-  run: function(api, connection, next) {
+    /* GET game data. */
+    run: function (api, connection, next) {
 
-    "use strict";
+        "use strict";
 
-    var _fileOptions = { root: "content", filter: "yml", encoding: "utf8" };
+        var _fileOptions = {
+            root: "content",
+            filter: "yml",
+            encoding: "utf8"
+        };
 
-    var fs = require('fs');
-    var dir = require('node-dir');
-    var _ = require('underscore');
-    var YAML = require('yamljs');
+        var fs = require('fs');
+        var path = require('path')
+        var dir = require('node-dir');
+        var YAML = require('yamljs');
+        var _ = require('underscore');
 
-    var response = [];
+        // Parse YAML syntax given a file path, and throw exception on error
+        function loadYML(filePath) {
+            try {
+                var data = undefined;
 
-    function loadYML (filePath) {           
-        // Test YAML, and throw exception on error
-        try {
-            var data = undefined;
+                // Read file synchronously
+                var fileContent = fs.readFileSync(filePath, _fileOptions.encoding);
+                data = YAML.parse(fileContent);
 
-            var fileContent = fs.readFileSync(filePath, _fileOptions.encoding);
-            data = YAML.parse(fileContent);
+                return data;
 
-            return data;
+            } catch (err) {
 
-        } catch (err) {
+                // Error, throw
+                throw err;
+                return false;
 
-            // Error, throw
-            throw err;
-            return false;
+            }
+        }
+
+        // Given a root path, recursively crawl all sub-folders and load content of any files matching current filter
+        function loadFilesInPath(strFilepath) {
+
+            var fileResponse = {};
+
+            // Get file stats and path base name
+            var fileStats = fs.lstatSync(strFilepath);
+            var fileBaseName = path.basename(strFilepath);
+
+            // See if the current path is a directory
+            if (fileStats.isDirectory()) {
+
+              // Get directory contents
+              var dirContents = fs.readdirSync(strFilepath);
+              var dirContentsFiltered = [];
+
+              // For all current sub-contents, check if each child is either a folder or file matching filter
+              _.each(dirContents, function (child) {
+                  var isFolder = child.indexOf(".") === -1;
+                  var isMatchingFile = child.indexOf("." + _fileOptions.filter) !== -1;
+                  
+                  // Push match to filtered contents by running method ahain
+                  if (isFolder || isMatchingFile) 
+                    dirContentsFiltered.push(loadFilesInPath(strFilepath + '/' + child));
+              });
+
+              // Assign subcontents of this path
+              fileResponse[fileBaseName] = dirContentsFiltered;
+
+            }
+            else {
+              
+              // Determine if file matches current filter
+              if (strFilepath.indexOf("." + _fileOptions.filter) !== -1)
+              {
+                // If a YAML file, load content
+                if(fileBaseName.substring(fileBaseName.indexOf(".")+1, fileBaseName.length) == "yml")
+                  fileResponse[fileBaseName.substring(0, fileBaseName.indexOf("."))] = loadYML(strFilepath);
+              }
+
+            }
+
+            return fileResponse;
 
         }
+
+        // Recursively find all files specified by filter and load into response
+        connection.response = loadFilesInPath("../" + _fileOptions.root + "/");
+        next(connection, true);
+
     }
-
-    function attachData(filePath) {
-
-      response = [];
-
-      var fileDir = filePath.substring(0, filePath.lastIndexOf('/'));
-      var arrFileRoot = fileDir.split('/')
-      var arrFileParentDirs = arrFileRoot.splice(arrFileRoot.indexOf('content')+1, arrFileRoot.length);
-
-      var currentDirs = [];
-
-      for(var f = 0; f < arrFileParentDirs.length; f++)
-      {
-
-        if(f > 0 && response[currentDirs[f-1]] !== undefined)
-        {
-
-          response[currentDirs[f-1]][currentDirs[f]] = [];
-          var parent = {};
-          parent[arrFileParentDirs[f]] = [];
-          response.push(parent);
-        }
-        else 
-        {
-          var parent = {};
-          parent[arrFileParentDirs[f]] = [];
-          
-          response.push(parent);
-        }
-
-      }
-
-      return response;
-
-    }
-
-    // Go through all YAML files in our content folder
-    dir.files("../content/", function(err, files) {
-      if (err) throw err;
-
-      var filesFiltered = _.filter(files, function(filePath) {
-
-        return filePath.indexOf("." + _fileOptions.filter) !== -1;
-
-      });
-
-
-      _.each(filesFiltered, function(filePath) {
-
-        var fileContent = loadYML(filePath);
-
-        if(fileContent !== undefined) {
-        // response.push(fileContent);
-        attachData(fileContent, filePath);
-
-
-
-        }
-
-      });
-
-      connection.response = response;
-      next(connection, true);
-    });
-
-  }
 };
