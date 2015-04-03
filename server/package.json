@@ -14,7 +14,8 @@
     "yamljs": "latest",
     "underscore": "latest",
     "node-inspector": "x",
-    "path": "latest"
+    "path": "latest",
+    "grunt": "latest"
   },
   "devDependencies": {
     "mocha": "latest",

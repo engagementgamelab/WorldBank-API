@@ -7,7 +7,7 @@ exports.default = {
       //  Be sure that every server you run has a unique ID (which will happen when generated dynamically)
       //  id: 'myActionHeroServer',
       // A unique token to your application that servers will use to authenticate to each other
-      serverToken: 'change-me',
+      serverToken: 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855',
       // The welcome message seen by TCP and webSocket clients upon connection
       welcomeMessage: 'Hello! Welcome to the actionhero api',
       // the redis prefix for actionhero's cache objects
