@@ -1,0 +1,14 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Character (NPC) Definitions
+# ==============
+
+- symbol: yolanda
+  display_name: Yolanda
+  description: "about this person"
+
+- symbol: malcom
+  display_name: Malcom
+  description: "about this person"

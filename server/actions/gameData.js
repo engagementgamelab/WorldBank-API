@@ -58,13 +58,17 @@ exports.action = {
         }
 
         // Given a root path, recursively crawl all sub-folders and load content of any files matching current filter
-        function loadFilesInPath(strFilepath, parent) {
+        function loadFilesInPath(strFilepath, child, parent) {
 
             var fileResponse = {};
+            var filePath = strFilepath;
+
+            if(child !== undefined)
+              filePath = filePath + '/' + child;
 
             // Get file stats and path base name
-            var fileStats = fs.lstatSync(strFilepath);
-            var fileBaseName = path.basename(strFilepath);
+            var fileStats = fs.lstatSync(filePath);
+            var fileBaseName = path.basename(filePath);
 
             // console.log(fileStats);
 
@@ -72,39 +76,54 @@ exports.action = {
             if (fileStats.isDirectory()) {
 
               // Get directory contents
-              var dirContents = fs.readdirSync(strFilepath);
-              var dirContentsFiltered = [];
+              var dirContents = fs.readdirSync(filePath);
+              var dirContentsFiltered = {};
 
               // For all current sub-contents, check if each child is either a folder or file matching filter
-              _.each(dirContents, function (child) {
-                  var isFolder = child.indexOf(".") === -1;
-                  var isMatchingFile = child.indexOf("." + _fileOptions.filter) !== -1;
+              _.each(dirContents, function (subChild) {
+                  var isFolder = subChild.indexOf(".") === -1;
+                  var isMatchingFile = subChild.indexOf("." + _fileOptions.filter) !== -1;
+
+                  if(isFolder)
+                  {
+                      if(parent.indexOf(child) !== -1) {
+                        if(connection.response[child] === undefined)
+                          connection.response[child] = {}; 
+               
+                        connection.response[child][subChild] = loadFilesInPath(filePath, subChild, parent);
+                      }
+                      else if(parent.indexOf(subChild) !== -1) {
+                        connection.response[subChild] = loadFilesInPath(filePath, subChild, parent);
+                      }
+                  }
 
                   // Push match to filtered contents by running method again
                   if (isFolder || isMatchingFile) 
-                    dirContentsFiltered.push(loadFilesInPath(strFilepath + '/' + child));
-                      console.log(fileBaseName + " **** " + parent.indexOf(fileBaseName));
-
-                  // Assign subcontents of this path
-                  if(isFolder && parent.indexOf(fileBaseName) !== -1){
-                    connection.response[fileBaseName] = [];
-                  }
-                  else if(isFolder || isMatchingFile)
                   {
-                      console.log(fileBaseName + " //// " + isMatchingFile + "  === " + connection.response);
-                      connection.response[fileBaseName].push(dirContentsFiltered, parent);
+                    var keyName = isMatchingFile ? (subChild.substring(0, subChild.indexOf("."))) : subChild;         
+                    dirContentsFiltered[keyName] = loadFilesInPath(filePath, subChild, parent);
                   }
               });
+
+              return dirContentsFiltered
 
             }
             else {
               
               // Determine if file matches current filter
-              if (strFilepath.indexOf("." + _fileOptions.filter) !== -1)
+              if (child.indexOf("." + _fileOptions.filter) !== -1)
               {
+
                 // If a YAML file, load content
-                if(fileBaseName.substring(fileBaseName.indexOf(".")+1, fileBaseName.length) == "yml")
-                  fileResponse[fileBaseName.substring(0, fileBaseName.indexOf("."))] = loadYML(strFilepath);
+                if(fileBaseName.substring(fileBaseName.indexOf(".")+1, fileBaseName.length) == "yml") {
+                 
+                  // Assign subcontents of this path
+                  if(parent.indexOf(child) !== -1)
+                    connection.response[fileBaseName.substring(0, fileBaseName.indexOf("."))] = loadYML(filePath);
+                  else
+                    fileResponse = loadYML(filePath);
+                
+                }
               }
 
             }
@@ -114,8 +133,7 @@ exports.action = {
         }
 
         // Recursively find all files specified by filter and load into response
-        console.log(fs.readdirSync("../" + _fileOptions.root + "/"));
-        loadFilesInPath("../" + _fileOptions.root + "/", fs.readdirSync("../" + _fileOptions.root + "/"));
+        loadFilesInPath("../" + _fileOptions.root + "/", undefined, fs.readdirSync("../" + _fileOptions.root + "/"));
         next(connection, true);
 
     }

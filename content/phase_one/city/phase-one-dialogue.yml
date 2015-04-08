@@ -7,7 +7,7 @@
 
 # A character interactable
 symbol: yolanda_dialogue
-character: Yolanda
+character: yolanda
 character_description: "A well dressed woman who you imagine might come from center city. At first glance you notice she seems a bit disheveled and visibly annoyed. She is wearing a high tech visualization headset device and seems incredibly distracted."
 
 # DIALOGUE FORMAT:
