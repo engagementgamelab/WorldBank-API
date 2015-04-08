@@ -58,13 +58,15 @@ exports.action = {
         }
 
         // Given a root path, recursively crawl all sub-folders and load content of any files matching current filter
-        function loadFilesInPath(strFilepath) {
+        function loadFilesInPath(strFilepath, parent) {
 
             var fileResponse = {};
 
             // Get file stats and path base name
             var fileStats = fs.lstatSync(strFilepath);
             var fileBaseName = path.basename(strFilepath);
+
+            // console.log(fileStats);
 
             // See if the current path is a directory
             if (fileStats.isDirectory()) {
@@ -77,14 +79,22 @@ exports.action = {
               _.each(dirContents, function (child) {
                   var isFolder = child.indexOf(".") === -1;
                   var isMatchingFile = child.indexOf("." + _fileOptions.filter) !== -1;
-                  
-                  // Push match to filtered contents by running method ahain
+
+                  // Push match to filtered contents by running method again
                   if (isFolder || isMatchingFile) 
                     dirContentsFiltered.push(loadFilesInPath(strFilepath + '/' + child));
-              });
+                      console.log(fileBaseName + " **** " + parent.indexOf(fileBaseName));
 
-              // Assign subcontents of this path
-              fileResponse[fileBaseName] = dirContentsFiltered;
+                  // Assign subcontents of this path
+                  if(isFolder && parent.indexOf(fileBaseName) !== -1){
+                    connection.response[fileBaseName] = [];
+                  }
+                  else if(isFolder || isMatchingFile)
+                  {
+                      console.log(fileBaseName + " //// " + isMatchingFile + "  === " + connection.response);
+                      connection.response[fileBaseName].push(dirContentsFiltered, parent);
+                  }
+              });
 
             }
             else {
@@ -104,7 +114,8 @@ exports.action = {
         }
 
         // Recursively find all files specified by filter and load into response
-        connection.response = loadFilesInPath("../" + _fileOptions.root + "/");
+        console.log(fs.readdirSync("../" + _fileOptions.root + "/"));
+        loadFilesInPath("../" + _fileOptions.root + "/", fs.readdirSync("../" + _fileOptions.root + "/"));
         next(connection, true);
 
     }

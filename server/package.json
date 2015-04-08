@@ -15,7 +15,8 @@
     "underscore": "latest",
     "node-inspector": "x",
     "path": "latest",
-    "grunt": "latest"
+    "grunt": "latest",
+    "node-dir": "latest"
   },
   "devDependencies": {
     "mocha": "latest",
