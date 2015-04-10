@@ -21,7 +21,8 @@
   "devDependencies": {
     "mocha": "latest",
     "should": "latest",
-    "should-http": "0.0.2"
+    "should-http": "0.0.2",
+    "request": "latest"
   },
   "scripts": {
     "help": "actionhero help",

@@ -8,7 +8,12 @@ Created by Engagement Lab, 2015
  Created by Johnny Richardson on 4/1/15.
 ==============
 */
+"use strict";
 
+/**
+* @class gameData
+* @return {Object} Raw JSON containing all current static game data.
+*/
 exports.action = {
     name: 'gameData',
     description: 'Retrieve all current game data.',
@@ -22,8 +27,6 @@ exports.action = {
 
     /* GET game data. */
     run: function (api, connection, next) {
-
-        "use strict";
 
         var _fileOptions = {
             root: "content",

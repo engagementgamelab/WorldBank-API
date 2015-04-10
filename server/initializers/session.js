@@ -4,8 +4,6 @@ module.exports = {
     stopPriority: 1000,
     initialize: function(api, next) {
 
-      console.log("initialize!!!");
-
         api.session = {
             prefix: "__session:",
             duration: 60 * 60 * 1000, // 1 hour
@@ -67,10 +65,6 @@ module.exports = {
                 }
             });
         }
-
-        console.log("SESSION: ");
-        console.log(api.session);
-
 
         next();
     },

@@ -1,9 +1,11 @@
 process.env.NODE_ENV = 'test';
 
 var should = require('should');
+var request = require('request');
 var actionheroPrototype = require('actionhero').actionheroPrototype;
 var actionHero = new actionheroPrototype();
 var api;
+var url;
 
 describe('Action: Get Game Data', function(){
 
@@ -12,6 +14,7 @@ describe('Action: Get Game Data', function(){
     // Start AH
     actionHero.start(function(err, a){
       api = a;
+      url = 'http://localhost:' + api.config.servers.web.port + '/' + api.config.servers.web.urlPathForActions;
       done();
     })
   });
@@ -24,11 +27,21 @@ describe('Action: Get Game Data', function(){
   });
 
   // TEST: /api/gameData
+  it(' - Response has 200 status', function(done){
+    request.get(url + '/gameData/', function(err, response, body) {
+        response.should.have.status(200);
+        done();
+      });
+  });
+
+  // TEST: /api/gameData
   it(' - Response is valid JSON', function(done){
-    api.specHelper.runAction('gameData', function(response, connection) {
-      response.should.be.json;
-      done();
-    });
+    request.get(url + '/gameData/', function(err, response, body) {
+        body = JSON.parse(body);
+        body.should.be.an.instanceOf(Object);
+        
+        done();
+      });
   });
 
 });

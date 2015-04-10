@@ -1,0 +1,7 @@
+{
+    "name": "Engagement Lab World Bank API",
+    "url": "https://github.com/engagementgamelab/WorldBank-API",
+    "options": {
+    	"outdir": "public/docs"
+    }
+}

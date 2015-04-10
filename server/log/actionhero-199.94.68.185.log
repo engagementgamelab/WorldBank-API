@@ -1,520 +1,353 @@
-{"level":"notice","message":"*** starting actionhero ***","timestamp":"2015-04-07T16:16:15.606Z"}
-{"level":"warning","message":"running with fakeredis","timestamp":"2015-04-07T16:16:15.703Z"}
-{"level":"notice","message":"pid: 98243","timestamp":"2015-04-07T16:16:16.213Z"}
-{"level":"notice","message":"server ID: 199.94.68.185","timestamp":"2015-04-07T16:16:16.214Z"}
-{"level":"info","message":"ensuring the existence of the chatRoom: defaultRoom","timestamp":"2015-04-07T16:16:16.214Z"}
-{"level":"info","message":"ensuring the existence of the chatRoom: anotherRoom","timestamp":"2015-04-07T16:16:16.214Z"}
-{"level":"notice","message":"starting server: web","timestamp":"2015-04-07T16:16:16.218Z"}
-{"level":"notice","message":"starting server: websocket","timestamp":"2015-04-07T16:16:16.223Z"}
-{"level":"notice","message":"environment: development","timestamp":"2015-04-07T16:16:17.016Z"}
-{"level":"notice","message":"*** Server Started @ 2015-04-07 12:16:17 ***","timestamp":"2015-04-07T16:16:17.016Z"}
-{"level":"info","message":"actionhero member 199.94.68.185 has joined the cluster","timestamp":"2015-04-07T16:16:17.018Z"}
-{"to":"127.0.0.1","action":"showDocumentation","params":"{\"action\":\"showDocumentation\",\"apiVersion\":1}","duration":2,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T16:16:23.785Z"}
-{"to":"127.0.0.1","action":"status","params":"{\"action\":\"status\",\"apiVersion\":1}","duration":13,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T16:16:23.864Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":261,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T16:16:28.828Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":62,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T16:29:44.204Z"}
-{"level":"info","message":"\r\n\r\n*** rebooting due to config change (/Users/johnny/Documents/Projects/WorldBank-API/server/config/servers/web.js) ***\r\n\r\n","timestamp":"2015-04-07T16:47:23.792Z"}
-{"level":"alert","message":"Shutting down open servers and stopping task processing","timestamp":"2015-04-07T16:47:23.793Z"}
-{"level":"notice","message":"stopping server: web","timestamp":"2015-04-07T16:47:23.795Z"}
-{"level":"notice","message":"*** starting actionhero ***","timestamp":"2015-04-07T16:47:23.932Z"}
-{"level":"notice","message":"stopping server: websocket","timestamp":"2015-04-07T16:47:23.796Z"}
-{"level":"warning","message":"running with fakeredis","timestamp":"2015-04-07T16:47:23.933Z"}
-{"level":"alert","message":"The actionhero has been stopped","timestamp":"2015-04-07T16:47:23.800Z"}
-{"level":"info","message":"actionhero member 199.94.68.185 has left the cluster","timestamp":"2015-04-07T16:47:23.936Z"}
-{"level":"notice","message":"pid: 98243","timestamp":"2015-04-07T16:47:23.945Z"}
-{"level":"notice","message":"server ID: 199.94.68.185","timestamp":"2015-04-07T16:47:23.946Z"}
-{"level":"info","message":"ensuring the existence of the chatRoom: defaultRoom","timestamp":"2015-04-07T16:47:23.946Z"}
-{"level":"info","message":"ensuring the existence of the chatRoom: anotherRoom","timestamp":"2015-04-07T16:47:23.947Z"}
-{"level":"notice","message":"starting server: web","timestamp":"2015-04-07T16:47:23.949Z"}
-{"level":"notice","message":"starting server: websocket","timestamp":"2015-04-07T16:47:23.949Z"}
-{"level":"notice","message":"environment: development","timestamp":"2015-04-07T16:47:24.484Z"}
-{"level":"notice","message":"*** Server Started @ 2015-04-07 12:47:24 ***","timestamp":"2015-04-07T16:47:24.484Z"}
-{"level":"info","message":"*** actionhero restarted ***","timestamp":"2015-04-07T16:47:24.484Z"}
-{"level":"info","message":"actionhero member 199.94.68.185 has joined the cluster","timestamp":"2015-04-07T16:47:24.485Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":64,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T16:48:45.493Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":75,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T17:02:54.091Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":65,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T17:25:22.872Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":45,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T17:26:42.116Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":14,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T17:27:36.296Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":74,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T17:29:58.311Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":46,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T17:31:19.997Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":52,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T17:38:57.192Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":56,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T17:41:05.271Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":46,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T17:44:50.763Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":57,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T17:51:15.234Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":79,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T17:54:35.080Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":24,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T17:55:15.279Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":80,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T18:05:43.743Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":44,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T18:06:37.309Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":114,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T18:09:02.867Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":149,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T18:10:39.945Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":79,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T18:20:34.175Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":291,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T18:30:25.071Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":103,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T18:50:11.683Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":90,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T18:57:02.411Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":116,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T19:11:25.386Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":102,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T19:12:23.229Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":615,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T19:12:55.386Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":43,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T19:14:33.857Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":239,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T20:01:07.473Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":218,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T20:37:54.894Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":65,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T20:39:45.808Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":74,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T20:40:13.086Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":140,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T20:41:14.445Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":71,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T20:42:03.343Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":71,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T20:42:57.254Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":69,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T20:43:42.266Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T20:44:07.219Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":84,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T20:44:33.378Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":2,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T20:44:43.467Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":73,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T20:46:50.823Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":111,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T20:53:45.639Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":22,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T20:54:28.313Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":5,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T20:55:06.828Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":185,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T21:09:31.262Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":125,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-07T21:20:27.523Z"}
-{"level":"notice","message":"*** starting actionhero ***","timestamp":"2015-04-08T13:47:12.806Z"}
-{"level":"warning","message":"running with fakeredis","timestamp":"2015-04-08T13:47:12.884Z"}
-{"level":"notice","message":"pid: 3266","timestamp":"2015-04-08T13:47:13.288Z"}
-{"level":"notice","message":"server ID: 199.94.68.185","timestamp":"2015-04-08T13:47:13.288Z"}
-{"level":"info","message":"ensuring the existence of the chatRoom: defaultRoom","timestamp":"2015-04-08T13:47:13.289Z"}
-{"level":"info","message":"ensuring the existence of the chatRoom: anotherRoom","timestamp":"2015-04-08T13:47:13.289Z"}
-{"level":"notice","message":"starting server: web","timestamp":"2015-04-08T13:47:13.292Z"}
-{"level":"notice","message":"starting server: websocket","timestamp":"2015-04-08T13:47:13.297Z"}
-{"level":"notice","message":"environment: development","timestamp":"2015-04-08T13:47:14.027Z"}
-{"level":"notice","message":"*** Server Started @ 2015-04-08 09:47:14 ***","timestamp":"2015-04-08T13:47:14.027Z"}
-{"level":"info","message":"actionhero member 199.94.68.185 has joined the cluster","timestamp":"2015-04-08T13:47:14.031Z"}
-{"level":"error","message":"! uncaught error from action: action:gameData","timestamp":"2015-04-08T13:47:19.330Z"}
-{"level":"error","message":"! connection details:","timestamp":"2015-04-08T13:47:19.330Z"}
-{"level":"error","message":"!     action: \"gameData\"","timestamp":"2015-04-08T13:47:19.330Z"}
-{"level":"error","message":"!     remoteIP: \"127.0.0.1\"","timestamp":"2015-04-08T13:47:19.330Z"}
-{"level":"error","message":"!     type: \"web\"","timestamp":"2015-04-08T13:47:19.330Z"}
-{"level":"error","message":"!     params: {\"action\":\"gameData\",\"apiVersion\":1}","timestamp":"2015-04-08T13:47:19.331Z"}
-{"level":"error","message":"! TypeError: Cannot read property 'push' of undefined","timestamp":"2015-04-08T13:47:19.332Z"}
-{"level":"error","message":"!     at /Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:95:56","timestamp":"2015-04-08T13:47:19.333Z"}
-{"level":"error","message":"!     at Function._.each._.forEach (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/underscore/underscore.js:153:9)","timestamp":"2015-04-08T13:47:19.333Z"}
-{"level":"error","message":"!     at loadFilesInPath (/Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:79:17)","timestamp":"2015-04-08T13:47:19.333Z"}
-{"level":"error","message":"!     at Object.exports.action.run (/Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:118:9)","timestamp":"2015-04-08T13:47:19.333Z"}
-{"level":"error","message":"!     at /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:301:31","timestamp":"2015-04-08T13:47:19.333Z"}
-{"level":"error","message":"!     at api.actionProcessor.preProcessAction (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:129:42)","timestamp":"2015-04-08T13:47:19.333Z"}
-{"level":"error","message":"!     at api.actionProcessor.runAction (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:291:12)","timestamp":"2015-04-08T13:47:19.333Z"}
-{"level":"error","message":"!     at Domain.<anonymous> (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:278:18)","timestamp":"2015-04-08T13:47:19.333Z"}
-{"level":"error","message":"!     at Domain.run (domain.js:197:16)","timestamp":"2015-04-08T13:47:19.333Z"}
-{"level":"error","message":"!     at api.actionProcessor.processAction (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:277:24)","timestamp":"2015-04-08T13:47:19.333Z"}
-{"level":"error","message":"*","timestamp":"2015-04-08T13:47:19.333Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":124,"error":"\"Error: The server experienced an internal error\"","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T13:47:19.334Z"}
-{"level":"alert","message":"Shutting down open servers and stopping task processing","timestamp":"2015-04-08T13:47:42.787Z"}
-{"level":"notice","message":"*** starting actionhero ***","timestamp":"2015-04-08T13:48:18.324Z"}
-{"level":"warning","message":"running with fakeredis","timestamp":"2015-04-08T13:48:18.343Z"}
-{"level":"notice","message":"pid: 3359","timestamp":"2015-04-08T13:48:18.535Z"}
-{"level":"notice","message":"server ID: 199.94.68.185","timestamp":"2015-04-08T13:48:18.535Z"}
-{"level":"info","message":"ensuring the existence of the chatRoom: defaultRoom","timestamp":"2015-04-08T13:48:18.535Z"}
-{"level":"info","message":"ensuring the existence of the chatRoom: anotherRoom","timestamp":"2015-04-08T13:48:18.535Z"}
-{"level":"notice","message":"starting server: web","timestamp":"2015-04-08T13:48:18.539Z"}
-{"level":"notice","message":"starting server: websocket","timestamp":"2015-04-08T13:48:18.545Z"}
-{"level":"notice","message":"environment: development","timestamp":"2015-04-08T13:48:19.539Z"}
-{"level":"notice","message":"*** Server Started @ 2015-04-08 09:48:19 ***","timestamp":"2015-04-08T13:48:19.539Z"}
-{"level":"info","message":"actionhero member 199.94.68.185 has joined the cluster","timestamp":"2015-04-08T13:48:19.542Z"}
-{"level":"error","message":"! uncaught error from action: action:gameData","timestamp":"2015-04-08T13:51:59.516Z"}
-{"level":"error","message":"! connection details:","timestamp":"2015-04-08T13:51:59.516Z"}
-{"level":"error","message":"!     action: \"gameData\"","timestamp":"2015-04-08T13:51:59.517Z"}
-{"level":"error","message":"!     remoteIP: \"127.0.0.1\"","timestamp":"2015-04-08T13:51:59.517Z"}
-{"level":"error","message":"!     type: \"web\"","timestamp":"2015-04-08T13:51:59.517Z"}
-{"level":"error","message":"!     params: {\"action\":\"gameData\",\"apiVersion\":1}","timestamp":"2015-04-08T13:51:59.517Z"}
-{"level":"error","message":"! TypeError: Cannot read property 'push' of undefined","timestamp":"2015-04-08T13:51:59.518Z"}
-{"level":"error","message":"!     at /Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:95:56","timestamp":"2015-04-08T13:51:59.519Z"}
-{"level":"error","message":"!     at Function._.each._.forEach (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/underscore/underscore.js:153:9)","timestamp":"2015-04-08T13:51:59.519Z"}
-{"level":"error","message":"!     at loadFilesInPath (/Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:79:17)","timestamp":"2015-04-08T13:51:59.519Z"}
-{"level":"error","message":"!     at Object.exports.action.run (/Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:118:9)","timestamp":"2015-04-08T13:51:59.519Z"}
-{"level":"error","message":"!     at /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:301:31","timestamp":"2015-04-08T13:51:59.519Z"}
-{"level":"error","message":"!     at api.actionProcessor.preProcessAction (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:129:42)","timestamp":"2015-04-08T13:51:59.519Z"}
-{"level":"error","message":"!     at api.actionProcessor.runAction (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:291:12)","timestamp":"2015-04-08T13:51:59.519Z"}
-{"level":"error","message":"!     at Domain.<anonymous> (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:278:18)","timestamp":"2015-04-08T13:51:59.519Z"}
-{"level":"error","message":"!     at Domain.run (domain.js:197:16)","timestamp":"2015-04-08T13:51:59.519Z"}
-{"level":"error","message":"!     at api.actionProcessor.processAction (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:277:24)","timestamp":"2015-04-08T13:51:59.519Z"}
-{"level":"error","message":"*","timestamp":"2015-04-08T13:51:59.520Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":102,"error":"\"Error: The server experienced an internal error\"","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T13:51:59.521Z"}
-{"level":"error","message":"! uncaught error from action: action:gameData","timestamp":"2015-04-08T13:53:57.297Z"}
-{"level":"error","message":"! connection details:","timestamp":"2015-04-08T13:53:57.298Z"}
-{"level":"error","message":"!     action: \"gameData\"","timestamp":"2015-04-08T13:53:57.298Z"}
-{"level":"error","message":"!     remoteIP: \"127.0.0.1\"","timestamp":"2015-04-08T13:53:57.298Z"}
-{"level":"error","message":"!     type: \"web\"","timestamp":"2015-04-08T13:53:57.298Z"}
-{"level":"error","message":"!     params: {\"action\":\"gameData\",\"apiVersion\":1}","timestamp":"2015-04-08T13:53:57.298Z"}
-{"level":"error","message":"! TypeError: Cannot read property 'push' of undefined","timestamp":"2015-04-08T13:53:57.299Z"}
-{"level":"error","message":"!     at /Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:95:56","timestamp":"2015-04-08T13:53:57.299Z"}
-{"level":"error","message":"!     at Function._.each._.forEach (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/underscore/underscore.js:153:9)","timestamp":"2015-04-08T13:53:57.299Z"}
-{"level":"error","message":"!     at loadFilesInPath (/Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:79:17)","timestamp":"2015-04-08T13:53:57.299Z"}
-{"level":"error","message":"!     at Object.exports.action.run (/Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:118:9)","timestamp":"2015-04-08T13:53:57.299Z"}
-{"level":"error","message":"!     at /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:301:31","timestamp":"2015-04-08T13:53:57.299Z"}
-{"level":"error","message":"!     at api.actionProcessor.preProcessAction (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:129:42)","timestamp":"2015-04-08T13:53:57.299Z"}
-{"level":"error","message":"!     at api.actionProcessor.runAction (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:291:12)","timestamp":"2015-04-08T13:53:57.300Z"}
-{"level":"error","message":"!     at Domain.<anonymous> (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:278:18)","timestamp":"2015-04-08T13:53:57.300Z"}
-{"level":"error","message":"!     at Domain.run (domain.js:197:16)","timestamp":"2015-04-08T13:53:57.300Z"}
-{"level":"error","message":"!     at api.actionProcessor.processAction (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:277:24)","timestamp":"2015-04-08T13:53:57.300Z"}
-{"level":"error","message":"*","timestamp":"2015-04-08T13:53:57.300Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":93836,"error":"\"Error: The server experienced an internal error\"","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T13:53:57.301Z"}
-{"level":"error","message":"! uncaught error from action: action:gameData","timestamp":"2015-04-08T13:54:18.818Z"}
-{"level":"error","message":"! connection details:","timestamp":"2015-04-08T13:54:18.818Z"}
-{"level":"error","message":"!     action: \"gameData\"","timestamp":"2015-04-08T13:54:18.818Z"}
-{"level":"error","message":"!     remoteIP: \"127.0.0.1\"","timestamp":"2015-04-08T13:54:18.818Z"}
-{"level":"error","message":"!     type: \"web\"","timestamp":"2015-04-08T13:54:18.820Z"}
-{"level":"error","message":"!     params: {\"action\":\"gameData\",\"apiVersion\":1}","timestamp":"2015-04-08T13:54:18.821Z"}
-{"level":"error","message":"! TypeError: Cannot read property 'push' of undefined","timestamp":"2015-04-08T13:54:18.821Z"}
-{"level":"error","message":"!     at /Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:95:56","timestamp":"2015-04-08T13:54:18.821Z"}
-{"level":"error","message":"!     at Function._.each._.forEach (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/underscore/underscore.js:153:9)","timestamp":"2015-04-08T13:54:18.821Z"}
-{"level":"error","message":"!     at loadFilesInPath (/Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:79:17)","timestamp":"2015-04-08T13:54:18.821Z"}
-{"level":"error","message":"!     at Object.exports.action.run (/Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:118:9)","timestamp":"2015-04-08T13:54:18.821Z"}
-{"level":"error","message":"!     at /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:301:31","timestamp":"2015-04-08T13:54:18.822Z"}
-{"level":"error","message":"!     at api.actionProcessor.preProcessAction (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:129:42)","timestamp":"2015-04-08T13:54:18.822Z"}
-{"level":"error","message":"!     at api.actionProcessor.runAction (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:291:12)","timestamp":"2015-04-08T13:54:18.822Z"}
-{"level":"error","message":"!     at Domain.<anonymous> (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:278:18)","timestamp":"2015-04-08T13:54:18.822Z"}
-{"level":"error","message":"!     at Domain.run (domain.js:197:16)","timestamp":"2015-04-08T13:54:18.822Z"}
-{"level":"error","message":"!     at api.actionProcessor.processAction (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:277:24)","timestamp":"2015-04-08T13:54:18.822Z"}
-{"level":"error","message":"*","timestamp":"2015-04-08T13:54:18.822Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":8,"error":"\"Error: The server experienced an internal error\"","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T13:54:18.823Z"}
-{"level":"error","message":"! uncaught error from action: action:gameData","timestamp":"2015-04-08T13:54:51.335Z"}
-{"level":"error","message":"! connection details:","timestamp":"2015-04-08T13:54:51.335Z"}
-{"level":"error","message":"!     action: \"gameData\"","timestamp":"2015-04-08T13:54:51.335Z"}
-{"level":"error","message":"!     remoteIP: \"127.0.0.1\"","timestamp":"2015-04-08T13:54:51.335Z"}
-{"level":"error","message":"!     type: \"web\"","timestamp":"2015-04-08T13:54:51.335Z"}
-{"level":"error","message":"!     params: {\"action\":\"gameData\",\"apiVersion\":1}","timestamp":"2015-04-08T13:54:51.336Z"}
-{"level":"error","message":"! TypeError: Cannot read property 'indexOf' of undefined","timestamp":"2015-04-08T13:54:51.338Z"}
-{"level":"error","message":"!     at /Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:86:67","timestamp":"2015-04-08T13:54:51.338Z"}
-{"level":"error","message":"!     at Function._.each._.forEach (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/underscore/underscore.js:153:9)","timestamp":"2015-04-08T13:54:51.338Z"}
-{"level":"error","message":"!     at loadFilesInPath (/Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:79:17)","timestamp":"2015-04-08T13:54:51.338Z"}
-{"level":"error","message":"!     at /Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:85:46","timestamp":"2015-04-08T13:54:51.338Z"}
-{"level":"error","message":"!     at Function._.each._.forEach (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/underscore/underscore.js:153:9)","timestamp":"2015-04-08T13:54:51.338Z"}
-{"level":"error","message":"!     at loadFilesInPath (/Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:79:17)","timestamp":"2015-04-08T13:54:51.339Z"}
-{"level":"error","message":"!     at Object.exports.action.run (/Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:118:9)","timestamp":"2015-04-08T13:54:51.339Z"}
-{"level":"error","message":"!     at /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:301:31","timestamp":"2015-04-08T13:54:51.339Z"}
-{"level":"error","message":"!     at api.actionProcessor.preProcessAction (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:129:42)","timestamp":"2015-04-08T13:54:51.339Z"}
-{"level":"error","message":"!     at api.actionProcessor.runAction (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:291:12)","timestamp":"2015-04-08T13:54:51.339Z"}
-{"level":"error","message":"*","timestamp":"2015-04-08T13:54:51.339Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":7,"error":"\"Error: The server experienced an internal error\"","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T13:54:51.339Z"}
-{"level":"error","message":"! uncaught error from action: action:gameData","timestamp":"2015-04-08T13:55:12.863Z"}
-{"level":"error","message":"! connection details:","timestamp":"2015-04-08T13:55:12.864Z"}
-{"level":"error","message":"!     action: \"gameData\"","timestamp":"2015-04-08T13:55:12.864Z"}
-{"level":"error","message":"!     remoteIP: \"127.0.0.1\"","timestamp":"2015-04-08T13:55:12.864Z"}
-{"level":"error","message":"!     type: \"web\"","timestamp":"2015-04-08T13:55:12.864Z"}
-{"level":"error","message":"!     params: {\"action\":\"gameData\",\"apiVersion\":1}","timestamp":"2015-04-08T13:55:12.864Z"}
-{"level":"error","message":"! TypeError: Cannot read property 'indexOf' of undefined","timestamp":"2015-04-08T13:55:12.867Z"}
-{"level":"error","message":"!     at /Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:86:67","timestamp":"2015-04-08T13:55:12.868Z"}
-{"level":"error","message":"!     at Function._.each._.forEach (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/underscore/underscore.js:153:9)","timestamp":"2015-04-08T13:55:12.868Z"}
-{"level":"error","message":"!     at loadFilesInPath (/Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:79:17)","timestamp":"2015-04-08T13:55:12.868Z"}
-{"level":"error","message":"!     at /Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:85:46","timestamp":"2015-04-08T13:55:12.868Z"}
-{"level":"error","message":"!     at Function._.each._.forEach (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/underscore/underscore.js:153:9)","timestamp":"2015-04-08T13:55:12.869Z"}
-{"level":"error","message":"!     at loadFilesInPath (/Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:79:17)","timestamp":"2015-04-08T13:55:12.869Z"}
-{"level":"error","message":"!     at Object.exports.action.run (/Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:118:9)","timestamp":"2015-04-08T13:55:12.869Z"}
-{"level":"error","message":"!     at /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:301:31","timestamp":"2015-04-08T13:55:12.869Z"}
-{"level":"error","message":"!     at api.actionProcessor.preProcessAction (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:129:42)","timestamp":"2015-04-08T13:55:12.869Z"}
-{"level":"error","message":"!     at api.actionProcessor.runAction (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:291:12)","timestamp":"2015-04-08T13:55:12.869Z"}
-{"level":"error","message":"*","timestamp":"2015-04-08T13:55:12.869Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":14,"error":"\"Error: The server experienced an internal error\"","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T13:55:12.870Z"}
-{"level":"error","message":"! uncaught error from action: action:gameData","timestamp":"2015-04-08T13:55:53.071Z"}
-{"level":"error","message":"! connection details:","timestamp":"2015-04-08T13:55:53.071Z"}
-{"level":"error","message":"!     action: \"gameData\"","timestamp":"2015-04-08T13:55:53.071Z"}
-{"level":"error","message":"!     remoteIP: \"127.0.0.1\"","timestamp":"2015-04-08T13:55:53.072Z"}
-{"level":"error","message":"!     type: \"web\"","timestamp":"2015-04-08T13:55:53.072Z"}
-{"level":"error","message":"!     params: {\"action\":\"gameData\",\"apiVersion\":1}","timestamp":"2015-04-08T13:55:53.072Z"}
-{"level":"error","message":"! TypeError: Cannot read property 'indexOf' of undefined","timestamp":"2015-04-08T13:55:53.072Z"}
-{"level":"error","message":"!     at /Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:86:67","timestamp":"2015-04-08T13:55:53.072Z"}
-{"level":"error","message":"!     at Function._.each._.forEach (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/underscore/underscore.js:153:9)","timestamp":"2015-04-08T13:55:53.073Z"}
-{"level":"error","message":"!     at loadFilesInPath (/Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:79:17)","timestamp":"2015-04-08T13:55:53.073Z"}
-{"level":"error","message":"!     at /Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:85:46","timestamp":"2015-04-08T13:55:53.073Z"}
-{"level":"error","message":"!     at Function._.each._.forEach (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/underscore/underscore.js:153:9)","timestamp":"2015-04-08T13:55:53.073Z"}
-{"level":"error","message":"!     at loadFilesInPath (/Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:79:17)","timestamp":"2015-04-08T13:55:53.073Z"}
-{"level":"error","message":"!     at Object.exports.action.run (/Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:118:9)","timestamp":"2015-04-08T13:55:53.073Z"}
-{"level":"error","message":"!     at /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:301:31","timestamp":"2015-04-08T13:55:53.073Z"}
-{"level":"error","message":"!     at api.actionProcessor.preProcessAction (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:129:42)","timestamp":"2015-04-08T13:55:53.073Z"}
-{"level":"error","message":"!     at api.actionProcessor.runAction (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:291:12)","timestamp":"2015-04-08T13:55:53.073Z"}
-{"level":"error","message":"*","timestamp":"2015-04-08T13:55:53.073Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":20314,"error":"\"Error: The server experienced an internal error\"","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T13:55:53.074Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":2,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T13:57:10.376Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":2,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T13:59:59.716Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":4,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:00:36.829Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":2,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:00:38.579Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":6,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:00:44.570Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:00:53.597Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":4,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:01:03.751Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":6,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:01:56.524Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":6,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:03:03.603Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":11,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:03:09.837Z"}
-{"level":"error","message":"! uncaught error from action: action:gameData","timestamp":"2015-04-08T14:08:38.627Z"}
-{"level":"error","message":"! connection details:","timestamp":"2015-04-08T14:08:38.628Z"}
-{"level":"error","message":"!     action: \"gameData\"","timestamp":"2015-04-08T14:08:38.628Z"}
-{"level":"error","message":"!     remoteIP: \"127.0.0.1\"","timestamp":"2015-04-08T14:08:38.628Z"}
-{"level":"error","message":"!     type: \"web\"","timestamp":"2015-04-08T14:08:38.630Z"}
-{"level":"error","message":"!     params: {\"action\":\"gameData\",\"apiVersion\":1}","timestamp":"2015-04-08T14:08:38.630Z"}
-{"level":"error","message":"! Error: ENOENT, no such file or directory '../content//undefined'","timestamp":"2015-04-08T14:08:38.631Z"}
-{"level":"error","message":"!     at Error (native)","timestamp":"2015-04-08T14:08:38.631Z"}
-{"level":"error","message":"!     at Object.fs.lstatSync (fs.js:796:18)","timestamp":"2015-04-08T14:08:38.632Z"}
-{"level":"error","message":"!     at loadFilesInPath (/Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:70:32)","timestamp":"2015-04-08T14:08:38.632Z"}
-{"level":"error","message":"!     at Object.exports.action.run (/Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:132:9)","timestamp":"2015-04-08T14:08:38.632Z"}
-{"level":"error","message":"!     at /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:301:31","timestamp":"2015-04-08T14:08:38.632Z"}
-{"level":"error","message":"!     at api.actionProcessor.preProcessAction (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:129:42)","timestamp":"2015-04-08T14:08:38.632Z"}
-{"level":"error","message":"!     at api.actionProcessor.runAction (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:291:12)","timestamp":"2015-04-08T14:08:38.633Z"}
-{"level":"error","message":"!     at Domain.<anonymous> (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:278:18)","timestamp":"2015-04-08T14:08:38.633Z"}
-{"level":"error","message":"!     at Domain.run (domain.js:197:16)","timestamp":"2015-04-08T14:08:38.633Z"}
-{"level":"error","message":"!     at api.actionProcessor.processAction (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:277:24)","timestamp":"2015-04-08T14:08:38.633Z"}
-{"level":"error","message":"*","timestamp":"2015-04-08T14:08:38.636Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":15,"error":"\"Error: The server experienced an internal error\"","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:08:38.636Z"}
-{"level":"error","message":"! uncaught error from action: action:gameData","timestamp":"2015-04-08T14:10:35.741Z"}
-{"level":"error","message":"! connection details:","timestamp":"2015-04-08T14:10:35.742Z"}
-{"level":"error","message":"!     action: \"gameData\"","timestamp":"2015-04-08T14:10:35.742Z"}
-{"level":"error","message":"!     remoteIP: \"127.0.0.1\"","timestamp":"2015-04-08T14:10:35.742Z"}
-{"level":"error","message":"!     type: \"web\"","timestamp":"2015-04-08T14:10:35.742Z"}
-{"level":"error","message":"!     params: {\"action\":\"gameData\",\"apiVersion\":1}","timestamp":"2015-04-08T14:10:35.742Z"}
-{"level":"error","message":"! TypeError: Cannot read property 'indexOf' of undefined","timestamp":"2015-04-08T14:10:35.743Z"}
-{"level":"error","message":"!     at loadFilesInPath (/Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:116:28)","timestamp":"2015-04-08T14:10:35.743Z"}
-{"level":"error","message":"!     at /Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:89:46","timestamp":"2015-04-08T14:10:35.743Z"}
-{"level":"error","message":"!     at Function._.each._.forEach (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/underscore/underscore.js:153:9)","timestamp":"2015-04-08T14:10:35.743Z"}
-{"level":"error","message":"!     at loadFilesInPath (/Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:83:17)","timestamp":"2015-04-08T14:10:35.743Z"}
-{"level":"error","message":"!     at Object.exports.action.run (/Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:132:9)","timestamp":"2015-04-08T14:10:35.743Z"}
-{"level":"error","message":"!     at /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:301:31","timestamp":"2015-04-08T14:10:35.744Z"}
-{"level":"error","message":"!     at api.actionProcessor.preProcessAction (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:129:42)","timestamp":"2015-04-08T14:10:35.744Z"}
-{"level":"error","message":"!     at api.actionProcessor.runAction (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:291:12)","timestamp":"2015-04-08T14:10:35.744Z"}
-{"level":"error","message":"!     at Domain.<anonymous> (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:278:18)","timestamp":"2015-04-08T14:10:35.744Z"}
-{"level":"error","message":"!     at Domain.run (domain.js:197:16)","timestamp":"2015-04-08T14:10:35.744Z"}
-{"level":"error","message":"*","timestamp":"2015-04-08T14:10:35.744Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":10,"error":"\"Error: The server experienced an internal error\"","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:10:35.744Z"}
-{"level":"error","message":"! uncaught error from action: action:gameData","timestamp":"2015-04-08T14:11:07.043Z"}
-{"level":"error","message":"! connection details:","timestamp":"2015-04-08T14:11:07.043Z"}
-{"level":"error","message":"!     action: \"gameData\"","timestamp":"2015-04-08T14:11:07.043Z"}
-{"level":"error","message":"!     remoteIP: \"127.0.0.1\"","timestamp":"2015-04-08T14:11:07.043Z"}
-{"level":"error","message":"!     type: \"web\"","timestamp":"2015-04-08T14:11:07.043Z"}
-{"level":"error","message":"!     params: {\"action\":\"gameData\",\"apiVersion\":1}","timestamp":"2015-04-08T14:11:07.044Z"}
-{"level":"error","message":"! Error: EISDIR, illegal operation on a directory","timestamp":"2015-04-08T14:11:07.044Z"}
-{"level":"error","message":"!     at Error (native)","timestamp":"2015-04-08T14:11:07.044Z"}
-{"level":"error","message":"!     at Object.fs.readSync (fs.js:554:19)","timestamp":"2015-04-08T14:11:07.044Z"}
-{"level":"error","message":"!     at Object.fs.readFileSync (fs.js:386:28)","timestamp":"2015-04-08T14:11:07.044Z"}
-{"level":"error","message":"!     at loadYML (/Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:46:38)","timestamp":"2015-04-08T14:11:07.044Z"}
-{"level":"error","message":"!     at loadFilesInPath (/Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:119:90)","timestamp":"2015-04-08T14:11:07.045Z"}
-{"level":"error","message":"!     at /Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:89:46","timestamp":"2015-04-08T14:11:07.045Z"}
-{"level":"error","message":"!     at Function._.each._.forEach (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/underscore/underscore.js:153:9)","timestamp":"2015-04-08T14:11:07.045Z"}
-{"level":"error","message":"!     at loadFilesInPath (/Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:83:17)","timestamp":"2015-04-08T14:11:07.045Z"}
-{"level":"error","message":"!     at Object.exports.action.run (/Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:132:9)","timestamp":"2015-04-08T14:11:07.045Z"}
-{"level":"error","message":"!     at /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:301:31","timestamp":"2015-04-08T14:11:07.045Z"}
-{"level":"error","message":"*","timestamp":"2015-04-08T14:11:07.046Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":11,"error":"\"Error: The server experienced an internal error\"","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:11:07.046Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":47,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:12:14.806Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":25,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:13:01.566Z"}
-{"level":"error","message":"! uncaught error from action: action:gameData","timestamp":"2015-04-08T14:20:50.755Z"}
-{"level":"error","message":"! connection details:","timestamp":"2015-04-08T14:20:50.755Z"}
-{"level":"error","message":"!     action: \"gameData\"","timestamp":"2015-04-08T14:20:50.755Z"}
-{"level":"error","message":"!     remoteIP: \"127.0.0.1\"","timestamp":"2015-04-08T14:20:50.756Z"}
-{"level":"error","message":"!     type: \"web\"","timestamp":"2015-04-08T14:20:50.756Z"}
-{"level":"error","message":"!     params: {\"action\":\"gameData\",\"apiVersion\":1}","timestamp":"2015-04-08T14:20:50.756Z"}
-{"level":"error","message":"! TypeError: Cannot read property 'push' of undefined","timestamp":"2015-04-08T14:20:50.756Z"}
-{"level":"error","message":"!     at loadFilesInPath (/Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:103:39)","timestamp":"2015-04-08T14:20:50.756Z"}
-{"level":"error","message":"!     at /Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:89:46","timestamp":"2015-04-08T14:20:50.756Z"}
-{"level":"error","message":"!     at Function._.each._.forEach (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/underscore/underscore.js:153:9)","timestamp":"2015-04-08T14:20:50.757Z"}
-{"level":"error","message":"!     at loadFilesInPath (/Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:83:17)","timestamp":"2015-04-08T14:20:50.757Z"}
-{"level":"error","message":"!     at /Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:89:46","timestamp":"2015-04-08T14:20:50.757Z"}
-{"level":"error","message":"!     at Function._.each._.forEach (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/underscore/underscore.js:153:9)","timestamp":"2015-04-08T14:20:50.757Z"}
-{"level":"error","message":"!     at loadFilesInPath (/Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:83:17)","timestamp":"2015-04-08T14:20:50.757Z"}
-{"level":"error","message":"!     at Object.exports.action.run (/Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:134:9)","timestamp":"2015-04-08T14:20:50.757Z"}
-{"level":"error","message":"!     at /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:301:31","timestamp":"2015-04-08T14:20:50.757Z"}
-{"level":"error","message":"!     at api.actionProcessor.preProcessAction (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:129:42)","timestamp":"2015-04-08T14:20:50.757Z"}
-{"level":"error","message":"*","timestamp":"2015-04-08T14:20:50.757Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":39,"error":"\"Error: The server experienced an internal error\"","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:20:50.758Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":49,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:22:08.594Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":50,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:25:12.209Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":29,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:29:48.509Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":36,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:33:28.556Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":44,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:34:16.247Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":22,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:34:40.047Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":18,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:35:32.720Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":63,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:35:37.916Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":89,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:36:18.289Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":30,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:37:09.122Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":32,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:38:23.724Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":30,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:39:09.582Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":31,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:40:22.932Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":30,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:40:52.832Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":21,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:42:11.156Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":22,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:42:52.487Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":47,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:50:35.804Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":36,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:50:57.538Z"}
-{"level":"error","message":"! uncaught error from action: action:gameData","timestamp":"2015-04-08T14:52:23.387Z"}
-{"level":"error","message":"! connection details:","timestamp":"2015-04-08T14:52:23.387Z"}
-{"level":"error","message":"!     action: \"gameData\"","timestamp":"2015-04-08T14:52:23.388Z"}
-{"level":"error","message":"!     remoteIP: \"127.0.0.1\"","timestamp":"2015-04-08T14:52:23.388Z"}
-{"level":"error","message":"!     type: \"web\"","timestamp":"2015-04-08T14:52:23.388Z"}
-{"level":"error","message":"!     params: {\"action\":\"gameData\",\"apiVersion\":1}","timestamp":"2015-04-08T14:52:23.388Z"}
-{"level":"error","message":"! TypeError: Cannot read property 'push' of undefined","timestamp":"2015-04-08T14:52:23.389Z"}
-{"level":"error","message":"!     at /Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:96:52","timestamp":"2015-04-08T14:52:23.389Z"}
-{"level":"error","message":"!     at Function._.each._.forEach (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/underscore/underscore.js:153:9)","timestamp":"2015-04-08T14:52:23.389Z"}
-{"level":"error","message":"!     at loadFilesInPath (/Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:83:17)","timestamp":"2015-04-08T14:52:23.390Z"}
-{"level":"error","message":"!     at /Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:103:46","timestamp":"2015-04-08T14:52:23.390Z"}
-{"level":"error","message":"!     at Function._.each._.forEach (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/underscore/underscore.js:153:9)","timestamp":"2015-04-08T14:52:23.390Z"}
-{"level":"error","message":"!     at loadFilesInPath (/Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:83:17)","timestamp":"2015-04-08T14:52:23.390Z"}
-{"level":"error","message":"!     at Object.exports.action.run (/Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:152:9)","timestamp":"2015-04-08T14:52:23.390Z"}
-{"level":"error","message":"!     at /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:301:31","timestamp":"2015-04-08T14:52:23.390Z"}
-{"level":"error","message":"!     at api.actionProcessor.preProcessAction (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:129:42)","timestamp":"2015-04-08T14:52:23.391Z"}
-{"level":"error","message":"!     at api.actionProcessor.runAction (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:291:12)","timestamp":"2015-04-08T14:52:23.391Z"}
-{"level":"error","message":"*","timestamp":"2015-04-08T14:52:23.391Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":14,"error":"\"Error: The server experienced an internal error\"","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:52:23.391Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":24,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:52:34.877Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":29,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:53:11.711Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":5,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:53:35.195Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":22,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:53:43.408Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":45,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:55:58.337Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":20,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:56:17.546Z"}
-{"level":"alert","message":"! Failed to load /Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js","timestamp":"2015-04-08T14:58:19.057Z"}
-{"level":"notice","message":"*** starting actionhero ***","timestamp":"2015-04-08T14:58:37.276Z"}
-{"level":"warning","message":"running with fakeredis","timestamp":"2015-04-08T14:58:37.331Z"}
-{"level":"notice","message":"pid: 9155","timestamp":"2015-04-08T14:58:37.742Z"}
-{"level":"notice","message":"server ID: 199.94.68.185","timestamp":"2015-04-08T14:58:37.742Z"}
-{"level":"info","message":"ensuring the existence of the chatRoom: defaultRoom","timestamp":"2015-04-08T14:58:37.743Z"}
-{"level":"info","message":"ensuring the existence of the chatRoom: anotherRoom","timestamp":"2015-04-08T14:58:37.743Z"}
-{"level":"notice","message":"starting server: web","timestamp":"2015-04-08T14:58:37.746Z"}
-{"level":"notice","message":"starting server: websocket","timestamp":"2015-04-08T14:58:37.752Z"}
-{"level":"notice","message":"environment: development","timestamp":"2015-04-08T14:58:38.835Z"}
-{"level":"notice","message":"*** Server Started @ 2015-04-08 10:58:38 ***","timestamp":"2015-04-08T14:58:38.836Z"}
-{"level":"info","message":"actionhero member 199.94.68.185 has joined the cluster","timestamp":"2015-04-08T14:58:38.839Z"}
-{"level":"error","message":"! uncaught error from action: action:gameData","timestamp":"2015-04-08T14:58:42.625Z"}
-{"level":"error","message":"! connection details:","timestamp":"2015-04-08T14:58:42.625Z"}
-{"level":"error","message":"!     action: \"gameData\"","timestamp":"2015-04-08T14:58:42.625Z"}
-{"level":"error","message":"!     remoteIP: \"127.0.0.1\"","timestamp":"2015-04-08T14:58:42.625Z"}
-{"level":"error","message":"!     type: \"web\"","timestamp":"2015-04-08T14:58:42.625Z"}
-{"level":"error","message":"!     params: {\"action\":\"gameData\",\"apiVersion\":1}","timestamp":"2015-04-08T14:58:42.625Z"}
-{"level":"error","message":"! TypeError: undefined is not a function","timestamp":"2015-04-08T14:58:42.627Z"}
-{"level":"error","message":"!     at /Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:94:53","timestamp":"2015-04-08T14:58:42.627Z"}
-{"level":"error","message":"!     at Function._.each._.forEach (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/underscore/underscore.js:153:9)","timestamp":"2015-04-08T14:58:42.627Z"}
-{"level":"error","message":"!     at loadFilesInPath (/Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:83:17)","timestamp":"2015-04-08T14:58:42.627Z"}
-{"level":"error","message":"!     at /Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:105:46","timestamp":"2015-04-08T14:58:42.628Z"}
-{"level":"error","message":"!     at Function._.each._.forEach (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/underscore/underscore.js:153:9)","timestamp":"2015-04-08T14:58:42.628Z"}
-{"level":"error","message":"!     at loadFilesInPath (/Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:83:17)","timestamp":"2015-04-08T14:58:42.628Z"}
-{"level":"error","message":"!     at Object.exports.action.run (/Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js:154:9)","timestamp":"2015-04-08T14:58:42.628Z"}
-{"level":"error","message":"!     at /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:301:31","timestamp":"2015-04-08T14:58:42.628Z"}
-{"level":"error","message":"!     at api.actionProcessor.preProcessAction (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:129:42)","timestamp":"2015-04-08T14:58:42.628Z"}
-{"level":"error","message":"!     at api.actionProcessor.runAction (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:291:12)","timestamp":"2015-04-08T14:58:42.628Z"}
-{"level":"error","message":"*","timestamp":"2015-04-08T14:58:42.628Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":91,"error":"\"Error: The server experienced an internal error\"","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:58:42.629Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":6,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:59:33.795Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:59:49.172Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T14:59:58.933Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":4,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T15:01:10.341Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":8,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T15:01:35.136Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":5,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T15:02:04.919Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":50,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T15:11:36.971Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":37,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T15:12:02.259Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":26,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T15:12:51.093Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":27,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T15:14:32.250Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":13,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T15:15:03.150Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":49,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T15:31:15.527Z"}
-{"level":"alert","message":"! Failed to load /Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js","timestamp":"2015-04-08T15:33:03.975Z"}
-{"level":"notice","message":"*** starting actionhero ***","timestamp":"2015-04-08T15:33:31.509Z"}
-{"level":"warning","message":"running with fakeredis","timestamp":"2015-04-08T15:33:31.593Z"}
-{"level":"notice","message":"pid: 11579","timestamp":"2015-04-08T15:33:32.074Z"}
-{"level":"notice","message":"server ID: 199.94.68.185","timestamp":"2015-04-08T15:33:32.075Z"}
-{"level":"info","message":"ensuring the existence of the chatRoom: defaultRoom","timestamp":"2015-04-08T15:33:32.075Z"}
-{"level":"info","message":"ensuring the existence of the chatRoom: anotherRoom","timestamp":"2015-04-08T15:33:32.075Z"}
-{"level":"notice","message":"starting server: web","timestamp":"2015-04-08T15:33:32.079Z"}
-{"level":"notice","message":"starting server: websocket","timestamp":"2015-04-08T15:33:32.084Z"}
-{"level":"notice","message":"environment: development","timestamp":"2015-04-08T15:33:33.236Z"}
-{"level":"notice","message":"*** Server Started @ 2015-04-08 11:33:33 ***","timestamp":"2015-04-08T15:33:33.237Z"}
-{"level":"info","message":"actionhero member 199.94.68.185 has joined the cluster","timestamp":"2015-04-08T15:33:33.239Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":196,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T15:33:35.282Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":19,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T15:34:16.586Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":11,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T15:35:03.108Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":11,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T15:36:13.664Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":8,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T15:36:53.211Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":7,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T15:38:01.466Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":6,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T15:38:35.363Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":6,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T15:39:54.338Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":6,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T15:40:28.826Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":5,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T15:41:10.397Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":5,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T15:42:12.486Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":7,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T15:42:36.824Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":7,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T15:43:08.818Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":76,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T15:54:11.219Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":7,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T16:05:02.204Z"}
-{"level":"notice","message":"*** starting actionhero ***","timestamp":"2015-04-08T16:25:06.089Z"}
-{"level":"warning","message":"running with fakeredis","timestamp":"2015-04-08T16:25:08.233Z"}
-{"level":"notice","message":"pid: 690","timestamp":"2015-04-08T16:25:19.804Z"}
-{"level":"notice","message":"server ID: 199.94.68.185","timestamp":"2015-04-08T16:25:19.805Z"}
-{"level":"info","message":"ensuring the existence of the chatRoom: defaultRoom","timestamp":"2015-04-08T16:25:19.805Z"}
-{"level":"info","message":"ensuring the existence of the chatRoom: anotherRoom","timestamp":"2015-04-08T16:25:19.805Z"}
-{"level":"notice","message":"starting server: web","timestamp":"2015-04-08T16:25:19.809Z"}
-{"level":"notice","message":"starting server: websocket","timestamp":"2015-04-08T16:25:19.815Z"}
-{"level":"notice","message":"environment: development","timestamp":"2015-04-08T16:25:23.962Z"}
-{"level":"notice","message":"*** Server Started @ 2015-04-08 12:25:23 ***","timestamp":"2015-04-08T16:25:23.963Z"}
-{"level":"info","message":"actionhero member 199.94.68.185 has joined the cluster","timestamp":"2015-04-08T16:25:23.967Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":429,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T16:33:00.341Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":11,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T16:35:58.754Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":7,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T16:36:38.113Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":7,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T16:37:14.832Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":7,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T16:40:59.864Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":18,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T16:50:02.120Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":12,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T16:53:17.037Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":16,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T16:56:14.443Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":17,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T17:10:01.734Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":6,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T17:10:40.456Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":17,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T17:21:32.986Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":7,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T17:22:00.460Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":20,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T17:22:38.990Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":7,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T17:24:20.528Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":7,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T17:28:02.595Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":14,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T17:43:02.839Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":7,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T17:44:04.908Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":7,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T17:46:13.220Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":6,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T17:46:34.334Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":69,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T18:22:06.458Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":7,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T18:23:41.253Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":6,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T19:19:39.499Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":7,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T19:19:57.680Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":10,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T19:36:16.118Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":5,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T19:37:40.995Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":5,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T19:39:03.926Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":21,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T19:39:53.887Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":77,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T19:42:19.522Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":5,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T19:45:00.722Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":48,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T19:54:12.295Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":32,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T20:12:36.298Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":5,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T20:14:42.935Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":5,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T20:15:48.949Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":5,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T20:16:06.556Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":40,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T20:22:49.522Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":5,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T20:23:30.331Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":34,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T20:24:09.645Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":57,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T20:31:25.616Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":6,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T20:33:25.486Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":7,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T20:40:08.872Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":5,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T20:41:26.681Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":5,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T20:43:18.142Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":6,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T20:43:36.678Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":56,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T20:46:29.548Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":16,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T20:47:08.782Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":5,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T20:53:37.841Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":51,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T20:59:35.868Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":5,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T21:00:00.192Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":6,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T21:01:05.245Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":5,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T21:01:38.515Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":5,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T21:02:00.664Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":6,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T21:05:39.828Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":5,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T21:06:10.722Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":6,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T21:07:25.186Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":51,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T21:13:56.206Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":5,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T21:14:30.017Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":16,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T21:17:19.042Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":53,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T21:24:36.260Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":5,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T21:26:02.234Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":6,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T21:27:09.096Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":19,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T21:27:46.745Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":5,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T21:28:23.157Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":31,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T21:29:48.422Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":5,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T21:33:38.256Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":6,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T21:37:08.620Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":5,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T21:39:39.949Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":6,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T21:42:06.390Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":20,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T21:43:05.962Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":5,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T21:44:04.970Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":5,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T21:44:22.856Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":79,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T21:48:08.154Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":174,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T21:58:29.373Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":7,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T21:58:49.921Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":66,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T22:11:16.958Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":6,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T22:11:45.979Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":7,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T22:12:15.112Z"}
-{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":7,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-08T22:13:24.585Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2015-04-09T15:41:38.330Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2015-04-09T15:41:38.349Z"}
+{"level":"debug","message":"action loaded: gameData @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js","timestamp":"2015-04-09T15:41:38.360Z"}
+{"level":"debug","message":"action loaded: login @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/login.js","timestamp":"2015-04-09T15:41:38.361Z"}
+{"level":"debug","message":"action loaded: showDocumentation @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/showDocumentation.js","timestamp":"2015-04-09T15:41:38.362Z"}
+{"level":"debug","message":"action loaded: status @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/status.js","timestamp":"2015-04-09T15:41:38.363Z"}
+{"get":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"post":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"put":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"patch":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"delete":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"level":"debug","message":"routes:","timestamp":"2015-04-09T15:41:38.366Z"}
+{"level":"debug","message":"initialized server: web","timestamp":"2015-04-09T15:41:38.487Z"}
+{"level":"debug","message":"initialized server: websocket","timestamp":"2015-04-09T15:41:38.487Z"}
+{"level":"debug","message":" > start: pids /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/pids.js","timestamp":"2015-04-09T15:41:38.490Z"}
+{"level":"notice","message":"pid: 44778","timestamp":"2015-04-09T15:41:38.491Z"}
+{"level":"debug","message":"   started: pids /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/pids.js","timestamp":"2015-04-09T15:41:38.491Z"}
+{"level":"debug","message":" > start: id /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/id.js","timestamp":"2015-04-09T15:41:38.491Z"}
+{"level":"notice","message":"server ID: 199.94.68.185","timestamp":"2015-04-09T15:41:38.491Z"}
+{"level":"debug","message":"   started: id /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/id.js","timestamp":"2015-04-09T15:41:38.491Z"}
+{"level":"debug","message":" > start: redis /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/redis.js","timestamp":"2015-04-09T15:41:38.491Z"}
+{"level":"debug","message":"   started: redis /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/redis.js","timestamp":"2015-04-09T15:41:38.491Z"}
+{"level":"debug","message":" > start: chatRoom /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/chatRoom.js","timestamp":"2015-04-09T15:41:38.491Z"}
+{"level":"info","message":"ensuring the existence of the chatRoom: defaultRoom","timestamp":"2015-04-09T15:41:38.492Z"}
+{"level":"info","message":"ensuring the existence of the chatRoom: anotherRoom","timestamp":"2015-04-09T15:41:38.492Z"}
+{"level":"debug","message":"   started: chatRoom /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/chatRoom.js","timestamp":"2015-04-09T15:41:38.492Z"}
+{"level":"debug","message":" > start: resque /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/resque.js","timestamp":"2015-04-09T15:41:38.492Z"}
+{"level":"debug","message":"   started: resque /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/resque.js","timestamp":"2015-04-09T15:41:38.495Z"}
+{"level":"debug","message":" > start: servers /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/servers.js","timestamp":"2015-04-09T15:41:38.495Z"}
+{"level":"notice","message":"starting server: web","timestamp":"2015-04-09T15:41:38.495Z"}
+{"level":"notice","message":"starting server: websocket","timestamp":"2015-04-09T15:41:38.500Z"}
+{"level":"debug","message":"webSockets bound to 0.0.0.0:3000","timestamp":"2015-04-09T15:41:38.539Z"}
+{"level":"debug","message":"wrote /Users/johnny/Documents/Projects/WorldBank-API/server/public/javascript/actionheroClient.js","timestamp":"2015-04-09T15:41:38.542Z"}
+{"level":"debug","message":"wrote /Users/johnny/Documents/Projects/WorldBank-API/server/public/javascript/actionheroClient.min.js","timestamp":"2015-04-09T15:41:39.127Z"}
+{"level":"debug","message":"   started: servers /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/servers.js","timestamp":"2015-04-09T15:41:39.128Z"}
+{"level":"debug","message":" > start: stats /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/stats.js","timestamp":"2015-04-09T15:41:39.128Z"}
+{"level":"debug","message":"   started: stats /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/stats.js","timestamp":"2015-04-09T15:41:39.128Z"}
+{"level":"debug","message":" > start: tasks /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/tasks.js","timestamp":"2015-04-09T15:41:39.128Z"}
+{"level":"debug","message":"   started: tasks /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/tasks.js","timestamp":"2015-04-09T15:41:39.128Z"}
+{"level":"debug","message":" > start: specHelper /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/specHelper.js","timestamp":"2015-04-09T15:41:39.128Z"}
+{"level":"debug","message":"   started: specHelper /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/specHelper.js","timestamp":"2015-04-09T15:41:39.128Z"}
+{"level":"debug","message":" > start: configLoader /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/configLoader.js","timestamp":"2015-04-09T15:41:39.128Z"}
+{"level":"notice","message":"environment: development","timestamp":"2015-04-09T15:41:39.129Z"}
+{"level":"debug","message":"   started: configLoader /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/configLoader.js","timestamp":"2015-04-09T15:41:39.129Z"}
+{"level":"debug","message":" > start: session /Users/johnny/Documents/Projects/WorldBank-API/server/initializers/session.js","timestamp":"2015-04-09T15:41:39.129Z"}
+{"level":"debug","message":"   started: session /Users/johnny/Documents/Projects/WorldBank-API/server/initializers/session.js","timestamp":"2015-04-09T15:41:39.129Z"}
+{"level":"notice","message":"*** Server Started @ 2015-04-09 11:41:39 ***","timestamp":"2015-04-09T15:41:39.129Z"}
+{"level":"info","message":"actionhero member 199.94.68.185 has joined the cluster","timestamp":"2015-04-09T15:41:39.132Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing","timestamp":"2015-04-09T15:58:32.822Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2015-04-09T15:59:02.038Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2015-04-09T15:59:02.058Z"}
+{"level":"debug","message":"action loaded: gameData @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js","timestamp":"2015-04-09T15:59:02.069Z"}
+{"level":"debug","message":"action loaded: login @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/login.js","timestamp":"2015-04-09T15:59:02.070Z"}
+{"level":"debug","message":"action loaded: showDocumentation @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/showDocumentation.js","timestamp":"2015-04-09T15:59:02.070Z"}
+{"level":"debug","message":"action loaded: status @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/status.js","timestamp":"2015-04-09T15:59:02.071Z"}
+{"get":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"post":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"put":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"patch":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"delete":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"level":"debug","message":"routes:","timestamp":"2015-04-09T15:59:02.074Z"}
+{"level":"debug","message":"initialized server: web","timestamp":"2015-04-09T15:59:02.193Z"}
+{"level":"debug","message":"initialized server: websocket","timestamp":"2015-04-09T15:59:02.194Z"}
+{"level":"debug","message":" > start: pids /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/pids.js","timestamp":"2015-04-09T15:59:02.196Z"}
+{"level":"notice","message":"pid: 46363","timestamp":"2015-04-09T15:59:02.197Z"}
+{"level":"debug","message":"   started: pids /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/pids.js","timestamp":"2015-04-09T15:59:02.197Z"}
+{"level":"debug","message":" > start: id /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/id.js","timestamp":"2015-04-09T15:59:02.198Z"}
+{"level":"notice","message":"server ID: 199.94.68.185","timestamp":"2015-04-09T15:59:02.198Z"}
+{"level":"debug","message":"   started: id /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/id.js","timestamp":"2015-04-09T15:59:02.198Z"}
+{"level":"debug","message":" > start: redis /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/redis.js","timestamp":"2015-04-09T15:59:02.198Z"}
+{"level":"debug","message":"   started: redis /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/redis.js","timestamp":"2015-04-09T15:59:02.198Z"}
+{"level":"debug","message":" > start: chatRoom /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/chatRoom.js","timestamp":"2015-04-09T15:59:02.198Z"}
+{"level":"info","message":"ensuring the existence of the chatRoom: defaultRoom","timestamp":"2015-04-09T15:59:02.198Z"}
+{"level":"info","message":"ensuring the existence of the chatRoom: anotherRoom","timestamp":"2015-04-09T15:59:02.199Z"}
+{"level":"debug","message":"   started: chatRoom /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/chatRoom.js","timestamp":"2015-04-09T15:59:02.199Z"}
+{"level":"debug","message":" > start: resque /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/resque.js","timestamp":"2015-04-09T15:59:02.199Z"}
+{"level":"debug","message":"   started: resque /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/resque.js","timestamp":"2015-04-09T15:59:02.202Z"}
+{"level":"debug","message":" > start: servers /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/servers.js","timestamp":"2015-04-09T15:59:02.202Z"}
+{"level":"notice","message":"starting server: web","timestamp":"2015-04-09T15:59:02.202Z"}
+{"level":"notice","message":"starting server: websocket","timestamp":"2015-04-09T15:59:02.207Z"}
+{"level":"debug","message":"webSockets bound to 0.0.0.0:3000","timestamp":"2015-04-09T15:59:02.246Z"}
+{"level":"debug","message":"wrote /Users/johnny/Documents/Projects/WorldBank-API/server/public/javascript/actionheroClient.js","timestamp":"2015-04-09T15:59:02.249Z"}
+{"level":"debug","message":"wrote /Users/johnny/Documents/Projects/WorldBank-API/server/public/javascript/actionheroClient.min.js","timestamp":"2015-04-09T15:59:02.827Z"}
+{"level":"debug","message":"   started: servers /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/servers.js","timestamp":"2015-04-09T15:59:02.828Z"}
+{"level":"debug","message":" > start: stats /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/stats.js","timestamp":"2015-04-09T15:59:02.828Z"}
+{"level":"debug","message":"   started: stats /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/stats.js","timestamp":"2015-04-09T15:59:02.829Z"}
+{"level":"debug","message":" > start: tasks /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/tasks.js","timestamp":"2015-04-09T15:59:02.829Z"}
+{"level":"debug","message":"   started: tasks /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/tasks.js","timestamp":"2015-04-09T15:59:02.829Z"}
+{"level":"debug","message":" > start: specHelper /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/specHelper.js","timestamp":"2015-04-09T15:59:02.829Z"}
+{"level":"debug","message":"   started: specHelper /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/specHelper.js","timestamp":"2015-04-09T15:59:02.829Z"}
+{"level":"debug","message":" > start: configLoader /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/configLoader.js","timestamp":"2015-04-09T15:59:02.829Z"}
+{"level":"notice","message":"environment: development","timestamp":"2015-04-09T15:59:02.829Z"}
+{"level":"debug","message":"   started: configLoader /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/configLoader.js","timestamp":"2015-04-09T15:59:02.829Z"}
+{"level":"debug","message":" > start: session /Users/johnny/Documents/Projects/WorldBank-API/server/initializers/session.js","timestamp":"2015-04-09T15:59:02.830Z"}
+{"level":"debug","message":"   started: session /Users/johnny/Documents/Projects/WorldBank-API/server/initializers/session.js","timestamp":"2015-04-09T15:59:02.830Z"}
+{"level":"notice","message":"*** Server Started @ 2015-04-09 11:59:02 ***","timestamp":"2015-04-09T15:59:02.830Z"}
+{"level":"info","message":"actionhero member 199.94.68.185 has joined the cluster","timestamp":"2015-04-09T15:59:02.833Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing","timestamp":"2015-04-09T15:59:02.860Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2015-04-09T15:59:19.596Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2015-04-09T15:59:19.624Z"}
+{"level":"debug","message":"action loaded: gameData @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js","timestamp":"2015-04-09T15:59:19.636Z"}
+{"level":"debug","message":"action loaded: login @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/login.js","timestamp":"2015-04-09T15:59:19.637Z"}
+{"level":"debug","message":"action loaded: showDocumentation @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/showDocumentation.js","timestamp":"2015-04-09T15:59:19.638Z"}
+{"level":"debug","message":"action loaded: status @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/status.js","timestamp":"2015-04-09T15:59:19.639Z"}
+{"get":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"post":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"put":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"patch":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"delete":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"level":"debug","message":"routes:","timestamp":"2015-04-09T15:59:19.642Z"}
+{"level":"debug","message":"initialized server: web","timestamp":"2015-04-09T15:59:19.771Z"}
+{"level":"debug","message":"initialized server: websocket","timestamp":"2015-04-09T15:59:19.772Z"}
+{"level":"debug","message":" > start: pids /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/pids.js","timestamp":"2015-04-09T15:59:19.775Z"}
+{"level":"notice","message":"pid: 46395","timestamp":"2015-04-09T15:59:19.775Z"}
+{"level":"debug","message":"   started: pids /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/pids.js","timestamp":"2015-04-09T15:59:19.776Z"}
+{"level":"debug","message":" > start: id /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/id.js","timestamp":"2015-04-09T15:59:19.776Z"}
+{"level":"notice","message":"server ID: 199.94.68.185","timestamp":"2015-04-09T15:59:19.776Z"}
+{"level":"debug","message":"   started: id /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/id.js","timestamp":"2015-04-09T15:59:19.776Z"}
+{"level":"debug","message":" > start: redis /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/redis.js","timestamp":"2015-04-09T15:59:19.776Z"}
+{"level":"debug","message":"   started: redis /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/redis.js","timestamp":"2015-04-09T15:59:19.776Z"}
+{"level":"debug","message":" > start: chatRoom /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/chatRoom.js","timestamp":"2015-04-09T15:59:19.776Z"}
+{"level":"info","message":"ensuring the existence of the chatRoom: defaultRoom","timestamp":"2015-04-09T15:59:19.777Z"}
+{"level":"info","message":"ensuring the existence of the chatRoom: anotherRoom","timestamp":"2015-04-09T15:59:19.777Z"}
+{"level":"debug","message":"   started: chatRoom /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/chatRoom.js","timestamp":"2015-04-09T15:59:19.777Z"}
+{"level":"debug","message":" > start: resque /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/resque.js","timestamp":"2015-04-09T15:59:19.777Z"}
+{"level":"debug","message":"   started: resque /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/resque.js","timestamp":"2015-04-09T15:59:19.780Z"}
+{"level":"debug","message":" > start: servers /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/servers.js","timestamp":"2015-04-09T15:59:19.780Z"}
+{"level":"notice","message":"starting server: web","timestamp":"2015-04-09T15:59:19.780Z"}
+{"level":"notice","message":"starting server: websocket","timestamp":"2015-04-09T15:59:19.787Z"}
+{"level":"debug","message":"webSockets bound to 0.0.0.0:3000","timestamp":"2015-04-09T15:59:19.828Z"}
+{"level":"debug","message":"wrote /Users/johnny/Documents/Projects/WorldBank-API/server/public/javascript/actionheroClient.js","timestamp":"2015-04-09T15:59:19.831Z"}
+{"level":"debug","message":"wrote /Users/johnny/Documents/Projects/WorldBank-API/server/public/javascript/actionheroClient.min.js","timestamp":"2015-04-09T15:59:20.440Z"}
+{"level":"debug","message":"   started: servers /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/servers.js","timestamp":"2015-04-09T15:59:20.441Z"}
+{"level":"debug","message":" > start: stats /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/stats.js","timestamp":"2015-04-09T15:59:20.441Z"}
+{"level":"debug","message":"   started: stats /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/stats.js","timestamp":"2015-04-09T15:59:20.442Z"}
+{"level":"debug","message":" > start: tasks /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/tasks.js","timestamp":"2015-04-09T15:59:20.442Z"}
+{"level":"debug","message":"   started: tasks /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/tasks.js","timestamp":"2015-04-09T15:59:20.442Z"}
+{"level":"debug","message":" > start: specHelper /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/specHelper.js","timestamp":"2015-04-09T15:59:20.442Z"}
+{"level":"debug","message":"   started: specHelper /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/specHelper.js","timestamp":"2015-04-09T15:59:20.442Z"}
+{"level":"debug","message":" > start: configLoader /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/configLoader.js","timestamp":"2015-04-09T15:59:20.442Z"}
+{"level":"notice","message":"environment: development","timestamp":"2015-04-09T15:59:20.442Z"}
+{"level":"debug","message":"   started: configLoader /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/configLoader.js","timestamp":"2015-04-09T15:59:20.442Z"}
+{"level":"debug","message":" > start: session /Users/johnny/Documents/Projects/WorldBank-API/server/initializers/session.js","timestamp":"2015-04-09T15:59:20.443Z"}
+{"level":"debug","message":"   started: session /Users/johnny/Documents/Projects/WorldBank-API/server/initializers/session.js","timestamp":"2015-04-09T15:59:20.443Z"}
+{"level":"notice","message":"*** Server Started @ 2015-04-09 11:59:20 ***","timestamp":"2015-04-09T15:59:20.443Z"}
+{"level":"info","message":"actionhero member 199.94.68.185 has joined the cluster","timestamp":"2015-04-09T15:59:20.446Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":82,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-09T17:27:25.780Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":7,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-09T17:29:12.130Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":6,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-09T17:30:07.334Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":4,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-09T17:30:31.220Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":4,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-09T17:30:55.298Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":61,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-09T17:37:23.766Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":4,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-09T17:37:23.794Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-09T17:39:03.683Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":4,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-09T17:39:03.697Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":4,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-09T17:39:21.048Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":4,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-09T17:39:21.075Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":210,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-09T17:52:04.014Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":4,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-09T17:52:34.372Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-09T17:52:34.397Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-09T17:52:50.856Z"}
+{"level":"debug","message":"action (re)loaded: gameData @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js","timestamp":"2015-04-09T17:54:55.035Z"}
+{"get":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"post":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"put":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"patch":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"delete":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"level":"debug","message":"routes:","timestamp":"2015-04-09T17:54:55.036Z"}
+{"level":"debug","message":"action (re)loaded: gameData @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js","timestamp":"2015-04-09T18:15:35.962Z"}
+{"get":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"post":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"put":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"patch":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"delete":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"level":"debug","message":"routes:","timestamp":"2015-04-09T18:15:35.962Z"}
+{"level":"debug","message":"action (re)loaded: gameData @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js","timestamp":"2015-04-09T18:16:34.163Z"}
+{"get":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"post":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"put":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"patch":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"delete":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"level":"debug","message":"routes:","timestamp":"2015-04-09T18:16:34.163Z"}
+{"level":"debug","message":"action (re)loaded: gameData @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js","timestamp":"2015-04-09T18:17:04.253Z"}
+{"get":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"post":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"put":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"patch":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"delete":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"level":"debug","message":"routes:","timestamp":"2015-04-09T18:17:04.253Z"}
+{"level":"debug","message":"action (re)loaded: gameData @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js","timestamp":"2015-04-09T18:19:45.748Z"}
+{"get":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"post":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"put":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"patch":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"delete":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"level":"debug","message":"routes:","timestamp":"2015-04-09T18:19:45.748Z"}
+{"level":"debug","message":"action (re)loaded: gameData @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js","timestamp":"2015-04-09T18:26:58.119Z"}
+{"get":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"post":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"put":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"patch":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"delete":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"level":"debug","message":"routes:","timestamp":"2015-04-09T18:26:58.119Z"}
+{"level":"debug","message":"action (re)loaded: gameData @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js","timestamp":"2015-04-09T18:35:01.680Z"}
+{"get":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"post":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"put":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"patch":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"delete":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"level":"debug","message":"routes:","timestamp":"2015-04-09T18:35:01.680Z"}
+{"level":"debug","message":"action (re)loaded: gameData @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js","timestamp":"2015-04-09T18:37:30.121Z"}
+{"get":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"post":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"put":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"patch":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"delete":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"level":"debug","message":"routes:","timestamp":"2015-04-09T18:37:30.121Z"}
+{"level":"debug","message":"action (re)loaded: gameData @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js","timestamp":"2015-04-09T18:37:48.174Z"}
+{"get":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"post":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"put":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"patch":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"delete":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"level":"debug","message":"routes:","timestamp":"2015-04-09T18:37:48.174Z"}
+{"level":"debug","message":"action (re)loaded: gameData @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js","timestamp":"2015-04-09T18:39:15.465Z"}
+{"get":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"post":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"put":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"patch":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"delete":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"level":"debug","message":"routes:","timestamp":"2015-04-09T18:39:15.465Z"}
+{"level":"debug","message":"action (re)loaded: gameData @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js","timestamp":"2015-04-09T18:39:50.579Z"}
+{"get":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"post":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"put":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"patch":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"delete":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"level":"debug","message":"routes:","timestamp":"2015-04-09T18:39:50.579Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/index.html","size":4581,"duration":7,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:46:43.924Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/assets/vendor/prettify/prettify-min.css","size":675,"duration":2,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:46:44.023Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/assets/css/main.css","size":18199,"duration":15,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:46:44.023Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/assets/css/logo.png","size":7143,"duration":16,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:46:44.024Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/assets/js/api-filter.js","size":1445,"duration":6,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:46:44.034Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/assets/js/api-list.js","size":6568,"duration":7,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:46:44.034Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/assets/js/api-search.js","size":2924,"duration":7,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:46:44.034Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/assets/vendor/prettify/prettify-min.js","size":17803,"duration":7,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:46:44.034Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/assets/js/yui-prettify.js","size":482,"duration":8,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:46:44.035Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/api.js","size":376,"duration":8,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:46:44.036Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/assets/js/apidocs.js","size":10297,"duration":3,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:46:44.037Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/assets/favicon.ico","size":5430,"duration":1,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:46:44.372Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/assets/img/spinner.gif","size":2685,"duration":0,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:46:46.280Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/classes/gameData.html","size":4439,"duration":1,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:46:46.287Z"}
+{"to":"127.0.0.1","file":"{404: not found}","size":null,"duration":null,"success":false,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:46:46.376Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/modules/api_.html","size":4478,"duration":0,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:46:51.168Z"}
+{"to":"127.0.0.1","file":"{404: not found}","size":null,"duration":null,"success":false,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:46:51.207Z"}
+{"level":"info","message":"\r\n\r\n*** rebooting due to config change (/Users/johnny/Documents/Projects/WorldBank-API/server/config/api.js) ***\r\n\r\n","timestamp":"2015-04-09T18:47:49.143Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing","timestamp":"2015-04-09T18:47:49.144Z"}
+{"level":"debug","message":" > stop: resque /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/resque.js","timestamp":"2015-04-09T18:47:49.144Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2015-04-09T18:47:49.210Z"}
+{"level":"debug","message":"   stoped: resque /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/resque.js","timestamp":"2015-04-09T18:47:49.145Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2015-04-09T18:47:49.211Z"}
+{"level":"debug","message":" > stop: servers /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/servers.js","timestamp":"2015-04-09T18:47:49.145Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2015-04-09T18:48:23.980Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2015-04-09T18:48:24.025Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2015-04-09T18:49:37.153Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2015-04-09T18:49:37.171Z"}
+{"level":"debug","message":"action loaded: gameData @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js","timestamp":"2015-04-09T18:49:37.183Z"}
+{"level":"debug","message":"action loaded: login @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/login.js","timestamp":"2015-04-09T18:49:37.184Z"}
+{"level":"debug","message":"action loaded: showDocumentation @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/showDocumentation.js","timestamp":"2015-04-09T18:49:37.185Z"}
+{"level":"debug","message":"action loaded: status @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/status.js","timestamp":"2015-04-09T18:49:37.186Z"}
+{"get":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"post":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"put":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"patch":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"delete":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"level":"debug","message":"routes:","timestamp":"2015-04-09T18:49:37.189Z"}
+{"level":"debug","message":"initialized server: web","timestamp":"2015-04-09T18:49:37.311Z"}
+{"level":"debug","message":"initialized server: websocket","timestamp":"2015-04-09T18:49:37.311Z"}
+{"level":"debug","message":" > start: pids /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/pids.js","timestamp":"2015-04-09T18:49:37.314Z"}
+{"level":"notice","message":"pid: 56346","timestamp":"2015-04-09T18:49:37.314Z"}
+{"level":"debug","message":"   started: pids /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/pids.js","timestamp":"2015-04-09T18:49:37.315Z"}
+{"level":"debug","message":" > start: id /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/id.js","timestamp":"2015-04-09T18:49:37.315Z"}
+{"level":"notice","message":"server ID: 199.94.68.185","timestamp":"2015-04-09T18:49:37.315Z"}
+{"level":"debug","message":"   started: id /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/id.js","timestamp":"2015-04-09T18:49:37.315Z"}
+{"level":"debug","message":" > start: redis /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/redis.js","timestamp":"2015-04-09T18:49:37.315Z"}
+{"level":"debug","message":"   started: redis /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/redis.js","timestamp":"2015-04-09T18:49:37.315Z"}
+{"level":"debug","message":" > start: chatRoom /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/chatRoom.js","timestamp":"2015-04-09T18:49:37.315Z"}
+{"level":"info","message":"ensuring the existence of the chatRoom: defaultRoom","timestamp":"2015-04-09T18:49:37.315Z"}
+{"level":"info","message":"ensuring the existence of the chatRoom: anotherRoom","timestamp":"2015-04-09T18:49:37.316Z"}
+{"level":"debug","message":"   started: chatRoom /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/chatRoom.js","timestamp":"2015-04-09T18:49:37.316Z"}
+{"level":"debug","message":" > start: resque /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/resque.js","timestamp":"2015-04-09T18:49:37.316Z"}
+{"level":"debug","message":"   started: resque /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/resque.js","timestamp":"2015-04-09T18:49:37.318Z"}
+{"level":"debug","message":" > start: servers /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/servers.js","timestamp":"2015-04-09T18:49:37.319Z"}
+{"level":"notice","message":"starting server: web","timestamp":"2015-04-09T18:49:37.319Z"}
+{"level":"notice","message":"starting server: websocket","timestamp":"2015-04-09T18:49:37.325Z"}
+{"level":"debug","message":"webSockets bound to 0.0.0.0:3000","timestamp":"2015-04-09T18:49:37.365Z"}
+{"level":"debug","message":"wrote /Users/johnny/Documents/Projects/WorldBank-API/server/public/javascript/actionheroClient.js","timestamp":"2015-04-09T18:49:37.367Z"}
+{"level":"debug","message":"wrote /Users/johnny/Documents/Projects/WorldBank-API/server/public/javascript/actionheroClient.min.js","timestamp":"2015-04-09T18:49:37.959Z"}
+{"level":"debug","message":"   started: servers /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/servers.js","timestamp":"2015-04-09T18:49:37.960Z"}
+{"level":"debug","message":" > start: stats /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/stats.js","timestamp":"2015-04-09T18:49:37.960Z"}
+{"level":"debug","message":"   started: stats /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/stats.js","timestamp":"2015-04-09T18:49:37.960Z"}
+{"level":"debug","message":" > start: tasks /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/tasks.js","timestamp":"2015-04-09T18:49:37.960Z"}
+{"level":"debug","message":"   started: tasks /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/tasks.js","timestamp":"2015-04-09T18:49:37.960Z"}
+{"level":"debug","message":" > start: specHelper /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/specHelper.js","timestamp":"2015-04-09T18:49:37.960Z"}
+{"level":"debug","message":"   started: specHelper /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/specHelper.js","timestamp":"2015-04-09T18:49:37.961Z"}
+{"level":"debug","message":" > start: configLoader /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/configLoader.js","timestamp":"2015-04-09T18:49:37.961Z"}
+{"level":"notice","message":"environment: development","timestamp":"2015-04-09T18:49:37.961Z"}
+{"level":"debug","message":"   started: configLoader /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/configLoader.js","timestamp":"2015-04-09T18:49:37.961Z"}
+{"level":"debug","message":" > start: session /Users/johnny/Documents/Projects/WorldBank-API/server/initializers/session.js","timestamp":"2015-04-09T18:49:37.961Z"}
+{"level":"debug","message":"   started: session /Users/johnny/Documents/Projects/WorldBank-API/server/initializers/session.js","timestamp":"2015-04-09T18:49:37.961Z"}
+{"level":"notice","message":"*** Server Started @ 2015-04-09 14:49:37 ***","timestamp":"2015-04-09T18:49:37.961Z"}
+{"level":"info","message":"actionhero member 199.94.68.185 has joined the cluster","timestamp":"2015-04-09T18:49:37.964Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/index.html","size":4581,"duration":35,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:49:38.940Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/assets/vendor/prettify/prettify-min.css","size":675,"duration":16,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:49:39.033Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/assets/css/main.css","size":18199,"duration":15,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:49:39.034Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/assets/vendor/prettify/prettify-min.js","size":17803,"duration":15,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:49:39.035Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/assets/js/yui-prettify.js","size":482,"duration":14,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:49:39.035Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/assets/css/logo.png","size":7143,"duration":28,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:49:39.049Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/assets/js/api-filter.js","size":1445,"duration":16,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:49:39.051Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/assets/js/api-list.js","size":6568,"duration":17,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:49:39.052Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/api.js","size":376,"duration":24,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:49:39.053Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/assets/js/api-search.js","size":2924,"duration":18,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:49:39.053Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/assets/js/apidocs.js","size":10297,"duration":17,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:49:39.053Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/index.html","size":4581,"duration":4,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:49:42.155Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/assets/css/logo.png","size":7143,"duration":2,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:49:42.198Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/assets/css/main.css","size":18199,"duration":7,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:49:42.210Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/assets/vendor/prettify/prettify-min.css","size":675,"duration":15,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:49:42.212Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/assets/js/yui-prettify.js","size":482,"duration":17,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:49:42.220Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/assets/vendor/prettify/prettify-min.js","size":17803,"duration":23,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:49:42.220Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/api.js","size":376,"duration":23,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:49:42.220Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/assets/js/api-filter.js","size":1445,"duration":4,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:49:42.241Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/assets/js/api-list.js","size":6568,"duration":5,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:49:42.242Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/assets/js/api-search.js","size":2924,"duration":3,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:49:42.243Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/assets/js/apidocs.js","size":10297,"duration":6,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:49:42.247Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/assets/favicon.ico","size":5430,"duration":17,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:49:42.624Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/assets/img/spinner.gif","size":2685,"duration":2,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:49:44.131Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/classes/gameData.html","size":4439,"duration":13,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:49:44.148Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/modules/api_.html","size":4478,"duration":12,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:49:47.404Z"}
+{"level":"debug","message":"action (re)loaded: gameData @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js","timestamp":"2015-04-09T18:50:03.265Z"}
+{"get":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"post":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"put":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"patch":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"delete":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"level":"debug","message":"routes:","timestamp":"2015-04-09T18:50:03.266Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/modules/api_.html","size":4384,"duration":4,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:50:20.419Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/assets/vendor/prettify/prettify-min.css","size":675,"duration":2,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:50:20.476Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/assets/css/main.css","size":18199,"duration":3,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:50:20.477Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/assets/css/logo.png","size":7143,"duration":3,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:50:20.477Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/assets/vendor/prettify/prettify-min.js","size":17803,"duration":2,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:50:20.477Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/assets/js/yui-prettify.js","size":482,"duration":2,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:50:20.477Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/api.js","size":259,"duration":2,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:50:20.477Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/assets/js/api-filter.js","size":1445,"duration":1,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:50:20.486Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/assets/js/api-list.js","size":6568,"duration":1,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:50:20.487Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/assets/js/api-search.js","size":2924,"duration":2,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:50:20.487Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/assets/js/apidocs.js","size":10297,"duration":2,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T18:50:20.487Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing","timestamp":"2015-04-09T18:59:23.010Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2015-04-09T19:03:24.983Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2015-04-09T19:03:25.003Z"}
+{"level":"debug","message":"action loaded: gameData @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js","timestamp":"2015-04-09T19:03:25.014Z"}
+{"level":"debug","message":"action loaded: login @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/login.js","timestamp":"2015-04-09T19:03:25.015Z"}
+{"level":"debug","message":"action loaded: showDocumentation @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/showDocumentation.js","timestamp":"2015-04-09T19:03:25.016Z"}
+{"level":"debug","message":"action loaded: status @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/status.js","timestamp":"2015-04-09T19:03:25.016Z"}
+{"get":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"post":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"put":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"patch":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"delete":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"}],"level":"debug","message":"routes:","timestamp":"2015-04-09T19:03:25.019Z"}
+{"level":"debug","message":"initialized server: web","timestamp":"2015-04-09T19:03:25.166Z"}
+{"level":"debug","message":"initialized server: websocket","timestamp":"2015-04-09T19:03:25.166Z"}
+{"level":"debug","message":" > start: pids /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/pids.js","timestamp":"2015-04-09T19:03:25.170Z"}
+{"level":"notice","message":"pid: 57318","timestamp":"2015-04-09T19:03:25.171Z"}
+{"level":"debug","message":"   started: pids /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/pids.js","timestamp":"2015-04-09T19:03:25.171Z"}
+{"level":"debug","message":" > start: id /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/id.js","timestamp":"2015-04-09T19:03:25.171Z"}
+{"level":"notice","message":"server ID: 199.94.68.185","timestamp":"2015-04-09T19:03:25.171Z"}
+{"level":"debug","message":"   started: id /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/id.js","timestamp":"2015-04-09T19:03:25.172Z"}
+{"level":"debug","message":" > start: redis /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/redis.js","timestamp":"2015-04-09T19:03:25.172Z"}
+{"level":"debug","message":"   started: redis /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/redis.js","timestamp":"2015-04-09T19:03:25.172Z"}
+{"level":"debug","message":" > start: chatRoom /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/chatRoom.js","timestamp":"2015-04-09T19:03:25.172Z"}
+{"level":"info","message":"ensuring the existence of the chatRoom: defaultRoom","timestamp":"2015-04-09T19:03:25.172Z"}
+{"level":"info","message":"ensuring the existence of the chatRoom: anotherRoom","timestamp":"2015-04-09T19:03:25.172Z"}
+{"level":"debug","message":"   started: chatRoom /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/chatRoom.js","timestamp":"2015-04-09T19:03:25.173Z"}
+{"level":"debug","message":" > start: resque /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/resque.js","timestamp":"2015-04-09T19:03:25.173Z"}
+{"level":"debug","message":"   started: resque /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/resque.js","timestamp":"2015-04-09T19:03:25.175Z"}
+{"level":"debug","message":" > start: servers /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/servers.js","timestamp":"2015-04-09T19:03:25.176Z"}
+{"level":"notice","message":"starting server: web","timestamp":"2015-04-09T19:03:25.176Z"}
+{"level":"notice","message":"starting server: websocket","timestamp":"2015-04-09T19:03:25.181Z"}
+{"level":"debug","message":"webSockets bound to 0.0.0.0:3000","timestamp":"2015-04-09T19:03:25.223Z"}
+{"level":"debug","message":"wrote /Users/johnny/Documents/Projects/WorldBank-API/server/public/javascript/actionheroClient.js","timestamp":"2015-04-09T19:03:25.226Z"}
+{"level":"debug","message":"wrote /Users/johnny/Documents/Projects/WorldBank-API/server/public/javascript/actionheroClient.min.js","timestamp":"2015-04-09T19:03:25.837Z"}
+{"level":"debug","message":"   started: servers /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/servers.js","timestamp":"2015-04-09T19:03:25.838Z"}
+{"level":"debug","message":" > start: stats /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/stats.js","timestamp":"2015-04-09T19:03:25.838Z"}
+{"level":"debug","message":"   started: stats /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/stats.js","timestamp":"2015-04-09T19:03:25.838Z"}
+{"level":"debug","message":" > start: tasks /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/tasks.js","timestamp":"2015-04-09T19:03:25.838Z"}
+{"level":"debug","message":"   started: tasks /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/tasks.js","timestamp":"2015-04-09T19:03:25.839Z"}
+{"level":"debug","message":" > start: specHelper /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/specHelper.js","timestamp":"2015-04-09T19:03:25.839Z"}
+{"level":"debug","message":"   started: specHelper /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/specHelper.js","timestamp":"2015-04-09T19:03:25.839Z"}
+{"level":"debug","message":" > start: configLoader /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/configLoader.js","timestamp":"2015-04-09T19:03:25.839Z"}
+{"level":"notice","message":"environment: development","timestamp":"2015-04-09T19:03:25.839Z"}
+{"level":"debug","message":"   started: configLoader /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/configLoader.js","timestamp":"2015-04-09T19:03:25.839Z"}
+{"level":"debug","message":" > start: session /Users/johnny/Documents/Projects/WorldBank-API/server/initializers/session.js","timestamp":"2015-04-09T19:03:25.839Z"}
+{"level":"debug","message":"   started: session /Users/johnny/Documents/Projects/WorldBank-API/server/initializers/session.js","timestamp":"2015-04-09T19:03:25.840Z"}
+{"level":"notice","message":"*** Server Started @ 2015-04-09 15:03:25 ***","timestamp":"2015-04-09T19:03:25.840Z"}
+{"level":"info","message":"actionhero member 199.94.68.185 has joined the cluster","timestamp":"2015-04-09T19:03:25.843Z"}
+{"to":"127.0.0.1","file":"{404: not found}","size":null,"duration":null,"success":false,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T19:04:38.452Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/docs/index.html","size":4581,"duration":4,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T19:04:42.571Z"}
+{"to":"127.0.0.1","file":"{404: not found}","size":null,"duration":null,"success":false,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T19:04:42.609Z"}
+{"to":"127.0.0.1","file":"{404: not found}","size":null,"duration":null,"success":false,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T19:04:42.643Z"}
+{"to":"127.0.0.1","file":"{404: not found}","size":null,"duration":null,"success":false,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T19:04:42.644Z"}
+{"to":"127.0.0.1","file":"{404: not found}","size":null,"duration":null,"success":false,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T19:04:42.644Z"}
+{"to":"127.0.0.1","file":"{404: not found}","size":null,"duration":null,"success":false,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T19:04:42.644Z"}
+{"to":"127.0.0.1","file":"{404: not found}","size":null,"duration":null,"success":false,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T19:04:42.645Z"}
+{"to":"127.0.0.1","file":"{404: not found}","size":null,"duration":null,"success":false,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T19:04:42.645Z"}
+{"to":"127.0.0.1","file":"{404: not found}","size":null,"duration":null,"success":false,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T19:04:42.647Z"}
+{"to":"127.0.0.1","file":"{404: not found}","size":null,"duration":null,"success":false,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T19:04:42.649Z"}
+{"to":"127.0.0.1","file":"{404: not found}","size":null,"duration":null,"success":false,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T19:04:42.649Z"}
+{"to":"127.0.0.1","file":"{404: not found}","size":null,"duration":null,"success":false,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T19:04:54.824Z"}
+{"to":"127.0.0.1","file":"{404: not found}","size":null,"duration":null,"success":false,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T19:04:54.831Z"}
+{"to":"127.0.0.1","file":"{404: not found}","size":null,"duration":null,"success":false,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T19:04:54.832Z"}
+{"to":"127.0.0.1","file":"{404: not found}","size":null,"duration":null,"success":false,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T19:04:54.836Z"}
+{"to":"127.0.0.1","file":"{404: not found}","size":null,"duration":null,"success":false,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T19:04:54.836Z"}
+{"to":"127.0.0.1","file":"{404: not found}","size":null,"duration":null,"success":false,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T19:04:54.837Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/docs/index.html","size":4581,"duration":1,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T19:04:57.942Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/docs/assets/vendor/prettify/prettify-min.css","size":675,"duration":2,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T19:04:57.985Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/docs/assets/css/main.css","size":18199,"duration":3,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T19:04:57.985Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/docs/assets/vendor/prettify/prettify-min.js","size":17803,"duration":3,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T19:04:57.986Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/docs/assets/css/logo.png","size":7143,"duration":5,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T19:04:57.987Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/docs/assets/js/yui-prettify.js","size":482,"duration":4,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T19:04:57.987Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/docs/api.js","size":259,"duration":4,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T19:04:57.987Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/docs/assets/js/api-filter.js","size":1445,"duration":4,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T19:04:57.993Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/docs/assets/js/api-list.js","size":6568,"duration":4,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T19:04:57.997Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/docs/assets/js/api-search.js","size":2924,"duration":5,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T19:04:57.998Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/docs/assets/js/apidocs.js","size":10297,"duration":6,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T19:04:57.999Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/docs/assets/favicon.ico","size":5430,"duration":0,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T19:04:58.235Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/docs/assets/img/spinner.gif","size":2685,"duration":0,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T19:05:00.586Z"}
+{"to":"127.0.0.1","file":"/Users/johnny/Documents/Projects/WorldBank-API/server/public/docs/classes/gameData.html","size":4345,"duration":0,"success":true,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T19:05:00.591Z"}
+{"to":"127.0.0.1","file":"{404: not found}","size":null,"duration":null,"success":false,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-09T19:05:00.629Z"}
