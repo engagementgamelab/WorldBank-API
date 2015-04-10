@@ -1,5 +1,5 @@
 /**
-* @module api/
+* @module api
 */
 exports.default = {
   general: function(api){

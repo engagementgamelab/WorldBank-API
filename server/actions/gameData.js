@@ -11,6 +11,7 @@ Created by Engagement Lab, 2015
 "use strict";
 
 /**
+* @module api
 * @class gameData
 * @return {Object} Raw JSON containing all current static game data.
 */

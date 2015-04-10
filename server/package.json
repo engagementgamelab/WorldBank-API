@@ -16,7 +16,8 @@
     "node-inspector": "x",
     "path": "latest",
     "grunt": "latest",
-    "node-dir": "latest"
+    "node-dir": "latest",
+    "mongoose": "latest"
   },
   "devDependencies": {
     "mocha": "latest",
