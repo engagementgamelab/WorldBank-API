@@ -85,18 +85,23 @@ exports.action = {
 
               // For all current sub-contents, check if each child is either a folder or file matching filter
               _.each(dirContents, function (subChild) {
+                  // Is this child a folder or matching file?
                   var isFolder = subChild.indexOf(".") === -1;
                   var isMatchingFile = subChild.indexOf("." + _fileOptions.filter) !== -1;
 
+                  // Determine if this file has sibling files with same filter type
+                  var siblingMatchTest = dirContents.join(',').match(new RegExp(_fileOptions.filter, "g"));
+                  var hasSiblingMatches = siblingMatchTest !== null && siblingMatchTest.length > 1;
+
                   if(isFolder)
                   {
-                      if(parent.indexOf(child) !== -1) {
+                      /*if(parent.indexOf(child) !== -1) {
                         if(connection.response[child] === undefined)
                           connection.response[child] = {}; 
                
                         connection.response[child][subChild] = loadFilesInPath(filePath, subChild, parent);
-                      }
-                      else if(parent.indexOf(subChild) !== -1) {
+                      } else */
+                      if(parent.indexOf(subChild) !== -1) {
                         connection.response[subChild] = loadFilesInPath(filePath, subChild, parent);
                       }
                   }
@@ -104,8 +109,17 @@ exports.action = {
                   // Push match to filtered contents by running method again
                   if (isFolder || isMatchingFile) 
                   {
-                    var keyName = isMatchingFile ? (subChild.substring(0, subChild.indexOf("."))) : subChild;         
-                    dirContentsFiltered[keyName] = loadFilesInPath(filePath, subChild, parent);
+                    var keyName = isMatchingFile ? (subChild.substring(0, subChild.indexOf("."))) : subChild;
+
+                    // If file has siblings, make this node an array, otherwise it remains an object
+                    if(hasSiblingMatches) {
+                      if(!(dirContentsFiltered instanceof Array)) 
+                        dirContentsFiltered = [];
+
+                      dirContentsFiltered.push(loadFilesInPath(filePath, subChild, parent));
+                    }
+                    else
+                     dirContentsFiltered[keyName] = loadFilesInPath(filePath, subChild, parent);
                   }
               });
 
