@@ -2012,3 +2012,654 @@
 {"get":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"},{"path":"/userCreate","action":"userCreate"}],"post":[{"path":"/user/create","action":"userCreate"},{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"},{"path":"/userCreate","action":"userCreate"}],"put":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"},{"path":"/userCreate","action":"userCreate"}],"patch":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"},{"path":"/userCreate","action":"userCreate"}],"delete":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"},{"path":"/userCreate","action":"userCreate"}],"level":"debug","message":"routes:","timestamp":"2015-04-16T13:32:02.846Z"}
 {"level":"debug","message":"action (re)loaded: gameData @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js","timestamp":"2015-04-16T13:32:54.011Z"}
 {"get":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"},{"path":"/userCreate","action":"userCreate"}],"post":[{"path":"/user/create","action":"userCreate"},{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"},{"path":"/userCreate","action":"userCreate"}],"put":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"},{"path":"/userCreate","action":"userCreate"}],"patch":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"},{"path":"/userCreate","action":"userCreate"}],"delete":[{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"},{"path":"/userCreate","action":"userCreate"}],"level":"debug","message":"routes:","timestamp":"2015-04-16T13:32:54.011Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":9,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T13:35:48.957Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":35,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T13:42:50.206Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T13:43:54.991Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":41,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T13:47:31.313Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":2,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T13:48:21.571Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":40,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T13:52:01.246Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":2,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T13:52:17.548Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":2,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T13:52:46.032Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T13:54:17.835Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T13:55:35.690Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T13:56:19.643Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":48,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T13:57:27.736Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":61,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:05:12.277Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":15,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:06:11.200Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":15,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:06:53.490Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":112,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:08:01.268Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":4,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:09:08.902Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":60,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:12:12.527Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":112,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:15:52.719Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":6,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:16:24.348Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":5,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:18:08.101Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":5,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:18:20.648Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":6,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:19:10.570Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":5,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:19:28.056Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":5,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:20:39.544Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":18,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:20:53.657Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":4,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:22:42.629Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":5,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:23:07.406Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":51,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:26:40.947Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":68,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:28:55.740Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":69,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:32:25.429Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":27,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:32:41.585Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":12,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:34:11.864Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":63,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:40:54.980Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":24,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:42:48.992Z"}
+{"level":"error","message":"! uncaught error from action: action:gameData","timestamp":"2015-04-16T14:46:12.177Z"}
+{"level":"error","message":"! connection details:","timestamp":"2015-04-16T14:46:12.178Z"}
+{"level":"error","message":"!     action: \"gameData\"","timestamp":"2015-04-16T14:46:12.178Z"}
+{"level":"error","message":"!     remoteIP: \"127.0.0.1\"","timestamp":"2015-04-16T14:46:12.178Z"}
+{"level":"error","message":"!     type: \"web\"","timestamp":"2015-04-16T14:46:12.178Z"}
+{"level":"error","message":"!     params: {\"action\":\"gameData\",\"apiVersion\":1}","timestamp":"2015-04-16T14:46:12.178Z"}
+{"level":"error","message":"! Error: <ParseException> Unexpected characters near \"] that have already been cancelled. Flustered, she mutters under her breath about being late for her [[arrival time]].\",","timestamp":"2015-04-16T14:46:12.180Z"}
+{"level":"error","message":"!   Mile: \"You ask her about Mile, and she tells you she has never been and that she is just passing through on her way to visit her friend. She has heard rumors that the tracks aren’t in the safest condition.\",","timestamp":"2015-04-16T14:46:12.181Z"}
+{"level":"error","message":"!   Arrival Time: \"You learn she is attempting to head to Zema, the southern city on the water, to visit her friend who is a doctor at the largest hospital there. They are very close, and since he has been frustrated with his job, she wants to help him have a little fun for a few days. Apparently he hasn’t been receiving supplies, or so he says. She raises her arms in an almost laughable manner and says \\\"this train is to blame\\\".\"","timestamp":"2015-04-16T14:46:12.181Z"}
+{"level":"error","message":"!   - unlocks: corruption_crackdown ]\". (line 12: '[ Initial: \"After a few attempts of getting her attention, she tells you how she has been waiting for hours on the next train out of the station and that there have been 2 trains heading to [[Mile]] that have already been cancelled. Flustered, she mutters under her breath about being late for her [[arrival time]].\",')","timestamp":"2015-04-16T14:46:12.181Z"}
+{"level":"error","message":"!     at Array.consoleReporter (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:53:17)","timestamp":"2015-04-16T14:46:12.181Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.report (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:67:43)","timestamp":"2015-04-16T14:46:12.182Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.action (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:90:29)","timestamp":"2015-04-16T14:46:12.182Z"}
+{"level":"error","message":"!     at Domain.<anonymous> (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:273:35)","timestamp":"2015-04-16T14:46:12.182Z"}
+{"level":"error","message":"!     at Domain.emit (events.js:107:17)","timestamp":"2015-04-16T14:46:12.182Z"}
+{"level":"error","message":"!     at Domain.errorHandler [as _errorHandler] (domain.js:102:19)","timestamp":"2015-04-16T14:46:12.182Z"}
+{"level":"error","message":"!     at process._fatalException (node.js:233:33)","timestamp":"2015-04-16T14:46:12.182Z"}
+{"level":"error","message":"!     at Server.emit (events.js:110:17)","timestamp":"2015-04-16T14:46:12.183Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:491:12)","timestamp":"2015-04-16T14:46:12.183Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnHeadersComplete (_http_common.js:111:23)","timestamp":"2015-04-16T14:46:12.183Z"}
+{"level":"error","message":"*","timestamp":"2015-04-16T14:46:12.183Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":122,"error":"\"Error: The server experienced an internal error\"","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:46:12.183Z"}
+{"level":"error","message":"! uncaught error from action: action:gameData","timestamp":"2015-04-16T14:47:09.902Z"}
+{"level":"error","message":"! connection details:","timestamp":"2015-04-16T14:47:09.902Z"}
+{"level":"error","message":"!     action: \"gameData\"","timestamp":"2015-04-16T14:47:09.902Z"}
+{"level":"error","message":"!     remoteIP: \"127.0.0.1\"","timestamp":"2015-04-16T14:47:09.902Z"}
+{"level":"error","message":"!     type: \"web\"","timestamp":"2015-04-16T14:47:09.902Z"}
+{"level":"error","message":"!     params: {\"action\":\"gameData\",\"apiVersion\":1}","timestamp":"2015-04-16T14:47:09.903Z"}
+{"level":"error","message":"! Error: <ParseException> You cannot define a sequence item when in a mapping","timestamp":"2015-04-16T14:47:09.903Z"}
+{"level":"error","message":"!     at Array.consoleReporter (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:53:17)","timestamp":"2015-04-16T14:47:09.903Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.report (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:67:43)","timestamp":"2015-04-16T14:47:09.903Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.action (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:90:29)","timestamp":"2015-04-16T14:47:09.903Z"}
+{"level":"error","message":"!     at Domain.<anonymous> (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:273:35)","timestamp":"2015-04-16T14:47:09.903Z"}
+{"level":"error","message":"!     at Domain.emit (events.js:107:17)","timestamp":"2015-04-16T14:47:09.904Z"}
+{"level":"error","message":"!     at Domain.errorHandler [as _errorHandler] (domain.js:102:19)","timestamp":"2015-04-16T14:47:09.904Z"}
+{"level":"error","message":"!     at process._fatalException (node.js:233:33)","timestamp":"2015-04-16T14:47:09.904Z"}
+{"level":"error","message":"!     at Server.emit (events.js:110:17)","timestamp":"2015-04-16T14:47:09.904Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:491:12)","timestamp":"2015-04-16T14:47:09.904Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnHeadersComplete (_http_common.js:111:23)","timestamp":"2015-04-16T14:47:09.904Z"}
+{"level":"error","message":"*","timestamp":"2015-04-16T14:47:09.904Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"\"Error: The server experienced an internal error\"","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:47:09.904Z"}
+{"level":"error","message":"! uncaught error from action: action:gameData","timestamp":"2015-04-16T14:47:31.721Z"}
+{"level":"error","message":"! connection details:","timestamp":"2015-04-16T14:47:31.721Z"}
+{"level":"error","message":"!     action: \"gameData\"","timestamp":"2015-04-16T14:47:31.721Z"}
+{"level":"error","message":"!     remoteIP: \"127.0.0.1\"","timestamp":"2015-04-16T14:47:31.721Z"}
+{"level":"error","message":"!     type: \"web\"","timestamp":"2015-04-16T14:47:31.721Z"}
+{"level":"error","message":"!     params: {\"action\":\"gameData\",\"apiVersion\":1}","timestamp":"2015-04-16T14:47:31.722Z"}
+{"level":"error","message":"! Error: <ParseException> Unexpected characters near \"] that have already been cancelled. Flustered, she mutters under her breath about being late for her [[arrival time]].\",","timestamp":"2015-04-16T14:47:31.722Z"}
+{"level":"error","message":"! Mile: \"You ask her about Mile, and she tells you she has never been and that she is just passing through on her way to visit her friend. She has heard rumors that the tracks aren’t in the safest condition.\",","timestamp":"2015-04-16T14:47:31.722Z"}
+{"level":"error","message":"! Arrival Time: \"You learn she is attempting to head to Zema, the southern city on the water, to visit her friend who is a doctor at the largest hospital there. They are very close, and since he has been frustrated with his job, she wants to help him have a little fun for a few days. Apparently he hasn’t been receiving supplies, or so he says. She raises her arms in an almost laughable manner and says \\\"this train is to blame\\\".\"","timestamp":"2015-04-16T14:47:31.722Z"}
+{"level":"error","message":"! - unlocks: corruption_crackdown]\". (line 12: '[Initial: \"After a few attempts of getting her attention, she tells you how she has been waiting for hours on the next train out of the station and that there have been 2 trains heading to [[Mile]] that have already been cancelled. Flustered, she mutters under her breath about being late for her [[arrival time]].\",')","timestamp":"2015-04-16T14:47:31.722Z"}
+{"level":"error","message":"!     at Array.consoleReporter (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:53:17)","timestamp":"2015-04-16T14:47:31.723Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.report (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:67:43)","timestamp":"2015-04-16T14:47:31.723Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.action (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:90:29)","timestamp":"2015-04-16T14:47:31.743Z"}
+{"level":"error","message":"!     at Domain.<anonymous> (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:273:35)","timestamp":"2015-04-16T14:47:31.743Z"}
+{"level":"error","message":"!     at Domain.emit (events.js:107:17)","timestamp":"2015-04-16T14:47:31.743Z"}
+{"level":"error","message":"!     at Domain.errorHandler [as _errorHandler] (domain.js:102:19)","timestamp":"2015-04-16T14:47:31.744Z"}
+{"level":"error","message":"!     at process._fatalException (node.js:233:33)","timestamp":"2015-04-16T14:47:31.744Z"}
+{"level":"error","message":"!     at Server.emit (events.js:110:17)","timestamp":"2015-04-16T14:47:31.744Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:491:12)","timestamp":"2015-04-16T14:47:31.744Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnHeadersComplete (_http_common.js:111:23)","timestamp":"2015-04-16T14:47:31.745Z"}
+{"level":"error","message":"*","timestamp":"2015-04-16T14:47:31.745Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":26,"error":"\"Error: The server experienced an internal error\"","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:47:31.745Z"}
+{"level":"error","message":"! uncaught error from action: action:gameData","timestamp":"2015-04-16T14:47:41.698Z"}
+{"level":"error","message":"! connection details:","timestamp":"2015-04-16T14:47:41.698Z"}
+{"level":"error","message":"!     action: \"gameData\"","timestamp":"2015-04-16T14:47:41.698Z"}
+{"level":"error","message":"!     remoteIP: \"127.0.0.1\"","timestamp":"2015-04-16T14:47:41.698Z"}
+{"level":"error","message":"!     type: \"web\"","timestamp":"2015-04-16T14:47:41.698Z"}
+{"level":"error","message":"!     params: {\"action\":\"gameData\",\"apiVersion\":1}","timestamp":"2015-04-16T14:47:41.699Z"}
+{"level":"error","message":"! Error: <ParseException> Unexpected characters near \"] that have already been cancelled. Flustered, she mutters under her breath about being late for her [[arrival time]].\",","timestamp":"2015-04-16T14:47:41.710Z"}
+{"level":"error","message":"! Mile: \"You ask her about Mile, and she tells you she has never been and that she is just passing through on her way to visit her friend. She has heard rumors that the tracks aren’t in the safest condition.\",","timestamp":"2015-04-16T14:47:41.710Z"}
+{"level":"error","message":"! Arrival Time: \"You learn she is attempting to head to Zema, the southern city on the water, to visit her friend who is a doctor at the largest hospital there. They are very close, and since he has been frustrated with his job, she wants to help him have a little fun for a few days. Apparently he hasn’t been receiving supplies, or so he says. She raises her arms in an almost laughable manner and says \\\"this train is to blame\\\".\"","timestamp":"2015-04-16T14:47:41.710Z"}
+{"level":"error","message":"! ]\". (line 12: '[Initial: \"After a few attempts of getting her attention, she tells you how she has been waiting for hours on the next train out of the station and that there have been 2 trains heading to [[Mile]] that have already been cancelled. Flustered, she mutters under her breath about being late for her [[arrival time]].\",')","timestamp":"2015-04-16T14:47:41.710Z"}
+{"level":"error","message":"!     at Array.consoleReporter (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:53:17)","timestamp":"2015-04-16T14:47:41.710Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.report (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:67:43)","timestamp":"2015-04-16T14:47:41.710Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.action (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:90:29)","timestamp":"2015-04-16T14:47:41.711Z"}
+{"level":"error","message":"!     at Domain.<anonymous> (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:273:35)","timestamp":"2015-04-16T14:47:41.711Z"}
+{"level":"error","message":"!     at Domain.emit (events.js:107:17)","timestamp":"2015-04-16T14:47:41.711Z"}
+{"level":"error","message":"!     at Domain.errorHandler [as _errorHandler] (domain.js:102:19)","timestamp":"2015-04-16T14:47:41.711Z"}
+{"level":"error","message":"!     at process._fatalException (node.js:233:33)","timestamp":"2015-04-16T14:47:41.711Z"}
+{"level":"error","message":"!     at Server.emit (events.js:110:17)","timestamp":"2015-04-16T14:47:41.711Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:491:12)","timestamp":"2015-04-16T14:47:41.711Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnHeadersComplete (_http_common.js:111:23)","timestamp":"2015-04-16T14:47:41.711Z"}
+{"level":"error","message":"*","timestamp":"2015-04-16T14:47:41.711Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":14,"error":"\"Error: The server experienced an internal error\"","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:47:41.712Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":9,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:48:25.418Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:48:52.464Z"}
+{"level":"error","message":"! uncaught error from action: action:gameData","timestamp":"2015-04-16T14:49:21.454Z"}
+{"level":"error","message":"! connection details:","timestamp":"2015-04-16T14:49:21.454Z"}
+{"level":"error","message":"!     action: \"gameData\"","timestamp":"2015-04-16T14:49:21.455Z"}
+{"level":"error","message":"!     remoteIP: \"127.0.0.1\"","timestamp":"2015-04-16T14:49:21.455Z"}
+{"level":"error","message":"!     type: \"web\"","timestamp":"2015-04-16T14:49:21.455Z"}
+{"level":"error","message":"!     params: {\"action\":\"gameData\",\"apiVersion\":1}","timestamp":"2015-04-16T14:49:21.455Z"}
+{"level":"error","message":"! Error: <ParseException> Unable to parse. (line 15: '  unlocks: corruption_crackdown')","timestamp":"2015-04-16T14:49:21.455Z"}
+{"level":"error","message":"!     at Array.consoleReporter (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:53:17)","timestamp":"2015-04-16T14:49:21.455Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.report (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:67:43)","timestamp":"2015-04-16T14:49:21.455Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.action (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:90:29)","timestamp":"2015-04-16T14:49:21.456Z"}
+{"level":"error","message":"!     at Domain.<anonymous> (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:273:35)","timestamp":"2015-04-16T14:49:21.456Z"}
+{"level":"error","message":"!     at Domain.emit (events.js:107:17)","timestamp":"2015-04-16T14:49:21.456Z"}
+{"level":"error","message":"!     at Domain.errorHandler [as _errorHandler] (domain.js:102:19)","timestamp":"2015-04-16T14:49:21.456Z"}
+{"level":"error","message":"!     at process._fatalException (node.js:233:33)","timestamp":"2015-04-16T14:49:21.456Z"}
+{"level":"error","message":"!     at Server.emit (events.js:110:17)","timestamp":"2015-04-16T14:49:21.456Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:491:12)","timestamp":"2015-04-16T14:49:21.456Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnHeadersComplete (_http_common.js:111:23)","timestamp":"2015-04-16T14:49:21.456Z"}
+{"level":"error","message":"*","timestamp":"2015-04-16T14:49:21.456Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":4,"error":"\"Error: The server experienced an internal error\"","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:49:21.457Z"}
+{"level":"error","message":"! uncaught error from action: action:gameData","timestamp":"2015-04-16T14:49:44.396Z"}
+{"level":"error","message":"! connection details:","timestamp":"2015-04-16T14:49:44.396Z"}
+{"level":"error","message":"!     action: \"gameData\"","timestamp":"2015-04-16T14:49:44.396Z"}
+{"level":"error","message":"!     remoteIP: \"127.0.0.1\"","timestamp":"2015-04-16T14:49:44.396Z"}
+{"level":"error","message":"!     type: \"web\"","timestamp":"2015-04-16T14:49:44.396Z"}
+{"level":"error","message":"!     params: {\"action\":\"gameData\",\"apiVersion\":1}","timestamp":"2015-04-16T14:49:44.397Z"}
+{"level":"error","message":"! Error: <ParseException> Unable to parse. (line 15: '    unlocks: corruption_crackdown')","timestamp":"2015-04-16T14:49:44.398Z"}
+{"level":"error","message":"!     at Array.consoleReporter (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:53:17)","timestamp":"2015-04-16T14:49:44.425Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.report (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:67:43)","timestamp":"2015-04-16T14:49:44.425Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.action (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:90:29)","timestamp":"2015-04-16T14:49:44.426Z"}
+{"level":"error","message":"!     at Domain.<anonymous> (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:273:35)","timestamp":"2015-04-16T14:49:44.426Z"}
+{"level":"error","message":"!     at Domain.emit (events.js:107:17)","timestamp":"2015-04-16T14:49:44.426Z"}
+{"level":"error","message":"!     at Domain.errorHandler [as _errorHandler] (domain.js:102:19)","timestamp":"2015-04-16T14:49:44.426Z"}
+{"level":"error","message":"!     at process._fatalException (node.js:233:33)","timestamp":"2015-04-16T14:49:44.426Z"}
+{"level":"error","message":"!     at Server.emit (events.js:110:17)","timestamp":"2015-04-16T14:49:44.426Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:491:12)","timestamp":"2015-04-16T14:49:44.426Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnHeadersComplete (_http_common.js:111:23)","timestamp":"2015-04-16T14:49:44.426Z"}
+{"level":"error","message":"*","timestamp":"2015-04-16T14:49:44.426Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":90,"error":"\"Error: The server experienced an internal error\"","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:49:44.427Z"}
+{"level":"error","message":"! uncaught error from action: action:gameData","timestamp":"2015-04-16T14:50:42.829Z"}
+{"level":"error","message":"! connection details:","timestamp":"2015-04-16T14:50:42.829Z"}
+{"level":"error","message":"!     action: \"gameData\"","timestamp":"2015-04-16T14:50:42.829Z"}
+{"level":"error","message":"!     remoteIP: \"127.0.0.1\"","timestamp":"2015-04-16T14:50:42.829Z"}
+{"level":"error","message":"!     type: \"web\"","timestamp":"2015-04-16T14:50:42.829Z"}
+{"level":"error","message":"!     params: {\"action\":\"gameData\",\"apiVersion\":1}","timestamp":"2015-04-16T14:50:42.829Z"}
+{"level":"error","message":"! Error: <ParseException> You cannot define a sequence item when in a mapping","timestamp":"2015-04-16T14:50:42.830Z"}
+{"level":"error","message":"!     at Array.consoleReporter (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:53:17)","timestamp":"2015-04-16T14:50:42.830Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.report (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:67:43)","timestamp":"2015-04-16T14:50:42.830Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.action (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:90:29)","timestamp":"2015-04-16T14:50:42.830Z"}
+{"level":"error","message":"!     at Domain.<anonymous> (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:273:35)","timestamp":"2015-04-16T14:50:42.830Z"}
+{"level":"error","message":"!     at Domain.emit (events.js:107:17)","timestamp":"2015-04-16T14:50:42.830Z"}
+{"level":"error","message":"!     at Domain.errorHandler [as _errorHandler] (domain.js:102:19)","timestamp":"2015-04-16T14:50:42.831Z"}
+{"level":"error","message":"!     at process._fatalException (node.js:233:33)","timestamp":"2015-04-16T14:50:42.831Z"}
+{"level":"error","message":"!     at Server.emit (events.js:110:17)","timestamp":"2015-04-16T14:50:42.831Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:491:12)","timestamp":"2015-04-16T14:50:42.831Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnHeadersComplete (_http_common.js:111:23)","timestamp":"2015-04-16T14:50:42.831Z"}
+{"level":"error","message":"*","timestamp":"2015-04-16T14:50:42.831Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"\"Error: The server experienced an internal error\"","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:50:42.831Z"}
+{"level":"error","message":"! uncaught error from action: action:gameData","timestamp":"2015-04-16T14:54:09.092Z"}
+{"level":"error","message":"! connection details:","timestamp":"2015-04-16T14:54:09.092Z"}
+{"level":"error","message":"!     action: \"gameData\"","timestamp":"2015-04-16T14:54:09.092Z"}
+{"level":"error","message":"!     remoteIP: \"127.0.0.1\"","timestamp":"2015-04-16T14:54:09.092Z"}
+{"level":"error","message":"!     type: \"web\"","timestamp":"2015-04-16T14:54:09.092Z"}
+{"level":"error","message":"!     params: {\"action\":\"gameData\",\"apiVersion\":1}","timestamp":"2015-04-16T14:54:09.092Z"}
+{"level":"error","message":"! Error: <ParseException> You cannot define a sequence item when in a mapping","timestamp":"2015-04-16T14:54:09.093Z"}
+{"level":"error","message":"!     at Array.consoleReporter (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:53:17)","timestamp":"2015-04-16T14:54:09.093Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.report (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:67:43)","timestamp":"2015-04-16T14:54:09.093Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.action (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:90:29)","timestamp":"2015-04-16T14:54:09.093Z"}
+{"level":"error","message":"!     at Domain.<anonymous> (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:273:35)","timestamp":"2015-04-16T14:54:09.094Z"}
+{"level":"error","message":"!     at Domain.emit (events.js:107:17)","timestamp":"2015-04-16T14:54:09.094Z"}
+{"level":"error","message":"!     at Domain.errorHandler [as _errorHandler] (domain.js:102:19)","timestamp":"2015-04-16T14:54:09.094Z"}
+{"level":"error","message":"!     at process._fatalException (node.js:233:33)","timestamp":"2015-04-16T14:54:09.094Z"}
+{"level":"error","message":"!     at Server.emit (events.js:110:17)","timestamp":"2015-04-16T14:54:09.094Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:491:12)","timestamp":"2015-04-16T14:54:09.094Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnHeadersComplete (_http_common.js:111:23)","timestamp":"2015-04-16T14:54:09.094Z"}
+{"level":"error","message":"*","timestamp":"2015-04-16T14:54:09.094Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":25,"error":"\"Error: The server experienced an internal error\"","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:54:09.095Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":27,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:54:26.533Z"}
+{"level":"error","message":"! uncaught error from action: action:gameData","timestamp":"2015-04-16T14:55:23.434Z"}
+{"level":"error","message":"! connection details:","timestamp":"2015-04-16T14:55:23.434Z"}
+{"level":"error","message":"!     action: \"gameData\"","timestamp":"2015-04-16T14:55:23.434Z"}
+{"level":"error","message":"!     remoteIP: \"127.0.0.1\"","timestamp":"2015-04-16T14:55:23.434Z"}
+{"level":"error","message":"!     type: \"web\"","timestamp":"2015-04-16T14:55:23.434Z"}
+{"level":"error","message":"!     params: {\"action\":\"gameData\",\"apiVersion\":1}","timestamp":"2015-04-16T14:55:23.434Z"}
+{"level":"error","message":"! Error: <ParseException> Malformed inline YAML string ({","timestamp":"2015-04-16T14:55:23.448Z"}
+{"level":"error","message":"! Initial: \"After a few attempts of getting her attention, she tells you how she has been waiting for hours on the next train out of the station and that there have been 2 trains heading to [[Mile]] that have already been cancelled. Flustered, she mutters under her breath about being late for her [[arrival time]].\",","timestamp":"2015-04-16T14:55:23.448Z"}
+{"level":"error","message":"! Mile: \"You ask her about Mile, and she tells you she has never been and that she is just passing through on her way to visit her friend. She has heard rumors that the tracks aren’t in the safest condition.\",","timestamp":"2015-04-16T14:55:23.448Z"}
+{"level":"error","message":"! Arrival Time: \"You learn she is attempting to head to Zema, the southern city on the water, to visit her friend who is a doctor at the largest hospital there. They are very close, and since he has been frustrated with his job, she wants to help him have a little fun for a few days. Apparently he hasn’t been receiving supplies, or so he says. She raises her arms in an almost laughable manner and says \\\"this train is to blame\\\".\"","timestamp":"2015-04-16T14:55:23.448Z"}
+{"level":"error","message":"! }","timestamp":"2015-04-16T14:55:23.448Z"}
+{"level":"error","message":"!   # unlocks: corruption_crackdown). (line 16: '      # unlocks: corruption_crackdown')","timestamp":"2015-04-16T14:55:23.448Z"}
+{"level":"error","message":"!     at Array.consoleReporter (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:53:17)","timestamp":"2015-04-16T14:55:23.449Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.report (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:67:43)","timestamp":"2015-04-16T14:55:23.449Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.action (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:90:29)","timestamp":"2015-04-16T14:55:23.449Z"}
+{"level":"error","message":"!     at Domain.<anonymous> (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:273:35)","timestamp":"2015-04-16T14:55:23.449Z"}
+{"level":"error","message":"!     at Domain.emit (events.js:107:17)","timestamp":"2015-04-16T14:55:23.449Z"}
+{"level":"error","message":"!     at Domain.errorHandler [as _errorHandler] (domain.js:102:19)","timestamp":"2015-04-16T14:55:23.449Z"}
+{"level":"error","message":"!     at process._fatalException (node.js:233:33)","timestamp":"2015-04-16T14:55:23.449Z"}
+{"level":"error","message":"!     at Server.emit (events.js:110:17)","timestamp":"2015-04-16T14:55:23.449Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:491:12)","timestamp":"2015-04-16T14:55:23.449Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnHeadersComplete (_http_common.js:111:23)","timestamp":"2015-04-16T14:55:23.449Z"}
+{"level":"error","message":"*","timestamp":"2015-04-16T14:55:23.449Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":17,"error":"\"Error: The server experienced an internal error\"","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:55:23.450Z"}
+{"level":"error","message":"! uncaught error from action: action:gameData","timestamp":"2015-04-16T14:56:16.273Z"}
+{"level":"error","message":"! connection details:","timestamp":"2015-04-16T14:56:16.273Z"}
+{"level":"error","message":"!     action: \"gameData\"","timestamp":"2015-04-16T14:56:16.273Z"}
+{"level":"error","message":"!     remoteIP: \"127.0.0.1\"","timestamp":"2015-04-16T14:56:16.273Z"}
+{"level":"error","message":"!     type: \"web\"","timestamp":"2015-04-16T14:56:16.274Z"}
+{"level":"error","message":"!     params: {\"action\":\"gameData\",\"apiVersion\":1}","timestamp":"2015-04-16T14:56:16.274Z"}
+{"level":"error","message":"! Error: <ParseException> Malformed inline YAML string ({","timestamp":"2015-04-16T14:56:16.275Z"}
+{"level":"error","message":"! Initial: \"After a few attempts of getting her attention, she tells you how she has been waiting for hours on the next train out of the station and that there have been 2 trains heading to [[Mile]] that have already been cancelled. Flustered, she mutters under her breath about being late for her [[arrival time]].\",","timestamp":"2015-04-16T14:56:16.275Z"}
+{"level":"error","message":"! Mile: \"You ask her about Mile, and she tells you she has never been and that she is just passing through on her way to visit her friend. She has heard rumors that the tracks aren’t in the safest condition.\",","timestamp":"2015-04-16T14:56:16.275Z"}
+{"level":"error","message":"! Arrival Time: \"You learn she is attempting to head to Zema, the southern city on the water, to visit her friend who is a doctor at the largest hospital there. They are very close, and since he has been frustrated with his job, she wants to help him have a little fun for a few days. Apparently he hasn’t been receiving supplies, or so he says. She raises her arms in an almost laughable manner and says \\\"this train is to blame\\\".\"). (line 14: '    Arrival Time: \"You learn she is attempting to head to Zema, the southern city on the water, to visit her friend who is a doctor at the largest hospital there. They are very close, and since he has been frustrated with his job, she wants to help him have a little fun for a few days. Apparently he hasn’t been receiving supplies, or so he says. She raises her arms in an almost laughable manner and says \\\"this train is to blame\\\".\"')","timestamp":"2015-04-16T14:56:16.275Z"}
+{"level":"error","message":"!     at Array.consoleReporter (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:53:17)","timestamp":"2015-04-16T14:56:16.275Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.report (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:67:43)","timestamp":"2015-04-16T14:56:16.276Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.action (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:90:29)","timestamp":"2015-04-16T14:56:16.276Z"}
+{"level":"error","message":"!     at Domain.<anonymous> (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:273:35)","timestamp":"2015-04-16T14:56:16.276Z"}
+{"level":"error","message":"!     at Domain.emit (events.js:107:17)","timestamp":"2015-04-16T14:56:16.276Z"}
+{"level":"error","message":"!     at Domain.errorHandler [as _errorHandler] (domain.js:102:19)","timestamp":"2015-04-16T14:56:16.276Z"}
+{"level":"error","message":"!     at process._fatalException (node.js:233:33)","timestamp":"2015-04-16T14:56:16.276Z"}
+{"level":"error","message":"!     at Server.emit (events.js:110:17)","timestamp":"2015-04-16T14:56:16.276Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:491:12)","timestamp":"2015-04-16T14:56:16.276Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnHeadersComplete (_http_common.js:111:23)","timestamp":"2015-04-16T14:56:16.276Z"}
+{"level":"error","message":"*","timestamp":"2015-04-16T14:56:16.276Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":4,"error":"\"Error: The server experienced an internal error\"","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:56:16.277Z"}
+{"level":"error","message":"! uncaught error from action: action:gameData","timestamp":"2015-04-16T14:56:59.798Z"}
+{"level":"error","message":"! connection details:","timestamp":"2015-04-16T14:56:59.798Z"}
+{"level":"error","message":"!     action: \"gameData\"","timestamp":"2015-04-16T14:56:59.798Z"}
+{"level":"error","message":"!     remoteIP: \"127.0.0.1\"","timestamp":"2015-04-16T14:56:59.798Z"}
+{"level":"error","message":"!     type: \"web\"","timestamp":"2015-04-16T14:56:59.798Z"}
+{"level":"error","message":"!     params: {\"action\":\"gameData\",\"apiVersion\":1}","timestamp":"2015-04-16T14:56:59.798Z"}
+{"level":"error","message":"! Error: <ParseException> Malformed inline YAML string ({","timestamp":"2015-04-16T14:56:59.799Z"}
+{"level":"error","message":"! Initial: \"After a few attempts of getting her attention, she tells you how she has been waiting for hours on the next train out of the station and that there have been 2 trains heading to [[Mile]] that have already been cancelled. Flustered, she mutters under her breath about being late for her [[arrival time]].\",","timestamp":"2015-04-16T14:56:59.799Z"}
+{"level":"error","message":"! Mile: \"You ask her about Mile, and she tells you she has never been and that she is just passing through on her way to visit her friend. She has heard rumors that the tracks aren’t in the safest condition.\",","timestamp":"2015-04-16T14:56:59.799Z"}
+{"level":"error","message":"! Arrival Time: \"You learn she is attempting to head to Zema, the southern city on the water, to visit her friend who is a doctor at the largest hospital there. They are very close, and since he has been frustrated with his job, she wants to help him have a little fun for a few days. Apparently he hasn’t been receiving supplies, or so he says. She raises her arms in an almost laughable manner and says \\\"this train is to blame\\\".\"). (line 14: '  Arrival Time: \"You learn she is attempting to head to Zema, the southern city on the water, to visit her friend who is a doctor at the largest hospital there. They are very close, and since he has been frustrated with his job, she wants to help him have a little fun for a few days. Apparently he hasn’t been receiving supplies, or so he says. She raises her arms in an almost laughable manner and says \\\"this train is to blame\\\".\"')","timestamp":"2015-04-16T14:56:59.799Z"}
+{"level":"error","message":"!     at Array.consoleReporter (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:53:17)","timestamp":"2015-04-16T14:56:59.799Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.report (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:67:43)","timestamp":"2015-04-16T14:56:59.799Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.action (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:90:29)","timestamp":"2015-04-16T14:56:59.799Z"}
+{"level":"error","message":"!     at Domain.<anonymous> (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:273:35)","timestamp":"2015-04-16T14:56:59.800Z"}
+{"level":"error","message":"!     at Domain.emit (events.js:107:17)","timestamp":"2015-04-16T14:56:59.800Z"}
+{"level":"error","message":"!     at Domain.errorHandler [as _errorHandler] (domain.js:102:19)","timestamp":"2015-04-16T14:56:59.800Z"}
+{"level":"error","message":"!     at process._fatalException (node.js:233:33)","timestamp":"2015-04-16T14:56:59.800Z"}
+{"level":"error","message":"!     at Server.emit (events.js:110:17)","timestamp":"2015-04-16T14:56:59.800Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:491:12)","timestamp":"2015-04-16T14:56:59.800Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnHeadersComplete (_http_common.js:111:23)","timestamp":"2015-04-16T14:56:59.800Z"}
+{"level":"error","message":"*","timestamp":"2015-04-16T14:56:59.800Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"\"Error: The server experienced an internal error\"","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:56:59.801Z"}
+{"level":"error","message":"! uncaught error from action: action:gameData","timestamp":"2015-04-16T14:57:16.132Z"}
+{"level":"error","message":"! connection details:","timestamp":"2015-04-16T14:57:16.132Z"}
+{"level":"error","message":"!     action: \"gameData\"","timestamp":"2015-04-16T14:57:16.132Z"}
+{"level":"error","message":"!     remoteIP: \"127.0.0.1\"","timestamp":"2015-04-16T14:57:16.132Z"}
+{"level":"error","message":"!     type: \"web\"","timestamp":"2015-04-16T14:57:16.133Z"}
+{"level":"error","message":"!     params: {\"action\":\"gameData\",\"apiVersion\":1}","timestamp":"2015-04-16T14:57:16.133Z"}
+{"level":"error","message":"! Error: <ParseException> Unexpected characters (). (line 14: '  \"Arrival Time\": \"You learn she is attempting to head to Zema, the southern city on the water, to visit her friend who is a doctor at the largest hospital there. They are very close, and since he has been frustrated with his job, she wants to help him have a little fun for a few days. Apparently he hasn’t been receiving supplies, or so he says. She raises her arms in an almost laughable manner and says \\\"this train is to blame\\\".\"')","timestamp":"2015-04-16T14:57:16.133Z"}
+{"level":"error","message":"!     at Array.consoleReporter (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:53:17)","timestamp":"2015-04-16T14:57:16.133Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.report (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:67:43)","timestamp":"2015-04-16T14:57:16.133Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.action (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:90:29)","timestamp":"2015-04-16T14:57:16.134Z"}
+{"level":"error","message":"!     at Domain.<anonymous> (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:273:35)","timestamp":"2015-04-16T14:57:16.134Z"}
+{"level":"error","message":"!     at Domain.emit (events.js:107:17)","timestamp":"2015-04-16T14:57:16.134Z"}
+{"level":"error","message":"!     at Domain.errorHandler [as _errorHandler] (domain.js:102:19)","timestamp":"2015-04-16T14:57:16.134Z"}
+{"level":"error","message":"!     at process._fatalException (node.js:233:33)","timestamp":"2015-04-16T14:57:16.134Z"}
+{"level":"error","message":"!     at Server.emit (events.js:110:17)","timestamp":"2015-04-16T14:57:16.134Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:491:12)","timestamp":"2015-04-16T14:57:16.134Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnHeadersComplete (_http_common.js:111:23)","timestamp":"2015-04-16T14:57:16.134Z"}
+{"level":"error","message":"*","timestamp":"2015-04-16T14:57:16.135Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":4,"error":"\"Error: The server experienced an internal error\"","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:57:16.135Z"}
+{"level":"error","message":"! uncaught error from action: action:gameData","timestamp":"2015-04-16T14:57:27.877Z"}
+{"level":"error","message":"! connection details:","timestamp":"2015-04-16T14:57:27.877Z"}
+{"level":"error","message":"!     action: \"gameData\"","timestamp":"2015-04-16T14:57:27.877Z"}
+{"level":"error","message":"!     remoteIP: \"127.0.0.1\"","timestamp":"2015-04-16T14:57:27.877Z"}
+{"level":"error","message":"!     type: \"web\"","timestamp":"2015-04-16T14:57:27.877Z"}
+{"level":"error","message":"!     params: {\"action\":\"gameData\",\"apiVersion\":1}","timestamp":"2015-04-16T14:57:27.878Z"}
+{"level":"error","message":"! Error: <ParseException> Unexpected characters (). (line 14: '  \"Arrival Time\": \"You learn she is attempting to head to Zema, the southern city on the water, to visit her friend who is a doctor at the largest hospital there. They are very close, and since he has been frustrated with his job, she wants to help him have a little fun for a few days. Apparently he hasn’t been receiving supplies, or so he says. She raises her arms in an almost laughable manner and says \\\"this train is to blame\\\".\"')","timestamp":"2015-04-16T14:57:27.878Z"}
+{"level":"error","message":"!     at Array.consoleReporter (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:53:17)","timestamp":"2015-04-16T14:57:27.878Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.report (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:67:43)","timestamp":"2015-04-16T14:57:27.878Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.action (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:90:29)","timestamp":"2015-04-16T14:57:27.878Z"}
+{"level":"error","message":"!     at Domain.<anonymous> (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:273:35)","timestamp":"2015-04-16T14:57:27.878Z"}
+{"level":"error","message":"!     at Domain.emit (events.js:107:17)","timestamp":"2015-04-16T14:57:27.879Z"}
+{"level":"error","message":"!     at Domain.errorHandler [as _errorHandler] (domain.js:102:19)","timestamp":"2015-04-16T14:57:27.879Z"}
+{"level":"error","message":"!     at process._fatalException (node.js:233:33)","timestamp":"2015-04-16T14:57:27.879Z"}
+{"level":"error","message":"!     at Server.emit (events.js:110:17)","timestamp":"2015-04-16T14:57:27.879Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:491:12)","timestamp":"2015-04-16T14:57:27.879Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnHeadersComplete (_http_common.js:111:23)","timestamp":"2015-04-16T14:57:27.879Z"}
+{"level":"error","message":"*","timestamp":"2015-04-16T14:57:27.879Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"\"Error: The server experienced an internal error\"","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:57:27.879Z"}
+{"level":"error","message":"! uncaught error from action: action:gameData","timestamp":"2015-04-16T14:58:28.890Z"}
+{"level":"error","message":"! connection details:","timestamp":"2015-04-16T14:58:28.890Z"}
+{"level":"error","message":"!     action: \"gameData\"","timestamp":"2015-04-16T14:58:28.890Z"}
+{"level":"error","message":"!     remoteIP: \"127.0.0.1\"","timestamp":"2015-04-16T14:58:28.890Z"}
+{"level":"error","message":"!     type: \"web\"","timestamp":"2015-04-16T14:58:28.890Z"}
+{"level":"error","message":"!     params: {\"action\":\"gameData\",\"apiVersion\":1}","timestamp":"2015-04-16T14:58:28.890Z"}
+{"level":"error","message":"! Error: <ParseException> Unexpected characters near \",\". (line 12: 'Initial: \"After a few attempts of getting her attention, she tells you how she has been waiting for hours on the next train out of the station and that there have been 2 trains heading to [[Mile]] that have already been cancelled. Flustered, she mutters under her breath about being late for her [[arrival time]].\",')","timestamp":"2015-04-16T14:58:28.891Z"}
+{"level":"error","message":"!     at Array.consoleReporter (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:53:17)","timestamp":"2015-04-16T14:58:28.891Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.report (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:67:43)","timestamp":"2015-04-16T14:58:28.891Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.action (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:90:29)","timestamp":"2015-04-16T14:58:28.891Z"}
+{"level":"error","message":"!     at Domain.<anonymous> (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:273:35)","timestamp":"2015-04-16T14:58:28.891Z"}
+{"level":"error","message":"!     at Domain.emit (events.js:107:17)","timestamp":"2015-04-16T14:58:28.891Z"}
+{"level":"error","message":"!     at Domain.errorHandler [as _errorHandler] (domain.js:102:19)","timestamp":"2015-04-16T14:58:28.891Z"}
+{"level":"error","message":"!     at process._fatalException (node.js:233:33)","timestamp":"2015-04-16T14:58:28.891Z"}
+{"level":"error","message":"!     at Server.emit (events.js:110:17)","timestamp":"2015-04-16T14:58:28.891Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:491:12)","timestamp":"2015-04-16T14:58:28.892Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnHeadersComplete (_http_common.js:111:23)","timestamp":"2015-04-16T14:58:28.892Z"}
+{"level":"error","message":"*","timestamp":"2015-04-16T14:58:28.892Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":4,"error":"\"Error: The server experienced an internal error\"","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:58:28.892Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":11,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:58:37.936Z"}
+{"level":"error","message":"! uncaught error from action: action:gameData","timestamp":"2015-04-16T14:59:03.699Z"}
+{"level":"error","message":"! connection details:","timestamp":"2015-04-16T14:59:03.699Z"}
+{"level":"error","message":"!     action: \"gameData\"","timestamp":"2015-04-16T14:59:03.700Z"}
+{"level":"error","message":"!     remoteIP: \"127.0.0.1\"","timestamp":"2015-04-16T14:59:03.700Z"}
+{"level":"error","message":"!     type: \"web\"","timestamp":"2015-04-16T14:59:03.700Z"}
+{"level":"error","message":"!     params: {\"action\":\"gameData\",\"apiVersion\":1}","timestamp":"2015-04-16T14:59:03.700Z"}
+{"level":"error","message":"! Error: <ParseException> You cannot define a sequence item when in a mapping","timestamp":"2015-04-16T14:59:03.701Z"}
+{"level":"error","message":"!     at Array.consoleReporter (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:53:17)","timestamp":"2015-04-16T14:59:03.701Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.report (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:67:43)","timestamp":"2015-04-16T14:59:03.701Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.action (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:90:29)","timestamp":"2015-04-16T14:59:03.701Z"}
+{"level":"error","message":"!     at Domain.<anonymous> (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:273:35)","timestamp":"2015-04-16T14:59:03.701Z"}
+{"level":"error","message":"!     at Domain.emit (events.js:107:17)","timestamp":"2015-04-16T14:59:03.701Z"}
+{"level":"error","message":"!     at Domain.errorHandler [as _errorHandler] (domain.js:102:19)","timestamp":"2015-04-16T14:59:03.701Z"}
+{"level":"error","message":"!     at process._fatalException (node.js:233:33)","timestamp":"2015-04-16T14:59:03.701Z"}
+{"level":"error","message":"!     at Server.emit (events.js:110:17)","timestamp":"2015-04-16T14:59:03.701Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:491:12)","timestamp":"2015-04-16T14:59:03.702Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnHeadersComplete (_http_common.js:111:23)","timestamp":"2015-04-16T14:59:03.702Z"}
+{"level":"error","message":"*","timestamp":"2015-04-16T14:59:03.702Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":4,"error":"\"Error: The server experienced an internal error\"","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:59:03.702Z"}
+{"level":"error","message":"! uncaught error from action: action:gameData","timestamp":"2015-04-16T14:59:13.899Z"}
+{"level":"error","message":"! connection details:","timestamp":"2015-04-16T14:59:13.899Z"}
+{"level":"error","message":"!     action: \"gameData\"","timestamp":"2015-04-16T14:59:13.899Z"}
+{"level":"error","message":"!     remoteIP: \"127.0.0.1\"","timestamp":"2015-04-16T14:59:13.899Z"}
+{"level":"error","message":"!     type: \"web\"","timestamp":"2015-04-16T14:59:13.899Z"}
+{"level":"error","message":"!     params: {\"action\":\"gameData\",\"apiVersion\":1}","timestamp":"2015-04-16T14:59:13.899Z"}
+{"level":"error","message":"! Error: <ParseException> Unable to parse. (line 15: '  unlocks: corruption_crackdown')","timestamp":"2015-04-16T14:59:13.900Z"}
+{"level":"error","message":"!     at Array.consoleReporter (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:53:17)","timestamp":"2015-04-16T14:59:13.900Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.report (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:67:43)","timestamp":"2015-04-16T14:59:13.900Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.action (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:90:29)","timestamp":"2015-04-16T14:59:13.900Z"}
+{"level":"error","message":"!     at Domain.<anonymous> (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:273:35)","timestamp":"2015-04-16T14:59:13.900Z"}
+{"level":"error","message":"!     at Domain.emit (events.js:107:17)","timestamp":"2015-04-16T14:59:13.900Z"}
+{"level":"error","message":"!     at Domain.errorHandler [as _errorHandler] (domain.js:102:19)","timestamp":"2015-04-16T14:59:13.900Z"}
+{"level":"error","message":"!     at process._fatalException (node.js:233:33)","timestamp":"2015-04-16T14:59:13.900Z"}
+{"level":"error","message":"!     at Server.emit (events.js:110:17)","timestamp":"2015-04-16T14:59:13.900Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:491:12)","timestamp":"2015-04-16T14:59:13.900Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnHeadersComplete (_http_common.js:111:23)","timestamp":"2015-04-16T14:59:13.901Z"}
+{"level":"error","message":"*","timestamp":"2015-04-16T14:59:13.901Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":4,"error":"\"Error: The server experienced an internal error\"","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:59:13.901Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":31,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:59:20.439Z"}
+{"level":"error","message":"! uncaught error from action: action:gameData","timestamp":"2015-04-16T14:59:42.663Z"}
+{"level":"error","message":"! connection details:","timestamp":"2015-04-16T14:59:42.663Z"}
+{"level":"error","message":"!     action: \"gameData\"","timestamp":"2015-04-16T14:59:42.664Z"}
+{"level":"error","message":"!     remoteIP: \"127.0.0.1\"","timestamp":"2015-04-16T14:59:42.664Z"}
+{"level":"error","message":"!     type: \"web\"","timestamp":"2015-04-16T14:59:42.664Z"}
+{"level":"error","message":"!     params: {\"action\":\"gameData\",\"apiVersion\":1}","timestamp":"2015-04-16T14:59:42.664Z"}
+{"level":"error","message":"! Error: <ParseException> Unable to parse. (line 14: '[Arrival Time: \"You learn she is attempting to head to Zema, the southern city on the water, to visit her friend who is a doctor at the largest hospital there. They are very close, and since he has been frustrated with his job, she wants to help him have a little fun for a few days. Apparently he hasn’t been receiving supplies, or so he says. She raises her arms in an almost laughable manner and says \\\"this train is to blame\\\".\", unlocks: corruption_crackdown]')","timestamp":"2015-04-16T14:59:42.664Z"}
+{"level":"error","message":"!     at Array.consoleReporter (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:53:17)","timestamp":"2015-04-16T14:59:42.664Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.report (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:67:43)","timestamp":"2015-04-16T14:59:42.665Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.action (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:90:29)","timestamp":"2015-04-16T14:59:42.665Z"}
+{"level":"error","message":"!     at Domain.<anonymous> (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:273:35)","timestamp":"2015-04-16T14:59:42.665Z"}
+{"level":"error","message":"!     at Domain.emit (events.js:107:17)","timestamp":"2015-04-16T14:59:42.665Z"}
+{"level":"error","message":"!     at Domain.errorHandler [as _errorHandler] (domain.js:102:19)","timestamp":"2015-04-16T14:59:42.665Z"}
+{"level":"error","message":"!     at process._fatalException (node.js:233:33)","timestamp":"2015-04-16T14:59:42.665Z"}
+{"level":"error","message":"!     at Server.emit (events.js:110:17)","timestamp":"2015-04-16T14:59:42.665Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:491:12)","timestamp":"2015-04-16T14:59:42.665Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnHeadersComplete (_http_common.js:111:23)","timestamp":"2015-04-16T14:59:42.665Z"}
+{"level":"error","message":"*","timestamp":"2015-04-16T14:59:42.665Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":4,"error":"\"Error: The server experienced an internal error\"","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T14:59:42.666Z"}
+{"level":"error","message":"! uncaught error from action: action:gameData","timestamp":"2015-04-16T15:00:05.465Z"}
+{"level":"error","message":"! connection details:","timestamp":"2015-04-16T15:00:05.465Z"}
+{"level":"error","message":"!     action: \"gameData\"","timestamp":"2015-04-16T15:00:05.465Z"}
+{"level":"error","message":"!     remoteIP: \"127.0.0.1\"","timestamp":"2015-04-16T15:00:05.466Z"}
+{"level":"error","message":"!     type: \"web\"","timestamp":"2015-04-16T15:00:05.466Z"}
+{"level":"error","message":"!     params: {\"action\":\"gameData\",\"apiVersion\":1}","timestamp":"2015-04-16T15:00:05.466Z"}
+{"level":"error","message":"! Error: <ParseException> Unable to parse. (line 14: '{\"Arrival Time\": \"You learn she is attempting to head to Zema, the southern city on the water, to visit her friend who is a doctor at the largest hospital there. They are very close, and since he has been frustrated with his job, she wants to help him have a little fun for a few days. Apparently he hasn’t been receiving supplies, or so he says. She raises her arms in an almost laughable manner and says \\\"this train is to blame\\\".\", unlocks: corruption_crackdown}')","timestamp":"2015-04-16T15:00:05.466Z"}
+{"level":"error","message":"!     at Array.consoleReporter (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:53:17)","timestamp":"2015-04-16T15:00:05.466Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.report (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:67:43)","timestamp":"2015-04-16T15:00:05.466Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.action (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:90:29)","timestamp":"2015-04-16T15:00:05.466Z"}
+{"level":"error","message":"!     at Domain.<anonymous> (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:273:35)","timestamp":"2015-04-16T15:00:05.467Z"}
+{"level":"error","message":"!     at Domain.emit (events.js:107:17)","timestamp":"2015-04-16T15:00:05.467Z"}
+{"level":"error","message":"!     at Domain.errorHandler [as _errorHandler] (domain.js:102:19)","timestamp":"2015-04-16T15:00:05.467Z"}
+{"level":"error","message":"!     at process._fatalException (node.js:233:33)","timestamp":"2015-04-16T15:00:05.467Z"}
+{"level":"error","message":"!     at Server.emit (events.js:110:17)","timestamp":"2015-04-16T15:00:05.467Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:491:12)","timestamp":"2015-04-16T15:00:05.467Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnHeadersComplete (_http_common.js:111:23)","timestamp":"2015-04-16T15:00:05.467Z"}
+{"level":"error","message":"*","timestamp":"2015-04-16T15:00:05.467Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"\"Error: The server experienced an internal error\"","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T15:00:05.467Z"}
+{"level":"error","message":"! uncaught error from action: action:gameData","timestamp":"2015-04-16T15:02:15.064Z"}
+{"level":"error","message":"! connection details:","timestamp":"2015-04-16T15:02:15.064Z"}
+{"level":"error","message":"!     action: \"gameData\"","timestamp":"2015-04-16T15:02:15.064Z"}
+{"level":"error","message":"!     remoteIP: \"127.0.0.1\"","timestamp":"2015-04-16T15:02:15.064Z"}
+{"level":"error","message":"!     type: \"web\"","timestamp":"2015-04-16T15:02:15.064Z"}
+{"level":"error","message":"!     params: {\"action\":\"gameData\",\"apiVersion\":1}","timestamp":"2015-04-16T15:02:15.064Z"}
+{"level":"error","message":"! Error: <ParseException> You cannot define a sequence item when in a mapping","timestamp":"2015-04-16T15:02:15.065Z"}
+{"level":"error","message":"!     at Array.consoleReporter (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:53:17)","timestamp":"2015-04-16T15:02:15.065Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.report (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:67:43)","timestamp":"2015-04-16T15:02:15.065Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.action (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:90:29)","timestamp":"2015-04-16T15:02:15.065Z"}
+{"level":"error","message":"!     at Domain.<anonymous> (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:273:35)","timestamp":"2015-04-16T15:02:15.065Z"}
+{"level":"error","message":"!     at Domain.emit (events.js:107:17)","timestamp":"2015-04-16T15:02:15.065Z"}
+{"level":"error","message":"!     at Domain.errorHandler [as _errorHandler] (domain.js:102:19)","timestamp":"2015-04-16T15:02:15.065Z"}
+{"level":"error","message":"!     at process._fatalException (node.js:233:33)","timestamp":"2015-04-16T15:02:15.066Z"}
+{"level":"error","message":"!     at Server.emit (events.js:110:17)","timestamp":"2015-04-16T15:02:15.066Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:491:12)","timestamp":"2015-04-16T15:02:15.066Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnHeadersComplete (_http_common.js:111:23)","timestamp":"2015-04-16T15:02:15.066Z"}
+{"level":"error","message":"*","timestamp":"2015-04-16T15:02:15.066Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"\"Error: The server experienced an internal error\"","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T15:02:15.066Z"}
+{"level":"error","message":"! uncaught error from action: action:gameData","timestamp":"2015-04-16T15:05:28.610Z"}
+{"level":"error","message":"! connection details:","timestamp":"2015-04-16T15:05:28.611Z"}
+{"level":"error","message":"!     action: \"gameData\"","timestamp":"2015-04-16T15:05:28.611Z"}
+{"level":"error","message":"!     remoteIP: \"127.0.0.1\"","timestamp":"2015-04-16T15:05:28.611Z"}
+{"level":"error","message":"!     type: \"web\"","timestamp":"2015-04-16T15:05:28.611Z"}
+{"level":"error","message":"!     params: {\"action\":\"gameData\",\"apiVersion\":1}","timestamp":"2015-04-16T15:05:28.611Z"}
+{"level":"error","message":"! Error: <ParseException> Unexpected characters (","timestamp":"2015-04-16T15:05:28.611Z"}
+{"level":"error","message":"! }). (line 12: '{ name: Initial,')","timestamp":"2015-04-16T15:05:28.612Z"}
+{"level":"error","message":"!     at Array.consoleReporter (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:53:17)","timestamp":"2015-04-16T15:05:28.612Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.report (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:67:43)","timestamp":"2015-04-16T15:05:28.612Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.action (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:90:29)","timestamp":"2015-04-16T15:05:28.612Z"}
+{"level":"error","message":"!     at Domain.<anonymous> (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:273:35)","timestamp":"2015-04-16T15:05:28.612Z"}
+{"level":"error","message":"!     at Domain.emit (events.js:107:17)","timestamp":"2015-04-16T15:05:28.612Z"}
+{"level":"error","message":"!     at Domain.errorHandler [as _errorHandler] (domain.js:102:19)","timestamp":"2015-04-16T15:05:28.612Z"}
+{"level":"error","message":"!     at process._fatalException (node.js:233:33)","timestamp":"2015-04-16T15:05:28.612Z"}
+{"level":"error","message":"!     at Server.emit (events.js:110:17)","timestamp":"2015-04-16T15:05:28.612Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:491:12)","timestamp":"2015-04-16T15:05:28.612Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnHeadersComplete (_http_common.js:111:23)","timestamp":"2015-04-16T15:05:28.612Z"}
+{"level":"error","message":"*","timestamp":"2015-04-16T15:05:28.612Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":38,"error":"\"Error: The server experienced an internal error\"","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T15:05:28.613Z"}
+{"level":"error","message":"! uncaught error from action: action:gameData","timestamp":"2015-04-16T15:06:36.365Z"}
+{"level":"error","message":"! connection details:","timestamp":"2015-04-16T15:06:36.365Z"}
+{"level":"error","message":"!     action: \"gameData\"","timestamp":"2015-04-16T15:06:36.365Z"}
+{"level":"error","message":"!     remoteIP: \"127.0.0.1\"","timestamp":"2015-04-16T15:06:36.365Z"}
+{"level":"error","message":"!     type: \"web\"","timestamp":"2015-04-16T15:06:36.365Z"}
+{"level":"error","message":"!     params: {\"action\":\"gameData\",\"apiVersion\":1}","timestamp":"2015-04-16T15:06:36.366Z"}
+{"level":"error","message":"! Error: <ParseException> Unable to parse. (line 13: '  name: Initial')","timestamp":"2015-04-16T15:06:36.366Z"}
+{"level":"error","message":"!     at Array.consoleReporter (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:53:17)","timestamp":"2015-04-16T15:06:36.366Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.report (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:67:43)","timestamp":"2015-04-16T15:06:36.366Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.action (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:90:29)","timestamp":"2015-04-16T15:06:36.367Z"}
+{"level":"error","message":"!     at Domain.<anonymous> (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:273:35)","timestamp":"2015-04-16T15:06:36.367Z"}
+{"level":"error","message":"!     at Domain.emit (events.js:107:17)","timestamp":"2015-04-16T15:06:36.367Z"}
+{"level":"error","message":"!     at Domain.errorHandler [as _errorHandler] (domain.js:102:19)","timestamp":"2015-04-16T15:06:36.367Z"}
+{"level":"error","message":"!     at process._fatalException (node.js:233:33)","timestamp":"2015-04-16T15:06:36.438Z"}
+{"level":"error","message":"!     at Server.emit (events.js:110:17)","timestamp":"2015-04-16T15:06:36.438Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:491:12)","timestamp":"2015-04-16T15:06:36.438Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnHeadersComplete (_http_common.js:111:23)","timestamp":"2015-04-16T15:06:36.438Z"}
+{"level":"error","message":"*","timestamp":"2015-04-16T15:06:36.439Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":75,"error":"\"Error: The server experienced an internal error\"","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T15:06:36.439Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":13,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T15:06:55.497Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":2,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T15:07:09.293Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":12,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T15:08:24.572Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":50,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T15:09:24.810Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T15:09:43.536Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T15:11:28.473Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":52,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T15:46:09.025Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T15:46:38.932Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T15:46:58.843Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":40,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T15:49:53.216Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":67,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T15:51:31.262Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":12,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T17:20:50.822Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":9,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T17:30:43.961Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":14,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T17:33:50.952Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":43,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T17:54:19.789Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":103,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T17:56:12.457Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":13,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T17:56:46.656Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":75,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T18:22:16.008Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":133,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T19:50:33.157Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T19:50:41.531Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":1102,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T19:55:48.342Z"}
+{"to":"127.0.0.1","file":"{404: not found}","size":null,"duration":null,"success":false,"level":"debug","message":"[ file @ web ]","timestamp":"2015-04-16T19:55:51.201Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":65,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T20:02:35.464Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":2,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T20:03:34.030Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T20:11:44.042Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":2,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T20:12:18.314Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":34,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T20:20:20.319Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":2,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T20:20:27.574Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":97,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T20:22:30.599Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":102,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T20:23:42.911Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":45,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T20:24:36.984Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":46,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T20:25:21.168Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":46,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T20:26:08.824Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":101,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T20:27:45.591Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T20:28:05.594Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":87,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T20:33:18.128Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":79,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T20:34:17.762Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T20:34:53.277Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":147,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T20:36:28.464Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":82,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T20:38:55.832Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":44,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T20:39:21.666Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":97,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T20:40:53.100Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":9,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T20:40:59.411Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":207,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T21:29:18.022Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T21:30:48.275Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":80,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T21:52:12.403Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":87,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T22:09:57.726Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T22:11:25.402Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T22:11:33.238Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T22:17:01.882Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":2,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T22:17:20.170Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":4,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T22:17:41.685Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":73,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T22:29:42.928Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T22:30:00.140Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":41,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-16T22:30:35.395Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":152,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T13:44:21.363Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":32,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T13:45:30.102Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":103,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T15:28:17.639Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":68,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T15:33:42.603Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":45,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T15:38:50.462Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":75,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T15:40:11.818Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":2,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T15:40:43.556Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T15:41:57.050Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":307,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T15:42:18.643Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":42,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T15:42:33.886Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":2,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T15:42:54.319Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":65,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T15:43:23.421Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":118,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T15:45:35.000Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":2,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T15:45:50.508Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T15:46:06.820Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T15:46:44.037Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":14,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T15:47:27.003Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":41,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T15:47:46.056Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":64,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T15:48:00.112Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":86,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T16:06:56.624Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T16:07:26.565Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T16:08:02.558Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T16:08:53.364Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":4,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T16:09:58.202Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":2,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T16:10:36.666Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":2,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T16:11:03.659Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":41,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T16:14:41.407Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":2,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T16:14:48.227Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":48,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T16:18:54.932Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T16:19:43.412Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T16:20:17.331Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":2,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T16:20:32.100Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":2,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T16:21:25.667Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T16:22:02.962Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":84,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T17:11:19.876Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T17:11:32.232Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":124,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T17:28:51.077Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":51,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T17:30:06.766Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":93,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T17:33:27.357Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":17,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T17:33:49.438Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":8,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T17:34:09.449Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":2,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T17:35:47.565Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":74,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T17:36:47.403Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":38,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T17:37:03.259Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":274,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T17:46:07.621Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":99,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T17:48:53.733Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":115,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T17:56:34.683Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":7,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T17:57:35.327Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":97,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T17:59:08.084Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T17:59:28.212Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":111,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T18:03:17.743Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":89,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T18:51:48.628Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T18:52:09.355Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":75,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T18:52:57.551Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":87,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T19:06:16.193Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":90,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T19:47:20.475Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":91,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T19:48:23.152Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":254,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T19:52:05.443Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":73,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T19:52:53.833Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":61,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T19:54:33.356Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":2,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T19:55:51.407Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":49,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T19:56:24.779Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T19:56:44.371Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":44,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T19:57:16.191Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":42,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T19:57:41.991Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":3,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T19:58:11.436Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":60,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T19:58:42.548Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":34,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T19:59:03.946Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":2,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T19:59:42.168Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":2,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T20:00:39.519Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":2,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T20:01:45.569Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":25,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T20:02:02.115Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":93,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T20:07:31.377Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":2,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T20:07:49.629Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":103,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T20:27:35.521Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":2,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T20:28:25.533Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":2,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T20:31:34.080Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":46,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T20:32:16.013Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":42,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T20:32:46.258Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":88,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T20:40:51.374Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":56,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T20:42:50.253Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":79,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T20:44:30.765Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":2,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T20:44:44.891Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":45,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T20:45:16.332Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":46,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T20:46:07.499Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":59,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T20:47:36.111Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":104,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T20:49:18.646Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":2,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T20:49:33.178Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":46,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T20:51:39.369Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":46,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T20:54:11.427Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":45,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T20:59:58.952Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":2,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-17T21:00:47.394Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":179,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-20T13:05:40.080Z"}
+{"level":"error","message":"! uncaught error from action: action:gameData","timestamp":"2015-04-20T13:59:14.893Z"}
+{"level":"error","message":"! connection details:","timestamp":"2015-04-20T13:59:14.894Z"}
+{"level":"error","message":"!     action: \"gameData\"","timestamp":"2015-04-20T13:59:14.894Z"}
+{"level":"error","message":"!     remoteIP: \"127.0.0.1\"","timestamp":"2015-04-20T13:59:14.894Z"}
+{"level":"error","message":"!     type: \"web\"","timestamp":"2015-04-20T13:59:14.894Z"}
+{"level":"error","message":"!     params: {\"action\":\"gameData\",\"apiVersion\":1}","timestamp":"2015-04-20T13:59:14.894Z"}
+{"level":"error","message":"! Error: <ParseException> Unable to parse. (line 8: '  unlocks: [pushback_against_providers, pushback_against_ministry]')","timestamp":"2015-04-20T13:59:15.101Z"}
+{"level":"error","message":"!     at Array.consoleReporter (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:53:17)","timestamp":"2015-04-20T13:59:15.101Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.report (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:67:43)","timestamp":"2015-04-20T13:59:15.140Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.action (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:90:29)","timestamp":"2015-04-20T13:59:15.141Z"}
+{"level":"error","message":"!     at Domain.<anonymous> (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:273:35)","timestamp":"2015-04-20T13:59:15.141Z"}
+{"level":"error","message":"!     at Domain.emit (events.js:107:17)","timestamp":"2015-04-20T13:59:15.141Z"}
+{"level":"error","message":"!     at Domain.errorHandler [as _errorHandler] (domain.js:102:19)","timestamp":"2015-04-20T13:59:15.141Z"}
+{"level":"error","message":"!     at process._fatalException (node.js:233:33)","timestamp":"2015-04-20T13:59:15.141Z"}
+{"level":"error","message":"!     at Server.emit (events.js:110:17)","timestamp":"2015-04-20T13:59:15.141Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:491:12)","timestamp":"2015-04-20T13:59:15.141Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnHeadersComplete (_http_common.js:111:23)","timestamp":"2015-04-20T13:59:15.141Z"}
+{"level":"error","message":"*","timestamp":"2015-04-20T13:59:15.141Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":485,"error":"\"Error: The server experienced an internal error\"","level":"info","message":"[ action @ web ]","timestamp":"2015-04-20T13:59:15.171Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":15,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-20T13:59:28.903Z"}
+{"level":"error","message":"! uncaught error from action: action:gameData","timestamp":"2015-04-20T13:59:55.428Z"}
+{"level":"error","message":"! connection details:","timestamp":"2015-04-20T13:59:55.428Z"}
+{"level":"error","message":"!     action: \"gameData\"","timestamp":"2015-04-20T13:59:55.428Z"}
+{"level":"error","message":"!     remoteIP: \"127.0.0.1\"","timestamp":"2015-04-20T13:59:55.429Z"}
+{"level":"error","message":"!     type: \"web\"","timestamp":"2015-04-20T13:59:55.429Z"}
+{"level":"error","message":"!     params: {\"action\":\"gameData\",\"apiVersion\":1}","timestamp":"2015-04-20T13:59:55.429Z"}
+{"level":"error","message":"! Error: <ParseException> Unable to parse. (line 8: '  unlocks: [pushback_against_providers, pushback_against_ministry]')","timestamp":"2015-04-20T13:59:55.429Z"}
+{"level":"error","message":"!     at Array.consoleReporter (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:53:17)","timestamp":"2015-04-20T13:59:55.429Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.report (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:67:43)","timestamp":"2015-04-20T13:59:55.429Z"}
+{"level":"error","message":"!     at Object.api.exceptionHandlers.action (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/exceptions.js:90:29)","timestamp":"2015-04-20T13:59:55.429Z"}
+{"level":"error","message":"!     at Domain.<anonymous> (/Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/actionProcessor.js:273:35)","timestamp":"2015-04-20T13:59:55.430Z"}
+{"level":"error","message":"!     at Domain.emit (events.js:107:17)","timestamp":"2015-04-20T13:59:55.451Z"}
+{"level":"error","message":"!     at Domain.errorHandler [as _errorHandler] (domain.js:102:19)","timestamp":"2015-04-20T13:59:55.451Z"}
+{"level":"error","message":"!     at process._fatalException (node.js:233:33)","timestamp":"2015-04-20T13:59:55.451Z"}
+{"level":"error","message":"!     at Server.emit (events.js:110:17)","timestamp":"2015-04-20T13:59:55.452Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:491:12)","timestamp":"2015-04-20T13:59:55.452Z"}
+{"level":"error","message":"!     at HTTPParser.parserOnHeadersComplete (_http_common.js:111:23)","timestamp":"2015-04-20T13:59:55.452Z"}
+{"level":"error","message":"*","timestamp":"2015-04-20T13:59:55.452Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":26,"error":"\"Error: The server experienced an internal error\"","level":"info","message":"[ action @ web ]","timestamp":"2015-04-20T13:59:55.452Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":55,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-20T14:00:52.493Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":17,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-20T14:01:41.074Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":25,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-20T14:02:43.775Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":98,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-04-20T14:08:24.423Z"}

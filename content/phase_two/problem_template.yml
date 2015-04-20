@@ -1,0 +1,32 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Problem YAML
+# ==============
+
+# Disclaimer: As engineering for Phase Two has not started in any meaninful way, this template is subject to changes.
+
+symbol: confusion_of_roles
+name: "Confusion of roles / Ministry Outreach"
+initiating_npc: CBO
+initiating_dialogue: "We haven’t seen the outreach teams yet. They are supposed to be educating the populace about changes, but so far we don’t see them. The people have no idea anything has even changed."
+starting_options: [conference, comply_with_Ministry]
+contacts:
+  Dep. Minister of Health: 
+    initial: "The providers have not supplied outreach plans that we can approve at this point. It’s important that we have consistent messaging that goes through approved channels and toes the line. The various providers are sending mixed messages to the citizens. We don’t want that to happen..."
+    unlocks: [pushback_against_providers, pushback_against_ministry]
+  Coach: 
+    initial: "The outreach operations have been slow. I have been facilitating the conversation between the providers and the ministry, and the plan should be executed soon."
+    narrows: [health_provider_1, health_provider_2, ministry]
+  voucher_agency_manager:
+  cct_system_manager:
+  third_party_monitor:
+  cbo_monitor:
+  health_provider_1: 
+    initial: "The ministry keeps asking to see our plans and revise them. If they don’t approve them soon, we’ll never get started. Tell them to get off our case and let us serve the community."
+    unlocks: pushback_against_ministry
+  health_provider_2: 
+    initial: "The ministry keeps asking to see our plans and revise them. If they don’t approve them soon, we’ll never get started. Tell them to get off our case and let us serve the community."
+    narrows: [health_provider_1, ministry]
+    unlocks: pushback_against_ministry
