@@ -19,10 +19,6 @@ contacts:
   Coach: 
     initial: "The outreach operations have been slow. I have been facilitating the conversation between the providers and the ministry, and the plan should be executed soon."
     narrows: [health_provider_1, health_provider_2, ministry]
-  voucher_agency_manager:
-  cct_system_manager:
-  third_party_monitor:
-  cbo_monitor:
   health_provider_1: 
     initial: "The ministry keeps asking to see our plans and revise them. If they don’t approve them soon, we’ll never get started. Tell them to get off our case and let us serve the community."
     unlocks: pushback_against_ministry

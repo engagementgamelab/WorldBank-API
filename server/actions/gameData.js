@@ -95,15 +95,8 @@ exports.action = {
 
                   if(isFolder)
                   {
-                      /*if(parent.indexOf(child) !== -1) {
-                        if(connection.response[child] === undefined)
-                          connection.response[child] = {}; 
-               
-                        connection.response[child][subChild] = loadFilesInPath(filePath, subChild, parent);
-                      } else */
-                      if(parent.indexOf(subChild) !== -1) {
+                      if(parent.indexOf(subChild) !== -1)
                         connection.response[subChild] = loadFilesInPath(filePath, subChild, parent);
-                      }
                   }
 
                   // Push match to filtered contents by running method again

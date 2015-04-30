@@ -1,0 +1,48 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# City Definitions
+# ==============
+
+- symbol: malcom
+  display_name: Malcom
+  description: "Malcom is the line between more urbanized city environment and traditional farmland. The Train station runs between Mile and the Capital, and there is a ferry that departs to Valeria once a day. "
+  enabled: true
+  unlocked: true
+  cost: 3
+
+- symbol: kibari
+  display_name: Kibari
+  description: "Home to the prolific traditional medicine provider (Mr. Todd), this is a bustling city that isn’t as large as Zema or Malcom, but is still the center of trade and commerce for the smaller villages and towns in the central area of the region."
+  enabled: false
+  unlocked: true
+  cost: 4
+
+- symbol: valeria
+  display_name: Valeria
+  description: "About this city"
+  enabled: false
+  unlocked: false
+  cost: 4
+
+- symbol: crup
+  display_name: Crup
+  description: "Accessed initially from the Capital, Crup is a plantation-like farming village that has a deep divide between the high class owners and the workers on the plantations."
+  enabled: true
+  unlocked: false
+  cost: 4
+
+- symbol: mile
+  display_name: Mile
+  description: "Positioned as a poor yet peaceful place in the mountainous southern region of the land, Mile shows many types of unique farm animals. People sustain themselves through farming the land, and value freedom and autonomy above all. Even though they are the poorest, there is a spiritual connection to their homes and the beauty of the location itself lends to a majority of content people."
+  enabled: false
+  unlocked: false
+  cost: 2
+
+- symbol: zema
+  display_name: Zema
+  description: "About this city"
+  enabled: false
+  unlocked: false
+  cost: 4
