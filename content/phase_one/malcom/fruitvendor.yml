@@ -6,8 +6,8 @@
 # ==============
 
 # A character interactable
-symbol: malcolm_test
-character: malcolm
+symbol: fruitvendor_dialogue
+character: fruitvendor
 
 # DIALOGUE FORMAT:
 # - Initial: First dialogue player sees after reading character_description.
@@ -22,4 +22,4 @@ dialogue:
       text: "You ask her about Mile, and she tells you she has never been and that she is just passing through on her way to visit her friend. She has heard rumors that the tracks aren’t in the safest condition."
     Arrival Time: 
       text: "You learn she is attempting to head to Zema, the southern city on the water, to visit her friend who is a doctor at the largest hospital there. They are very close, and since he has been frustrated with his job, she wants to help him have a little fun for a few days. Apparently he hasn’t been receiving supplies, or so he says. She raises her arms in an almost laughable manner and says \"this train is to blame\"."
-      unlocks: corruption_crackdown
+      unlocks: unlockable_corruption_crackdown
