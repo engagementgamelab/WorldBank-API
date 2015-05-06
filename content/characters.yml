@@ -9,12 +9,12 @@
 # Malcom
 # -------------
 
-- symbol: capitolcitytraveler
-  display_name: Traveler from the Capitol City
+- symbol: capitalcitytraveler
+  display_name: Traveler from the Capital City
   description: "A woman who you imagine might come from the capitol stands before you. At first glance you notice she seems a bit disheveled and visibly annoyed. She is wearing a high-tech eyescreen headset and seems incredibly distracted."
 
-- symbol: centercityprofessor
-  display_name: Professor from the Capitol City
+- symbol: captialcityprofessor
+  display_name: Professor from the Capital City
   description: "A well-dressed middle-aged man leans against the ticket counter, casually reading the world news on his tablet. Next to him is a small cart filled with a dozen or so textbooks on the history of Zariba. You spy a univeristy pin on the his lapel."
 
 - symbol: fruitvendor
