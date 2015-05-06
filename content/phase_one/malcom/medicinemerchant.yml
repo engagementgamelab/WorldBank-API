@@ -6,8 +6,9 @@
 # ==============
 
 # A character interactable
-symbol: medicineman_dialogue
-character: Medicine Merchant
+symbol: medicinemerchant_dialogue
+character: medicine_merchant
+
 
 # DIALOGUE FORMAT:
 # - Initial: First dialogue player sees after reading character_description.
@@ -25,4 +26,3 @@ dialogue:
 
     Mr. Todd: 
       text:"As soon as you mention Mr. Todd the medicine merchant’s face lights up: <i>I might be a bit biased, but that man is everything for the local region. He is a genius who has built a business from the ground up! Literally! Everyone loves Mr. Todd. You need to meet him. I’m sure one conversation with him will change all your thoughts on foreign medicine!</i>"
-      unlocks: 

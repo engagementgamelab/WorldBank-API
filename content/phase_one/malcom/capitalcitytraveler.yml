@@ -7,7 +7,7 @@
 
 # A character interactable
 symbol: capitalcitytraveler_dialogue
-character: Traveler from the Capital City
+character: capital_city_traveler
 
 # DIALOGUE FORMAT:
 # - Initial: First dialogue player sees after reading character_description.

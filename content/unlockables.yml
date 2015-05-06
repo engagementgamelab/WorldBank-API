@@ -38,3 +38,17 @@
   description: "(pbc option)"
   unlocked: [malcom, "Jo-Jones", professor]
   type: professionalism
+
+# I am adding the below as they are referenced in dialog files.
+# Specifying an unlock that does not exist here breaks the dialog tree. - Johnny, 5/5/15
+- symbol: unlockable_corruption_crackdown
+  title: "Something"
+  description: "(pbc option)"
+  unlocked: [malcom]
+  type: professionalism
+
+- symbol: unlockable_hire_private_shipping_company
+  title: "Something"
+  description: "(pbc option)"
+  unlocked: [malcom]
+  type: professionalism

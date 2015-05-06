@@ -7,7 +7,7 @@
 
 # A character interactable
 symbol: fruitvendor_dialogue
-character: Fruit vendor
+character: fruit_vendor
 
 # DIALOGUE FORMAT:
 # - Initial: First dialogue player sees after reading character_description.
@@ -26,4 +26,4 @@ dialogue:
 
     Daughter: 
       text: "<i>My daughter? She is just three, and the cutest girl you have ever seen,</i> the fruit seller beams. <i>Her grandmother is watching her so I can sell fruit here in the market. I support all three of us.</i> When you ask about the girl’s vaccinations, the woman shrugs. <i>Who has time to travel to a hospital? Keeping her fed is more important.</i>"
-      unlocks: unlockale_plan_traveling_nurses
+      unlocks: unlockable_plan_traveling_nurses

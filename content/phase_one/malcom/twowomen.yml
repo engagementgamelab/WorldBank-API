@@ -7,7 +7,7 @@
 
 # A character interactable
 symbol: twowomen_dialogue
-character: Two women waiting for ferry
+character: malcom_twowomen
 
 # DIALOGUE FORMAT:
 # - Initial: First dialogue player sees after reading character_description.

@@ -7,7 +7,7 @@
 
 # A character interactable
 symbol: capitalcityprofessor_dialogue
-character: Professor from the Capital City
+character: capital_city_professor
 
 # DIALOGUE FORMAT:
 # - Initial: First dialogue player sees after reading character_description.
