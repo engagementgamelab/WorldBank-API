@@ -15,8 +15,8 @@
 - symbol: kibari
   display_name: Kibari
   description: "Home to the prolific traditional medicine provider (Mr. Todd), this is a bustling city that isn’t as large as Zema or Malcom, but is still the center of trade and commerce for the smaller villages and towns in the central area of the region."
-  enabled: false
-  unlocked: true
+  enabled: true
+  unlocked: false
   cost: 4
 
 - symbol: valeria
