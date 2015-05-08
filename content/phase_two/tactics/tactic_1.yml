@@ -1,0 +1,17 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Tactic YAML
+# ==============
+
+# Phase Two Tactic YML Example
+
+symbol: tactic
+name: "Government overreach on verification"
+
+initiating_npc: provider_2 # <--- character's symbol
+initiating_dialogue: "The ministry has asked us to send copies of all our reports to them for verification. I thought that was supposed to stop that and send only to the third party verifier? I guess I'm still a little confused."
+
+starting_options: [conference, comply_with_ministry]
+final_options: [comply_with_ministry, authorize_push_back, clarify_roles]

@@ -1,7 +1,7 @@
 {
-  "author": "YOU <YOU@example.com>",
-  "name": "my_actionhero_project",
-  "description": "my actionhero project",
+  "author": "Johnny Richardson <johnny@elab.emerson.edu>",
+  "name": "worldbank_api",
+  "description": "Engagement Lab's WorldBank API",
   "version": "0.0.1",
   "engines": {
     "node": ">=0.10.0"
@@ -17,7 +17,8 @@
     "path": "latest",
     "grunt": "latest",
     "node-dir": "latest",
-    "mongoose": "latest"
+    "mongoose": "latest",
+    "forever": "latest"
   },
   "devDependencies": {
     "mocha": "latest",
