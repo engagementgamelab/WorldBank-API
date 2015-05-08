@@ -8,10 +8,29 @@
 # Phase Two Tactic YML Example
 
 symbol: tactic
-name: "Government overreach on verification"
+name: "Tactic name"
+
+# NOTE: This text is currently almost the same as what I put in scenario_1/card_template
 
 initiating_npc: provider_2 # <--- character's symbol
 initiating_dialogue: "The ministry has asked us to send copies of all our reports to them for verification. I thought that was supposed to stop that and send only to the third party verifier? I guess I'm still a little confused."
 
 starting_options: [conference, comply_with_ministry]
 final_options: [comply_with_ministry, authorize_push_back, clarify_roles]
+
+# The below blocks would contain each character that your "assistant" can speak with, and 
+dep_minister_of_health: # <--- character's symbol
+  dialogue: "We are very interested in making sure the providers are doing what they say, and we have the staff available to review, so why not?"
+  unlocks: "Narrows to third-party verifier and Coach" # <--- this probably will be a symbol
+
+coach:
+  dialogue: "Duplicating efforts seems to be hampering the health providers. I'd either clarify everyone's roles for them, or empower health providers to push back somehow."
+  unlocks: ["separation of rolls", "give providers authority to push back"] # <--- these probably will symbols
+
+third_party_verifier:
+  dialogue: "I didn't know about this. If the Ministry is doubling our verification efforts, it could prove very confusing to the providers."
+  unlocks: "separation of roles"
+
+health_provider_1:
+  dialogue: "Honestly, we've been ignoring the ministry's requests. We've got too much actual work to worry about."
+  unlocks: "something"
