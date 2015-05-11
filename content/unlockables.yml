@@ -52,3 +52,27 @@
   description: "(pbc option)"
   unlocked: [malcom]
   type: professionalism
+
+- symbol: unlockable_contract_ngo_to_administer_plan
+  title: "Something"
+  description: "(pbc option)"
+  unlocked: [malcom]
+  type: professionalism
+
+- symbol: unlockable_route_malcom_to_kibari
+  title: "Something"
+  description: "(pbc option)"
+  unlocked: [malcom]
+  type: professionalism
+
+- symbol: unlockable_fruit_1
+  title: "Something"
+  description: "(pbc option)"
+  unlocked: [malcom]
+  type: professionalism
+
+- symbol: unlockable_plan_traveling_nurses
+  title: "Something"
+  description: "(pbc option)"
+  unlocked: [malcom]
+  type: professionalism

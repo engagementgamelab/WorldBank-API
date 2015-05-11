@@ -9,23 +9,23 @@
 # Malcom
 # -------------
 
-- symbol: capitalcitytraveler
+- symbol: capital_city_traveler
   display_name: Traveler from the Capital City
   description: "A woman who you imagine might come from the capitol stands before you. At first glance you notice she seems a bit disheveled and visibly annoyed. She is wearing a high-tech eyescreen headset and seems incredibly distracted."
 
-- symbol: captialcityprofessor
+- symbol: capital_city_professor
   display_name: Professor from the Capital City
   description: "A well-dressed middle-aged man leans against the ticket counter, casually reading the world news on his tablet. Next to him is a small cart filled with a dozen or so textbooks on the history of Zariba. You spy a univeristy pin on the his lapel."
 
-- symbol: fruitvendor
+- symbol: fruit_vendor
   display_name: Fruit Vendor
   description: "A young woman, maybe 19 years, is selling fruit from a well-stocked cart. Most of them you’ve never even seen before, and a perfume-like aroma wafts from a box of red berry clusters. She looks expectantly at you, smiling politely."
 
-- symbol: medicinemerchant
+- symbol: medicine_merchant
   display_name: Medicine Merchant
   description: "In the middle of the crowded marketplace, you see a man dressed in an impressive garb that feels important and professional, but at once authentic and grounded. He seems to be charming those around him as a small crowd gathers to listen to his sermon-like presentation. Behind him is an elaborate cart of small tokens and jars, all different sizes and shapes. The sign reads “Medicine” in multiple languages."
 
-- symbol: twowomen
+- symbol: two_women
   display_name: Women waiting for ferry
   description: "At the far end of the market there are two women in elaborate dress. You don’t know where they are from, but they are certainly not from this region, nor do they look like they came from Capitol City. Very ornamental and expensive, their dresses pop and glide in different directions and both are wearing wild headpieces. You feel a sense of royalty from them."
 

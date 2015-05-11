@@ -25,4 +25,4 @@ dialogue:
       unlocks: unlockable_route_malcom_to_kibari
 
     Mr. Todd: 
-      text:"As soon as you mention Mr. Todd the medicine merchant’s face lights up: <i>I might be a bit biased, but that man is everything for the local region. He is a genius who has built a business from the ground up! Literally! Everyone loves Mr. Todd. You need to meet him. I’m sure one conversation with him will change all your thoughts on foreign medicine!</i>"
+      text: "As soon as you mention Mr. Todd the medicine merchant’s face lights up: <i>I might be a bit biased, but that man is everything for the local region. He is a genius who has built a business from the ground up! Literally! Everyone loves Mr. Todd. You need to meet him. I’m sure one conversation with him will change all your thoughts on foreign medicine!</i>"
