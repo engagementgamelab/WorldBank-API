@@ -20,8 +20,7 @@ dialogue:
     Initial:
       text: "After a few attempts of getting her attention, she tells you how she has been waiting for hours for the next train out of the station. <i>There have been two trains heading to Mile that have already been cancelled!</i> Flustered, she mutters under her breath about being late to meet her friend."
     Mile: 
-      text:"You ask her about Mile, and she tells you she has never been there. <i>I just need to pass through on the way to visit my friend.</i>"
-
+      text: "You ask her about Mile, and she tells you she has never been there. <i>I just need to pass through on the way to visit my friend.</i>"
     Arrival Time: 
       text: "You learn she is attempting to head to Zema, the southern city on the water, to visit her friend who is a doctor at the largest hospital there. <i>We are very close, and since he has been frustrated with his job, I want to help him have a little fun for a few days. Apparently he hasn’t been receiving supplies, or so he says.</i>  She raises her arms in exasperation. <i>This accursed train! If medical supplies don’t even reach the hospital, what are my chances?</i>"
       unlocks: unlockable_hire_private_shipping_company
