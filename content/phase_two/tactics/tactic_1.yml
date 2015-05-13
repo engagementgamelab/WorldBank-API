@@ -18,19 +18,21 @@ initiating_dialogue: "The ministry has asked us to send copies of all our report
 starting_options: [conference, comply_with_ministry]
 final_options: [comply_with_ministry, authorize_push_back, clarify_roles]
 
-# The below blocks would contain each character that your "assistant" can speak with, and 
-dep_minister_of_health: # <--- character's symbol
-  dialogue: "We are very interested in making sure the providers are doing what they say, and we have the staff available to review, so why not?"
-  unlocks: "Narrows to third-party verifier and Coach" # <--- this probably will be a symbol
+characters:
 
-coach:
-  dialogue: "Duplicating efforts seems to be hampering the health providers. I'd either clarify everyone's roles for them, or empower health providers to push back somehow."
-  unlocks: ["separation of rolls", "give providers authority to push back"] # <--- these probably will symbols
+  # The below blocks would contain each character that your "assistant" can speak with, and 
+  dep_minister_of_health: # <--- character's symbol
+    dialogue: "We are very interested in making sure the providers are doing what they say, and we have the staff available to review, so why not?"
+    unlocks: "Narrows to third-party verifier and Coach" # <--- this probably will be a symbol
 
-third_party_verifier:
-  dialogue: "I didn't know about this. If the Ministry is doubling our verification efforts, it could prove very confusing to the providers."
-  unlocks: "separation of roles"
+  coach:
+    dialogue: "Duplicating efforts seems to be hampering the health providers. I'd either clarify everyone's roles for them, or empower health providers to push back somehow."
+    unlocks: ["separation of rolls", "give providers authority to push back"] # <--- these probably will symbols
 
-health_provider_1:
-  dialogue: "Honestly, we've been ignoring the ministry's requests. We've got too much actual work to worry about."
-  unlocks: "something"
+  third_party_verifier:
+    dialogue: "I didn't know about this. If the Ministry is doubling our verification efforts, it could prove very confusing to the providers."
+    unlocks: "separation of roles"
+
+  health_provider_1:
+    dialogue: "Honestly, we've been ignoring the ministry's requests. We've got too much actual work to worry about."
+    unlocks: "something"
