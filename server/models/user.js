@@ -19,17 +19,16 @@ Created by Engagement Lab, 2015
 
 // grab the things we need
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/world_bank_rbf');
-var Schema = mongoose.Schema;
 
 // create a schema
-var userSchema = new Schema({
+var userSchema = new mongoose.Schema({
   name: { type: String, required: true },
   email: { type: String, required: true, unique: true, index: true },
   location: { type: String, required: true },
   meta: {
   	plan: Number
   },
+  unlocks: { type: Array, required: false },
   created_at: { type: Date, required: true },
   last_accessed: { type: Date, required: true }
 });

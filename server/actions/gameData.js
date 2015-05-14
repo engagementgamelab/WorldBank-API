@@ -116,7 +116,7 @@ exports.action = {
                   }
               });
 
-              return dirContentsFiltered
+              return dirContentsFiltered;
 
             }
             else {
