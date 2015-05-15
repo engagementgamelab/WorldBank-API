@@ -14,6 +14,16 @@ Created by Engagement Lab, 2015
 * @class userCreate
 **/
 
+var crypto = require('crypto');
+var redisPrefix = "__users-";
+
+var caluculatePassowrdHash = function(password, salt){
+  return crypto.createHash('sha256').update(salt + password).digest("hex");
+}
+var cacheKey = function(user){
+  return redisPrefix + "id__" + user.id;
+}
+
 /**
 * @method userCreate
 * @attribute POST
@@ -41,28 +51,54 @@ exports.create = {
       var User = require('../models/user');
       var dataInput = connection.rawConnection.params.body;
 
-      // create a new user
-      var newUser = User(
-        dataInput
-      );
+      if(dataInput.password.length < 6)
+      {
+        connection.error = "password must be longer than 6 chars";
+        next(connection, true)
+      }
+      else
+      {
+        var passwordSalt = api.utils.randomString(64);
+        var passwordHash = caluculatePassowrdHash(dataInput.password, passwordSalt);
 
-      // on every save, add the date
-      newUser.pre('save', function(next) {
-        // get the current date
-        var currentDate = new Date();
+        // create a new user
+        var newUser = User(
+          dataInput
+        );
+
+        // on every save, add the date
+        newUser.pre('save', function(next) {
+          // get the current date
+          var currentDate = new Date();
+          
+          this.last_accessed = currentDate;
+          this.created_at = currentDate;
+
+          this.password = passwordHash;
+          this.password_salt = passwordSalt;
+
+        });
+
+        // save the user
+        newUser.save(function(err, user) {
+          
+          if (err) connection.response = err;
         
-        this.last_accessed = currentDate;
-        this.created_at = currentDate;
+          console.log(cacheKey(user));
+          
+          api.cache.save(cacheKey(user), newUser, function(error){
+            connection.error = error;
+            connection.response.userCreated = true;
+          });
 
-        next();
-      });
+        });
 
-      // save the user
-      newUser.save(function(err) {
-        if (err) connection.response = err;
-      });
+        console.log(newUser);
+    
+        next(connection, true);
+      
+      }
         
-      next(connection, true);
 
     }
 };
@@ -120,45 +156,47 @@ exports.save = {
     }
 };
 
-exports.authenticate=
+exports.auth =
 {
   name: "userAuth",
-  description: "Just a simple demo github login - callback action",
+  description: "auth",
   
-  run:function(api, connection, next)
-  {
-    api.log("ah-passport-plugin: local callback action running", "debug");
+  inputs: {
+    "required" : ["email", "password"],
+    "optional" : []
+  },
+  
+  blockedConnectionTypes: [],
+  outputExample: {},
 
-    // api.AHPassportPlugin.authenticate('local', {}),
-    //   connection.response = "success";
-    //   next(connection, true);
+  run: function(api, connection, next){
 
-    api.AHPassportPlugin.authenticate("local", { successRedirect: '/api/gameData', failureRedirect: '/api/ah-passport-plugin/github/authenticate' }, function (err, user, info)
-    {
-      if(err)
-      {
-        api.log("ah-passport-plugin: Github authenticate action error %s", "debug", err);
-        connection.error=err;
-      }
-      else if(typeof(user)!=="object" || !user)
-      {
-        api.log("ah-passport-plugin: Github authenticate action - Error: 'user' is not an object", "debug");
-        connection.rawConnection.responseHttpCode=401; // Unauthorized
-        connection.error = info;
-      }
-      else 
-      {
-        connection.rawConnection.req.logIn(user, function (){
+    var dataInput = connection.rawConnection.params.body;
 
-          // This may well need amending
-          user.uid=connection.id;
-          api.log("ah-passport-plugin: Github authenticate action - login done!", "debug");
-        
-        });
-      }
-
-      next(connection, true);
+    connection.response.auth = false;
+    console.log(cacheKey(connection))
     
-    })(connection.rawConnection.req, connection.rawConnection.res);
+    api.cache.load(cacheKey(connection), function(err, user){
+      if(err){
+        connection.error = err;
+        next(connection, true);
+      }else if(user == null){
+        connection.error = "User not found";
+        next(connection, true);
+      }
+      else{
+        var passwordHash = caluculatePassowrdHash(dataInput.password, user.passwordSalt);
+        
+        if(passwordHash !== user.passwordHash){
+          connection.error = "incorrect password";
+          next(connection, true);
+        }else{
+          api.session.generateAtLogin(connection, function(){
+            connection.response.auth = true;
+            next(connection, true);
+          });
+        }
+      }
+    });
   }
 };
