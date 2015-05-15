@@ -18,7 +18,9 @@
     "grunt": "latest",
     "node-dir": "latest",
     "mongoose": "latest",
-    "forever": "latest"
+    "forever": "latest",
+    "passport": "latest",
+    "passport-local": "latest"
   },
   "devDependencies": {
     "mocha": "latest",
