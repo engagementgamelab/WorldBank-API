@@ -57,13 +57,15 @@ app.post('/migrate/mail',function(req,res){
   if(done==true){
 
     var options = { 
-      args: ["--gmail", './uploads/'+req.files["mailFile"]["name"], "--user=" + req.body.username + "@elab.emerson.edu", "--password=" + req.body.password ],
+      args: ["--gmail", './uploads/'+req.files["mailFile"]["name"], "--user=" + req.body.username, "--password=" + req.body.password ],
       pythonPath: '/usr/bin/python',
     };
 
     PythonShell.run('imap_upload.py', options, function (err) {
+      
       // fs.unlink('./uploads/'+req.files["mailFile"]["name"]);
       res.end("File uploaded.");
+
     });
 
   }

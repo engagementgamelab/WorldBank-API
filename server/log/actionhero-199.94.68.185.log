@@ -3090,3 +3090,38 @@
 {"level":"info","message":"actionhero member 199.94.68.185 has joined the cluster","timestamp":"2015-05-15T15:11:08.961Z"}
 {"to":"127.0.0.1","action":"userAuth","params":"{\"action\":\"userAuth\",\"apiVersion\":1}","duration":8,"error":"\"Error: Object not found\"","level":"info","message":"[ action @ web ]","timestamp":"2015-05-15T15:11:33.244Z"}
 {"to":"127.0.0.1","file":"{404: not found}","size":null,"duration":null,"success":false,"level":"debug","message":"[ file @ web ]","timestamp":"2015-05-15T16:01:51.221Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":424,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-05-15T18:19:39.580Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":17,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-05-15T18:19:54.764Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":165,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-05-15T18:20:45.668Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":141,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-05-15T18:21:25.347Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":21,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-05-15T18:21:47.634Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":15,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-05-15T18:21:53.763Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":28,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-05-15T18:22:10.305Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":130,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-05-15T18:23:03.526Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":136,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-05-15T18:23:35.882Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":175,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-05-15T18:25:44.996Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":1068,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-05-15T18:27:41.199Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":184,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-05-15T18:29:27.277Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":155,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-05-15T18:30:35.245Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":341,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-05-15T18:32:06.802Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":128,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-05-15T18:32:38.159Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":195,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-05-15T18:35:45.896Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":124,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-05-15T18:36:01.929Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":132,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-05-15T18:36:22.507Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":198,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-05-15T18:39:26.455Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":349,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-05-15T18:43:10.981Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":226,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-05-15T18:43:35.804Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":39,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-05-15T18:43:58.540Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":586,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-05-15T18:44:34.483Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":131,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-05-15T18:45:22.906Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":199,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-05-15T18:48:23.844Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":363,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-05-15T18:49:02.165Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":159,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-05-15T18:50:38.745Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":126,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-05-15T18:50:57.145Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":50,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-05-15T18:51:23.479Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":252,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-05-15T18:53:06.825Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":202,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-05-15T18:55:19.705Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":212,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-05-15T18:56:38.018Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":163,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-05-15T18:57:27.796Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":331,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-05-15T18:58:04.397Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing","timestamp":"2015-05-15T19:13:36.075Z"}
