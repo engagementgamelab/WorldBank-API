@@ -47,8 +47,6 @@ exports.create = {
     /* GET game data. */
     run: function (api, connection, next) {
 
-      // grab the user model
-      var User = require('../models/user');
       var dataInput = connection.rawConnection.params.body;
 
       if(dataInput.password.length < 6)
@@ -61,41 +59,26 @@ exports.create = {
         var passwordSalt = api.utils.randomString(64);
         var passwordHash = caluculatePassowrdHash(dataInput.password, passwordSalt);
 
+        dataInput.created_at = new Date();
+        dataInput.password = passwordHash;
+        dataInput.password_salt = passwordSalt;
+
         // create a new user
-        var newUser = User(
+        var newUser = new api.mongo.user(
           dataInput
         );
 
-        // on every save, add the date
-        newUser.pre('save', function(next) {
-          // get the current date
-          var currentDate = new Date();
-          
-          this.last_accessed = currentDate;
-          this.created_at = currentDate;
-
-          this.password = passwordHash;
-          this.password_salt = passwordSalt;
-
-        });
-
         // save the user
-        newUser.save(function(err, user) {
+        newUser.save(function(err) {
           
-          if (err) connection.response = err;
-        
-          console.log(cacheKey(user));
-          
-          api.cache.save(cacheKey(user), newUser, function(error){
-            connection.error = error;
-            connection.response.userCreated = true;
-          });
+          if (err) 
+            connection.response = err;
 
-        });
-
-        console.log(newUser);
+          console.log(newUser);
     
         next(connection, true);
+        
+        });
       
       }
         
@@ -125,9 +108,6 @@ exports.save = {
 
     /* GET game data. */
     run: function (api, connection, next) {
-
-      // grab the user model
-      var User = require('../models/user');
       var dataInput = connection.rawConnection.params.body;
 
       // create a new user
@@ -169,22 +149,25 @@ exports.auth =
   blockedConnectionTypes: [],
   outputExample: {},
 
-  run: function(api, connection, next){
+  run: function(api, connection, next) {
 
     var dataInput = connection.rawConnection.params.body;
 
     connection.response.auth = false;
-    console.log(cacheKey(connection))
-    
-    api.cache.load(cacheKey(connection), function(err, user){
-      if(err){
+
+    User.findOne({ 'email': dataInput.email }, function (err, user) {
+
+      if(err) {
         connection.error = err;
-        next(connection, true);
-      }else if(user == null){
-        connection.error = "User not found";
+        console.log(err);
         next(connection, true);
       }
-      else{
+      else if(user == null) {
+        connection.error = "User not found";
+        console.log(connection.error);
+        next(connection, true);
+      }
+      else {
         var passwordHash = caluculatePassowrdHash(dataInput.password, user.passwordSalt);
         
         if(passwordHash !== user.passwordHash){
@@ -197,6 +180,11 @@ exports.auth =
           });
         }
       }
+    
     });
+
+    next(connection, true);
+
   }
+
 };

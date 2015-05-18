@@ -1,3 +1,14 @@
+/* 
+World Bank API
+Created by Engagement Lab, 2015
+==============
+ mongo.js
+ MongodDB/Mongoose AH initializer.
+
+ Created by Johnny Richardson on 5/18/15.
+==============
+*/
+"use strict";
 
 var mongoose = require('mongoose');
 
@@ -15,13 +26,16 @@ module.exports = {
     next();
   },
   start: function(api, next) {
+      
+      mongoose.connect('mongodb://' + api.config.mongo.host + '/' + api.config.mongo.db);
 
-      mongoose.connect(api.config.mongo.host);
+      var connection = mongoose.connection.db;
 
-      var db = mongoose.connection;
-      db.on('error', console.error.bind(console, 'connection error:'));
-      db.once('open', function callback () {
-          console.log('Connection opened');
+      connection.on('error',  function callback (err) {
+          console.log('Mongo connection failed: ' + err);
+      });
+      connection.once('open', function callback () {
+          console.log('Mongo connection opened');
       });
 
       next();
@@ -31,9 +45,3 @@ module.exports = {
     next();
   }
 };
-
-
-// module.exports = {
-
-
-// };
