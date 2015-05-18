@@ -20,6 +20,8 @@ Created by Engagement Lab, 2015
 // grab the things we need
 var mongoose = require('mongoose');
 
+var planSchema = require('../models/plan').schema;
+
 // create a schema
 var userSchema = new mongoose.Schema({
   name: { type: String, required: true },
@@ -28,12 +30,9 @@ var userSchema = new mongoose.Schema({
   password: { type: String, required: true },
   password_salt: { type: String, required: true, index: true },
   location: { type: String, required: true },
-  meta: {
-  	plan: Number
-  },
-  unlocks: { type: Array, required: false },
   created_at: { type: Date, required: true },
-  last_accessed: { type: Date, required: true }
+  last_accessed: { type: Date, required: true },
+  plan: [planSchema]
 });
 
 userSchema.pre('validate', function(next) {
@@ -44,6 +43,10 @@ userSchema.pre('validate', function(next) {
 
   next();
 });
+
+/*userSchema.statics.updateForId = function (data) {
+  this.update( { _id: id }, { $set: });
+}*/
 
 // Create the User model
 var User = mongoose.model('User', userSchema);

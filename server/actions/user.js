@@ -94,7 +94,8 @@ exports.create = {
 * @return {Object} Empty if successful (200).
 * @throws {Object} Returns error if missing required field(s) or invalid data.
 */
-exports.save = {
+exports.save = 
+{
 
     name: 'userSave',
     description: 'Save a user.',
@@ -104,36 +105,28 @@ exports.save = {
     version: 1.0,
     toDocument: true,
 
-    inputs: [],
+    inputs:  {
+      required: ["user_id", "unlocks"]
+    },
 
     /* GET game data. */
     run: function (api, connection, next) {
+
       var dataInput = connection.rawConnection.params.body;
 
-      // create a new user
-      var newUser = User(
-        dataInput
-      );
-
-      // on every save, add the date
-      newUser.pre('save', function(next) {
-        // get the current date
-        var currentDate = new Date();
-        
-        this.last_accessed = currentDate;
-        this.created_at = currentDate;
-
-        next();
+      // Create a plan object
+      var planModel = new api.mongo.plan({
+        unlocks: dataInput.unlocks
       });
-
-      // save the user
-      newUser.save(function(err) {
-        if (err) connection.response = err;
-      });
+       
+      api.mongo.user.findByIdAndUpdate(dataInput.user_id, { $set: { plan: planModel }}, function (err, user) {
+        if (err) connection.response.error = err;
         
-      next(connection, true);
+        next(connection, true);
+      });
 
     }
+
 };
 
 exports.auth =
@@ -155,7 +148,7 @@ exports.auth =
 
     connection.response.auth = false;
 
-    User.findOne({ 'email': dataInput.email }, function (err, user) {
+    api.mongo.user.findOne({ 'email': dataInput.email }, function (err, user) {
 
       if(err) {
         connection.error = err;
@@ -168,22 +161,24 @@ exports.auth =
         next(connection, true);
       }
       else {
-        var passwordHash = caluculatePassowrdHash(dataInput.password, user.passwordSalt);
-        
-        if(passwordHash !== user.passwordHash){
+        var passwordHash = caluculatePassowrdHash(dataInput.password, user.password_salt);
+
+        if(passwordHash !== user.password){
           connection.error = "incorrect password";
           next(connection, true);
         }else{
           api.session.generateAtLogin(connection, function(){
+
+            user.save();
+
             connection.response.auth = true;
+            connection.response.userId = user._id;
             next(connection, true);
           });
         }
       }
     
     });
-
-    next(connection, true);
 
   }
 
