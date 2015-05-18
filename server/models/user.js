@@ -36,6 +36,15 @@ var userSchema = new mongoose.Schema({
   last_accessed: { type: Date, required: true }
 });
 
+userSchema.pre('validate', function(next) {
+  // get the current date
+  var currentDate = new Date();
+  
+  this.last_accessed = currentDate;
+
+  next();
+});
+
 // Create the User model
 var User = mongoose.model('User', userSchema);
 
