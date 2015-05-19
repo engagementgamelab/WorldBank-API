@@ -112,17 +112,21 @@ exports.save =
     /* GET game data. */
     run: function (api, connection, next) {
 
-      var dataInput = connection.rawConnection.params.body;
+      api.session.checkAuth(connection, function(session) {
 
-      // Create a plan object
-      var planModel = new api.mongo.plan({
-        unlocks: dataInput.unlocks
-      });
-       
-      api.mongo.user.findByIdAndUpdate(dataInput.user_id, { $set: { plan: planModel }}, function (err, user) {
-        if (err) connection.response.error = err;
-        
-        next(connection, true);
+        var dataInput = connection.rawConnection.params.body;
+
+        // Create a plan object to update inside user
+        var planModel = new api.mongo.plan({
+          unlocks: dataInput.unlocks
+        });
+         
+        api.mongo.user.findByIdAndUpdate(dataInput.user_id, { $set: { plan: planModel }}, function (err, user) {
+          if (err) connection.response.error = err;
+          
+          next(connection, true);
+        });
+
       });
 
     }
@@ -148,7 +152,7 @@ exports.auth =
 
     connection.response.auth = false;
 
-    api.mongo.user.findOne({ 'email': dataInput.email }, function (err, user) {
+    api.mongo.user.findOne({ 'email': dataInput.email }, 'plan _id username password password_salt', function (err, user) {
 
       if(err) {
         connection.error = err;
@@ -171,9 +175,17 @@ exports.auth =
 
             user.save();
 
+            var userRecord = user.toObject();
+
+            delete userRecord.last_accessed;
+            delete userRecord.password;
+            delete userRecord.password_salt;
+
             connection.response.auth = true;
-            connection.response.userId = user._id;
+            connection.response.user = userRecord;
+
             next(connection, true);
+
           });
         }
       }
