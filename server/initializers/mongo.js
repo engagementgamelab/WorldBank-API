@@ -21,7 +21,7 @@ module.exports = {
     api.mongo = {
       mongoose: mongoose,
       user: require('../models/user'),
-      plan: require('../models/plan').model
+      plan: require('../models/plan')
     };
 
     next();

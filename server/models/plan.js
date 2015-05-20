@@ -23,7 +23,7 @@ var mongoose = require('mongoose');
 // create a schema
 var planSchema = new mongoose.Schema({
 
-  unlocks: { type: Array, required: false },
+  unlocks: { type: Array, required: true },
 
 });
 
@@ -38,4 +38,4 @@ planSchema.pre('validate', function(next) {
 
 // Create the Plan model
 var Plan = mongoose.model('Plan', planSchema);
-module.exports = { schema: planSchema, model: Plan };
+module.exports =  Plan;

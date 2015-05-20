@@ -76,7 +76,7 @@ exports.create = {
 
           console.log(newUser);
     
-        next(connection, true);
+          next(connection, true);
         
         });
       
@@ -106,7 +106,7 @@ exports.save =
     toDocument: true,
 
     inputs:  {
-      required: ["user_id", "unlocks"]
+      required: ["user_id", "plan"]
     },
 
     /* GET game data. */
@@ -116,18 +116,34 @@ exports.save =
 
         var dataInput = connection.rawConnection.params.body;
 
+        console.log(dataInput.user_id);
+
         // Create a plan object to update inside user
-        var planModel = new api.mongo.plan({
-          unlocks: dataInput.unlocks
-        });
+        var planModel = new api.mongo.plan( 
+          JSON.parse(dataInput.plan)
+        );
          
-        api.mongo.user.findByIdAndUpdate(dataInput.user_id, { $set: { plan: planModel }}, function (err, user) {
-          if (err) connection.response.error = err;
-          
-          next(connection, true);
+        api.mongo.user.findById(dataInput.user_id, function (err, user) {
+
+            api.mongo.plan.update({_id: planModel._id}, planModel.toObject(), {upsert: true}, function (err, plan) {
+
+              if (err) connection.response.error = err;
+
+              user.plan_id = plan._id;
+
+              user.save(function (err, updatedUser) {
+                
+                if (err) connection.response.error = err;
+
+              });
+                  
+              next(connection, true);
+
+            });
+
         });
 
-      });
+    });
 
     }
 
@@ -152,7 +168,9 @@ exports.auth =
 
     connection.response.auth = false;
 
-    api.mongo.user.findOne({ 'email': dataInput.email }, 'plan _id username password password_salt', function (err, user) {
+        console.log(dataInput.email);
+
+    api.mongo.user.findOne({ 'email': dataInput.email }, '_id username password password_salt plan_id', function (err, user) {
 
       if(err) {
         connection.error = err;
