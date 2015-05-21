@@ -31,7 +31,7 @@
   "scripts": {
     "help": "actionhero help",
     "start": "actionhero start",
-    "debug": "node --debug ./node_modules/.bin/actionhero start",
+    "debug": "sh debug.sh",
     "actionhero": "actionhero",
     "startCluster": "actionhero startCluster",
     "test": "mocha"

@@ -58,7 +58,7 @@ module.exports = {
                     session = {};
                 }
                 if (session.loggedIn !== true) {
-                    connection.error = "You need to be authorized for this action";
+                    connection.error = "You are not authorized for this action. Please login.";
                     failureCallback(connection, true); // likley to be an action's callback
                 } else {
                     successCallback(session); // likley to yiled to action

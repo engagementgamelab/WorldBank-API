@@ -120,10 +120,15 @@ exports.save =
 
         // Create a plan object to update inside user
         var planModel = new api.mongo.plan( 
-          JSON.parse(dataInput.plan)
+          dataInput.plan
         );
          
-        api.mongo.user.findById(dataInput.user_id, function (err, user) {
+        api.mongo.user.findOne(dataInput.user_id, function (err, user) {
+      
+            if(user == null) {
+              connection.response.error = "User not found";
+              next(connection, true);
+            }
 
             api.mongo.plan.update({_id: planModel._id}, planModel.toObject(), {upsert: true}, function (err, plan) {
 
@@ -143,7 +148,8 @@ exports.save =
 
         });
 
-    });
+    }
+    , next);
 
     }
 

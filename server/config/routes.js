@@ -12,8 +12,9 @@ exports.default = {
 
       */
 
-  /*    get: [
-      ],*/
+      get: [
+        { path: '/plan/all', action: 'allPlans' }, // (GET) /api/plan/all
+      ],
       post: [
         // { path: '/login/:userID(^\\d{3}$)', action: 'login' } // (POST) /api/login/123
         { path: '/user/create', action: 'userCreate' }, // (POST) /api/user/create
