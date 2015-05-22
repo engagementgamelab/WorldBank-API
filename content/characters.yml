@@ -49,3 +49,26 @@
 # -------------
 # Zema
 # -------------
+
+# ============
+# I am not sure if these belong to a particular city. I needed to add these for phase 2. - Johnny
+# ============
+- symbol: dep_minister_of_health
+  display_name: Dep. Minister of Health
+  description: "description"
+
+- symbol: coach
+  display_name: Coach
+  description: "description"
+
+- symbol: third_party_verifier
+  display_name: Third Party Verifier
+  description: "description"
+
+- symbol: health_provider_1
+  display_name: Health Provider 1
+  description: "description"
+
+- symbol: health_provider_2
+  display_name: Health Provider 2
+  description: "description"

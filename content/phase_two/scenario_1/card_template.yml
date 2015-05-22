@@ -27,7 +27,7 @@ characters:
 
   coach:
     dialogue: "Duplicating efforts seems to be hampering the health providers. I'd either clarify everyone's roles for them, or empower health providers to push back somehow."
-    unlocks: ["separation of rolls", "give providers authority to push back"] # <--- these probably will symbols
+    unlocks: ["separation of rolls", authorize_push_back] # <--- these probably will symbols
 
   third_party_verifier:
     dialogue: "I didn't know about this. If the Ministry is doubling our verification efforts, it could prove very confusing to the providers."
