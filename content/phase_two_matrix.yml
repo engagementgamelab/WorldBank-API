@@ -1,0 +1,27 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Scenario Load-in Matrix
+# ==============
+
+pbc_yes:
+  hospital_autonomy_yes:
+    scenario_2:
+      option_1_yes: [card_a, card_b]
+      option_1_no: [card_c, card_d]
+      option_2_yes: [card_a, card_b]
+      option_2_no: [card_c, card_d]
+      option_3_yes: [card_a, card_b]
+      option_3_no: [card_c, card_d]
+      option_4_yes: [card_a, card_b]
+      option_4_no: [card_a, card_b]
+
+  hospital_autonomy_no: 
+    scenario_4
+
+pbc_no:
+  hospital_autonomy_yes:
+    scenario_1
+  hospital_autonomy_no:
+    scenario_3

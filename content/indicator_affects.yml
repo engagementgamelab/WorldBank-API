@@ -1,0 +1,16 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Indicator Affects
+# ==============
+
+indicator_affects_example_1:
+  indicator_1: -3
+  indicator_2: +2
+  indicator_3: 0
+
+indicator_affects_example_2:
+  indicator_1: 2
+  indicator_2: -1
+  indicator_3: 1
