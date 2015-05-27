@@ -13,7 +13,7 @@ Created by Engagement Lab, 2015
 /**
 * @class planModel
 * @example
-*	var Plan = require('../models/pan');
+*	var Plan = require('../models/plan');
 * @return Plan model
 */
 
@@ -23,7 +23,10 @@ var mongoose = require('mongoose');
 // create a schema
 var planSchema = new mongoose.Schema({
 
+  name: { type: String, required: true },
   unlocks: { type: Array, required: true },
+  pbc: { type: Boolean, required: true, default: false },
+  autonomy: { type: Boolean, required: true, default: false }
 
 });
 
@@ -38,4 +41,4 @@ planSchema.pre('validate', function(next) {
 
 // Create the Plan model
 var Plan = mongoose.model('Plan', planSchema);
-module.exports =  Plan;
+module.exports = Plan;

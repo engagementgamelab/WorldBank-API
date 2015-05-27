@@ -17,7 +17,6 @@ Created by Engagement Lab, 2015
 /**
 * @method getAll
 * @attribute POST
-* @type {form-data} form containing all required 
 * @required
 * @return {Object} All plan IDs if successful (200).
 * @throws {Object} Returns error if missing required field(s) or invalid data.
@@ -45,6 +44,45 @@ exports.getAll =
         plans.forEach(function(plan) {
           planIDs.push(plan._id);
         });
+
+        connection.response = planIDs;
+            
+        next(connection, true);
+
+      });
+
+    }
+
+};
+
+/**
+* @method save
+* @attribute POST
+* @required
+* @return {Object} All plan IDs if successful (200).
+* @throws {Object} Returns error if missing required field(s) or invalid data.
+*/
+exports.save = 
+{
+
+    name: 'save',
+    description: 'Saves the specified plan.',
+    blockedConnectionTypes: [],
+    outputExample: {},
+    matchExtensionMimeType: false,
+    version: 1.0,
+    toDocument: true,
+
+    inputs: {},
+
+    /* GET all plan IDs. */
+    run: function (api, connection, next) {
+
+      var dataInput = connection.rawConnection.params.body;
+
+      api.mongo.plan.findOne(dataInput.plan_id, function(err, plan) {
+
+        // plan
 
         connection.response = planIDs;
             

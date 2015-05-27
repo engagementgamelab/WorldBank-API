@@ -127,12 +127,18 @@ exports.action = {
 
                 // If a YAML file, load content
                 if(fileBaseName.substring(fileBaseName.indexOf(".")+1, fileBaseName.length) == "yml") {
-                 
-                  // Assign subcontents of this path
-                  if(parent.indexOf(child) !== -1)
-                    connection.response[fileBaseName.substring(0, fileBaseName.indexOf("."))] = loadYML(filePath);
-                  else
-                    fileResponse = loadYML(filePath);
+
+                  var ymlContent = loadYML(filePath);
+
+                  // Do not output file contents if marked as private (is used internally by API)
+                  if(ymlContent.private == undefined || !ymlContent.private)
+                  {
+                    // Assign subcontents of this path
+                    if(parent.indexOf(child) !== -1)
+                      connection.response[fileBaseName.substring(0, fileBaseName.indexOf("."))] = ymlContent;
+                    else
+                      fileResponse = ymlContent;
+                  }
                 
                 }
               }

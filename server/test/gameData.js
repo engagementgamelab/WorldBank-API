@@ -8,21 +8,23 @@ var url;
 
 describe('Action: Get Game Data', function(){
 
+  // Start AH
   before(function(done){
 
-    // Start AH
     actionHero.start(function(err, a){
       api = a;
-      url = 'http://localhost:' + api.config.servers.web.port + '/' + api.config.servers.web.urlPathForActions;
       done();
     })
+
   });
 
   // Kill AH
   after(function(done){
+
     actionHero.stop(function(err){
       done();
     });
+
   });
 
   // TEST: /api/gameData

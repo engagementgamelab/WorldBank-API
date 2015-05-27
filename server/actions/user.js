@@ -15,6 +15,8 @@ Created by Engagement Lab, 2015
 **/
 
 var crypto = require('crypto');
+var fs = require('fs');
+var YAML = require('yamljs');
 var redisPrefix = "__users-";
 
 var caluculatePassowrdHash = function(password, salt){
@@ -22,6 +24,18 @@ var caluculatePassowrdHash = function(password, salt){
 }
 var cacheKey = function(user){
   return redisPrefix + "id__" + user.id;
+}
+
+var assignUserScenario = function(plan) {
+
+  var matrixContent = fs.readFileSync("../content/phase_two_matrix.yml", "utf8");
+  var phaseTwoMatrix = YAML.parse(matrixContent);
+  var scenario = phaseTwoMatrix["pbc_" + plan.pbc]["autonomy_" + plan.autonomy];
+
+  console.log(scenario);
+
+  return scenario;
+
 }
 
 /**
@@ -116,7 +130,7 @@ exports.save =
 
         var dataInput = connection.rawConnection.params.body;
 
-        console.log(dataInput.user_id);
+        // console.log(dataInput);
 
         // Create a plan object to update inside user
         var planModel = new api.mongo.plan( 
@@ -155,6 +169,69 @@ exports.save =
 
 };
 
+/**
+* @method plan
+* @attribute POST
+* @type {form-data} form containing all required 
+* @required
+* @return {Object} Empty if successful (200).
+* @throws {Object} Returns error if missing required field(s) or invalid data.
+*/
+exports.scenario = 
+{
+
+    name: 'userAssignScenario',
+    description: 'Save a user.',
+    blockedConnectionTypes: [],
+    outputExample: {},
+    matchExtensionMimeType: false,
+    version: 1.0,
+    toDocument: true,
+
+    inputs:  {
+      required: ["user_id", "plan_id"]
+    },
+
+    /* GET game data. */
+    run: function (api, connection, next) {
+
+      api.session.checkAuth(connection, function(session) {
+
+        var dataInput = connection.rawConnection.params.body;
+         
+        api.mongo.user.findOne(dataInput.user_id, function (err, user) {
+      
+            if(user == null) {
+              connection.response.error = "User not found";
+              next(connection, true);
+            }
+
+            api.mongo.plan.findOne(dataInput.plan_id, function (err, plan) {
+
+              if (err) connection.response.error = err;
+
+              user.plan_id = plan._id;
+              connection.response.current_scenario = user.current_scenario = assignUserScenario(plan);
+
+              user.save(function (err, updatedUser) {
+                
+                if (err) connection.response.error = err;
+
+              });
+                  
+              next(connection, true);
+
+            });
+
+        });
+
+    }
+    , next);
+
+    }
+
+};
+
 exports.auth =
 {
   name: "userAuth",
@@ -173,8 +250,6 @@ exports.auth =
     var dataInput = connection.rawConnection.params.body;
 
     connection.response.auth = false;
-
-        console.log(dataInput.email);
 
     api.mongo.user.findOne({ 'email': dataInput.email }, '_id username password password_salt plan_id', function (err, user) {
 

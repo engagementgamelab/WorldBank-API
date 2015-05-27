@@ -30,7 +30,8 @@ var userSchema = new mongoose.Schema({
   location: { type: String, required: true },
   created_at: { type: Date, required: true },
   last_accessed: { type: Date, required: true },
-  plan_id: { type: Number, required: false }
+  plan_id: { type: String, required: false },
+  current_scenario: { type: String, required: false }
 });
 
 userSchema.pre('validate', function(next) {

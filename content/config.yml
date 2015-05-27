@@ -1,0 +1,12 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Content Configuration
+# ==============
+
+private: true
+
+cooldown:
+  short: [10s, 30s, 60s]
+  long: [120s, 200s, 350s]
