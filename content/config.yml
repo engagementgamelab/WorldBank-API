@@ -7,6 +7,7 @@
 
 private: true
 
+# All cooldowns are in seconds
 cooldown:
-  short: [10s, 30s, 60s]
-  long: [120s, 200s, 350s]
+  short: [5, 5, 10]
+  long: [120, 200, 350]

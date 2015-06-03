@@ -14,7 +14,7 @@ name: "Tactic card name"
 initiating_dialogue: "The manager of the voucher agency is concerned. We don’t know why at this point, but we’re not hitting our targets for voucher use. Do you want me to investigate this? Or shall we just observe for now?"
 
 investigate: "It's possible that people don't want the services for some reason. A more targeted information campaign could be of use. It also seems that people are having difficulty getting to hospitals. Here are our recommendations:"
-cooldown: #{cooldown_short}
+cooldown: $config_cooldown_short
 
 new_options:
   information_campaign: "Information Campaign"
