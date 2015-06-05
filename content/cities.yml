@@ -46,3 +46,10 @@
   enabled: false
   unlocked: false
   cost: 4
+
+- symbol: capitol
+  display_name: Capitol City
+  description: "About this city"
+  enabled: true
+  unlocked: true
+  cost: 1
