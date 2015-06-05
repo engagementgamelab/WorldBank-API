@@ -29,17 +29,57 @@ exports.action = {
     /* GET game data. */
     run: function (api, connection, next) {
 
-        var _fileOptions = {
-            root: "content",
-            filter: "yml",
-            encoding: "utf8"
-        };
-
         var fs = require('fs');
         var path = require('path')
         var dir = require('node-dir');
         var YAML = require('yamljs');
         var _ = require('underscore');
+
+        var _fileOptions = {
+            root: "content",
+            filter: "yml",
+            encoding: "utf8",
+            config: "config.yml"
+        };
+
+        // Load global content config
+        var contentConfig = loadYML("../" + _fileOptions.root + "/" + _fileOptions.config);
+
+        // Find the corresponding config value in our global content config file 
+        // if any of the YAML input has the "$config_" prefix
+        function findConfigValues(ymlValue) {
+            var ymlValueects = [];
+            
+            for (var i in ymlValue) {
+                
+                if (!ymlValue.hasOwnProperty(i)) continue;
+                else if (typeof ymlValue[i] == 'boolean' || typeof ymlValue[i] == 'number') continue;
+                else if (typeof ymlValue[i] == 'object') findConfigValues(ymlValue[i]); 
+
+                // Does this value access a config global?
+                else if (ymlValue[i].indexOf("$config_") !== -1) {
+                  
+                  var configPath = ymlValue[i].replace("$config_","").split("_");
+                  var configVal = contentConfig;
+                
+                  // Crawl through the config path until we have the correct value
+                  // eg. cooldown -> short
+                  _.each(configPath, function (pathKey) {
+                    
+                    if(configVal[pathKey] !== undefined)
+                      configVal = configVal[pathKey];
+
+                  });
+
+                  // Set this YAML val to be the config value that was found
+                  ymlValue[i] = configVal;
+
+                }
+
+            }
+
+            return ymlValue;
+        }
 
         // Parse YAML syntax given a file path, and throw exception on error
         function loadYML(filePath) {
@@ -85,9 +125,13 @@ exports.action = {
 
               // For all current sub-contents, check if each child is either a folder or file matching filter
               _.each(dirContents, function (subChild) {
-                  // Is this child a folder or matching file?
+
+                  // Is this child a folder or matching file (and is not our config file)?
                   var isFolder = subChild.indexOf(".") === -1;
                   var isMatchingFile = subChild.indexOf("." + _fileOptions.filter) !== -1;
+                  var isConfigFile = _fileOptions.config.indexOf(subChild) !== -1;
+
+                  if(isConfigFile) return;
 
                   // Determine if this file has sibling files with same filter type
                   var siblingMatchTest = dirContents.join(',').match(new RegExp(_fileOptions.filter, "g"));
@@ -120,9 +164,9 @@ exports.action = {
 
             }
             else {
-              
-              // Determine if file matches current filter
-              if (child.indexOf("." + _fileOptions.filter) !== -1)
+
+              // Determine if file matches current filter and is not our config file
+              if (child.indexOf("." + _fileOptions.filter) !== -1 && child != _fileOptions.config)
               {
 
                 // If a YAML file, load content
@@ -133,6 +177,9 @@ exports.action = {
                   // Do not output file contents if marked as private (is used internally by API)
                   if(ymlContent.private == undefined || !ymlContent.private)
                   {
+
+                    ymlContent = findConfigValues(ymlContent);
+
                     // Assign subcontents of this path
                     if(parent.indexOf(child) !== -1)
                       connection.response[fileBaseName.substring(0, fileBaseName.indexOf("."))] = ymlContent;

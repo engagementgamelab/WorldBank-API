@@ -7,14 +7,14 @@
 
 # Phase Two Scenario Card YML Example
 
-symbol: government_overreach_on_verification
+symbol: government_overreach_on_verification3
 name: "Government overreach on verification"
 priority: 1
 
 initiating_npc: provider_2 # <--- character's symbol
 initiating_dialogue: "Card 3"
 
-starting_options: [conference, comply_with_ministry]
+starting_options: [comply_with_ministry]
 starting_options_affects: [example_1, example_2]
 
 final_options: [comply_with_ministry, authorize_push_back, clarify_roles]

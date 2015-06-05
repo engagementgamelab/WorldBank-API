@@ -59,7 +59,7 @@ exports.getAll =
 * @method save
 * @attribute POST
 * @required
-* @return {Object} All plan IDs if successful (200).
+* @return {Object}
 * @throws {Object} Returns error if missing required field(s) or invalid data.
 */
 exports.save = 
