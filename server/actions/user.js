@@ -17,6 +17,7 @@ Created by Engagement Lab, 2015
 var crypto = require('crypto');
 var fs = require('fs');
 var YAML = require('yamljs');
+var _ = require('underscore');
 var redisPrefix = "__users-";
 
 var caluculatePassowrdHash = function(password, salt){
@@ -129,12 +130,34 @@ exports.save =
       api.session.checkAuth(connection, function(session) {
 
         var dataInput = connection.rawConnection.params.body;
+        var planInput = JSON.parse(dataInput.plan);
+        var unlockablesConfig = api.readYaml("unlockables.yml");
 
-        // console.log(dataInput);
+        var planGrade = function(inputTactics) {
+
+              var planScore = 14;
+
+              // TODO Math.abs(a - b)
+              // Get priority?
+              _.each(inputTactics, function (tactic_symbol) {
+
+                var tacticPriority = unlockablesConfig.filter(function(unlockable) {
+                    return unlockable.symbol == tactic_symbol;
+                })[0].priority;
+
+                console.log('tacticPriority: ' + tacticPriority)
+
+              });
+
+
+
+        }
+
+        planInput.score = planGrade(planInput.tactics);
 
         // Create a plan object to update inside user
         var planModel = new api.mongo.plan( 
-          dataInput.plan
+          planInput
         );
          
         api.mongo.user.findOne(dataInput.user_id, function (err, user) {

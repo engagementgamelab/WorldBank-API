@@ -32,24 +32,18 @@ exports.action = {
         var fs = require('fs');
         var path = require('path')
         var dir = require('node-dir');
-        var YAML = require('yamljs');
         var _ = require('underscore');
 
-        var _fileOptions = {
-            root: "content",
-            filter: "yml",
-            encoding: "utf8",
-            config: "config.yml"
-        };
+        // Get global config options
+        var _fileOptions = api.gameConfig.options;
 
         // Load global content config
-        var contentConfig = loadYML("../" + _fileOptions.root + "/" + _fileOptions.config);
+        var contentConfig = api.gameConfig.content;
 
         // Find the corresponding config value in our global content config file 
         // if any of the YAML input has the "$config_" prefix
         function findConfigValues(ymlValue) {
-            var ymlValueects = [];
-            
+          
             for (var i in ymlValue) {
                 
                 if (!ymlValue.hasOwnProperty(i)) continue;
@@ -81,26 +75,6 @@ exports.action = {
             return ymlValue;
         }
 
-        // Parse YAML syntax given a file path, and throw exception on error
-        function loadYML(filePath) {
-            try {
-                var data = undefined;
-
-                // Read file synchronously
-                var fileContent = fs.readFileSync(filePath, _fileOptions.encoding);
-                data = YAML.parse(fileContent);
-
-                return data;
-
-            } catch (err) {
-
-                // Error, throw
-                throw err;
-                return false;
-
-            }
-        }
-
         // Given a root path, recursively crawl all sub-folders and load content of any files matching current filter
         function loadFilesInPath(strFilepath, child, parent) {
 
@@ -126,10 +100,10 @@ exports.action = {
               // For all current sub-contents, check if each child is either a folder or file matching filter
               _.each(dirContents, function (subChild) {
 
-                  // Is this child a folder or matching file (and is not our config file)?
+                  // Is this child a folder or matching file (and is not our config settings file)?
                   var isFolder = subChild.indexOf(".") === -1;
                   var isMatchingFile = subChild.indexOf("." + _fileOptions.filter) !== -1;
-                  var isConfigFile = _fileOptions.config.indexOf(subChild) !== -1;
+                  var isConfigFile = _fileOptions.settings.indexOf(subChild) !== -1;
 
                   if(isConfigFile) return;
 
@@ -165,14 +139,14 @@ exports.action = {
             }
             else {
 
-              // Determine if file matches current filter and is not our config file
-              if (child.indexOf("." + _fileOptions.filter) !== -1 && child != _fileOptions.config)
+              // Determine if file matches current filter and is not our config settings file
+              if (child.indexOf("." + _fileOptions.filter) !== -1 && child != _fileOptions.settings)
               {
 
                 // If a YAML file, load content
-                if(fileBaseName.substring(fileBaseName.indexOf(".")+1, fileBaseName.length) == "yml") {
+                if(fileBaseName.substring(fileBaseName.indexOf(".")+1, fileBaseName.length) == _fileOptions.filter) {
 
-                  var ymlContent = loadYML(filePath);
+                  var ymlContent = api.readYaml(filePath);
 
                   // Do not output file contents if marked as private (is used internally by API)
                   if(ymlContent.private == undefined || !ymlContent.private)
@@ -197,7 +171,7 @@ exports.action = {
         }
 
         // Recursively find all files specified by filter and load into response
-        loadFilesInPath("../" + _fileOptions.root + "/", undefined, fs.readdirSync("../" + _fileOptions.root + "/"));
+        loadFilesInPath(_fileOptions.content_root + "/", undefined, fs.readdirSync(_fileOptions.content_root + "/"));
         next(connection, true);
 
     }
