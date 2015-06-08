@@ -9,23 +9,24 @@
 
 symbol: government_overreach_on_verification
 name: "Government overreach on verification"
-priority: 1
+priority: 1 # <--- configures the priority of this card within this scenario's sequence of cards
 
 initiating_npc: provider_2 # <--- character's symbol
 initiating_dialogue: "The ministry has asked us to send copies of all our reports to them for verification. I thought that was supposed to stop that and send only to the third party verifier? I guess I'm still a little confused."
 
 starting_options: [comply_with_ministry]
-starting_options_affects: [example_1, example_2]
+starting_options_affects: [example_1]
 
 final_options: [comply_with_ministry, authorize_push_back, clarify_roles]
-final_options_affects: [example_1, example_2, example_1]
+final_options_affects: [example_1, example_2, example_1] # <--- these are symbols for affects that will pull from indicator_affects.yml, which are global modifiers for player's indicators
 
 characters:
 
-  # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
+  # The below blocks contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
     dialogue: "We are very interested in making sure the providers are doing what they say, and we have the staff available to review, so why not?"
-    narrows: [third_party_verifier, coach] # <--- this probably will be a symbol
+    narrows: [third_party_verifier, coach] # <--- characters to remove from conference ability
+    # Each feedback dialogue correlates to the symbol for the option used
     feedback: 
       clarify_roles: "All right, I understand. I'll inform the staff here." # <--- symbol of the option used and the feedback text for it
 
