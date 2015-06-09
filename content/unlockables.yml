@@ -81,36 +81,36 @@
 # Specifying an unlock that does not exist here breaks the dialog tree. - Johnny, 5/5/15
 - symbol: unlockable_corruption_crackdown
   title: "Something"
-  description: "(pbc option)"
+  description: "something"
   unlocked: [malcom]
   type: professionalism
 
 - symbol: unlockable_hire_private_shipping_company
   title: "Something"
-  description: "(pbc option)"
+  description: "something"
   unlocked: [malcom]
   type: professionalism
 
 - symbol: unlockable_contract_ngo_to_administer_plan
   title: "Something"
-  description: "(pbc option)"
+  description: "something"
   unlocked: [malcom]
   type: professionalism
 
 - symbol: unlockable_route_malcom_to_kibari
   title: "Something"
-  description: "(pbc option)"
+  description: "something"
   unlocked: [malcom]
   type: professionalism
 
 - symbol: unlockable_fruit_1
   title: "Something"
-  description: "(pbc option)"
+  description: "something"
   unlocked: [malcom]
   type: professionalism
 
 - symbol: unlockable_plan_traveling_nurses
   title: "Something"
-  description: "(pbc option)"
+  description: "something"
   unlocked: [malcom]
   type: professionalism

@@ -103,9 +103,6 @@ exports.action = {
                   // Is this child a folder or matching file (and is not our config settings file)?
                   var isFolder = subChild.indexOf(".") === -1;
                   var isMatchingFile = subChild.indexOf("." + _fileOptions.filter) !== -1;
-                  var isConfigFile = _fileOptions.settings.indexOf(subChild) !== -1;
-
-                  if(isConfigFile) return;
 
                   // Determine if this file has sibling files with same filter type
                   var siblingMatchTest = dirContents.join(',').match(new RegExp(_fileOptions.filter, "g"));

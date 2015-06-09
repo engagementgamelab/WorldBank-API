@@ -27,18 +27,6 @@ var cacheKey = function(user){
   return redisPrefix + "id__" + user.id;
 }
 
-var assignUserScenario = function(plan) {
-
-  var matrixContent = fs.readFileSync("../content/phase_two_matrix.yml", "utf8");
-  var phaseTwoMatrix = YAML.parse(matrixContent);
-  var scenario = phaseTwoMatrix["pbc_" + plan.pbc]["autonomy_" + plan.autonomy];
-
-  console.log(scenario);
-
-  return scenario;
-
-}
-
 /**
 * @method userCreate
 * @attribute POST
@@ -131,28 +119,46 @@ exports.save =
 
         var dataInput = connection.rawConnection.params.body;
         var planInput = JSON.parse(dataInput.plan);
-        var unlockablesConfig = api.readYaml("unlockables.yml");
 
+        var unlockablesConfig = api.readYaml("unlockables.yml");
+        var planKeysConfig = api.gameConfig.content.plan.scoring_keys;
+
+        // Score the plan
         var planGrade = function(inputTactics) {
 
-              var planScore = 14;
+          var planScore = 14;
+          var optionIndex = 0;
 
-              // TODO Math.abs(a - b)
-              // Get priority?
-              _.each(inputTactics, function (tactic_symbol) {
+          _.each(inputTactics, function (tactic_symbol) {
 
-                var tacticPriority = unlockablesConfig.filter(function(unlockable) {
-                    return unlockable.symbol == tactic_symbol;
-                })[0].priority;
+            // Get the priority of this tactic
+            var tacticPriority = unlockablesConfig.filter(function(unlockable) {
+                return unlockable.symbol == tactic_symbol;
+            })[0].priority;
 
-                console.log('tacticPriority: ' + tacticPriority)
+            // If no priority, default to 0
+            if(tacticPriority === undefined)
+              tacticPriority = 0;
 
-              });
+            // Calculate reduction for total score
+            var scoreReduction = Math.abs(tacticPriority - planKeysConfig[optionIndex]);
 
+            // console.log(tacticPriority + " - " + planKeysConfig[optionIndex])
+            // console.log(Math.abs(tacticPriority - planKeysConfig[optionIndex]))
 
+            planScore -= scoreReduction;
+
+            optionIndex++;
+
+          });
+
+          // console.log("planScore: " + planScore);
+
+          return planScore;
 
         }
 
+        // Calculate the plan's score ("grade")
         planInput.score = planGrade(planInput.tactics);
 
         // Create a plan object to update inside user
@@ -218,6 +224,25 @@ exports.scenario =
     /* GET game data. */
     run: function (api, connection, next) {
 
+      var assignUserScenario = function(plan) {
+
+        // Obtain scenario filtering flags and the scenario assignment matrix
+        var scenarioFilters = api.gameConfig.content.plan.scenario_filters;
+        var phaseTwoMatrix = api.gameConfig.content.plan.assignment_matrix;
+
+        // Determine which filtering flags the plan meets
+        var hasPbc = plan.tactics.indexOf(scenarioFilters.pbc) !== -1;
+        var hasAutonomy = plan.tactics.indexOf(scenarioFilters.autonomy) !== -1;
+
+        // Assignment of scenario via matrix
+        var scenarioName = phaseTwoMatrix["pbc_" + hasPbc]["autonomy_" + hasAutonomy];
+
+        console.log(scenarioName);
+
+        return scenarioName;
+
+      }
+
       api.session.checkAuth(connection, function(session) {
 
         var dataInput = connection.rawConnection.params.body;
@@ -235,6 +260,7 @@ exports.scenario =
 
               user.plan_id = plan._id;
               connection.response.current_scenario = user.current_scenario = assignUserScenario(plan);
+              connection.response.tactics = plan.tactics;
 
               user.save(function (err, updatedUser) {
                 

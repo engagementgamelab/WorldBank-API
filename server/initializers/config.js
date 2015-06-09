@@ -51,6 +51,7 @@ module.exports = {
 
     }
 
+    // Store global config for API-wide usage
     api.gameConfig = {
 
       // Load global content config
