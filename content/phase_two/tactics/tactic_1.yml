@@ -8,7 +8,7 @@
 # Phase Two Tactic YML Example
 
 symbol: tactic_card_1
-tactic_name: unlockable_use_ngo
+tactic_name: unlockable_more_autonomy
 name: "Tactic card name"
 
 initiating_dialogue: "The manager of the voucher agency is concerned. We don’t know why at this point, but we’re not hitting our targets for voucher use. Do you want me to investigate this? Or shall we just observe for now?"
@@ -26,5 +26,3 @@ feedback:
   information_campaign: "I'll contact the providers and let them know they must do more to explain their services."
   increase_budget: "I will make the arrangements. Hopefully there are enough nurses available to fill the new positions..."
   observe: "OK, we'll wait and see if anything changes."
-
-results: "This is what I found out!"

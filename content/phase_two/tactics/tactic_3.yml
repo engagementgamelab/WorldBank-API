@@ -8,7 +8,7 @@
 # Phase Two Tactic YML Example
 
 symbol: tactic_card_1
-tactic_name: unlockable_incentivise_improvement
+tactic_name: unlockable_voucher_management
 name: "Tactic card name"
 
 initiating_dialogue: "The manager of the voucher agency is concerned. We don’t know why at this point, but we’re not hitting our targets for voucher use. Do you want me to investigate this? Or shall we just observe for now?"

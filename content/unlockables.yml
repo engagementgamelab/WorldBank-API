@@ -12,8 +12,9 @@
 #   - "First info player sees when unlocked"
 #   - "Text player sees if 'unlocked' a second time"
 #   - "Text player sees if 'unlocked' a third time"
-# unlocked_by: Array of NPC symbols. These NPCs are how player can unlock this unlockable. 
+# unlocked_by: Array of NPC symbols. These NPCs are how player can unlock this unlockable (may not use this). 
 # priority: (1-3) Priority of this unlockable, when used in a plan; matches up with master key. If left undefined, will be 0 (no points).
+# type: TBD (do we need this?) 
 
 - symbol: unlockable_incentivise_improvement
   title: "incentivise improvement in patient/provider relations"
@@ -31,6 +32,16 @@
     - "More info"
     - "More more info"
   title: "Incentivising health providers to follow standard protocols (quality of care)"
+  priority: 1
+  type: quality_of_care
+
+- symbol: unlockable_more_autonomy
+  description:
+    - "Info"
+    - "More info"
+    - "More more info"
+  title: "Give providers more autonomy to procure supplies or personnel"
+  priority: 1
   type: professionalism
 
 - symbol: unlockable_use_ngo
@@ -39,40 +50,67 @@
   unlocked: [malcom, "Jo-Jones", professor]
   type: professionalism
 
+- symbol: unlockable_outreach_campaign
+  description:
+    - "Info"
+    - "More info"
+    - "More more info"
+  title: "Outreach campaign to promote and provide public health services"
+  priority: 2
+  type: professionalism
+
+- symbol: unlockable_awareness_campaign
+  description:
+    - "Info"
+    - "More info"
+    - "More more info"
+  title: "Awareness raising campaign to explain how the new system works."
+  priority: 3
+  type: professionalism
+
+- symbol: unlockable_voucher_management
+  description:
+    - "Info"
+    - "More info"
+    - "More more info"
+  title: "Contract a voucher management agency to provide poorest community members with service vouchers (health strategy)"
+  priority: 2
+  type: health
+
 # I am adding the below as they are referenced in dialog files.
 # Specifying an unlock that does not exist here breaks the dialog tree. - Johnny, 5/5/15
 - symbol: unlockable_corruption_crackdown
   title: "Something"
-  description: "(pbc option)"
+  description: "something"
   unlocked: [malcom]
   type: professionalism
 
 - symbol: unlockable_hire_private_shipping_company
   title: "Something"
-  description: "(pbc option)"
+  description: "something"
   unlocked: [malcom]
   type: professionalism
 
 - symbol: unlockable_contract_ngo_to_administer_plan
   title: "Something"
-  description: "(pbc option)"
+  description: "something"
   unlocked: [malcom]
   type: professionalism
 
 - symbol: unlockable_route_malcom_to_kibari
   title: "Something"
-  description: "(pbc option)"
+  description: "something"
   unlocked: [malcom]
   type: professionalism
 
 - symbol: unlockable_fruit_1
   title: "Something"
-  description: "(pbc option)"
+  description: "something"
   unlocked: [malcom]
   type: professionalism
 
 - symbol: unlockable_plan_traveling_nurses
   title: "Something"
-  description: "(pbc option)"
+  description: "something"
   unlocked: [malcom]
   type: professionalism

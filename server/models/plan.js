@@ -24,9 +24,10 @@ var mongoose = require('mongoose');
 var planSchema = new mongoose.Schema({
 
   name: { type: String, required: true },
-  unlocks: { type: Array, required: true },
-  pbc: { type: Boolean, required: true, default: false },
-  autonomy: { type: Boolean, required: true, default: false }
+  tactics: { type: Array, required: true },
+  score: { type: Number, required: true, default: 10 }
+  // pbc: { type: Boolean, required: true, default: false },
+  // autonomy: { type: Boolean, required: true, default: false }
 
 });
 

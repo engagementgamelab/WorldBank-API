@@ -5,7 +5,36 @@
 # Content Configuration
 # ==============
 
-private: true
+private: false
+
+# Configurables for plan logic
+plan:
+
+  # Plan scenario-filtering tactics
+  scenario_filters: 
+    autonomy: unlockable_more_autonomy
+    pbc: unlockable_use_ngo
+
+  # Plan starting score
+  starting_score: 14
+
+  # Plan priorities
+  scoring_keys: [3, 3, 2, 2, 2, 1]
+
+  # Scenario assignment filtering
+  assignment_matrix:
+    pbc_true:
+      autonomy_true:
+        scenario_2
+
+      autonomy_false: 
+        scenario_4
+
+    pbc_false:
+      autonomy_true:
+        scenario_1
+      autonomy_false:
+        scenario_3
 
 # All cooldowns are in seconds
 cooldown:
