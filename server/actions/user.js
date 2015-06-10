@@ -76,8 +76,6 @@ exports.create = {
           
           if (err) 
             connection.response = err;
-
-          console.log(newUser);
     
           next(connection, true);
         
@@ -118,10 +116,13 @@ exports.save =
       api.session.checkAuth(connection, function(session) {
 
         var dataInput = connection.rawConnection.params.body;
-        var planInput = JSON.parse(dataInput.plan);
+        var planInput = dataInput.plan;
 
         var unlockablesConfig = api.readYaml("unlockables.yml");
+        var gradingConfig = api.readYaml("grading.yml");
         var planKeysConfig = api.gameConfig.content.plan.scoring_keys;
+
+        var gradeInfo = null;
 
         // Score the plan
         var planGrade = function(inputTactics) {
@@ -135,6 +136,11 @@ exports.save =
             var tacticPriority = unlockablesConfig.filter(function(unlockable) {
                 return unlockable.symbol == tactic_symbol;
             })[0].priority;
+
+            // Get the grading info for the plan score
+            gradeInfo = gradingConfig.filter(function(grade) {
+                return grade.score.indexOf(planScore) !== -1;
+            })[0];
 
             // If no priority, default to 0
             if(tacticPriority === undefined)
@@ -154,18 +160,21 @@ exports.save =
 
           // console.log("planScore: " + planScore);
 
-          return planScore;
+          // Output the score and plan info
+          return { score: planScore, grade_info: gradeInfo };
 
         }
 
         // Calculate the plan's score ("grade")
-        planInput.score = planGrade(planInput.tactics);
+        var finalPlanGrade = planGrade(planInput.tactics);
+        planInput.score = finalPlanGrade.score;
 
         // Create a plan object to update inside user
         var planModel = new api.mongo.plan( 
           planInput
         );
          
+        // Find specified user
         api.mongo.user.findOne(dataInput.user_id, function (err, user) {
       
             if(user == null) {
@@ -173,17 +182,24 @@ exports.save =
               next(connection, true);
             }
 
-            api.mongo.plan.update({_id: planModel._id}, planModel.toObject(), {upsert: true}, function (err, plan) {
+            // Save the plan
+            planModel.save(function(err) {
 
               if (err) connection.response.error = err;
 
-              user.plan_id = plan._id;
+              // Associate this plan w/ the uer
+              user.plan_id = planModel._id;
 
               user.save(function (err, updatedUser) {
                 
                 if (err) connection.response.error = err;
 
               });
+
+              // Output grading info
+              connection.response.score = finalPlanGrade.score;
+              connection.response.grade = finalPlanGrade.grade_info.grade;
+              connection.response.description = finalPlanGrade.grade_info.description;
                   
               next(connection, true);
 
@@ -236,8 +252,6 @@ exports.scenario =
 
         // Assignment of scenario via matrix
         var scenarioName = phaseTwoMatrix["pbc_" + hasPbc]["autonomy_" + hasAutonomy];
-
-        console.log(scenarioName);
 
         return scenarioName;
 
