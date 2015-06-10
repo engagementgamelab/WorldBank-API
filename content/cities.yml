@@ -10,6 +10,7 @@
   description: "Malcom [sic] is the line between more urbanized city environment and traditional farmland. The Train station runs between Mile and the Capital, and there is a ferry that departs to Valeria once a day. "
   enabled: true
   unlocked: true
+  npc_interactions: 3
   cost: 3
 
 - symbol: kibari
@@ -17,6 +18,7 @@
   description: "Home to the prolific traditional medicine provider (Mr. Todd), this is a bustling city that isn’t as large as Zema or Malcom, but is still the center of trade and commerce for the smaller villages and towns in the central area of the region."
   enabled: true
   unlocked: false
+  npc_interactions: 4
   cost: 4
 
 - symbol: valeria
@@ -24,6 +26,7 @@
   description: "About this city"
   enabled: false
   unlocked: false
+  npc_interactions: 2
   cost: 4
 
 - symbol: crup
@@ -31,6 +34,7 @@
   description: "Accessed initially from the Capital, Crup is a plantation-like farming village that has a deep divide between the high class owners and the workers on the plantations."
   enabled: true
   unlocked: true
+  npc_interactions: 4
   cost: 4
 
 - symbol: mile
@@ -38,13 +42,15 @@
   description: "Positioned as a poor yet peaceful place in the mountainous southern region of the land, Mile shows many types of unique farm animals. People sustain themselves through farming the land, and value freedom and autonomy above all. Even though they are the poorest, there is a spiritual connection to their homes and the beauty of the location itself lends to a majority of content people."
   enabled: false
   unlocked: false
+  npc_interactions: 2
   cost: 2
 
 - symbol: zema
   display_name: Zema
-  description: "About this city"
+  description: "Zema is a skin cleanser marketed by Unilever. It contains camphor, menthol, phenol and eucalyptus, among other ingredients. Originally developed as a sunburn remedy, it is popular among women as a facial cleanser and make-up remover. It can also be used for cleaning chapped, sunburned, or otherwise irritated skin."
   enabled: false
   unlocked: false
+  npc_interactions: 4
   cost: 4
 
 - symbol: capitol
@@ -52,4 +58,5 @@
   description: "About this city"
   enabled: true
   unlocked: true
+  npc_interactions: 0
   cost: 1
