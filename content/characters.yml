@@ -34,6 +34,26 @@
 # Crup
 # -------------
 
+symbol: plantation_owner
+  display_name: Plantation Owner
+  description: "A well-dressed woman stands observing the plantation. She has evidently just come from the larger plantation house up the path."
+ 
+ symbol: clinician
+  display_name: Clinician
+  description: "A tired looking man with a stethoscope around his neck stands in the doorway of the clinic. He appears to be a doctor of some sort."
+  
+  symbol: patient
+  display_name: Patient
+  description: "A patient sits on a chair on the deck of the clinic, waiting for her turn to be seen."
+  
+  symbol: old-men-gaming
+  display_name: Old Men Gaming
+  description: "A pair of older men sit under the shade of a palm, playing some sort of tile-laying game. The gaming set is finely crafted from polished wood, but seems old and well worn. They chat as they play."
+
+symbol: mech_farmer
+  display_name: Mech Farmer
+  description: "A man leans up against a large piece of advanced farming equipment smoking a cigarette. It looks like he’s taking a break."
+
 # -------------
 # Mile
 # -------------
@@ -46,10 +66,41 @@
 # Valeria
 # -------------
 
+symbol: airship_pilot
+  display_name: Airship Pilot
+  description: "A woman fidgets with her flight suit, tightening a loose strap and pulling her zipper a little higher. She appears to be in her late 20s, and preparing to depart soon via airship."
+
+symbol: spoiled_twins
+  display_name: Spoiled Twins
+  description: "A young man and woman, probably in their late teens, seem to be waiting to board an airship. They look very much alike. Probably they are brother and sister. Perhaps even twins."
+
+symbol: grandmother_with_toddler
+  display_name: Grandmother with Toddler
+  description: "An older woman stand with a young boy, probably her grandson. They seem a trifle lost."
+
+symbol: nomad
+  display_name: Nomad
+  description: "A man sits, tuning his harp. Haven’t you seen him somewhere before?"
+
 # -------------
 # Zema
 # -------------
-
+symbol: hospital_administrator
+  display_name: Hospital Administrator
+  description: "A woman you recognize as the hospital administrator sits at her desk, going over some of the day's paperwork."
+  
+  symbol: doctor
+  display_name: Doctor
+  description: "A middle aged man is examining a medical chart of some kind. You recognize him as a doctor both by his attire and his nametag, \“Dr. Notega.\”" 
+  
+  symbol: patient
+  display_name: Patient
+  description: "A woman sits in the waiting room, staring into space. Either she is waiting for her turn to see the doctor, or here with someone who is currently being examined." 
+  
+  symbol: foreign_traveler
+  display_name: Foreign Traveler
+  description: "Her assortment of luggage marks this woman as a traveller, and her clothes and attitude tell you she is foreign. Where could she be going?" 
+  
 # ============
 # I am not sure if these belong to a particular city. I needed to add these for phase 2. - Johnny
 # ============
