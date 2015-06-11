@@ -11,7 +11,6 @@
   enabled: true
   unlocked: true
   npc_interactions: 3
-  cost: 3
 
 - symbol: kibari
   display_name: Kibari
@@ -19,7 +18,6 @@
   enabled: true
   unlocked: false
   npc_interactions: 4
-  cost: 4
 
 - symbol: valeria
   display_name: Valeria
@@ -27,7 +25,6 @@
   enabled: false
   unlocked: false
   npc_interactions: 2
-  cost: 4
 
 - symbol: crup
   display_name: Crup
@@ -35,7 +32,6 @@
   enabled: true
   unlocked: true
   npc_interactions: 4
-  cost: 4
 
 - symbol: mile
   display_name: Mile
@@ -43,7 +39,6 @@
   enabled: false
   unlocked: false
   npc_interactions: 2
-  cost: 2
 
 - symbol: zema
   display_name: Zema
@@ -51,7 +46,6 @@
   enabled: false
   unlocked: false
   npc_interactions: 4
-  cost: 4
 
 - symbol: capitol
   display_name: Capitol City
@@ -59,4 +53,3 @@
   enabled: true
   unlocked: true
   npc_interactions: 0
-  cost: 1
