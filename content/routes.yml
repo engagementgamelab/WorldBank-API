@@ -1,3 +1,78 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Route Definitions
+# ==============
+
 - symbol: malcom_to_kibari
+  city1: malcom
+  city2: kibari
   enabled: true
   cost: 3
+
+- symbol: capitol_to_malcom
+  city1: capitol
+  city2: malcom
+  enabled: true
+  cost: 2
+
+- symbol: capitol_to_crup
+  city1: capitol
+  city2: malcom
+  enabled: true
+  cost: 1
+
+- symbol: crup_to_kibari
+  city1: crup
+  city2: kibari
+  enabled: false
+  cost: 2
+
+- symbol: malcom_to_valeria
+  city1: malcom
+  city2: valeria
+  enabled: false
+  cost: 1
+
+- symbol: malcom_to_kibari
+  city1: malcom
+  city2: kibari
+  enabled: false
+  cost: 2
+
+- symbol: malcom_to_mile
+  city1: malcom
+  city2: kibari
+  enabled: false
+  cost: 2
+
+- symbol: valeria_to_zema
+  city1: valeria
+  city2: zema
+  enabled: false
+  cost: 1
+
+- symbol: zema_to_kibari
+  city1: zema
+  city2: kibari
+  enabled: true
+  cost: 3
+
+- symbol: kibari_to_crup
+  city1: kibari
+  city2: crup
+  enabled: false
+  cost: 3
+
+- symbol: kibari_to_mile
+  city1: kibari
+  city2: crup
+  enabled: false
+  cost: 1
+
+- symbol: mile_to_zema
+  city1: mile
+  city2: zema
+  enabled: true
+  cost: 2
