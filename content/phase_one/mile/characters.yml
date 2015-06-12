@@ -76,7 +76,26 @@ symbol: mech_farmer
 # -------------
 # Kibari
 # -------------
-
+symbol: mrtodd
+  display_name: Mr. Todd
+  description: "An older man stands in front of a grand domicile. He grins broadly, gesturing emphatically as he speaks to a young woman who is clearly a customer of his. \“Burn this incense before you sleep,\” you hear him say, \“every night for one month. No more and no less.\” The woman looks happy, and very grateful."
+  
+  symbol: teenager
+  display_name: Teenager
+  description: "A young woman looking to be in her teens kicks a stone down the road. You notice a rolled up flyer in her pocket that seems to be some sort of a \“help wanted\” notice."
+  
+  symbol: nomad
+  display_name: Nomad
+  description: "This man is clearly a merchant of some sort, with wares from all over Zariba. He calls out to people on the street, \“Fresh fruit from Mile! Cigars from Crup! Technology from the Capitol! I have it all!\”"
+  
+  symbol: herder
+  display_name: Herder
+  description: "A herder is wrangling a small flock of flightless birds toward the market, taking care that none wander off. You notice a medallion around his neck that looks familiar to you. Many people in this area seem to be wearing them."
+  
+  symbol: nomad
+  display_name: Nomad
+  description: "A short man sits in the shade, tuning what looks like a harp. Haven’t you seen him somewhere before?"
+  
 # -------------
 # Valeria
 # -------------

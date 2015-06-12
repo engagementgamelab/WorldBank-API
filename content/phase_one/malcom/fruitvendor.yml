@@ -17,13 +17,13 @@ character: fruit_vendor
 #   unlocks: route_to_kibari <-- this is a symbol we'll store in another "abilities" file so its display text can be easily tweaked globally.
 dialogue:
     Initial:
-      text: "<i>Fresh fruit!</i> she says as you approach. <i>Only the best, grown by local [[farmers]]. Try the berries! They are my [[daughter]]’s favorite.</i> She hands you a sample. <i>No charge,</i> she says."
+      text: "\"Fresh fruit!\" she says as you approach. \"Only the best, grown by local [[farmers]]. Try the berries! They are my [[daughter]]’s favorite.\" She hands you a sample. \"No charge,\" she says.\""
       unlocks: unlockable_fruit_1
 
     Farmers: 
-      text: "You ask about the farmers who grew the fruit. The woman replies in a rehearsed tone. <i>Very hardworking people. Very poor, but who needs money when you can eat what you grow? I live in the city, so I have to sell fruit to make ends meet and support my family.</i>"
+      text: "You ask about the farmers who grew the fruit. The woman replies in a rehearsed tone. \"Very hardworking people. Very poor, but who needs money when you can eat what you grow? I live in the city, so I have to sell fruit to make ends meet and support my family.\""
       unclocks: unlockable_plan_service_vouchers
 
     Daughter: 
-      text: "<i>My daughter? She is just three, and the cutest girl you have ever seen,</i> the fruit seller beams. <i>Her grandmother is watching her so I can sell fruit here in the market. I support all three of us.</i> When you ask about the girl’s vaccinations, the woman shrugs. <i>Who has time to travel to a hospital? Keeping her fed is more important.</i>"
+      text: "\"My daughter? She is just three, and the cutest girl you have ever seen,\" the fruit seller beams. \"Her grandmother is watching her so I can sell fruit here in the market. I support all three of us.\" When you ask about the girl’s vaccinations, the woman shrugs. \"Who has time to travel to a hospital? Keeping her fed is more important.\""
       unlocks: unlockable_plan_traveling_nurses

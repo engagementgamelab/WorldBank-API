@@ -17,9 +17,9 @@ character: malcolm
 #   unlocks: route_to_kibari <-- this is a symbol we'll store in another "abilities" file so its display text can be easily tweaked globally.
 dialogue:
     Initial:
-      text: "\"Oh, hello,\” the woman says. \“This airship port wasn’t here the last time I came to this town, so it’s a little confusing. We’re visiting here for a little bit. My [[grandson]] always wanted to see the sand palaces.\""
+      text: "\"Oh, hello,\" the woman says. \"This airship port wasn’t here the last time I came to this town, so it’s a little confusing. We’re visiting here for a little bit. My [[grandson]] always wanted to see the sand palaces.\""
     Grandson: 
-      text: "When you inquire about her grandson’s health, she seems a little unsure. \“I think he is vaccinated,\” she says, \“but I don’t really care for these hospitals. When I went, the nurse was very rude to me. He made me feel unwelcomed, and I had to argue with a doctor about getting a prescription for my little one.\""
+      text: "When you inquire about her grandson’s health, she seems a little unsure. \"I think he is vaccinated,\" she says, \"but I don’t really care for these hospitals. When I went, the nurse was very rude to me. He made me feel unwelcomed, and I had to argue with a doctor about getting a prescription for my little one.\""
           unlocks: costumer_service
     Prescription: 
       text: "\"I don’t remember exactly what the doctor said, but he kept saying that he did not need antibiotics. When I finally got him to write me a prescription, I felt like he wrote it just to shut me up. He didn’t seem to care, you know?\""

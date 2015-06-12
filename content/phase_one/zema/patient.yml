@@ -17,10 +17,9 @@ character: patient
 #   unlocks: route_to_kibari <-- this is a symbol we'll store in another "abilities" file so its display text can be easily tweaked globally.
 dialogue:
     Initial:
-      text: "She seems surprised when you sit down to talk with her. She explains that it cost her [[a lot of money]] to get here, but it was necessary since her headaches don’t go away. 
-\“I have more money [[than most]],\” she continues, \“so I should be thankful, I suppose. I got vaccinations for my son, and the doctor said he is too skinny, so they gave me some protein bars.\""
+      text: "She seems surprised when you sit down to talk with her. She explains that it cost her [[a lot of money]] to get here, but it was necessary since her headaches don’t go away.\n\"I have more money [[than most]],\" she continues, \"so I should be thankful, I suppose. I got vaccinations for my son, and the doctor said he is too skinny, so they gave me some protein bars.\""
     A Lot of Money: 
-      text: "\“Would you believe it? The train cost me more than the medicine!\""
+      text: "\"Would you believe it? The train cost me more than the medicine!\""
             unlocks: outreach
     Than Most: 
       text: "\"Most of my neighbors can’t afford even simple health services like vaccinations or doctors appointments.\""
