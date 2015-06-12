@@ -45,7 +45,9 @@ exports.create = {
     version: 1.0,
     toDocument: true,
 
-    inputs: [],
+    inputs: {
+      required: ["username", "password", "email"]
+    },
 
     /* GET game data. */
     run: function (api, connection, next) {
@@ -75,14 +77,13 @@ exports.create = {
         newUser.save(function(err) {
           
           if (err) 
-            connection.response = err;
+            connection.error = err;
     
           next(connection, true);
         
         });
       
       }
-        
 
     }
 };
