@@ -1,0 +1,62 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Problem YAML
+# ==============
+
+# Phase Two Scenario Card YML Example
+
+symbol: Inconsistent_Indicators
+name: "Inconsistent Indicators"
+priority: 7
+
+initiating_npc: Dep_Minister_of_Health # <--- character's symbol
+initiating_dialogue: "We are seeing some indicators rise while others stay stagnant. Hospital births are barely rising, though checkups and vaccinination rates are improving. We need to see all indicators rising!"
+
+starting_options: 
+starting_options_affects: 
+starting_options_cost: 
+
+final_options: [Hire_More_Outreach_Staff, Raise_Incentives_For_Faciliity_Births, Review_Indicators_at_End_of_Year]
+final_options_affects: [Hire_More_Outreach_Staff, Raise_Incentives_For_Faciliity_Births, Review_Indicators_at_End_of_Year]
+final_options_cost: [large, large, medium]
+
+
+characters:
+
+  # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
+  Dep_Minister_of_Health: # <--- character's symbol
+  
+
+  Director_Regional_Health_Services:
+    dialogue: "I suggest hiring more outreach staff to operate in facilities near these settlements."
+    Unlocks: [Hire_More_Outreach_Staff]
+    Unlocks_affects: [Hire_More_Outreach_Staff]
+    feedback:
+    Hire_More_Outreach_Staff: "This makes a good deal of sense to me."
+
+  Coach:
+    dialogue: "We've tried many strategies to improve stagnant indicators. Perhaps the indicators need to be reviewed at the end of the year?"
+    Unlocks: [Review_Indicators_at_End_of_Year]
+    Unlocks_affects: [Review_Indicators_at_End_of_Year]
+    feedback:
+    Review_Indicators_at_End_of_Year: "It might make sense to revise goals down, or at the very least, perform another survey to make sure our population estimates were correct."
+
+  Third_Party_Verifier:
+    dialogue: "Are you concerned about fraud? I haven't seen direct evidence of it."
+
+  Community_Verifier:
+    dialogue: "People here are still reluctant to travel to facillities."
+   
+
+  Clininic_Manager:
+    dialogue: "I admit, we haven't seen as many facility births as we'd like. We're doing everything we can to change that."
+    
+  Hospital_Administrator:
+    dialogue: "Vaccinations are easier to manage. Births take more planning. More resources are likely required to make this work."
+    Unlocks: [Raise_Incentives_For_Faciliity_Births]
+    Unlocks_affects: [Raise_Incentives_For_Faciliity_Births]
+    feedback:
+    Raise_Incentives_For_Faciliity_Births: "That will make this a good deal easier for us."
+
