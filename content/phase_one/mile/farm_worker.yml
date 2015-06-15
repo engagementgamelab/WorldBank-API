@@ -21,11 +21,11 @@ dialogue:
     
     Family: 
       text: "\"I have two sons and a daughter, a husband and a brother,\" she explains. When you ask about their health care, she shrugs, looking a little guilty. \"I barely have time to do what needs doing here, you know? Between doing my work and taking care of basic needs, who has time to think about health care, let alone visit a hospital? Taking care of basics like food and water, and a roof that does not leak is far more important. Besides, some people are [[scared]] of the hospitals.\""
-          unlocks: cct
+      unlocks: cct
     Pride: 
       text: "\"I guess I am proud of it,\" she smiles. \"My family has farmed this land for generations. Soon my children will be old enough to contribute, and carry our family on to the next generation. This makes me very happy. It’s not just about feeding ourselves.\""
       unlocks: unlockable_corruption_crackdown
       
-      Scared: 
+    Scared: 
       text: "She looks a little unsure. \"I don’t know. People are worried about visiting them for some reason. There are rumors, you know? You hear things.\" When you press her on what she’s heard, she just shakes her head - she seems nervous. \"Things!\" she repeats."
-          unlocks: Conversation in Kibari with Mr. Todd.
+      unlocks: Conversation in Kibari with Mr. Todd.

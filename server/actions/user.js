@@ -150,16 +150,11 @@ exports.save =
             // Calculate reduction for total score
             var scoreReduction = Math.abs(tacticPriority - planKeysConfig[optionIndex]);
 
-            // console.log(tacticPriority + " - " + planKeysConfig[optionIndex])
-            // console.log(Math.abs(tacticPriority - planKeysConfig[optionIndex]))
-
             planScore -= scoreReduction;
 
             optionIndex++;
 
           });
-
-          // console.log("planScore: " + planScore);
 
           // Output the score and plan info
           return { score: planScore, grade_info: gradeInfo };

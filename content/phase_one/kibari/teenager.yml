@@ -20,6 +20,6 @@ dialogue:
       text: "She extends a hand for you to shake as you come nearer. When you ask her what she thinks about hospitals, she seems mostly positive on them. \"I would go to a hospital if something was wrong with me,\" she says. \"But I’m healthy, thank goodness. A lot of other people seem to [[distrust]] the hospitals though, especially in [[this area]].\""
     Distrust: 
       text: "\"Well,\" she says, \"It is simple enough. The medicine is foreign. The hospitals are far away, and when you get there, you are treated by strangers. It is just unfamiliar, and people distrust what is not familiar. Perhaps if these hospitals hired more people from this area, that would help. People might be more willing to go to them if they could count on seeing friendly faces. And besides, we could use the work around here.\""
-          unlocks: hire_nurses_from_the_highlands
+      unlocks: hire_nurses_from_the_highlands
     This Area: 
       text: "\"You must know where you are. We are in the heart of the highlands. People here are used to doing things the old way. That means Mr. Todd.\" She points to the lavish domicile further along the road where a well-dressed man stands."

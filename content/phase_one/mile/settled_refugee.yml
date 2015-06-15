@@ -22,6 +22,6 @@ dialogue:
       text: "\"Some people miss the old regime,\" he says, \"but they never did anything for me, you know? Democracy is fine. Honestly, I can’t even tell the difference.\" He fans himself with the news magazine and finishes his thought. \"Some people disagree, and wish they could go back. But most don’t care.\""
     Landslide: 
       text: "\"It was so terrible,\” he says. \"Unless you have seen one, it is hard to describe. The entire village was just gone. Many people died. I lost family members. I feel lucky that I was [[able to make it]] here, and was accepted and given hospitality, even though people here do not have much. They gave all they could and more.\""
-      Able to Make it: 
+    Able to Make it: 
       text: "He nods and explains how travel is very difficult unless you can afford to buy a train ticket. \"And few can! If you can’t afford a ticket, you must walk along the tracks, and it is very dangerous. Recently, someone died making the trip to Zima, and now no one even tries it unless they are desperate, you know?\""
       unlocks: outreach
