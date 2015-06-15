@@ -11,13 +11,13 @@
   enabled: true
   cost: 3
 
-- symbol: capitol_to_malcom
+- symbol: capital_to_malcom
   city1: capitol
   city2: malcom
   enabled: true
   cost: 2
 
-- symbol: capitol_to_crup
+- symbol: capital_to_crup
   city1: capitol
   city2: malcom
   enabled: true
