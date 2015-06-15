@@ -40,7 +40,7 @@ characters:
 
   Third_Party_Verifier:
     feedback: 
-    Help_Build_Capacity: " I will strengthen on the spot training during the verification for them to see the mistakes they are making."
+      Help_Build_Capacity: " I will strengthen on the spot training during the verification for them to see the mistakes they are making."
 
   Community_Verifier:
     dialogue: "My team has had no issue keeping records. I wonder what the issue is at the clinics?"
@@ -50,7 +50,7 @@ characters:
     dialogue: "The reports we submitted are correct, I can give you my word on that. The problem is we do not have the time and resources needed to keep and collect all the records required."
     unlocks: [Help_Build_Capacity]
     unlocks_affects: [Help_Build_Capacity_1]
-      feedback:
+    feedback:
       Hold_Payments: "We will improve things next quarter."
       authorize_push_back: "We can hardly pay staff as it is! Many patients will go untreated because of this."
 

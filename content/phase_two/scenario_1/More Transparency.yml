@@ -36,8 +36,8 @@ characters:
 
   Coach:
     feedback:
-    Terminate_Contract_at_End_of_Year: "II will warn them that their contract is in danger of being terminated at the end of the year."
-    capacity_building: "I feel like I've been doing this for a year already, but let's see if we can't make some progress"
+      Terminate_Contract_at_End_of_Year: "II will warn them that their contract is in danger of being terminated at the end of the year."
+      capacity_building: "I feel like I've been doing this for a year already, but let's see if we can't make some progress"
 
   Third_Party_Verifier:
     dialogue: "Their record keeping has been spotty as well, though it has improved since last year."
@@ -50,8 +50,8 @@ characters:
     Unlocks: [capacity_building]
     Unlocks_affects: [capacity_building]
     feedback: 
-    Audit: "Very well, I'll clear some time. I'd be interested to hear your suggestions on improving things."
-    Warning: "I'll try to make my staff more available next time."
+      Audit: "Very well, I'll clear some time. I'd be interested to hear your suggestions on improving things."
+      Warning: "I'll try to make my staff more available next time."
 
   Hospital_Administrator:
     dialogue: "I haven't been having this problem, so I'm not sure what to tell you."

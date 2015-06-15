@@ -36,8 +36,8 @@ characters:
 
   Coach:
     feedback: 
-    revise_business_plan: " I will schedule a meeting this week with the purchasing agency and begin the revision proccess for next quarter."
-    Sanctions_and_retraining_on_use_of_financial_tools: "I'll make some time this week for a retraining session and try to drill down on exactly how these tools should be used. I'm informing the regulator about the sanctions now."
+      revise_business_plan: " I will schedule a meeting this week with the purchasing agency and begin the revision proccess for next quarter."
+      Sanctions_and_retraining_on_use_of_financial_tools: "I'll make some time this week for a retraining session and try to drill down on exactly how these tools should be used. I'm informing the regulator about the sanctions now."
 
   Third_Party_Verifier:
     dialogue: "If i had to guess, I would say this is simple mismanagement, nothing fraudulent." 
@@ -52,5 +52,5 @@ characters:
   Hospital_Administrator:
     dialogue: "We need to spend money where it's needed, and as the adminsitrator of this hospital, I know where it is needed. That was the purpose of granting us automony in the first place."
     feedback: 
-    Warning: "I will do my best, but I I'm really worried things are going to start breaking down soon."
+      Warning: "I will do my best, but I I'm really worried things are going to start breaking down soon."
 

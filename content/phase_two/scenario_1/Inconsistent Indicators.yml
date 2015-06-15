@@ -34,14 +34,14 @@ characters:
     Unlocks: [Hire_More_Outreach_Staff]
     Unlocks_affects: [Hire_More_Outreach_Staff]
     feedback:
-    Hire_More_Outreach_Staff: "This makes a good deal of sense to me."
+      Hire_More_Outreach_Staff: "This makes a good deal of sense to me."
 
   Coach:
     dialogue: "We've tried many strategies to improve stagnant indicators. Perhaps the indicators need to be reviewed at the end of the year?"
     Unlocks: [Review_Indicators_at_End_of_Year]
     Unlocks_affects: [Review_Indicators_at_End_of_Year]
     feedback:
-    Review_Indicators_at_End_of_Year: "It might make sense to revise goals down, or at the very least, perform another survey to make sure our population estimates were correct."
+      Review_Indicators_at_End_of_Year: "It might make sense to revise goals down, or at the very least, perform another survey to make sure our population estimates were correct."
 
   Third_Party_Verifier:
     dialogue: "Are you concerned about fraud? I haven't seen direct evidence of it."
@@ -58,5 +58,5 @@ characters:
     Unlocks: [Raise_Incentives_For_Faciliity_Births]
     Unlocks_affects: [Raise_Incentives_For_Faciliity_Births]
     feedback:
-    Raise_Incentives_For_Faciliity_Births: "That will make this a good deal easier for us."
+     Raise_Incentives_For_Faciliity_Births: "That will make this a good deal easier for us."
 

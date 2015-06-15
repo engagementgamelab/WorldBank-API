@@ -1,0 +1,58 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Problem YAML
+# ==============
+
+# Phase Two Scenario Card YML Example
+
+symbol: Budget_Lines
+name: "Budget Lines"
+priority: 10
+
+initiating_npc: Hospital_Administrator # <--- character's symbol
+initiating_dialogue: "I received a memo today going over the new national health budget. The ministry has released new hiring guidelines for all providers, but it does not match our goals."
+
+starting_options: [comply_with_ministry_request]
+starting_options_affects: [comply_with_ministry_request]
+starting_options_cost: [small]
+
+final_options: [comply_with_ministry_request, clarify_separation_of_functions/roles_and_responsibilities, Revise_business_plan]
+final_options_affects: [comply_with_ministry_request, clarify_separation_of_functions/roles_and_responsibilities2, Revise_business_plan]
+final_options_cost: [small, small, medium]
+
+
+characters:
+
+  # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
+  Dep_Minister_of_Health: # <--- character's symbol
+    dialogue: "Our own monitors have found mismanagement of funds. They need strict guidelines to provide the necessary services."
+    Narrows: [Dep_Minister_of_Health, Director_Regional_Health_Services, coach, Community_Verifier]
+    Feedback:
+      clarify_separation_of_functions: "This is within the scope of regulation, which is my role. But if you think it's essential, we will step back on this."
+
+  Director_Regional_Health_Services:
+    dialogue: "If the Ministry is claiming this is necessary, I would take it seriously. A compromise might be to re-work the business plan with Ministry oversight."
+    unlocks: [Revise_business_plan]
+
+  Coach:
+    dialogue: "I have found some mismanagement of funds in the past as well. However, we are supposed to be granting autonomy."
+    unlocks: [clarify_separation_of_functions/roles_and_responsibilities]
+
+  Third_Party_Verifier:
+    dialogue: "I have noticed some inconsistencies in the data that indicate to me some funds are being mismanaged."
+
+  Community_Verifier:
+    dialogue: "I don't understand the need for these new guidelines, but then again, I am not working in the hospital."
+
+  Clininic_Manager:
+    dialogue: "I need to be able to hire whoever is needed. This is a return to the status quo that I do not agree with."
+      unlocks: [clarify_separation_of_functions/roles_and_responsibilities]
+
+  Hospital_Administrator:
+    Feedback:
+      Revise_business_plan: " I don't believe this will be constructive, but I'm willing to try."
+      comply_with_ministry_request: " If you insist..."
+      sanctions: "I just put in orders for new equipment. Now I won't be able to afford to pay for them. I think you are talking this too far. It was an honest mistake."
+    

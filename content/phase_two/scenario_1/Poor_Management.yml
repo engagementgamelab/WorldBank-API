@@ -35,7 +35,7 @@ characters:
 
   Coach:
     feedback: 
-    Terminate_Contract_Effective_End_of_Year: "It seems early to terminate their contract, but let's review at year's end. In the meantime, I will be observing and offering ways to improve."
+      Terminate_Contract_Effective_End_of_Year: "It seems early to terminate their contract, but let's review at year's end. In the meantime, I will be observing and offering ways to improve."
 
   Third_Party_Verifier:
     dialogue: "The data we've been seeing from this provider does indicate fund mismanagement." 
@@ -51,4 +51,4 @@ characters:
   Hospital_Administrator:
     dialogue: "We're doing our best here.  There are many intricacies to the business plan, and not everyone on my staff understands them. I'm sure they'll get used to it soon, though."
     feedback: 
-    Warning_and_Retraining: "Do you really think this is necessary?"
+      Warning_and_Retraining: "Do you really think this is necessary?"
