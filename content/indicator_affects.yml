@@ -1,0 +1,89 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Indicator Affects
+# ==============
+
+
+
+Option_Cost: Small=0
+Option_Cost: Medium=1
+Option_Cost: Large=2
+
+Comply_with_Ministry_1:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: -1
+
+
+Authorize_providers_to_take_action_at_their_level_1:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: 0
+
+Clarify_Separation_of_Functions/Resonsibilities_1:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +2
+
+Hold_Paments_1:
+  indicator_1: +0
+  indicator_2: +0
+  indicator_3: +1
+
+
+
+Help_Build_Capacity_1:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +2
+
+
+Sanctions_1:
+  indicator_1: 0
+  indicator_2: -1
+  indicator_3: +1
+
+Warning_and_retraining:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +1
+
+ Terminate_Contract_Effective_End_of_Year_1:
+  indicator_1: -4
+  indicator_2: -6
+  indicator_3: -5
+
+
+rminate_Contract_Effective_End_of_Year_2:
+  indicator_1: -2
+  indicator_2: -4
+  indicator_3: -3
+
+Ask_Purchasing_Agency_to_Revise_Business_Plan_to_Incldue_Regular_Meetings:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +2
+
+Warning_1:
+  indicator_1: +1
+  indicator_2: 0
+  indicator_3: +1
+
+Warning_2:
+  indicator_1: +1
+  indicator_2: 0
+  indicator_3: +1
+
+  Revise_Business_Plan:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+  Sanctions_and_retraining_on_use_of_financial_tools:
+  indicator_1: +2
+  indicator_2: +1
+  indicator_3: +1
+
+  
