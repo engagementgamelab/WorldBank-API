@@ -114,8 +114,8 @@ exports.action = {
 
                       var fileResponse = loadFilesInPath(filePath, subChild, parent);
   
-                      // if(fileResponse != false)
-                      //   connection.response[subChild] = loadFilesInPath(filePath, subChild, parent);
+                      if(fileResponse != false)
+                        connection.response[subChild] = loadFilesInPath(filePath, subChild, parent);
                     }
                   }
 
