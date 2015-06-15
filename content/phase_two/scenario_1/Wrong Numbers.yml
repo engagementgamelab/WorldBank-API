@@ -7,19 +7,19 @@
 
 # Phase Two Scenario Card YML Example
 
-symbol: More_Transparency
-name: "More Transparency"
-priority: 8
+symbol: Wrong_Numbers
+name: "Wrong Numbers"
+priority: 9
 
-initiating_npc: Coach # <--- character's symbol
-initiating_dialogue: "I was visiting one of the clinics in the network for my mentoring visit, and I was unhappy with their transparency. There were some records I was told were unavailable, and I was not able to meet with the staff as I wished."
+initiating_npc: Third_Party_Verifier # <--- character's symbol
+initiating_dialogue: "I have been reviewing the Hospital Administrator's records, and they do not check out. There is either fraud or accidental misreporting here."
 
-starting_options: [warning, terminate_contract_at_end_of_year]
-starting_options_affects: [warning_4, terminate_contract_at_end_of_year_3]
-starting_options_cost: [small, medium]
+starting_options: [warning, sanctions]
+starting_options_affects: [warning_5, sanctions_3]
+starting_options_cost: [small, small, medium]
 
-final_options: [warning, terminate_contract_at_end_of_year, audit, capacity_building]
-final_options_affects: [warning_4, terminate_contract_at_end_of_year_3, audit, capacity_building]
+final_options: [warning, sanctions, hold_meeting_to_retrain_on_reporting_practices]
+final_options_affects: [warning_5, sanctions_3, hold_meeting_to_retrain_on_reporting_practices]
 final_options_cost: [small, medium, medium, medium]
 
 
@@ -27,32 +27,28 @@ characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   Dep_Minister_of_Health: # <--- character's symbol
-    dialogue: "I was under the impression that the plan required transparency."
+    dialogue: "If needed, I could suspend their lisence to practice, but I don't think it will come to that."
 
   Director_Regional_Health_Services:
-    dialogue: "This has gone far enough. We should order a total audit of all their practices."
-    Unlocks: [Audit]
-    Unlocks_affects: [audit]
+    dialogue: "I've had some communication issues with the Hospital Adminstrator in the past, but I believe he is honest. You should talk to him directly to see what the problem is."
+    narrows: [Dep_Minister_of_Health, Director_Regional_Health_Services, Third_Party_Verifier, Community_Verifier, Clininic_Manager]
 
   Coach:
-    feedback:
-    Terminate_Contract_at_End_of_Year: "II will warn them that their contract is in danger of being terminated at the end of the year."
-    capacity_building: "I feel like I've been doing this for a year already, but let's see if we can't make some progress"
+    dialogue: "This is the first time we've seen this behavior from the Hospital Administrator. I'd recommend a warning."
 
   Third_Party_Verifier:
-    dialogue: "Their record keeping has been spotty as well, though it has improved since last year."
 
   Community_Verifier:
-    dialogue: "I would talk to the provider directly on this matter."
+    dialogue: "The sample I surveyed does not align with the numbers you say they reported. Very suspicious."
 
   Clininic_Manager:
-    dialogue: "We are simply over worked here, and have little time for meetings when our patients are sick and already have long waits. The Coach should be helping us build capacity, not draining our capacity."
-    Unlocks: [capacity_building]
-    Unlocks_affects: [capacity_building]
-    feedback: 
-    Audit: "Very well, I'll clear some time. I'd be interested to hear your suggestions on improving things."
-    Warning: "I'll try to make my staff more available next time."
+    dialogue: "I don't think the hospital should get preferential treatment over my clinics. Treat them just as you would treat us."
 
   Hospital_Administrator:
-    dialogue: "I haven't been having this problem, so I'm not sure what to tell you."
+    dialogue: "I think my staff is confused about what to report. Frankly, I myself have been confused at times!"
+    Unlocks: [hold_meeting_to_retrain_on_reporting_practices]
+    Feedback:
+      hold_meeting_to_retrain_on_reporting_practices: " I think that will probably help. Let me know when works for you and I'll clear some time."
+      warning: "I'll talk to my staff and try to settle this."
+      sanctions: "I just put in orders for new equipment. Now I won't be able to afford to pay for them. I think you are talking this too far. It was an honest mistake."
     

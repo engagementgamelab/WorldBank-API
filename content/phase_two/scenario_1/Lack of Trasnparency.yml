@@ -39,7 +39,7 @@ characters:
 
   Third_Party_Verifier:
     feedback: 
-    Warning: "I'll warn them. Hopefully we will see some improvement next quarter."
+      Warning: "I'll warn them. Hopefully we will see some improvement next quarter."
 
   Community_Verifier:
     dialogue: "That sounds pretty suspicious."
@@ -47,9 +47,9 @@ characters:
 
   Clininic_Manager:
     dialogue: "I told my staff to start keeping better records. I can talk to them again and stress its importance..."
-     feedback: 
-    Mild_Sanctions: "Our budget has been wearing thin as it is! I will have to fire staff because of this."
-    Strong_Sanctions: "This is a disaster! For such a small error? I will have to fire staff because of this, and will not be able to order needed supplies."
+    feedback: 
+      Mild_Sanctions: "Our budget has been wearing thin as it is! I will have to fire staff because of this."
+      Strong_Sanctions: "This is a disaster! For such a small error? I will have to fire staff because of this, and will not be able to order needed supplies."
 
   Hospital_Administrator:
     dialogue: "Don't go too hard on them. These clinics do good work."

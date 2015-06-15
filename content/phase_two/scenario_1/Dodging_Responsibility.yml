@@ -39,7 +39,7 @@ characters:
 
   Coach:
     feedback: 
-    Terminate_Contract_Effective_End_of_Year: "That's pretty drastic. Let's discuss this at the end of the year. I'll make it clear to them they are on notice."
+      Terminate_Contract_Effective_End_of_Year: "That's pretty drastic. Let's discuss this at the end of the year. I'll make it clear to them they are on notice."
 
   Third_Party_Verifier:
     dialogue: "That does sound suspicious. I'll be looking carefully at their records this quarter." 
@@ -51,8 +51,8 @@ characters:
   Clininic_Manager:
     dialogue: "I think you underestimate just how busy we have been with outreach and patient care. We are not a large staff, and our time is very precious. Maybe next month things will be slower."
     feedback: 
-    Warning: "I'm sure I'll have some time next quarter once our busiest time dies down."
-    Ask_Purchasing_Agency_to_Revise_Business_Plan_to_Incldue_Regular_Meetings: "That will be extremely dicey. We are tight on time as it is. I'll see what I can do, though."
+     Warning: "I'm sure I'll have some time next quarter once our busiest time dies down."
+      Ask_Purchasing_Agency_to_Revise_Business_Plan_to_Incldue_Regular_Meetings: "That will be extremely dicey. We are tight on time as it is. I'll see what I can do, though."
 
   Hospital_Administrator:
     dialogue: "I've observed the clinics we're talking about a number of times, and there's never enough time and money to go around."
