@@ -26,11 +26,10 @@ characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   Dep_Minister_of_Health: # <--- character's symbol
-    dialogue: "We are very interested in making sure the providers are doing what they say, and we have the staff available to review, so why not?""
-"
-    narrows: [dep_minister_of_health, director_regional_health_services, community_manater, Hospital_Administrator, clinic_manager] # <--- this probably will be a symbol
-    feedback: 
-      Clarify_Separation_of_Functions/Resonsibilities: "All right, I understand. I'll inform the staff here." # <--- symbol of the option used and the feedback text for it
+  dialogue: "We are very interested in making sure the providers are doing what they say, and we have the staff available to review, so why not?"
+  narrows: [dep_minister_of_health, director_regional_health_services, community_manater, Hospital_Administrator, clinic_manager] # <--- this probably will be a symbol
+  feedback: 
+    Clarify_Separation_of_Functions/Resonsibilities: "All right, I understand. I'll inform the staff here." # <--- symbol of the option used and the feedback text for it
 
   Director_Regional_Health_Services:
     dialogue: "I know the Minister of Health fairly well, and I can tell you that things go more smoothly if you're cooperative."
