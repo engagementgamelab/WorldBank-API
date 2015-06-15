@@ -7,11 +7,11 @@
 
 # Phase Two Scenario Card YML Example
 
-symbol: Wrong_Numbers
+symbol: wrong_numbers
 name: "Wrong Numbers"
 priority: 9
 
-initiating_npc: Third_Party_Verifier # <--- character's symbol
+initiating_npc: third_party_verifier # <--- character's symbol
 initiating_dialogue: "I have been reviewing the Hospital Administrator's records, and they do not check out. There is either fraud or accidental misreporting here."
 
 starting_options: [warning, sanctions]
@@ -31,7 +31,7 @@ characters:
 
   Director_Regional_Health_Services:
     dialogue: "I've had some communication issues with the Hospital Adminstrator in the past, but I believe he is honest. You should talk to him directly to see what the problem is."
-    narrows: [Dep_Minister_of_Health, Director_Regional_Health_Services, Third_Party_Verifier, Community_Verifier, Clininic_Manager]
+    narrows: [dep_minister_of_health, director_regional_health_services, third_party_verifier, community_verifier, clininic_manager]
 
   Coach:
     dialogue: "This is the first time we've seen this behavior from the Hospital Administrator. I'd recommend a warning."

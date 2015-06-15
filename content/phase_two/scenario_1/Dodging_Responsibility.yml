@@ -14,12 +14,12 @@ priority: 4
 initiating_npc: Coach # <--- character's symbol
 initiating_dialogue: "I requested a meeting with the Clinic Manager recently to go over their record-keeping practices, but it keeps getting rescheduled and canceled. I can't get a firm commitment from them. It is a little suspicious, frankly."
 
-starting_options: [Warning]
-starting_options_affects: [Warning_1]
+starting_options: [warning]
+starting_options_affects: [warning_1]
 starting_options_cost: [small]
 
-final_options: [Warning, Revise_business_plan_to_include_regular_meetings, Terminate_Contract_Effective_End_of_Year]
-final_options_affects: [Warning_1, Revise_business_plan_to_include_regular_meetings_1, Terminate_Contract_Effective_End_of_Year_2]
+final_options: [warning, revise_business_plan_to_include_regular_meetings, terminate_contract_effective_end_of_year]
+final_options_affects: [warning_1, revise_business_plan_to_include_regular_meetings_1, terminate_contract_effective_end_of_year_2]
 final_options_cost: [small, large,]
 
 
@@ -28,14 +28,14 @@ characters:
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   Dep_Minister_of_Health: # <--- character's symbol
     dialogue: "There are other health providers in the region we could use. It seems this one is becoming more difficult to work with. It might be worth discussing their contract with the purchasing agency."
-    Unlocks: [Terminate_Contract_Effective_End_of_Year]
-    Unlocks_affects: [Terminate_Contract_Effective_End_of_Year_2]
+    Unlocks: [terminate_contract_effective_end_of_year]
+    Unlocks_affects: [terminate_contract_effective_end_of_year_2]
 
 
   Director_Regional_Health_Services:
     dialogue: "I have experienced similar problems with this provider. It is hard to schedule their time. More regular meeting times might help."
-    Unlocks: [Revise_Business_Plan_to_Include_Regular_Meetings]
-    Unlocks_affects: [Revise_Business_Plan_to_Incldue_Regular_Meetings_1]
+    Unlocks: [revise_business_plan_to_include_regular_meetings]
+    Unlocks_affects: [revise_business_plan_to_incldue_regular_meetings_1]
 
   Coach:
     feedback: 

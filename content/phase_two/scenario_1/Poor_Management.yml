@@ -7,19 +7,19 @@
 
 # Phase Two Scenario Card YML Example
 
-symbol: Poor_Management
+symbol: poor_management
 name: "Poor Management"
 priority: 3
 
-initiating_npc: Third_Party_Verifier # <--- character's symbol
+initiating_npc: third_party_verifier # <--- character's symbol
 initiating_dialogue: "The Clinic submitted their reports to us, but there were some inconsistancies. When we asked to see their records, they could not supply them."
 
-starting_options: [Warning_and_Retraining, Terminate_Contract_Effective_End_of_Year]
-starting_options_affects: [Warning_and_retraining_1, Terminate_Contract_Effective_End_of_Year_1]
+starting_options: [warning_and_retraining, terminate_contract_effective_end_of_year]
+starting_options_affects: [warning_and_retraining_1, terminate_contract_effective_end_of_year_1]
 starting_options_cost: [small, large]
 
-final_options: [Warning_and_Retraining, Terminate_Contract_Effective_End_of_Year]
-final_options_affects: [Warning_and_retraining_1, Terminate_Contract_Effective_End_of_Year_1]
+final_options: [warning_and_retraining, terminate_contract_effective_end_of_year]
+final_options_affects: [warning_and_retraining_1, terminate_contract_effective_end_of_year_1]
 final_options_cost: [small, large,]
 
 

@@ -7,11 +7,11 @@
 
 # Phase Two Scenario Card YML Example
 
-symbol: Budget_Lines
+symbol: budget_lines
 name: "Budget Lines"
 priority: 10
 
-initiating_npc: Hospital_Administrator # <--- character's symbol
+initiating_npc: hospital_administrator # <--- character's symbol
 initiating_dialogue: "I received a memo today going over the new national health budget. The ministry has released new hiring guidelines for all providers, but it does not match our goals."
 
 starting_options: [comply_with_ministry_request]
@@ -28,13 +28,13 @@ characters:
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   Dep_Minister_of_Health: # <--- character's symbol
     dialogue: "Our own monitors have found mismanagement of funds. They need strict guidelines to provide the necessary services."
-    Narrows: [Dep_Minister_of_Health, Director_Regional_Health_Services, coach, Community_Verifier]
+    Narrows: [dep_minister_of_health, director_Regional_health_services, coach, community_verifier]
     Feedback:
       clarify_separation_of_functions: "This is within the scope of regulation, which is my role. But if you think it's essential, we will step back on this."
 
   Director_Regional_Health_Services:
     dialogue: "If the Ministry is claiming this is necessary, I would take it seriously. A compromise might be to re-work the business plan with Ministry oversight."
-    unlocks: [Revise_business_plan]
+    unlocks: [revise_business_plan]
 
   Coach:
     dialogue: "I have found some mismanagement of funds in the past as well. However, we are supposed to be granting autonomy."
