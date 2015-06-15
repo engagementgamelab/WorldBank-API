@@ -11,15 +11,15 @@ symbol: bad_record_keeping
 name: "Bad Record Keeping"
 priority: 2
 
-initiating_npc: Third_Party_Verifier # <--- character's symbol
+initiating_npc: third_party_berifier # <--- character's symbol
 initiating_dialogue: "The Clinic submitted their reports to us, but there were some inconsistancies. When we asked to see their records, they could not supply them."
 
-starting_options: [Hold_Payments]
-starting_options_affects: [Hold_Payments_1]
+starting_options: [hold_payments]
+starting_options_affects: [hold_payments_1]
 starting_options_cost: [small]
 
-final_options: [Hold_Payments, Help_Build_Capacity, Sanctions]
-final_options_affects: [Hold_Payments_1, Help_Build_Capacity_1, Sanctions_1]
+final_options: [hold_payments, help_build_capacity, sanctions]
+final_options_affects: [hold_payments_1, help_build_capacity_1, sanctions_1]
 final_options_cost: [small, medium, small]
 
 
@@ -28,12 +28,12 @@ characters:
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   Dep_Minister_of_Health: # <--- character's symbol
     dialogue: "If they are not following the rules, they should not be paid. A penalty may also be in order."
-     unlocks: [Sanctions]
-     unlocks_affects: [Sanctions_1]
+    unlocks: [sanctions]
+    unlocks_affects: [sanctions_1]
 
   Director_Regional_Health_Services:
     dialogue: "All providers in my region shoud know the requirements for keeping records. Something must be wrong. I'd talk to them."
-    narrows: [dep_minister_of_health, director_regional_health_services, community_manater, Third_Party_Verifier, Coach] # <--- these probably will symbols
+    narrows: [dep_minister_of_health, director_regional_health_services, community_manater, third_party_verifier, coach] # <--- these probably will symbols
 
   Coach:
     dialogue: "I don't know why they aren't keeping records. When I spoke with them last, they said everything was fine and they didn't want my help."
@@ -48,8 +48,8 @@ characters:
 
   Clininic_Manager:
     dialogue: "The reports we submitted are correct, I can give you my word on that. The problem is we do not have the time and resources needed to keep and collect all the records required."
-    unlocks: [Help_Build_Capacity]
-    unlocks_affects: [Help_Build_Capacity_1]
+    unlocks: [help_build_capacity]
+    unlocks_affects: [help_build_capacity_1]
     feedback:
       Hold_Payments: "We will improve things next quarter."
       authorize_push_back: "We can hardly pay staff as it is! Many patients will go untreated because of this."

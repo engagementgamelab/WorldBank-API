@@ -7,19 +7,19 @@
 
 # Phase Two Scenario Card YML Example
 
-symbol: Mismanagement
+symbol: mismanagement
 name: "Mismanagement"
 priority: 5
 
-initiating_npc: Coach # <--- character's symbol
+initiating_npc: coach # <--- character's symbol
 initiating_dialogue: "I was visiting the hospital for my mentoring visit, and they are still mismanaging funds. The business plan has clear guidlelines the Adminstrator is not sticking to."
 
-starting_options: [Warning, Sanctions_and_retraining_on_use_of_financial_tools]
-starting_options_affects: [Warning_2, Sanctions_and_retraining_on_use_of_financial_tools]
+starting_options: [warning, sanctions_and_retraining_on_use_of_financial_tools]
+starting_options_affects: [warning_2, sanctions_and_retraining_on_use_of_financial_tools]
 starting_options_cost: [small, medium]
 
-final_options: [Warning, Sanctions_and_retraining_on_use_of_financial_tools, revise_business_plan]
-final_options_affects: [Warning_2, Sanctions_and_retraining_on_use_of_financial_tools, revise_business_plan_1]
+final_options: [warning, sanctions_and_retraining_on_use_of_financial_tools, revise_business_plan]
+final_options_affects: [warning_2, sanctions_and_retraining_on_use_of_financial_tools, revise_business_plan_1]
 final_options_cost: [small, medium, medium]
 
 
