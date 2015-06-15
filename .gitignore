@@ -1,26 +1,7 @@
 .DS_Store
 .DS_Store?
-
-WorldBank-API.sublime-workspace
-
-WorldBank-API.sublime-project
+*.sublime-*
 
 content/problems/phase.sh
-
 server/node_modules/
-
 server/public/docs/
-
-content/indicator_affects.yml
-
-.DS_Store
-
-content/indicator_affects.yml
-
-content/.DS_Store
-
-content/phase_one/.DS_Store
-
-content/phase_two/.DS_Store
-
-.DS_Store
