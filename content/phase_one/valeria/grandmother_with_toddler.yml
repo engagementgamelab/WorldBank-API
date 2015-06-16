@@ -6,9 +6,8 @@
 # ==============
 
 # A character interactable
-symbol: malcolm_test
-character: malcolm
-
+symbol: grandmother_with_toddler
+character: Grandmother With Toddler
 # DIALOGUE FORMAT:
 # - Initial: First dialogue player sees after reading character_description.
 # ====> Use double-bracket notation for words or phrases that, if tapped, unlock subsequent tree 

@@ -6,7 +6,7 @@
 # ==============
 
 # A character interactable
-symbol: capitalcityprofessor_dialogue
+symbol: capital_city_professor
 character: capital_city_professor
 
 # DIALOGUE FORMAT:

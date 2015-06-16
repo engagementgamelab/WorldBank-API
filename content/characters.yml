@@ -46,7 +46,7 @@
   display_name: Patient
   description: "A patient sits on a chair on the deck of the clinic, waiting for her turn to be seen."
   
-- symbol: old-men-gaming
+- symbol: old_men_gaming
   display_name: Old Men Gaming
   description: "A pair of older men sit under the shade of a palm, playing some sort of tile-laying game. The gaming set is finely crafted from polished wood, but seems old and well worn. They chat as they play."
 

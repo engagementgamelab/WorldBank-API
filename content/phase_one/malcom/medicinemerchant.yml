@@ -6,7 +6,7 @@
 # ==============
 
 # A character interactable
-symbol: medicinemerchant_dialogue
+symbol: medicine_merchant
 character: medicine_merchant
 
 

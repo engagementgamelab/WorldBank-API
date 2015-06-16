@@ -6,7 +6,7 @@
 # ==============
 
 # A character interactable
-symbol: fruitvendor_dialogue
+symbol: fruit_vendor
 character: fruit_vendor
 
 # DIALOGUE FORMAT:
