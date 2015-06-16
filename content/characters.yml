@@ -34,22 +34,107 @@
 # Crup
 # -------------
 
+- symbol: plantation_owner
+  display_name: Plantation Owner
+  description: "A well-dressed woman stands observing the plantation. She has evidently just come from the larger plantation house up the path."
+ 
+- symbol: clinician
+  display_name: Clinician
+  description: "A tired looking man with a stethoscope around his neck stands in the doorway of the clinic. He appears to be a doctor of some sort."
+  
+- symbol: patient
+  display_name: Patient
+  description: "A patient sits on a chair on the deck of the clinic, waiting for her turn to be seen."
+  
+- symbol: old-men-gaming
+  display_name: Old Men Gaming
+  description: "A pair of older men sit under the shade of a palm, playing some sort of tile-laying game. The gaming set is finely crafted from polished wood, but seems old and well worn. They chat as they play."
+
+- symbol: mech_farmer
+  display_name: Mech Farmer
+  description: "A man leans up against a large piece of advanced farming equipment smoking a cigarette. It looks like he’s taking a break."
+
 # -------------
 # Mile
 # -------------
-
+- symbol: farm_worker
+  display_name: Farm Worker
+  description: "A woman that looks to be in her thirties crouches down among rows of fresh crops, harvesting the land’s bounty. Her movements are precise and efficient, like she has been doing this her whole life. She hums softly to herself as she works in rhythm with her motions. The only adornment on her otherwise spartan attire is a small, shabby locket dangling from her neck."
+  
+- symbol: settled_refugee
+  display_name: Settled Refugee
+  description: "You see a man in his forties reading a news magazine in the shade, slight perspiration beading along his receding hairline. The magazine looks like one from the newsstand at the train station, perhaps dropped by a careless traveler some time ago."
+  
+- symbol: midwife
+  display_name: Midwife
+  description: "A middle-aged woman walks down the path from the train station. She looks preoccupied by something, and perhaps a little angry. She carries medical texts with her, including a volume on midwifery."
+  
+- symbol: nomad
+  display_name: Nomad
+  description: "A short man sits in the shade, tuning what looks like a harp. Haven’t you seen him somewhere before?"
+  
 # -------------
 # Kibari
 # -------------
-
+- symbol: mrtodd
+  display_name: Mr. Todd
+  description: "An older man stands in front of a grand domicile. He grins broadly, gesturing emphatically as he speaks to a young woman who is clearly a customer of his. \“Burn this incense before you sleep,\” you hear him say, \“every night for one month. No more and no less.\” The woman looks happy, and very grateful."
+  
+- symbol: teenager
+  display_name: Teenager
+  description: "A young woman looking to be in her teens kicks a stone down the road. You notice a rolled up flyer in her pocket that seems to be some sort of a \“help wanted\” notice."
+  
+- symbol: nomad
+  display_name: Nomad
+  description: "This man is clearly a merchant of some sort, with wares from all over Zariba. He calls out to people on the street, \“Fresh fruit from Mile! Cigars from Crup! Technology from the Capitol! I have it all!\”"
+  
+- symbol: herder
+  display_name: Herder
+  description: "A herder is wrangling a small flock of flightless birds toward the market, taking care that none wander off. You notice a medallion around his neck that looks familiar to you. Many people in this area seem to be wearing them."
+  
+- symbol: nomad
+  display_name: Nomad
+  description: "A short man sits in the shade, tuning what looks like a harp. Haven’t you seen him somewhere before?"
+  
 # -------------
 # Valeria
 # -------------
 
+- symbol: airship_pilot
+  display_name: Airship Pilot
+  description: "A woman fidgets with her flight suit, tightening a loose strap and pulling her zipper a little higher. She appears to be in her late 20s, and preparing to depart soon via airship."
+
+- symbol: spoiled_twins
+  display_name: Spoiled Twins
+  description: "A young man and woman, probably in their late teens, seem to be waiting to board an airship. They look very much alike. Probably they are brother and sister. Perhaps even twins."
+
+- symbol: grandmother_with_toddler
+  display_name: Grandmother with Toddler
+  description: "An older woman stand with a young boy, probably her grandson. They seem a trifle lost."
+
+- symbol: nomad
+  display_name: Nomad
+  description: "A man sits, tuning his harp. Haven’t you seen him somewhere before?"
+
 # -------------
 # Zema
 # -------------
-
+- symbol: hospital_administrator
+  display_name: Hospital Administrator
+  description: "A woman you recognize as the hospital administrator sits at her desk, going over some of the day's paperwork."
+  
+- symbol: doctor
+  display_name: Doctor
+  description: "A middle aged man is examining a medical chart of some kind. You recognize him as a doctor both by his attire and his nametag, \“Dr. Notega.\”" 
+  
+- symbol: patient
+  display_name: Patient
+  description: "A woman sits in the waiting room, staring into space. Either she is waiting for her turn to see the doctor, or here with someone who is currently being examined." 
+  
+- symbol: foreign_traveler
+  display_name: Foreign Traveler
+  description: "Her assortment of luggage marks this woman as a traveller, and her clothes and attitude tell you she is foreign. Where could she be going?" 
+  
 # ============
 # I am not sure if these belong to a particular city. I needed to add these for phase 2. - Johnny
 # ============

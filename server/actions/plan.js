@@ -42,7 +42,7 @@ exports.getAll =
         var planIDs = [];
 
         plans.forEach(function(plan) {
-          planIDs.push(plan._id);
+          planIDs.push({id: plan._id, name: plan.name});
         });
 
         connection.response = planIDs;

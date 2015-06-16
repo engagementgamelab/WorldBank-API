@@ -45,7 +45,9 @@ exports.create = {
     version: 1.0,
     toDocument: true,
 
-    inputs: [],
+    inputs: {
+      required: ["username", "password", "email"]
+    },
 
     /* GET game data. */
     run: function (api, connection, next) {
@@ -75,14 +77,13 @@ exports.create = {
         newUser.save(function(err) {
           
           if (err) 
-            connection.response = err;
+            connection.error = err;
     
           next(connection, true);
         
         });
       
       }
-        
 
     }
 };
@@ -149,16 +150,11 @@ exports.save =
             // Calculate reduction for total score
             var scoreReduction = Math.abs(tacticPriority - planKeysConfig[optionIndex]);
 
-            // console.log(tacticPriority + " - " + planKeysConfig[optionIndex])
-            // console.log(Math.abs(tacticPriority - planKeysConfig[optionIndex]))
-
             planScore -= scoreReduction;
 
             optionIndex++;
 
           });
-
-          // console.log("planScore: " + planScore);
 
           // Output the score and plan info
           return { score: planScore, grade_info: gradeInfo };

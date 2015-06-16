@@ -110,8 +110,13 @@ exports.action = {
 
                   if(isFolder)
                   {
-                      if(parent.indexOf(subChild) !== -1)
+                    if(parent.indexOf(subChild) !== -1) {
+
+                      var fileResponse = loadFilesInPath(filePath, subChild, parent);
+  
+                      if(fileResponse != false)
                         connection.response[subChild] = loadFilesInPath(filePath, subChild, parent);
+                    }
                   }
 
                   // Push match to filtered contents by running method again
@@ -124,10 +129,14 @@ exports.action = {
                       if(!(dirContentsFiltered instanceof Array)) 
                         dirContentsFiltered = [];
 
-                      dirContentsFiltered.push(loadFilesInPath(filePath, subChild, parent));
+                      var fileResponse = loadFilesInPath(filePath, subChild, parent);
+
+                      dirContentsFiltered.push(fileResponse);
                     }
                     else
-                     dirContentsFiltered[keyName] = loadFilesInPath(filePath, subChild, parent);
+                     var fileResponse = loadFilesInPath(filePath, subChild, parent);
+
+                     dirContentsFiltered[keyName] = fileResponse;
                   }
               });
 
@@ -143,21 +152,38 @@ exports.action = {
                 // If a YAML file, load content
                 if(fileBaseName.substring(fileBaseName.indexOf(".")+1, fileBaseName.length) == _fileOptions.filter) {
 
-                  var ymlContent = api.readYaml(filePath);
+                  try {
+           
+                    var ymlContent = api.readYaml(filePath);
 
-                  // Do not output file contents if marked as private (is used internally by API)
-                  if(ymlContent.private == undefined || !ymlContent.private)
-                  {
+                    // Do not output file contents if marked as private (is used internally by API)
+                    if(ymlContent.private == undefined || !ymlContent.private)
+                    {
 
-                    ymlContent = findConfigValues(ymlContent);
+                      ymlContent = findConfigValues(ymlContent);
 
-                    // Assign subcontents of this path
-                    if(parent.indexOf(child) !== -1)
-                      connection.response[fileBaseName.substring(0, fileBaseName.indexOf("."))] = ymlContent;
-                    else
-                      fileResponse = ymlContent;
+                      // Assign subcontents of this path
+                      if(parent.indexOf(child) !== -1)
+                        connection.response[fileBaseName.substring(0, fileBaseName.indexOf("."))] = ymlContent;
+                      else
+                        fileResponse = ymlContent;
+                    }
+
                   }
-                
+                  catch(e) {
+
+                    // Create error and set response to 400 bad request
+                    connection.rawConnection.responseHttpCode = 400;
+
+                    if(connection.response.errors == null)
+                        connection.response.errors = []
+                    
+                    connection.response.errors.push(e);
+                    
+                    connection.error = new Error(e);
+
+                  }
+                  
                 }
               }
 
