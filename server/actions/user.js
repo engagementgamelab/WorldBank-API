@@ -20,7 +20,7 @@ var YAML = require('yamljs');
 var _ = require('underscore');
 var redisPrefix = "__users-";
 
-var caluculatePassowrdHash = function(password, salt){
+var getPasswordHash = function(password, salt){
   return crypto.createHash('sha256').update(salt + password).digest("hex");
 }
 var cacheKey = function(user){
@@ -46,7 +46,7 @@ exports.create = {
     toDocument: true,
 
     inputs: {
-      required: ["username", "password", "email"]
+      required: ["username", "password", "email", "location"]
     },
 
     /* GET game data. */
@@ -56,13 +56,13 @@ exports.create = {
 
       if(dataInput.password.length < 6)
       {
-        connection.error = "password must be longer than 6 chars";
+        connection.error = "Password must be longer than 6 characters.";
         next(connection, true)
       }
       else
       {
         var passwordSalt = api.utils.randomString(64);
-        var passwordHash = caluculatePassowrdHash(dataInput.password, passwordSalt);
+        var passwordHash = getPasswordHash(dataInput.password, passwordSalt);
 
         dataInput.created_at = new Date();
         dataInput.password = passwordHash;
@@ -78,8 +78,15 @@ exports.create = {
           
           if (err) 
             connection.error = err;
-    
-          next(connection, true);
+
+          api.session.generateAtLogin(connection, function(){
+
+            connection.response.auth = true;
+            connection.response.user = newUser;
+
+            next(connection, true);
+
+          });
         
         });
       
@@ -312,23 +319,31 @@ exports.auth =
 
     api.mongo.user.findOne({ 'email': dataInput.email }, '_id username password password_salt plan_id', function (err, user) {
 
+      // Database error
       if(err) {
         connection.error = err;
-        console.log(err);
+
         next(connection, true);
       }
+      // User not found
       else if(user == null) {
         connection.error = "The user with the specified email was not found.";
-        console.log(connection.error);
+
         next(connection, true);
       }
+      // User was found
       else {
-        var passwordHash = caluculatePassowrdHash(dataInput.password, user.password_salt);
+        // Check password
+        var passwordHash = getPasswordHash(dataInput.password, user.password_salt);
 
-        if(passwordHash !== user.password){
+        if(passwordHash !== user.password) {
+
           connection.error = "Incorrect Password.";
           next(connection, true);
-        }else{
+
+        } 
+        else {
+
           api.session.generateAtLogin(connection, function(){
 
             user.save();
@@ -345,6 +360,7 @@ exports.auth =
             next(connection, true);
 
           });
+
         }
       }
     

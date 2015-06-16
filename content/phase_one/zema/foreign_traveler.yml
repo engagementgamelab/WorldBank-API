@@ -20,5 +20,4 @@ dialogue:
       text: "You strike up a conversation with the traveller, and she explains that she is investigating the mining industry in West Zariba for her company. \"It is a [[long journey]], and I dread the trip through the highlands.\""
     Long Journey: 
       text: "She looks anxious. \"I'll not be taking the train. Instead, I am taking a private motor car. I am afraid of trains. I leave in a few hours, bound for Kibari, which I hear is the center of the Zariban Highlands. I guess it is kind of exciting.\""
-   
       unlocks: unlockable_route_zema_to_kibari
