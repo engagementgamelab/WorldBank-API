@@ -33,25 +33,6 @@
 - symbol: unlockable_route_malcom_to_valeria
   unlocked: [malcom_to_valeria]
 
-- symbol: unlockable_route_malcom_to_kibari
-  title: "Something"
-  description: "something"
-  unlocked: [malcom_to_kibari]
-  type: professionalism
-
-- symbol: unlockable_fruit_1
-  title: "Something"
-  description: "something"
-  unlocked: [malcom]
-  type: professionalism
-
-- symbol: unlockable_plan_traveling_nurses
-  title: "Something"
-  description: "something"
-  unlocked: [malcom]
-  type: professionalism
-  unlocked: [malcom_to_kibari]
-
 - symbol: unlockable_route_malcom_to_mile
   unlocked: [malcom_to_mile]
 
@@ -172,4 +153,3 @@
   description: 
     - "If major changes are going to take place in the health system, and educational information campaign to explain these changes may be necessary to avoid confusion."
   type: demand_side_behavior_and_knowledge
->>>>>>> b8deb0253a345b106cc42ba559110757e1b9a834
