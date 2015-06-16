@@ -318,7 +318,7 @@ exports.auth =
         next(connection, true);
       }
       else if(user == null) {
-        connection.error = "User not found";
+        connection.error = "The user with the specified email was not found.";
         console.log(connection.error);
         next(connection, true);
       }
@@ -326,7 +326,7 @@ exports.auth =
         var passwordHash = caluculatePassowrdHash(dataInput.password, user.password_salt);
 
         if(passwordHash !== user.password){
-          connection.error = "incorrect password";
+          connection.error = "Incorrect Password.";
           next(connection, true);
         }else{
           api.session.generateAtLogin(connection, function(){
