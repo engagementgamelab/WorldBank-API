@@ -6,7 +6,7 @@
 # ==============
 
 # UNLOCKABLE FORMAT:
-# symbol: Internal symbol to reference this unlockable.
+# symbol: Internal symbol to reference this unlockable. (required)
 # ====> Should have prefix of "unlockable_" 
 # description: Array of increasingly informative data about this unlockable
 #   - "First info player sees when unlocked"
