@@ -6,8 +6,8 @@
 # ==============
 
 # A character interactable
-symbol: crup_test
-character: Old_Men_Gaming
+symbol: old_men_gaming
+character: Old Men Gaming
 
 # DIALOGUE FORMAT:
 # - Initial: First dialogue player sees after reading character_description.

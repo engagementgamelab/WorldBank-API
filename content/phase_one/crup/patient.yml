@@ -6,7 +6,7 @@
 # ==============
 
 # A character interactable
-symbol: crup_test
+symbol: patient
 character: Patient
 
 # DIALOGUE FORMAT:

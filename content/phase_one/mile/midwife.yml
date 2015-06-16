@@ -20,6 +20,6 @@ dialogue:
       text: "When you give her the opportunity, she is all too happy to vent. She explains that she is a [[midwife]], and that she just had a job interview at the hospital in Zima. \"Or at least I [[thought I did]].\""
     Thought I did: 
       text: "She is clearly still steamed about what happened at the hospital as she relates what happened. \"I travelled more than a day to get there, and did the entire interview, only to be told there were no resources available to hire me! The hospital administrator said she would love to have me on their staff, but a new position was not budgeted.\""
-      unlocks: conversation_with_admin_in_zima
+      unlocks: unlockable_dialogue_hospital_administrator
     Midwife: 
       text: "She scoffs. \"Skilled midwives such as myself who can travel are very hard to come by, and very in demand these days since most women won’t travel long distances to give birth. I can’t believe they would not hire me.\""
