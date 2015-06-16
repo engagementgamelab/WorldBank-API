@@ -6,8 +6,8 @@
 # ==============
 
 # A character interactable
-symbol: crup_test
-character: Plantation Owner
+symbol: clinician
+character: clinician
 
 # DIALOGUE FORMAT:
 # - Initial: First dialogue player sees after reading character_description.
@@ -25,4 +25,9 @@ dialogue:
     unlockable_dialogue_mrtodd:
       display_name: "Ask about Mr. Todd"
       text: "When you press him on what is being skimped on, he backpedals a little bit. \"It's not so much that we don't have enough money, it is more that the budget has already been set by the Ministry of Health, and we don't have the ability to purchase the medicine and supplies we need. You understand.\""
+      unlocks: unlockable_grant_providers_autonomy
+
+    unlockable_dialogue_clinician:
+      display_name: "Ask about why services aren't effective"
+      text: "When you press him on what is being skimped on, he backpedals a little bit. \"It's not so much that we don’t have enough money it's more that the budget has already been set by the Ministry of Health, and we don’t have the ability to purchase the medicine and supplies we need. You understand.\""
       unlocks: unlockable_grant_providers_autonomy
