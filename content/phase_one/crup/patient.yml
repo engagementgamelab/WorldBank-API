@@ -19,5 +19,5 @@ dialogue:
     Initial:
       text: "The woman looks a bit exasperated, and not in the best health. When you ask her about her experience with the clinic, she offers a mostly negative account. \"We are lucky to have a clinic nearby at all,\" she says. \"But there are long waits here, and the clinic is very poor. I blame [[government incompetence]].\""
     Government Incompetence: 
-      text: "\"The government can’t get out of its own way,\" she says. \"The governor claims they are increasing the budget for health care and doing many great things for people in the highlands, but where are the results? I don’t see them. And it’s not just this, it is everything they are involved with. They cannot be trusted to keep their word. I try to have no dealings with them.\""
-      unlocks: PBC
+      text: "\"The government can't get out of its own way,\" she says. \"The governor claims they are increasing the budget for health care and doing many great things for people in the highlands, but where are the results? I don't see them. And it's not just this, it is everything they are involved with. They cannot be trusted to keep their word. I try to have no dealings with them.\""
+      unlocks: unlockable_contract_outside_organization_to_administer_plan
