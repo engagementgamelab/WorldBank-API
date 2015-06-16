@@ -48,7 +48,7 @@ characters:
 
   Clininic_Manager:
     dialogue: "I need to be able to hire whoever is needed. This is a return to the status quo that I do not agree with."
-      unlocks: [clarify_separation_of_functions/roles_and_responsibilities]
+    unlocks: [clarify_separation_of_functions/roles_and_responsibilities]
 
   Hospital_Administrator:
     Feedback:

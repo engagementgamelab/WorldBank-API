@@ -5,85 +5,77 @@
 # Phase Two Indicator Affects
 # ==============
 
+option_cost: small=0
+option_cost: medium=1
+option_cost: large=2
 
-
-Option_Cost: Small=0
-Option_Cost: Medium=1
-Option_Cost: Large=2
-
-Comply_with_Ministry_1:
+comply_with_ministry_1:
   indicator_1: 0
   indicator_2: 0
   indicator_3: -1
 
-
-Authorize_providers_to_take_action_at_their_level_1:
+authorize_providers_to_take_action_at_their_level_1:
   indicator_1: +1
   indicator_2: +1
   indicator_3: 0
 
-Clarify_Separation_of_Functions/Resonsibilities_1:
+clarify_separation_of_functions/resonsibilities_1:
   indicator_1: +1
   indicator_2: +1
   indicator_3: +2
 
-Hold_Paments_1:
+hold_paments_1:
   indicator_1: +0
   indicator_2: +0
   indicator_3: +1
 
-
-
-Help_Build_Capacity_1:
+help_build_capacity_1:
   indicator_1: +1
   indicator_2: +1
   indicator_3: +2
 
 
-Sanctions_1:
+sanctions_1:
   indicator_1: 0
   indicator_2: -1
   indicator_3: +1
 
-Warning_and_retraining:
+warning_and_retraining:
   indicator_1: +1
   indicator_2: +1
   indicator_3: +1
 
- Terminate_Contract_Effective_End_of_Year_1:
+terminate_contract_effective_end_of_year_1:
   indicator_1: -4
   indicator_2: -6
   indicator_3: -5
 
-
-rminate_Contract_Effective_End_of_Year_2:
+terminate_contract_effective_end_of_year_2:
   indicator_1: -2
   indicator_2: -4
   indicator_3: -3
 
-Ask_Purchasing_Agency_to_Revise_Business_Plan_to_Incldue_Regular_Meetings:
+ask_purchasing_agency_to_revise_business_plan_to_incldue_regular_meetings:
   indicator_1: +1
   indicator_2: +1
   indicator_3: +2
 
-Warning_1:
+warning_1:
   indicator_1: +1
   indicator_2: 0
   indicator_3: +1
 
-Warning_2:
+warning_2:
   indicator_1: +1
   indicator_2: 0
   indicator_3: +1
 
-  Revise_Business_Plan:
+revise_business_plan:
   indicator_1: 0
   indicator_2: 0
   indicator_3: 0
 
-  Sanctions_and_retraining_on_use_of_financial_tools:
+sanctions_and_retraining_on_use_of_financial_tools:
   indicator_1: +2
   indicator_2: +1
-  indicator_3: +1
-
-  
+  indicator_3: +1 
