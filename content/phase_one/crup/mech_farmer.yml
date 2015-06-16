@@ -20,4 +20,4 @@ dialogue:
       text: "He offers you a cigarette as you draw nearer, which you politely refuse. \"Suit yourself,\" he says. He explains he’s been working on the plantation for a few years now, and though the work is hard, the pay is reliable. \"I just wish they paid us [[a bit more]].\""
     A Bit More: 
       text: "\"We’re lucky to get anything, of course. Most people in the highlands earn nothing and only eat what they grow. But even so, the pay does not go very far.\" He frowns, taking a puff from his cigarette. When you ask about affording health care, he laughs. \"The clinic is fine, but I would rather save my money for something else, unless it’s an emergency. You know?\""
-      unlocks: service_vouchers
+      unlocks: unlockable_vouchers_for_services

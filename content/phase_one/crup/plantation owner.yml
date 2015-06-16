@@ -22,4 +22,4 @@ dialogue:
       text: "\"I have two sons. They were both born right here, at home, [[the traditional way]]. I spared no expense and hired the best midwife in Zariba. It was a great experience.\""
     The Traditional Way: 
       text: "\"Yes,\" she nods. \"In Zariba, it is customary that women give birth in their own homes with a traditional midwife in the room. I had a traditional midwife and a trained nurse in the room when I gave birth.\" When you ask about whether her employees can afford the same care, she shrugs. \"I don’t know what they do,\" she says. \"It’s not my business. Anyway they seem fine to me.\""
-      unlocks: campaign_to_change_cultural_behavior
+      unlocks: unlockable_information_campaign_to_change_cultural_customs_and_behavior
