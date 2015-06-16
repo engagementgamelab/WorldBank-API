@@ -6,7 +6,7 @@
 # ==============
 
 # A character interactable
-symbol: twowomen_dialogue
+symbol: two_women
 character: malcom_twowomen
 
 # DIALOGUE FORMAT:
