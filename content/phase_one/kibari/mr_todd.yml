@@ -23,4 +23,4 @@ dialogue:
       unlocks: conversation_in_crup_with_clinician
     What They Say: 
       text: "You press, and ask him what else people are saying. \"People say lots of things,\" he replies. \"For instance, those nasty rumors about what else has been going on in your hospitals. I heard some folks saying they believe hospitals are a trick to take our money, make us sicker, and degrade our whole way of life! I don’t know how those get started. People say what they they say,\" he reiterates."
-      unlocks: iec_to_counter_misinformation
+      unlocks: unlockable_information_campaign_to_counter_misinformation

@@ -20,4 +20,4 @@ dialogue:
       text: "Once you get him talking, the nurse seems almost relieved to have someone to complain to. \"I work harder than anyone in this facility, but compared the doctors, I get paid practically nothing! I deal with [[angry people]] every day. He just writes prescriptions.\""
     Angry People: 
       text: "The tall nurse crosses his arms. \"They get angry when I tell them they must go to the drugstore. They don’t understand anything. They think the hospital is a pharmacy. They ask stupid questions. I get tired of it. You’ve never heard of a drugstore? And then when the pharmacy doesn’t have the drugs… That is my fault TOO?\""
-      unlocks: customer_service
+    unlocks: unlockable_improve_patient_and_provider_relationship

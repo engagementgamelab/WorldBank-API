@@ -20,4 +20,4 @@ dialogue:
       text: "She seems very at ease as you approach, and introduces herself as Lydia, an airship pilot. \"These airships are pretty new, so not many people can fly one. This one here is mine,\" she says with some pride, pointing to a floating craft. \"I’m about to depart on a [[personal trip]] to Zima, but I have room for a passenger if you’re heading that way.\""
     Personal Trip: 
       text: "\"I’m actually three months pregnant today,\" she offers, \"and I have an appointment at the hospital. The best doctor in Zariba is a resident there, and lucky for me, I have an airship, so getting there is no problem.\""
-      unlocks: route_to_zima
+      unlocks: unlockable_route_valeria_to_zema
