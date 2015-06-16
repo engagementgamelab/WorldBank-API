@@ -19,5 +19,10 @@ dialogue:
     Initial:
       text: "The man extends a hand to shake and introduces himself. \"Hello,\" he says, \"I am Dr. Maramuta. I run [[this clinic]], and I’ve consulted with a number of others in the area.\""
     This Clinic: 
-      text: "\"Things have been very tough. In the highlands, things are done differently. The situation is not ideal, and sometimes the quick and dirty solution is better than no treatment at all. We have very little money, and we find ourselves skimping and cutting corners in order to operate.\" [IF MR. TODD UNLOCKED:] When you press him on what is being skimped on, he backpedals a little bit. \"It’s not so much that we don’t have enough money -- it’s more that the budget has already been set by the Ministry of Health, and we don’t have the ability to purchase the medicine and supplies we need. You understand.\""
-      unlocks: protocol, [MAYBE] autonomy
+      text: "\"Things have been very tough. In the highlands, things are done differently. The situation is not ideal, and sometimes the quick and dirty solution is better than no treatment at all. We have very little money, and we find ourselves skimping and cutting corners in order to operate.\"" 
+      unlocks: unlockable_incentivise_providers_to_follow_protocols
+
+    unlockable_dialogue_mrtodd:
+      display_name: "Ask about Mr. Todd"
+      text: "When you press him on what is being skimped on, he backpedals a little bit. \"It's not so much that we don’t have enough money it's more that the budget has already been set by the Ministry of Health, and we don’t have the ability to purchase the medicine and supplies we need. You understand.\""
+      unlocks: unlockable_grant_providers_autonomy
