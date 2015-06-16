@@ -17,7 +17,7 @@ character: farm worker
 #   unlocks: route_to_kibari <-- this is a symbol we'll store in another "abilities" file so its display text can be easily tweaked globally.
 dialogue:
     Initial:
-      text: "As you step closer, she stops what she is doing and looks at you askance. \"Not that I am not thankful for an excuse to rest and talk,\" she says, \"but I have a lot of work to do. This harvest will feed my [[family]], and others in the village.\" There is a hint of [[pride]] in her voice.\""
+      text: "As you step closer, she stops what she is doing and looks at you askance. \"Not that I'm not thankful for an excuse to rest and talk,\" she says, \"but I have a lot of work to do. This harvest will feed my [[family]], and others in the village.\" There is a hint of [[pride]] in her voice.\""
     
     Family: 
       text: "\"I have two sons and a daughter, a husband and a brother,\" she explains. When you ask about their health care, she shrugs, looking a little guilty. \"I barely have time to do what needs doing here, you know? Between doing my work and taking care of basic needs, who has time to think about health care, let alone visit a hospital? Taking care of basics like food and water, and a roof that does not leak is far more important. Besides, some people are [[scared]] of the hospitals.\""

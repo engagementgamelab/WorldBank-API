@@ -17,7 +17,15 @@ character: hospital_administrator
 #   unlocks: route_to_kibari <-- this is a symbol we'll store in another "abilities" file so its display text can be easily tweaked globally.
 dialogue:
     Initial:
-      text: "She notices you, and rises to shake your hand. \"Very pleased to meet you. I’ve been expecting you, actually,\" she says. She begins a frank explanation of the hospital’s challenges. \"The worst thing has been a lack of supplies. We are frequently out of stock on basic things due to [[budget constraints]]. This has a [[trickle-down effect]] on many other hospital functions.\""
+<<<<<<< HEAD
+      text: "She notices you, and rises to shake your hand. \"Very pleased to meet you. I have been expecting you, actually,\" she says. She begins a frank explanation of the hospital's challenges. \"The worst thing has been a lack of supplies. We are frequently out of stock on basic things due to [[budget constraints]]. This has a [[trickle-down effect]] on many other hospital functions.\""
+    Budget Constraints: 
+      text: "\"The root cause of the constraints is simple bureaucracy. How we spend our budget is determined by a ministry bureaucrat in the capital city who has no idea what our actual needs are. If we had the autonomy to allocate our budget nimbly, the supply issue would go away.\" [IF MIDWIFE TRUE] You bring up the midwife you met in Mile, and the administrator nods. \"Same problem. We did not have the autonomy needed to budget for that hire, so I had to turn away a qualified, needed worker.\""
+      unlocks: unlockable_grant_providers_autonomy
+    Trickle-down Effect: 
+      text: "\"When we don't have the proper supplies, it looks bad to the patients, and we lose face. Not only that, the lack of basic supplies begins to wear on my staff. I am aware of some attitude problems. All of this is not conducive to treating people.\""
+=======
+      text: "She notices you, and rises to shake your hand. \"Very pleased to meet you. I've been expecting you, actually,\" she says. She begins a frank explanation of the hospital's challenges. \"The worst thing has been a lack of supplies. We are frequently out of stock on basic things due to [[budget constraints]]. This has a [[trickle-down effect]] on many other hospital functions.\""
     budget Constraints: 
       text: "\"The root cause of the constraints is simple bureaucracy. How we spend our budget is determined by a ministry bureaucrat in the capital city who has no idea what our actual needs are. If we had the autonomy to allocate our budget nimbly, the supply issue would go away.\""
     unlockable_dialogue_hospital_administrator:
@@ -25,4 +33,5 @@ dialogue:
       text: "You bring up the midwife you met in Mile, and the administrator nods. \"Same problem. We did not have the autonomy needed to budget for that hire, so I had to turn away a qualified, needed worker.\""
       unlocks: unlockable_grant_providers_autonomy
     trickle-down effect: 
-      text: "\"When we don’t have the proper supplies, it looks bad to the patients, and we lose face. Not only that, the lack of basic supplies begins to wear on my staff. I am aware of some attitude problems. All of this is not conducive to treating people.\""
+      text: "\"When we don't have the proper supplies, it looks bad to the patients, and we lose face. Not only that, the lack of basic supplies begins to wear on my staff. I am aware of some attitude problems. All of this is not conducive to treating people.\""
+>>>>>>> origin/master

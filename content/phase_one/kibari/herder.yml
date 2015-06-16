@@ -21,5 +21,5 @@ dialogue:
     Easy to get: 
       text: "\"I heard that some people travel for days to get to the hospital, only to be told they have no medicine. Who wants to do that?\""
     Seem to work: 
-      text: "He clutches his medallion. \"This is said to protect me from fevers, which kill many people in this area. I haven’t gotten sick with a fever since I put it on. Hospitals on the other hand? Who even knows what happens in them?\""
+      text: "He clutches his medallion. \"This is said to protect me from fevers, which kill many people in this area. I haven't gotten sick with a fever since I put it on. Hospitals on the other hand? Who even knows what happens in them?\""
       unlocks: unlockable_information_campaign_to_explain_changes_to_system
