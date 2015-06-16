@@ -17,13 +17,10 @@ character: fruit_vendor
 #   unlocks: route_to_kibari <-- this is a symbol we'll store in another "abilities" file so its display text can be easily tweaked globally.
 dialogue:
     Initial:
-      text: "\"Fresh fruit!\" she says as you approach. \"Only the best, grown by local [[farmers]]. Try the berries! They are my [[daughter]]'s favorite.\" She hands you a sample. \"No charge,\" she says.\""
-      unlocks: 
-
+      text: "\"Fresh fruit!\" she says as you approach. \"Only the best, grown by local [[farmers]]. Try the berries! They are my [[daughter]]’s favorite.\" She hands you a sample. \"No charge,\" she says.\""
     Farmers: 
       text: "You ask about the farmers who grew the fruit. The woman replies in a rehearsed tone. \"Very hardworking people. Very poor, but who needs money when you can eat what you grow? I live in the city, so I have to sell fruit to make ends meet and support my family.\""
-      unclocks: unlockable_vouchers_for_services
-
+      unlocks: unlockable_vouchers_for_services
     Daughter: 
       text: "\"My daughter? She is just three, and the cutest girl you have ever seen,\" the fruit seller beams. \"Her grandmother is watching her so I can sell fruit here in the market. I support all three of us.\" When you ask about the girl's vaccinations, the woman shrugs. \"Who has time to travel to a hospital? Keeping her fed is more important.\""
       unlocks: unlockable_hire_more_nurses_from_highlands_region
