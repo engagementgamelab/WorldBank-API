@@ -28,12 +28,17 @@ describe('Action: Get Game Data', function(){
   });
 
   // TEST: /api/gameData
-  it(' - Response has characters, cities, phase_one, phase_two keys', function(done){
+  it(' - Response has characters, cities, indicator_affects, phase_one, phase_two, phase_two_matrix, routes, unlockables keys', function(done){
     api.specHelper.runAction('gameData', function(response, connection) {
         response.should.have.property('characters');
         response.should.have.property('cities');
+        // response.should.have.property('grading');
+        response.should.have.property('indicator_affects');
         response.should.have.property('phase_one');
         response.should.have.property('phase_two');
+        response.should.have.property('phase_two_matrix');
+        response.should.have.property('routes');
+        response.should.have.property('unlockables');
         //response.should.have.status(200);
         done();
       });

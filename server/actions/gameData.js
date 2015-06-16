@@ -114,8 +114,8 @@ exports.action = {
 
                       var fileResponse = loadFilesInPath(filePath, subChild, parent);
   
-                      // if(fileResponse != false)
-                      //   connection.response[subChild] = loadFilesInPath(filePath, subChild, parent);
+                      if(fileResponse != false)
+                        connection.response[subChild] = loadFilesInPath(filePath, subChild, parent);
                     }
                   }
 
@@ -175,7 +175,11 @@ exports.action = {
                     // Create error and set response to 400 bad request
                     connection.rawConnection.responseHttpCode = 400;
 
-                    connection.response.error = e;
+                    if(connection.response.errors == null)
+                        connection.response.errors = []
+                    
+                    connection.response.errors.push(e);
+                    
                     connection.error = new Error(e);
 
                   }
