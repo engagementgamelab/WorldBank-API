@@ -100,7 +100,7 @@
 - symbol: unlockable_route_malcom_to_kibari
   title: "Something"
   description: "something"
-  unlocked: [malcom]
+  unlocked: [malcom_to_kibari]
   type: professionalism
 
 - symbol: unlockable_fruit_1
