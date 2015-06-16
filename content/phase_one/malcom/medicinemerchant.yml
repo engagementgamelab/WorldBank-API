@@ -6,7 +6,7 @@
 # ==============
 
 # A character interactable
-symbol: medicinemerchant_dialogue
+symbol: medicine_merchant
 character: medicine_merchant
 
 
@@ -24,4 +24,4 @@ dialogue:
       text: "You approach the man and ask about Kibari: \"Kibari is the heart of the highlands, and the center of commerce and traditional knowledge for the nation. From Kibari, the whole nation is open wide to you. It is easy enough to get to. Just hitch a ride with one the local farm transports. They come and go every day.\""
       unlocks: unlockable_route_malcom_to_kibari
     Mr. Todd: 
-      text: "As soon as you mention Mr. Todd the medicine merchant’s face lights up. \"I might be a bit biased, but that man is everything for the local region. He is a genius who has built a business from the ground up! Literally! Everyone loves Mr. Todd. You need to meet him. I’m sure one conversation with him will change all your thoughts on foreign medicine!\""
+      text: "As soon as you mention Mr. Todd the medicine merchant’s face lights up. \"I might be a bit biased, but that man is everything for the local region. He is a genius who has built a business from the ground up! Literally! Everyone loves Mr. Todd. You need to meet him. I'm sure one conversation with him will change all your thoughts on foreign medicine!\""

@@ -18,11 +18,15 @@
 
 ###DIALOGUE UNLOCKS###
 
+# unlocked by farm worker in Mile
 - symbol: unlockable_dialogue_mrtodd
-  unlocked: 
 
-- symbol: unlockable_dialogue_
-  unlocked: 
+# unlocked by midwife in Mile
+- symbol: unlockable_dialogue_hospital_administrator
+
+#unlocked by Mr. Todd in Kibari
+- symbol: unlockable_dialogue_clinician 
+
 
 ###ROUTES###
 

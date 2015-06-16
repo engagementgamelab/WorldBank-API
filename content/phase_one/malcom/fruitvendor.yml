@@ -6,7 +6,7 @@
 # ==============
 
 # A character interactable
-symbol: fruitvendor_dialogue
+symbol: fruit_vendor
 character: fruit_vendor
 
 # DIALOGUE FORMAT:
@@ -22,5 +22,5 @@ dialogue:
       text: "You ask about the farmers who grew the fruit. The woman replies in a rehearsed tone. \"Very hardworking people. Very poor, but who needs money when you can eat what you grow? I live in the city, so I have to sell fruit to make ends meet and support my family.\""
       unlocks: unlockable_vouchers_for_services
     Daughter: 
-      text: "\"My daughter? She is just three, and the cutest girl you have ever seen,\" the fruit seller beams. \"Her grandmother is watching her so I can sell fruit here in the market. I support all three of us.\" When you ask about the girl’s vaccinations, the woman shrugs. \"Who has time to travel to a hospital? Keeping her fed is more important.\""
+      text: "\"My daughter? She is just three, and the cutest girl you have ever seen,\" the fruit seller beams. \"Her grandmother is watching her so I can sell fruit here in the market. I support all three of us.\" When you ask about the girl's vaccinations, the woman shrugs. \"Who has time to travel to a hospital? Keeping her fed is more important.\""
       unlocks: unlockable_hire_more_nurses_from_highlands_region

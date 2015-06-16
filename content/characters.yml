@@ -84,8 +84,8 @@
   display_name: Teenager
   description: "A young woman looking to be in her teens kicks a stone down the road. You notice a rolled up flyer in her pocket that seems to be some sort of a \“help wanted\” notice."
   
-- symbol: nomad
-  display_name: Nomad
+- symbol: traveling_merchant
+  display_name: Traveling Merchant
   description: "This man is clearly a merchant of some sort, with wares from all over Zariba. He calls out to people on the street, \“Fresh fruit from Mile! Cigars from Crup! Technology from the Capitol! I have it all!\”"
   
 - symbol: herder
