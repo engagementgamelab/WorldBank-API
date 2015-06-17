@@ -6,8 +6,8 @@
 # ==============
 
 # A character interactable
-symbol: nomad
-character: Nomad
+symbol: dialogue_nomad_valeria
+character: nomad_valeria
 
 # DIALOGUE FORMAT:
 # - Initial: First dialogue player sees after reading character_description.

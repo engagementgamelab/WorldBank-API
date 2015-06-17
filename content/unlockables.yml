@@ -19,7 +19,7 @@
 ###DIALOGUE UNLOCKS###
 
 # unlocked by farm worker in Mile
-- symbol: unlockable_dialogue_mrtodd
+- symbol: unlockable_dialogue_mr_todd
 
 # unlocked by midwife in Mile
 - symbol: unlockable_dialogue_hospital_administrator
@@ -48,11 +48,11 @@
 - symbol: unlockable_route_malcom_to_mile
   unlocked: [malcom_to_mile]
 
-- symbol: unlockable_route_valeria_to_zema
-  unlocked: [valeria_to_zema]
+- symbol: unlockable_route_valeria_to_zima
+  unlocked: [valeria_to_zima]
 
-- symbol: unlockable_route_zema_to_kibari
-  unlocked: [zema_to_kibari]
+- symbol: unlockable_route_zima_to_kibari
+  unlocked: [zima_to_kibari]
 
 - symbol: unlockable_route_kibari_to_crup
   unlocked: [kibari_to_crup]
@@ -60,8 +60,8 @@
 - symbol: unlockable_route_kibari_to_mile
   unlocked: [kibari_to_mile]
 
-- symbol: unlockable_route_mile_to_zema
-  unlocked: [mile_to_zema]
+- symbol: unlockable_route_mile_to_zima
+  unlocked: [mile_to_zima]
 
 
 ###TACTIC PLAN OPTIONS###

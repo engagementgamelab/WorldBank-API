@@ -6,7 +6,7 @@
 # ==============
 
 # A character interactable
-symbol: nomad
+symbol: nomad_kibari
 character: Nomad
 
 # DIALOGUE FORMAT:

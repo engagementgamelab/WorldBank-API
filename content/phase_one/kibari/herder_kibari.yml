@@ -6,8 +6,8 @@
 # ==============
 
 # A character interactable
-symbol: herder
-character: herder
+symbol: dialogue_herder_kibari
+character: herder_kibari
 
 # DIALOGUE FORMAT:
 # - Initial: First dialogue player sees after reading character_description.

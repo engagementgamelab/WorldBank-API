@@ -6,8 +6,8 @@
 # ==============
 
 # A character interactable
-symbol: two_women
-character: malcom_twowomen
+symbol: dialogue_two_women_malcom
+character: two_women_malcom
 
 # DIALOGUE FORMAT:
 # - Initial: First dialogue player sees after reading character_description.

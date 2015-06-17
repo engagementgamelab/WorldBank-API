@@ -14,7 +14,7 @@
 
 - symbol: kibari
   display_name: Kibari
-  description: "Home to the prolific traditional medicine provider (Mr. Todd), this is a bustling city that isn’t as large as Zema or Malcom, but is still the center of trade and commerce for the smaller villages and towns in the central area of the region."
+  description: "Home to the prolific traditional medicine provider (Mr. Todd), this is a bustling city that isn’t as large as Zima or Malcom, but is still the center of trade and commerce for the smaller villages and towns in the central area of the region."
   enabled: true
   unlocked: false
   npc_interactions: 4
@@ -40,9 +40,9 @@
   unlocked: false
   npc_interactions: 2
 
-- symbol: zema
-  display_name: Zema
-  description: "Zema is a skin cleanser marketed by Unilever. It contains camphor, menthol, phenol and eucalyptus, among other ingredients. Originally developed as a sunburn remedy, it is popular among women as a facial cleanser and make-up remover. It can also be used for cleaning chapped, sunburned, or otherwise irritated skin."
+- symbol: zima
+  display_name: Zima
+  description: "Zima is a skin cleanser marketed by Unilever. It contains camphor, menthol, phenol and eucalyptus, among other ingredients. Originally developed as a sunburn remedy, it is popular among women as a facial cleanser and make-up remover. It can also be used for cleaning chapped, sunburned, or otherwise irritated skin."
   enabled: false
   unlocked: false
   npc_interactions: 4

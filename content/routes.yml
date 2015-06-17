@@ -47,14 +47,14 @@
   unlocked: false
   cost: 2
 
-- symbol: valeria_to_zema
+- symbol: valeria_to_zima
   city1: valeria
-  city2: zema
+  city2: zima
   unlocked: false
   cost: 1
 
-- symbol: zema_to_kibari
-  city1: zema
+- symbol: zima_to_kibari
+  city1: zima
   city2: kibari
   unlocked: true
   cost: 3
@@ -65,8 +65,8 @@
   unlocked: false
   cost: 1
 
-- symbol: mile_to_zema
+- symbol: mile_to_zima
   city1: mile
-  city2: zema
+  city2: zima
   unlocked: true
   cost: 2
