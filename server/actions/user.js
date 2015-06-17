@@ -54,43 +54,57 @@ exports.create = {
 
       var dataInput = connection.rawConnection.params.body;
 
-      if(dataInput.password.length < 6)
-      {
-        connection.error = "Password must be longer than 6 characters.";
-        next(connection, true)
-      }
-      else
-      {
-        var passwordSalt = api.utils.randomString(64);
-        var passwordHash = getPasswordHash(dataInput.password, passwordSalt);
+      // Find count of users with this email (error if not zero)
+      api.mongo.user.count({ 'email': dataInput.email }, function(err, userCount) {
 
-        dataInput.created_at = new Date();
-        dataInput.password = passwordHash;
-        dataInput.password_salt = passwordSalt;
+        if(userCount === 0) {
 
-        // create a new user
-        var newUser = new api.mongo.user(
-          dataInput
-        );
-
-        // save the user
-        newUser.save(function(err) {
-          
-          if (err) 
-            connection.error = err;
-
-          api.session.generateAtLogin(connection, function(){
-
-            connection.response.auth = true;
-            connection.response.user = newUser;
-
+          if(dataInput.password.length < 6)
+          {
+            connection.error = "Password must be longer than 6 characters.";
             next(connection, true);
+          }
+          else
+          {
+            // Generate password salt and hash
+            var passwordSalt = api.utils.randomString(64);
+            var passwordHash = getPasswordHash(dataInput.password, passwordSalt);
 
-          });
-        
-        });
-      
-      }
+            dataInput.created_at = new Date();
+            dataInput.password = passwordHash;
+            dataInput.password_salt = passwordSalt;
+
+            // create a new user
+            var newUser = new api.mongo.user(
+              dataInput
+            );
+
+            // save the user
+            newUser.save(function(err) {
+              
+              if (err) 
+                connection.error = err;
+
+              api.session.generateAtLogin(connection, function(){
+
+                connection.response.auth = true;
+                connection.response.user = newUser;
+
+                next(connection, true);
+
+              });
+            
+            });
+          
+          }
+        }
+        else
+        {
+          connection.error = "A user with the specified email already exists.";
+          next(connection, true);
+        }
+
+      });
 
     }
 };
