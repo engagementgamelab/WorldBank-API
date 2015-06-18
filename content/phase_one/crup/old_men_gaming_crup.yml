@@ -6,8 +6,8 @@
 # ==============
 
 # A character interactable
-symbol: old_men_gaming
-character: Old Men Gaming
+symbol: dialogue_old_men_gaming_crup
+character: old_men_gaming_crup
 
 # DIALOGUE FORMAT:
 # - Initial: First dialogue player sees after reading character_description.

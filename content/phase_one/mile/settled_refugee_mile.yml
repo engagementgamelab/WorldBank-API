@@ -6,8 +6,8 @@
 # ==============
 
 # A character interactable
-symbol: settled_refugee
-character: settled refugee
+symbol: dialogue_settled_refugee_mile
+character: settled_refugee_mile
 
 # DIALOGUE FORMAT:
 # - Initial: First dialogue player sees after reading character_description.

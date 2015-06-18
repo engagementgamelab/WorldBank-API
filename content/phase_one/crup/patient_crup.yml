@@ -6,8 +6,8 @@
 # ==============
 
 # A character interactable
-symbol: patient
-character: Patient
+symbol: dialogue_patient_crup
+character: patient_crup
 
 # DIALOGUE FORMAT:
 # - Initial: First dialogue player sees after reading character_description.

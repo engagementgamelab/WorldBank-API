@@ -6,8 +6,8 @@
 # ==============
 
 # A character interactable
-symbol: medicine_merchant
-character: medicine_merchant
+symbol: dialogue_medicine_merchant_malcom
+character: medicine_merchant_malcom
 
 
 # DIALOGUE FORMAT:

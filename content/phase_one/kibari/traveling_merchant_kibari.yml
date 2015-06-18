@@ -6,8 +6,8 @@
 # ==============
 
 # A character interactable
-symbol: traveling_merchant
-character: Traveling Merchant
+symbol: dialogue_traveling_merchant_kibari
+character: traveling_merchant_kibari
 
 # DIALOGUE FORMAT:
 # - Initial: First dialogue player sees after reading character_description.

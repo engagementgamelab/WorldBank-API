@@ -6,8 +6,8 @@
 # ==============
 
 # A character interactable
-symbol: mrtodd
-character: Mr. Todd
+symbol: dialogue_mr_todd_kibari
+character: mr_todd_kibari
 
 # DIALOGUE FORMAT:
 # - Initial: First dialogue player sees after reading character_description.
@@ -21,7 +21,7 @@ dialogue:
     Best Medicine Man: 
       text: "He chuckles. \"People come to me because I am already a part of their lives. Part of their community! They trust me, because they know when they come to see me, they will leave with the medicine they need in their hands. The hospitals and clinics you want people to visit are not good. Why would a person travel far to see a doctor who can’t even give them medicine? Ask your doctors that.\""
       unlocks: unlockable_dialogue_clinician
-    unlockable_dialogue_mrtodd: 
+    unlockable_dialogue_mr_todd: 
       display_name: "Ask about what other people are saying"
       text: "You press, and ask him what else people are saying. \"People say lots of things,\" he replies. \"For instance, those nasty rumors about what else has been going on in your hospitals. I heard some folks saying they believe hospitals are a trick to take our money, make us sicker, and degrade our whole way of life! I don’t know how those get started. People say what they they say,\" he reiterates."
       unlocks: unlockable_information_campaign_to_counter_misinformation
