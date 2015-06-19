@@ -1,0 +1,58 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Problem YAML
+# ==============
+
+# Phase Two Scenario Card YML Example
+
+symbol: unit_costs
+name: "Unit Costs"
+priority: 8
+
+initiating_npc: hospital_administrator
+initiating_dialogue: "Look, I don't really know what you and the NGO have worked out, but I need to be authorized to purchase supplies at the right costs. Can you tell them to lighten these restrictions some?"
+
+starting_options: [clarify_roles]
+starting_options_affects: [clarify_roles_3]
+starting_options_cost: [small]
+
+final_options: [clarify_roles, move_authority_to_ministry, comply_with_ngo_budget]
+final_options_affects: [clarify_roles_3, move_authority_to_ministry, comply_with_ngo_budget]
+starting_options_cost: [small, small, small]
+
+characters:
+
+  dep_minister_of_health: 
+    dialogue: "We've been whittling down whose job is whose throughout this process, so you don't have to tell me this isn't my place, but were it up to me, I'd cancel the NGO contract."
+    unlocks: [terminate_ngo_contract]
+    unlocks_affects: [terminate_ngo_contract_3]
+    
+        
+  director_regional_health_services:
+    dialogue: "The Ministry of Health has been handling these budgets for a long time. It wasn't perfect, but it worked better than this."
+    unlocks: [move_authority_to_ministry]
+    unlocks_affects: [move_authority_to_ministry]
+    
+  ngo_manager: "I know that to the Hospital Administrator, these stipulations seem really stringent, but you brought us on in part to reign in spending."
+    unlocks: [comply_with_ngo_budget]
+    unlocks_affects: [comply_with_ngo_budget]
+    feedback:
+        clarify_roles: "OK. I'm just trying to make this work as smoothly and efficiently as possible."
+
+  coach:
+    dialogue: "I'll ask, because this seems to be an ongoing problem: is that the NGO's position? They seem to be overstepping their role."
+    feedback:
+        move_authority_to_ministry: "The Ministry already has a lot going on, but I guess they can handle local hospital budgeting, too."
+
+  third_party_verifier:
+    dialogue: "If they can't agree on a budget, I'm not going to have any cases to verify. And I like my job."
+    
+  community_verifier:
+    dialogue: "If I were you, and I'm offering this as someone who lives here, ask the Ministry and your coach what to do. The Ministry gets the last call and the NGO doesn't."
+    narrows: [director_regional_health_services, ngo_manager, third_party_verifier, community_verifier, hospital_administrator]
+        
+ hospital_administrator:
+    feedback:
+        comply: "I'll comply, but I'll have to cut that money from somewhere."

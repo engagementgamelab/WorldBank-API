@@ -1,0 +1,53 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Problem YAML
+# ==============
+
+# Phase Two Scenario Card YML Example
+
+symbol: micromanagement
+name: "Micromanagement"
+priority: 12
+
+initiating_npc: ngo_manager
+initiating_dialogue: "I keep getting calls from the Minister of Health's office checking in on us, telling us what we could be doing better, telling us how to handle things. That's your job, right?"
+
+starting_options: [clarify_roles]
+starting_options_affects: [clarify_roles]
+starting_options_cost: [small]
+
+final_options: [clarify_roles, terminate_ngo_contract, sanction_ngo]
+final_options_affects: [clarify_roles, terminate_ngo_contract_3, sanction_ngo]
+final_options_cost: [small, small, small].
+
+characters:
+
+  dep_minister_of_health: 
+    dialogue: "We need the NGO to be accountable and if that's a problem with them, we're not going to be able to work with them."
+    unlocks: [terminate_ngo_contract_3]
+    feedback:
+        clarify_roles: "We keep going around and around with this. For the future, it is not your position to clarify ours."
+    
+  director_regional_health_services: "We're not making any unreasonable requests. In fact, they're pretty sound, and the Ministry does not need push back for looking into the health of its constituents. At least make them think harder about complaining next time."
+  unlocks: [sanction_ngo]
+  unlocks_affects: [sanction_ngo]
+  
+  ngo_manager:
+    feedback:
+        terminate_ngo_contract: "Best of luck, but this is not as easy as you think it is."
+        sanction_ngo: "You can slap us on the wrist, but we are getting people help."
+
+  coach:
+    dialogue: "However unlikely it seems at this point, maybe the NGO doesn't really understand who's calling the shots."
+
+  third_party_verifier:
+    dialogue: "*Helpless laugh* I don't know!"
+    
+  community_verifier:
+    dialogue: "I wouldn't say checking in constitutes micromanagement, but I'm not seeing these memos, so I don't know."
+        
+ hospital_administrator:
+    dialogue: "The Ministry signs the checks. Sometimes, we get to cash them and get people healthy. Ask them and whoever they have helping you."
+    narrows: [director_regional_health_services, ngo_manager, third_party_verifier, community_verifier, hospital_administrator]
