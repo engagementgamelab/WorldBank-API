@@ -19,12 +19,12 @@ authorize_providers_to_take_action_at_their_level_1:
   indicator_2: +1
   indicator_3: 0
 
-clarify_separation_of_functions/resonsibilities_1:
+clarify_separation_of_functions/responsibilities_1:
   indicator_1: +1
   indicator_2: +1
   indicator_3: +2
 
-hold_paments_1:
+hold_payments_1:
   indicator_1: +0
   indicator_2: +0
   indicator_3: +1
@@ -55,7 +55,7 @@ terminate_contract_effective_end_of_year_2:
   indicator_2: -4
   indicator_3: -3
 
-ask_purchasing_agency_to_revise_business_plan_to_incldue_regular_meetings:
+ask_purchasing_agency_to_revise_business_plan_to_include_regular_meetings:
   indicator_1: +1
   indicator_2: +1
   indicator_3: +2

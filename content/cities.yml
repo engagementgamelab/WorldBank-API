@@ -7,7 +7,7 @@
 
 - symbol: malcom
   display_name: Malcom
-  description: "Malcom [sic] is the line between more urbanized city environment and traditional farmland. The Train station runs between Mile and the Capital, and there is a ferry that departs to Valeria once a day. "
+  description: "Malcom [sic] is the line between more urbanized city environment and traditional farmland. The Train station runs between Mile and the Capitol, and there is a ferry that departs to Valeria once a day. "
   enabled: true
   unlocked: true
   npc_interactions: 3
@@ -28,7 +28,7 @@
 
 - symbol: crup
   display_name: Crup
-  description: "Accessed initially from the Capital, Crup is a plantation-like farming village that has a deep divide between the high class owners and the workers on the plantations."
+  description: "Accessed initially from the Capitol, Crup is a plantation-like farming village that has a deep divide between the high class owners and the workers on the plantations."
   enabled: true
   unlocked: true
   npc_interactions: 4

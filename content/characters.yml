@@ -15,7 +15,7 @@
 
 - symbol: capitol_city_professor_malcom
   display_name: Professor from the Capitol City
-  description: "A well-dressed middle-aged man leans against the ticket counter, casually reading the world news on his tablet. Next to him is a small cart filled with a dozen or so textbooks on the history of Zariba. You spy a univeristy pin on the his lapel."
+  description: "A well-dressed middle-aged man leans against the ticket counter, casually reading the world news on his tablet. Next to him is a small cart filled with a dozen or so textbooks on the history of Zariba. You spy a university pin on the his lapel."
 
 - symbol: fruit_vendor_malcom
   display_name: Fruit Vendor
@@ -23,10 +23,10 @@
 
 - symbol: medicine_merchant_malcom
   display_name: Medicine Merchant
-  description: "In the middle of the crowded marketplace, you see a man dressed in an impressive garb that feels important and professional, but at once authentic and grounded. He seems to be charming those around him as a small crowd gathers to listen to his sermon-like presentation. Behind him is an elaborate cart of small tokens and jars, all different sizes and shapes. The sign reads “Medicine” in multiple languages."
+  description: "In the middle of the crowded marketplace, you see a man dressed in an impressive garb that feels important and professional, but at once authentic and grounded. He seems to be charming those around him as a small crowd gathers to listen to his sermon-like presentation. Behind him is an elaborate cart of small tokens and jars, all different sizes and shapes. The sign reads "Medicine" in multiple languages."
 
 - symbol: two_women_malcom
-  display_name: Women waiting for ferry
+  display_name: Women Waiting for Ferry
   description: "At the far end of the market there are two women in elaborate dress. You don’t know where they are from, but they are certainly not from this region, nor do they look like they came from Capitol City. Very ornamental and expensive, their dresses pop and glide in different directions and both are wearing wild headpieces. You feel a sense of royalty from them."
 
 
@@ -37,15 +37,15 @@
 - symbol: plantation_owner_crup
   display_name: Plantation Owner
   description: "A well-dressed woman stands observing the plantation. She has evidently just come from the larger plantation house up the path."
- 
+
 - symbol: clinician_crup
   display_name: Clinician
   description: "A tired looking man with a stethoscope around his neck stands in the doorway of the clinic. He appears to be a doctor of some sort."
-  
+
 - symbol: patient_crup
   display_name: Patient
   description: "A patient sits on a chair on the deck of the clinic, waiting for her turn to be seen."
-  
+
 - symbol: old_men_gaming_crup
   display_name: Old Men Gaming
   description: "A pair of older men sit under the shade of a palm, playing some sort of tile-laying game. The gaming set is finely crafted from polished wood, but seems old and well worn. They chat as they play."
@@ -60,42 +60,42 @@
 - symbol: farm_worker_mile
   display_name: Farm Worker
   description: "A woman that looks to be in her thirties crouches down among rows of fresh crops, harvesting the land’s bounty. Her movements are precise and efficient, like she has been doing this her whole life. She hums softly to herself as she works in rhythm with her motions. The only adornment on her otherwise spartan attire is a small, shabby locket dangling from her neck."
-  
+
 - symbol: settled_refugee_mile
   display_name: Settled Refugee
   description: "You see a man in his forties reading a news magazine in the shade, slight perspiration beading along his receding hairline. The magazine looks like one from the newsstand at the train station, perhaps dropped by a careless traveler some time ago."
-  
+
 - symbol: midwife_mile
   display_name: Midwife
   description: "A middle-aged woman walks down the path from the train station. She looks preoccupied by something, and perhaps a little angry. She carries medical texts with her, including a volume on midwifery."
-  
+
 - symbol: nomad_mile
   display_name: Nomad
   description: "A short man sits in the shade, tuning what looks like a harp. Haven’t you seen him somewhere before?"
-  
+
 # -------------
 # Kibari
 # -------------
 - symbol: mr_todd_kibari
   display_name: Mr. Todd
-  description: "An older man stands in front of a grand domicile. He grins broadly, gesturing emphatically as he speaks to a young woman who is clearly a customer of his. \“Burn this incense before you sleep,\” you hear him say, \“every night for one month. No more and no less.\” The woman looks happy, and very grateful."
-  
+  description: "An older man stands in front of a grand domicile. He grins broadly, gesturing emphatically as he speaks to a young woman who is clearly a customer of his. \"Burn this incense before you sleep,\" you hear him say, \"Every night for one month. No more and no less.\" The woman looks happy, and very grateful."
+
 - symbol: teenager_kibari
   display_name: Teenager
-  description: "A young woman looking to be in her teens kicks a stone down the road. You notice a rolled up flyer in her pocket that seems to be some sort of a \“help wanted\” notice."
-  
+  description: "A young woman looking to be in her teens kicks a stone down the road. You notice a rolled-up flyer in her pocket that seems to be some sort of a \"help wanted\" notice."
+
 - symbol: traveling_merchant_kibari
   display_name: Traveling Merchant
-  description: "This man is clearly a merchant of some sort, with wares from all over Zariba. He calls out to people on the street, \“Fresh fruit from Mile! Cigars from Crup! Technology from the Capitol! I have it all!\”"
-  
+  description: "This man is clearly a merchant of some sort, with wares from all over Zariba. He calls out to people on the street, \"Fresh fruit from Mile! Cigars from Crup! Technology from the Capitol! I have it all!\""
+
 - symbol: herder_kibari
   display_name: Herder
   description: "A herder is wrangling a small flock of flightless birds toward the market, taking care that none wander off. You notice a medallion around his neck that looks familiar to you. Many people in this area seem to be wearing them."
-  
+
 - symbol: nomad_kibari
   display_name: Nomad
   description: "A short man sits in the shade, tuning what looks like a harp. Haven’t you seen him somewhere before?"
-  
+
 # -------------
 # Valeria
 # -------------
@@ -110,7 +110,7 @@
 
 - symbol: grandmother_with_toddler_valeria
   display_name: Grandmother with Toddler
-  description: "An older woman stand with a young boy, probably her grandson. They seem a trifle lost."
+  description: "An older woman stands with a young boy, probably her grandson. They seem a trifle lost."
 
 - symbol: nomad_valeria
   display_name: Nomad
@@ -122,19 +122,19 @@
 - symbol: hospital_administrator
   display_name: Hospital Administrator
   description: "A woman you recognize as the hospital administrator sits at her desk, going over some of the day's paperwork."
-  
+
 - symbol: doctor_zima
   display_name: Doctor
-  description: "A middle aged man is examining a medical chart of some kind. You recognize him as a doctor both by his attire and his nametag, \“Dr. Notega.\”" 
-  
+  description: "A middle aged man is examining a medical chart of some kind. You recognize him as a doctor both by his attire and his nametag, \"Dr. Notega.\"" 
+
 - symbol: patient_zima
   display_name: Patient
   description: "A woman sits in the waiting room, staring into space. Either she is waiting for her turn to see the doctor, or here with someone who is currently being examined." 
-  
+
 - symbol: foreign_traveler_zima
   display_name: Foreign Traveler
   description: "Her assortment of luggage marks this woman as a traveller, and her clothes and attitude tell you she is foreign. Where could she be going?" 
-  
+
 - symbol: nurse_zima
   display_name: Nurse
   description: "The tall male nurse towers over everyone. Forehead scrunched in frustrated tension, he wipes a few beads of sweat from his brow."

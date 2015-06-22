@@ -10,7 +10,7 @@ content
 	|
 	phase_one
 		|
-		city (e.g. malcolm)
+		city (e.g. malcom)
 		|
 		dialogue_file.yml (where dialogue_file is the symbol for the file)
 
