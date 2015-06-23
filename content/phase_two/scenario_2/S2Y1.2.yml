@@ -24,7 +24,7 @@ final_options_cost: [small, small]
 
 characters:
 
-ngo_manager:
+  ngo_manager:
     feedback: 
       allow_payments: "This will help us do even more good work!"
       deny_payments: "We're working with little enough as it is."
@@ -37,7 +37,7 @@ ngo_manager:
     dialogue: "If they think giving them the money for what they did get done will help next time, we can pay them this once."
     unlocks: [allow_payments_once]
     unlocks_affects: [allow_payments_once_1]
-    
+
   coach:
     dialogue: "I'm worried that if we give them the bonus this time it'll set a precedent."
 

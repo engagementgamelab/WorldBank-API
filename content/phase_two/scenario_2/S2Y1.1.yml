@@ -43,7 +43,7 @@ characters:
 
   community_verifier:
     dialogue: "I'm worried this is going to affect the care people get."
-    
+
   coach:
     dialogue: "It's always handy to have something written down for people to look at."
     unlocks: [create_a_manual_that_outlines_procedure] 
@@ -52,4 +52,3 @@ characters:
   hospital_administrator:
     dialogue: "I keep getting different answers from the NGO and the Ministry. Can you talk to them about it?"
     narrows: [coach, third_party_verifier, community_verifier, hospital_administrator]
-  

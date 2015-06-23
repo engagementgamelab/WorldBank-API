@@ -150,7 +150,7 @@ exports.action = {
               {
 
                 // If a YAML file, load content
-                if(fileBaseName.substring(fileBaseName.indexOf(".")+1, fileBaseName.length) == _fileOptions.filter) {
+                if(fileBaseName.substring(fileBaseName.lastIndexOf(".")+1, fileBaseName.length) == _fileOptions.filter) {
 
                   try {
            
@@ -164,7 +164,7 @@ exports.action = {
 
                       // Assign subcontents of this path
                       if(parent.indexOf(child) !== -1)
-                        connection.response[fileBaseName.substring(0, fileBaseName.indexOf("."))] = ymlContent;
+                        connection.response[fileBaseName.substring(0, fileBaseName.lastIndexOf("."))] = ymlContent;
                       else
                         fileResponse = ymlContent;
                     }

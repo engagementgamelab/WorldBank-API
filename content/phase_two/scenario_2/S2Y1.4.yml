@@ -28,16 +28,16 @@ characters:
     dialogue: "We have a pretty good sense of how budgeting worked and where we can improve it if you give us the authority."
     unlocks: [revert_power_of_budgeting_to_Ministry]
     unlocks_affects: [revert_power_of_budgeting_to_Ministry]
-    
+
   director_regional_health_services:
     feedback:
-        follow_budget_restrictions: "OK, we'll make do. We always have."
-    
+      follow_budget_restrictions: "OK, we'll make do. We always have."
+
   ngo_manager:
     dialogue: "This is results based financing. We're responsible for the results, so let us decide on the financing."
     feedback:
-        clarification_of_roles: "We can just focus on this, then. That works for me."
-        revert_power_of_budgeting_to_Ministry: "I really thought we were supposed to handle this, but if they Ministry wants to, that's fine." 
+      clarification_of_roles: "We can just focus on this, then. That works for me."
+      revert_power_of_budgeting_to_Ministry: "I really thought we were supposed to handle this, but if they Ministry wants to, that's fine." 
 
   coach:
     dialogue: "We can probably handle this without a lot of shuffling. Just remind everyone what they're supposed to be doing."
@@ -46,10 +46,10 @@ characters:
 
   third_party_verifier:
     dialogue: "I'm seeing the hospitals struggling, but that might just be growing pains."
-    
+
   community_verifier:
     dialogue: "My only concern is people not getting care because the budget keeps getting tied up in arguments."
-    
- hospital_administrator:
+
+  hospital_administrator:
     dialogue: "Will you talk to the Dep. Minister? I have hiring to do, and that's a lot of paperwork. Have you done hiring before? There is a lot of paperwork!"
     narrows: [director_regional_health_services, ngo_manager, third_party_verifier, community_verifier, hospital_administrator]

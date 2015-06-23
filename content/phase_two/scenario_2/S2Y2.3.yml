@@ -29,19 +29,20 @@ characters:
     unlocks: [terminate_ngo_contract]
     unlocks_affects: [terminate_ngo_contract_1]
     feedback:
-        clarification_of_roles: "That's sorted out. Just, you know, be sure you're writing all this down so next time these issues don't crop up. "
-    
+      clarification_of_roles: "That's sorted out. Just, you know, be sure you're writing all this down so next time these issues don't crop up. "
+
   director_regional_health_services:
     dialogue: "The NGO keeps trying to order me around and I know how to do my job. And even if I didn't, I don't work for them."
     unlocks: [warn_ngo]
     unlocks_affects: [warn_ngo_2]
-    
-  ngo_manager: "I didn't realize I wasn't supposed to oversee the way care was administered."
+
+  ngo_manager: 
+    dialogue: "I didn't realize I wasn't supposed to oversee the way care was administered."
     unlocks: [clarification_of_roles]
     unlocks_affects: [clarification_of_roles_2]
     feedback:
-        warn_ngo: "Why is it that whenever there's an issue, we're made out to be the bad guy? We're doing our best to help these people."
-        terminate_contract: "I don't understand why you brought us on in the first place if you were going to fire us for doing the work."
+      warn_ngo: "Why is it that whenever there's an issue, we're made out to be the bad guy? We're doing our best to help these people."
+      terminate_contract: "I don't understand why you brought us on in the first place if you were going to fire us for doing the work."
 
   coach:
     feedback:
@@ -53,6 +54,6 @@ characters:
   community_verifier:
     dialogue: "I am so tired of all this finger pointing. You have to be too, I know."
         
- hospital_administrator:
+  hospital_administrator:
     dialogue: "The way I see it, and this is just my opinion, is that the people at the NGO and the Director of Regional Health Services are the ones who need to figure this out. I just want to run my hospitals."
     narrows: [dep_minister_of_health, coach, third_party_verifier, community_verifier, hospital_administrator]

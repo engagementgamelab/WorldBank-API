@@ -35,7 +35,8 @@ characters:
     unlocks: [move_authority_to_ministry]
     unlocks_affects: [move_authority_to_ministry]
     
-  ngo_manager: "I know that to the Hospital Administrator, these stipulations seem really stringent, but you brought us on in part to reign in spending."
+  ngo_manager: 
+    dialogue: "I know that to the Hospital Administrator, these stipulations seem really stringent, but you brought us on in part to reign in spending."
     unlocks: [comply_with_ngo_budget]
     unlocks_affects: [comply_with_ngo_budget]
     feedback:
@@ -53,6 +54,6 @@ characters:
     dialogue: "If I were you, and I'm offering this as someone who lives here, ask the Ministry and your coach what to do. The Ministry gets the last call and the NGO doesn't."
     narrows: [director_regional_health_services, ngo_manager, third_party_verifier, community_verifier, hospital_administrator]
         
- hospital_administrator:
+  hospital_administrator:
     feedback:
         comply: "I'll comply, but I'll have to cut that money from somewhere."
