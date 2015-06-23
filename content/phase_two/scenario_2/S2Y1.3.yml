@@ -26,9 +26,9 @@ characters:
 
   dep_minister_of_health:
     feedback:
-        cease_counter_verifications: "If you think they don't need more looking into that's fine, I trust you."
-        clarification_of_roles: "Next time, let's try to avoid this by making everyone's job clear beforehand. Thanks."
-  
+      cease_counter_verifications: "If you think they don't need more looking into that's fine, I trust you."
+      clarification_of_roles: "Next time, let's try to avoid this by making everyone's job clear beforehand. Thanks."
+
   director_regional_health_services: 
     dialogue: "I'm with the Dep. Minister on this. We are responsible for how the NGO operates."
     feedback: 
@@ -48,11 +48,10 @@ characters:
     unlocks: [clarification_of_roles]
     unlocks_affects: [clarification_of_roles_1]
 
-community_verifier:
+  community_verifier:
     dialogue: "I think there's enough oversight in what we're doing. This shouldn't be the role of the Ministry."
     unlocks: [clarification_of_roles]
     unlocks_affects: [clarification_of_roles_1]
 
   hospital_administrator:
     dialogue: "It wouldn't be a lot more paperwork for us to submit for counter-verification, but I don't know that it's necessary."
-  

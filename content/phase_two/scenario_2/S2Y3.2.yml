@@ -28,14 +28,16 @@ characters:
     dialogue: "They claim they're doing such a bang up job. Are they?"
     narrows: [dep_minister_of_health, ngo_manager, coach, third_party_verifier, community_verifier]
     
-  director_regional_health_services: "It's a lot easier to work with people when they're getting paid. Just sayin'."
-  unlocks: [allow_payments_once]
-  unlocks_affects: [allow_payments_once]
+  director_regional_health_services:
+    dialogue: "It's a lot easier to work with people when they're getting paid. Just sayin'."
+    unlocks: [allow_payments_once]
+    unlocks_affects: [allow_payments_once]
   
-  ngo_manager: "I'm only doing what I thought you asked me to. If I'm not, let me know."
+  ngo_manager: 
+    dialogue: "I'm only doing what I thought you asked me to. If I'm not, let me know."
     feedback:
-        allow_payments_once: "It's good to know we can count on you just like you're counting on us."
-        deny_payment: "We're struggling with these numbers as it is. It hurts patients when we don't have money to work with."
+      allow_payments_once: "It's good to know we can count on you just like you're counting on us."
+      deny_payment: "We're struggling with these numbers as it is. It hurts patients when we don't have money to work with."
 
   coach:
     dialogue: "Maybe they're doing the best that can be done. I don't know. It can't hurt to make sure we're being realistic in our expectations."
@@ -50,5 +52,5 @@ characters:
   community_verifier:
     dialogue: "You're within your rights not to pay the NGO, it's true. But people have a right to health care."
         
- hospital_administrator:
+  hospital_administrator:
     dialogue: "As much as I've butt heads with the NGO, I'd like to continue treating patients."

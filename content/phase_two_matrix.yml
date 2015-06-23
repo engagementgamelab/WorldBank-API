@@ -10,10 +10,10 @@ pbc_true:
     scenario_2
 
   autonomy_false: 
-    scenario_4
+    scenario_1
 
 pbc_false:
   autonomy_true:
     scenario_1
   autonomy_false:
-    scenario_3
+    scenario_2

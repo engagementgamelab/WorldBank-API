@@ -5,15 +5,15 @@
 # Content Configuration
 # ==============
 
-private: false
+private: true
 
 # Configurables for plan logic
 plan:
 
   # Plan scenario-filtering tactics
   scenario_filters: 
-    autonomy: unlockable_more_autonomy
-    pbc: unlockable_use_ngo
+    autonomy: unlockable_grant_providers_autonomy
+    pbc: unlockable_contract_outside_organization_to_administer_plan
 
   # Plan starting score
   starting_score: 14
@@ -26,15 +26,14 @@ plan:
     pbc_true:
       autonomy_true:
         scenario_2
-
       autonomy_false: 
-        scenario_4
+        scenario_1
 
     pbc_false:
       autonomy_true:
         scenario_1
       autonomy_false:
-        scenario_3
+        scenario_2
 
 # All cooldowns are in seconds
 cooldown:
