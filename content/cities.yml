@@ -37,7 +37,7 @@
   display_name: Mile
   description: "Positioned as a poor yet peaceful place in the mountainous southern region of the land, Mile shows many types of unique farm animals. People sustain themselves through farming the land, and value freedom and autonomy above all. Even though they are the poorest, there is a spiritual connection to their homes and the beauty of the location itself lends to a majority of content people."
   enabled: false
-  unlocked: false
+  unlocked: true
   npc_interactions: 2
 
 - symbol: zima
