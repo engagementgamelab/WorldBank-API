@@ -18,8 +18,8 @@ starting_options: [comply_with_ministry]
 starting_options_affects: [comply_with_ministry_1]
 starting_options_cost: [small]
 
-final_options: [comply_with_ministry, authorize_providers_to_take_action_at_their_level, clarify_separation_of_functions/resonsibilities]
-final_options_affects: [comply_with_ministry_1, Authorize_providers_to_take_action_at_their_level_1, Clarify_Separation_of_Functions/Resonsibilities_1]
+final_options: [comply_with_ministry, authorize_providers_to_take_action_at_their_level, clarify_separation_of_functions/responsibilities]
+final_options_affects: [comply_with_ministry_1, Authorize_providers_to_take_action_at_their_level_1, Clarify_Separation_of_Functions/Responsibilities_1]
 final_options_cost: [small, small, medium]
 
 characters:
@@ -29,7 +29,7 @@ characters:
     dialogue: "We are very interested in making sure the providers are doing what they say, and we have the staff available to review, so why not?"
     narrows: [dep_minister_of_health, director_regional_health_services, community_manater, hospital_administrator, clinic_manager] # <--- this probably will be a symbol
     feedback: 
-      Clarify_Separation_of_Functions/Resonsibilities: "All right, I understand. I'll inform the staff here." # <--- symbol of the option used and the feedback text for it
+      Clarify_Separation_of_Functions/Responsibilities: "All right, I understand. I'll inform the staff here." # <--- symbol of the option used and the feedback text for it
 
   Director_Regional_Health_Services:
     dialogue: "I know the Minister of Health fairly well, and I can tell you that things go more smoothly if you're cooperative."
@@ -39,12 +39,12 @@ characters:
   Coach:
     dialogue: "Duplicating efforts seems to be hampering the health providers. I'd either clarify everyone's roles for them, or empower health providers to push back somehow."
     unlocks: [clarify_separation_of_functions/responsibilties, authorize_providers_to_take_action_at_their_level] # <--- these probably will symbols
-    unlocks_affects: [clarify_separation_of_functions/resonsibilities_1, authorize_providers_to_take_action_at_their_level_1]
+    unlocks_affects: [clarify_separation_of_functions/responsibilities_1, authorize_providers_to_take_action_at_their_level_1]
 
   Third_Party_Verifier:
     dialogue: "I didn't know about this. If the Ministry is doubling our verification efforts, it could prove very confusing to the providers."
     unlocks: [clarify_separation_of_functions/responsibilties]
-    unlocks_affects: [clarify_separation_of_functions/resonsibilities_1]
+    unlocks_affects: [clarify_separation_of_functions/responsibilities_1]
 
   Community_Verifier:
     dialogue: "As long as these things get verified, that's all that matters to me."

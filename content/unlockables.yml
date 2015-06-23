@@ -33,11 +33,11 @@
 - symbol: unlockable_route_malcom_to_kibari
   unlocked: [malcom_to_kibari]
 
-- symbol: unlockable_route_capital_to_malcom
-  unlocked: [capital_to_malcom]
+- symbol: unlockable_route_capitol_to_malcom
+  unlocked: [capitol_to_malcom]
 
-- symbol: unlockable_route_capital_to_crup
-  unlocked: [capital_to_crup]
+- symbol: unlockable_route_capitol_to_crup
+  unlocked: [capitol_to_crup]
 
 - symbol: unlockable_route_crup_to_kibari
   unlocked: [crup_to_kibari]
