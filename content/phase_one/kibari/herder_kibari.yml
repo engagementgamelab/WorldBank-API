@@ -18,8 +18,8 @@ character: herder_kibari
 dialogue:
     Initial:
       text: "He pauses to speak with you, nervously keeping his birds in eyeshot, and occasionally redirecting them back to the flock. \"Since you ask,\" he says, \"I am a strong believer in traditional cures. They [[seem to work]], and they're [[easy to get]].\""
-    Easy to get: 
+    Easy To Get: 
       text: "\"I heard that some people travel for days to get to the hospital, only to be told they have no medicine. Who wants to do that?\""
-    Seem to work: 
+    Seem To Work: 
       text: "He clutches his medallion. \"This is said to protect me from fevers, which kill many people in this area. I haven't gotten sick with a fever since I put it on. Hospitals on the other hand? Who even knows what happens in them?\""
       unlocks: unlockable_information_campaign_to_explain_changes_to_system
