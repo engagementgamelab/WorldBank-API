@@ -33,7 +33,7 @@ characters:
   ngo_manager:
     dialogue: "I can improve on the literature the ministry has put out."
     unlocks: [create_a_manual_outlining_procedure] 
-    unlocks_affects: [create_a_manual_outlining_procedure]
+    unlocks_affects: [create_manual]
 
   coach:
     dialogue: "It's always handy to have something written down for people to look at."
@@ -47,7 +47,7 @@ characters:
   coach:
     dialogue: "It's always handy to have something written down for people to look at."
     unlocks: [create_a_manual_that_outlines_procedure] 
-    unlocks_affects: [create_a_manual_that_outlines_procedure]
+    unlocks_affects: [create_manual]
 
   hospital_administrator:
     dialogue: "I keep getting different answers from the NGO and the Ministry. Can you talk to them about it?"
