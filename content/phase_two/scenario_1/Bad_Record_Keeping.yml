@@ -11,7 +11,7 @@ symbol: bad_record_keeping
 name: "Bad Record Keeping"
 priority: 2
 
-initiating_npc: third_party_berifier # <--- character's symbol
+initiating_npc: third_party_verifier # <--- character's symbol
 initiating_dialogue: "The Clinic submitted their reports to us, but there were some inconsistancies. When we asked to see their records, they could not supply them."
 
 starting_options: [hold_payments]

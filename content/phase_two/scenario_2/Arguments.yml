@@ -1,0 +1,59 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Problem YAML
+# ==============
+
+# Phase Two Scenario Card YML Example
+
+symbol: arguments
+name: "Arguments"
+priority: 7
+
+initiating_npc: coach
+initiating_dialogue: "I don't even know what's going on, but our stakeholders are bickering and it's gumming up the works."
+
+starting_options: [hold_stakeholder_meeting]
+starting_options_affects: [hold_stakeholder_meeting_2]
+starting_options_cost: [small]
+
+final_options: [hold_stakeholder_meeting, warn_ngo, clarification_of_roles, terminate_contract]
+final_options_affects: [hold_stakeholder_meeting_2, warn_ngo_2, clarification_of_roles_2, terminate_ngo_contract_1]
+final_options_cost: [small, small, small, small]
+
+characters:
+
+  dep_minister_of_health: 
+    dialogue: "I'm tired of the NGO acting up every opportunity, and I'd really rather not deal with them anymore."
+    unlocks: [terminate_ngo_contract]
+    unlocks_affects: [terminate_ngo_contract_1]
+    feedback:
+      clarification_of_roles: "That's sorted out. Just, you know, be sure you're writing all this down so next time these issues don't crop up. "
+
+  director_regional_health_services:
+    dialogue: "The NGO keeps trying to order me around and I know how to do my job. And even if I didn't, I don't work for them."
+    unlocks: [warn_ngo]
+    unlocks_affects: [warn_ngo_2]
+
+  ngo_manager: 
+    dialogue: "I didn't realize I wasn't supposed to oversee the way care was administered."
+    unlocks: [clarification_of_roles]
+    unlocks_affects: [clarification_of_roles_2]
+    feedback:
+      warn_ngo: "Why is it that whenever there's an issue, we're made out to be the bad guy? We're doing our best to help these people."
+      terminate_contract: "I don't understand why you brought us on in the first place if you were going to fire us for doing the work."
+
+  coach:
+    feedback:
+        hold_stakeholder_meeting: "Considering that the problem in the first place was everyone sniping at each other, I guess the meeting went pretty well. "
+
+  third_party_verifier:
+    dialogue: "I can't be of much help with this. It helps for me to be pretty neutral."
+    
+  community_verifier:
+    dialogue: "I am so tired of all this finger pointing. You have to be too, I know."
+        
+  hospital_administrator:
+    dialogue: "The way I see it, and this is just my opinion, is that the people at the NGO and the Director of Regional Health Services are the ones who need to figure this out. I just want to run my hospitals."
+    narrows: [dep_minister_of_health, coach, third_party_verifier, community_verifier, hospital_administrator]
