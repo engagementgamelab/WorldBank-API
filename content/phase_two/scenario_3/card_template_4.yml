@@ -9,7 +9,7 @@
 
 symbol: government_overreach_on_verification
 name: "Government overreach on verification"
-priority: 1
+priority: 4
 
 initiating_npc: provider_2 # <--- character's symbol
 initiating_dialogue: "The ministry has asked us to send copies of all our reports to them for verification. I thought that was supposed to stop that and send only to the third party verifier? I guess I'm still a little confused."

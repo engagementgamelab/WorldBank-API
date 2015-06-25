@@ -9,7 +9,7 @@
 
 symbol: government_overreach_on_verification3
 name: "Government overreach on verification"
-priority: 1
+priority: 3
 
 initiating_npc: provider_2 # <--- character's symbol
 initiating_dialogue: "Card 3"

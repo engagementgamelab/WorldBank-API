@@ -7,8 +7,8 @@
 
 # Phase Two Tactic YML Template
 
-symbol: tactic_card_1
-tactic_name: unlockable_voucher_management  # <--- symbol of the tactic (stored in unlockables.yml) this card is using
+symbol: tactic_card_3
+tactic_name: unlockable_use_ngo  # <--- symbol of the tactic (stored in unlockables.yml) this card is using
 name: "Tactic card name" # <--- display name for card
 
 # This dialogue the player sees first
