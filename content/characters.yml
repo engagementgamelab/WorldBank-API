@@ -172,3 +172,11 @@
 - symbol: community_verifier
   display_name: Community Verifier
   description: "description"
+
+- symbol: clinic_manager
+  display_name: Clinic Manager
+  description: "description"
+
+- symbol: director_regional_health_services
+  display_name: Director of Regional Health Services 
+  description: "description"
