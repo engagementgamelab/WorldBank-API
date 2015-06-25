@@ -119,7 +119,7 @@
 # -------------
 # Zima
 # -------------
-- symbol: hospital_administrator
+- symbol: hospital_administrator_zima
   display_name: Hospital Administrator
   description: "A woman you recognize as the hospital administrator sits at her desk, going over some of the day's paperwork."
 
