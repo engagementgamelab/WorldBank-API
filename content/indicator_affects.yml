@@ -124,4 +124,144 @@ strong_sanctions:
   indicator_2: -1
   indicator_3: +1
 
+# ------------------
+# Inconsistent Indicators - S1_Y2_P3
+# ------------------
 
+hire_more_outreach_staff:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+raise_incentives_for_faciliity_births:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+review_indicators_at_end_of_year:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+
+# ------------------
+# More Transparency - S1_Y2_P4
+# ------------------
+
+warning_4:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+terminate_contract_at_end_of_year_3:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+audit:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+capacity_building:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+# ------------------
+# Wrong Numbers - S1_Y3_P1
+# ------------------
+
+warning_5:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+sanctions_3:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+hold_meeting_to_retrain_on_reporting_practices:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+# ------------------
+# Budget Lines - S1_Y3_P2
+# ------------------
+
+comply_with_ministry_request:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+clarify_separation_of_functions_and_responsibilities_2:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+Revise_business_plan_2:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+
+# ------------------
+# Failed Inspection - S1_Y3_P3
+# ------------------
+
+review_the_inspection: 
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+warning_6:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+deny_review:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+
+# ------------------
+# Over Capacity - S1_Y3_P4
+# ------------------
+
+expand_hiring_of_hospital_staff:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+expand_hiring_at_all_facilities:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+award_bonuses_to_hospital_staff:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+
+
+# ------------------
+# Checkup Overload - S1_Y3_P5
+# ------------------
+
+decrease_incentives:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+warn_providers_to_follow_protocols:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+maintain_current_rates:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0

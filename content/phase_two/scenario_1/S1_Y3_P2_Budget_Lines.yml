@@ -19,7 +19,7 @@ starting_options_affects: [comply_with_ministry_request]
 starting_options_cost: [small]
 
 final_options: [comply_with_ministry_request, clarify_separation_of_functions/roles_and_responsibilities, Revise_business_plan]
-final_options_affects: [comply_with_ministry_request, clarify_separation_of_functions/roles_and_responsibilities2, Revise_business_plan]
+final_options_affects: [comply_with_ministry_request, clarify_separation_of_functions_and_responsibilities_2, Revise_business_plan_2]
 final_options_cost: [small, small, medium]
 
 
@@ -38,7 +38,7 @@ characters:
 
   Coach:
     dialogue: "I have found some mismanagement of funds in the past as well. However, we are supposed to be granting autonomy."
-    unlocks: [clarify_separation_of_functions/roles_and_responsibilities]
+    unlocks: [clarify_separation_of_functions_and_responsibilities_2]
 
   Third_Party_Verifier:
     dialogue: "I have noticed some inconsistencies in the data that indicate to me some funds are being mismanaged."
@@ -48,7 +48,7 @@ characters:
 
   Clininic_Manager:
     dialogue: "I need to be able to hire whoever is needed. This is a return to the status quo that I do not agree with."
-    unlocks: [clarify_separation_of_functions/roles_and_responsibilities]
+    unlocks: [clarify_separation_of_functions_and_responsibilities_2]
 
   Hospital_Administrator:
     Feedback:
