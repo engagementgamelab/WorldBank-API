@@ -11,7 +11,7 @@ symbol: More_Transparency
 name: "More Transparency"
 priority: 8
 
-initiating_npc: Coach # <--- character's symbol
+initiating_npc: coach # <--- character's symbol
 initiating_dialogue: "I was visiting one of the clinics in the network for my mentoring visit, and I was unhappy with their transparency. There were some records I was told were unavailable, and I was not able to meet with the staff as I wished."
 
 starting_options: [warning, terminate_contract_at_end_of_year]
