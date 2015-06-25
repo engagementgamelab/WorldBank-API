@@ -8,7 +8,7 @@
 # Phase Two Scenario Card YML Example
 
 symbol: managerial_autonomy_hiring
-name: "Managerial Autonomy, Hiring"
+name: "Managerial Autonomy"
 priority: 4
 
 initiating_npc: director_regional_health_services

@@ -31,7 +31,7 @@ characters:
   director_regional_health_services:
     dialogue: "The health care providers are working with the NGO according to the guidelines we laid out. We can go back to the manual and fix the problems in our policies."
     unlocks: [revise_operating_manual]
-    unlocks_effects: [revise_operating_manual]
+    unlocks_affects: [revise_operating_manual]
 
   ngo_manager: 
     dialogue: "It's been a lot harder to reach some populations than we expected, especially down there. Those people are more entrenched in traditional medicine, and that's a big hump for us to get over when we can only afford the health care itself."

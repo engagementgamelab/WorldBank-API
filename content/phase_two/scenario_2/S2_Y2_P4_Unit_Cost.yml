@@ -56,4 +56,4 @@ characters:
         
   hospital_administrator:
     feedback:
-        comply: "I'll comply, but I'll have to cut that money from somewhere."
+        comply_with_ngo_budget: "I'll comply, but I'll have to cut that money from somewhere."
