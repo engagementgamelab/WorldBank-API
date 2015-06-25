@@ -19,7 +19,7 @@ starting_options_affects: [review_the_inspection]
 starting_options_cost: [medium]
 
 final_options: [review_the_inspection, warning, deny_review]
-final_options_affects: [review_the_inspection, warning_6. deny_review]
+final_options_affects: [review_the_inspection, warning_6, deny_review]
 final_options_cost: [medium, small, small]
 
 

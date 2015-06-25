@@ -22,7 +22,7 @@
 
 - score: 14-11
   grade: A
-  description: "Amazing. Simply stunning results! We are seeing unprecedented increases across the board. This is really going to help the country move in the right direction. I don't think there much else you could have done, and I think if we stay the course we will really make a difference in so many lives over the next three years"
+  description: "Congratulations on exceeding your goals. The pilot test we conducted has shown significant increases in all three major indicators. We are confident that over the next three years, this plan will continue to bear fruit."
 
 # Facility births: +10%
 # Vaccinations: +20%
@@ -30,7 +30,7 @@
 
 - score: 10-8
   grade: B
-  description: "This is a pretty good plan. I think there might have been a better way to handle this, but I think this will do just fine! we are seeing increases across the board. With a little tweaking, we might even be able to hit our three year goals"
+  description: "The pilot test we ran showed some promising results. We have seen measurable increases in all three major indicators, especially in vaccinations. With proper implementation over the next three years, Facility Births and Quality of Care could rise to match it."
 
 # Facility births: +5%
 # Vaccinations: +15%
@@ -38,14 +38,14 @@
 
 - score: 7-4
   grade: C
-  description: "It seems like we are somewhat around where we started. I think we will have to make signfiicant changes to the plan moving forward in order to bring up these numbers. We might even want to redirect the distribution of funds soon."
+  description: "The results of our pilot test were mixed to say the least. Indicators have barely budged and are within the margins of error. We recommend re-evaluation of the context. A second attempt could yield a plan with greater efficacy."
 # Facility births: 0
 # Vaccinations: -5%
 # Quality of care: 0
 
 - score: 3-1
   grade: D
-  description: "It seems like the plan you suggested has made things worse. We are seeing even less services delivered than before our RBF plan was put into place. Maybe RBF isn't the right answer after all...we will still move forward with the next two years. I would recommend shifting the plan immediately and reorganizing the direction of change you put into place." 
+  description: "We ran a pilot test and somehow, your plan as done more harm than good. Maybe RBF isn't the right answer after all. We strongly recommend re-evaluation of the context. More research and surveys should help. If this plan is put into practice, the implementer will have their work cut out for them!" 
 # Facility births: -8%
 # Vaccinations: -10%
 # Quality of care: 0%

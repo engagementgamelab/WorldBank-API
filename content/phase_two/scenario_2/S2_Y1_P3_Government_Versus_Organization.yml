@@ -8,7 +8,7 @@
 # Phase Two Scenario Card YML Example
 
 symbol: government_v_organization
-name: "Government v Organization"
+name: "Government versus Organization"
 priority: 3
 
 initiating_npc: dep_minister_of_health
@@ -18,8 +18,8 @@ starting_options: [pressure_the_ngo_to_comply]
 starting_options_affects: [pressure_the_ngo_to_comply_1]
 starting_options_cost: [small]
 
-final_options: [force_ngo_to_comply, cease_counter-_verification, clarification_of_roles]
-final_options_affects: [force_ngo_to_comply_1, cease_counter-_verification, clarification_of_roles_1]
+final_options: [force_ngo_to_comply, cease_counter_verification, clarification_of_roles]
+final_options_affects: [force_ngo_to_comply_1, cease_counter_verification, clarification_of_roles_1]
 final_options_cost: [small, small, small]
 
 characters:

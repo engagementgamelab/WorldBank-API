@@ -122,6 +122,14 @@
 # Zima
 # -------------
 
+- symbol: hospital_administrator_zima
+  display_name: Hospital Administrator
+  description: "A woman you recognize as the hospital administrator sits at her desk, going over some of the day's paperwork."
+
+- symbol: patient_zima
+  display_name: Patient
+  description: "A woman sits in the waiting room, staring into space. Either she is waiting for her turn to see the doctor, or here with someone who is currently being examined." 
+
 - symbol: foreign_traveler_zima
   display_name: Foreign Traveler
   description: "Her assortment of luggage marks this woman as a traveller, and her clothes and attitude tell you she is foreign. Where could she be going?" 
@@ -133,10 +141,6 @@
 - symbol: nurse_zima
   display_name: Nurse
   description: "The tall male nurse towers over everyone. Forehead scrunched in frustrated tension, he wipes a few beads of sweat from his brow."
-
-- symbol: hospital_administrator
-  display_name: Hospital Administrator
-  description: "A woman you recognize as the hospital administrator sits at her desk, going over some of the day's paperwork."
 
 - symbol: patient_zima
   display_name: Patient

@@ -8,7 +8,7 @@
 # Phase Two Scenario Card YML Example
 
 symbol: process_v_results_again
-name: "Process v Results Again"
+name: "Process Versus Results"
 priority: 5
 
 initiating_npc: ngo_manager

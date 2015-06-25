@@ -28,7 +28,6 @@ characters:
     dialogue: "This is something I had to learn early on when I switched from practicing medicine to politics: if you can't cut something out of the budget, just stop budgeting for it. Just terminate the contract so we won't have to go through this."
     unlocks: [terminate_ngo_contract]
     unlocks_affects: [terminate_ngo_contract_2]
-    
         
   director_regional_health_services:
     dialogue: "I get where the Dep. Minister is coming from, but I see people getting treated. We need to get everyone on the same page."
