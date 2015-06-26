@@ -149,6 +149,7 @@
 # ============
 # I had to add these for phase 2 as some scenario cards reference them. PLEASE ensure a character exists here before referencing it. - Johnny
 # ============
+
 - symbol: dep_minister_of_health
   display_name: Dep. Minister of Health
   description: "description"
@@ -183,4 +184,8 @@
 
 - symbol: director_regional_health_services
   display_name: Director of Regional Health Services 
+  description: "description"
+
+- symbol: Supervisor
+  display_name: Supervisor of Plan Observation
   description: "description"

@@ -245,8 +245,6 @@ award_bonuses_to_hospital_staff:
   indicator_2: 0
   indicator_3: 0
 
-
-
 # ------------------
 # Checkup Overload - S1_Y3_P5
 # ------------------
@@ -265,3 +263,29 @@ maintain_current_rates:
   indicator_1: 0
   indicator_2: 0
   indicator_3: 0
+
+
+# ----------------            ---------------- #
+# ---------------- SCENARIO 2 ---------------- #
+# ----------------            ---------------- #
+
+hold_a_meeting_of_all_stakeholders_1:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+create_manual:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+give_ministry_more_power:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+
+# ----------------            ---------------- #
+# ----------------   TACTICS  ---------------- #
+# ----------------            ---------------- #
+
