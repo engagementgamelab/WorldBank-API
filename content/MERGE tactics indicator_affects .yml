@@ -1,0 +1,296 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Indicator Affects
+# ==============
+
+option_cost: small=0
+option_cost: medium=1
+option_cost: large=2
+
+
+# These are categorized based on what problem they are affected by. 
+
+
+
+# ----------------            ---------------- #
+# ----------------   TACTICS  ---------------- #
+# ----------------            ---------------- #
+
+# --------------------- #
+# Vouchers for Services #
+# --------------------- #
+
+
+# -------------------------- #
+# Poor voucher usage - Y1_V1
+# -------------------------- #
+
+unlockable_information_campaign:
+  indicator_1: +1
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_add_travel_vouchers:
+  indicator_1: +1
+  indicator_2: +2
+  indicator_3: 0
+
+unlockable_increase_budget_for_outreach:
+  indicator_1: +3
+  indicator_2: +1
+  indicator_3: 0
+
+# -------------------------- #
+# Wrong number of Cases - Y1_V2
+# -------------------------- #
+
+unlockable_warning_t1:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: +2
+
+unlockable_sanctions_t1:
+  indicator_1: -1
+  indicator_2: 0
+  indicator_3: +1
+
+# -------------------------- #
+# Voucher Acceptance - Y2_V1
+# -------------------------- #
+
+unlockable_expedite_voucher_payments:
+  indicator_1: +2
+  indicator_2: +2
+  indicator_3: +1
+
+unlockable_sanction_the_provider:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: 0
+
+unlockable_warn_the_provider:
+  indicator_1: +1
+  indicator_2: 0
+  indicator_3: 0
+
+# -------------------------- #
+# False Declarations - Y2_V2
+# -------------------------- #
+
+unlockable_warning_t2:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +1
+
+unlockable_sanctions_t2:
+  indicator_1: +2
+  indicator_2: 0
+  indicator_3: +1
+
+unlockable_modify_business_plan_t1:
+  indicator_1: +2
+  indicator_2: +2
+  indicator_3: +2
+
+# -------------------------- #
+# Running Out of Vouchers - Y3_V1
+# -------------------------- #
+
+unlockable_seek_another_printer:
+  indicator_1: -2
+  indicator_2: -2
+  indicator_3: -1
+
+unlockable_contract multiple printers:
+  indicator_1: -1
+  indicator_2: -1
+  indicator_3: -1
+
+unlockable_print_vouchers_locally:
+  indicator_1: +3
+  indicator_2: +2
+  indicator_3: +1
+
+# -------------------------- #
+# Voucher Issues - Y3_V2
+# -------------------------- #
+
+unlockable_contract_organization_to_help_distribute:
+  indicator_1: +3
+  indicator_2: +2
+  indicator_3: -1
+
+unlockable_sanction_voucher_agency:
+  indicator_1: -1
+  indicator_2: -1
+  indicator_3: -1
+
+  # ------------------------------- #
+# Conditional Cash Transfer (CCT) #
+# ------------------------------- #
+
+# -------------------------- #
+# What is Covered? - Y1_CCT1
+# -------------------------- #
+
+unlockable_broaden_what_is_covered:
+  indicator_1: +1
+  indicator_2: 0
+  indicator_3: -2
+
+unlockable_information_campaign_to_explain_what_is_covered:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +1
+
+# -------------------------- #
+# Qualification Confusion - Y1_CCT2
+# -------------------------- #
+
+unlockable_retrain:
+  indicator_1: +1
+  indicator_2: 0
+  indicator_3: +1
+
+unlockable_hire_third_party_to_rewrite:
+  indicator_1: +2
+  indicator_2: +1
+  indicator_3: +2
+
+unlockable_hospital_administrator_revises_policy:
+  indicator_1: -2
+  indicator_2: -2
+  indicator_3: -3
+
+# -------------------------- #
+# CCT Penetration - Y2_CCT1
+# -------------------------- #
+
+unlockable_increase_incentives:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: 0
+
+unlockable_cultural_campaign:
+  indicator_1: 0
+  indicator_2: +1
+  indicator_3: 0
+
+unlockable_incentivise_traditional_midwives:
+  indicator_1: +1
+  indicator_2: +3
+  indicator_3: 0
+
+# -------------------------- #
+# Underutilization- Y2_CCT2
+# -------------------------- #
+
+unlockable_increase_incentives_t2:
+  indicator_1: +1
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable__use_a_different_incentive:
+  indicator_1: +3
+  indicator_2: +2
+  indicator_3: 0
+
+# -------------------------- #
+# Payment Inconsistancy - Y3_CCT1
+# -------------------------- #
+
+unlockable_only_pay_for_results:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +2
+
+unlockable__allow_temporary_exception:
+  indicator_1: -1
+  indicator_2: -1
+  indicator_3: -1
+
+# -------------------------- #
+# Cash Transfer Confusion- Y3_CCT2
+# -------------------------- #
+
+unlockable_expedite_cct_payments:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +1
+
+unlockable_fund_info_campaign:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_embed_cct_officer_at_facilities:
+  indicator_1: +2
+  indicator_2: +2
+  indicator_3: 0
+
+# -------- #
+# Outreach #
+# -------- #
+
+# -------------------------- #
+# Confusion of Roles - Y1_O1
+# -------------------------- #
+
+unlockable_clarify_role_for_ministry:
+  indicator_1: +3
+  indicator_2: +3
+  indicator_3: +3
+
+unlockable_tell_providers_to_act_without_ministry_approval:
+  indicator_1: +2
+  indicator_2: +1
+  indicator_3: +1
+
+# -------------------------- #
+# Field Records - Y1_O2
+# -------------------------- #
+
+unlockable_warning_t3:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +1
+
+unlockable_advise_providers_to_hire_more_outreach_staff:
+  indicator_1: +2
+  indicator_2: +1
+  indicator_3: +2
+
+# -------------------------- #
+# Supply Chain - Y2_O1
+# -------------------------- #
+
+unlockable_increase_quality_of_care_incentives:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +1
+
+unlockable_reduce_workforce:
+  indicator_1: -2
+  indicator_2: -1
+  indicator_3: -2
+
+# -------------------------- #
+# Home Births - Y3_O1
+# ------------------------- #
+
+unlockable_increase_facility_birth_incentives:
+  indicator_1: 0
+  indicator_2: +1
+  indicator_3: 0
+
+unlockable_continue_with_plan:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_give_permission:
+  indicator_1: 0
+  indicator_2: +3
+  indicator_3: -8
