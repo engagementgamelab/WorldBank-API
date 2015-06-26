@@ -5,11 +5,6 @@
 # Phase Two Indicator Affects
 # ==============
 
-option_cost: small=0
-option_cost: medium=1
-option_cost: large=2
-
-
 # These are categorized based on what problem they are affected by. 
 
 # ------------------
