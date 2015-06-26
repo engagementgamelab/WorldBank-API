@@ -25,8 +25,7 @@ final_options_cost: [large, large, medium]
 
 characters:
 
-  # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
-  dep_minister_of_health: # <--- character's symbol
+  # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory") # <--- character's symbol
 
   director_regional_health_services:
     dialogue: "I suggest hiring more outreach staff to operate in facilities near these settlements."
