@@ -78,6 +78,7 @@ revise_business_plan_to_include_regular_meetings_1:
   indicator_2: +1
   indicator_3: +2
 
+#-------------------------------------------------THIS IS WHERE I STARTED ADDING NUMBERS RANDOMLY FYI!!!!
 
 # ------------------
 # Mismanagement - S1_Y2_P1
@@ -123,19 +124,19 @@ strong_sanctions:
 # ------------------
 
 hire_more_outreach_staff:
-  indicator_1: 0
+  indicator_1: +1
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: +1
 
 raise_incentives_for_faciliity_births:
   indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_2: -1
+  indicator_3: +1
 
 review_indicators_at_end_of_year:
   indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_2: -1
+  indicator_3: +1
 
 
 # ------------------
@@ -144,8 +145,8 @@ review_indicators_at_end_of_year:
 
 warning_4:
   indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_2: -1
+  indicator_3: +7
 
 terminate_contract_at_end_of_year_3:
   indicator_1: 0
@@ -153,13 +154,13 @@ terminate_contract_at_end_of_year_3:
   indicator_3: 0
 
 audit:
-  indicator_1: 0
+  indicator_1: +1
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: +1
 
 capacity_building:
   indicator_1: 0
-  indicator_2: 0
+  indicator_2: +1
   indicator_3: 0
 
 # ------------------
@@ -168,18 +169,18 @@ capacity_building:
 
 warning_5:
   indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_2: -1
+  indicator_3: +2
 
 sanctions_3:
-  indicator_1: 0
-  indicator_2: 0
+  indicator_1: -1
+  indicator_2: -1
   indicator_3: 0
 
 hold_meeting_to_retrain_on_reporting_practices:
-  indicator_1: 0
+  indicator_1: +1
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: +1
 
 # ------------------
 # Budget Lines - S1_Y3_P2
@@ -187,17 +188,18 @@ hold_meeting_to_retrain_on_reporting_practices:
 
 comply_with_ministry_request:
   indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_2: +2
+  indicator_3: -1
+
 clarify_separation_of_functions_and_responsibilities_2:
-  indicator_1: 0
+  indicator_1: +1
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: +1
 
 Revise_business_plan_2:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: -1
 
 
 # ------------------
@@ -206,13 +208,13 @@ Revise_business_plan_2:
 
 review_the_inspection: 
   indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_2: +1
+  indicator_3: +2
 
 warning_6:
-  indicator_1: 0
+  indicator_1: +1
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: +1
 
 deny_review:
   indicator_1: 0
@@ -225,39 +227,40 @@ deny_review:
 # ------------------
 
 expand_hiring_of_hospital_staff:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_1: +2
+  indicator_2: +1
+  indicator_3: -1
 
 expand_hiring_at_all_facilities:
   indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_2: +1
+  indicator_3: +4
 
 award_bonuses_to_hospital_staff:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_1: -1
+  indicator_2: -3
+  indicator_3: +5
 
 # ------------------
 # Checkup Overload - S1_Y3_P5
 # ------------------
 
 decrease_incentives:
-  indicator_1: 0
-  indicator_2: 0
+  indicator_1: -2
+  indicator_2: -1
   indicator_3: 0
 
 warn_providers_to_follow_protocols:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_1: -2
+  indicator_2: -1
+  indicator_3: +2
 
 maintain_current_rates:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_1: +4
+  indicator_2: +2
+  indicator_3: -4
 
+#---------------------------------------------- THIS IS WHERE I ENDED ADDING RANDOM THINGS FYI!!#
 
 # ----------------            ---------------- #
 # ---------------- SCENARIO 2 ---------------- #

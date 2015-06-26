@@ -8,7 +8,7 @@
 # Phase Two Tactic YML Template
 
 symbol: tactic_card_1
-tactic_name: unlockable_more_autonomy  # <--- symbol of the tactic (stored in unlockables.yml) this card is using
+tactic_name: unlockable_vouchers_for_services  # <--- symbol of the tactic (stored in unlockables.yml) this card is using
 name: "Tactic card name" # <--- display name for card
 year: 3 
 
