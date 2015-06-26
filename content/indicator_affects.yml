@@ -5,14 +5,7 @@
 # Phase Two Indicator Affects
 # ==============
 
-option_cost: small=0
-option_cost: medium=1
-option_cost: large=2
-
-
 # These are categorized based on what problem they are affected by. 
-
-
 
 # ------------------
 # Government Overreach Verification - S1_Y1_P1
@@ -20,7 +13,7 @@ option_cost: large=2
 
 comply_with_ministry_1:
   indicator_1: 0
-  indicator_2: 0
+  indicator_2: +1
   indicator_3: -1
 
 authorize_providers_to_take_action_at_their_level_1:

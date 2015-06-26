@@ -16,11 +16,11 @@ initiating_dialogue: "The ministry has asked us to send copies of all our report
 
 starting_options: [comply_with_ministry]
 starting_options_affects: [comply_with_ministry_1]
-starting_options_cost: [small]
+starting_options_cost: [$config_cost_small]
 
 final_options: [comply_with_ministry, authorize_providers_to_take_action_at_their_level, clarify_separation_of_functions/responsibilities]
 final_options_affects: [comply_with_ministry_1, authorize_providers_to_take_action_at_their_level_1, clarify_separation_of_functions/responsibilities_1]
-final_options_cost: [small, small, medium]
+final_options_cost: [$config_cost_small, $config_cost_small, $config_cost_small]
 
 characters:
 

@@ -40,3 +40,9 @@ plan:
 cooldown:
   short: [5, 5, 10]
   long: [10, 15, 20]
+
+# Configure cost variables
+cost:
+  small: 0
+  medium: 1
+  large: 2
