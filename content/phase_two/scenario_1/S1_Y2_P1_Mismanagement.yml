@@ -14,11 +14,11 @@ priority: 5
 initiating_npc: coach # <--- character's symbol
 initiating_dialogue: "I was visiting the hospital for my mentoring visit, and they are still mismanaging funds. The business plan has clear guidlelines the Adminstrator is not sticking to."
 
-starting_options: [warning, sanctions_and_retraining_on_use_of_financial_tools]
+starting_options: [warning_2, sanctions_and_retraining_on_use_of_financial_tools]
 starting_options_affects: [warning_2, sanctions_and_retraining_on_use_of_financial_tools]
 starting_options_cost: [small, medium]
 
-final_options: [warning, sanctions_and_retraining_on_use_of_financial_tools, revise_business_plan]
+final_options: [warning_2, sanctions_and_retraining_on_use_of_financial_tools, revise_business_plan_1]
 final_options_affects: [warning_2, sanctions_and_retraining_on_use_of_financial_tools, revise_business_plan_1]
 final_options_cost: [small, medium, medium]
 
@@ -26,31 +26,31 @@ final_options_cost: [small, medium, medium]
 characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
-  Dep_Minister_of_Health: # <--- character's symbol
+  dep_minister_of_health: # <--- character's symbol
     dialogue: "I have been slammed with meetings all week, and don't really have time to discuss this right now. Sorry."
 
-  Director_Regional_Health_Services:
+  director_regional_health_services:
     dialogue: "Have you considered that there is a flaw in the business plan? If the Hospital Administrator is straying from it so often, it might need to be reevaluated."
-    Unlocks: [revise_business_plan]
-    Unlocks_affects: [revise_business_plan_1]
+    unlocks: [revise_business_plan_1]
+    unlocks_affects: [revise_business_plan_1]
 
-  Coach:
+  coach:
     feedback: 
-      revise_business_plan: " I will schedule a meeting this week with the purchasing agency and begin the revision proccess for next quarter."
-      Sanctions_and_retraining_on_use_of_financial_tools: "I'll make some time this week for a retraining session and try to drill down on exactly how these tools should be used. I'm informing the regulator about the sanctions now."
+      revise_business_plan_1: "I will schedule a meeting this week with the purchasing agency and begin the revision proccess for next quarter."
+      sanctions_and_retraining_on_use_of_financial_tools: "I'll make some time this week for a retraining session and try to drill down on exactly how these tools should be used. I'm informing the regulator about the sanctions now."
 
-  Third_Party_Verifier:
+  third_party_verifier:
     dialogue: "If i had to guess, I would say this is simple mismanagement, nothing fraudulent." 
 
-  Community_Verifier:
+  community_verifier:
     dialogue: "I'm not really sure. I haven't even been to this hospital!"
    
 
-  Clininic_Manager:
+  clinic_manager:
     dialogue: "When was the last time you revised the business plan?"
     
-  Hospital_Administrator:
+  hospital_administrator:
     dialogue: "We need to spend money where it's needed, and as the adminsitrator of this hospital, I know where it is needed. That was the purpose of granting us automony in the first place."
     feedback: 
-      Warning: "I will do my best, but I I'm really worried things are going to start breaking down soon."
+      warning_2: "I will do my best, but I I'm really worried things are going to start breaking down soon."
 

@@ -18,44 +18,43 @@ starting_options:
 starting_options_affects: 
 starting_options_cost: 
 
-final_options: [hire_more_outreach_staff, raise_incentives_for_faciliity_births, review_indicators_at_end_of_year]
-final_options_affects: [hire_more_outreach_staff, raise_incentives_for_faciliity_births, review_indicators_at_end_of_year]
+final_options: [hire_more_outreach_staff, raise_incentives_for_facility_births, review_indicators_at_end_of_year]
+final_options_affects: [hire_more_outreach_staff, raise_incentives_for_facility_births, review_indicators_at_end_of_year]
 final_options_cost: [large, large, medium]
 
 
 characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
-  Dep_Minister_of_Health: # <--- character's symbol
-  
+  dep_minister_of_health: # <--- character's symbol
 
-  Director_Regional_Health_Services:
+  director_regional_health_services:
     dialogue: "I suggest hiring more outreach staff to operate in facilities near these settlements."
-    Unlocks: [hire_more_outreach_staff]
-    Unlocks_affects: [hire_more_outreach_staff]
+    unlocks: [hire_more_outreach_staff]
+    unlocks_affects: [hire_more_outreach_staff]
     feedback:
-      Hire_More_Outreach_Staff: "This makes a good deal of sense to me."
+      hire_more_outreach_staff: "This makes a good deal of sense to me."
 
-  Coach:
+  coach:
     dialogue: "We've tried many strategies to improve stagnant indicators. Perhaps the indicators need to be reviewed at the end of the year?"
-    Unlocks: [review_indicators_at_end_of_year]
-    Unlocks_affects: [review_indicators_at_end_of_year]
+    unlocks: [review_indicators_at_end_of_year]
+    unlocks_affects: [review_indicators_at_end_of_year]
     feedback:
-      Review_Indicators_at_End_of_Year: "It might make sense to revise goals down, or at the very least, perform another survey to make sure our population estimates were correct."
+      review_indicators_at_end_of_year: "It might make sense to revise goals down, or at the very least, perform another survey to make sure our population estimates were correct."
 
-  Third_Party_Verifier:
+  third_party_verifier:
     dialogue: "Are you concerned about fraud? I haven't seen direct evidence of it."
 
-  Community_Verifier:
+  community_verifier:
     dialogue: "People here are still reluctant to travel to facillities."
 
-  Clininic_Manager:
+  clinic_manager:
     dialogue: "I admit, we haven't seen as many facility births as we'd like. We're doing everything we can to change that."
-    
-  Hospital_Administrator:
+
+  hospital_administrator:
     dialogue: "Vaccinations are easier to manage. Births take more planning. More resources are likely required to make this work."
-    Unlocks: [raise_incentives_for_faciliity_births]
-    Unlocks_affects: [raise_incentives_for_faciliity_births]
+    unlocks: [raise_incentives_for_facility_births]
+    unlocks_affects: [raise_incentives_for_facility_births]
     feedback:
-     Raise_Incentives_For_Faciliity_Births: "That will make this a good deal easier for us."
+      raise_incentives_for_facility_births: "That will make this a good deal easier for us."
 

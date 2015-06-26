@@ -174,22 +174,118 @@
 # ---------------- PHASE 2 SCENARIO OPTIONS ---------------- #
 # ----------------                          ---------------- #
 
+# -------------------                       ------------------- #
+# -------------------  Scenario 1 - Year 1  ------------------- #
+# -------------------                       ------------------- #
 
-# ------------------- #
-# Scenario 1 - Year 1 
-# ------------------- #
+# ------------------
+# Government Overreach Verification - S1_Y1_P1
+# ------------------
+
+- symbol: comply_with_ministry_1
+  title: "Comply with the Ministry"
+
+- symbol: authorize_providers_to_take_action_at_their_level_1
+  title: "Authorize providers to take action at their level"
+
+- symbol: clarify_separation_of_functions_1
+  title: "Clarify the seperation of functions and responsibilities"
+
+# ------------------ 
+# Bad Record Keeping - S1_Y1_P2
+# ------------------
+
+- symbol: hold_payments_1
+  title: "Hold payments"
+
+- symbol: help_build_capacity_1
+  title: "Help build capacity"
+
+- symbol: sanctions_1
+  title: "Establish sanctions"
+
+# ------------------
+# Poor Management - S1_Y1_P3
+# ------------------
+
+- symbol: warning_and_retraining_1
+  title: "Warn and retrain staff" 
+
+- symbol: terminate_contract_effective_end_of_year_1
+  title: "Terminate contract at the end of the year"
+
+# ------------------
+# Dodging Responsibility - S1_Y1_P4
+# ------------------
+
+- symbol: warning_1
+  title: "Give a warning"
+
+- symbol: revise_business_plan_to_include_regular_meetings_1
+  title: "Revise the business plan to include regular meetings"
+
+- symbol: terminate_contract_effective_end_of_year_2
+  title: "Terminate the contract at the end of this year"
+
+# -------------------                       ------------------- #
+# -------------------  Scenario 1 - Year 2  ------------------- #
+# -------------------                       ------------------- #
 
 
+# ------------------
+# Mismanagement - S1_Y2_P1
+# ------------------
 
-# ------------------- #
-# Scenario 1 - Year 2
-# ------------------- #
+- symbol: warning_2
+  title: "Give warning"
+
+- symbol: sanctions_and_retraining_on_use_of_financial_tools
+  title: "Set sanctions and retrain using financial tools"
+
+- symbol: revise_business_plan_1
+  title: "Revise the buisness plan"
+
+# ------------------
+# Lack of Transparency - S1_Y2_P2
+# ------------------
+- symbol: warning_3 
+  title: "Give warning"
+
+- symbol: mild_sanctions 
+  title: "Establish mild sanctions"
+
+- symbol: strong_sanctions
+  title:  "Establish strong sanctions"
 
 
+# ------------------
+# Inconsistent Indicators - S1_Y2_P3
+# ------------------
 
-# ------------------- #
-# Scenario 1 - Year 3
-# ------------------- #
+# ------------------
+# More Transparency - S1_Y2_P4
+# ------------------
+
+
+# -------------------                       ------------------- #
+# -------------------  Scenario 1 - Year 3  ------------------- #
+# -------------------                       ------------------- #
+
+# ------------------
+# Wrong Numbers - S1_Y3_P1
+# ------------------
+
+# ------------------
+# Budget Lines - S1_Y3_P2
+# ------------------
+
+# ------------------
+# Failed Inspection - S1_Y3_P3
+# ------------------
+
+# ------------------
+# Over Capacity - S1_Y3_P4
+# ------------------
 
 
 
