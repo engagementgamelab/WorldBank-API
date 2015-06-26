@@ -12,7 +12,7 @@ name: "Poor Management"
 priority: 3
 
 initiating_npc: third_party_verifier # <--- character's symbol
-initiating_dialogue: "The clinic submitted their reports to us, but there were some inconsistancies. When we asked to see their records, they could not supply them."
+initiating_dialogue: "The clinic submitted their reports to us, but there were some inconsistencies. When we asked to see their records, they could not supply them."
 
 starting_options: [warning_and_retraining_1, terminate_contract_effective_end_of_year_1]
 starting_options_affects: [warning_and_retraining_1, terminate_contract_effective_end_of_year_1]

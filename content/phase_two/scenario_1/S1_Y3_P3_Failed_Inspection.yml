@@ -31,12 +31,11 @@ characters:
 
   director_regional_health_services:
     dialogue: "I recognize that their job is difficult, but quality of care is one of the indicators we are working to improve."
-    
 
   coach:
     dialogue: "Quality of care is not something we should grant leeway on. It is crucially important to the plan!"
     unlocks: [warning]
-  
+
   third_party_verifier:
     dialogue: "They failed inspection, plain and simple. A review is not necessary."
     unlocks: [deny_review]
@@ -46,10 +45,9 @@ characters:
 
   clinic_manager:
     Feedback: 
-    review_the_inspection: "Thank you! I think you'll find our quality is sufficient."
-    warning_6: "I don't know what we can do to improve things before the year is out."
-    deny_review: "This may be a serious problem. I was not paid last quarter, and it looks like I won't be paid this quarter."
+      review_the_inspection: "Thank you! I think you'll find our quality is sufficient."
+      warning_6: "I don't know what we can do to improve things before the year is out."
+      deny_review: "This may be a serious problem. I was not paid last quarter, and it looks like I won't be paid this quarter."
 
   hospital_administrator:
     dialogue: "I can tell you it is painful to miss a payment, even when things are going well. What harm is there in reviewing the inspection?"
-   

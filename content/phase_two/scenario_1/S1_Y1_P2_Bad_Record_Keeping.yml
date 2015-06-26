@@ -12,7 +12,7 @@ name: "Bad Record Keeping"
 priority: 2
 
 initiating_npc: third_party_verifier # <--- character's symbol
-initiating_dialogue: "The Clinic submitted their reports to us, but there were some inconsistancies. When we asked to see their records, they could not supply them."
+initiating_dialogue: "The Clinic submitted their reports to us, but there were some inconsistencies. When we asked to see their records, they could not supply them."
 
 starting_options: [hold_payments_1]
 starting_options_affects: [hold_payments_1]
@@ -32,7 +32,7 @@ characters:
     unlocks_affects: [sanctions_1]
 
   director_regional_health_services:
-    dialogue: "All providers in my region shoud know the requirements for keeping records. Something must be wrong. I'd talk to them."
+    dialogue: "All providers in my region should know the requirements for keeping records. Something must be wrong. I'd talk to them."
     narrows: [dep_minister_of_health, director_regional_health_services, community_manager, third_party_verifier, coach] # <--- these probably will symbols
 
   coach:

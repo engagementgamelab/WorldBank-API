@@ -29,7 +29,7 @@ characters:
     dialogue: "We are very interested in making sure the providers are doing what they say, and we have the staff available to review, so why not?"
     narrows: [dep_minister_of_health, director_regional_health_services, community_manager, hospital_administrator, clinic_manager] # <--- this probably will be a symbol
     feedback: 
-      clarify_separation_of_functions_1: "all right, i understand. i'll inform the staff here." # <--- symbol of the option used and the feedback text for it
+      clarify_separation_of_functions_1: "all right, i understand. I'll inform the staff here." # <--- symbol of the option used and the feedback text for it
 
   director_regional_health_services:
     dialogue: "I know the Minister of Health fairly well, and I can tell you that things go more smoothly if you're cooperative."
