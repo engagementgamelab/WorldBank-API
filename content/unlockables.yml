@@ -588,11 +588,51 @@
 - symbol: unlockable_give_permission
   title: "Give Permission"
 
-
-
 # ----------------------------------------- #
 # Improve Patient and Provider Relationship #
 # ----------------------------------------- #
+
+# -------------------------- #
+# Unusual Claims - Y1_P1
+# ------------------------- #
+
+- symbol: unlockable_approve_payments
+  title: "Approve Payments"
+
+- symbol: unlockable_warn_and_deny_payments
+  title: "Warn and Deny Payments"
+
+- symbol: unlockable_reinforce_following_protocols
+  title: "Reinforce Following Protocols"
+
+- symbol: unlockable_issue_payments_to_institutions
+  title: "Issue Payments to Institutions Instead of Individuals"
+
+# -------------------------- #
+# Staff Trouble - Y2_P1
+# ------------------------- #
+
+- symbol: unlockable_retrain_t2
+  title: "Retrain"
+
+- symbol: unlockable_cull_and_rehire
+  title: "Cull Workforce and Rehire"
+
+- symbol: unlockable_increase_incentives_and_expidite_payments
+  title: "Increase Incentives and Expedite Payments"
+
+# -------------------------- #
+# Possible Fraud - Y3_P1
+# ------------------------- #
+
+- symbol: unlockable_sanction_offending_workiers
+  title: "Sanction Offending Workers"
+
+- symbol: unlockable_warning_t4
+  title: "Warning"
+
+- symbol: unlockable_sanction_those_providers
+  title: "Sanction Those Providers"
 
 # -------------------------------------- #
 # Hire More Nurses From Highlands Region #
@@ -606,9 +646,80 @@
 # Contract Private Company to Deliver Supplies #
 # -------------------------------------------- #
 
+# -------------------------- #
+# Road Issues - Y1_D1
+# ------------------------- #
+
+- symbol: unlockable_penalize_delivery_co
+  title: "Penalize the Delivery Company"
+
+- symbol: unlockable_switch_to_train_service
+  title: "Switch to Train Service"
+
+# -------------------------- #
+# Strike - Y2_D1
+# ------------------------- #
+
+- symbol: unlockable_terminate_contract_at_end_of_year
+  title: "Terminate Contract at End of Year and Return to Pre-plan Shipping Methods"
+
+- symbol: unlockable_hire_another_ground_based_service
+  title: "Hire Another Ground-Based Service"
+
+- symbol: unlockable_hire_air_service
+  title: "Hire Air Service"
+
+# -------------------------- #
+# Raising Rates - Y3_D1
+# ------------------------- #
+
+- symbol: unlockable_pay_new_rate
+  title: "Pay New Rates"
+
+- symbol: unlockable_negotiate
+  title: "Negotiate"
+
+
 # ---------------------------------------------- #
 # Information Campaign to Counter Misinformation #
 # ---------------------------------------------- #
+
+# -------------------------- #
+# Short Staff - Y1_IM1
+# ------------------------- #
+
+- symbol: unlockable_provide_funding_to_hire_new_staff
+  title: "Provide Funding to Hire New Staff"
+
+- symbol: unlockable_increase_incentives_for_meeting_campaign_goals
+  title: "Increase Insentives for Meeting Campaign Goals"
+
+- symbol: unlockable_reevaluate_whether_this_campaign_is_necessary
+  title: "Re-evaluate Whether This Campaign Is Necessary"
+
+
+# -------------------------- #
+# Overexposure - Y2_IM1
+# ------------------------- #
+
+- symbol: unlockable_temporarily_reduce_output
+  title: "Temporarily Reduce Output and Create New Materials"
+
+- symbol: unlockable_end_campaign
+  title: "End Campaign"
+
+# -------------------------- #
+# Backlash - Y3_IM1
+# ------------------------- #
+
+- symbol: unlockable_revise_language_in_campaign
+  title: "Revise Language in Campaign"
+
+- symbol: unlockable_halt_campaign
+  title: "Halt Campaign"
+
+- symbol: unlockable_request_meeting_with_candidate
+  title: "Request Meeting With Candidate"  
 
 # ------------------------------------------------------ #
 # Incentivise Providers to Follow Protocols NOT SELECTED #
@@ -618,6 +729,35 @@
 # Information Campaign to Explain Changes to System NOT SELECTED #
 # -------------------------------------------------------------- #
 
-# ------------------------------------------------------------------------- #
-# Information Campaign to Change Cultural Customs and Behavior NOT SELECTED #
-# ------------------------------------------------------------------------- #
+# -------------------------- #
+# Lack of Information - Y1_IS1
+# ------------------------- #
+
+- symbol: unlockable_provider_ambassadors
+  title: "Have Providers Send Out Ambassadors"
+
+- symbol: unlockable_invite_community_leaders
+  title: "Invite Community Leaders to Facilities for Education"
+
+- symbol: unlockable_word_of_mouth
+  title: "Utilize Word of Mouth From Patients"  
+
+# -------------------------- #
+# Misnformation - Y2_IS1
+# ------------------------- #
+
+- symbol: unlockable_increase_funding_for_sensitization_strategy
+  title: "Increase Funding for Sensitization Strategy"
+
+- symbol: unlockable_create_informational_pamphlets
+  title: "Create and Distribute Informational Pamphlets"
+
+# -------------------------- #
+# Printing Issues - Y3_IS1
+# ------------------------- #
+
+- symbol: unlockable_provide_health_facilities_with_equipment_to_print_materials"
+  title: "Provide Health Facilities with Eqipment to Produce Pamphlets"
+
+- symbol: unlockable_increase_budet_for_printing_informational_collateral"
+  title: "Invite Community Leaders to Facilities for Education"

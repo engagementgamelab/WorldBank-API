@@ -5,6 +5,11 @@
 # Phase Two Indicator Affects
 # ==============
 
+option_cost: small=0
+option_cost: medium=1
+option_cost: large=2
+
+
 # These are categorized based on what problem they are affected by. 
 
 # ------------------
@@ -13,7 +18,7 @@
 
 comply_with_ministry_1:
   indicator_1: 0
-  indicator_2: +1
+  indicator_2: 0
   indicator_3: -1
 
 authorize_providers_to_take_action_at_their_level_1:
@@ -564,3 +569,227 @@ unlockable_give_permission:
   indicator_1: 0
   indicator_2: +3
   indicator_3: -8
+
+# -------------------------------------------------------------- #
+# Information Campaign to Explain Changes to System NOT SELECTED #
+# -------------------------------------------------------------- #
+
+# -------------------------- #
+# Lack of Information - Y1_IS1
+# ------------------------- #
+
+unlockable_provider_ambassadors:
+  indicator_1: +1
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_invite_community_leaders:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: 0
+
+unlockable_word_of_mouth:
+  indicator_1: -1
+  indicator_2: -1
+  indicator_3: -1
+
+# -------------------------- #
+# Misnformation - Y2_IS1
+# ------------------------- #
+
+unlockable_increase_funding_for_sensitization_strategy:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: 0
+
+unlockable_create_informational_pamphlets:
+  indicator_1: +1
+  indicator_2: 0
+  indicator_3: 0
+
+# -------------------------- #
+# Printing Issues - Y3_IS1
+# ------------------------- #
+
+unlockable_provide_health_facilities_with_equipment_to_print_materials:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: -1
+
+unlockable_increase_budet_for_printing_informational_collateral:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: 0
+
+  # ---------------------------------------------- #
+# Information Campaign to Counter Misinformation #
+# ---------------------------------------------- #
+
+# -------------------------- #
+# Short Staff - Y1_IM1
+# ------------------------- #
+
+unlockable_provide_funding_to_hire_new_staff:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_increase_incentives_for_meeting_campaign_goals:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: 0
+
+unlockable_reevaluate_whether_this_campaign_is_necessary:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +1
+
+# -------------------------- #
+# Overexposure - Y2_IM1
+# ------------------------- #
+
+unlockable_temporarily_reduce_output:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: 0
+
+unlockable_end_campaign:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: +1
+
+# -------------------------- #
+# Backlash - Y3_IM1
+# ------------------------- #
+
+unlockable_revise_language_in_campaign:
+  indicator_1: +1
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_halt_campaign:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: +1
+
+unlockable_request_meeting_with_candidate:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+# -------------------------------------------- #
+# Contract Private Company to Deliver Supplies #
+# -------------------------------------------- #
+
+# -------------------------- #
+# Road Issues - Y1_D1
+# ------------------------- #
+
+unlockable_penalize_delivery_co:
+  indicator_1: +1
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_switch_to_train_service:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: 0
+
+# -------------------------- #
+# Strike - Y2_D1
+# ------------------------- #
+
+unlockable_terminate_contract_at_end_of_year:
+  indicator_1: +2
+  indicator_2: +2
+  indicator_3: +1
+
+unlockable_hire_another_ground_based_service:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_hire_air_service:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+# -------------------------- #
+# Raising Rates - Y3_D1
+# ------------------------- #
+
+unlockable_pay_new_rate:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_negotiate:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+  # ----------------------------------------- #
+# Improve Patient and Provider Relationship #
+# ----------------------------------------- #
+
+# -------------------------- #
+# Unusual Claims - Y1_P1
+# ------------------------- #
+
+unlockable_approve_payments:
+  indicator_1: -1
+  indicator_2: -1
+  indicator_3: -2
+
+unlockable_warn_and_deny_payments:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: 0
+
+unlockable_reinforce_following_protocols:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: +3
+
+unlockable_issue_payments_to_institutions:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +2
+
+# -------------------------- #
+# Staff Trouble - Y2_P1
+# ------------------------- #
+
+unlockable_retrain_t2:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_cull_and_rehire:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: -1
+
+unlockable_increase_incentives_and_expidite_payments:
+  indicator_1: +1
+  indicator_2: 0
+  indicator_3: +2
+
+# -------------------------- #
+# Possible Fraud - Y3_P1
+# ------------------------- #
+
+unlockable_sanction_offending_workiers:
+  indicator_1: -1
+  indicator_2: 0
+  indicator_3: -1
+
+unlockable_warning_t4:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: +1
+
+unlockable_sanction_those_providers:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +2
