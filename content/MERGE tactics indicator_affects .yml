@@ -18,14 +18,15 @@ option_cost: large=2
 # ----------------   TACTICS  ---------------- #
 # ----------------            ---------------- #
 
-# --------------------- #
-# Vouchers for Services #
-# --------------------- #
+
+# ----------------                          ---------------- #
+# ----------------   VOUCHERS FOR SERVICES  ---------------- #
+# ----------------                          ---------------- #
 
 
-# -------------------------- #
+# -------------------------- 
 # Poor voucher usage - Y1_V1
-# -------------------------- #
+# -------------------------- 
 
 unlockable_information_campaign:
   indicator_1: +1
@@ -42,9 +43,9 @@ unlockable_increase_budget_for_outreach:
   indicator_2: +1
   indicator_3: 0
 
-# -------------------------- #
+# -------------------------- 
 # Wrong number of Cases - Y1_V2
-# -------------------------- #
+# -------------------------- 
 
 unlockable_warning_t1:
   indicator_1: 0
@@ -56,9 +57,9 @@ unlockable_sanctions_t1:
   indicator_2: 0
   indicator_3: +1
 
-# -------------------------- #
+# -------------------------- 
 # Voucher Acceptance - Y2_V1
-# -------------------------- #
+# -------------------------- 
 
 unlockable_expedite_voucher_payments:
   indicator_1: +2
@@ -75,9 +76,9 @@ unlockable_warn_the_provider:
   indicator_2: 0
   indicator_3: 0
 
-# -------------------------- #
+# -------------------------- 
 # False Declarations - Y2_V2
-# -------------------------- #
+# -------------------------- 
 
 unlockable_warning_t2:
   indicator_1: +1
@@ -94,9 +95,9 @@ unlockable_modify_business_plan_t1:
   indicator_2: +2
   indicator_3: +2
 
-# -------------------------- #
+# -------------------------- 
 # Running Out of Vouchers - Y3_V1
-# -------------------------- #
+# -------------------------- 
 
 unlockable_seek_another_printer:
   indicator_1: -2
@@ -113,9 +114,9 @@ unlockable_print_vouchers_locally:
   indicator_2: +2
   indicator_3: +1
 
-# -------------------------- #
+# -------------------------- 
 # Voucher Issues - Y3_V2
-# -------------------------- #
+# -------------------------- 
 
 unlockable_contract_organization_to_help_distribute:
   indicator_1: +3
@@ -127,9 +128,11 @@ unlockable_sanction_voucher_agency:
   indicator_2: -1
   indicator_3: -1
 
-  # ------------------------------- #
-# Conditional Cash Transfer (CCT) #
-# ------------------------------- #
+
+# ----------------                                    ---------------- #
+# ----------------   Conditional Cash Transfer (CCT)  ---------------- #
+# ----------------                                    ---------------- #
+
 
 # -------------------------- #
 # What is Covered? - Y1_CCT1
@@ -230,9 +233,11 @@ unlockable_embed_cct_officer_at_facilities:
   indicator_2: +2
   indicator_3: 0
 
-# -------- #
-# Outreach #
-# -------- #
+
+# ----------------              ---------------- #
+# ----------------   OUTREACH   ---------------- #
+# ----------------              ---------------- #
+
 
 # -------------------------- #
 # Confusion of Roles - Y1_O1
