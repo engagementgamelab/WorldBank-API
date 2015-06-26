@@ -44,11 +44,10 @@ characters:
 
   community_verifier:
     dialogue: "I'm not really sure. I haven't even been to this hospital!"
-   
 
   clinic_manager:
     dialogue: "When was the last time you revised the business plan?"
-    
+
   hospital_administrator:
     dialogue: "We need to spend money where it's needed, and as the adminsitrator of this hospital, I know where it is needed. That was the purpose of granting us automony in the first place."
     feedback: 

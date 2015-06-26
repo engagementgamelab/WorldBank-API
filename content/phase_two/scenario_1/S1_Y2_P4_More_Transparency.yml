@@ -36,7 +36,7 @@ characters:
 
   coach:
     feedback:
-      terminate_contract_at_end_of_year_3: "II will warn them that their contract is in danger of being terminated at the end of the year."
+      terminate_contract_at_end_of_year_3: "I will warn them that their contract is in danger of being terminated at the end of the year."
       capacity_building: "I feel like I've been doing this for a year already, but let's see if we can't make some progress"
 
   third_party_verifier:
@@ -55,4 +55,3 @@ characters:
 
   hospital_administrator:
     dialogue: "I haven't been having this problem, so I'm not sure what to tell you."
-    

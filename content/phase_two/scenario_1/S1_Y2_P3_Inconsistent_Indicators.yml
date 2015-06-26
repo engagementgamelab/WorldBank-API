@@ -14,9 +14,9 @@ priority: 7
 initiating_npc: dep_minister_of_health # <--- character's symbol
 initiating_dialogue: "We are seeing some indicators rise while others stay stagnant. Hospital births are barely rising, though checkups and vaccinination rates are improving. We need to see all indicators rising!"
 
-starting_options: 
-starting_options_affects: 
-starting_options_cost: 
+starting_options: [hire_more_outreach_staff]
+starting_options_affects: [hire_more_outreach_staff]
+starting_options_cost: [large]
 
 final_options: [hire_more_outreach_staff, raise_incentives_for_facility_births, review_indicators_at_end_of_year]
 final_options_affects: [hire_more_outreach_staff, raise_incentives_for_facility_births, review_indicators_at_end_of_year]
