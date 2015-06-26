@@ -44,36 +44,47 @@
 
 
 - symbol: unlockable_route_malcom_to_kibari
+  title: "Route to Kibari"
   unlocked: [malcom_to_kibari]
 
 - symbol: unlockable_route_capitol_to_malcom
+  title: "Route to Malcom"
   unlocked: [capitol_to_malcom]
 
 - symbol: unlockable_route_capitol_to_crup
+  title: "Route to Crup"
   unlocked: [capitol_to_crup]
 
 - symbol: unlockable_route_crup_to_kibari
+  title: "Route to Kibari"
   unlocked: [crup_to_kibari]
 
 - symbol: unlockable_route_malcom_to_valeria
+  title: "Route to Valeria"
   unlocked: [malcom_to_valeria]
 
 - symbol: unlockable_route_malcom_to_mile
+  title: "Route to Mile"
   unlocked: [malcom_to_mile]
 
 - symbol: unlockable_route_valeria_to_zima
+  title: "Route to Zima"
   unlocked: [valeria_to_zima]
 
 - symbol: unlockable_route_zima_to_kibari
+  title: "Route to Kibari"
   unlocked: [zima_to_kibari]
 
 - symbol: unlockable_route_kibari_to_crup
+  title: "Route to Crup"
   unlocked: [kibari_to_crup]
 
 - symbol: unlockable_route_kibari_to_mile
+  title: "Route to Mile"
   unlocked: [kibari_to_mile]
 
 - symbol: unlockable_route_mile_to_zima
+  title: "Route to Zima"
   unlocked: [mile_to_zima]
 
 
