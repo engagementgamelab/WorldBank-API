@@ -31,11 +31,9 @@ characters:
     feedback: 
       expand_hiring_of_hospital_staff: "Perfect. This should ease our capacity problems."
 
-  director_regional_health_services:    
-
   coach:
     dialogue: "From what I've seen, some extra help would go a long way, but I am concerned about the learning curve for new workers."
-  
+
   third_party_verifier:
     dialogue: "This is a good problem to have."
 
