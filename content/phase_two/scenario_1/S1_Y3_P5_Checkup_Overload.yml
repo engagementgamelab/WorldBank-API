@@ -25,8 +25,7 @@ final_options_cost: [small, small, small]
 
 characters:
 
-  # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
-  dep_minister_of_health: # <--- character's symbol
+  # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory") # <--- character's symbol
 
   director_regional_health_services:  
     dialogue: "For some reason people in this region have been taking advantage of this service much more than others. Perhaps providers are pushing the services too strongly."  

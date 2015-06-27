@@ -46,8 +46,6 @@ characters:
 
   community_verifier:
     dialogue: "As long as these things get verified, that's all that matters to me."
-    unlocks: 
-    unlocks_affects: 
 
   clinic_manager:
     dialogue: "Honestly, we've been ignoring the ministry's requests. We've got too much actual work to worry about."
