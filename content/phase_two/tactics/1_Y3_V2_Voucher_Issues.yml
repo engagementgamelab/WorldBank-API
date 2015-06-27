@@ -10,6 +10,7 @@
 symbol: tactic_card_1
 tactic_name: unlockable_more_autonomy  # <--- symbol of the tactic (stored in unlockables.yml) this card is using
 name: "Tactic card name" # <--- display name for card
+year: 3 
 
 # This dialogue the player sees first
 initiating_dialogue: "The manager of the voucher agency is concerned. We don’t know why at this point, but we’re not hitting our targets for voucher use. Do you want me to investigate this? Or shall we just observe for now?"
