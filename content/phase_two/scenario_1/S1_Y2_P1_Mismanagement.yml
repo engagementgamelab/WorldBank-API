@@ -12,7 +12,7 @@ name: "Mismanagement"
 priority: 5
 
 initiating_npc: coach # <--- character's symbol
-initiating_dialogue: "I was visiting the hospital for my mentoring visit, and they are still mismanaging funds. The business plan has clear guidlelines the Adminstrator is not sticking to."
+initiating_dialogue: "I was visiting the hospital for my mentoring visit, and they are still mismanaging funds. The business plan has clear guidelines the Administrator is not sticking to."
 
 starting_options: [warning_2, sanctions_and_retraining_on_use_of_financial_tools]
 starting_options_affects: [warning_2, sanctions_and_retraining_on_use_of_financial_tools]
@@ -36,7 +36,7 @@ characters:
 
   coach:
     feedback: 
-      revise_business_plan_1: "I will schedule a meeting this week with the purchasing agency and begin the revision proccess for next quarter."
+      revise_business_plan_1: "I will schedule a meeting this week with the purchasing agency and begin the revision process for next quarter."
       sanctions_and_retraining_on_use_of_financial_tools: "I'll make some time this week for a retraining session and try to drill down on exactly how these tools should be used. I'm informing the regulator about the sanctions now."
 
   third_party_verifier:
@@ -49,7 +49,7 @@ characters:
     dialogue: "When was the last time you revised the business plan?"
 
   hospital_administrator:
-    dialogue: "We need to spend money where it's needed, and as the adminsitrator of this hospital, I know where it is needed. That was the purpose of granting us automony in the first place."
+    dialogue: "We need to spend money where it's needed, and as the administrator of this hospital, I know where it is needed. That was the purpose of granting us autonomy in the first place."
     feedback: 
       warning_2: "I will do my best, but I I'm really worried things are going to start breaking down soon."
 

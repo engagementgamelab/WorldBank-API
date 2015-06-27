@@ -27,10 +27,10 @@ characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
-    dialogue: "If needed, I could suspend their lisence to practice, but I don't think it will come to that."
+    dialogue: "If needed, I could suspend their license to practice, but I don't think it will come to that."
 
   director_regional_health_services:
-    dialogue: "I've had some communication issues with the Hospital Adminstrator in the past, but I believe he is honest. You should talk to him directly to see what the problem is."
+    dialogue: "I've had some communication issues with the Hospital Administrator in the past, but I believe he is honest. You should talk to him directly to see what the problem is."
     narrows: [dep_minister_of_health, director_regional_health_services, third_party_verifier, community_verifier, clinic_manager]
 
   coach:
@@ -46,7 +46,7 @@ characters:
     dialogue: "I think my staff is confused about what to report. Frankly, I myself have been confused at times!"
     unlocks: [hold_meeting_to_retrain_on_reporting_practices]
     feedback:
-      hold_meeting_to_retrain_on_reporting_practices: " I think that will probably help. Let me know when works for you and I'll clear some time."
+      hold_meeting_to_retrain_on_reporting_practices: "I think that will probably help. Let me know when works for you and I'll clear some time."
       warning_5: "I'll talk to my staff and try to settle this."
       sanctions_3: "I just put in orders for new equipment. Now I won't be able to afford to pay for them. I think you are talking this too far. It was an honest mistake."
     

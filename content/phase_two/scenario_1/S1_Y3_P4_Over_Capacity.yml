@@ -47,7 +47,7 @@ characters:
       expand_hiring_at_all_facilities: "This was needed very badly. I look forward to meeting my new recruits."
 
   hospital_administrator:
-    dialogue: "I am worried about onboarding many new people. Perhaps we should reward the people who have got us this far? Bonuses and overtime would make my staff happy."
+    dialogue: "I am worried about on-boarding many new people. Perhaps we should reward the people who have got us this far? Bonuses and overtime would make my staff happy."
     unlocks: [award_bonuses_to_hospital_staff]
     feedback:
       award_bonuses_to_hospital_staff: "This will really help motivate my staff. Thanks!"

@@ -14,9 +14,9 @@ priority: 12
 initiating_npc: dep_minister_of_health # <--- character's symbol
 initiating_dialogue: "We have been looking at the numbers, and outpatient consultations have risen much faster than projected. We can't explain it."
 
-starting_options: 
-starting_options_affects: 
-starting_options_cost: 
+starting_options: [decrease_incentives]
+starting_options_affects: [decrease_incentives]
+starting_options_cost: [small]
 
 final_options: [decrease_incentives, warn_providers_to_follow_protocols, maintain_current_rates]
 final_options_affects: [decrease_incentives, warn_providers_to_follow_protocols, maintain_current_rates]
@@ -38,7 +38,7 @@ characters:
       decrease_incentives: "I'll research the best way to do this without having any undesired effects."
 
   third_party_verifier:
-    dialogue: "They all seem to be legitimte, so I don't suspect fraud. Would you like me to go over the paperwork again?"
+    dialogue: "They all seem to be legitimate, so I don't suspect fraud. Would you like me to go over the paperwork again?"
 
   community_verifier:
     dialogue: "We have heard rumors of people going to the hospital and being offered services they don't want."
