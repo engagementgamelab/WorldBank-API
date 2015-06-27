@@ -44,8 +44,8 @@ characters:
   community_verifier:
     dialogue: "We have heard rumors of people going to the hospital and being offered services they don't want."
     unlocks: [warn_providers_to_follow_protocols]
-    
- clinic_manager:
+
+  clinic_manager:
     dialogue: "What's wrong with people getting outpatient services? It's better than the alternative."
     unlocks: [maintain_current_rates]
     feedback:
