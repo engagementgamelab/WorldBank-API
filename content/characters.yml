@@ -189,3 +189,7 @@
 - symbol: supervisor
   display_name: Supervisor of Plan Observation
   description: "description"
+
+- symbol: hospital_administrator
+  display_name: Hospital Administrator'
+  description: "description"
