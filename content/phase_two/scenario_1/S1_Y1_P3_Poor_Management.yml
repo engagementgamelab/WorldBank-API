@@ -29,7 +29,6 @@ characters:
   dep_minister_of_health: # <--- character's symbol
     dialogue: "There are other health providers in the region we could use. This is the largest, but it doesn't mean it is the best. "
 
-
   director_regional_health_services:
     dialogue: "The staff at the hospital have been slow to adapt new practices."
 

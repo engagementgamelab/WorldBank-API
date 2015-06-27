@@ -35,7 +35,7 @@ characters:
   director_regional_health_services:
     dialogue: "I have experienced similar problems with this provider. It is hard to schedule their time. More regular meeting times might help."
     unlocks: [revise_business_plan_to_include_regular_meetings_1]
-    unlocks_affects: [revise_business_plan_to_incldue_regular_meetings_1]
+    unlocks_affects: [revise_business_plan_to_include_regular_meetings_1]
 
   coach:
     feedback: 
@@ -50,7 +50,7 @@ characters:
   clinic_manager:
     dialogue: "I think you underestimate just how busy we have been with outreach and patient care. We are not a large staff, and our time is very precious. Maybe next month things will be slower."
     feedback: 
-      warning: "I'm sure I'll have some time next quarter once our busiest time dies down."
+      warning_1: "I'm sure I'll have some time next quarter once our busiest time dies down."
       revise_business_plan_to_include_regular_meetings_1: "That will be extremely dicey. We are tight on time as it is. I'll see what I can do, though."
 
   hospital_administrator:
