@@ -24,7 +24,7 @@
 # unlocked by midwife in Mile
 - symbol: unlockable_dialogue_hospital_administrator
 
-#unlocked by Mr. Todd in Kibari
+# unlocked by Mr. Todd in Kibari
 - symbol: unlockable_dialogue_clinician 
 
 
@@ -121,7 +121,7 @@
 
 ### Demand Side - Resource Allocation ###
 
-- symbol: unlockable_vouchers_for_services 
+- symbol: unlockable_vouchers_for_services
   title: "Vouchers For Services"
   description: 
     - "If patients see familiar faces who understand their needs, they will be more likely to use and return to facilities. This would also have the upside of stimulating the economy in a poor region of the country."

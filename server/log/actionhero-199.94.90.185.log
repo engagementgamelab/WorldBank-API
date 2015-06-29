@@ -2519,3 +2519,140 @@
 {"to":"127.0.0.1","action":"userAuth","params":"{\"action\":\"userAuth\",\"apiVersion\":1}","duration":8,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T18:25:00.178Z"}
 {"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":413,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T18:27:58.989Z"}
 {"to":"127.0.0.1","action":"userAuth","params":"{\"action\":\"userAuth\",\"apiVersion\":1}","duration":6,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T18:27:59.067Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":1191,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T18:57:45.601Z"}
+{"to":"127.0.0.1","action":"userAuth","params":"{\"action\":\"userAuth\",\"apiVersion\":1}","duration":56,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T18:57:45.945Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":212,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:11:35.492Z"}
+{"to":"127.0.0.1","action":"userAuth","params":"{\"action\":\"userAuth\",\"apiVersion\":1}","duration":6,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:11:35.570Z"}
+{"to":"127.0.0.1","action":"userSave","params":"{\"action\":\"userSave\",\"apiVersion\":1}","duration":682,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:13:05.322Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":524,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:31:29.053Z"}
+{"to":"127.0.0.1","action":"userAuth","params":"{\"action\":\"userAuth\",\"apiVersion\":1}","duration":9,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:31:29.250Z"}
+{"to":"127.0.0.1","action":"userSave","params":"{\"action\":\"userSave\",\"apiVersion\":1}","duration":83,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:33:44.876Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":448,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:36:04.159Z"}
+{"to":"127.0.0.1","action":"userAuth","params":"{\"action\":\"userAuth\",\"apiVersion\":1}","duration":7,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:36:04.237Z"}
+{"level":"error","message":"! uncaught error from action: action:userSave","timestamp":"2015-06-25T19:37:38.135Z"}
+{"level":"error","message":"! connection details:","timestamp":"2015-06-25T19:37:38.135Z"}
+{"level":"error","message":"!     action: \"userSave\"","timestamp":"2015-06-25T19:37:38.136Z"}
+{"level":"error","message":"!     remoteIP: \"127.0.0.1\"","timestamp":"2015-06-25T19:37:38.136Z"}
+{"level":"error","message":"!     type: \"web\"","timestamp":"2015-06-25T19:37:38.136Z"}
+{"level":"error","message":"!     params: {\"action\":\"userSave\",\"apiVersion\":1}","timestamp":"2015-06-25T19:37:38.136Z"}
+{"level":"error","message":"! TypeError: Cannot read property 'grade' of undefined","timestamp":"2015-06-25T19:37:38.278Z"}
+{"level":"error","message":"!     at EventEmitter.<anonymous> (/Users/egl_admin/Documents/unity-projects/WorldBank-API/server/actions/user.js:233:68)","timestamp":"2015-06-25T19:37:38.278Z"}
+{"level":"error","message":"!     at EventEmitter.<anonymous> (/Users/egl_admin/Documents/unity-projects/WorldBank-API/server/node_modules/mongoose/node_modules/mpromise/lib/promise.js:175:45)","timestamp":"2015-06-25T19:37:38.278Z"}
+{"level":"error","message":"!     at EventEmitter.emit (events.js:98:17)","timestamp":"2015-06-25T19:37:38.278Z"}
+{"level":"error","message":"!     at Promise.safeEmit (/Users/egl_admin/Documents/unity-projects/WorldBank-API/server/node_modules/mongoose/node_modules/mpromise/lib/promise.js:81:21)","timestamp":"2015-06-25T19:37:38.278Z"}
+{"level":"error","message":"!     at Promise.fulfill (/Users/egl_admin/Documents/unity-projects/WorldBank-API/server/node_modules/mongoose/node_modules/mpromise/lib/promise.js:94:24)","timestamp":"2015-06-25T19:37:38.278Z"}
+{"level":"error","message":"!     at Promise.resolve (/Users/egl_admin/Documents/unity-projects/WorldBank-API/server/node_modules/mongoose/lib/promise.js:113:23)","timestamp":"2015-06-25T19:37:38.278Z"}
+{"level":"error","message":"!     at model.<anonymous> (/Users/egl_admin/Documents/unity-projects/WorldBank-API/server/node_modules/mongoose/lib/document.js:1561:39)","timestamp":"2015-06-25T19:37:38.278Z"}
+{"level":"error","message":"!     at next_ (/Users/egl_admin/Documents/unity-projects/WorldBank-API/server/node_modules/mongoose/node_modules/hooks-fixed/hooks.js:89:34)","timestamp":"2015-06-25T19:37:38.278Z"}
+{"level":"error","message":"!     at EventEmitter.fnWrapper (/Users/egl_admin/Documents/unity-projects/WorldBank-API/server/node_modules/mongoose/node_modules/hooks-fixed/hooks.js:171:15)","timestamp":"2015-06-25T19:37:38.279Z"}
+{"level":"error","message":"!     at EventEmitter.<anonymous> (/Users/egl_admin/Documents/unity-projects/WorldBank-API/server/node_modules/mongoose/node_modules/mpromise/lib/promise.js:175:45)","timestamp":"2015-06-25T19:37:38.279Z"}
+{"level":"error","message":"!     at EventEmitter.emit (events.js:98:17)","timestamp":"2015-06-25T19:37:38.279Z"}
+{"level":"error","message":"!     at Promise.safeEmit (/Users/egl_admin/Documents/unity-projects/WorldBank-API/server/node_modules/mongoose/node_modules/mpromise/lib/promise.js:81:21)","timestamp":"2015-06-25T19:37:38.279Z"}
+{"level":"error","message":"!     at Promise.fulfill (/Users/egl_admin/Documents/unity-projects/WorldBank-API/server/node_modules/mongoose/node_modules/mpromise/lib/promise.js:94:24)","timestamp":"2015-06-25T19:37:38.279Z"}
+{"level":"error","message":"!     at p1.then.then.self.isNew (/Users/egl_admin/Documents/unity-projects/WorldBank-API/server/node_modules/mongoose/lib/model.js:254:27)","timestamp":"2015-06-25T19:37:38.279Z"}
+{"level":"error","message":"!     at newTickHandler (/Users/egl_admin/Documents/unity-projects/WorldBank-API/server/node_modules/mongoose/node_modules/mpromise/lib/promise.js:229:18)","timestamp":"2015-06-25T19:37:38.279Z"}
+{"level":"error","message":"!     at process._tickDomainCallback (node.js:463:13)","timestamp":"2015-06-25T19:37:38.279Z"}
+{"level":"error","message":"*","timestamp":"2015-06-25T19:37:38.279Z"}
+{"to":"127.0.0.1","action":"userSave","params":"{\"action\":\"userSave\",\"apiVersion\":1}","duration":304,"error":"\"Error: The server experienced an internal error\"","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:37:38.279Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":387,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:40:06.634Z"}
+{"to":"127.0.0.1","action":"userAuth","params":"{\"action\":\"userAuth\",\"apiVersion\":1}","duration":12,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:40:06.725Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":112,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:42:40.657Z"}
+{"to":"127.0.0.1","action":"userAuth","params":"{\"action\":\"userAuth\",\"apiVersion\":1}","duration":7,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:42:40.752Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":97,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:44:23.971Z"}
+{"to":"127.0.0.1","action":"userAuth","params":"{\"action\":\"userAuth\",\"apiVersion\":1}","duration":7,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:44:24.055Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":253,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:46:19.431Z"}
+{"to":"127.0.0.1","action":"userAuth","params":"{\"action\":\"userAuth\",\"apiVersion\":1}","duration":6,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:46:19.515Z"}
+{"level":"error","message":"! uncaught error from action: action:userSave","timestamp":"2015-06-25T19:46:37.548Z"}
+{"level":"error","message":"! connection details:","timestamp":"2015-06-25T19:46:37.548Z"}
+{"level":"error","message":"!     action: \"userSave\"","timestamp":"2015-06-25T19:46:37.548Z"}
+{"level":"error","message":"!     remoteIP: \"127.0.0.1\"","timestamp":"2015-06-25T19:46:37.548Z"}
+{"level":"error","message":"!     type: \"web\"","timestamp":"2015-06-25T19:46:37.548Z"}
+{"level":"error","message":"!     params: {\"action\":\"userSave\",\"apiVersion\":1}","timestamp":"2015-06-25T19:46:37.548Z"}
+{"level":"error","message":"! TypeError: Cannot read property 'grade' of undefined","timestamp":"2015-06-25T19:46:37.549Z"}
+{"level":"error","message":"!     at EventEmitter.<anonymous> (/Users/egl_admin/Documents/unity-projects/WorldBank-API/server/actions/user.js:233:68)","timestamp":"2015-06-25T19:46:37.549Z"}
+{"level":"error","message":"!     at EventEmitter.<anonymous> (/Users/egl_admin/Documents/unity-projects/WorldBank-API/server/node_modules/mongoose/node_modules/mpromise/lib/promise.js:175:45)","timestamp":"2015-06-25T19:46:37.549Z"}
+{"level":"error","message":"!     at EventEmitter.emit (events.js:98:17)","timestamp":"2015-06-25T19:46:37.549Z"}
+{"level":"error","message":"!     at Promise.safeEmit (/Users/egl_admin/Documents/unity-projects/WorldBank-API/server/node_modules/mongoose/node_modules/mpromise/lib/promise.js:81:21)","timestamp":"2015-06-25T19:46:37.549Z"}
+{"level":"error","message":"!     at Promise.fulfill (/Users/egl_admin/Documents/unity-projects/WorldBank-API/server/node_modules/mongoose/node_modules/mpromise/lib/promise.js:94:24)","timestamp":"2015-06-25T19:46:37.549Z"}
+{"level":"error","message":"!     at Promise.resolve (/Users/egl_admin/Documents/unity-projects/WorldBank-API/server/node_modules/mongoose/lib/promise.js:113:23)","timestamp":"2015-06-25T19:46:37.549Z"}
+{"level":"error","message":"!     at model.<anonymous> (/Users/egl_admin/Documents/unity-projects/WorldBank-API/server/node_modules/mongoose/lib/document.js:1561:39)","timestamp":"2015-06-25T19:46:37.549Z"}
+{"level":"error","message":"!     at next_ (/Users/egl_admin/Documents/unity-projects/WorldBank-API/server/node_modules/mongoose/node_modules/hooks-fixed/hooks.js:89:34)","timestamp":"2015-06-25T19:46:37.549Z"}
+{"level":"error","message":"!     at EventEmitter.fnWrapper (/Users/egl_admin/Documents/unity-projects/WorldBank-API/server/node_modules/mongoose/node_modules/hooks-fixed/hooks.js:171:15)","timestamp":"2015-06-25T19:46:37.549Z"}
+{"level":"error","message":"!     at EventEmitter.<anonymous> (/Users/egl_admin/Documents/unity-projects/WorldBank-API/server/node_modules/mongoose/node_modules/mpromise/lib/promise.js:175:45)","timestamp":"2015-06-25T19:46:37.549Z"}
+{"level":"error","message":"!     at EventEmitter.emit (events.js:98:17)","timestamp":"2015-06-25T19:46:37.549Z"}
+{"level":"error","message":"!     at Promise.safeEmit (/Users/egl_admin/Documents/unity-projects/WorldBank-API/server/node_modules/mongoose/node_modules/mpromise/lib/promise.js:81:21)","timestamp":"2015-06-25T19:46:37.549Z"}
+{"level":"error","message":"!     at Promise.fulfill (/Users/egl_admin/Documents/unity-projects/WorldBank-API/server/node_modules/mongoose/node_modules/mpromise/lib/promise.js:94:24)","timestamp":"2015-06-25T19:46:37.549Z"}
+{"level":"error","message":"!     at p1.then.then.self.isNew (/Users/egl_admin/Documents/unity-projects/WorldBank-API/server/node_modules/mongoose/lib/model.js:254:27)","timestamp":"2015-06-25T19:46:37.549Z"}
+{"level":"error","message":"!     at newTickHandler (/Users/egl_admin/Documents/unity-projects/WorldBank-API/server/node_modules/mongoose/node_modules/mpromise/lib/promise.js:229:18)","timestamp":"2015-06-25T19:46:37.549Z"}
+{"level":"error","message":"!     at process._tickDomainCallback (node.js:463:13)","timestamp":"2015-06-25T19:46:37.549Z"}
+{"level":"error","message":"*","timestamp":"2015-06-25T19:46:37.549Z"}
+{"to":"127.0.0.1","action":"userSave","params":"{\"action\":\"userSave\",\"apiVersion\":1}","duration":13,"error":"\"Error: The server experienced an internal error\"","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:46:37.550Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":70,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:48:19.481Z"}
+{"to":"127.0.0.1","action":"userAuth","params":"{\"action\":\"userAuth\",\"apiVersion\":1}","duration":6,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:48:19.559Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":70,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:48:36.783Z"}
+{"to":"127.0.0.1","action":"allPlans","params":"{\"action\":\"allPlans\",\"apiVersion\":1}","duration":150,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:48:37.030Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":68,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:48:57.449Z"}
+{"to":"127.0.0.1","action":"userAuth","params":"{\"action\":\"userAuth\",\"apiVersion\":1}","duration":6,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:48:57.527Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":68,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:48:59.958Z"}
+{"to":"127.0.0.1","action":"allPlans","params":"{\"action\":\"allPlans\",\"apiVersion\":1}","duration":1,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:49:00.063Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":89,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:49:04.434Z"}
+{"to":"127.0.0.1","action":"userAuth","params":"{\"action\":\"userAuth\",\"apiVersion\":1}","duration":7,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:49:04.515Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":68,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:49:14.398Z"}
+{"to":"127.0.0.1","action":"allPlans","params":"{\"action\":\"allPlans\",\"apiVersion\":1}","duration":1,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:49:14.493Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":67,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:51:44.046Z"}
+{"to":"127.0.0.1","action":"userAuth","params":"{\"action\":\"userAuth\",\"apiVersion\":1}","duration":6,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:51:44.124Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":69,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:51:52.059Z"}
+{"to":"127.0.0.1","action":"allPlans","params":"{\"action\":\"allPlans\",\"apiVersion\":1}","duration":10,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:51:52.140Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":70,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:52:37.483Z"}
+{"to":"127.0.0.1","action":"userAuth","params":"{\"action\":\"userAuth\",\"apiVersion\":1}","duration":7,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:52:37.568Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":115,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:52:39.154Z"}
+{"to":"127.0.0.1","action":"allPlans","params":"{\"action\":\"allPlans\",\"apiVersion\":1}","duration":2,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:52:39.235Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":118,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:54:41.545Z"}
+{"to":"127.0.0.1","action":"userAuth","params":"{\"action\":\"userAuth\",\"apiVersion\":1}","duration":8,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:54:41.631Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":69,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:54:45.047Z"}
+{"to":"127.0.0.1","action":"allPlans","params":"{\"action\":\"allPlans\",\"apiVersion\":1}","duration":1,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:54:45.221Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":69,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:55:56.398Z"}
+{"to":"127.0.0.1","action":"userAuth","params":"{\"action\":\"userAuth\",\"apiVersion\":1}","duration":6,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:55:56.476Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":68,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:55:59.575Z"}
+{"to":"127.0.0.1","action":"allPlans","params":"{\"action\":\"allPlans\",\"apiVersion\":1}","duration":1,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:55:59.647Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":66,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:57:20.306Z"}
+{"to":"127.0.0.1","action":"userAuth","params":"{\"action\":\"userAuth\",\"apiVersion\":1}","duration":8,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:57:20.390Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":69,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:57:23.479Z"}
+{"to":"127.0.0.1","action":"allPlans","params":"{\"action\":\"allPlans\",\"apiVersion\":1}","duration":2,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:57:23.653Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":244,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:59:58.922Z"}
+{"to":"127.0.0.1","action":"userAuth","params":"{\"action\":\"userAuth\",\"apiVersion\":1}","duration":6,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T19:59:59.003Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":68,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T20:00:01.557Z"}
+{"to":"127.0.0.1","action":"allPlans","params":"{\"action\":\"allPlans\",\"apiVersion\":1}","duration":2,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T20:00:01.746Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":68,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T20:00:18.343Z"}
+{"to":"127.0.0.1","action":"userAuth","params":"{\"action\":\"userAuth\",\"apiVersion\":1}","duration":7,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T20:00:18.423Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":68,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T20:01:34.722Z"}
+{"to":"127.0.0.1","action":"userAuth","params":"{\"action\":\"userAuth\",\"apiVersion\":1}","duration":7,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T20:01:34.803Z"}
+{"to":"127.0.0.1","action":"allPlans","params":"{\"action\":\"allPlans\",\"apiVersion\":1}","duration":17,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T20:01:34.885Z"}
+{"to":"127.0.0.1","action":"userAssignScenario","params":"{\"action\":\"userAssignScenario\",\"apiVersion\":1}","duration":10,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T20:01:39.608Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":255,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T20:02:52.605Z"}
+{"to":"127.0.0.1","action":"userAuth","params":"{\"action\":\"userAuth\",\"apiVersion\":1}","duration":6,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T20:02:52.787Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":68,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T20:02:55.476Z"}
+{"to":"127.0.0.1","action":"allPlans","params":"{\"action\":\"allPlans\",\"apiVersion\":1}","duration":1,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T20:02:55.653Z"}
+{"to":"127.0.0.1","action":"userAssignScenario","params":"{\"action\":\"userAssignScenario\",\"apiVersion\":1}","duration":26,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T20:02:57.955Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":495,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T21:57:24.808Z"}
+{"to":"127.0.0.1","action":"userAuth","params":"{\"action\":\"userAuth\",\"apiVersion\":1}","duration":8,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T21:57:24.914Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":416,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T22:02:02.204Z"}
+{"to":"127.0.0.1","action":"userAuth","params":"{\"action\":\"userAuth\",\"apiVersion\":1}","duration":25,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T22:02:02.431Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":329,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T22:02:45.583Z"}
+{"to":"127.0.0.1","action":"userAuth","params":"{\"action\":\"userAuth\",\"apiVersion\":1}","duration":7,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T22:02:45.781Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":504,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T22:03:17.995Z"}
+{"to":"127.0.0.1","action":"userAuth","params":"{\"action\":\"userAuth\",\"apiVersion\":1}","duration":6,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T22:03:18.199Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":71,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T22:03:57.329Z"}
+{"to":"127.0.0.1","action":"userAuth","params":"{\"action\":\"userAuth\",\"apiVersion\":1}","duration":6,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T22:03:57.521Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":76,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T22:04:54.775Z"}
+{"to":"127.0.0.1","action":"userAuth","params":"{\"action\":\"userAuth\",\"apiVersion\":1}","duration":8,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T22:04:54.886Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":105,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T22:05:15.351Z"}
+{"to":"127.0.0.1","action":"userAuth","params":"{\"action\":\"userAuth\",\"apiVersion\":1}","duration":6,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T22:05:15.749Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":294,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T22:05:44.166Z"}
+{"to":"127.0.0.1","action":"userAuth","params":"{\"action\":\"userAuth\",\"apiVersion\":1}","duration":6,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T22:05:44.460Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":291,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T22:19:18.120Z"}
+{"to":"127.0.0.1","action":"userAuth","params":"{\"action\":\"userAuth\",\"apiVersion\":1}","duration":7,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T22:19:18.307Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":405,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T22:25:10.937Z"}
+{"to":"127.0.0.1","action":"userAuth","params":"{\"action\":\"userAuth\",\"apiVersion\":1}","duration":30,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T22:25:11.054Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":448,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T22:29:17.483Z"}
+{"to":"127.0.0.1","action":"userAuth","params":"{\"action\":\"userAuth\",\"apiVersion\":1}","duration":7,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-25T22:29:17.777Z"}
