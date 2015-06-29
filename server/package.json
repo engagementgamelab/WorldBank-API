@@ -20,7 +20,8 @@
     "mongoose": "latest",
     "forever": "latest",
     "passport": "latest",
-    "passport-local": "latest"
+    "passport-local": "latest",
+    "universal-analytics": "0.3.8"
   },
   "devDependencies": {
     "mocha": "latest",
