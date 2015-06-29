@@ -1,0 +1,57 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Problem YAML
+# ==============
+
+# Phase Two Scenario Card YML Example
+
+symbol: government_v_organization
+name: "Government versus Organization"
+priority: 3
+
+initiating_npc: dep_minister_of_health
+initiating_dialogue: "The NGO's giving us the run around when we ask to counter-verify their reports. You need to get them to realize their presence here depends on their transparency."
+
+starting_options: [pressure_the_ngo_to_comply]
+starting_options_affects: [pressure_the_ngo_to_comply_1]
+starting_options_cost: [small]
+
+final_options: [force_ngo_to_comply, cease_counter_verification, clarification_of_roles]
+final_options_affects: [force_ngo_to_comply_1, cease_counter_verification, clarification_of_roles_1]
+final_options_cost: [small, small, small]
+
+characters:
+
+  dep_minister_of_health:
+    feedback:
+      cease_counter_verifications: "If you think they don't need more looking into that's fine, I trust you."
+      clarification_of_roles: "Next time, let's try to avoid this by making everyone's job clear beforehand. Thanks."
+
+  director_regional_health_services: 
+    dialogue: "I'm with the Dep. Minister on this. We are responsible for how the NGO operates."
+    feedback: 
+      give_ministry_the_power_to_assign_and_change_roles: "All right, I understand. I'll inform the staff here." # <--- symbol of the option used and the feedback text for it
+
+  ngo_manager:
+    dialogue: "We verify internally and talk to the other verifiers. Don't you think this would be a little much?"
+    unlocks: [cease_counter_verification]
+    unlocks_affects: [cease_counter_verification_1]
+
+  coach:
+    dialogue: "The problem doesn't have to do with anyone but the NGO and the Third Party Verifier. Hammer it out with them."
+    narrows: [coach, dep_minister_of_health, director_regional_health_services, community_verifier, hospital_administrator]
+
+  third_party_verifier:
+    dialogue: "We don't need the government to counter-verify. We're handling it."
+    unlocks: [clarification_of_roles]
+    unlocks_affects: [clarification_of_roles_1]
+
+  community_verifier:
+    dialogue: "I think there's enough oversight in what we're doing. This shouldn't be the role of the Ministry."
+    unlocks: [clarification_of_roles]
+    unlocks_affects: [clarification_of_roles_1]
+
+  hospital_administrator:
+    dialogue: "It wouldn't be a lot more paperwork for us to submit for counter-verification, but I don't know that it's necessary."

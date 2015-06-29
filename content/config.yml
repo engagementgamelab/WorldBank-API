@@ -25,7 +25,7 @@ plan:
   assignment_matrix:
     pbc_true:
       autonomy_true:
-        scenario_2
+        scenario_1
       autonomy_false: 
         scenario_1
 
@@ -33,10 +33,16 @@ plan:
       autonomy_true:
         scenario_1
       autonomy_false:
-        scenario_2
+        scenario_1
 
 # All cooldowns are in seconds, and must be defined as arrays
 # If only one cooldown is needed (will not be chosen from a sequence), just use something like "[13]"
 cooldown:
   short: [5, 5, 10]
-  long: [120, 200, 350]
+  long: [10, 15, 20]
+
+# Configure cost variables
+cost:
+  small: 0
+  medium: 1
+  large: 2

@@ -14,9 +14,9 @@ priority: 12
 initiating_npc: dep_minister_of_health # <--- character's symbol
 initiating_dialogue: "We have been looking at the numbers, and outpatient consultations have risen much faster than projected. We can't explain it."
 
-starting_options: 
-starting_options_affects: 
-starting_options_cost: 
+starting_options: [decrease_incentives]
+starting_options_affects: [decrease_incentives]
+starting_options_cost: [small]
 
 final_options: [decrease_incentives, warn_providers_to_follow_protocols, maintain_current_rates]
 final_options_affects: [decrease_incentives, warn_providers_to_follow_protocols, maintain_current_rates]
@@ -25,33 +25,32 @@ final_options_cost: [small, small, small]
 
 characters:
 
-  # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
-  Dep_Minister_of_Health: # <--- character's symbol
+  # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory") # <--- character's symbol
 
-  Director_Regional_Health_Services:  
+  director_regional_health_services:  
     dialogue: "For some reason people in this region have been taking advantage of this service much more than others. Perhaps providers are pushing the services too strongly."  
     unlocks: [decrease_incentives]
 
-  Coach:
+  coach:
     dialogue: "We can reduce the fee for this, but we need to think carefully about what other effects that will have on the plan."
     unlocks: [decrease_incentives]
     feedback:
       decrease_incentives: "I'll research the best way to do this without having any undesired effects."
 
-  Third_Party_Verifier:
-    dialogue: "They all seem to be legitimte, so I don't suspect fraud. Would you like me to go over the paperwork again?"
+  third_party_verifier:
+    dialogue: "They all seem to be legitimate, so I don't suspect fraud. Would you like me to go over the paperwork again?"
 
-  Community_Verifier:
+  community_verifier:
     dialogue: "We have heard rumors of people going to the hospital and being offered services they don't want."
     unlocks: [warn_providers_to_follow_protocols]
     
-  Clininic_Manager:
+  clinic_manager:
     dialogue: "What's wrong with people getting outpatient services? It's better than the alternative."
     unlocks: [maintain_current_rates]
     feedback:
       maintain_current_rates: "Smooth sailing ahead. Nice talking to you!"
 
-  Hospital_Administrator:
+  hospital_administrator:
     dialogue: "Really? I haven't noticed that at my hospital. Anyway, I thought treating people was a good thing."
     unlocks: [maintain_current_rates]
     feedback:

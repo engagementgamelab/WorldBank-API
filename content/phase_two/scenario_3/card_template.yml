@@ -15,9 +15,9 @@ initiating_npc: provider_2 # <--- character's symbol
 initiating_dialogue: "The ministry has asked us to send copies of all our reports to them for verification. I thought that was supposed to stop that and send only to the third party verifier? I guess I'm still a little confused."
 
 starting_options: [comply_with_ministry]
-starting_options_affects: [example_1, example_2]
+starting_options_affects: [comply_with_ministry_1]
 
-final_options: [comply_with_ministry, authorize_push_back, clarify_roles]
+final_options: [comply_with_ministry, unlockable_hire_private_shipping_company, unlockable_plan_traveling_nurses]
 final_options_affects: [example_1, example_2, example_1]
 
 characters:
@@ -31,12 +31,12 @@ characters:
 
   coach:
     dialogue: "Duplicating efforts seems to be hampering the health providers. I'd either clarify everyone's roles for them, or empower health providers to push back somehow."
-    unlocks: [separation_of_rolls, authorize_push_back] # <--- these probably will symbols
+    unlocks: [unlockable_hire_private_shipping_company, unlockable_hire_private_shipping_company] # <--- these probably will symbols
     unlocks_affects: [example_1, example_2]
 
   third_party_verifier:
     dialogue: "I didn't know about this. If the Ministry is doubling our verification efforts, it could prove very confusing to the providers."
-    unlocks: [separation_of_rolls]
+    unlocks: [unlockable_corruption_crackdown]
     unlocks_affects: [example_2]
 
   health_provider_1:

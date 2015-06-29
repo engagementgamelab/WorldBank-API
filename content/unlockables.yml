@@ -7,160 +7,768 @@
 
 # UNLOCKABLE FORMAT:
 # symbol: Internal symbol to reference this unlockable. (required)
-# ====> Should have prefix of "unlockable_" 
+# ====> Should have prefix of "unlockable_"
 # description: Array of increasingly informative data about this unlockable
 #   - "First info player sees when unlocked"
 #   - "Text player sees if 'unlocked' a second time"
 #   - "Text player sees if 'unlocked' a third time"
-# unlocked_by: Array of NPC symbols. These NPCs are how player can unlock this unlockable (may not use this). 
+# unlocked_by: Array of NPC symbols. These NPCs are how player can unlock this unlockable (may not use this).
 # priority: (1-3) Priority of this unlockable, when used in a plan; matches up with master key. If left undefined, will be 0 (no points).
 # type: TBD (do we need this?)
 
-###DIALOGUE UNLOCKS###
 
+# ----------------                     ---------------- #
+# ----------------  DIALOGUE UNLOCKS   ---------------- #
+# ----------------                     ---------------- #
+
+
+# ------------------ 
 # unlocked by farm worker in Mile
+# ------------------ 
 - symbol: unlockable_dialogue_mr_todd
 
+# ------------------ 
 # unlocked by midwife in Mile
+# ------------------ 
 - symbol: unlockable_dialogue_hospital_administrator
 
+# ------------------ 
 # unlocked by Mr. Todd in Kibari
-- symbol: unlockable_dialogue_clinician 
+# ------------------ 
+- symbol: unlockable_dialogue_clinician
 
 
-###ROUTES###
+# ----------------           ---------------- #
+# ----------------  ROUTES   ---------------- #
+# ----------------           ---------------- #
+
 
 - symbol: unlockable_route_malcom_to_kibari
+  title: "Route to Kibari"
   unlocked: [malcom_to_kibari]
 
 - symbol: unlockable_route_capitol_to_malcom
+  title: "Route to Malcom"
   unlocked: [capitol_to_malcom]
 
 - symbol: unlockable_route_capitol_to_crup
+  title: "Route to Crup"
   unlocked: [capitol_to_crup]
 
 - symbol: unlockable_route_crup_to_kibari
+  title: "Route to Kibari"
   unlocked: [crup_to_kibari]
 
 - symbol: unlockable_route_malcom_to_valeria
+  title: "Route to Valeria"
   unlocked: [malcom_to_valeria]
 
 - symbol: unlockable_route_malcom_to_mile
+  title: "Route to Mile"
   unlocked: [malcom_to_mile]
 
 - symbol: unlockable_route_valeria_to_zima
+  title: "Route to Zima"
   unlocked: [valeria_to_zima]
 
 - symbol: unlockable_route_zima_to_kibari
+  title: "Route to Kibari"
   unlocked: [zima_to_kibari]
 
 - symbol: unlockable_route_kibari_to_crup
+  title: "Route to Crup"
   unlocked: [kibari_to_crup]
 
 - symbol: unlockable_route_kibari_to_mile
+  title: "Route to Mile"
   unlocked: [kibari_to_mile]
 
 - symbol: unlockable_route_mile_to_zima
+  title: "Route to Zima"
   unlocked: [mile_to_zima]
 
 
-###TACTIC PLAN OPTIONS###
+# ----------------              ---------------- #
+# ---------------- PLAN OPTIONS ---------------- #
+# ----------------              ---------------- #
 
 
-### Supply Side - Resource Allocation ####
+# ------------------
+# Supply Side - Resource Allocation 
+# ------------------ 
 
 - symbol: unlockable_incentivise_providers_to_deliver_services
   title: "Incentivise Providers to Deliver Services"
-  description: 
+  description:
     - "A straightforward way to increase use of specific services, such as facility births and vaccinations, is to give bonuses to providers that deliver more of those services. This would set specific goals, and incentivise providers to reach them."
-  type: supply_side_resource_allocation 
+  Priority: 2
+  type: supply_side_resource_allocation
 
 - symbol: unlockable_incentivise_providers_to_follow_protocols
   title: "Incentivise Providers to Follow Protocols"
-  description: 
+  description:
     - "If providers are not following protocols, ordering consults and prescribing things for the wrong reasons, this is both wasteful and harmful to quality of care. This would require providers to follow protocols in order to receive incentives."
+  Priority: 1
   type: supply_side_resource_allocation
 
 - symbol: unlockable_contract_outside_organization_to_administer_plan
   title: "Contract Outside Organization to Administer Plan"
-  description: 
+  description:
     - "In instances where there is poor infrastructure or the government is not a strong partner, contracting a Non-Government Organization to fill the roles of infrastructure and management to deliver services is ideal."
+  Priority: -1
   type: supply_side_resource_allocation
 
 - symbol: unlockable_contract_private_company_to_deliver_supplies
   title: "Contract Private Company to Deliver Supplies"
-  description: 
+  description:
     - "If public infrastructure and traditional channels aren’t reliably delivering needed supplies, contracting a private company to deliver them would ensure things run smoothly."
+  Priority: -1 
   type: supply_side_resource_allocation
 
 - symbol: unlockable_grant_providers_autonomy
   title: "Grant Providers Autonomy"
   description: 
     - "Providers need the autonomy to order supplies and make hires that suit the needs of their local communities. Moving these crucial decisions to the ground level instead of leaving it to the Ministry or another body should improve supplies and personnel issues."
+  Priority: 1
   type: supply_side_resource_allocation
 
-### Supply Side - Behavior, Knowledge, and Professionalism ###
+# ------------------
+# Supply Side - Behavior, Knowledge, and Professionalism 
+# ------------------
 
 - symbol: unlockable_improve_patient_and_provider_relationship
   title: "Improve Patient and Provider Relationship"
-  description: 
+  description:
     - "Patients don’t go to facilities where they are mistreated or receive poor service. Improving patient/provider relationships could increase use of important services long term."
+  Priority: 2
   type: behavior_knowledge_and_professionalism
 
 - symbol: unlockable_make_aesthetic_improvements
   title: "Make Aesthetic Improvements"
   description: 
     - "If the facilities look uncleanunsafe, or just unattractive, patients will stay away. Improvements could include proper maintenance, renovations, paint, new uniforms for staff, or other upgrades."
+  Priority: -1
   type: behavior_knowledge_and_professionalism
 
 - symbol: unlockable_hire_more_nurses_from_highlands_region
   title: "Hire From Nurses From the Highlands Region"
-  description: 
+  description:
     - "If patients see familiar faces who understand their needs, they will be more likely to use and return to facilities. This would also have the upside of stimulating the economy in a poor region of the country."
+  Priority: 0
   type: behavior_knowledge_and_professionalism
 
-### Demand Side - Resource Allocation ###
+# ------------------
+# Demand Side - Resource Allocation 
+# ------------------
 
 - symbol: unlockable_vouchers_for_services
   title: "Vouchers For Services"
-  description: 
+  description:
     - "If patients see familiar faces who understand their needs, they will be more likely to use and return to facilities. This would also have the upside of stimulating the economy in a poor region of the country."
+  Priority: 2
   type: demand_side_resource_allocation
 
 - symbol: unlockable_travel_reimbursement
   title: "Travel Reimbursement"
-  description: 
+  description:
     - "If patients cannot afford to travel to facilities, they cannot use services there. A voucher program for travel could help offset this cost."
+  Priority: 0
   type: demand_side_resource_allocation
 
 - symbol: unlockable_conditional_cash_transfer
   title: "Conditional Cash Transfer"
-  description: 
+  description:
     - "In areas where social welfare must be delivered due to poverty or disaster, making the transfer of money or goods conditional on using health services that we wish to incentivise anyway makes sense."
+  Priority: 0
   type: demand_side_resource_allocation
 
 - symbol: unlockable_outreach
   title: "Outreach"
-  description: 
+  description:
     - "When travel is difficult for patients, bringing health care workers directly to their communities through a practice known as outreach can provide services much more conveniently."
+  Priority: 2
   type: demand_side_resource_allocation
 
-### Demand Side - Behavior and Knowledge ###
+# ------------------
+# Demand Side - Behavior and Knowledge 
+# ------------------
 
 - symbol: unlockable_information_campaign_to_change_cultural_customs_and_behavior
   title: "Information Campaign to Change Cultural Customs and Behavior"
-  description: 
+  description:
     - "Sometimes entrenched customs or cultural behaviors such as not hand washing or giving birth in unsafe environments can harm the health of communities. An educational information campaign could help change those behaviors."
+  Priority: 0
   type: demand_side_behavior_and_knowledge
 
 - symbol: unlockable_information_campaign_to_counter_misinformation
   title: "Information Campaign to Counter Misinformation"
-  description: 
+  description:
     - "An educational information campaign to combat specific misinformation about health services could help clear up misconceptions about facility care."
+  Priority: 0
   type: demand_side_behavior_and_knowledge
 
 - symbol: unlockable_information_campaign_to_explain_changes_to_system
   title: "Information Campaign to Explain Changes to System"
-  description: 
+  description:
     - "If major changes are going to take place in the health system, and educational information campaign to explain these changes may be necessary to avoid confusion."
+  Priority: 3
   type: demand_side_behavior_and_knowledge
+
+
+# ----------------                          ---------------- #
+# ---------------- PHASE 2 SCENARIO OPTIONS ---------------- #
+# ----------------                          ---------------- #
+
+
+# -------------------                       ------------------- #
+# -------------------  Scenario 1 - Year 1  ------------------- #
+# -------------------                       ------------------- #
+
+
+# ------------------
+# Government Overreach Verification - S1_Y1_P1
+# ------------------
+- symbol: comply_with_ministry_1
+  title: "Comply with the Ministry"
+
+- symbol: authorize_providers_to_take_action_at_their_level_1
+  title: "Authorize providers to take action at their level"
+
+- symbol: clarify_separation_of_functions_1
+  title: "Clarify the seperation of functions and responsibilities"
+# ------------------ 
+# Bad Record Keeping - S1_Y1_P2
+# ------------------
+- symbol: hold_payments_1
+  title: "Hold payments"
+
+- symbol: help_build_capacity_1
+  title: "Help build capacity"
+
+- symbol: sanctions_1
+  title: "Establish sanctions"
+# ------------------
+# Poor Management - S1_Y1_P3
+# ------------------
+- symbol: warning_and_retraining_1
+  title: "Warn and retrain staff" 
+
+- symbol: terminate_contract_effective_end_of_year_1
+  title: "Terminate contract at the end of the year"
+# ------------------
+# Dodging Responsibility - S1_Y1_P4
+# ------------------
+- symbol: warning_1
+  title: "Give a warning"
+
+- symbol: revise_business_plan_to_include_regular_meetings_1
+  title: "Revise the business plan to include regular meetings"
+
+- symbol: terminate_contract_effective_end_of_year_2
+  title: "Terminate the contract at the end of this year"
+
+
+# -------------------                       ------------------- #
+# -------------------  Scenario 1 - Year 2  ------------------- #
+# -------------------                       ------------------- #
+
+
+# ------------------
+# Mismanagement - S1_Y2_P1
+# ------------------
+- symbol: warning_2
+  title: "Give warning"
+
+- symbol: sanctions_and_retraining_on_use_of_financial_tools
+  title: "Set sanctions and retrain using financial tools"
+
+- symbol: revise_business_plan_1
+  title: "Revise the buisness plan"
+# ------------------
+# Lack of Transparency - S1_Y2_P2
+# ------------------
+- symbol: warning_3 
+  title: "Give warning"
+
+- symbol: mild_sanctions 
+  title: "Establish mild sanctions"
+
+- symbol: strong_sanctions
+  title:  "Establish strong sanctions"
+# ------------------
+# Inconsistent Indicators - S1_Y2_P3
+# ------------------
+- symbol: hire_more_outreach_staff
+  title: "Hire more outreach staff"
+
+- symbol: raise_incentives_for_facility_births
+  title: "Raise incentives for facility births"
+
+- symbol: review_indicators_at_end_of_year
+  title: "Review indicators and take action at the end of this year"
+# ------------------
+# More Transparency - S1_Y2_P4
+# ------------------
+- symbol: warning_4
+  title: "Give warning"
+
+- symbol: terminate_contract_at_end_of_year_3
+  title: "terminate this contract at the end of the year"
+
+- symbol: audit
+  title: "Conduct audit"
+
+- symbol: capacity_building
+  title: "Build capacity"
+
+
+# -------------------                       ------------------- #
+# -------------------  Scenario 1 - Year 3  ------------------- #
+# -------------------                       ------------------- #
+
+
+# ------------------
+# Wrong Numbers - S1_Y3_P1
+# ------------------
+- symbol: warning_5
+  title: "Give warning"
+
+- symbol: sanctions_3
+  title: "Establish sanctions"
+
+- symbol: hold_meeting_to_retrain_on_reporting_practices
+  title: "Hold meeting to retrain staff on reporting practices"
+# ------------------
+# Budget Lines - S1_Y3_P2
+# ------------------
+- symbol: comply_with_ministry_request
+  title: "Comply with the Ministry's request"
+
+- symbol: clarify_separation_of_functions_2
+  title: "Clarify the separation of functions"
+
+- symbol: revise_business_plan_2
+  title: "Revise buisness plan"
+# ------------------
+# Failed Inspection - S1_Y3_P3
+# ------------------
+- symbol: review_the_inspection
+  title: "Review the inspection"
+
+- symbol: warning_6
+  title: "Give warning"
+
+- symbol: deny_review
+  title: "Deny the contents of the review"
+# ------------------
+# Over Capacity - S1_Y3_P4
+# ------------------
+- symbol: expand_hiring_of_hospital_staff 
+  title: "Expand the hospital staff by hiring new employees"
+
+- symbol: expand_hiring_at_all_facilities
+  title: "Expand hiring at all facilities"
+
+- symbol: award_bonuses_to_hospital_staff
+  title: "Award bonsues to hospital staff"
+# ------------------
+# Checkup Overload - S1_Y3_P5
+# ------------------
+- symbol: decrease_incentives
+  title: "Decrease incentives"
+
+- symbol: warn_providers_to_follow_protocols
+  title: "Warn providers to follow protocols"
+
+- symbol: maintain_current_rates
+  title: "Maintain current rates"
+
+
+
+# ------------------- #
+# Scenario 2 - Year 1 
+# ------------------- #
+
+# ------------------- #
+# Scenario 2 - Year 2
+# ------------------- #
+
+# ------------------- #
+# Scenario 2 - Year 3
+# ------------------- #
+
+# ------------------- #
+# Scenario 3 - Year 1 
+# ------------------- #
+
+# ------------------- #
+# Scenario 3 - Year 2
+# ------------------- #
+
+# ------------------- #
+# Scenario 3 - Year 3
+# ------------------- #
+
+# ------------------- #
+# Scenario 4 - Year 1 
+# ------------------- #
+
+# ------------------- #
+# Scenario 4 - Year 2
+# ------------------- #
+
+# ------------------- #
+# Scenario 4 - Year 3
+# ------------------- #
+
+
+# ----------------                          ---------------- #
+# ---------------- PHASE 2 TACTIC OPTIONS   ---------------- #
+# ----------------                          ---------------- #
+
+
+# ----------------                          ---------------- #
+# ----------------   VOUCHERS FOR SERVICES  ---------------- #
+# ----------------                          ---------------- #
+
+
+# -------------------------- #
+# Poor voucher usage - Y1_V1
+# -------------------------- #
+- symbol: unlockable_information_campaign
+  title: "Information Campaign"
+
+- symbol: unlockable_add_travel_vouchers
+  title: "Add Travel Vouchers"
+
+- symbol: unlockable_increase_budget_for_outreach
+  title: "Add Travel Vouchers"
+# -------------------------- #
+# Wrong number of Cases - Y1_V2
+# -------------------------- #
+- symbol: unlockable_warning_t1
+  title: "Warning"
+
+- symbol: unlockable_sanctions_t1
+  title: "Sanctions"
+# -------------------------- #
+# Voucher Acceptance - Y2_V1
+# -------------------------- #
+- symbol: unlockable_expedite_voucher_payments
+  title: "Expedite Voucher Payments"
+
+- symbol: unlockable_sanction_the_provider
+  title: "Sanction the Provider"
+
+- symbol: unlockable_warn_the_provider
+  title: "Warn the Provider"
+# -------------------------- #
+# False Declarations - Y2_V2
+# -------------------------- #
+- symbol: unlockable_warning_t2
+  title: "Warning"
+
+- symbol: unlockable_sanctions_t2
+  title: "Sanctions"
+
+- symbol: unlockable_modify_business_plan_t1
+  title: "Modify the Business Plan to Stop Voucher-Based Bonuses for Individuals"
+# -------------------------- #
+# Running Out of Vouchers - Y3_V1
+# -------------------------- #
+- symbol: unlockable_seek_another_printer
+  title: "Seek Another Printer"
+
+- symbol: unlockable_contract multiple printers
+  title: "Contract Multiple Printers"
+
+- symbol: unlockable_print_vouchers_locally
+  title: "Print Vouchers Locally"
+# -------------------------- #
+# Voucher Issues - Y3_V2
+# -------------------------- #
+- symbol: unlockable_contract_organization_to_help_distribute
+  title: "Contract an Organization to Help Distribute Vouchers"
+
+- symbol: unlockable_sanction_voucher_agency
+  title: "Sanction the Voucher Agency"
+
+
+# ----------------                                    ---------------- #
+# ----------------   Conditional Cash Transfer (CCT)  ---------------- #
+# ----------------                                    ---------------- #
+
+
+# -------------------------- #
+# What is Covered? - Y1_CCT1
+# -------------------------- #
+- symbol: unlockable_broaden_what_is_covered
+  title: "Broaden What is Covered to Include More Desired Services"
+
+- symbol: unlockable_information_campaign_to_explain_what_is_covered
+  title: "Information Campaign to Explain What is Covered"
+# -------------------------- #
+# Qualification Confusion - Y1_CCT2
+# -------------------------- #
+- symbol: unlockable_retrain
+  title: "Retrain"
+
+- symbol: unlockable_hire_third_party_to_rewrite
+  title: "Hire Third Party to Re-Write Inclusion/Exclusion Policy"
+
+- symbol: unlockable_hospital_administrator_revises_policy
+  title: "Allow Hospital Administrator to Revise Policy"
+# -------------------------- #
+# CCT Penetration - Y2_CCT1
+# -------------------------- #
+- symbol: unlockable_increase_incentives
+  title: "Increase Incentives"
+
+- symbol: unlockable_cultural_campaign
+  title: "Campaign to Shift Traditional Birthing Behaviors"
+
+- symbol: "unlockable_incentivise_traditional_midwives"
+  title: "Incentivise Traditional Midwives to Refer Women to Facilities"
+# -------------------------- #
+# Underutilization- Y2_CCT2
+# -------------------------- #
+- symbol: unlockable_increase_incentives_t2
+  title: "Increase Incentives"
+
+- symbol: unlockable_use_a_different_incentive
+  title: "Use a Different Incentive"
+# -------------------------- #
+# Payment Inconsistancy - Y3_CCT1
+# -------------------------- #
+- symbol: unlockable_only_pay_for_results
+  title: "Only Pay For Results"
+
+- symbol: unlockable_allow_temporary_exception
+  title: "Allow Temporary Exception"
+# -------------------------- #
+# Cash Transfer Confusion- Y3_CCT2
+# -------------------------- #
+- symbol: unlockable_expedite_cct_payments
+  title: "Expedite CCT Payments"
+
+- symbol: unlockable_fund_info_campaign
+  title: "Fund an Information Campaign to Explain the Program"
+
+- symbol: unlockable_embed_cct_officer_at_facilities
+  title: "Embed a CCT Officer at Facilities"
+
+
+# ----------------              ---------------- #
+# ----------------   OUTREACH   ---------------- #
+# ----------------              ---------------- #
+
+
+# -------------------------- #
+# Confusion of Roles - Y1_O1
+# -------------------------- #
+- symbol: unlockable_clarify_role_for_ministry
+  title: "Clarify Role for Ministry"
+
+- symbol: unlockable_tell_providers_to_act_without_ministry_approval
+  title: "Tell Providers to Act Without Ministry Approval"
+# -------------------------- #
+# Field Records - Y1_O2
+# -------------------------- #
+- symbol: unlockable_warning_t3
+  title: "Warning"
+
+- symbol: unlockable_advise_providers_to_hire_more_outreach_staff
+  title: "Advise Providers to Hire More Outreach Staff"
+# -------------------------- #
+# Supply Chain - Y2_O1
+# -------------------------- #
+- symbol: unlockable_increase_quality_of_care_incentives
+  title: "Increase Quality of Care Incentives"
+
+- symbol: unlockable_reduce_workforce
+  title: "Reduce Workforce"
+# -------------------------- #
+# Home Births - Y3_O1
+# ------------------------- #
+- symbol: unlockable_increase_facility_birth_incentives
+  title: "Increase Facility Birth Incentives"
+
+- symbol: unlockable_continue_with_plan
+  title: "Continue With Plan as Written"
+
+- symbol: unlockable_give_permission
+  title: "Give Permission"
+
+# ----------------------------------------- #
+# Improve Patient and Provider Relationship #
+# ----------------------------------------- #
+
+# -------------------------- #
+# Unusual Claims - Y1_P1
+# ------------------------- #
+
+- symbol: unlockable_approve_payments
+  title: "Approve Payments"
+
+- symbol: unlockable_warn_and_deny_payments
+  title: "Warn and Deny Payments"
+
+- symbol: unlockable_reinforce_following_protocols
+  title: "Reinforce Following Protocols"
+
+- symbol: unlockable_issue_payments_to_institutions
+  title: "Issue Payments to Institutions Instead of Individuals"
+
+# -------------------------- #
+# Staff Trouble - Y2_P1
+# ------------------------- #
+
+- symbol: unlockable_retrain_t2
+  title: "Retrain"
+
+- symbol: unlockable_cull_and_rehire
+  title: "Cull Workforce and Rehire"
+
+- symbol: unlockable_increase_incentives_and_expidite_payments
+  title: "Increase Incentives and Expedite Payments"
+
+# -------------------------- #
+# Possible Fraud - Y3_P1
+# ------------------------- #
+
+- symbol: unlockable_sanction_offending_workiers
+  title: "Sanction Offending Workers"
+
+- symbol: unlockable_warning_t4
+  title: "Warning"
+
+- symbol: unlockable_sanction_those_providers
+  title: "Sanction Those Providers"
+
+# -------------------------------------- #
+# Hire More Nurses From Highlands Region #
+# -------------------------------------- #
+
+# --------------------------- #
+# Make Aesthetic Improvements #
+# --------------------------- #
+
+# -------------------------------------------- #
+# Contract Private Company to Deliver Supplies #
+# -------------------------------------------- #
+
+# -------------------------- #
+# Road Issues - Y1_D1
+# ------------------------- #
+
+- symbol: unlockable_penalize_delivery_co
+  title: "Penalize the Delivery Company"
+
+- symbol: unlockable_switch_to_train_service
+  title: "Switch to Train Service"
+
+# -------------------------- #
+# Strike - Y2_D1
+# ------------------------- #
+
+- symbol: unlockable_terminate_contract_at_end_of_year
+  title: "Terminate Contract at End of Year and Return to Pre-plan Shipping Methods"
+
+- symbol: unlockable_hire_another_ground_based_service
+  title: "Hire Another Ground-Based Service"
+
+- symbol: unlockable_hire_air_service
+  title: "Hire Air Service"
+
+# -------------------------- #
+# Raising Rates - Y3_D1
+# ------------------------- #
+
+- symbol: unlockable_pay_new_rate
+  title: "Pay New Rates"
+
+- symbol: unlockable_negotiate
+  title: "Negotiate"
+
+
+# ---------------------------------------------- #
+# Information Campaign to Counter Misinformation #
+# ---------------------------------------------- #
+
+# -------------------------- #
+# Short Staff - Y1_IM1
+# ------------------------- #
+
+- symbol: unlockable_provide_funding_to_hire_new_staff
+  title: "Provide Funding to Hire New Staff"
+
+- symbol: unlockable_increase_incentives_for_meeting_campaign_goals
+  title: "Increase Insentives for Meeting Campaign Goals"
+
+- symbol: unlockable_reevaluate_whether_this_campaign_is_necessary
+  title: "Re-evaluate Whether This Campaign Is Necessary"
+
+
+# -------------------------- #
+# Overexposure - Y2_IM1
+# ------------------------- #
+
+- symbol: unlockable_temporarily_reduce_output
+  title: "Temporarily Reduce Output and Create New Materials"
+
+- symbol: unlockable_end_campaign
+  title: "End Campaign"
+
+# -------------------------- #
+# Backlash - Y3_IM1
+# ------------------------- #
+
+- symbol: unlockable_revise_language_in_campaign
+  title: "Revise Language in Campaign"
+
+- symbol: unlockable_halt_campaign
+  title: "Halt Campaign"
+
+- symbol: unlockable_request_meeting_with_candidate
+  title: "Request Meeting With Candidate"  
+
+# ------------------------------------------------------ #
+# Incentivise Providers to Follow Protocols NOT SELECTED #
+# ------------------------------------------------------ #
+
+# -------------------------------------------------------------- #
+# Information Campaign to Explain Changes to System NOT SELECTED #
+# -------------------------------------------------------------- #
+
+# -------------------------- #
+# Lack of Information - Y1_IS1
+# ------------------------- #
+
+- symbol: unlockable_provider_ambassadors
+  title: "Have Providers Send Out Ambassadors"
+
+- symbol: unlockable_invite_community_leaders
+  title: "Invite Community Leaders to Facilities for Education"
+
+- symbol: unlockable_word_of_mouth
+  title: "Utilize Word of Mouth From Patients"  
+
+# -------------------------- #
+# Misnformation - Y2_IS1
+# ------------------------- #
+
+- symbol: unlockable_increase_funding_for_sensitization_strategy
+  title: "Increase Funding for Sensitization Strategy"
+
+- symbol: unlockable_create_informational_pamphlets
+  title: "Create and Distribute Informational Pamphlets"
+
+# -------------------------- #
+# Printing Issues - Y3_IS1
+# ------------------------- #
+
+- symbol: unlockable_provide_health_facilities_with_equipment_to_print_materials"
+  title: "Provide Health Facilities with Eqipment to Produce Pamphlets"
+
+- symbol: unlockable_increase_budet_for_printing_informational_collateral"
+  title: "Invite Community Leaders to Facilities for Education"

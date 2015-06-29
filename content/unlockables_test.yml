@@ -1,0 +1,331 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Unlockable Definitions
+# ==============
+
+# UNLOCKABLE FORMAT:
+# symbol: Internal symbol to reference this unlockable. (required)
+# ====> Should have prefix of "unlockable_"
+# description: Array of increasingly informative data about this unlockable
+#   - "First info player sees when unlocked"
+#   - "Text player sees if 'unlocked' a second time"
+#   - "Text player sees if 'unlocked' a third time"
+# unlocked_by: Array of NPC symbols. These NPCs are how player can unlock this unlockable (may not use this).
+# priority: (1-3) Priority of this unlockable, when used in a plan; matches up with master key. If left undefined, will be 0 (no points).
+# type: TBD (do we need this?)
+
+###DIALOGUE UNLOCKS###
+
+# unlocked by farm worker in Mile
+- symbol: unlockable_dialogue_mr_todd
+
+# unlocked by midwife in Mile
+- symbol: unlockable_dialogue_hospital_administrator
+
+#unlocked by Mr. Todd in Kibari
+- symbol: unlockable_dialogue_clinician
+
+
+###ROUTES###
+
+- symbol: unlockable_route_malcom_to_kibari
+  unlocked: [malcom_to_kibari]
+
+- symbol: unlockable_route_capitol_to_malcom
+  unlocked: [capitol_to_malcom]
+
+- symbol: unlockable_route_capitol_to_crup
+  unlocked: [capitol_to_crup]
+
+- symbol: unlockable_route_crup_to_kibari
+  unlocked: [crup_to_kibari]
+
+- symbol: unlockable_route_malcom_to_valeria
+  unlocked: [malcom_to_valeria]
+
+- symbol: unlockable_route_malcom_to_mile
+  unlocked: [malcom_to_mile]
+
+- symbol: unlockable_route_valeria_to_zima
+  unlocked: [valeria_to_zima]
+
+- symbol: unlockable_route_zima_to_kibari
+  unlocked: [zima_to_kibari]
+
+- symbol: unlockable_route_kibari_to_crup
+  unlocked: [kibari_to_crup]
+
+- symbol: unlockable_route_kibari_to_mile
+  unlocked: [kibari_to_mile]
+
+- symbol: unlockable_route_mile_to_zima
+  unlocked: [mile_to_zima]
+
+
+
+# ----------------              ---------------- #
+# ---------------- PLAN OPTIONS ---------------- #
+# ----------------              ---------------- #
+
+
+### Supply Side - Resource Allocation ####
+
+- symbol: unlockable_incentivise_providers_to_deliver_services
+  title: "Incentivise Providers to Deliver Services"
+  description:
+    - "A straightforward way to increase use of specific services, such as facility births and vaccinations, is to give bonuses to providers that deliver more of those services. This would set specific goals, and incentivise providers to reach them."
+  type: supply_side_resource_allocation
+
+- symbol: unlockable_incentivise_providers_to_follow_protocols
+  title: "Incentivise Providers to Follow Protocols"
+  description:
+    - "If providers are not following protocols, ordering consults and prescribing things for the wrong reasons, this is both wasteful and harmful to quality of care. This would require providers to follow protocols in order to receive incentives."
+  type: supply_side_resource_allocation
+
+- symbol: unlockable_contract_outside_organization_to_administer_plan
+  title: "Contract Outside Organization to Administer Plan"
+  description:
+    - "In instances where there is poor infrastructure or the government is not a strong partner, contracting a Non-Government Organization to fill the roles of infrastructure and management to deliver services is ideal."
+  type: supply_side_resource_allocation
+
+- symbol: unlockable_contract_private_company_to_deliver_supplies
+  title: "Contract Private Company to Deliver Supplies"
+  description:
+    - "If public infrastructure and traditional channels aren’t reliably delivering needed supplies, contracting a private company to deliver them would ensure things run smoothly."
+  type: supply_side_resource_allocation
+
+- symbol: unlockable_grant_providers_autonomy
+  title: "Grant Providers Autonomy"
+  description:
+    - "Providers need the autonomy to order supplies and make hires that suit the needs of their local communities. Moving these crucial decisions to the ground level instead of leaving it to the Ministry or another body should improve supplies and personnel issues."
+  type: supply_side_resource_allocation
+
+### Supply Side - Behavior, Knowledge, and Professionalism ###
+
+- symbol: unlockable_improve_patient_and_provider_relationship
+  title: "Improve Patient and Provider Relationship"
+  description:
+    - "Patients don’t go to facilities where they are mistreated or receive poor service. Improving patient/provider relationships could increase use of important services long term."
+  type: behavior_knowledge_and_professionalism
+
+- symbol: unlockable_make_aesthetic_improvements
+  title: "Make Aesthetic Improvements"
+  description:
+    - "If the facilities look uncleanunsafe, or just unattractive, patients will stay away. Improvements could include proper maintenance, renovations, paint, new uniforms for staff, or other upgrades."
+  type: behavior_knowledge_and_professionalism
+
+- symbol: unlockable_hire_more_nurses_from_highlands_region
+  title: "Hire From Nurses From the Highlands Region"
+  description:
+    - "If patients see familiar faces who understand their needs, they will be more likely to use and return to facilities. This would also have the upside of stimulating the economy in a poor region of the country."
+  type: behavior_knowledge_and_professionalism
+
+### Demand Side - Resource Allocation ###
+
+- symbol: unlockable_vouchers_for_services
+  title: "Vouchers For Services"
+  description:
+    - "If patients see familiar faces who understand their needs, they will be more likely to use and return to facilities. This would also have the upside of stimulating the economy in a poor region of the country."
+  type: demand_side_resource_allocation
+
+- symbol: unlockable_travel_reimbursement
+  title: "Travel Reimbursement"
+  description:
+    - "If patients cannot afford to travel to facilities, they cannot use services there. A voucher program for travel could help offset this cost."
+  type: demand_side_resource_allocation
+
+- symbol: unlockable_conditional_cash_transfer
+  title: "Conditional Cash Transfer"
+  description:
+    - "In areas where social welfare must be delivered due to poverty or disaster, making the transfer of money or goods conditional on using health services that we wish to incentivise anyway makes sense."
+  type: demand_side_resource_allocation
+
+- symbol: unlockable_outreach
+  title: "Outreach"
+  description:
+    - "When travel is difficult for patients, bringing health care workers directly to their communities through a practice known as outreach can provide services much more conveniently."
+  type: demand_side_resource_allocation
+
+### Demand Side - Behavior and Knowledge ###
+
+- symbol: unlockable_information_campaign_to_change_cultural_customs_and_behavior
+  title: "Information Campaign to Change Cultural Customs and Behavior"
+  description:
+    - "Sometimes entrenched customs or cultural behaviors such as not hand washing or giving birth in unsafe environments can harm the health of communities. An educational information campaign could help change those behaviors."
+  type: demand_side_behavior_and_knowledge
+
+- symbol: unlockable_information_campaign_to_counter_misinformation
+  title: "Information Campaign to Counter Misinformation"
+  description:
+    - "An educational information campaign to combat specific misinformation about health services could help clear up misconceptions about facility care."
+  type: demand_side_behavior_and_knowledge
+
+- symbol: unlockable_information_campaign_to_explain_changes_to_system
+  title: "Information Campaign to Explain Changes to System"
+  description:
+    - "If major changes are going to take place in the health system, and educational information campaign to explain these changes may be necessary to avoid confusion."
+  type: demand_side_behavior_and_knowledge
+
+
+
+# ----------------                          ---------------- #
+# ---------------- PHASE 2 SCENARIO OPTIONS ---------------- #
+# ----------------                          ---------------- #
+
+
+# ------------------- #
+# Scenario 1 - Year 1 
+# ------------------- #
+
+
+
+# ------------------- #
+# Scenario 1 - Year 2
+# ------------------- #
+
+
+
+# ------------------- #
+# Scenario 1 - Year 3
+# ------------------- #
+
+
+
+
+
+# ------------------- #
+# Scenario 2 - Year 1 
+# ------------------- #
+
+# ------------------- #
+# Scenario 2 - Year 2
+# ------------------- #
+
+# ------------------- #
+# Scenario 2 - Year 3
+# ------------------- #
+
+# ------------------- #
+# Scenario 3 - Year 1 
+# ------------------- #
+
+# ------------------- #
+# Scenario 3 - Year 2
+# ------------------- #
+
+# ------------------- #
+# Scenario 3 - Year 3
+# ------------------- #
+
+# ------------------- #
+# Scenario 4 - Year 1 
+# ------------------- #
+
+# ------------------- #
+# Scenario 4 - Year 2
+# ------------------- #
+
+# ------------------- #
+# Scenario 4 - Year 3
+# ------------------- #
+
+
+# ----------------                          ---------------- #
+# ---------------- PHASE 2 TACTIC OPTIONS   ---------------- #
+# ----------------                          ---------------- #
+
+
+# --------------------- #
+# Vouchers for Services #
+# --------------------- #
+
+
+# -------------------------- #
+# Poor voucher usage - Y1_V1
+# -------------------------- #
+
+# ------------------------------- #
+# Conditional Cash Transfer (CCT) #
+# ------------------------------- #
+
+# -------- #
+# Outreach #
+# -------- #
+
+# ----------------------------------------- #
+# Improve Patient and Provider Relationship #
+# ----------------------------------------- #
+
+# -------------------------------------- #
+# Hire More Nurses From Highlands Region #
+# -------------------------------------- #
+
+# --------------------------- #
+# Make Aesthetic Improvements #
+# --------------------------- #
+
+# -------------------------------------------- #
+# Contract Private Company to Deliver Supplies #
+# -------------------------------------------- #
+
+# ---------------------------------------------- #
+# Information Campaign to Counter Misinformation #
+# ---------------------------------------------- #
+
+# ------------------------------------------------------ #
+# Incentivise Providers to Follow Protocols NOT SELECTED #
+# ------------------------------------------------------ #
+
+# -------------------------------------------------------------- #
+# Information Campaign to Explain Changes to System NOT SELECTED #
+# -------------------------------------------------------------- #
+
+# ------------------------------------------------------------------------- #
+# Information Campaign to Change Cultural Customs and Behavior NOT SELECTED #
+# ------------------------------------------------------------------------- #
+
+# I am adding the below as they are referenced in dialog files.
+# Specifying an unlock that does not exist here breaks the dialog tree. - Johnny, 5/5/15
+- symbol: unlockable_corruption_crackdown
+  title: "Something"
+  description: "something"
+  unlocked: [malcom]
+  type: professionalism
+
+- symbol: unlockable_hire_private_shipping_company
+  title: "Something"
+  description: "something"
+  unlocked: [malcom]
+  type: professionalism
+
+- symbol: unlockable_contract_ngo_to_administer_plan
+  title: "Something"
+  description: "something"
+  unlocked: [malcom]
+  type: professionalism
+
+- symbol: unlockable_route_malcom_to_kibari
+  title: "Something"
+  description: "something"
+  unlocked: [malcom]
+  type: professionalism
+
+- symbol: unlockable_fruit_1
+  title: "Something"
+  description: "something"
+  unlocked: [malcom]
+  type: professionalism
+
+- symbol: unlockable_plan_traveling_nurses
+  title: "Something"
+  description: "something"
+  unlocked: [malcom]
+  type: professionalism
+
+- symbol: comply_with_ministry
+  title: "Something"
+  description: "something"
+  unlocked: [malcom]
+  type: professionalism

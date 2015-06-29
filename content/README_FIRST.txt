@@ -20,7 +20,9 @@ content
 	|
 	phase_two
 		|
-		problem_file.yml (where problem_file is the symbol for the file)
+		scenario_x
+			|
+			problem_file.yml (where problem_file is the symbol for the file)
 ----------
 
 Resources:

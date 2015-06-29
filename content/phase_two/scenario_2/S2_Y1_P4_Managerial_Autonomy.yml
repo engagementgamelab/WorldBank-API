@@ -1,0 +1,55 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Problem YAML
+# ==============
+
+# Phase Two Scenario Card YML Example
+
+symbol: managerial_autonomy_hiring
+name: "Managerial Autonomy"
+priority: 4
+
+initiating_npc: director_regional_health_services
+initiating_dialogue: "My hospitals can't hire good staff because the NGO is strangling the budget. I don't know how they expect to reach their goals if they won't let us give good care."
+
+starting_options: [advise_to_follow_budget_restrictions]
+starting_options_affects: [advise_to_follow_budget_restrictions]
+starting_options_cost: [small]
+
+final_options: [comply_with_ministry, authorize_push_back, clarify_roles]
+final_options_affects: [comply_with_ministry, authorize_push_back, clarify_roles]
+final_options_cost: [small, small, small]
+
+characters:
+
+  dep_minister_of_health: 
+    dialogue: "We have a pretty good sense of how budgeting worked and where we can improve it if you give us the authority."
+    unlocks: [revert_power_of_budgeting_to_Ministry]
+    unlocks_affects: [revert_power_of_budgeting_to_Ministry]
+
+  director_regional_health_services:
+    feedback:
+      follow_budget_restrictions: "OK, we'll make do. We always have."
+
+  ngo_manager:
+    dialogue: "This is results based financing. We're responsible for the results, so let us decide on the financing."
+    feedback:
+      clarification_of_roles: "We can just focus on this, then. That works for me."
+      revert_power_of_budgeting_to_Ministry: "I really thought we were supposed to handle this, but if they Ministry wants to, that's fine." 
+
+  coach:
+    dialogue: "We can probably handle this without a lot of shuffling. Just remind everyone what they're supposed to be doing."
+    unlocks: [clarification_of_roles]
+    unlocks_affects: [clarification_of_roles_2]
+
+  third_party_verifier:
+    dialogue: "I'm seeing the hospitals struggling, but that might just be growing pains."
+
+  community_verifier:
+    dialogue: "My only concern is people not getting care because the budget keeps getting tied up in arguments."
+
+  hospital_administrator:
+    dialogue: "Will you talk to the Dep. Minister? I have hiring to do, and that's a lot of paperwork. Have you done hiring before? There is a lot of paperwork!"
+    narrows: [director_regional_health_services, ngo_manager, third_party_verifier, community_verifier, hospital_administrator]

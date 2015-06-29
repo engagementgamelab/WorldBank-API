@@ -12,13 +12,13 @@ name: "Bad Record Keeping"
 priority: 2
 
 initiating_npc: third_party_verifier # <--- character's symbol
-initiating_dialogue: "The Clinic submitted their reports to us, but there were some inconsistancies. When we asked to see their records, they could not supply them."
+initiating_dialogue: "The Clinic submitted their reports to us, but there were some inconsistencies. When we asked to see their records, they could not supply them."
 
-starting_options: [hold_payments]
+starting_options: [hold_payments_1]
 starting_options_affects: [hold_payments_1]
 starting_options_cost: [small]
 
-final_options: [hold_payments, help_build_capacity, sanctions]
+final_options: [hold_payments_1, help_build_capacity_1, sanctions_1]
 final_options_affects: [hold_payments_1, help_build_capacity_1, sanctions_1]
 final_options_cost: [small, medium, small]
 
@@ -26,34 +26,33 @@ final_options_cost: [small, medium, small]
 characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
-  Dep_Minister_of_Health: # <--- character's symbol
+  dep_minister_of_health: # <--- character's symbol
     dialogue: "If they are not following the rules, they should not be paid. A penalty may also be in order."
-    unlocks: [sanctions]
+    unlocks: [sanctions_1]
     unlocks_affects: [sanctions_1]
 
-  Director_Regional_Health_Services:
-    dialogue: "All providers in my region shoud know the requirements for keeping records. Something must be wrong. I'd talk to them."
-    narrows: [dep_minister_of_health, director_regional_health_services, community_manater, third_party_verifier, coach] # <--- these probably will symbols
+  director_regional_health_services:
+    dialogue: "All providers in my region should know the requirements for keeping records. Something must be wrong. I'd talk to them."
+    narrows: [dep_minister_of_health, director_regional_health_services, community_manager, third_party_verifier, coach] # <--- these probably will symbols
 
-  Coach:
+  coach:
     dialogue: "I don't know why they aren't keeping records. When I spoke with them last, they said everything was fine and they didn't want my help."
 
-  Third_Party_Verifier:
+  third_party_verifier:
     feedback: 
-      Help_Build_Capacity: " I will strengthen on the spot training during the verification for them to see the mistakes they are making."
+      help_build_capacity_1: "I will strengthen on the spot training during the verification for them to see the mistakes they are making."
 
-  Community_Verifier:
+  community_verifier:
     dialogue: "My team has had no issue keeping records. I wonder what the issue is at the clinics?"
-   
 
-  Clininic_Manager:
+  clinic_manager:
     dialogue: "The reports we submitted are correct, I can give you my word on that. The problem is we do not have the time and resources needed to keep and collect all the records required."
-    unlocks: [help_build_capacity]
+    unlocks: [help_build_capacity_1]
     unlocks_affects: [help_build_capacity_1]
     feedback:
-      Hold_Payments: "We will improve things next quarter."
-      authorize_push_back: "We can hardly pay staff as it is! Many patients will go untreated because of this."
+      hold_payments_1: "We will improve things next quarter."
+      sanctions_1: "We can hardly pay staff as it is! Many patients will go untreated because of this."
 
-  Hospital_Administrator:
+  hospital_administrator:
     dialogue: "Perhaps they just need some more time to get used to all of this. This is all new. Cut them some slack this once, and they'll figure it out as we go."
   
