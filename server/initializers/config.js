@@ -20,7 +20,7 @@ var _configOptions = {
     filter: "yml",
     encoding: "utf8",
     settings: "config.yml",
-    googleAppId: "",
+    googleAppId: "UA-64617433-2",
 };
 
 module.exports = {
@@ -54,10 +54,14 @@ module.exports = {
     }
 
     // Global config for tracking analytics
-    api.trackEvent = function analyticsEvent(userId, eventName, eventCategory) {
+    api.trackEvent = function analyticsEvent(userId, eventName, eventCategory, callback) {
 
-      var visitor = ua(_configOptions.googleAppId, userId);
-      visitor.event(eventCategory, eventName).send();
+      var visitor = analytics(_configOptions.googleAppId, userId);
+      
+      visitor.event(eventCategory, eventName, function (err) {
+        if(callback !== undefined)
+          callback(err);
+      });
 
     }
 

@@ -24,7 +24,7 @@ Created by Engagement Lab, 2015
 exports.event = 
 {
 
-    name: 'event',
+    name: 'analyticsEvent',
     description: 'Tracks the specified analytics event.',
     blockedConnectionTypes: [],
     outputExample: {},
@@ -46,6 +46,8 @@ exports.event =
         var dataInput = connection.rawConnection.params.body;
 
         api.trackEvent(dataInput.userId, dataInput.eventName, dataInput.eventCategory);
+
+        next(connection, true);
 
     }
 

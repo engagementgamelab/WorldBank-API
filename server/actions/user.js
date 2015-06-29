@@ -373,7 +373,7 @@ exports.auth =
         } 
         else {
 
-          api.session.generateAtLogin(connection, function(){
+          api.session.generateAtLogin(connection, function() {
 
             user.save();
 
@@ -386,7 +386,14 @@ exports.auth =
             connection.response.auth = true;
             connection.response.user = userRecord;
 
-            next(connection, true);
+            api.trackEvent(user._id, "User Login", "API", function(error) {
+
+              if(err !== undefined)
+                connection.error = error;
+
+              next(connection, true);
+
+            });
 
           });
 
