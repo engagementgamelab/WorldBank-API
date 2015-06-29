@@ -12,13 +12,15 @@ Created by Engagement Lab, 2015
 
 var fs = require('fs');
 var yaml = require('yamljs');
+var analytics = require('universal-analytics');
 
 // Global config options
 var _configOptions = {
     content_root: "../content",
     filter: "yml",
     encoding: "utf8",
-    settings: "config.yml"
+    settings: "config.yml",
+    googleAppId: "",
 };
 
 module.exports = {
@@ -48,6 +50,14 @@ module.exports = {
             return false;
 
         }
+
+    }
+
+    // Global config for tracking analytics
+    api.trackEvent = function analyticsEvent(userId, eventName, eventCategory) {
+
+      var visitor = ua(_configOptions.googleAppId, userId);
+      visitor.event(eventCategory, eventName).send();
 
     }
 
