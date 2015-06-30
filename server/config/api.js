@@ -4,7 +4,7 @@
 exports.default = {
   general: function(api){
     return {
-      apiVersion: '0.0.1',
+      apiVersion: '0.0.5',
       serverName: 'World Bank API',
       // id can be set here, or it will be generated dynamically.
       //  Be sure that every server you run has a unique ID (which will happen when generated dynamically)
@@ -44,7 +44,9 @@ exports.default = {
         'log':         [ __dirname + '/../log'          ] ,
         'server':      [ __dirname + '/../servers'      ] ,
         'initializer': [ __dirname + '/../initializers' ] ,
-        'plugin':      [ __dirname + '/../node_modules' ] 
+        'plugin':      [ __dirname + '/../node_modules' ],
+        // Engagement Lab API: This is a custom folder for our YAML content
+        'content':      [ '../content' ]
       },
       // hash containing chat rooms you wish to be created at server boot
       startingChatRooms: {
@@ -72,6 +74,19 @@ exports.test = {
         'defaultRoom': {},
         'otherRoom': {},
       },
+    }
+  }
+}
+
+exports.staging = { 
+  general: function(api){
+    return {  
+      developmentMode: false,
+      // configuration for your actionhero project structure
+      paths: {
+        // Engagement Lab API: This is a custom folder for our YAML content
+        'content':      [ 'content' ]
+      }
     }
   }
 }
