@@ -8,8 +8,8 @@
 # Phase Two Tactic YML Template
 
 symbol: tactic_wrong_number_of_cases
-tactic_name: unlockable_warning_t1  # <--- symbol of the tactic (stored in unlockables.yml) this card is using
-name: "Warning" # <--- display name for card
+tactic_name: unlockable_wrong_number_of_cases  # <--- symbol of the tactic (stored in unlockables.yml) this card is using
+name: "Wrong Number of Cases" # <--- display name for card
 year: 1
 
 # This dialogue the player sees first
@@ -33,30 +33,25 @@ investigate_further_cooldown: $config_cooldown_long
 new_options:
   Warning: "Warning"
   Sanctions: "Sanctions"
-  Investigate: "Investigate"
 
 # The affects for each new option
 new_options_affects:
-  Warning: example_1
-  Sanctions: example_2
-  Investigate: example_3
+  Warning: affect_wrong_number_of_cases_warning
+  Sanctions: affect_wrong_number_of_cases_sanctions
 
 # These are the usable player options added after further investigation is done
 further_options:
   something_1: "Warning"
   something_2: "Sanctions"
-  something_3: "Investigate"
 
 # The affects for each further new option
 further_options_affects:
   Warning: example_1
   Sanctions: example_2
-  Investigate: example_3
 
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
   Warning: "Warning: I'll issue the warning and let the fundholder know that payments should be withheld for the false cases."
   Sanctions: "Sanctions: We'll levy sanctions, then. My analysis suggests they can afford to pay the penalty."
-  Investigate: "My investigation did not turn up any hard evidence of fraud."
   # This key is required for every tactic card for when the player chooses observe instead of investigate
   observe: "OK, we'll wait and see if anything changes."
