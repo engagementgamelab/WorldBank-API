@@ -14,42 +14,48 @@ var fs = require('fs');
 var yaml = require('yamljs');
 var analytics = require('universal-analytics');
 
-// Global config options
-var _configOptions = {
-    content_root: "../content",
-    filter: "yml",
-    encoding: "utf8",
-    settings: "config.yml",
-    googleAppId: "UA-64617433-2",
-};
-
 module.exports = {
   loadPriority:  1000,
   startPriority: 1000,
   stopPriority:  1000,
   initialize: function(api, next){
+
+    // Global config options
+    var _configOptions = {
+        content_root: api.config.general.paths.content,
+        filter: "yml",
+        encoding: "utf8",
+        settings: "config.yml",
+        googleAppId: "UA-64617433-2",
+    };
+
+    // Logging
+    api.log('Content root is ' + _configOptions.content_root, 'notice');
     
     // Parse YAML syntax given a file path, and throw exception on error
     api.readYaml = function loadYML(filePath) {
 
-        var pathToYml = _configOptions.content_root + "/" + filePath;
+      // Logging
+      api.log('Loading YAML at ' + filePath, 'info');
 
-        try {
-            var data = undefined;
+      var pathToYml = filePath;
 
-            // Read file synchronously
-            var fileContent = fs.readFileSync(pathToYml, _configOptions.encoding);
-            data = yaml.parse(fileContent);
+      try {
+          var data = undefined;
 
-            return data;
+          // Read file synchronously
+          var fileContent = fs.readFileSync(pathToYml, _configOptions.encoding);
+          data = yaml.parse(fileContent);
 
-        } catch (err) {
+          return data;
 
-            // Error, throw
-            throw err;
-            return false;
+      } catch (err) {
 
-        }
+          // Error, throw
+          throw err;
+          return false;
+
+      }
 
     }
 
