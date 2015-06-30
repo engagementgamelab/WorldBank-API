@@ -20,7 +20,9 @@ exports.default = {
         { path: '/user/create', action: 'userCreate' }, // (POST) /api/user/create
         { path: '/user/save', action: 'userSave' },  // (POST) /api/user/save
         { path: '/user/auth', action: 'userAuth' }, // (POST) /api/user/auth
-        { path: '/user/scenario', action: 'userAssignScenario' }// (POST) /api/user/scenario
+        { path: '/user/scenario', action: 'userAssignScenario' }, // (POST) /api/user/scenario
+        
+        { path: '/analytics/event', action: 'analyticsEvent' } // (POST) /api/analytics/event
       ]
 
       /* ---------------------

@@ -7,7 +7,7 @@
 
 # Phase Two Tactic YML Template
 
-symbol: Poor_Voucher_Usage
+symbol: tactic_poor_voucher_usage
 tactic_name: unlockable_vouchers_for_services # <--- plan option symbol stored in unlockables.yml this comes from
 name: "Poor Voucher Usage" # <--- display name for card
 year: 1
