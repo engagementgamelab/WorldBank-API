@@ -8,7 +8,7 @@
 # Phase Two Tactic YML Template
 
 symbol: tactic_wrong_number_of_cases
-tactic_name: unlockable_wrong_number_of_cases  # <--- symbol of the tactic (stored in unlockables.yml) this card is using
+tactic_name: unlockable_vouchers_for_services  # <--- symbol of the tactic (stored in unlockables.yml) this card is using
 name: "Wrong Number of Cases" # <--- display name for card
 year: 1
 
@@ -30,28 +30,14 @@ investigate_further_cooldown: $config_cooldown_long
 
 # These are the usable player options added after investigation is done
 # Note that each key (e.g. 'information_campaign') MUST correspond to the one under "_affects" and feedback"
-new_options:
-  Warning: "Warning"
-  Sanctions: "Sanctions"
+new_options: [unlockable_warning_t1, unlockable_sanctions_t1]
 
 # The affects for each new option
-new_options_affects:
-  Warning: affect_wrong_number_of_cases_warning
-  Sanctions: affect_wrong_number_of_cases_sanctions
-
-# These are the usable player options added after further investigation is done
-further_options:
-  something_1: "Warning"
-  something_2: "Sanctions"
-
-# The affects for each further new option
-further_options_affects:
-  Warning: example_1
-  Sanctions: example_2
+new_options_affects: [unlockable_warning_t1, unlockable_sanctions_t1]
 
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
-  Warning: "Warning: I'll issue the warning and let the fundholder know that payments should be withheld for the false cases."
-  Sanctions: "Sanctions: We'll levy sanctions, then. My analysis suggests they can afford to pay the penalty."
+  unlockable_warning_t1: "Warning: I'll issue the warning and let the fundholder know that payments should be withheld for the false cases."
+  unlockable_sanctions_t1: "Sanctions: We'll levy sanctions, then. My analysis suggests they can afford to pay the penalty."
   # This key is required for every tactic card for when the player chooses observe instead of investigate
   observe: "OK, we'll wait and see if anything changes."
