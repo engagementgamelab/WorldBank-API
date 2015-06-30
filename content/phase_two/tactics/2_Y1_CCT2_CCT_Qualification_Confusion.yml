@@ -1,0 +1,50 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Tactic YAML
+# ==============
+
+# Phase Two Tactic YML Template
+
+symbol: tactic_cct_qualification_confusion
+tactic_name: unlockable_conditional_cash_transfer  # <--- symbol of the tactic (stored in unlockables.yml) this card is using
+name: "CCT Qualification Confusion" # <--- display name for card
+year: 1
+
+# This dialogue the player sees first
+initiating_dialogue: "There is some confusion on who qualifies for cash transfers. This is supposed to target the poorest people from the highlands, but according to reports some from the capital city and larger settlements have been requesting and receiving funds."
+
+# The dialogue the player sees when investigation has results to show
+investigate_dialogue: "The policy itself seems to contain some ambiguities. A revision of the policy's inclusion/exclusion criterea could be the solution. I can look into hiring a third party to handle that. The policy also seems to be confusing to some workers. We could retrain them, and that might solve the problem."
+
+# The dialogue the player sees when further investigation has results to show
+investigate_further_dialogue: "One of the hospital administrators has offered to revise the inclusion/exclusion policies to make it cearer for their staff. With our approval, of course. This would save us the cost of hiring a third party to revise them, if you trust the administrator to do it. "
+
+# These are special parameters that load a cooldown array, which is defined in content/config.yml under 'cooldown:'
+# For example, specifying $config_cooldown_long will choose the key found in config.yml under:
+# ----- cooldown:
+# -----  long: [20, 14, 10]
+investigate_cooldown: $config_cooldown_short
+investigate_further_cooldown: $config_cooldown_long
+
+# These are the usable player options added after investigation is done
+# Note that each key (e.g. 'information_campaign') MUST correspond to the one under "_affects" and feedback"
+new_options: [unlockable_retrain, unlockable_hire_third_party_to_rewrite]
+
+# The affects for each new option
+new_options_affects: [unlockable_retrain, unlockable_hire_third_party_to_rewrite]
+
+# These are the usable player options added after further investigation is done
+further_options: [unlockable_hospital_administrator_revises_policy]
+
+# The affects for each further new option
+further_options_affects: [unlockable_hospital_administrator_revises_policy]
+
+# This is the feedback dialogue the player sees based on the option they select
+feedback_dialogue:
+  unlockable_retrain: " I'll instruct the facility managers to institute a mandatory retraining for all staff."
+  unlockable_hire_third_party_to_rewrite: "We'll launch a bidding for a qualified third party right away."
+  unlockable_hospital_administrator_revises_policy: "The Hospital Administrator will redefine the inclusion/exclusion criteria and bring clarity on required documents to be verified by the staff."
+  # This key is required for every tactic card for when the player chooses observe instead of investigate
+  observe: "OK, we'll wait and see if anything changes."
