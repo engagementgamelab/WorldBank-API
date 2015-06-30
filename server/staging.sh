@@ -16,7 +16,11 @@ printf "\n>>>> Adding content changes and committing \n"
 git add .
 git commit -m "Made staging commit from master head ($(git rev-parse HEAD))"
 
+printf "\n>>>> Ensuring Heroku uses staging environment and pushing \n"
+
 heroku config:set NODE_ENV=staging
+
+git push heroku master
 
 # export NODE_ENV=staging
 # node ./node_modules/.bin/actionhero start
