@@ -21,6 +21,10 @@ printf "\n>>>> Merging master branch into staging working tree\n"
 
 git rebase master
 
+git remote add heroku git@heroku.com:engagementlab.git
+
+git config user.name "jenkins@labs-egl-macserver"
+
 printf "\n>>>> Copying /content to server root for Heroku\n"
 
 cp -R content server
@@ -30,10 +34,12 @@ printf "\n>>>> Adding content changes and committing to branch from master head 
 git add .
 git commit -m "Made staging commit from master head ($(git rev-parse HEAD))"
 
-printf "\n>>>> Setting NODE_ENV to staging and pushing to Heroku \n"
+printf "\n>>>> Setting NODE_ENV to staging and pushing to Heroku (pausing until push is done) \n"
 
 heroku config:set NODE_ENV=staging
 
 git subtree push --prefix server heroku master
+
+wait
 
 printf "\n****** DONE ******* \n"
