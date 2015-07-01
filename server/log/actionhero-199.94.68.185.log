@@ -2503,3 +2503,368 @@
 {"level":"info","message":"Loading YAML at content//unlockables.yml","timestamp":"2015-06-30T21:44:17.851Z"}
 {"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":272,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-30T21:44:17.857Z"}
 {"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":1,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-06-30T21:45:32.002Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2015-07-01T15:31:58.028Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2015-07-01T15:31:58.152Z"}
+{"level":"debug","message":"action loaded: analyticsEvent @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/analytics.js","timestamp":"2015-07-01T15:31:58.216Z"}
+{"level":"debug","message":"action loaded: gameData @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/gameData.js","timestamp":"2015-07-01T15:31:58.218Z"}
+{"level":"debug","message":"action loaded: login @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/login.js","timestamp":"2015-07-01T15:31:58.218Z"}
+{"level":"debug","message":"action loaded: allPlans @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/plan.js","timestamp":"2015-07-01T15:31:58.219Z"}
+{"level":"debug","message":"action loaded: save @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/plan.js","timestamp":"2015-07-01T15:31:58.219Z"}
+{"level":"debug","message":"action loaded: showDocumentation @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/showDocumentation.js","timestamp":"2015-07-01T15:31:58.220Z"}
+{"level":"debug","message":"action loaded: status @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/status.js","timestamp":"2015-07-01T15:31:58.221Z"}
+{"level":"debug","message":"action loaded: userCreate @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/user.js","timestamp":"2015-07-01T15:31:58.223Z"}
+{"level":"debug","message":"action loaded: userSave @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/user.js","timestamp":"2015-07-01T15:31:58.223Z"}
+{"level":"debug","message":"action loaded: userAssignScenario @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/user.js","timestamp":"2015-07-01T15:31:58.223Z"}
+{"level":"debug","message":"action loaded: userAuth @ v1, /Users/johnny/Documents/Projects/WorldBank-API/server/actions/user.js","timestamp":"2015-07-01T15:31:58.223Z"}
+{"get":[{"path":"/plan/all","action":"allPlans"},{"path":"/analyticsEvent","action":"analyticsEvent"},{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/allPlans","action":"allPlans"},{"path":"/save","action":"save"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"},{"path":"/userCreate","action":"userCreate"},{"path":"/userSave","action":"userSave"},{"path":"/userAssignScenario","action":"userAssignScenario"},{"path":"/userAuth","action":"userAuth"}],"post":[{"path":"/user/create","action":"userCreate"},{"path":"/user/save","action":"userSave"},{"path":"/user/auth","action":"userAuth"},{"path":"/user/scenario","action":"userAssignScenario"},{"path":"/analytics/event","action":"analyticsEvent"},{"path":"/analyticsEvent","action":"analyticsEvent"},{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/allPlans","action":"allPlans"},{"path":"/save","action":"save"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"},{"path":"/userCreate","action":"userCreate"},{"path":"/userSave","action":"userSave"},{"path":"/userAssignScenario","action":"userAssignScenario"},{"path":"/userAuth","action":"userAuth"}],"put":[{"path":"/analyticsEvent","action":"analyticsEvent"},{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/allPlans","action":"allPlans"},{"path":"/save","action":"save"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"},{"path":"/userCreate","action":"userCreate"},{"path":"/userSave","action":"userSave"},{"path":"/userAssignScenario","action":"userAssignScenario"},{"path":"/userAuth","action":"userAuth"}],"patch":[{"path":"/analyticsEvent","action":"analyticsEvent"},{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/allPlans","action":"allPlans"},{"path":"/save","action":"save"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"},{"path":"/userCreate","action":"userCreate"},{"path":"/userSave","action":"userSave"},{"path":"/userAssignScenario","action":"userAssignScenario"},{"path":"/userAuth","action":"userAuth"}],"delete":[{"path":"/analyticsEvent","action":"analyticsEvent"},{"path":"/gameData","action":"gameData"},{"path":"/login","action":"login"},{"path":"/allPlans","action":"allPlans"},{"path":"/save","action":"save"},{"path":"/showDocumentation","action":"showDocumentation"},{"path":"/status","action":"status"},{"path":"/userCreate","action":"userCreate"},{"path":"/userSave","action":"userSave"},{"path":"/userAssignScenario","action":"userAssignScenario"},{"path":"/userAuth","action":"userAuth"}],"level":"debug","message":"routes:","timestamp":"2015-07-01T15:31:58.226Z"}
+{"level":"debug","message":"initialized server: web","timestamp":"2015-07-01T15:31:58.918Z"}
+{"level":"debug","message":"initialized server: websocket","timestamp":"2015-07-01T15:31:58.919Z"}
+{"level":"notice","message":"Content root is ../content","timestamp":"2015-07-01T15:31:58.921Z"}
+{"level":"info","message":"Loading YAML at ../content/config.yml","timestamp":"2015-07-01T15:31:58.921Z"}
+{"level":"debug","message":" > start: pids /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/pids.js","timestamp":"2015-07-01T15:31:58.968Z"}
+{"level":"notice","message":"pid: 71515","timestamp":"2015-07-01T15:31:58.973Z"}
+{"level":"debug","message":"   started: pids /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/pids.js","timestamp":"2015-07-01T15:31:58.973Z"}
+{"level":"debug","message":" > start: id /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/id.js","timestamp":"2015-07-01T15:31:58.973Z"}
+{"level":"notice","message":"server ID: 199.94.68.185","timestamp":"2015-07-01T15:31:58.974Z"}
+{"level":"debug","message":"   started: id /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/id.js","timestamp":"2015-07-01T15:31:58.974Z"}
+{"level":"debug","message":" > start: redis /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/redis.js","timestamp":"2015-07-01T15:31:58.974Z"}
+{"level":"debug","message":"   started: redis /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/redis.js","timestamp":"2015-07-01T15:31:58.974Z"}
+{"level":"debug","message":" > start: chatRoom /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/chatRoom.js","timestamp":"2015-07-01T15:31:58.974Z"}
+{"level":"info","message":"ensuring the existence of the chatRoom: defaultRoom","timestamp":"2015-07-01T15:31:58.974Z"}
+{"level":"info","message":"ensuring the existence of the chatRoom: anotherRoom","timestamp":"2015-07-01T15:31:58.975Z"}
+{"level":"debug","message":"   started: chatRoom /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/chatRoom.js","timestamp":"2015-07-01T15:31:58.975Z"}
+{"level":"debug","message":" > start: resque /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/resque.js","timestamp":"2015-07-01T15:31:58.975Z"}
+{"level":"debug","message":"   started: resque /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/resque.js","timestamp":"2015-07-01T15:31:58.978Z"}
+{"level":"debug","message":" > start: servers /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/servers.js","timestamp":"2015-07-01T15:31:58.978Z"}
+{"level":"notice","message":"starting server: web","timestamp":"2015-07-01T15:31:58.978Z"}
+{"level":"notice","message":"starting server: websocket","timestamp":"2015-07-01T15:31:58.979Z"}
+{"level":"debug","message":"webSockets bound to 0.0.0.0:3000","timestamp":"2015-07-01T15:31:59.366Z"}
+{"level":"debug","message":"wrote /Users/johnny/Documents/Projects/WorldBank-API/server/public/javascript/actionheroClient.js","timestamp":"2015-07-01T15:31:59.391Z"}
+{"level":"debug","message":"wrote /Users/johnny/Documents/Projects/WorldBank-API/server/public/javascript/actionheroClient.min.js","timestamp":"2015-07-01T15:32:00.214Z"}
+{"level":"debug","message":"   started: servers /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/servers.js","timestamp":"2015-07-01T15:32:00.215Z"}
+{"level":"debug","message":" > start: stats /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/stats.js","timestamp":"2015-07-01T15:32:00.215Z"}
+{"level":"debug","message":"   started: stats /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/stats.js","timestamp":"2015-07-01T15:32:00.215Z"}
+{"level":"debug","message":" > start: tasks /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/tasks.js","timestamp":"2015-07-01T15:32:00.215Z"}
+{"level":"debug","message":"   started: tasks /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/tasks.js","timestamp":"2015-07-01T15:32:00.216Z"}
+{"level":"debug","message":" > start: specHelper /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/specHelper.js","timestamp":"2015-07-01T15:32:00.216Z"}
+{"level":"debug","message":"   started: specHelper /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/specHelper.js","timestamp":"2015-07-01T15:32:00.216Z"}
+{"level":"debug","message":" > start: configLoader /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/configLoader.js","timestamp":"2015-07-01T15:32:00.216Z"}
+{"level":"notice","message":"environment: development","timestamp":"2015-07-01T15:32:00.216Z"}
+{"level":"debug","message":"   started: configLoader /Users/johnny/Documents/Projects/WorldBank-API/server/node_modules/actionhero/initializers/configLoader.js","timestamp":"2015-07-01T15:32:00.216Z"}
+{"level":"debug","message":" > start: config /Users/johnny/Documents/Projects/WorldBank-API/server/initializers/config.js","timestamp":"2015-07-01T15:32:00.216Z"}
+{"level":"debug","message":"   started: config /Users/johnny/Documents/Projects/WorldBank-API/server/initializers/config.js","timestamp":"2015-07-01T15:32:00.217Z"}
+{"level":"debug","message":" > start: mongo /Users/johnny/Documents/Projects/WorldBank-API/server/initializers/mongo.js","timestamp":"2015-07-01T15:32:00.217Z"}
+{"level":"debug","message":"   started: mongo /Users/johnny/Documents/Projects/WorldBank-API/server/initializers/mongo.js","timestamp":"2015-07-01T15:32:00.221Z"}
+{"level":"debug","message":" > start: session /Users/johnny/Documents/Projects/WorldBank-API/server/initializers/session.js","timestamp":"2015-07-01T15:32:00.222Z"}
+{"level":"debug","message":"   started: session /Users/johnny/Documents/Projects/WorldBank-API/server/initializers/session.js","timestamp":"2015-07-01T15:32:00.222Z"}
+{"level":"notice","message":"*** Server Started @ 2015-07-01 11:32:00 ***","timestamp":"2015-07-01T15:32:00.222Z"}
+{"level":"info","message":"actionhero member 199.94.68.185 has joined the cluster","timestamp":"2015-07-01T15:32:00.227Z"}
+{"level":"info","message":"Loading YAML at ../content//characters.yml","timestamp":"2015-07-01T15:32:04.574Z"}
+{"level":"info","message":"Loading YAML at ../content//cities.yml","timestamp":"2015-07-01T15:32:04.591Z"}
+{"level":"info","message":"Loading YAML at ../content//grading.yml","timestamp":"2015-07-01T15:32:04.593Z"}
+{"level":"info","message":"Loading YAML at ../content//indicator_affects.yml","timestamp":"2015-07-01T15:32:04.595Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/crup/clinician_crup.yml","timestamp":"2015-07-01T15:32:04.630Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/crup/mech_farmer_crup.yml","timestamp":"2015-07-01T15:32:04.632Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/crup/old_men_gaming_crup.yml","timestamp":"2015-07-01T15:32:04.633Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/crup/patient_crup.yml","timestamp":"2015-07-01T15:32:04.634Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/crup/plantation_owner_crup.yml","timestamp":"2015-07-01T15:32:04.635Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/kibari/herder_kibari.yml","timestamp":"2015-07-01T15:32:04.650Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/kibari/mr_todd_kibari.yml","timestamp":"2015-07-01T15:32:04.651Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/kibari/nomad_kibari.yml","timestamp":"2015-07-01T15:32:04.652Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/kibari/teenager_kibari.yml","timestamp":"2015-07-01T15:32:04.652Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/kibari/traveling_merchant_kibari.yml","timestamp":"2015-07-01T15:32:04.653Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/malcom/capitol_city_professor_malcom.yml","timestamp":"2015-07-01T15:32:04.654Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/malcom/capitol_city_traveler_malcom.yml","timestamp":"2015-07-01T15:32:04.655Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/malcom/fruit_vendor_malcom.yml","timestamp":"2015-07-01T15:32:04.656Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/malcom/medicine_merchant_malcom.yml","timestamp":"2015-07-01T15:32:04.659Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/malcom/two_women_malcom.yml","timestamp":"2015-07-01T15:32:04.665Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/mile/farm_worker_mile.yml","timestamp":"2015-07-01T15:32:04.666Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/mile/midwife_mile.yml","timestamp":"2015-07-01T15:32:04.667Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/mile/nomad_mile.yml","timestamp":"2015-07-01T15:32:04.668Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/mile/settled_refugee_mile.yml","timestamp":"2015-07-01T15:32:04.668Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/valeria/grandmother_with_toddler_valeria.yml","timestamp":"2015-07-01T15:32:04.669Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/valeria/lydia_airship_pilot_valeria.yml","timestamp":"2015-07-01T15:32:04.670Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/valeria/nomad_valeria.yml","timestamp":"2015-07-01T15:32:04.671Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/valeria/spoiled_twins_valeria.yml","timestamp":"2015-07-01T15:32:04.672Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/zima/doctor_zima.yml","timestamp":"2015-07-01T15:32:04.673Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/zima/foreign_traveler_zima.yml","timestamp":"2015-07-01T15:32:04.673Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/zima/hospital_administrator_zima.yml","timestamp":"2015-07-01T15:32:04.674Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/zima/nurse_zima.yml","timestamp":"2015-07-01T15:32:04.676Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/zima/patient_zima.yml","timestamp":"2015-07-01T15:32:04.676Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/crup/clinician_crup.yml","timestamp":"2015-07-01T15:32:04.677Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/crup/mech_farmer_crup.yml","timestamp":"2015-07-01T15:32:04.678Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/crup/old_men_gaming_crup.yml","timestamp":"2015-07-01T15:32:04.678Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/crup/patient_crup.yml","timestamp":"2015-07-01T15:32:04.678Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/crup/plantation_owner_crup.yml","timestamp":"2015-07-01T15:32:04.679Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/kibari/herder_kibari.yml","timestamp":"2015-07-01T15:32:04.679Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/kibari/mr_todd_kibari.yml","timestamp":"2015-07-01T15:32:04.680Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/kibari/nomad_kibari.yml","timestamp":"2015-07-01T15:32:04.680Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/kibari/teenager_kibari.yml","timestamp":"2015-07-01T15:32:04.681Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/kibari/traveling_merchant_kibari.yml","timestamp":"2015-07-01T15:32:04.681Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/malcom/capitol_city_professor_malcom.yml","timestamp":"2015-07-01T15:32:04.681Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/malcom/capitol_city_traveler_malcom.yml","timestamp":"2015-07-01T15:32:04.682Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/malcom/fruit_vendor_malcom.yml","timestamp":"2015-07-01T15:32:04.682Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/malcom/medicine_merchant_malcom.yml","timestamp":"2015-07-01T15:32:04.683Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/malcom/two_women_malcom.yml","timestamp":"2015-07-01T15:32:04.683Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/mile/farm_worker_mile.yml","timestamp":"2015-07-01T15:32:04.684Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/mile/midwife_mile.yml","timestamp":"2015-07-01T15:32:04.684Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/mile/nomad_mile.yml","timestamp":"2015-07-01T15:32:04.685Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/mile/settled_refugee_mile.yml","timestamp":"2015-07-01T15:32:04.685Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/valeria/grandmother_with_toddler_valeria.yml","timestamp":"2015-07-01T15:32:04.685Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/valeria/lydia_airship_pilot_valeria.yml","timestamp":"2015-07-01T15:32:04.686Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/valeria/nomad_valeria.yml","timestamp":"2015-07-01T15:32:04.686Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/valeria/spoiled_twins_valeria.yml","timestamp":"2015-07-01T15:32:04.687Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/zima/doctor_zima.yml","timestamp":"2015-07-01T15:32:04.687Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/zima/foreign_traveler_zima.yml","timestamp":"2015-07-01T15:32:04.688Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/zima/hospital_administrator_zima.yml","timestamp":"2015-07-01T15:32:04.688Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/zima/nurse_zima.yml","timestamp":"2015-07-01T15:32:04.689Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/zima/patient_zima.yml","timestamp":"2015-07-01T15:32:04.691Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/crup/clinician_crup.yml","timestamp":"2015-07-01T15:32:04.692Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/crup/mech_farmer_crup.yml","timestamp":"2015-07-01T15:32:04.692Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/crup/old_men_gaming_crup.yml","timestamp":"2015-07-01T15:32:04.693Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/crup/patient_crup.yml","timestamp":"2015-07-01T15:32:04.693Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/crup/plantation_owner_crup.yml","timestamp":"2015-07-01T15:32:04.695Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/kibari/herder_kibari.yml","timestamp":"2015-07-01T15:32:04.695Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/kibari/mr_todd_kibari.yml","timestamp":"2015-07-01T15:32:04.696Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/kibari/nomad_kibari.yml","timestamp":"2015-07-01T15:32:04.696Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/kibari/teenager_kibari.yml","timestamp":"2015-07-01T15:32:04.697Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/kibari/traveling_merchant_kibari.yml","timestamp":"2015-07-01T15:32:04.697Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/malcom/capitol_city_professor_malcom.yml","timestamp":"2015-07-01T15:32:04.698Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/malcom/capitol_city_traveler_malcom.yml","timestamp":"2015-07-01T15:32:04.699Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/malcom/fruit_vendor_malcom.yml","timestamp":"2015-07-01T15:32:04.699Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/malcom/medicine_merchant_malcom.yml","timestamp":"2015-07-01T15:32:04.700Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/malcom/two_women_malcom.yml","timestamp":"2015-07-01T15:32:04.700Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/mile/farm_worker_mile.yml","timestamp":"2015-07-01T15:32:04.701Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/mile/midwife_mile.yml","timestamp":"2015-07-01T15:32:04.702Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/mile/nomad_mile.yml","timestamp":"2015-07-01T15:32:04.703Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/mile/settled_refugee_mile.yml","timestamp":"2015-07-01T15:32:04.703Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/valeria/grandmother_with_toddler_valeria.yml","timestamp":"2015-07-01T15:32:04.704Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/valeria/lydia_airship_pilot_valeria.yml","timestamp":"2015-07-01T15:32:04.704Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/valeria/nomad_valeria.yml","timestamp":"2015-07-01T15:32:04.705Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/valeria/spoiled_twins_valeria.yml","timestamp":"2015-07-01T15:32:04.705Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/zima/doctor_zima.yml","timestamp":"2015-07-01T15:32:04.705Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/zima/foreign_traveler_zima.yml","timestamp":"2015-07-01T15:32:04.706Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/zima/hospital_administrator_zima.yml","timestamp":"2015-07-01T15:32:04.706Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/zima/nurse_zima.yml","timestamp":"2015-07-01T15:32:04.707Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_one/zima/patient_zima.yml","timestamp":"2015-07-01T15:32:04.707Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_1/S1_Y1_P1_Government_Overreach_Verification.yml","timestamp":"2015-07-01T15:32:04.708Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_1/S1_Y1_P2_Bad_Record_Keeping.yml","timestamp":"2015-07-01T15:32:04.709Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_1/S1_Y1_P3_Poor_Management.yml","timestamp":"2015-07-01T15:32:04.710Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_1/S1_Y1_P4_Dodging_Responsibility.yml","timestamp":"2015-07-01T15:32:04.711Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_1/S1_Y2_P1_Mismanagement.yml","timestamp":"2015-07-01T15:32:04.712Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_1/S1_Y2_P2_Lack_of_Transparency.yml","timestamp":"2015-07-01T15:32:04.713Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_1/S1_Y2_P3_Inconsistent_Indicators.yml","timestamp":"2015-07-01T15:32:04.714Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_1/S1_Y2_P4_More_Transparency.yml","timestamp":"2015-07-01T15:32:04.716Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_1/S1_Y3_P1_Wrong_Numbers.yml","timestamp":"2015-07-01T15:32:04.717Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_1/S1_Y3_P2_Budget_Lines.yml","timestamp":"2015-07-01T15:32:04.718Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_1/S1_Y3_P3_Failed_Inspection.yml","timestamp":"2015-07-01T15:32:04.719Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_1/S1_Y3_P4_Over_Capacity.yml","timestamp":"2015-07-01T15:32:04.720Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_1/S1_Y3_P5_Checkup_Overload.yml","timestamp":"2015-07-01T15:32:04.721Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_2/S2_Y1_P1_Lack_of_Procedure.yml","timestamp":"2015-07-01T15:32:04.723Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_2/S2_Y1_P2_Process_Versus_Results.yml","timestamp":"2015-07-01T15:32:04.724Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_2/S2_Y1_P3_Government_Versus_Organization.yml","timestamp":"2015-07-01T15:32:04.724Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_2/S2_Y1_P4_Managerial_Autonomy.yml","timestamp":"2015-07-01T15:32:04.725Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_2/S2_Y2_P1_Process_Versus_Results_Again.yml","timestamp":"2015-07-01T15:32:04.727Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_2/S2_Y2_P2_Reach.yml","timestamp":"2015-07-01T15:32:04.728Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_2/S2_Y2_P3_Arguments.yml","timestamp":"2015-07-01T15:32:04.729Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_2/S2_Y2_P4_Unit_Cost.yml","timestamp":"2015-07-01T15:32:04.731Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_2/S2_Y2_P5_Contract_Management.yml","timestamp":"2015-07-01T15:32:04.732Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_2/S2_Y3_P1_More_Arguments.yml","timestamp":"2015-07-01T15:32:04.734Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_2/S2_Y3_P2_Excuses.yml","timestamp":"2015-07-01T15:32:04.735Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_2/S2_Y3_P3_Micro_management.yml","timestamp":"2015-07-01T15:32:04.735Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_2/S2_Y3_P4_Poor_Stewardship.yml","timestamp":"2015-07-01T15:32:04.736Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_3/card_template.yml","timestamp":"2015-07-01T15:32:04.737Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_3/card_template_10.yml","timestamp":"2015-07-01T15:32:04.738Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_3/card_template_11.yml","timestamp":"2015-07-01T15:32:04.739Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_3/card_template_12.yml","timestamp":"2015-07-01T15:32:04.740Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_3/card_template_13.yml","timestamp":"2015-07-01T15:32:04.741Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_3/card_template_2.yml","timestamp":"2015-07-01T15:32:04.742Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_3/card_template_3.yml","timestamp":"2015-07-01T15:32:04.743Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_3/card_template_4.yml","timestamp":"2015-07-01T15:32:04.743Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_3/card_template_5.yml","timestamp":"2015-07-01T15:32:04.744Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_3/card_template_6.yml","timestamp":"2015-07-01T15:32:04.745Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_3/card_template_7.yml","timestamp":"2015-07-01T15:32:04.746Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_3/card_template_8.yml","timestamp":"2015-07-01T15:32:04.747Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_3/card_template_9.yml","timestamp":"2015-07-01T15:32:04.748Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_4/card_template.yml","timestamp":"2015-07-01T15:32:04.749Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_4/card_template_1.yml","timestamp":"2015-07-01T15:32:04.750Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/1_Y1_V1_Poor_Voucher_Usage.yml","timestamp":"2015-07-01T15:32:04.759Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/1_Y1_V2_Wrong_Number_of_Cases.yml","timestamp":"2015-07-01T15:32:04.760Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/1_Y2_V1_Voucher_Acceptance.yml","timestamp":"2015-07-01T15:32:04.760Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/1_Y2_V2_False_Declarations.yml","timestamp":"2015-07-01T15:32:04.761Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/1_Y3_V1_Running_Out_Of_Vouchers.yml","timestamp":"2015-07-01T15:32:04.762Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/1_Y3_V2_Voucher_Issues.yml","timestamp":"2015-07-01T15:32:04.763Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/2_Y1_CCT1_What_Is_Covered.yml","timestamp":"2015-07-01T15:32:04.764Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/2_Y1_CCT2_CCT_Qualification_Confusion.yml","timestamp":"2015-07-01T15:32:04.765Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/2_Y2_CCT1_CCT_Penetration.yml","timestamp":"2015-07-01T15:32:04.766Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/2_Y2_CCT2_Underutilization.yml","timestamp":"2015-07-01T15:32:04.767Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/2_Y3_CCT1_Payment_Inconsistency.yml","timestamp":"2015-07-01T15:32:04.768Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/2_Y3_CCT2_Cash_Transfer_Confusion.yml","timestamp":"2015-07-01T15:32:04.769Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/3_Y1_OUT1_Confusion_of_Roles.yml","timestamp":"2015-07-01T15:32:04.770Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/3_Y1_OUT2_Field_Records.yml","timestamp":"2015-07-01T15:32:04.771Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/3_Y2_OUT1_Supply_Chain.yml","timestamp":"2015-07-01T15:32:04.772Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/3_Y3_OUT1_Home_Births.yml","timestamp":"2015-07-01T15:32:04.772Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/4_Y1_CS1_Unusual_Claims.yml","timestamp":"2015-07-01T15:32:04.773Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/4_Y2_CS1_Staff_Trouble.yml","timestamp":"2015-07-01T15:32:04.774Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/4_Y3_CS1_Possible_Fraud.yml","timestamp":"2015-07-01T15:32:04.775Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/5_Y1_NCS1_Complaints.yml","timestamp":"2015-07-01T15:32:04.775Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/5_Y2_NCS1_Poor_Surveys.yml","timestamp":"2015-07-01T15:32:04.776Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/5_Y3_NCS1_Fraud_Alert.yml","timestamp":"2015-07-01T15:32:04.777Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/6_Y1_PCSUP1_Road_Issues.yml","timestamp":"2015-07-01T15:32:04.778Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/6_Y2_PCSUP1_Strike.yml","timestamp":"2015-07-01T15:32:04.779Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/6_Y3_PCSUP1_Raising_Rates.yml","timestamp":"2015-07-01T15:32:04.779Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/7_Y1_IM1_Short_Staff.yml","timestamp":"2015-07-01T15:32:04.780Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/7_Y2_IM2_Overexposure.yml","timestamp":"2015-07-01T15:32:04.781Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/7_Y3_IM1_Backlash.yml","timestamp":"2015-07-01T15:32:04.781Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/8_Y1_IS1_Lack_Of_Information.yml","timestamp":"2015-07-01T15:32:04.782Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/8_Y2_IS1_Misinformation.yml","timestamp":"2015-07-01T15:32:04.783Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/8_Y3_IS1_Printing_Issues.yml","timestamp":"2015-07-01T15:32:04.784Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_1/S1_Y1_P1_Government_Overreach_Verification.yml","timestamp":"2015-07-01T15:32:04.784Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_1/S1_Y1_P2_Bad_Record_Keeping.yml","timestamp":"2015-07-01T15:32:04.785Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_1/S1_Y1_P3_Poor_Management.yml","timestamp":"2015-07-01T15:32:04.786Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_1/S1_Y1_P4_Dodging_Responsibility.yml","timestamp":"2015-07-01T15:32:04.787Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_1/S1_Y2_P1_Mismanagement.yml","timestamp":"2015-07-01T15:32:04.787Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_1/S1_Y2_P2_Lack_of_Transparency.yml","timestamp":"2015-07-01T15:32:04.788Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_1/S1_Y2_P3_Inconsistent_Indicators.yml","timestamp":"2015-07-01T15:32:04.789Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_1/S1_Y2_P4_More_Transparency.yml","timestamp":"2015-07-01T15:32:04.789Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_1/S1_Y3_P1_Wrong_Numbers.yml","timestamp":"2015-07-01T15:32:04.790Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_1/S1_Y3_P2_Budget_Lines.yml","timestamp":"2015-07-01T15:32:04.790Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_1/S1_Y3_P3_Failed_Inspection.yml","timestamp":"2015-07-01T15:32:04.791Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_1/S1_Y3_P4_Over_Capacity.yml","timestamp":"2015-07-01T15:32:04.792Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_1/S1_Y3_P5_Checkup_Overload.yml","timestamp":"2015-07-01T15:32:04.792Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_2/S2_Y1_P1_Lack_of_Procedure.yml","timestamp":"2015-07-01T15:32:04.793Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_2/S2_Y1_P2_Process_Versus_Results.yml","timestamp":"2015-07-01T15:32:04.794Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_2/S2_Y1_P3_Government_Versus_Organization.yml","timestamp":"2015-07-01T15:32:04.794Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_2/S2_Y1_P4_Managerial_Autonomy.yml","timestamp":"2015-07-01T15:32:04.795Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_2/S2_Y2_P1_Process_Versus_Results_Again.yml","timestamp":"2015-07-01T15:32:04.796Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_2/S2_Y2_P2_Reach.yml","timestamp":"2015-07-01T15:32:04.797Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_2/S2_Y2_P3_Arguments.yml","timestamp":"2015-07-01T15:32:04.798Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_2/S2_Y2_P4_Unit_Cost.yml","timestamp":"2015-07-01T15:32:04.798Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_2/S2_Y2_P5_Contract_Management.yml","timestamp":"2015-07-01T15:32:04.799Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_2/S2_Y3_P1_More_Arguments.yml","timestamp":"2015-07-01T15:32:04.800Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_2/S2_Y3_P2_Excuses.yml","timestamp":"2015-07-01T15:32:04.801Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_2/S2_Y3_P3_Micro_management.yml","timestamp":"2015-07-01T15:32:04.801Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_2/S2_Y3_P4_Poor_Stewardship.yml","timestamp":"2015-07-01T15:32:04.802Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_3/card_template.yml","timestamp":"2015-07-01T15:32:04.803Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_3/card_template_10.yml","timestamp":"2015-07-01T15:32:04.803Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_3/card_template_11.yml","timestamp":"2015-07-01T15:32:04.805Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_3/card_template_12.yml","timestamp":"2015-07-01T15:32:04.805Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_3/card_template_13.yml","timestamp":"2015-07-01T15:32:04.807Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_3/card_template_2.yml","timestamp":"2015-07-01T15:32:04.807Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_3/card_template_3.yml","timestamp":"2015-07-01T15:32:04.808Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_3/card_template_4.yml","timestamp":"2015-07-01T15:32:04.809Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_3/card_template_5.yml","timestamp":"2015-07-01T15:32:04.809Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_3/card_template_6.yml","timestamp":"2015-07-01T15:32:04.810Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_3/card_template_7.yml","timestamp":"2015-07-01T15:32:04.810Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_3/card_template_8.yml","timestamp":"2015-07-01T15:32:04.811Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_3/card_template_9.yml","timestamp":"2015-07-01T15:32:04.812Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_4/card_template.yml","timestamp":"2015-07-01T15:32:04.812Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_4/card_template_1.yml","timestamp":"2015-07-01T15:32:04.813Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/1_Y1_V1_Poor_Voucher_Usage.yml","timestamp":"2015-07-01T15:32:04.814Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/1_Y1_V2_Wrong_Number_of_Cases.yml","timestamp":"2015-07-01T15:32:04.815Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/1_Y2_V1_Voucher_Acceptance.yml","timestamp":"2015-07-01T15:32:04.815Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/1_Y2_V2_False_Declarations.yml","timestamp":"2015-07-01T15:32:04.816Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/1_Y3_V1_Running_Out_Of_Vouchers.yml","timestamp":"2015-07-01T15:32:04.816Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/1_Y3_V2_Voucher_Issues.yml","timestamp":"2015-07-01T15:32:04.817Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/2_Y1_CCT1_What_Is_Covered.yml","timestamp":"2015-07-01T15:32:04.818Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/2_Y1_CCT2_CCT_Qualification_Confusion.yml","timestamp":"2015-07-01T15:32:04.818Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/2_Y2_CCT1_CCT_Penetration.yml","timestamp":"2015-07-01T15:32:04.819Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/2_Y2_CCT2_Underutilization.yml","timestamp":"2015-07-01T15:32:04.820Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/2_Y3_CCT1_Payment_Inconsistency.yml","timestamp":"2015-07-01T15:32:04.820Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/2_Y3_CCT2_Cash_Transfer_Confusion.yml","timestamp":"2015-07-01T15:32:04.820Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/3_Y1_OUT1_Confusion_of_Roles.yml","timestamp":"2015-07-01T15:32:04.821Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/3_Y1_OUT2_Field_Records.yml","timestamp":"2015-07-01T15:32:04.821Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/3_Y2_OUT1_Supply_Chain.yml","timestamp":"2015-07-01T15:32:04.822Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/3_Y3_OUT1_Home_Births.yml","timestamp":"2015-07-01T15:32:04.822Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/4_Y1_CS1_Unusual_Claims.yml","timestamp":"2015-07-01T15:32:04.823Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/4_Y2_CS1_Staff_Trouble.yml","timestamp":"2015-07-01T15:32:04.823Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/4_Y3_CS1_Possible_Fraud.yml","timestamp":"2015-07-01T15:32:04.823Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/5_Y1_NCS1_Complaints.yml","timestamp":"2015-07-01T15:32:04.824Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/5_Y2_NCS1_Poor_Surveys.yml","timestamp":"2015-07-01T15:32:04.824Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/5_Y3_NCS1_Fraud_Alert.yml","timestamp":"2015-07-01T15:32:04.825Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/6_Y1_PCSUP1_Road_Issues.yml","timestamp":"2015-07-01T15:32:04.825Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/6_Y2_PCSUP1_Strike.yml","timestamp":"2015-07-01T15:32:04.826Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/6_Y3_PCSUP1_Raising_Rates.yml","timestamp":"2015-07-01T15:32:04.826Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/7_Y1_IM1_Short_Staff.yml","timestamp":"2015-07-01T15:32:04.827Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/7_Y2_IM2_Overexposure.yml","timestamp":"2015-07-01T15:32:04.827Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/7_Y3_IM1_Backlash.yml","timestamp":"2015-07-01T15:32:04.828Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/8_Y1_IS1_Lack_Of_Information.yml","timestamp":"2015-07-01T15:32:04.828Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/8_Y2_IS1_Misinformation.yml","timestamp":"2015-07-01T15:32:04.829Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/8_Y3_IS1_Printing_Issues.yml","timestamp":"2015-07-01T15:32:04.829Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_1/S1_Y1_P1_Government_Overreach_Verification.yml","timestamp":"2015-07-01T15:32:04.830Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_1/S1_Y1_P2_Bad_Record_Keeping.yml","timestamp":"2015-07-01T15:32:04.831Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_1/S1_Y1_P3_Poor_Management.yml","timestamp":"2015-07-01T15:32:04.831Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_1/S1_Y1_P4_Dodging_Responsibility.yml","timestamp":"2015-07-01T15:32:04.832Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_1/S1_Y2_P1_Mismanagement.yml","timestamp":"2015-07-01T15:32:04.832Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_1/S1_Y2_P2_Lack_of_Transparency.yml","timestamp":"2015-07-01T15:32:04.833Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_1/S1_Y2_P3_Inconsistent_Indicators.yml","timestamp":"2015-07-01T15:32:04.834Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_1/S1_Y2_P4_More_Transparency.yml","timestamp":"2015-07-01T15:32:04.834Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_1/S1_Y3_P1_Wrong_Numbers.yml","timestamp":"2015-07-01T15:32:04.835Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_1/S1_Y3_P2_Budget_Lines.yml","timestamp":"2015-07-01T15:32:04.836Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_1/S1_Y3_P3_Failed_Inspection.yml","timestamp":"2015-07-01T15:32:04.836Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_1/S1_Y3_P4_Over_Capacity.yml","timestamp":"2015-07-01T15:32:04.837Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_1/S1_Y3_P5_Checkup_Overload.yml","timestamp":"2015-07-01T15:32:04.837Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_2/S2_Y1_P1_Lack_of_Procedure.yml","timestamp":"2015-07-01T15:32:04.838Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_2/S2_Y1_P2_Process_Versus_Results.yml","timestamp":"2015-07-01T15:32:04.838Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_2/S2_Y1_P3_Government_Versus_Organization.yml","timestamp":"2015-07-01T15:32:04.839Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_2/S2_Y1_P4_Managerial_Autonomy.yml","timestamp":"2015-07-01T15:32:04.840Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_2/S2_Y2_P1_Process_Versus_Results_Again.yml","timestamp":"2015-07-01T15:32:04.840Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_2/S2_Y2_P2_Reach.yml","timestamp":"2015-07-01T15:32:04.841Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_2/S2_Y2_P3_Arguments.yml","timestamp":"2015-07-01T15:32:04.842Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_2/S2_Y2_P4_Unit_Cost.yml","timestamp":"2015-07-01T15:32:04.842Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_2/S2_Y2_P5_Contract_Management.yml","timestamp":"2015-07-01T15:32:04.843Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_2/S2_Y3_P1_More_Arguments.yml","timestamp":"2015-07-01T15:32:04.847Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_2/S2_Y3_P2_Excuses.yml","timestamp":"2015-07-01T15:32:04.848Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_2/S2_Y3_P3_Micro_management.yml","timestamp":"2015-07-01T15:32:04.849Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_2/S2_Y3_P4_Poor_Stewardship.yml","timestamp":"2015-07-01T15:32:04.849Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_3/card_template.yml","timestamp":"2015-07-01T15:32:04.850Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_3/card_template_10.yml","timestamp":"2015-07-01T15:32:04.851Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_3/card_template_11.yml","timestamp":"2015-07-01T15:32:04.851Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_3/card_template_12.yml","timestamp":"2015-07-01T15:32:04.852Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_3/card_template_13.yml","timestamp":"2015-07-01T15:32:04.852Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_3/card_template_2.yml","timestamp":"2015-07-01T15:32:04.853Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_3/card_template_3.yml","timestamp":"2015-07-01T15:32:04.854Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_3/card_template_4.yml","timestamp":"2015-07-01T15:32:04.854Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_3/card_template_5.yml","timestamp":"2015-07-01T15:32:04.855Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_3/card_template_6.yml","timestamp":"2015-07-01T15:32:04.855Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_3/card_template_7.yml","timestamp":"2015-07-01T15:32:04.856Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_3/card_template_8.yml","timestamp":"2015-07-01T15:32:04.857Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_3/card_template_9.yml","timestamp":"2015-07-01T15:32:04.857Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_4/card_template.yml","timestamp":"2015-07-01T15:32:04.859Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/scenario_4/card_template_1.yml","timestamp":"2015-07-01T15:32:04.860Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/1_Y1_V1_Poor_Voucher_Usage.yml","timestamp":"2015-07-01T15:32:04.861Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/1_Y1_V2_Wrong_Number_of_Cases.yml","timestamp":"2015-07-01T15:32:04.862Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/1_Y2_V1_Voucher_Acceptance.yml","timestamp":"2015-07-01T15:32:04.863Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/1_Y2_V2_False_Declarations.yml","timestamp":"2015-07-01T15:32:04.863Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/1_Y3_V1_Running_Out_Of_Vouchers.yml","timestamp":"2015-07-01T15:32:04.864Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/1_Y3_V2_Voucher_Issues.yml","timestamp":"2015-07-01T15:32:04.864Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/2_Y1_CCT1_What_Is_Covered.yml","timestamp":"2015-07-01T15:32:04.864Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/2_Y1_CCT2_CCT_Qualification_Confusion.yml","timestamp":"2015-07-01T15:32:04.865Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/2_Y2_CCT1_CCT_Penetration.yml","timestamp":"2015-07-01T15:32:04.865Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/2_Y2_CCT2_Underutilization.yml","timestamp":"2015-07-01T15:32:04.866Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/2_Y3_CCT1_Payment_Inconsistency.yml","timestamp":"2015-07-01T15:32:04.866Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/2_Y3_CCT2_Cash_Transfer_Confusion.yml","timestamp":"2015-07-01T15:32:04.866Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/3_Y1_OUT1_Confusion_of_Roles.yml","timestamp":"2015-07-01T15:32:04.867Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/3_Y1_OUT2_Field_Records.yml","timestamp":"2015-07-01T15:32:04.867Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/3_Y2_OUT1_Supply_Chain.yml","timestamp":"2015-07-01T15:32:04.867Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/3_Y3_OUT1_Home_Births.yml","timestamp":"2015-07-01T15:32:04.868Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/4_Y1_CS1_Unusual_Claims.yml","timestamp":"2015-07-01T15:32:04.868Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/4_Y2_CS1_Staff_Trouble.yml","timestamp":"2015-07-01T15:32:04.869Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/4_Y3_CS1_Possible_Fraud.yml","timestamp":"2015-07-01T15:32:04.869Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/5_Y1_NCS1_Complaints.yml","timestamp":"2015-07-01T15:32:04.870Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/5_Y2_NCS1_Poor_Surveys.yml","timestamp":"2015-07-01T15:32:04.871Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/5_Y3_NCS1_Fraud_Alert.yml","timestamp":"2015-07-01T15:32:04.872Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/6_Y1_PCSUP1_Road_Issues.yml","timestamp":"2015-07-01T15:32:04.873Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/6_Y2_PCSUP1_Strike.yml","timestamp":"2015-07-01T15:32:04.874Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/6_Y3_PCSUP1_Raising_Rates.yml","timestamp":"2015-07-01T15:32:04.874Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/7_Y1_IM1_Short_Staff.yml","timestamp":"2015-07-01T15:32:04.875Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/7_Y2_IM2_Overexposure.yml","timestamp":"2015-07-01T15:32:04.875Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/7_Y3_IM1_Backlash.yml","timestamp":"2015-07-01T15:32:04.876Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/8_Y1_IS1_Lack_Of_Information.yml","timestamp":"2015-07-01T15:32:04.876Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/8_Y2_IS1_Misinformation.yml","timestamp":"2015-07-01T15:32:04.877Z"}
+{"level":"info","message":"Loading YAML at ../content//phase_two/tactics/8_Y3_IS1_Printing_Issues.yml","timestamp":"2015-07-01T15:32:04.877Z"}
+{"level":"info","message":"Loading YAML at ../content//routes.yml","timestamp":"2015-07-01T15:32:04.878Z"}
+{"level":"info","message":"Loading YAML at ../content//unlockables.yml","timestamp":"2015-07-01T15:32:04.879Z"}
+{"to":"127.0.0.1","action":"gameData","params":"{\"action\":\"gameData\",\"apiVersion\":1}","duration":414,"error":"null","level":"info","message":"[ action @ web ]","timestamp":"2015-07-01T15:32:04.885Z"}
+{"level":"info","message":"\r\n\r\n*** rebooting due to config change (/Users/johnny/Documents/Projects/WorldBank-API/server/config/mongo.js) ***\r\n\r\n","timestamp":"2015-07-01T15:41:33.813Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing","timestamp":"2015-07-01T15:41:33.813Z"}
