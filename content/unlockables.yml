@@ -636,7 +636,7 @@
 # Possible Fraud - Y3_P1
 # ------------------------- #
 
-- symbol: unlockable_sanction_offending_workiers
+- symbol: unlockable_sanction_offending_workers
   title: "Sanction Offending Workers"
 
 - symbol: unlockable_warning_t4
