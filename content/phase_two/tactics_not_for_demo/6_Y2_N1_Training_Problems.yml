@@ -1,0 +1,48 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Tactic YAML
+# ==============
+
+# Phase Two Tactic YML Template
+
+symbol: tactic_training_problems
+tactic_name: unlockable_hire_more_nurses_from_highlands_region # <--- symbol of the tactic (stored in unlockables.yml) this card is using
+name: "Training Problems" # <--- display name for card
+year: 2
+
+# This dialogue the player sees first
+initiating_dialogue: "Hospitals have been hiring more nurses from the highlands as requested, but they now claim the extra time it takes to train them and to relocate them is not worth the incentives we are offering."
+
+# The dialogue the player sees when investigation has results to show
+investigate_dialogue: "People from the highlands do like seeing people from their region when they go to the hospital. The incentives for this could be increased to make it more attractive. It might be prudent to analyze the effect they are having in a more detailed way to see if they are worth it, though."
+
+# These are special parameters that load a cooldown array, which is defined in content/config.yml under 'cooldown:'
+# For example, specifying $config_cooldown_long will choose the key found in config.yml under:
+# ----- cooldown:
+# -----  long: [20, 14, 10]
+investigate_cooldown: $config_cooldown_short
+investigate_further_cooldown: $config_cooldown_long
+
+# These are the usable player options added after investigation is done
+# Note that each key (e.g. 'information_campaign') MUST correspond to the one under "_affects" and feedback"
+new_options: [unlockable_analyze_highland_effect, unlockable_increase_incentives_for_attractive_facilities]
+
+# The affects for each new option
+new_options_affects: [unlockable_analyze_highland_effect, unlockable_increase_incentives_for_attractive_facilities]
+
+# These are the usable player options added after further investigation is done
+further_options: [unlockable_let_hospitals_select_hires]
+
+# The affects for each further new option
+further_options_affects: [unlockable_let_hospitals_select_hires]
+
+
+# This is the feedback dialogue the player sees based on the option they select
+feedback_dialogue:
+  unlockable_analyze_highland_effect: "The impact of the nurses seems to be middling so far. We could increase the incentives to encourage more of them to be hired and see if the impact increases, or we could just let hospitals hire only who they wish."
+  unlockable_increase_incentives_for_attractive_facilities: "This should make it more attractive for facilities to hire these nurses."
+  unlockable_let_hospitals_select_hires: "This is more in line with the principle of autonomy."
+  # This key is required for every tactic card for when the player chooses observe instead of investigate
+  observe: "OK, we'll wait and see if anything changes."

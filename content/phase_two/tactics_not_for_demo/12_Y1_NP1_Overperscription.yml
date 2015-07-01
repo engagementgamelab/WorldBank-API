@@ -1,0 +1,42 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Tactic YAML
+# ==============
+
+# Phase Two Tactic YML Template
+
+symbol: tactic_overperscription
+tactic_name: unlockable_incentivise_providers_to_follow_protocols # <--- symbol of the tactic (stored in unlockables.yml) this card is using
+name: "Overperscription" # <--- display name for card
+year: 1
+
+# This dialogue the player sees first
+initiating_dialogue: "The community verifier tells me doctors are prescribing unnecessary medicines, which puts a strain on patients."
+
+# The dialogue the player sees when investigation has results to show
+investigate_dialogue: "Patients aren't happy unless they leave the hospital with a prescrption, so doctors prescribe them something innocuous."
+
+# These are special parameters that load a cooldown array, which is defined in content/config.yml under 'cooldown:'
+# For example, specifying $config_cooldown_long will choose the key found in config.yml under:
+# ----- cooldown:
+# -----  long: [20, 14, 10]
+investigate_cooldown: $config_cooldown_short
+investigate_further_cooldown: $config_cooldown_long
+
+# These are the usable player options added after investigation is done
+# Note that each key (e.g. 'information_campaign') MUST correspond to the one under "_affects" and feedback"
+new_options: [unlockable_limit_perscriptions, unlockable_incentivise_following_set_protocols, unlockable_retrain_doctors]
+
+# The affects for each new option
+new_options_affects: [unlockable_limit_perscriptions, unlockable_incentivise_following_set_protocols, unlockable_retrain_doctors]
+
+
+# This is the feedback dialogue the player sees based on the option they select
+feedback_dialogue:
+  unlockable_limit_perscriptions: "If they need fewer, they'll have an empty pad burning a whole in their pocket. If they need more, it'll be a nightmare."
+  unlockable_incentivise_following_set_protocols: "We're counting on the promise of incentives outweighing the headache of a cranky patient, but it doesn't help people to give them a bunch of medicine they don't need."
+  unlockable_retrain_doctors: "This is mostly a bedside manner problem, and reminding doctors they're allowed to say "no" is a lot cheaper than paying them to."
+  # This key is required for every tactic card for when the player chooses observe instead of investigate
+  observe: "OK, we'll wait and see if anything changes."
