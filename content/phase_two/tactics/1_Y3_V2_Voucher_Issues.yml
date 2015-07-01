@@ -7,19 +7,19 @@
 
 # Phase Two Tactic YML Template
 
-symbol: tactic_card_1
+symbol: tactic_voucher_issues
 tactic_name: unlockable_vouchers_for_services # <--- symbol of the tactic (stored in unlockables.yml) this card is using
-name: "Tactic card name" # <--- display name for card
+name: "Voucher Issues" # <--- display name for card
 year: 3 
 
 # This dialogue the player sees first
-initiating_dialogue: "The manager of the voucher agency is concerned. We don’t know why at this point, but we’re not hitting our targets for voucher use. Do you want me to investigate this? Or shall we just observe for now?"
+initiating_dialogue: "The community verifier tells me they've seen eligible people looking for vouchers and not being able to get them."
 
 # The dialogue the player sees when investigation has results to show
-investigate_dialogue: "It's possible that people don't want the services for some reason. A more targeted information campaign could be of use. It also seems that people are having difficulty getting to hospitals. Here are our recommendations:"
+investigate_dialogue: "It seems that supply problems have been mostly solved, so it must be a distribution problem. They offered to put us in contact with another community organization to help distrubute these. Another option would be to warn or sanction the Voucher agency."
 
 # The dialogue the player sees when further investigation has results to show
-investigate_further_dialogue: "It's possible that people don't want the services for some reason. A more targeted information campaign could be of use. It also seems that people are having difficulty getting to hospitals. Here are our recommendations:"
+investigate_further_dialogue: "There are community based organizations in the concerned catchment area that the Voucher Agency could contract."
 
 # These are special parameters that load a cooldown array, which is defined in content/config.yml under 'cooldown:'
 # For example, specifying $config_cooldown_long will choose the key found in config.yml under:
@@ -30,33 +30,14 @@ investigate_further_cooldown: $config_cooldown_long
 
 # These are the usable player options added after investigation is done
 # Note that each key (e.g. 'information_campaign') MUST correspond to the one under "_affects" and feedback"
-new_options:
-  information_campaign: "Information Campaign"
-  transportation_vouchers: "Add travel vouchers"
-  increase_budget: "Increase budget for travelling nurses"
+new_options: [unlockable_contract_organization_to_help_distribute, unlockable_sanction_voucher_agency]
 
 # The affects for each new option
-new_options_affects:
-  information_campaign: example_1
-  transportation_vouchers: example_2
-  increase_budget: example_3
-
-# These are the usable player options added after further investigation is done
-further_options:
-  something_1: "Information Campaign"
-  something_2: "Add travel vouchers"
-  something_3: "Increase budget for travelling nurses"
-
-# The affects for each further new option
-further_options_affects:
-  information_campaign: example_1
-  transportation_vouchers: example_2
-  increase_budget: example_3
+new_options_affects: [unlockable_contract_organization_to_help_distribute, unlockable_sanction_voucher_agency]
 
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
-  transportation_vouchers: "That's simple enough to do. Hopefully that solves it."
-  information_campaign: "I'll contact the providers and let them know they must do more to explain their services."
-  increase_budget: "I will make the arrangements. Hopefully there are enough nurses available to fill the new positions..."
+  unlockable_contract_organization_to_help_distribute: "I'll get in touch with them and talk about establish a contract with a Community Based Organization."
+  unlockable_sanction_voucher_agency: "I will issue a warning and advise the fund holder to withhold payment."
   # This key is required for every tactic card for when the player chooses observe instead of investigate
   observe: "OK, we'll wait and see if anything changes."

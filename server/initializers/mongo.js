@@ -28,7 +28,12 @@ module.exports = {
   },
   start: function(api, next) {
       
-      mongoose.connect('mongodb://' + api.config.mongo.host + '/' + api.config.mongo.db);
+      mongoose.connect(
+        'mongodb://' + 
+        api.config.mongo.host + ':' + 
+        api.config.mongo.port + '/' + 
+        api.config.mongo.db
+      );
 
       var connection = mongoose.connection.db;
 

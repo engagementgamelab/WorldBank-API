@@ -18,9 +18,6 @@ initiating_dialogue: "The manager of the voucher agency is concerned. We don’t
 # The dialogue the player sees when investigation has results to show
 investigate_dialogue: "It's possible that people don't want the services for some reason. A more targeted information campaign could be of use. It also seems that people are having difficulty getting to hospitals. Here are our recommendations:"
 
-# The dialogue the player sees when further investigation has results to show
-investigate_further_dialogue: "It's possible that people don't want the services for some reason. A more targeted information campaign could be of use. It also seems that people are having difficulty getting to hospitals. Here are our recommendations:"
-
 # These are special parameters that load a cooldown array, which is defined in content/config.yml under 'cooldown:'
 # For example, specifying $config_cooldown_long will choose the key found in config.yml under:
 # ----- cooldown:
@@ -30,33 +27,15 @@ investigate_further_cooldown: $config_cooldown_long
 
 # These are the usable player options added after investigation is done
 # Note that each key (e.g. 'information_campaign') MUST correspond to the one under "_affects" and feedback"
-new_options:
-  information_campaign: "Information Campaign"
-  transportation_vouchers: "Add travel vouchers"
-  increase_budget: "Increase budget for travelling nurses"
+new_options: [unlockable_information_campaign, unlockable_add_travel_vouchers, unlockable_increase_budget_for_outreach]
 
 # The affects for each new option
-new_options_affects:
-  information_campaign: example_1
-  transportation_vouchers: example_2
-  increase_budget: example_3
-
-# These are the usable player options added after further investigation is done
-further_options:
-  something_1: "Information Campaign"
-  something_2: "Add travel vouchers"
-  something_3: "Increase budget for travelling nurses"
-
-# The affects for each further new option
-further_options_affects:
-  information_campaign: example_1
-  transportation_vouchers: example_2
-  increase_budget: example_3
+new_options_affects: [unlockable_information_campaign, unlockable_add_travel_vouchers, unlockable_increase_budget_for_outreach]
 
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
-  transportation_vouchers: "That's simple enough to do. Hopefully that solves it."
-  information_campaign: "I'll contact the providers and let them know they must do more to explain their services."
-  increase_budget: "I will make the arrangements. Hopefully there are enough nurses available to fill the new positions..."
+  unlockable_add_travel_vouchers: "Transportation Vouchers: That's simple enough to do, and it should help people reach health facilities."
+  unlockable_information_campaign: "I'll contact the providers and let them know they must do more to explain their services."
+  unlockable_increase_budget_for_outreach: "I will make the arrangements. As long as there are enough nurses available to carry out these outreach activites, this should help."
   # This key is required for every tactic card for when the player chooses observe instead of investigate
   observe: "OK, we'll wait and see if anything changes."
