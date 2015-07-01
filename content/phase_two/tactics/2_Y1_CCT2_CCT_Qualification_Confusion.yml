@@ -43,7 +43,7 @@ further_options_affects: [unlockable_hospital_administrator_revises_policy]
 
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
-  unlockable_retrain: " I'll instruct the facility managers to institute a mandatory retraining for all staff."
+  unlockable_retrain: "I'll instruct the facility managers to institute a mandatory retraining for all staff."
   unlockable_hire_third_party_to_rewrite: "We'll launch a bidding for a qualified third party right away."
   unlockable_hospital_administrator_revises_policy: "The Hospital Administrator will redefine the inclusion/exclusion criteria and bring clarity on required documents to be verified by the staff."
   # This key is required for every tactic card for when the player chooses observe instead of investigate

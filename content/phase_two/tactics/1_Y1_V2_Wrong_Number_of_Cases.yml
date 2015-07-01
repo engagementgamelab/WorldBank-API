@@ -37,7 +37,7 @@ new_options_affects: [unlockable_warning_t1, unlockable_sanctions_t1]
 
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
-  unlockable_warning_t1: "Warning: I'll issue the warning and let the fundholder know that payments should be withheld for the false cases."
-  unlockable_sanctions_t1: "Sanctions: We'll levy sanctions, then. My analysis suggests they can afford to pay the penalty."
+  unlockable_warning_t1: "I'll issue the warning and let the fundholder know that payments should be withheld for the false cases."
+  unlockable_sanctions_t1: "We'll levy sanctions, then. My analysis suggests they can afford to pay the penalty."
   # This key is required for every tactic card for when the player chooses observe instead of investigate
   observe: "OK, we'll wait and see if anything changes."

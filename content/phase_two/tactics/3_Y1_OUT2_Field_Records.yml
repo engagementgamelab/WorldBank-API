@@ -43,7 +43,7 @@ further_options_affects: [unlockable_advise_providers_to_hire_more_outreach_staf
 
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
-  unlockable_warning_t3: "Warning: I will tell the providers that they must be responsible for their employees."
+  unlockable_warning_t3: "I will tell the providers that they must be responsible for their employees."
   unlockable_advise_providers_to_hire_more_outreach_staff: "Let's make it a priority during the contract negotiation and the Business Plan elaboration."
   # This key is required for every tactic card for when the player chooses observe instead of investigate
   observe: "OK, we'll wait and see if anything changes."

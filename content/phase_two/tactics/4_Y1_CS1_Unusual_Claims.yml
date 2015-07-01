@@ -46,6 +46,6 @@ feedback_dialogue:
   unlockable_approve_payments: "The contract is pretty clear, I suppose. I'll mark these as approved then."
   unlockable_warn_and_deny_payments: "This is certainly suspect enough to warrant a warning."
   unlockable_reinforce_following_protocols: "I'll sit down and discuss this with the providers. They need to apply the available checklists unless and until we change them."
-  unlockable_issue_payments_to_institutions: "We have tp pay, but the individual payment is the providers' internal business."
+  unlockable_issue_payments_to_institutions: "We have to pay, but the individual payment is the providers' internal business."
   # This key is required for every tactic card for when the player chooses observe instead of investigate
   observe: "OK, we'll wait and see if anything changes."

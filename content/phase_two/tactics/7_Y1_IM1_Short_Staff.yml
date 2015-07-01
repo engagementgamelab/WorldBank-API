@@ -35,7 +35,7 @@ new_options_affects: [unlockable_provide_funding_to_hire_new_staff, unlockable_i
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
   unlockable_provide_funding_to_hire_new_staff: "Everywhere I've worked we were short staffed and were told to make due. We're telling people to do a job and giving them the money to do it. We are in uncharted territory!"
-  unlockable_increase_incentives_for_meeting_campaign_goals: "This coud certainlyl spur people to meet goals. I'm worried, though, that they're spread thin already."
+  unlockable_increase_incentives_for_meeting_campaign_goals: "This could certainly spur people to meet goals. I'm worried, though, that they're spread thin already."
   unlockable_reevaluate_whether_this_campaign_is_necessary: "We might not need to spend all the money for this staff, but if not, we should probably cut the plan at year's end."
   # This key is required for every tactic card for when the player chooses observe instead of investigate
   observe: "OK, we'll wait and see if anything changes."

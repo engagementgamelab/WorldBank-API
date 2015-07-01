@@ -13,13 +13,13 @@ name: "Possible Fraud" # <--- display name for card
 year: 3
 
 # This dialogue the player sees first
-initiating_dialogue: "TBD"
+initiating_dialogue: "It seems that some health workers are falsifying claims on their customer service reports."
 
 # The dialogue the player sees when investigation has results to show
-investigate_dialogue: "It's possible that people don't want the services for some reason. A more targeted information campaign could be of use. It also seems that people are having difficulty getting to hospitals. Here are our recommendations:"
+investigate_dialogue: "TBD"
 
 # The dialogue the player sees when further investigation has results to show
-investigate_further_dialogue: "It's possible that people don't want the services for some reason. A more targeted information campaign could be of use. It also seems that people are having difficulty getting to hospitals. Here are our recommendations:"
+investigate_further_dialogue: "Some facilities seem to be pressuring employees into getting better ratings."
 
 # These are special parameters that load a cooldown array, which is defined in content/config.yml under 'cooldown:'
 # For example, specifying $config_cooldown_long will choose the key found in config.yml under:
@@ -30,10 +30,10 @@ investigate_further_cooldown: $config_cooldown_long
 
 # These are the usable player options added after investigation is done
 # Note that each key (e.g. 'information_campaign') MUST correspond to the one under "_affects" and feedback"
-new_options: [unlockable_sanction_offending_workiers, unlockable_warning_t4]
+new_options: [unlockable_sanction_offending_workers, unlockable_warning_t4]
 
 # The affects for each new option
-new_options_affects: [unlockable_sanction_offending_workiers, unlockable_warning_t4]
+new_options_affects: [unlockable_sanction_offending_workers, unlockable_warning_t4]
 
 # These are the usable player options added after further investigation is done
 further_options: [unlockable_sanction_those_providers]
@@ -43,7 +43,7 @@ further_options_affects: [unlockable_sanction_those_providers]
 
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
-  unlockable_sanction_offending_workiers: "TBD"
+  unlockable_sanction_offending_workers: "TBD"
   unlockable_warning_t4: "My concern is that if we only warn them, they aren't going to stop. On the other hand, this kind of thing is hard to prove, so that isn't very helpful, either."
   unlockable_sanction_those_providers: "The usual indignance. We don't have any hard evidence, but I wouldn't be surprised if this is the last we hear about falsified reports."
   # This key is required for every tactic card for when the player chooses observe instead of investigate
