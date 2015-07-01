@@ -19,7 +19,7 @@ printf "\n${COLOR}@@@@@@@@@@@@@@\nEngagement Lab API Staging Upload\n@@@@@@@@@@@
 
 printf "\n>>>> Merging master branch into staging working tree\n"
 
-git rebase master
+git merge WorldBank-API/master
 
 git remote add heroku git@heroku.com:engagementlab.git
 
