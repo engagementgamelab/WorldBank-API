@@ -13,9 +13,9 @@ NC='\033[0m' # No Color
 
 printf "\n${COLOR}@@@@@@@@@@@@@@\nEngagement Lab API Staging Upload\n@@@@@@@@@@@@@@\n\n${NC}"
 
-printf "\n>>>> Switching to staging branch\n"
+# printf "\n>>>> Switching to staging branch\n"
 
-git checkout staging
+# git checkout staging
 
 printf "\n>>>> Merging master branch into staging working tree\n"
 
