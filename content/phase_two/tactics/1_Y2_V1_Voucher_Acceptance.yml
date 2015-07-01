@@ -1,0 +1,41 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Tactic YAML
+# ==============
+
+# Phase Two Tactic YML Template
+
+symbol: tactic_voucher_acceptance
+tactic_name: unlockable_vouchers_for_services # <--- symbol of the tactic (stored in unlockables.yml) this card is using
+name: "Voucher Acceptance" # <--- display name for card
+year: 2 
+
+# This dialogue the player sees first
+initiating_dialogue: "The community verifier tells me that some people were turned away from a hospital in the highlands when they tried to pay with vouchers. They demanded cash!"
+
+# The dialogue the player sees when investigation has results to show
+investigate_dialogue: "I spoke with the adminstrator of the hospital, and they said they don't have the money they need to keep the hospital open without the cash. It takes weeks for them to be paid for the vouchers, so they can't afford to accept them."
+
+# These are special parameters that load a cooldown array, which is defined in content/config.yml under 'cooldown:'
+# For example, specifying $config_cooldown_long will choose the key found in config.yml under:
+# ----- cooldown:
+# -----  long: [20, 14, 10]
+investigate_cooldown: $config_cooldown_short
+investigate_further_cooldown: $config_cooldown_long
+
+# These are the usable player options added after investigation is done
+# Note that each key (e.g. 'information_campaign') MUST correspond to the one under "_affects" and feedback"
+new_options: [unlockable_expedite_voucher_payments, unlockable_sanction_the_provider, unlockable_warn_the_provider]
+
+# The affects for each new option
+new_options_affects: [unlockable_expedite_voucher_payments, unlockable_sanction_the_provider, unlockable_warn_the_provider]
+
+# This is the feedback dialogue the player sees based on the option they select
+feedback_dialogue:
+  unlockable_expedite_voucher_payments: "It could be better to shorten the process of verification and to ensure a timely payment."
+  unlockable_sanction_the_provider: "They've shown flagrant disregard for the letter and spirit of the contract. We can find another hospital which can do the same job."
+  unlockable_warn_the_provider: "Warn the providers: I will take time with providers to explain the payment procedures so that they can better plan for their expenditures."
+  # This key is required for every tactic card for when the player chooses observe instead of investigate
+  observe: "OK, we'll wait and see if anything changes."

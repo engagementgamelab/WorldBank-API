@@ -1,0 +1,58 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Problem YAML
+# ==============
+
+# Phase Two Scenario Card YML Example
+
+symbol: dodging_responsibility
+name: "Dodging Responsibility"
+priority: 4
+
+initiating_npc: coach # <--- character's symbol
+initiating_dialogue: "I requested a meeting with the Clinic Manager recently to go over their record-keeping practices, but it keeps getting rescheduled and canceled. I can't get a firm commitment from them. It is a little suspicious, frankly."
+
+starting_options: [warning_1]
+starting_options_affects: [warning_1]
+starting_options_cost: [small]
+
+final_options: [warning_1, revise_business_plan_to_include_regular_meetings_1, terminate_contract_effective_end_of_year_2]
+final_options_affects: [warning_1, revise_business_plan_to_include_regular_meetings_1, terminate_contract_effective_end_of_year_2]
+final_options_cost: [small, large,]
+
+
+characters:
+
+  # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
+  dep_minister_of_health: # <--- character's symbol
+    dialogue: "There are other health providers in the region we could use. It seems this one is becoming more difficult to work with. It might be worth discussing their contract with the purchasing agency."
+    unlocks: [terminate_contract_effective_end_of_year_2]
+    unlocks_affects: [terminate_contract_effective_end_of_year_2]
+
+
+  director_regional_health_services:
+    dialogue: "I have experienced similar problems with this provider. It is hard to schedule their time. More regular meeting times might help."
+    unlocks: [revise_business_plan_to_include_regular_meetings_1]
+    unlocks_affects: [revise_business_plan_to_include_regular_meetings_1]
+
+  coach:
+    feedback: 
+      terminate_contract_effective_end_of_year_2: "That's pretty drastic. Let's discuss this at the end of the year. I'll make it clear to them they are on notice."
+
+  third_party_verifier:
+    dialogue: "That does sound suspicious. I'll be looking carefully at their records this quarter." 
+
+  community_verifier:
+    dialogue: "I would talk directly to them if I were you."
+
+  clinic_manager:
+    dialogue: "I think you underestimate just how busy we have been with outreach and patient care. We are not a large staff, and our time is very precious. Maybe next month things will be slower."
+    feedback: 
+      warning_1: "I'm sure I'll have some time next quarter once our busiest time dies down."
+      revise_business_plan_to_include_regular_meetings_1: "That will be extremely dicey. We are tight on time as it is. I'll see what I can do, though."
+
+  hospital_administrator:
+    dialogue: "I've observed the clinics we're talking about a number of times, and there's never enough time and money to go around."
+

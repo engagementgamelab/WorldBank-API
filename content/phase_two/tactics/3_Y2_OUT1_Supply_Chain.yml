@@ -1,0 +1,43 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Tactic YAML
+# ==============
+
+# Phase Two Tactic YML Template
+
+symbol: tactic_supply_chain
+tactic_name: unlockable_outreach  # <--- symbol of the tactic (stored in unlockables.yml) this card is using
+name: "Supply Chain" # <--- display name for card
+year: 2
+
+# This dialogue the player sees first
+initiating_dialogue: "My team has been conducting some evaluation interviews, and nurses in the outreach staff claim they don't have adaquate supplies to perform well in the field."
+
+# The dialogue the player sees when investigation has results to show
+investigate_dialogue: "This speaks to quality of care. The Ministry of Health says we need to incentivise following protocols more strongly. Then facilities will be able to pay for better supplies. Providers say we actually have more nurses than we need, and not enough supplies to equip them all. I could analyze this and see what the impact of these nurses has actually been."
+
+# The dialogue the player sees when further investigation has results to show
+investigate_further_dialogue: "My analysis shows that if anything, more nurses would be of a benefit, but given the supply issues, hiring more right now wouldn't be prudent."
+
+# These are special parameters that load a cooldown array, which is defined in content/config.yml under 'cooldown:'
+# For example, specifying $config_cooldown_long will choose the key found in config.yml under:
+# ----- cooldown:
+# -----  long: [20, 14, 10]
+investigate_cooldown: $config_cooldown_short
+investigate_further_cooldown: $config_cooldown_long
+
+# These are the usable player options added after investigation is done
+# Note that each key (e.g. 'information_campaign') MUST correspond to the one under "_affects" and feedback"
+new_options: [unlockable_increase_quality_of_care_incentives, unlockable_reduce_workforce]
+
+# The affects for each new option
+new_options_affects: [unlockable_increase_quality_of_care_incentives, unlockable_reduce_workforce]
+
+# This is the feedback dialogue the player sees based on the option they select
+feedback_dialogue:
+  unlockable_increase_quality_of_care_incentives: "This is the only solution that I can reconcile with the data."
+  unlockable_reduce_workforce: "There is a problem of an unwieldly staff. Why not negotiate the staff reallocation in line with health norms and standards?"
+  # This key is required for every tactic card for when the player chooses observe instead of investigate
+  observe: "OK, we'll wait and see if anything changes."

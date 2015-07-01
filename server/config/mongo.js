@@ -20,3 +20,14 @@ exports.default = {
     }
   }
 }
+
+exports.staging = { 
+  mongo: function(api){
+    return {
+        enable: true,
+        host: 'heroku_zzxzs87s:n18c7h47ojg43mh7sghpik1pid@ds031952.mongolab.com',
+        port: 31952,
+        db: 'heroku_zzxzs87s'
+    }
+  }
+}

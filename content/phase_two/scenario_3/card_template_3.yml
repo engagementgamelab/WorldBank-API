@@ -9,13 +9,13 @@
 
 symbol: government_overreach_on_verification3
 name: "Government overreach on verification"
-priority: 1
+priority: 3
 
 initiating_npc: provider_2 # <--- character's symbol
 initiating_dialogue: "Card 3"
 
 starting_options: [comply_with_ministry]
-starting_options_affects: [example_1, example_2]
+starting_options_affects: [comply_with_ministry_1, comply_with_ministry_1]
 
 final_options: [comply_with_ministry, authorize_push_back, clarify_roles]
 final_options_affects: [example_1, example_2, example_1]

@@ -34,17 +34,17 @@
 # Crup
 # -------------
 
-- symbol: plantation_owner_crup
-  display_name: Plantation Owner
-  description: "A well-dressed woman stands observing the plantation. She has evidently just come from the larger plantation house up the path."
+- symbol: patient_crup
+  display_name: Patient
+  description: "A patient sits on a chair on the deck of the clinic, waiting for her turn to be seen."
 
 - symbol: clinician_crup
   display_name: Clinician
   description: "A tired looking man with a stethoscope around his neck stands in the doorway of the clinic. He appears to be a doctor of some sort."
 
-- symbol: patient_crup
-  display_name: Patient
-  description: "A patient sits on a chair on the deck of the clinic, waiting for her turn to be seen."
+- symbol: plantation_owner_crup
+  display_name: Plantation Owner
+  description: "A well-dressed woman stands observing the plantation. She has evidently just come from the larger plantation house up the path."
 
 - symbol: old_men_gaming_crup
   display_name: Old Men Gaming
@@ -57,6 +57,11 @@
 # -------------
 # Mile
 # -------------
+
+- symbol: nomad_mile
+  display_name: Nomad
+  description: "A short man sits in the shade, tuning what looks like a harp. Haven’t you seen him somewhere before?"
+
 - symbol: farm_worker_mile
   display_name: Farm Worker
   description: "A woman that looks to be in her thirties crouches down among rows of fresh crops, harvesting the land’s bounty. Her movements are precise and efficient, like she has been doing this her whole life. She hums softly to herself as she works in rhythm with her motions. The only adornment on her otherwise spartan attire is a small, shabby locket dangling from her neck."
@@ -69,28 +74,25 @@
   display_name: Midwife
   description: "A middle-aged woman walks down the path from the train station. She looks preoccupied by something, and perhaps a little angry. She carries medical texts with her, including a volume on midwifery."
 
-- symbol: nomad_mile
-  display_name: Nomad
-  description: "A short man sits in the shade, tuning what looks like a harp. Haven’t you seen him somewhere before?"
-
 # -------------
 # Kibari
 # -------------
-- symbol: mr_todd_kibari
-  display_name: Mr. Todd
-  description: "An older man stands in front of a grand domicile. He grins broadly, gesturing emphatically as he speaks to a young woman who is clearly a customer of his. \"Burn this incense before you sleep,\" you hear him say, \"Every night for one month. No more and no less.\" The woman looks happy, and very grateful."
 
 - symbol: teenager_kibari
   display_name: Teenager
   description: "A young woman looking to be in her teens kicks a stone down the road. You notice a rolled-up flyer in her pocket that seems to be some sort of a \"help wanted\" notice."
 
-- symbol: traveling_merchant_kibari
-  display_name: Traveling Merchant
-  description: "This man is clearly a merchant of some sort, with wares from all over Zariba. He calls out to people on the street, \"Fresh fruit from Mile! Cigars from Crup! Technology from the Capitol! I have it all!\""
-
 - symbol: herder_kibari
   display_name: Herder
   description: "A herder is wrangling a small flock of flightless birds toward the market, taking care that none wander off. You notice a medallion around his neck that looks familiar to you. Many people in this area seem to be wearing them."
+
+- symbol: mr_todd_kibari
+  display_name: Mr. Todd
+  description: "An older man stands in front of a grand domicile. He grins broadly, gesturing emphatically as he speaks to a young woman who is clearly a customer of his. \"Burn this incense before you sleep,\" you hear him say, \"Every night for one month. No more and no less.\" The woman looks happy, and very grateful."
+
+- symbol: traveling_merchant_kibari
+  display_name: Traveling Merchant
+  description: "This man is clearly a merchant of some sort, with wares from all over Zariba. He calls out to people on the street, \"Fresh fruit from Mile! Cigars from Crup! Technology from the Capitol! I have it all!\""
 
 - symbol: nomad_kibari
   display_name: Nomad
@@ -100,17 +102,17 @@
 # Valeria
 # -------------
 
-- symbol: lydia_airship_pilot_valeria
-  display_name: Airship Pilot
-  description: "A woman fidgets with her flight suit, tightening a loose strap and pulling her zipper a little higher. She appears to be in her late 20s, and preparing to depart soon via airship."
+- symbol: grandmother_with_toddler_valeria
+  display_name: Grandmother with Toddler
+  description: "An older woman stands with a young boy, probably her grandson. They seem a trifle lost."
 
 - symbol: spoiled_twins_valeria
   display_name: Spoiled Twins
   description: "A young man and woman, probably in their late teens, seem to be waiting to board an airship. They look very much alike. Probably they are brother and sister. Perhaps even twins."
 
-- symbol: grandmother_with_toddler_valeria
-  display_name: Grandmother with Toddler
-  description: "An older woman stands with a young boy, probably her grandson. They seem a trifle lost."
+- symbol: lydia_airship_pilot_valeria
+  display_name: Airship Pilot
+  description: "A woman fidgets with her flight suit, tightening a loose strap and pulling her zipper a little higher. She appears to be in her late 20s, and preparing to depart soon via airship."
 
 - symbol: nomad_valeria
   display_name: Nomad
@@ -119,13 +121,10 @@
 # -------------
 # Zima
 # -------------
-- symbol: hospital_administrator
+
+- symbol: hospital_administrator_zima
   display_name: Hospital Administrator
   description: "A woman you recognize as the hospital administrator sits at her desk, going over some of the day's paperwork."
-
-- symbol: doctor_zima
-  display_name: Doctor
-  description: "A middle aged man is examining a medical chart of some kind. You recognize him as a doctor both by his attire and his nametag, \"Dr. Notega.\"" 
 
 - symbol: patient_zima
   display_name: Patient
@@ -135,13 +134,22 @@
   display_name: Foreign Traveler
   description: "Her assortment of luggage marks this woman as a traveller, and her clothes and attitude tell you she is foreign. Where could she be going?" 
 
+- symbol: doctor_zima
+  display_name: Doctor
+  description: "A middle aged man is examining a medical chart of some kind. You recognize him as a doctor both by his attire and his nametag, \"Dr. Notega.\"" 
+
 - symbol: nurse_zima
   display_name: Nurse
   description: "The tall male nurse towers over everyone. Forehead scrunched in frustrated tension, he wipes a few beads of sweat from his brow."
 
+- symbol: patient_zima
+  display_name: Patient
+  description: "A woman sits in the waiting room, staring into space. Either she is waiting for her turn to see the doctor, or here with someone who is currently being examined." 
+
 # ============
 # I had to add these for phase 2 as some scenario cards reference them. PLEASE ensure a character exists here before referencing it. - Johnny
 # ============
+
 - symbol: dep_minister_of_health
   display_name: Dep. Minister of Health
   description: "description"
@@ -168,4 +176,20 @@
 
 - symbol: community_verifier
   display_name: Community Verifier
+  description: "description"
+
+- symbol: clinic_manager
+  display_name: Clinic Manager
+  description: "description"
+
+- symbol: director_regional_health_services
+  display_name: Director of Regional Health Services 
+  description: "description"
+
+- symbol: supervisor
+  display_name: Supervisor of Plan Observation
+  description: "description"
+
+- symbol: hospital_administrator
+  display_name: Hospital Administrator'
   description: "description"
