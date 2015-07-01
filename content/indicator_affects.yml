@@ -551,7 +551,7 @@ unlockable_reduce_workforce:
 
 # -------------------------- #
 # Home Births - Y3_O1
-# ------------------------- #
+# -------------------------- #
 
 unlockable_increase_facility_birth_incentives:
   indicator_1: 0
@@ -568,167 +568,9 @@ unlockable_give_permission:
   indicator_2: +3
   indicator_3: -8
 
-# -------------------------------------------------------------- #
-# Information Campaign to Explain Changes to System NOT SELECTED #
-# -------------------------------------------------------------- #
-
-# -------------------------- #
-# Lack of Information - Y1_IS1
-# ------------------------- #
-
-unlockable_provider_ambassadors:
-  indicator_1: +1
-  indicator_2: 0
-  indicator_3: 0
-
-unlockable_invite_community_leaders:
-  indicator_1: +1
-  indicator_2: +1
-  indicator_3: 0
-
-unlockable_word_of_mouth:
-  indicator_1: -1
-  indicator_2: -1
-  indicator_3: -1
-
-# -------------------------- #
-# Misnformation - Y2_IS1
-# ------------------------- #
-
-unlockable_increase_funding_for_sensitization_strategy:
-  indicator_1: +1
-  indicator_2: +1
-  indicator_3: 0
-
-unlockable_create_informational_pamphlets:
-  indicator_1: +1
-  indicator_2: 0
-  indicator_3: 0
-
-# -------------------------- #
-# Printing Issues - Y3_IS1
-# ------------------------- #
-
-unlockable_provide_health_facilities_with_equipment_to_print_materials:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: -1
-
-unlockable_increase_budget_for_printing_informational_collateral:
-  indicator_1: +1
-  indicator_2: +1
-  indicator_3: 0
-
-  # ---------------------------------------------- #
-# Information Campaign to Counter Misinformation #
-# ---------------------------------------------- #
-
-# -------------------------- #
-# Short Staff - Y1_IM1
-# ------------------------- #
-
-unlockable_provide_funding_to_hire_new_staff:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
-
-unlockable_increase_incentives_for_meeting_campaign_goals:
-  indicator_1: +1
-  indicator_2: +1
-  indicator_3: 0
-
-unlockable_reevaluate_whether_this_campaign_is_necessary:
-  indicator_1: +1
-  indicator_2: +1
-  indicator_3: +1
-
-# -------------------------- #
-# Overexposure - Y2_IM1
-# ------------------------- #
-
-unlockable_temporarily_reduce_output:
-  indicator_1: +1
-  indicator_2: +1
-  indicator_3: 0
-
-unlockable_end_campaign:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: +1
-
-# -------------------------- #
-# Backlash - Y3_IM1
-# ------------------------- #
-
-unlockable_revise_language_in_campaign:
-  indicator_1: +1
-  indicator_2: 0
-  indicator_3: 0
-
-unlockable_halt_campaign:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: +1
-
-unlockable_request_meeting_with_candidate:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
-
-# -------------------------------------------- #
-# Contract Private Company to Deliver Supplies #
-# -------------------------------------------- #
-
-# -------------------------- #
-# Road Issues - Y1_D1
-# ------------------------- #
-
-unlockable_penalize_delivery_co:
-  indicator_1: +1
-  indicator_2: 0
-  indicator_3: 0
-
-unlockable_switch_to_train_service:
-  indicator_1: +1
-  indicator_2: +1
-  indicator_3: 0
-
-# -------------------------- #
-# Strike - Y2_D1
-# ------------------------- #
-
-unlockable_terminate_contract_at_end_of_year:
-  indicator_1: +2
-  indicator_2: +2
-  indicator_3: +1
-
-unlockable_hire_another_ground_based_service:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
-
-unlockable_hire_air_service:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
-
-# -------------------------- #
-# Raising Rates - Y3_D1
-# ------------------------- #
-
-unlockable_pay_new_rate:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
-
-unlockable_negotiate:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
-
-  # ----------------------------------------- #
-# Improve Patient and Provider Relationship #
-# ----------------------------------------- #
+# ----------------                                               ---------------- #
+# ----------------   Improve Patient and Provider Relationship   ---------------- #
+# ----------------                                               ---------------- #
 
 # -------------------------- #
 # Unusual Claims - Y1_P1
@@ -791,3 +633,379 @@ unlockable_sanction_those_providers:
   indicator_1: +1
   indicator_2: +1
   indicator_3: +2
+
+# ----------------                                                            ---------------- #
+# ----------------   Improve Patient and Provider Relationship Not Selected   ---------------- #
+# ----------------                                                            ---------------- #
+
+# -------------------------- #
+# Complaints - Y1_NNIPR1
+# -------------------------- #
+
+unlockable_directly_incensitive_service_improve:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_increase_incentives_service_deliveries:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+# -------------------------- #
+# Poor Surveys - Y1_NNIPR1
+# -------------------------- #
+
+unlockable_directly_incensitive_service_better:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_sensitization_campaign:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+# -------------------------- #
+# Fraud Alert - Y1_NNIPR1
+# -------------------------- #
+
+unlockable_sanction_these_providers:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_cut_incentives:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_cancel_contracts:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+# ----------------                                            ---------------- #
+# ----------------   Hire More Nurses From Highlands Region   ---------------- #
+# ----------------                                            ---------------- #
+
+# -------------------------- #
+# Candidates - Y1_N2
+# -------------------------- #
+
+unlockable_widen_search_area:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_lower_requirements_and_increase_training:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+# -------------------------- #
+# Training Problems - Y1_N1
+# -------------------------- #
+
+unlockable_analyze_highland_effect:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_increase_incentives_for_attractive_facilities:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_let_hospitals_select_hires:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+# ----------------                                 ---------------- #
+# ----------------   Make Aesthetic Improvements   ---------------- #
+# ----------------                                 ---------------- #
+
+# -------------------------- #
+# TBD - Y1_AE1
+# -------------------------- #
+
+unlockable_continue_with_plan_aesthetic:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_grant_permission:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+# ----------------                                                  ---------------- #
+# ----------------   Contract Private Company to Deliver Supplies   ---------------- #
+# ----------------                                                  ---------------- #
+
+# -------------------------- #
+# Road Issues - Y1_D1
+# ------------------------- #
+
+unlockable_penalize_delivery_co:
+  indicator_1: +1
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_switch_to_train_service:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: 0
+
+# -------------------------- #
+# Strike - Y2_D1
+# ------------------------- #
+
+unlockable_terminate_contract_at_end_of_year:
+  indicator_1: +2
+  indicator_2: +2
+  indicator_3: +1
+
+unlockable_hire_another_ground_based_service:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_hire_air_service:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+# -------------------------- #
+# Raising Rates - Y3_D1
+# ------------------------- #
+
+unlockable_pay_new_rate:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_negotiate:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+# ----------------                                                    ---------------- #
+# ----------------   Information Campaign to Counter Misinformation   ---------------- #
+# ----------------                                                    ---------------- #
+
+# -------------------------- #
+# Short Staff - Y1_IM1
+# ------------------------- #
+
+unlockable_provide_funding_to_hire_new_staff:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_increase_incentives_for_meeting_campaign_goals:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: 0
+
+unlockable_reevaluate_whether_this_campaign_is_necessary:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +1
+
+# -------------------------- #
+# Overexposure - Y2_IM1
+# ------------------------- #
+
+unlockable_temporarily_reduce_output:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: 0
+
+unlockable_end_campaign:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: +1
+
+# -------------------------- #
+# Backlash - Y3_IM1
+# ------------------------- #
+
+unlockable_revise_language_in_campaign:
+  indicator_1: +1
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_halt_campaign:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: +1
+
+unlockable_request_meeting_with_candidate:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+# ----------------                                                                    ---------------- #
+# ----------------   Information Campaign to Explain Changes to System NOT SELECTED   ---------------- #
+# ----------------                                                                    ---------------- #
+
+# -------------------------- #
+# Lack of Information - Y1_IS1
+# ------------------------- #
+
+unlockable_provider_ambassadors:
+  indicator_1: +1
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_invite_community_leaders:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: 0
+
+unlockable_word_of_mouth:
+  indicator_1: -1
+  indicator_2: -1
+  indicator_3: -1
+
+# -------------------------- #
+# Misnformation - Y2_IS1
+# ------------------------- #
+
+unlockable_increase_funding_for_sensitization_strategy:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: 0
+
+unlockable_create_informational_pamphlets:
+  indicator_1: +1
+  indicator_2: 0
+  indicator_3: 0
+
+# -------------------------- #
+# Printing Issues - Y3_IS1
+# ------------------------- #
+
+unlockable_provide_health_facilities_with_equipment_to_print_materials:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: -1
+
+unlockable_increase_budget_for_printing_informational_collateral:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: 0
+
+# ----------------                                                            ---------------- #
+# ----------------   Incentivise Providers to Follow Protocols NOT SELECTED   ---------------- #
+# ----------------                                                            ---------------- #
+
+# -------------------------- #
+# Overperscription - Y1_NP1
+# -------------------------- #
+
+unlockable_limit_perscriptions:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_incentivise_following_set_protocols:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_retrain_doctors:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+# -------------------------- #
+# Wrong Procedures - Y1_NP2
+# -------------------------- #
+
+unlockable_create_robust_referral_system:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_incentivise_following_set_protocols_rewards:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_incentivise_referrals:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+# -------------------------- #
+# Infection Rates - Y2_NP1
+# -------------------------- #
+
+unlockable_incentivise_sanitization_protocols:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_incentivise_best_practices:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_sanction_providers_with_high_infection_rates:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+# -------------------------- #
+# Waiting - Y2_NP2
+# -------------------------- #
+
+unlockable_institute_guidelines_streamline_traffic:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_incentivise_best_practices_beds:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_hire_temp_administrators:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+# -------------------------- #
+# Wrong Procedures 2 - Y3_NP1
+# -------------------------- #
+
+unlockable_incentivise_best_practices_high_goals:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_sanction_providers_performing_unnecessary_procedures:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+# -------------------------- #
+# Inspection Failure - Y3_NP2
+# -------------------------- #
+
+unlockable_incentivise_best_practices_long_term:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_sanction_providers_who_fail_safety_inspection:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+# ----------------                                                       ---------------- #
+# ----------------   Information Campaign to Change Cultural Behaviors   ---------------- #
+# ----------------                                                       ---------------- #
