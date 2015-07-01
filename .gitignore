@@ -6,3 +6,6 @@ content/problems/phase.sh
 server/node_modules/
 server/public/docs/
 server/content/
+server/.DS_Store
+server/*.log
+

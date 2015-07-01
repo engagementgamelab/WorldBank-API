@@ -25,9 +25,9 @@ exports.staging = {
   mongo: function(api){
     return {
         enable: true,
-        host: 'heroku_zzxzs87s:n18c7h47ojg43mh7sghpik1pid@ds031952.mongolab.com',
-        port: 31952,
-        db: 'heroku_zzxzs87s'
+        host: 'heroku_npvs26cw:ak1h7ut2fgjsgs7lr6nt3lukkb@ds053370.mongolab.com',
+        port: 53370,
+        db: 'heroku_npvs26cw'
     }
   }
 }
