@@ -479,7 +479,7 @@
 - symbol: unlockable_seek_another_printer
   title: "Seek Another Printer"
 
-- symbol: unlockable_contract multiple printers
+- symbol: unlockable_contract_multiple_printers
   title: "Contract Multiple Printers"
 
 - symbol: unlockable_print_vouchers_locally

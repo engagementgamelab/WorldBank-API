@@ -372,7 +372,7 @@ unlockable_seek_another_printer:
   indicator_2: -2
   indicator_3: -1
 
-unlockable_contract multiple printers:
+unlockable_contract_multiple_printers:
   indicator_1: -1
   indicator_2: -1
   indicator_3: -1
@@ -614,7 +614,7 @@ unlockable_provide_health_facilities_with_equipment_to_print_materials:
   indicator_2: 0
   indicator_3: -1
 
-unlockable_increase_budet_for_printing_informational_collateral:
+unlockable_increase_budget_for_printing_informational_collateral:
   indicator_1: +1
   indicator_2: +1
   indicator_3: 0

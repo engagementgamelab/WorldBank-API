@@ -30,28 +30,16 @@ investigate_further_cooldown: $config_cooldown_long
 
 # These are the usable player options added after investigation is done
 # Note that each key (e.g. 'information_campaign') MUST correspond to the one under "_affects" and feedback"
-new_options:
-  information_campaign: "Information Campaign"
-  transportation_vouchers: "Add travel vouchers"
-  increase_budget: "Increase budget for travelling nurses"
+new_options: [information_campaign, transportation_vouchers, increase_budget]
 
 # The affects for each new option
-new_options_affects:
-  information_campaign: example_1
-  transportation_vouchers: example_2
-  increase_budget: example_3
+new_options_affects: [information_campaign, transportation_vouchers, increase_budget]
 
 # These are the usable player options added after further investigation is done
-further_options:
-  something_1: "Information Campaign"
-  something_2: "Add travel vouchers"
-  something_3: "Increase budget for travelling nurses"
+further_options: [something_1, something_2, something_3]
 
 # The affects for each further new option
-further_options_affects:
-  information_campaign: example_1
-  transportation_vouchers: example_2
-  increase_budget: example_3
+further_options_affects: [information_campaign, transportation_vouchers, increase_budget]
 
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:

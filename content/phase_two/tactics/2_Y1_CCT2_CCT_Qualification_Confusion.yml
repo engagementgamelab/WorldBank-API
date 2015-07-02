@@ -7,19 +7,19 @@
 
 # Phase Two Tactic YML Template
 
-symbol: tactic_card_1
-tactic_name: unlockable_more_autonomy  # <--- symbol of the tactic (stored in unlockables.yml) this card is using
-name: "Tactic card name" # <--- display name for card
+symbol: tactic_cct_qualification_confusion
+tactic_name: unlockable_conditional_cash_transfer  # <--- symbol of the tactic (stored in unlockables.yml) this card is using
+name: "CCT Qualification Confusion" # <--- display name for card
 year: 1
 
 # This dialogue the player sees first
-initiating_dialogue: "The manager of the voucher agency is concerned. We don’t know why at this point, but we’re not hitting our targets for voucher use. Do you want me to investigate this? Or shall we just observe for now?"
+initiating_dialogue: "There is some confusion on who qualifies for cash transfers. This is supposed to target the poorest people from the highlands, but according to reports some from the capital city and larger settlements have been requesting and receiving funds."
 
 # The dialogue the player sees when investigation has results to show
-investigate_dialogue: "It's possible that people don't want the services for some reason. A more targeted information campaign could be of use. It also seems that people are having difficulty getting to hospitals. Here are our recommendations:"
+investigate_dialogue: "The policy itself seems to contain some ambiguities. A revision of the policy's inclusion/exclusion criterea could be the solution. I can look into hiring a third party to handle that. The policy also seems to be confusing to some workers. We could retrain them, and that might solve the problem."
 
 # The dialogue the player sees when further investigation has results to show
-investigate_further_dialogue: "It's possible that people don't want the services for some reason. A more targeted information campaign could be of use. It also seems that people are having difficulty getting to hospitals. Here are our recommendations:"
+investigate_further_dialogue: "One of the hospital administrators has offered to revise the inclusion/exclusion policies to make it cearer for their staff. With our approval, of course. This would save us the cost of hiring a third party to revise them, if you trust the administrator to do it. "
 
 # These are special parameters that load a cooldown array, which is defined in content/config.yml under 'cooldown:'
 # For example, specifying $config_cooldown_long will choose the key found in config.yml under:
@@ -30,33 +30,21 @@ investigate_further_cooldown: $config_cooldown_long
 
 # These are the usable player options added after investigation is done
 # Note that each key (e.g. 'information_campaign') MUST correspond to the one under "_affects" and feedback"
-new_options:
-  information_campaign: "Information Campaign"
-  transportation_vouchers: "Add travel vouchers"
-  increase_budget: "Increase budget for travelling nurses"
+new_options: [unlockable_retrain, unlockable_hire_third_party_to_rewrite]
 
 # The affects for each new option
-new_options_affects:
-  information_campaign: example_1
-  transportation_vouchers: example_2
-  increase_budget: example_3
+new_options_affects: [unlockable_retrain, unlockable_hire_third_party_to_rewrite]
 
 # These are the usable player options added after further investigation is done
-further_options:
-  something_1: "Information Campaign"
-  something_2: "Add travel vouchers"
-  something_3: "Increase budget for travelling nurses"
+further_options: [unlockable_hospital_administrator_revises_policy]
 
 # The affects for each further new option
-further_options_affects:
-  information_campaign: example_1
-  transportation_vouchers: example_2
-  increase_budget: example_3
+further_options_affects: [unlockable_hospital_administrator_revises_policy]
 
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
-  transportation_vouchers: "That's simple enough to do. Hopefully that solves it."
-  information_campaign: "I'll contact the providers and let them know they must do more to explain their services."
-  increase_budget: "I will make the arrangements. Hopefully there are enough nurses available to fill the new positions..."
+  unlockable_retrain: " I'll instruct the facility managers to institute a mandatory retraining for all staff."
+  unlockable_hire_third_party_to_rewrite: "We'll launch a bidding for a qualified third party right away."
+  unlockable_hospital_administrator_revises_policy: "The Hospital Administrator will redefine the inclusion/exclusion criteria and bring clarity on required documents to be verified by the staff."
   # This key is required for every tactic card for when the player chooses observe instead of investigate
   observe: "OK, we'll wait and see if anything changes."
