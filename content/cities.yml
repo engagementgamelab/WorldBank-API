@@ -9,47 +9,40 @@
   display_name: Malcom
   description: "Malcom is the line between more urbanized city environment and traditional farmland. The Train station runs between Mile and the Capitol, and there is a ferry that departs to Valeria once a day. "
   enabled: true
-  unlocked: true
   npc_interactions: 3
 
 - symbol: kibari
   display_name: Kibari
   description: "Home to the prolific traditional medicine provider (Mr. Todd), this is a bustling city that isn’t as large as Zima or Malcom, but is still the center of trade and commerce for the smaller villages and towns in the central area of the region."
   enabled: true
-  unlocked: false
   npc_interactions: 4
 
 - symbol: valeria
   display_name: Valeria
   description: "Valeria is one of the more affluent cities, and not part of the highlands region of Zariba. Unlike the rest of the country, the climate here is arid, and wealth and land are consolidated under entrenched “Land Barons.” More recently, it is the center of a growing commercial airship industry."
   enabled: false
-  unlocked: false
   npc_interactions: 2
 
 - symbol: crup
   display_name: Crup
   description: "Accessed initially from the Capitol, Crup is a plantation-like farming village that has a deep divide between the high class owners and the workers on the plantations."
   enabled: true
-  unlocked: true
   npc_interactions: 4
 
 - symbol: mile
   display_name: Mile
   description: "Positioned as a poor yet peaceful place in the mountainous southern region of the land, Mile shows many types of unique farm animals. People sustain themselves through farming the land, and value freedom and autonomy above all. Even though they are the poorest, there is a spiritual connection to their homes and the beauty of the location itself lends to a majority of content people."
   enabled: false
-  unlocked: true
   npc_interactions: 2
 
 - symbol: zima
   display_name: Zima
   description: "Located on the sea, Zima is one of the largest and most industrialized cities in Zariba. Its most important landmark is National Hospital, the most extensive in the country."#"Zima is a skin cleanser marketed by Unilever. It contains camphor, menthol, phenol and eucalyptus, among other ingredients. Originally developed as a sunburn remedy, it is popular among women as a facial cleanser and make-up remover. It can also be used for cleaning chapped, sunburned, or otherwise irritated skin."
   enabled: false
-  unlocked: false
   npc_interactions: 4
 
 - symbol: capitol
   display_name: Capitol City
   description: "This is the Capitol City of Zariba. Home to the offices of the Ministry of Health and where journey to help Zariba begins! The Capitol sits on the main transportation line. With easy access to the glorious rail system, travelers can go from the Capitol to the most southern city, Zima, in only a few days time."
   enabled: true
-  unlocked: true
   npc_interactions: 0
