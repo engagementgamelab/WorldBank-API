@@ -41,13 +41,13 @@ exports.event =
     },
 
     /* Send analytic event to GA. */
-    run: function (api, connection, next) {
+    run: function (api, data, next) {
 
-        var dataInput = connection.rawConnection.params.body;
+        var dataInput = data.connection.rawConnection.params.body;
 
         api.trackEvent(dataInput.userId, dataInput.eventName, dataInput.eventCategory);
 
-        next(connection, true);
+        next(data, true);
 
     }
 
