@@ -47,7 +47,7 @@ exports.event =
 
         api.trackEvent(dataInput.userId, dataInput.eventName, dataInput.eventCategory);
 
-        next(data, true);
+        next();
 
     }
 

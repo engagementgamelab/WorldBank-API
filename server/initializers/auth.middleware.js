@@ -12,9 +12,9 @@ Created by Engagement Lab, 2015
 
 module.exports = {
 
-  initialize: function(api, next){
+  initialize: function(api, next) {
 
-    // Definition for the middleware
+    // Definition for the API client auth middleware
     var apiAuthMiddleware = {
       name: 'API authenication middleware.',
       global: true,
@@ -45,8 +45,40 @@ module.exports = {
       }
     };
 
+    // Definition for the user auth middleware
+    var userAuthMiddleware = {
+      name: 'API authenication middleware.',
+      global: true,
+      preProcessor: function(data, next) {
+
+        // Check to see if an action being accessed has requiresUserLogin property set to true
+        if(data.actionTemplate.requiresUserLogin === true) {
+
+          // Is this session's user authenticated?
+          api.session.checkAuth(
+
+            data.connection,             
+            function () {
+                next();
+            },
+            function () {
+                var error = "You are not authorized for this action. Please login.";
+                next(error);
+            }
+
+          );
+
+        }
+        else
+          next();
+
+      }
+    };
+
+
     // Add this middleware for all actions
     api.actions.addMiddleware(apiAuthMiddleware);
+    api.actions.addMiddleware(userAuthMiddleware);
 
     next();
   }

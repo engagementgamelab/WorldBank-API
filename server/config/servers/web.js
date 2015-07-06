@@ -42,7 +42,7 @@ exports.default = {
         fingerprintOptions : {
           cookieKey: 'sessionID',
           toSetCookie: true,
-          onlyStaticElements: false,
+          onlyStaticElements: true,
           settings: {
             path: '/',
             expires: 3600000,

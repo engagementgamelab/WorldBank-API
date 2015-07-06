@@ -142,6 +142,7 @@ exports.save =
     matchExtensionMimeType: false,
     version: 1.0,
     toDocument: true,
+    requiresUserLogin: true,
 
     inputs:  {
       required: ["user_id", "plan"]
@@ -150,97 +151,92 @@ exports.save =
     /* GET game data. */
     run: function (api, data, next) {
 
-      api.session.checkAuth(data, function(session) {
+      var dataInput = data.connection.rawConnection.params.body;
+      var planInput = dataInput.plan;
 
-        var dataInput = data.connection.rawConnection.params.body;
-        var planInput = dataInput.plan;
+      var unlockablesConfig = api.readYaml("unlockables.yml");
+      var gradingConfig = api.readYaml("grading.yml");
+      var planKeysConfig = api.gameConfig.content.plan.scoring_keys;
 
-        var unlockablesConfig = api.readYaml("unlockables.yml");
-        var gradingConfig = api.readYaml("grading.yml");
-        var planKeysConfig = api.gameConfig.content.plan.scoring_keys;
+      var gradeInfo = null;
 
-        var gradeInfo = null;
+      // Score the plan
+      var planGrade = function(inputTactics) {
 
-        // Score the plan
-        var planGrade = function(inputTactics) {
+        var planScore = 14;
+        var optionIndex = 0;
 
-          var planScore = 14;
-          var optionIndex = 0;
+        _.each(inputTactics, function (tactic_symbol) {
 
-          _.each(inputTactics, function (tactic_symbol) {
+          // Get the priority of this tactic
+          var tacticPriority = unlockablesConfig.filter(function(unlockable) {
+              return unlockable.symbol == tactic_symbol;
+          })[0].priority;
 
-            // Get the priority of this tactic
-            var tacticPriority = unlockablesConfig.filter(function(unlockable) {
-                return unlockable.symbol == tactic_symbol;
-            })[0].priority;
+          // Get the grading info for the plan score
+          gradeInfo = gradingConfig.filter(function(grade) {
+              return grade.score.indexOf(planScore) !== -1;
+          })[0];
 
-            // Get the grading info for the plan score
-            gradeInfo = gradingConfig.filter(function(grade) {
-                return grade.score.indexOf(planScore) !== -1;
-            })[0];
+          // If no priority, default to 0
+          if(tacticPriority === undefined)
+            tacticPriority = 0;
 
-            // If no priority, default to 0
-            if(tacticPriority === undefined)
-              tacticPriority = 0;
+          // Calculate reduction for total score
+          var scoreReduction = Math.abs(tacticPriority - planKeysConfig[optionIndex]);
 
-            // Calculate reduction for total score
-            var scoreReduction = Math.abs(tacticPriority - planKeysConfig[optionIndex]);
+          planScore -= scoreReduction;
 
-            planScore -= scoreReduction;
-
-            optionIndex++;
-
-          });
-
-          // Output the score and plan info
-          return { score: planScore, grade_info: gradeInfo };
-
-        }
-
-        // Calculate the plan's score ("grade")
-        var finalPlanGrade = planGrade(planInput.tactics);
-        planInput.score = finalPlanGrade.score;
-
-        // Create a plan object to update inside user
-        var planModel = new api.mongo.plan( 
-          planInput
-        );
-         
-        // Find specified user
-        api.mongo.user.findOne(dataInput.user_id, function (err, user) {
-      
-            if(user == null) {
-              data.response.error = "User not found";
-              next(data, true);
-            }
-
-            // Save the plan
-            planModel.save(function(err) {
-
-              if (err) data.response.error = err;
-
-              // Associate this plan w/ the uer
-              user.plan_id = planModel._id;
-
-              user.save(function (err, updatedUser) {
-                
-                if (err) data.response.error = err;
-
-              });
-
-              // Output grading info
-              data.response.score = finalPlanGrade.score;
-              data.response.grade = finalPlanGrade.grade_info.grade;
-              data.response.description = finalPlanGrade.grade_info.description;
-                  
-              next(data, true);
-
-            });
+          optionIndex++;
 
         });
 
-    }
-    , next);
+        // Output the score and plan info
+        return { score: planScore, grade_info: gradeInfo };
+      }
+
+      // Calculate the plan's score ("grade")
+      var finalPlanGrade = planGrade(planInput.tactics);
+      planInput.score = finalPlanGrade.score;
+
+      // Create a plan object to update inside user
+      var planModel = new api.mongo.plan( 
+        planInput
+      );
+        
+
+      // Find specified user
+      api.mongo.user.findOne(dataInput.user_id, function (err, user) {
+
+        if(user == null) {
+          data.response.error = "User not found";
+          next();
+        }
+
+        // Save the plan
+        planModel.save(function(err) {
+
+          if (err) data.response.error = err;
+
+          // Associate this plan w/ the uer
+          user.plan_id = planModel._id;
+
+          user.save(function (err, updatedUser) {
+            
+            if (err) data.response.error = err;
+
+          });
+
+          // Output grading info
+          data.response.score = finalPlanGrade.score;
+          data.response.grade = finalPlanGrade.grade_info.grade;
+          data.response.description = finalPlanGrade.grade_info.description;
+              
+          next();
+
+        });
+
+      });
 
     }
 
@@ -258,7 +254,7 @@ exports.scenario =
 {
 
     name: 'userAssignScenario',
-    description: 'Save a user.',
+    description: 'Assign a scenario to user.',
     blockedConnectionTypes: [],
     outputExample: {},
     matchExtensionMimeType: false,
@@ -373,7 +369,7 @@ exports.auth =
         } 
         else {
 
-          api.session.generateAtLogin(data.data, function() {
+          api.session.generateAuth(data.connection, function() {
 
             user.save();
 
@@ -385,6 +381,7 @@ exports.auth =
 
             data.response.auth = true;
             data.response.user = userRecord;
+            data.response.user_cookie = data.connection.fingerprint;
 
             api.trackEvent(user._id, "User Login", "API", function(error) {
 

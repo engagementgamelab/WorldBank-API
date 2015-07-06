@@ -8,29 +8,28 @@ Created by Engagement Lab, 2015
  Created by Johnny Richardson on 4/2/15.
 ==============
 */
-var redisPrefix = "__auth-";
-var cacheKey = function(data){
-  return redisPrefix + data.params.key;
-}
 
 exports.apiAuth = {
   name: "apiAuth",
   description: "auth",
   inputs: {
-    key: {required: true}
+      required: ["key"]
   },
   blockedConnectionTypes: [],
   outputExample: {},
   run: function(api, data, next) {
 
-    data.response.authed = false;
-    console.log(cacheKey(data));
+    var dataInput = data.connection.rawConnection.params.body;
 
-    if (data.params.key == undefined) {
+    console.log(dataInput);
+
+    data.response.authed = false;
+
+    if (dataInput.key == undefined) {
       data.error = "no key specified";
       next();
     }
-    else if (api.config.general.serverToken != data.params.key) {
+    else if (api.config.general.serverToken != dataInput.key) {
       data.error = "incorrect key";
       next();
     }

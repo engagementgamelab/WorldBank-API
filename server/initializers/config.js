@@ -38,7 +38,7 @@ module.exports = {
       // Logging
       api.log('Loading YAML at ' + filePath, 'info');
 
-      var pathToYml = filePath;
+      var pathToYml = _configOptions.content_root + "/" + filePath;
 
       try {
           var data = undefined;

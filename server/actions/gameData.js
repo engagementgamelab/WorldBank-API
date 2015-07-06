@@ -85,7 +85,7 @@ exports.action = {
 
             if(child !== undefined)
               filePath = filePath + '/' + child;
-
+            
             // Get file stats and path base name
             var fileStats = fs.lstatSync(filePath);
             var fileBaseName = path.basename(filePath);
@@ -175,7 +175,7 @@ exports.action = {
                   catch(e) {
 
                     // Create error and set response to 400 bad request
-                    data.rawConnection.responseHttpCode = 400;
+                    data.connection.rawConnection.responseHttpCode = 400;
 
                     if(data.response.errors == null)
                         data.response.errors = []

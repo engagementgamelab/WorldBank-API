@@ -13,11 +13,13 @@ module.exports = {
         };
 
         api.session.connectionKey = function(connection, type) {
-            if (connection.type === 'web') {
+
+            api.log("fingerprint: " + connection.fingerprint, 'notice');
+
+            if (connection.type === 'web')
                 return api.session(type).prefix + connection.fingerprint;
-            } else {
-                return api.session(type).prefix + conneciton.id;
-            }
+            else
+                return api.session(type).prefix + connection.id;
         }
 
         api.session.save = function(connection, session, next, type) {
@@ -36,9 +38,9 @@ module.exports = {
         api.session.load = function(connection, next, type) {
             var key = api.session.connectionKey(connection, type);
 
-            api.log("load: " + key, 'notice');
-
             api.cache.load(key, function(error, session, expireTimestamp, createdAt, readAt) {
+
+                api.log("session loaded: " + key, 'notice');
 
                 if (typeof next == "function") {
                     next(error, session, expireTimestamp, createdAt, readAt);
@@ -79,10 +81,9 @@ module.exports = {
                     session = {};
                 }
                 if (session.loggedIn !== true) {
-                    connection.error = "You are not authorized for this action. Please login.";
-                    failureCallback(connection, true); // likley to be an action's callback
+                    failureCallback(session);
                 } else {
-                    successCallback(session); // likley to yiled to action
+                    successCallback(session);
                 }
             },
             type);
