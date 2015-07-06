@@ -35,7 +35,7 @@ exports.getAll =
     inputs: {},
 
     /* GET all plan IDs. */
-    run: function (api, connection, next) {
+    run: function (api, data, next) {
 
       api.mongo.plan.find({}, function(err, plans) {
         
@@ -45,9 +45,9 @@ exports.getAll =
           planIDs.push({id: plan._id, name: plan.name});
         });
 
-        connection.response = planIDs;
+        data.response = planIDs;
             
-        next(connection, true);
+        next(data, true);
 
       });
 
@@ -76,17 +76,17 @@ exports.save =
     inputs: {},
 
     /* GET all plan IDs. */
-    run: function (api, connection, next) {
+    run: function (api, data, next) {
 
-      var dataInput = connection.rawConnection.params.body;
+      var dataInput = data.connection.rawConnection.params.body;
 
       api.mongo.plan.findOne(dataInput.plan_id, function(err, plan) {
 
         // plan
 
-        connection.response = planIDs;
+        data.response = planIDs;
             
-        next(connection, true);
+        next(data, true);
 
       });
 

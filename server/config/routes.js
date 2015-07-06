@@ -13,16 +13,19 @@ exports.default = {
       */
 
       get: [
+        { path: '/gameData', action: 'gameData' }, // (GET) /api/user/create
         { path: '/plan/all', action: 'allPlans' }, // (GET) /api/plan/all
       ],
       post: [
         // { path: '/login/:userID(^\\d{3}$)', action: 'login' } // (POST) /api/login/123
+        
         { path: '/user/create', action: 'userCreate' }, // (POST) /api/user/create
         { path: '/user/save', action: 'userSave' },  // (POST) /api/user/save
         { path: '/user/auth', action: 'userAuth' }, // (POST) /api/user/auth
         { path: '/user/scenario', action: 'userAssignScenario' }, // (POST) /api/user/scenario
         
-        { path: '/analytics/event', action: 'analyticsEvent' } // (POST) /api/analytics/event
+        { path: '/analytics/event', action: 'analyticsEvent' }, // (POST) /api/analytics/event
+        { path: '/auth', action: 'apiAuth' } // (POST) /api/auth
       ]
 
       /* ---------------------
