@@ -35,7 +35,7 @@ new_options_affects: [unlockable_incentivise_best_practices_high_goals, unlockab
 
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
-  unlockable_incentivise_best_practices_high_goals: "Just make sure they have high goals, and meet them, before rewarding hospitals for not taking peoples' appenices."
+  unlockable_incentivise_best_practices_high_goals: "Just make sure they have high goals, and meet them, before rewarding hospitals for not taking peoples' appendices."
   unlockable_sanction_providers_performing_unnecessary_procedures: "This is a serious problem. Unnecessary surgery isn't something we can wait and see with, so I'm glad you set this precedent."
   # This key is required for every tactic card for when the player chooses observe instead of investigate
   observe: "OK, we'll wait and see if anything changes."

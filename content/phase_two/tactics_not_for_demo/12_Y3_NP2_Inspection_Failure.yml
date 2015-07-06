@@ -13,10 +13,10 @@ name: "Inspection Failure" # <--- display name for card
 year: 3
 
 # This dialogue the player sees first
-initiating_dialogue: "Our third party verifier tells me some facilties have failed their safety inspections this quarter. I have some unverified horror stories, but even if they aren't true, anything close to that is alarming."
+initiating_dialogue: "Our third party verifier tells me some facilities have failed their safety inspections this quarter. I have some unverified horror stories, but even if they aren't true, anything close to that is alarming."
 
 # The dialogue the player sees when investigation has results to show
-investigate_dialogue: "They seem to be concentrating only on meeting goals, so while no one, thank God, is reusing syringes, people are getting over-prescribed, injected, etc so reach quotas."
+investigate_dialogue: "They seem to be concentrating only on meeting goals, so while no one, thank God, is reusing syringes, people are getting over-prescribed, injected, etc, to reach quotas."
 
 # These are special parameters that load a cooldown array, which is defined in content/config.yml under 'cooldown:'
 # For example, specifying $config_cooldown_long will choose the key found in config.yml under:

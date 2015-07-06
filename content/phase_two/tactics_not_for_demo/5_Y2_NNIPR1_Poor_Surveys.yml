@@ -27,10 +27,10 @@ investigate_further_cooldown: $config_cooldown_long
 
 # These are the usable player options added after investigation is done
 # Note that each key (e.g. 'information_campaign') MUST correspond to the one under "_affects" and feedback"
-new_options: [unlockable_directly_incensitive_service_better, unlockable_sensitization_campaign]
+new_options: [unlockable_directly_incentivise_service_better, unlockable_sensitization_campaign]
 
 # The affects for each new option
-new_options_affects: [unlockable_directly_incensitive_service_better, unlockable_sensitization_campaign]
+new_options_affects: [unlockable_directly_incentivise_service_better, unlockable_sensitization_campaign]
 
 
 # This is the feedback dialogue the player sees based on the option they select

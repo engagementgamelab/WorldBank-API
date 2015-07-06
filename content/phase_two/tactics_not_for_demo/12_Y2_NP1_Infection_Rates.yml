@@ -35,7 +35,7 @@ new_options_affects: [unlockable_incentivise_sanitization_protocols, unlockable_
 
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
-  unlockable_incentivise_sanitization_protocols: "It smacks of gold star rewards for kids. 'Wash your hands, children!' Oh well. As long as it doesn't drain the descretionary budget too much."
+  unlockable_incentivise_sanitization_protocols: "It smacks of gold star rewards for kids. 'Wash your hands, children!' Oh well. As long as it doesn't drain the discretionary budget too much."
   unlockable_incentivise_best_practices: "If we're going to give them money, we might as well ask them to try a little harder than 'good enough not to maybe kill somebody.'"
   unlockable_sanction_providers_with_high_infection_rates: "If staff can't be bothered to follow sanitation guidelines, then we are well within our rights to sanction them."
   # This key is required for every tactic card for when the player chooses observe instead of investigate
