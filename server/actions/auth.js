@@ -23,7 +23,7 @@ exports.apiAuth = {
   outputExample: {},
   run: function(api, data, next) {
 
-    data.response.auth = false;
+    data.response.authed = false;
     console.log(cacheKey(data));
 
     if (data.params.key == undefined) {
@@ -38,7 +38,8 @@ exports.apiAuth = {
         api.session.generateAuth(
           data.connection,
           function() {
-            data.response.auth = true;
+            data.response.authed = true;
+            data.response.session_cookie = data.connection.fingerprint;
             next();
           }, 
           'client'

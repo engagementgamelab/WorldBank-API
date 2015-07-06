@@ -23,6 +23,8 @@ module.exports = {
         api.session.save = function(connection, session, next, type) {
             var key = api.session.connectionKey(connection, type);
 
+            api.log("save: " + key, 'notice');
+
 
             api.cache.save(key, session, api.session.duration, function(error) {
                 if (typeof next == "function") {                    
@@ -33,6 +35,8 @@ module.exports = {
 
         api.session.load = function(connection, next, type) {
             var key = api.session.connectionKey(connection, type);
+
+            api.log("load: " + key, 'notice');
 
             api.cache.load(key, function(error, session, expireTimestamp, createdAt, readAt) {
 
@@ -56,7 +60,7 @@ module.exports = {
 
             var session = {
                 loggedIn: true,
-                loggedInAt: new Date().getTime(),
+                loggedInAt: new Date().getTime()
             }
             api.session.save(connection, session, function(error) {
                 next(error);
@@ -85,37 +89,13 @@ module.exports = {
 
         }
 
-        api.session.fingerprint = function(connection){
+        api.session.fingerprint = function(connection) {
           if(connection.fingerprint != null){
             return connection.fingerprint;
           }else{
             return connection.id;
           }
         }
-
-        // api.session.clientStart = function(connection, next){
-
-        //   var key = api.client_session.prefix + "-" + api.session.fingerprint(connection);
-        //   var value = connection.session;
-
-        //   api.cache.save(key, value, api.client_session.sessionExipreTime, function(err, didSave){
-        //     api.cache.load(key, function(err, savedVal){
-        //       if(typeof next == "function"){ next(err, savedVal); };
-        //     });
-        //   });
-
-        // }
-
-        // api.session.clientCheckAuth = function(connection, next){
-          
-        //   var key = api.client_session.prefix + "-" + api.session.fingerprint(connection);
-
-        //   api.cache.load(key, function(err, value){
-        //     connection.session = value;
-        //     next(err, value);
-        //   });
-
-        // }
 
         next();
     },
