@@ -30,7 +30,7 @@ clarify_separation_of_functions_1:
 # Bad Record Keeping - S1_Y1_P2
 # ------------------
 
-hold_payments_1:
+hold_payment_1:
   indicator_1: +0
   indicator_2: +0
   indicator_3: +1
@@ -263,23 +263,263 @@ maintain_current_rates:
 #---------------------------------------------- THIS IS WHERE I ENDED ADDING RANDOM THINGS FYI!!#
 
 # ----------------            ---------------- #
-# ---------------- SCENARIO 2 ---------------- #
+# ---------------- SCENARIO 2 ---------------- # <<<ALL SCENARIO 2 INDICATOR VALUES ARE RANDOMLY ENTERED
 # ----------------            ---------------- #
 
+#------------------
+# Lack of Procedure - S2_Y1_P1
+#------------------
 hold_a_meeting_of_all_stakeholders_1:
   indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_2: +1
+  indicator_3: +2
 
 create_manual:
   indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_2: +2
+  indicator_3: +4
 
 give_ministry_more_power:
-  indicator_1: 0
+  indicator_1: -3
   indicator_2: 0
+  indicator_3: +1
+
+#------------------
+# Process Versus Results - S2_Y1_P2
+#------------------
+deny_payment_1:
+  indicator_1: -1
+  indicator_2: +2
+  indicator_3: -3
+
+warn_but_allow_payment_once_1:
+  indicator_1: +1
+  indicator_2: +3
+  indicator_3: -2
+
+#------------------
+# Government Versus Organization - S2_Y1_P3
+#------------------
+pressure_the_ngo_to_comply_1:
+  indicator_1: +2
+  indicator_2: +1
+  indicator_3: -2
+
+cease_counter_verification:
+  indicator_1: +3
+  indicator_2: +2
+  indicator_3: -1
+
+clarification_of_roles_1:
+  indicator_1: -3
+  indicator_2: 0
+  indicator_3: +1
+
+#------------------
+# Managerial Autonomy - S2_Y1_P4
+#------------------
+comply_with_ngo_budget_1:
+  indicator_1: +2
+  indicator_2: +1
+  indicator_3: -2
+
+move_authority_to_ministry_1:
+  indicator_1: 0
+  indicator_2: +2
+  indicator_3: +4
+
+clarification_of_roles_2:
+  indicator_1: -3
+  indicator_2: 0
+  indicator_3: +1
+
+#------------------
+# Process Versus Results Again - S2_Y2_P1
+#------------------
+deny_payment_2:
+  indicator_1: -3
+  indicator_2: 0
+  indicator_3: +1
+
+warn_but_allow_payment_once_2:
+  indicator_1: 0
+  indicator_2: +2
+  indicator_3: +4
+
+revise_indicators_at_end_of_year_1:
+  indicator_1: +1
+  indicator_2: +3
+  indicator_3: -3
+
+#------------------
+# Reach - S2_Y2_P2
+#------------------
+terminate_ngo_contract_1:
+  indicator_1: -2
+  indicator_2: 0
+  indicator_3: +2
+
+revise_operating_manual:
+  indicator_1: 0
+  indicator_2: +2
+  indicator_3: +4
+
+increase_funding_for_ngo:
+  indicator_1: +2
+  indicator_2: +1
+  indicator_3: -2
+
+contract_additional_ngo_at_years_end:
+  indicator_1: -1
+  indicator_2: 0
+  indicator_3: +2
+
+#------------------
+# Arguments - S2_Y2_P3
+#------------------
+hold_stakeholder_meeting_2:
+  indicator_1: 0
+  indicator_2: +2
+  indicator_3: +4
+
+warn_ngo_2:
+  indicator_1: +2
+  indicator_2: +1
+  indicator_3: -2
+
+clarification_of_roles_3:
+  indicator_1: -2
+  indicator_2: 0
+  indicator_3: +2
+
+terminate_ngo_contract_2:
+  indicator_1: +2
+  indicator_2: +1
+  indicator_3: -2
+
+#------------------
+# Unit Cost - S2_Y2_P4
+#------------------
+clarification_of_roles_4:
+  indicator_1: -3
+  indicator_2: 0
+  indicator_3: +1
+
+move_authority_to_ministry_2:
+  indicator_1: 0
+  indicator_2: +2
+  indicator_3: +4
+
+comply_with_ngo_budget_2:
+  indicator_1: -1
+  indicator_2: +1
+  indicator_3: +2
+
+#------------------
+# Contract Management - S2_Y2_P5
+#------------------
+terminate_ngo_contract_3:
+  indicator_1: -1
+  indicator_2: +1
+  indicator_3: +2
+
+clarification_of_roles_5:
+  indicator_1: +2
+  indicator_2: +1
+  indicator_3: -2
+
+hire_agency:
+  indicator_1: -1
+  indicator_2: 0
+  indicator_3: +1
+
+expidite_payment_and_service_delivery:
+  indicator_1: +3
+  indicator_2: +1
   indicator_3: 0
+
+#------------------
+# More Arguments - S2_Y3_P1
+#------------------
+hold_stakeholder_meeting_3:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: 0
+
+warn_ngo_3:
+  indicator_1: +2
+  indicator_2: +2
+  indicator_3: +2
+
+clarification_of_roles_6:
+  indicator_1: +2
+  indicator_2: +2
+  indicator_3: +1
+
+terminate_ngo_contract_4:
+  indicator_1: +3
+  indicator_2: +2
+  indicator_3: 0
+
+#------------------
+# Excuses - S2_Y3_P2
+#------------------
+hold_stakeholder_meeting_4:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +1
+
+warn_but_allow_payment_once_3:
+  indicator_1: -3
+  indicator_2: 0
+  indicator_3: +1
+
+deny_payment_3:
+  indicator_1: -2
+  indicator_2: -2
+  indicator_3: -3
+
+revise_indicators_at_end_of_year_2:
+  indicator_1: +1
+  indicator_2: 0
+  indicator_3: -2
+
+#------------------
+# Micro-Management - S2_Y3_P3
+#------------------
+clarification_of_roles_7:
+  indicator_1: +1
+  indicator_2: 0
+  indicator_3: -2
+
+terminate_ngo_contract_5:
+  indicator_1: 0
+  indicator_2: +2
+  indicator_3: +4
+
+sanction_ngo_1:
+  indicator_1: -2
+  indicator_2: -1
+  indicator_3: -2
+
+#------------------
+# Poor Stewardship - S2_Y3_P4
+#------------------
+clarification_of_roles_8:
+  indicator_1: +3
+  indicator_2: +2
+  indicator_3: -1
+
+terminate_ngo_contract_6:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: 0
+
+sanction_ngo_2:
+  indicator_1: 0
+  indicator_2: +1
+  indicator_3: 0
+
 
 
 # ----------------            ---------------- #
@@ -329,7 +569,7 @@ unlockable_sanctions_t1:
 # Voucher Acceptance - Y2_V1
 # -------------------------- 
 
-unlockable_expedite_voucher_payments:
+unlockable_expedite_voucher_payment:
   indicator_1: +2
   indicator_2: +2
   indicator_3: +1
@@ -486,7 +726,7 @@ unlockable__allow_temporary_exception:
 # Cash Transfer Confusion- Y3_CCT2
 # -------------------------- #
 
-unlockable_expedite_cct_payments:
+unlockable_expedite_cct_payment:
   indicator_1: +1
   indicator_2: +1
   indicator_3: +1
@@ -734,12 +974,12 @@ unlockable_negotiate:
 # Unusual Claims - Y1_P1
 # ------------------------- #
 
-unlockable_approve_payments:
+unlockable_approve_payment:
   indicator_1: -1
   indicator_2: -1
   indicator_3: -2
 
-unlockable_warn_and_deny_payments:
+unlockable_warn_and_deny_payment:
   indicator_1: +1
   indicator_2: +1
   indicator_3: 0
@@ -749,7 +989,7 @@ unlockable_reinforce_following_protocols:
   indicator_2: 0
   indicator_3: +3
 
-unlockable_issue_payments_to_institutions:
+unlockable_issue_payment_to_institutions:
   indicator_1: +1
   indicator_2: +1
   indicator_3: +2
@@ -768,7 +1008,7 @@ unlockable_cull_and_rehire:
   indicator_2: 0
   indicator_3: -1
 
-unlockable_increase_incentives_and_expidite_payments:
+unlockable_increase_incentives_and_expidite_payment:
   indicator_1: +1
   indicator_2: 0
   indicator_3: +2

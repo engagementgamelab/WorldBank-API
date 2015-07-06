@@ -16,7 +16,7 @@ year: 3
 initiating_dialogue: "There has been an increase in fraudulent service claims since the first year."
 
 # The dialogue the player sees when investigation has results to show
-investigate_dialogue: "It seems that when we raised incentives near the end of the first year,  this tempted some providers to file fraudulent claims."
+investigate_dialogue: "It seems that when we raised incentives near the end of the first year, this tempted some providers to file fraudulent claims."
 
 # These are special parameters that load a cooldown array, which is defined in content/config.yml under 'cooldown:'
 # For example, specifying $config_cooldown_long will choose the key found in config.yml under:

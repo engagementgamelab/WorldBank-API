@@ -19,7 +19,7 @@ initiating_dialogue: "Verifiers have been seeing some suspicious activity on the
 investigate_dialogue: "It's difficult to probe direct fraud, but this does seem suspicious We could issue a warning and deny payment on the suspicious claims, or we could pay the claims, since techincally they are meeting markers. I could also investigate further into the causes of this."
 
 # The dialogue the player sees when further investigation has results to show
-investigate_further_dialogue: "It seems that there might be too large of an emphasis on customer ratings, and some of the providers are just giving customers whatever they want, whether or not it's good health service. Reinforcing following protocol, or making payments only to the institutions, not individuals, could also remedy this."
+investigate_further_dialogue: "It seems that there might be too large of an emphasis on customer ratings, and some of the providers are just giving customers whatever they want, whether or not it's good health service. Reinforcing following protocol, or making payment only to the institutions, not individuals, could also remedy this."
 
 # These are special parameters that load a cooldown array, which is defined in content/config.yml under 'cooldown:'
 # For example, specifying $config_cooldown_long will choose the key found in config.yml under:
@@ -30,22 +30,22 @@ investigate_further_cooldown: $config_cooldown_long
 
 # These are the usable player options added after investigation is done
 # Note that each key (e.g. 'information_campaign') MUST correspond to the one under "_affects" and feedback"
-new_options: [unlockable_approve_payments, unlockable_warn_and_deny_payments]
+new_options: [unlockable_approve_payment, unlockable_warn_and_deny_payment]
 
 # The affects for each new option
-new_options_affects: [unlockable_approve_payments, unlockable_warn_and_deny_payments]
+new_options_affects: [unlockable_approve_payment, unlockable_warn_and_deny_payment]
 
 # These are the usable player options added after further investigation is done
-further_options: [unlockable_reinforce_following_protocols, unlockable_issue_payments_to_institutions]
+further_options: [unlockable_reinforce_following_protocols, unlockable_issue_payment_to_institutions]
 
 # The affects for each further new option
-further_options_affects: [unlockable_reinforce_following_protocols, unlockable_issue_payments_to_institutions]
+further_options_affects: [unlockable_reinforce_following_protocols, unlockable_issue_payment_to_institutions]
 
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
-  unlockable_approve_payments: "The contract is pretty clear, I suppose. I'll mark these as approved then."
-  unlockable_warn_and_deny_payments: "This is certainly suspect enough to warrant a warning."
+  unlockable_approve_payment: "The contract is pretty clear, I suppose. I'll mark these as approved then."
+  unlockable_warn_and_deny_payment: "This is certainly suspect enough to warrant a warning."
   unlockable_reinforce_following_protocols: "I'll sit down and discuss this with the providers. They need to apply the available checklists unless and until we change them."
-  unlockable_issue_payments_to_institutions: "We have to pay, but the individual payment is the providers' internal business."
+  unlockable_issue_payment_to_institutions: "We have to pay, but the individual payment is the providers' internal business."
   # This key is required for every tactic card for when the player chooses observe instead of investigate
   observe: "OK, we'll wait and see if anything changes."

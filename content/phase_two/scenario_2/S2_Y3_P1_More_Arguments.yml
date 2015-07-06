@@ -14,44 +14,44 @@ priority: 10
 initiating_npc: director_regional_health_services
 initiating_dialogue: "I'm getting a different answer from everyone, so I'll ask you to straighten them out. The Ministry, NGO, and health care providers can't agree on who has jurisdiction where and what we're supposed to do for patients."
 
-starting_options: [hold_stakeholder_meeting]
-starting_options_affects: [hold_stakeholder_meeting]
+starting_options: [hold_stakeholder_meeting_3]
+starting_options_affects: [hold_stakeholder_meeting_3]
 starting_options_cost: [small]
 
-final_options: [hold_stakeholder_meeting, warn_ngo, clarification_of_roles, terminate_ngo_contract]
-final_options_affects: [hold_stakeholder_meeting_2, warn_ngo, clarification_of_roles, terminate_ngo_contract]
+final_options: [hold_stakeholder_meeting_3, warn_ngo_3, clarification_of_roles_6, terminate_ngo_contract_4]
+final_options_affects: [hold_stakeholder_meeting_3, warn_ngo_3, clarification_of_roles_6, terminate_ngo_contract_4]
 final_options_cost: [small, small, small, small]
 
 characters:
 
   dep_minister_of_health: 
     dialogue: "Best way to win an argument? End the conversation."
-    unlocks: [terminate_ngo_contract]
-    unlocks_affects: [terminate_ngo_contract_2]
+    unlocks: [terminate_ngo_contract_4]
+    unlocks_affects: [terminate_ngo_contract_4]
     feedback:
-      clarification_of_roles: "I do hope this is the last time we have to go through this."
+      clarification_of_roles_6: "I do hope this is the last time we have to go through this."
 
   ngo_manager: 
     dialogue: "I'm only doing what I thought you asked me to. If I'm not, let me know."
-    unlocks: [clarification_of_roles]
-    unlocks_affects: [clarification_of_roles]
+    unlocks: [clarification_of_roles_6]
+    unlocks_affects: [clarification_of_roles_6]
     feedback:
-      warn_ngo: "OK, we'll back off of telling the health care providers what they're supposed to do."
-      terminate_ngo_contract: "The whole reason you brought us on was nothing was getting accomplished. That's what we were doing."
+      warn_ngo_3: "OK, we'll back off of telling the health care providers what they're supposed to do."
+      terminate_ngo_contract_4: "The whole reason you brought us on was nothing was getting accomplished. That's what we were doing."
 
   coach:
     dialogue: "The health care providers are caught between the people paying them and the Ministry they report to. Those are the problems that need solving."
     narrows: [director_regional_health_services, coach, third_party_verifier, community_verifier, hospital_administrator]
     feedback:
-      hold_stakeholder_meeting: "For a problem like this, a truce is about as good as we can hope for. Well, maybe not a truce, as such. More of a cease fire."
+      hold_stakeholder_meeting_3: "For a problem like this, a truce is about as good as we can hope for. Well, maybe not a truce, as such. More of a cease fire."
 
   third_party_verifier:
     dialogue: "There's plenty of work to be done without these arguments."
 
   community_verifier:
-    dialogue: "The other day, a woman was getting her prenatal checkup. She's in the stirrups and the doctor had to leave the examin room to get lectured on what all care she was supposed to give. That has got to stop."
+    dialogue: "The other day, a woman was getting her prenatal checkup. She's in the stirrups and the doctor had to leave the exam room to get lectured on what all care she was supposed to give. That has got to stop."
 
   hospital_administrator:
     dialogue: "I couldn't do what the NGO Director does. No argument there. But they are not so good at their job that they can do mine, too."
-    unlocks: [warn_ngo]
-    unlocks_affects: [warn_ngo]
+    unlocks: [warn_ngo_3]
+    unlocks_affects: [warn_ngo_3]

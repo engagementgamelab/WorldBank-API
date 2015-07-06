@@ -30,10 +30,10 @@ investigate_further_cooldown: $config_cooldown_long
 
 # These are the usable player options added after investigation is done
 # Note that each key (e.g. 'information_campaign') MUST correspond to the one under "_affects" and feedback"
-new_options: [unlockable_expedite_cct_payments, unlockable_fund_info_campaign]
+new_options: [unlockable_expedite_cct_payment, unlockable_fund_info_campaign]
 
 # The affects for each new option
-new_options_affects: [unlockable_expedite_cct_payments, unlockable_fund_info_campaign]
+new_options_affects: [unlockable_expedite_cct_payment, unlockable_fund_info_campaign]
 
 # These are the usable player options added after further investigation is done
 further_options: [unlockable_embed_cct_officer_at_facilities]
@@ -43,7 +43,7 @@ further_options_affects: [unlockable_embed_cct_officer_at_facilities]
 
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
-  unlockable_expedite_cct_payments: "We can send a report to the fundholders with suggestions to revise the payment procedures, but who knows whether they'll actually come through, or if anything will be fast enough."
+  unlockable_expedite_cct_payment: "We can send a report to the fundholders with suggestions to revise the payment procedures, but who knows whether they'll actually come through, or if anything will be fast enough."
   unlockable_fund_info_campaign: "Adjusting customer expectations should help a little. I'll make the preparations."
   unlockable_embed_cct_officer_at_facilities: "This will take a while to implement. I'll start the preparations right away."
   # This key is required for every tactic card for when the player chooses observe instead of investigate

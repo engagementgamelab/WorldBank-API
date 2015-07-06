@@ -14,12 +14,12 @@ priority: 5
 initiating_npc: ngo_manager
 initiating_dialogue: "Vaccination prices went up, so we couldn't hit our numbers again. But if we don't get our bonus, next quarter it'll be a disaster."
 
-starting_options: [deny_payment]
+starting_options: [deny_payment_2]
 starting_options_affects: [deny_payment_2]
 starting_options_cost: [small]
 
-final_options: [deny_payments, warn_but_allow_payments_once, revise_indicators_at_end_of_year]
-final_options_affects: [deny_payments_2, warn_but_allow_payments_once, revise_indicators_at_end_of_year]
+final_options: [deny_payment_2, warn_but_allow_payment_once_2, revise_indicators_at_end_of_year_1]
+final_options_affects: [deny_payment_2, warn_but_allow_payment_once_2, revise_indicators_at_end_of_year_1]
 final_options_cost: [small, small, small]
 
 characters:
@@ -30,20 +30,20 @@ characters:
 
   director_regional_health_services:
     dialogue: "No, they didn't meet their goals, but that doesn't mean my providers and their patients should suffer for it. We're between a rock and hard place."
-    unlocks: [allow_payments_once]
-    unlocks_affects: [allow_payments_once_1]
+    unlocks: [warn_but_allow_payment_once_2]
+    unlocks_affects: [warn_but_allow_payment_once_2]
 
   ngo_manager:
     feedback:
-      allow_payments: "It's good to know we can count on you just like you're counting on us."
-      deny_payments: "We're struggling with these numbers as it is. It hurts patients when we don't have money to work with." 
+      warn_but_allow_payment_once_2: "It's good to know we can count on you, just like you're counting on us."
+      deny_payment_2: "We're struggling with these numbers as it is. It hurts patients when we don't have money to work with." 
 
   coach:
     dialogue: "I don't think the NGO is managing as well as they could, but maybe we need to adjust our expectations."
-    unlocks: [revise_indicators_at_the_end_of_this_year]
-    unlocks_affects: [revise_indicators_at_the_end_of_this_year]
+    unlocks: [revise_indicators_at_end_of_year_1]
+    unlocks_affects: [revise_indicators_at_end_of_year_1]
     feedback:
-      revise_indicators: "OK, at year's end I'll sit the fundholder down the NGO and we'll figure out some realistic goals. In the meantime, we'll hold payment."
+      revise_indicators: "OK, at year's end I'll sit the fundholder down with the NGO and we'll figure out some realistic goals. In the meantime, we'll hold payment."
 
   third_party_verifier:
     dialogue: "It's the same as last time, and until someone says they're making numbers when they're actually making them up, I'm not much help."

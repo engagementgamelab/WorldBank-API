@@ -27,10 +27,10 @@ investigate_further_cooldown: $config_cooldown_long
 
 # These are the usable player options added after investigation is done
 # Note that each key (e.g. 'information_campaign') MUST correspond to the one under "_affects" and feedback"
-new_options: [unlockable_retrain_t2, unlockable_cull_and_rehire, unlockable_increase_incentives_and_expidite_payments]
+new_options: [unlockable_retrain_t2, unlockable_cull_and_rehire, unlockable_increase_incentives_and_expidite_payment]
 
 # The affects for each new option
-new_options_affects: [unlockable_retrain_t2, unlockable_cull_and_rehire, unlockable_increase_incentives_and_expidite_payments]
+new_options_affects: [unlockable_retrain_t2, unlockable_cull_and_rehire, unlockable_increase_incentives_and_expidite_payment]
 
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:

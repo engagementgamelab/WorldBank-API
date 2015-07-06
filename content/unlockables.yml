@@ -239,8 +239,8 @@
 # ------------------ 
 # Bad Record Keeping - S1_Y1_P2
 # ------------------
-- symbol: hold_payments_1
-  title: "Hold payments"
+- symbol: hold_payment_1
+  title: "Hold payment"
 
 - symbol: help_build_capacity_1
   title: "Help build capacity"
@@ -384,19 +384,181 @@
   title: "Maintain current rates"
 
 
+# -------------------                       ------------------- #
+# -------------------  Scenario 2 - Year 1  ------------------- #
+# -------------------                       ------------------- #
 
-# ------------------- #
-# Scenario 2 - Year 1 
-# ------------------- #
 
-# ------------------- #
-# Scenario 2 - Year 2
-# ------------------- #
+#------------------
+# Lack of Procedure - S2_Y1_P1
+#------------------
+- symbol: hold_a_meeting_of_all_stakeholders_1
+  title: "Hold a meeting of all stakeholders"
 
-# ------------------- #
-# Scenario 2 - Year 3
-# ------------------- #
+- symbol: create_manual
+  title: "Create a Manual"
 
+- symbol: give_ministry_more_power
+  title: "Give ministry more power"
+
+#------------------
+# Process Versus Results - S2_Y1_P2
+#------------------
+- symbol: deny_payment_1
+  title: "Deny Payment"
+
+- symbol: warn_but_allow_payment_once_1
+  title: "Warn but allow payment once"
+
+#------------------
+# Government Versus Organization - S2_Y1_P3
+#------------------
+- symbol: pressure_the_ngo_to_comply_1
+  title: "Pressure the NGO to comply"
+
+- symbol: cease_counter_verification
+  title: "Cease Counter-Verification"
+
+- symbol: clarification_of_roles_1
+  title: "Clarification of Roles"
+
+#------------------
+# Managerial Autonomy - S2_Y1_P4
+#------------------
+- symbol: comply_with_ngo_budget_1
+  title: "Advise to follow budget restrictions"
+
+- symbol: move_authority_to_ministry_1
+  title: "Revert power of budgeting to the Ministry"
+
+- symbol: clarification_of_roles_2
+  title: "Clarification of roles" 
+
+# -------------------                       ------------------- #
+# -------------------  Scenario 2 - Year 2  ------------------- #
+# -------------------                       ------------------- #
+
+#------------------
+# Process Versus Results Again - S2_Y2_P1
+#------------------
+- symbol: deny_payment_2
+  title: "Deny payment"
+
+- symbol: warn_but_allow_payment_once_2
+  title: "Warn but allow payment once"
+
+- symbol: revise_indicators_at_end_of_year_1
+  title: "Revise indicators at end of the year"
+
+#------------------
+# Reach - S2_Y2_P2
+#------------------
+- symbol: terminate_ngo_contract_1
+  title: "Terminate NGO contract at end of the year"
+
+- symbol: revise_operating_manual
+  title: "Revise NGO operating manual"
+
+- symbol: increase_funding_for_ngo
+  title: "Increase funding for NGO"
+
+- symbol: contract_additional_ngo_at_years_end
+  title: "Contract additional NGO at Year's End"
+#------------------
+# Arguments - S2_Y2_P3
+#------------------
+- symbol: hold_stakeholder_meeting_2
+  title: "Hold Stakeholder meeting"
+
+- symbol: warn_ngo_2
+  title: "Warn NGO"
+
+- symbol: clarification_of_roles_3
+  title: "Clarification of roles"
+
+- symbol: terminate_ngo_contract_2
+  title: "Terminate NGO Contract"
+#------------------
+# Unit Cost - S2_Y2_P4
+#------------------
+-symbol: clarification_of_roles_4
+  title: "Clarification of Roles"
+
+-symbol: move_authority_to_ministry_2
+  title: "Move budgeting authority to Ministry"
+
+-symbol: comply_with_ngo_budget_2
+  title: "Comply with NGO budget"
+
+#------------------
+# Contract Management - S2_Y2_P5
+#------------------
+-symbol: terminate_ngo_contract_3
+  title: "Terminate NGO Contract"
+
+-symbol: clarification_of_roles_5
+  title: "Clarification of roles"
+
+-symbol: hire_agency
+  title: "Hire Agency"
+
+-symbol: expidite_payment_and_service_delivery
+  title: "Expidite payment and service delivery"
+
+# -------------------                       ------------------- #
+# -------------------  Scenario 2 - Year 3  ------------------- #
+# -------------------                       ------------------- #
+
+#------------------
+# More Arguments - S2_Y3_P1
+#------------------
+-symbol: hold_stakeholder_meeting_3
+  title: "Hold Stakeholder meeting"
+
+-symbol: warn_ngo_3
+  title: "Warn NGO"
+
+-symbol: clarification_of_roles_6
+  title: "Clarification of Roles"
+
+-symbol: terminate_ngo_contract_4
+  title: "Terminate NGO Contract"
+#------------------
+# Excuses - S2_Y3_P2
+#------------------
+-symbol: hold_stakeholder_meeting_4
+  title: "Hold Stakeholder Meeting"
+
+-symbol: warn_but_allow_payment_once_3
+  title: "Warn but allow payment"
+
+-symbol: deny_payment_3
+  title: "Deny Payment"
+
+-symbol: revise_indicators_at_end_of_year_2
+  title: "Revise indicators at end of the year"
+#------------------
+# Micro-Management - S2_Y3_P3
+#------------------
+-symbol: clarification_of_roles_7
+  title: "Clarification of Roles"
+
+-symbol: terminate_ngo_contract_5
+  title: "Terminate NGO Contract"
+
+-symbol: sanction_ngo_1
+  title: "Sanction NGO"
+#------------------
+# Poor Stewardship - S2_Y3_P4
+#------------------
+-symbol: clarification_of_roles_8
+  title: "Clarification of Roles"
+
+-symbol: terminate_ngo_contract_6
+  title: "Terminate NGO Contract"
+
+-symbol: sanction_ngo_2
+  title: "Sanction NGO"
 # ------------------- #
 # Scenario 3 - Year 1 
 # ------------------- #
@@ -454,8 +616,8 @@
 # -------------------------- #
 # Voucher Acceptance - Y2_V1
 # -------------------------- #
-- symbol: unlockable_expedite_voucher_payments
-  title: "Expedite Voucher Payments"
+- symbol: unlockable_expedite_voucher_payment
+  title: "Expedite Voucher payment"
 
 - symbol: unlockable_sanction_the_provider
   title: "Sanction the Provider"
@@ -548,8 +710,8 @@
 # -------------------------- #
 # Cash Transfer Confusion- Y3_CCT2
 # -------------------------- #
-- symbol: unlockable_expedite_cct_payments
-  title: "Expedite CCT Payments"
+- symbol: unlockable_expedite_cct_payment
+  title: "Expedite CCT payment"
 
 - symbol: unlockable_fund_info_campaign
   title: "Fund an Information Campaign to Explain the Program"
@@ -607,17 +769,17 @@
 # Unusual Claims - Y1_P1
 # ------------------------- #
 
-- symbol: unlockable_approve_payments
-  title: "Approve Payments"
+- symbol: unlockable_approve_payment
+  title: "Approve payment"
 
-- symbol: unlockable_warn_and_deny_payments
-  title: "Warn and Deny Payments"
+- symbol: unlockable_warn_and_deny_payment
+  title: "Warn and Deny payment"
 
 - symbol: unlockable_reinforce_following_protocols
   title: "Reinforce Following Protocols"
 
-- symbol: unlockable_issue_payments_to_institutions
-  title: "Issue Payments to Institutions Instead of Individuals"
+- symbol: unlockable_issue_payment_to_institutions
+  title: "Issue payment to Institutions Instead of Individuals"
 
 # -------------------------- #
 # Staff Trouble - Y2_P1
@@ -629,8 +791,8 @@
 - symbol: unlockable_cull_and_rehire
   title: "Cull Workforce and Rehire"
 
-- symbol: unlockable_increase_incentives_and_expidite_payments
-  title: "Increase Incentives and Expedite Payments"
+- symbol: unlockable_increase_incentives_and_expidite_payment
+  title: "Increase Incentives and Expedite payment"
 
 # -------------------------- #
 # Possible Fraud - Y3_P1

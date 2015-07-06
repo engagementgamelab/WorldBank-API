@@ -27,14 +27,14 @@ investigate_further_cooldown: $config_cooldown_long
 
 # These are the usable player options added after investigation is done
 # Note that each key (e.g. 'information_campaign') MUST correspond to the one under "_affects" and feedback"
-new_options: [unlockable_expedite_voucher_payments, unlockable_sanction_the_provider, unlockable_warn_the_provider]
+new_options: [unlockable_expedite_voucher_payment, unlockable_sanction_the_provider, unlockable_warn_the_provider]
 
 # The affects for each new option
-new_options_affects: [unlockable_expedite_voucher_payments, unlockable_sanction_the_provider, unlockable_warn_the_provider]
+new_options_affects: [unlockable_expedite_voucher_payment, unlockable_sanction_the_provider, unlockable_warn_the_provider]
 
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
-  unlockable_expedite_voucher_payments: "It could be better to shorten the process of verification and to ensure a timely payment."
+  unlockable_expedite_voucher_payment: "It could be better to shorten the process of verification and to ensure a timely payment."
   unlockable_sanction_the_provider: "They've shown flagrant disregard for the letter and spirit of the contract. We can find another hospital which can do the same job."
   unlockable_warn_the_provider: "Warn the providers: I will take time with providers to explain the payment procedures so that they can better plan for their expenditures."
   # This key is required for every tactic card for when the player chooses observe instead of investigate

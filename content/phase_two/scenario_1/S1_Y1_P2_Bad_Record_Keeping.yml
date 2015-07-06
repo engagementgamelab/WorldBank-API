@@ -14,12 +14,12 @@ priority: 2
 initiating_npc: third_party_verifier # <--- character's symbol
 initiating_dialogue: "The Clinic submitted their reports to us, but there were some inconsistencies. When we asked to see their records, they could not supply them."
 
-starting_options: [hold_payments_1]
-starting_options_affects: [hold_payments_1]
+starting_options: [hold_payment_1]
+starting_options_affects: [hold_payment_1]
 starting_options_cost: [small]
 
-final_options: [hold_payments_1, help_build_capacity_1, sanctions_1]
-final_options_affects: [hold_payments_1, help_build_capacity_1, sanctions_1]
+final_options: [hold_payment_1, help_build_capacity_1, sanctions_1]
+final_options_affects: [hold_payment_1, help_build_capacity_1, sanctions_1]
 final_options_cost: [small, medium, small]
 
 
@@ -50,7 +50,7 @@ characters:
     unlocks: [help_build_capacity_1]
     unlocks_affects: [help_build_capacity_1]
     feedback:
-      hold_payments_1: "We will improve things next quarter."
+      hold_payment_1: "We will improve things next quarter."
       sanctions_1: "We can hardly pay staff as it is! Many patients will go untreated because of this."
 
   hospital_administrator:
