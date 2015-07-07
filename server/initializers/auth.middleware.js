@@ -63,6 +63,7 @@ module.exports = {
             },
             function () {
                 var error = "You are not authorized for this action. Please login.";
+                data.connection.rawConnection.responseHttpCode = 401;
                 next(error);
             }
 
