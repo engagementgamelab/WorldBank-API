@@ -481,28 +481,28 @@
 #------------------
 # Unit Cost - S2_Y2_P4
 #------------------
--symbol: clarification_of_roles_4
+- symbol: clarification_of_roles_4
   title: "Clarification of Roles"
 
--symbol: move_authority_to_ministry_2
+- symbol: move_authority_to_ministry_2
   title: "Move budgeting authority to Ministry"
 
--symbol: comply_with_ngo_budget_2
+- symbol: comply_with_ngo_budget_2
   title: "Comply with NGO budget"
 
 #------------------
 # Contract Management - S2_Y2_P5
 #------------------
--symbol: terminate_ngo_contract_3
+- symbol: terminate_ngo_contract_3
   title: "Terminate NGO Contract"
 
--symbol: clarification_of_roles_5
+- symbol: clarification_of_roles_5
   title: "Clarification of roles"
 
--symbol: hire_agency
+- symbol: hire_agency
   title: "Hire Agency"
 
--symbol: expidite_payment_and_service_delivery
+- symbol: expidite_payment_and_service_delivery
   title: "Expidite payment and service delivery"
 
 # -------------------                       ------------------- #
@@ -512,52 +512,52 @@
 #------------------
 # More Arguments - S2_Y3_P1
 #------------------
--symbol: hold_stakeholder_meeting_3
+- symbol: hold_stakeholder_meeting_3
   title: "Hold Stakeholder meeting"
 
--symbol: warn_ngo_3
+- symbol: warn_ngo_3
   title: "Warn NGO"
 
--symbol: clarification_of_roles_6
+- symbol: clarification_of_roles_6
   title: "Clarification of Roles"
 
--symbol: terminate_ngo_contract_4
+- symbol: terminate_ngo_contract_4
   title: "Terminate NGO Contract"
 #------------------
 # Excuses - S2_Y3_P2
 #------------------
--symbol: hold_stakeholder_meeting_4
+- symbol: hold_stakeholder_meeting_4
   title: "Hold Stakeholder Meeting"
 
--symbol: warn_but_allow_payment_once_3
+- symbol: warn_but_allow_payment_once_3
   title: "Warn but allow payment"
 
--symbol: deny_payment_3
+- symbol: deny_payment_3
   title: "Deny Payment"
 
--symbol: revise_indicators_at_end_of_year_2
+- symbol: revise_indicators_at_end_of_year_2
   title: "Revise indicators at end of the year"
 #------------------
 # Micro-Management - S2_Y3_P3
 #------------------
--symbol: clarification_of_roles_7
+- symbol: clarification_of_roles_7
   title: "Clarification of Roles"
 
--symbol: terminate_ngo_contract_5
+- symbol: terminate_ngo_contract_5
   title: "Terminate NGO Contract"
 
--symbol: sanction_ngo_1
+- symbol: sanction_ngo_1
   title: "Sanction NGO"
 #------------------
 # Poor Stewardship - S2_Y3_P4
 #------------------
--symbol: clarification_of_roles_8
+- symbol: clarification_of_roles_8
   title: "Clarification of Roles"
 
--symbol: terminate_ngo_contract_6
+- symbol: terminate_ngo_contract_6
   title: "Terminate NGO Contract"
 
--symbol: sanction_ngo_2
+- symbol: sanction_ngo_2
   title: "Sanction NGO"
 # ------------------- #
 # Scenario 3 - Year 1 

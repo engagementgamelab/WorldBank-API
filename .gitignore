@@ -8,3 +8,4 @@ server/public/docs/
 server/.DS_Store
 server/*.log
 server/pids/
+server/log/
