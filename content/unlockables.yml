@@ -151,7 +151,7 @@
   type: behavior_knowledge_and_professionalism
 
 - symbol: unlockable_hire_more_nurses_from_highlands_region
-  title: "Hire From Nurses From the Highlands Region"
+  title: "Hire Nurses From the Highlands Region"
   description:
     - "If patients see familiar faces who understand their needs, they will be more likely to use and return to facilities. This would also have the upside of stimulating the economy in a poor region of the country."
   Priority: 0
