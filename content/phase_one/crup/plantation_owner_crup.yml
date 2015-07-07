@@ -17,7 +17,7 @@ character: plantation_owner_crup
 #   unlocks: route_to_kibari <-- this is a symbol we'll store in another "abilities" file so its display text can be easily tweaked globally.
 dialogue:
     Initial:
-      text: "She greets you in a business-like way and introduces herself. \"Yes, I do own this plantation,\" she says. \"Over a hundred people work and live here. It wasn't easy, but I have worked hard and built a legacy for my sons to inherit when I'm gone.\""
+      text: "She greets you in a business-like way and introduces herself. \"Yes, I do own this plantation,\" she says. \"Over a hundred people work and live here. It wasn't easy, but I have worked hard and built a legacy for my [[sons]] to inherit when I'm gone.\""
     Sons: 
       text: "\"I have two sons. They were both born right here, at home, [[the traditional way]]. I spared no expense and hired the best midwife in Zariba. It was a great experience.\""
     The Traditional Way: 
