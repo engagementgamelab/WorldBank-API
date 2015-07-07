@@ -20,7 +20,7 @@
 - symbol: valeria
   display_name: Valeria
   description: "Valeria is one of the more affluent cities, and not part of the highlands region of Zariba. Unlike the rest of the country, the climate here is arid, and wealth and land are consolidated under entrenched “Land Barons.” More recently, it is the center of a growing commercial airship industry."
-  enabled: false
+  enabled: true
   npc_interactions: 2
 
 - symbol: crup
@@ -32,13 +32,13 @@
 - symbol: mile
   display_name: Mile
   description: "Positioned as a poor yet peaceful place in the mountainous southern region of the land, Mile shows many types of unique farm animals. People sustain themselves through farming the land, and value freedom and autonomy above all. Even though they are the poorest, there is a spiritual connection to their homes and the beauty of the location itself lends to a majority of content people."
-  enabled: false
+  enabled: true
   npc_interactions: 2
 
 - symbol: zima
   display_name: Zima
   description: "Located on the sea, Zima is one of the largest and most industrialized cities in Zariba. Its most important landmark is National Hospital, the most extensive in the country."#"Zima is a skin cleanser marketed by Unilever. It contains camphor, menthol, phenol and eucalyptus, among other ingredients. Originally developed as a sunburn remedy, it is popular among women as a facial cleanser and make-up remover. It can also be used for cleaning chapped, sunburned, or otherwise irritated skin."
-  enabled: false
+  enabled: true
   npc_interactions: 4
 
 - symbol: capitol
