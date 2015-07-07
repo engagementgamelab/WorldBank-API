@@ -67,7 +67,7 @@ exports.create = {
               if(dataInput.password.length < 6)
               {
                 data.error = "Password must be longer than 6 characters.";
-                next(data, true);
+                next();
               }
               else
               {
@@ -95,7 +95,7 @@ exports.create = {
                     data.response.auth = true;
                     data.response.user = newUser;
 
-                    next(data, true);
+                    next();
 
                   });
                 
@@ -107,7 +107,7 @@ exports.create = {
             else
             {
               data.error = "A user with the specified username already exists.";
-              next(data, true);
+              next();
             }
 
           });
@@ -116,7 +116,7 @@ exports.create = {
         else
         {
           data.error = "A user with the specified email already exists.";
-          next(data, true);
+          next();
         }
 
       });
@@ -260,6 +260,7 @@ exports.scenario =
     matchExtensionMimeType: false,
     version: 1.0,
     toDocument: true,
+    requiresUserLogin: true,
 
     inputs:  {
       required: ["user_id", "plan_id"]
@@ -267,6 +268,8 @@ exports.scenario =
 
     /* GET game data. */
     run: function (api, data, next) {
+
+      var dataInput = data.connection.rawConnection.params.body;
 
       var assignUserScenario = function(plan) {
 
@@ -284,40 +287,33 @@ exports.scenario =
         return scenarioName;
 
       }
-
-      api.session.checkAuth(data, function(session) {
-
-        var dataInput = data.connection.rawConnection.params.body;
          
-        api.mongo.user.findOne(dataInput.user_id, function (err, user) {
-      
-            if(user == null) {
-              data.response.error = "User not found";
-              next(data, true);
-            }
+      api.mongo.user.findOne(dataInput.user_id, function (err, user) {
+    
+          if(user == null) {
+            data.response.error = "User not found";
+            next();
+          }
 
-            api.mongo.plan.findOne(dataInput.plan_id, function (err, plan) {
+          api.mongo.plan.findOne(dataInput.plan_id, function (err, plan) {
 
+            if (err) data.response.error = err;
+
+            user.plan_id = plan._id;
+            data.response.current_scenario = user.current_scenario = assignUserScenario(plan);
+            data.response.tactics = plan.tactics;
+
+            user.save(function (err, updatedUser) {
+              
               if (err) data.response.error = err;
 
-              user.plan_id = plan._id;
-              data.response.current_scenario = user.current_scenario = assignUserScenario(plan);
-              data.response.tactics = plan.tactics;
-
-              user.save(function (err, updatedUser) {
-                
-                if (err) data.response.error = err;
-
-              });
-                  
-              next(data, true);
-
             });
+                
+            next();
 
-        });
+          });
 
-    }
-    , next);
+      });
 
     }
 

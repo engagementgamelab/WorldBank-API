@@ -47,7 +47,7 @@ exports.getAll =
 
         data.response = planIDs;
             
-        next(data, true);
+        next();
 
       });
 
@@ -86,7 +86,7 @@ exports.save =
 
         data.response = planIDs;
             
-        next(data, true);
+        next();
 
       });
 
