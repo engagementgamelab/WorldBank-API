@@ -164,7 +164,7 @@
 - symbol: unlockable_vouchers_for_services
   title: "Vouchers For Services"
   description:
-    - "If patients see familiar faces who understand their needs, they will be more likely to use and return to facilities. This would also have the upside of stimulating the economy in a poor region of the country."
+    - "This would provide vouchers to poor people so they can receive necessary services at a greatly reduces price."
   Priority: 2
   type: demand_side_resource_allocation
 
