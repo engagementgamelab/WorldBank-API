@@ -260,6 +260,117 @@ maintain_current_rates:
   indicator_2: +2
   indicator_3: -4
 
+# -------------------                       ------------------- #
+# -------------------  Scenario 1 - TWISTS  ------------------- #
+# -------------------                       ------------------- #
+#------------------
+# Mismanagement - S1_T1_Y2_P1
+#------------------
+warning_8:
+  indicator_1: -2
+  indicator_2: -1
+  indicator_3: 0
+
+revise_business_plan_3:
+  indicator_1: -1
+  indicator_2: -3
+  indicator_3: +2
+
+retrain_1:
+  indicator_1: -2
+  indicator_2: -1
+  indicator_3: 0
+#------------------
+# Reversal - S1_T1_Y2_P2
+#------------------
+train_locals_1:
+  indicator_1: -2
+  indicator_2: -1
+  indicator_3: 0
+
+stick_to_the_plan_1:
+  indicator_1: -2
+  indicator_2: -1
+  indicator_3: +2
+
+embed_nurses_1:
+  indicator_1: -1
+  indicator_2: -3
+  indicator_3: +2
+
+expand_travelling_nurses_1:
+  indicator_1: +2
+  indicator_2: +1
+  indicator_3: -2
+
+#------------------
+# Inconsistent Indicators - S1_T1_Y2_P3
+#------------------
+incentivise_facility_births_1:
+  indicator_1: -1
+  indicator_2: -3
+  indicator_3: +2
+
+expand_travelling_nurses_2:
+  indicator_1: -2
+  indicator_2: -1
+  indicator_3: +2
+
+revise_indicators_at_end_of_year_3:
+  indicator_1: -2
+  indicator_2: -1
+  indicator_3: 0
+
+broaden_services_1:
+  indicator_1: -2
+  indicator_2: -1
+  indicator_3: +2
+
+placeholder_option_1:
+  indicator_1: -2
+  indicator_2: -1
+  indicator_3: +2
+
+#------------------
+# Overflow - S1_T1_Y2_P4
+#------------------
+warning_9:
+  indicator_1: -1
+  indicator_2: -3
+  indicator_3: +5
+
+sanctions_4:
+  indicator_1: -2
+  indicator_2: -1
+  indicator_3: 0
+
+increase_scrutiny_1:
+  indicator_1: -2
+  indicator_2: -1
+  indicator_3: +2
+
+terminate_contract_at_end_of_year_4:
+  indicator_1: -1
+  indicator_2: -3
+  indicator_3: +2
+# ------------------
+# Wrong Numbers - S1_T1_Y3_P1
+# ------------------
+warning_7:
+  indicator_1: -1
+  indicator_2: -3
+  indicator_3: +2
+
+sanctions_4:
+  indicator_1: -2
+  indicator_2: -1
+  indicator_3: 0
+
+hold_meeting_to_retrain_on_reporting_practices_2:
+  indicator_1: -2
+  indicator_2: -1
+  indicator_3: +2
+
 #---------------------------------------------- THIS IS WHERE I ENDED ADDING RANDOM THINGS FYI!!#
 
 # ----------------            ---------------- #

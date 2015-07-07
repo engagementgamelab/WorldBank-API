@@ -170,6 +170,10 @@
   display_name: Health Provider 2
   description: "description"
 
+- symbol: health_provider_3
+  display_name: Health Provider
+  description: "description"
+
 - symbol: ngo_manager
   display_name: NGO Manager
   description: "description"

@@ -383,6 +383,77 @@
 - symbol: maintain_current_rates
   title: "Maintain current rates"
 
+# -------------------                       ------------------- #
+# -------------------  Scenario 1 - TWISTS  ------------------- #
+# -------------------                       ------------------- #
+#------------------
+# Mismanagement - S1_T1_Y2_P1
+#------------------
+- symbol: warning_8
+  title: "Warning"
+
+- symbol: revise_business_plan_3
+  title: "Revise Business Plan"
+
+- symbol: retrain_1
+  title: "Retrain"
+#------------------
+# Reversal - S1_T1_Y2_P2
+#------------------
+- symbol: train_locals_1
+  title: "Train Locals"
+
+- symbol: stick_to_the_plan_1
+  title: "Stick to the plan"
+
+- symbol: embed_nurses_1
+  title: "Embed Nurses"
+
+- symbol: expand_travelling_nurses_1
+  title: "Expand travelling nurses' program"
+#------------------
+# Inconsistent Indicators - S1_T1_Y2_P3
+#------------------
+- symbol: placeholder_option_1
+  title: "This is a placeholder. I shouldn't exist!"
+
+- symbol: incentivise_facility_births_1
+  title: "Incentivise facility births"
+
+- symbol: expand_travelling_nurses_2
+  title: "Expand traveling nurses' program"
+
+- symbol: revise_indicators_at_end_of_year_3
+  title: "Revise indicators at end of the year"
+
+- symbol: broaden_services_1
+  title: "Broaden Services, effective next year"
+#------------------
+# Overflow - S1_T1_Y2_P4
+#------------------
+- symbol: warning_9
+  title: "Warning"
+
+- symbol: sanctions_4
+  title: "Enact Sanctions"
+
+- symbol: increase_scrutiny_1
+  title: "Increase Scrutiny"
+
+- symbol: terminate_contract_at_end_of_year_4
+  title: "Terminate Contract at end of the year"
+# ------------------
+# Wrong Numbers - S1_T1_Y3_P1
+# ------------------
+- symbol: warning_7
+  title: "Warning"
+
+- symbol: sanctions_4
+  title: "Enact Sanctions"
+
+- symbol: hold_meeting_to_retrain_on_reporting_practices_2
+  title: "Hold Meeting to retrain on reporting practices"
+
 
 # -------------------                       ------------------- #
 # -------------------  Scenario 2 - Year 1  ------------------- #
