@@ -32,7 +32,8 @@ characters:
     dialogue: "Hiring more traveling nurses to staff facilities near settlements is my suggestion."
     unlocks: [expand_travelling_nurses_2]
     unlocks_affects: [expand_travelling_nurses_2]
-    feedback: expand_travelling_nurses_2: "This makes a good deal of sense to me."
+    feedback: 
+      expand_travelling_nurses_2: "This makes a good deal of sense to me."
 
   coach:
     dialogue: "Perhaps the indicators need to be reviewed at the end of the year?"
