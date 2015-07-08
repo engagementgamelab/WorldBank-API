@@ -52,7 +52,7 @@ exports.create = {
     /* GET game data. */
     run: function (api, data, next) {
 
-      var dataInput = data.rawConnection.params.body;
+      var dataInput = data.connection.rawConnection.params.body;
 
       // Find count of users with this email (error if not zero)
       api.mongo.user.count({ 'email': dataInput.email }, function(err, userCount) {
@@ -88,9 +88,9 @@ exports.create = {
                 newUser.save(function(err) {
                   
                   if (err) 
-                    data.error = err;
+                    data.response.error = err;
 
-                  api.session.generateAtLogin(data, function(){
+                  api.session.generateAuth(data.connection, function(){
 
                     data.response.auth = true;
                     data.response.user = newUser;
@@ -106,7 +106,7 @@ exports.create = {
             }
             else
             {
-              data.error = "A user with the specified username already exists.";
+              data.response.error = "A user with the specified username already exists.";
               next();
             }
 
@@ -115,7 +115,7 @@ exports.create = {
         }
         else
         {
-          data.error = "A user with the specified email already exists.";
+          data.response.error = "A user with the specified email already exists.";
           next();
         }
 
@@ -160,6 +160,12 @@ exports.save =
 
       var gradeInfo = null;
 
+      if(planInput.tactics.length !== 6) {
+        data.response.error = "Incorrect number of tactics received.";
+        next();
+        return;
+      }
+
       // Score the plan
       var planGrade = function(inputTactics) {
 
@@ -175,8 +181,23 @@ exports.save =
 
           // Get the grading info for the plan score
           gradeInfo = gradingConfig.filter(function(grade) {
-              return grade.score.indexOf(planScore) !== -1;
+
+              // Scores in grading YML defined as range "x-x"
+              var scoreRange = grade.score.split('-');
+              var scoreAboveMin = planScore >= scoreRange[0];
+              var scoreUnderMax = planScore <= scoreRange[1];
+
+              // Score is within range of grading block?
+              return scoreAboveMin || scoreUnderMax;
+
           })[0];
+
+          // Grade info not found for the score determined!s
+          if(gradeInfo === undefined){
+            data.response.error = "No grading info found for plan score: " + planScore + ". Something may be amiss in grading.yml";
+            next();
+            return;
+          }
 
           // If no priority, default to 0
           if(tacticPriority === undefined)
@@ -216,14 +237,22 @@ exports.save =
         // Save the plan
         planModel.save(function(err) {
 
-          if (err) data.response.error = err;
+          if (err) {
+            data.response.error = err;
+            next();
+            return;
+          }
 
           // Associate this plan w/ the uer
           user.plan_id = planModel._id;
 
           user.save(function (err, updatedUser) {
             
-            if (err) data.response.error = err;
+            if (err) {
+              data.response.error = err;
+              next();
+              return;
+            }
 
           });
 

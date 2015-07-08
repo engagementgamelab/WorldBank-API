@@ -26,8 +26,6 @@ var planSchema = new mongoose.Schema({
   name: { type: String, required: true },
   tactics: { type: Array, required: true },
   score: { type: Number, required: true, default: 10 }
-  // pbc: { type: Boolean, required: true, default: false },
-  // autonomy: { type: Boolean, required: true, default: false }
 
 });
 
