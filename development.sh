@@ -11,7 +11,7 @@ printf "\n${COLOR}@@@@@@@@@@@@@@\nEngagement Lab API Dev Automation\n@@@@@@@@@@@
 
 printf "\n>>>> Copying /content to server root for Heroku usage\n"
 
-rm -R server/content
+rm -rf server/content
 cp -R content server
 
 wait
