@@ -15,8 +15,6 @@ printf "\n${COLOR}@@@@@@@@@@@@@@\nEngagement Lab API Staging Upload\n@@@@@@@@@@@
 
 printf "\n>>>> Merging master branch into staging working tree\n"
 
-git merge -X theirs WorldBank-API/master -m "Merge branch 'master' into staging"
-
 git remote add heroku git@heroku.com:engagementlab.git
 
 git config user.name "jenkins@labs-egl-macserver"
