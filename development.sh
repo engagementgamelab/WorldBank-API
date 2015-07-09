@@ -7,15 +7,23 @@
 #  Created by Johnny Richardson on 7/9/15.
 # ==============
 
-printf "\n${COLOR}@@@@@@@@@@@@@@\nEngagement Lab API Dev Automation\n@@@@@@@@@@@@@@\n\n${NC}"
+printf "\n${COLOR}@@@@@@@@@@@@@@\nEngagement Lab API Dev Automation\n@@@@@@@@@@@@@@\n${NC}"
 
-printf "\n>>>> Copying /content to server root for Heroku usage\n"
+# See if /content and /server/content differ
+CONTENT_DIFF=$(diff -qr  content server/content);
 
-rm -rf server/content
-cp -R content server
+if [ "$CONTENT_DIFF" != "" ]
+then
+	printf "\n>>>> Copying /content to server root for Heroku usage\n";
 
-wait
+	rm -rf server/content;
+	cp -R content server;
 
-printf "\n>>>> Adding content to server root for git push \n"
+	wait;
 
-git add .
+	printf "\n>>>> Adding content to server root for git push \n";
+
+	git add .;
+else
+	printf "\n>>>> /content and /server/content are the same \n";
+fi

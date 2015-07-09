@@ -1,0 +1,48 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Content Configuration
+# ==============
+
+private: true
+
+# Configurables for plan logic
+plan:
+
+  # Plan scenario-filtering tactics
+  scenario_filters: 
+    autonomy: unlockable_grant_providers_autonomy
+    pbc: unlockable_contract_outside_organization_to_administer_plan
+
+  # Plan starting score
+  starting_score: 14
+
+  # Plan priorities
+  scoring_keys: [3, 3, 2, 2, 2, 1]
+
+  # Scenario assignment filtering
+  assignment_matrix:
+    pbc_true:
+      autonomy_true:
+        scenario_1
+      autonomy_false: 
+        scenario_1
+
+    pbc_false:
+      autonomy_true:
+        scenario_1
+      autonomy_false:
+        scenario_1
+
+# All cooldowns are in seconds, and must be defined as arrays
+# If only one cooldown is needed (will not be chosen from a sequence), just use something like "[13]"
+cooldown:
+  short: [5, 5, 10]
+  long: [10, 15, 20]
+
+# Configure cost variables
+cost:
+  small: 0
+  medium: 1
+  large: 2

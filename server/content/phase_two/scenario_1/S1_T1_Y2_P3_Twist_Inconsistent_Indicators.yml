@@ -1,0 +1,66 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Problem YAML
+# ==============
+
+# Scenario 1 Year 1 Base Problem 1: Government Overreach verification
+
+symbol: twist_inconsistent_indicators
+name: "Inconsistent Indicators"
+priority: 7
+
+initiating_npc: dep_minister_of_health # <--- character's symbol
+initiating_dialogue: "We are seeing some indicators rise while others stay stagnant. Hospital births are barely rising, though checkups and vaccination rates are improving. We need to see all indicators rising!"
+
+starting_options: [placeholder_option_1]
+starting_options_affects: [placeholder_option_1]
+starting_options_cost: [small]
+
+final_options: [incentivise_facility_births_1, expand_travelling_nurses_2, revise_indicators_at_end_of_year_3, broaden_services_1]
+final_options_affects: [incentivise_facility_births_1, expand_travelling_nurses_2, revise_indicators_at_end_of_year_3, broaden_services_1]
+final_options_cost: [small, small, small, small]
+
+characters:
+
+  # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
+  dep_minister_of_health: # <--- character's symbol
+    dialogue: "TBD (No Help)"
+
+  director_regional_health_services:
+    dialogue: "Hiring more traveling nurses to staff facilities near settlements is my suggestion."
+    unlocks: [expand_travelling_nurses_2]
+    unlocks_affects: [expand_travelling_nurses_2]
+    feedback: 
+      expand_travelling_nurses_2: "This makes a good deal of sense to me."
+
+  coach:
+    dialogue: "Perhaps the indicators need to be reviewed at the end of the year?"
+    unlocks: [revise_indicators_at_end_of_year_3]
+    unlocks_affects: [revise_indicators_at_end_of_year_3]
+    feedback:
+      revise_indicators_at_end_of_year_3: "It might make sense to revise these goals down."
+
+  third_party_verifier:
+    dialogue: "TBD (No Help)"
+
+  community_verifier:
+    dialogue: "People here are still reluctant to travel to facilities."
+
+  clinic_manager:
+    dialogue: "TBD (No Help)"
+
+  hospital_administrator:
+    dialogue: "Vaccinations are easier to manage. Births take more planning. More resources are likely required to make this work."
+    unlocks: [incentivise_facility_births_1]
+    unlocks_affects: [incentivise_facility_births_1]
+    feedback:
+      incentivise_facility_births_1: "That will make this a good deal easier for us."
+
+  health_provider_3:
+    dialogue: "You should accept more traditional techniques into your plan. People should have the choice, don't you think?"
+    unlocks: [broaden_services_1]
+    unlocks_affects: [broaden_services_1]
+    feedback:
+      broaden_services_1: "An excellent decision!"

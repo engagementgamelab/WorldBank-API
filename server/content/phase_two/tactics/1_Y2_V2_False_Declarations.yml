@@ -1,0 +1,50 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Tactic YAML
+# ==============
+
+# Phase Two Tactic YML Template
+
+symbol: tactic_false_declarations
+tactic_name: unlockable_vouchers_for_services # <--- symbol of the tactic (stored in unlockables.yml) this card is using
+name: "False Declarations" # <--- display name for card
+year: 2
+
+# This dialogue the player sees first
+initiating_dialogue: "The Voucher Agency Manager just called to tell me they found false declarations in the reports from the providers. These look to be invented cases."
+
+# The dialogue the player sees when investigation has results to show
+investigate_dialogue: "The hospital adminstrators deny they have made fraudulent claims, but the numbers they submit are impossible. It could be lower-level employees making false claims."
+
+# The dialogue the player sees when further investigation has results to show
+investigate_further_dialogue: "The providers seem to be encouraging their workers to bring in vouchers by offering bonuses."
+
+# These are special parameters that load a cooldown array, which is defined in content/config.yml under 'cooldown:'
+# For example, specifying $config_cooldown_long will choose the key found in config.yml under:
+# ----- cooldown:
+# -----  long: [20, 14, 10]
+investigate_cooldown: $config_cooldown_short
+investigate_further_cooldown: $config_cooldown_long
+
+# These are the usable player options added after investigation is done
+# Note that each key (e.g. 'information_campaign') MUST correspond to the one under "_affects" and feedback"
+new_options: [unlockable_warning_t2, unlockable_sanctions_t2]
+
+# The affects for each new option
+new_options_affects: [unlockable_warning_t2, unlockable_sanctions_t2]
+
+# These are the usable player options added after further investigation is done
+further_options: [unlockable_modify_business_plan_t1]
+
+# The affects for each further new option
+further_options_affects: [unlockable_modify_business_plan_t1]
+
+# This is the feedback dialogue the player sees based on the option they select
+feedback_dialogue:
+  unlockable_warning_t2: "The senior staff management should be personally verifying reports before the third party verifier sees it. This is fraud, and not acceptable."
+  unlockable_sanctions_t2: "This warrants a strong response. If it continues, we might need to go further and look for other providers in the area."
+  unlockable_modify_business_plan_t1: "We can set new targets for the Voucher program."
+  # This key is required for every tactic card for when the player chooses observe instead of investigate
+  observe: "OK, we'll wait and see if anything changes."

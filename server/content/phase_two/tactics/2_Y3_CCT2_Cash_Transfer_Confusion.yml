@@ -1,0 +1,50 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Tactic YAML
+# ==============
+
+# Phase Two Tactic YML Template
+
+symbol: tactic_cash_transfer_confusion
+tactic_name: unlockable_conditional_cash_transfer  # <--- symbol of the tactic (stored in unlockables.yml) this card is using
+name: "Cash Transfer Confusion" # <--- display name for card
+year: 3
+
+# This dialogue the player sees first
+initiating_dialogue: "I've been noticing a drop off in the fourth quarter of CCT customers. Thought you should know."
+
+# The dialogue the player sees when investigation has results to show
+investigate_dialogue: "Some people are having difficulty understanding. They do eventually receive their money, but it takes too long, and by then, they've complained to others, who are discouraged from coming."
+
+# The dialogue the player sees when further investigation has results to show
+investigate_further_dialogue: "It seems like  people expect to leave the hospital with money. When they don't receive it, they get mad, and say they'll tell others not to come."
+
+# These are special parameters that load a cooldown array, which is defined in content/config.yml under 'cooldown:'
+# For example, specifying $config_cooldown_long will choose the key found in config.yml under:
+# ----- cooldown:
+# -----  long: [20, 14, 10]
+investigate_cooldown: $config_cooldown_short
+investigate_further_cooldown: $config_cooldown_long
+
+# These are the usable player options added after investigation is done
+# Note that each key (e.g. 'information_campaign') MUST correspond to the one under "_affects" and feedback"
+new_options: [unlockable_expedite_cct_payment, unlockable_fund_info_campaign]
+
+# The affects for each new option
+new_options_affects: [unlockable_expedite_cct_payment, unlockable_fund_info_campaign]
+
+# These are the usable player options added after further investigation is done
+further_options: [unlockable_embed_cct_officer_at_facilities]
+
+# The affects for each further new option
+further_options_affects: [unlockable_embed_cct_officer_at_facilities]
+
+# This is the feedback dialogue the player sees based on the option they select
+feedback_dialogue:
+  unlockable_expedite_cct_payment: "We can send a report to the fundholders with suggestions to revise the payment procedures, but who knows whether they'll actually come through, or if anything will be fast enough."
+  unlockable_fund_info_campaign: "Adjusting customer expectations should help a little. I'll make the preparations."
+  unlockable_embed_cct_officer_at_facilities: "This will take a while to implement. I'll start the preparations right away."
+  # This key is required for every tactic card for when the player chooses observe instead of investigate
+  observe: "OK, we'll wait and see if anything changes."

@@ -1,0 +1,48 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Problem YAML
+# ==============
+
+# Phase Two Scenario Card YML Example
+
+symbol: government_overreach_on_verification3
+name: "Government overreach on verification"
+priority: 3
+
+initiating_npc: provider_2 # <--- character's symbol
+initiating_dialogue: "Card 3"
+
+starting_options: [comply_with_ministry]
+starting_options_affects: [comply_with_ministry_1, comply_with_ministry_1]
+
+final_options: [comply_with_ministry, authorize_push_back, clarify_roles]
+final_options_affects: [example_1, example_2, example_1]
+
+characters:
+
+  # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
+  dep_minister_of_health: # <--- character's symbol
+    dialogue: "We are very interested in making sure the providers are doing what they say, and we have the staff available to review, so why not?"
+    narrows: [third_party_verifier, coach] # <--- this probably will be a symbol
+    feedback: 
+      clarify_roles: "All right, I understand. I'll inform the staff here." # <--- symbol of the option used and the feedback text for it
+
+  coach:
+    dialogue: "Duplicating efforts seems to be hampering the health providers. I'd either clarify everyone's roles for them, or empower health providers to push back somehow."
+    unlocks: [separation_of_rolls, authorize_push_back] # <--- these probably will symbols
+    unlocks_affects: [example_1, example_2]
+
+  third_party_verifier:
+    dialogue: "I didn't know about this. If the Ministry is doubling our verification efforts, it could prove very confusing to the providers."
+    unlocks: [separation_of_rolls]
+    unlocks_affects: [example_2]
+
+  health_provider_1:
+    dialogue: "Honestly, we've been ignoring the ministry's requests. We've got too much actual work to worry about."
+
+  health_provider_2:
+    feedback:
+      comply_with_ministry: "OK, we'll do our best."
+      authorize_push_back: "OK I'll bring it up the next time they send in their request, but they can be very firm."
