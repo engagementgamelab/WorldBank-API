@@ -17,7 +17,7 @@ character: settled_refugee_mile
 #   unlocks: route_to_kibari <-- this is a symbol we'll store in another "abilities" file so its display text can be easily tweaked globally.
 dialogue:
     Initial:
-      text: "He does not seem particularly bothered by your presence, and rests the magazine on his lap to speak with you. After a few minutes of idle conversation, he volunteers a little more about his past. \"I wasn't from here originally,\" he says. \"I came here as a refugee many years ago, back during the [[old regime]].\" A frown spreads across his face. \"My village was destroyed by a [[landslide]] during a rain storm. It will never be rebuilt.\""
+      text: ["(He does not seem particularly bothered by your presence, and rests the magazine on his lap to speak with you. After a few minutes of idle conversation, he volunteers a little more about his past. \"I wasn't from here originally,\" he says. \"I came here as a refugee many years ago, back during the [[old regime]].\" A frown spreads across his face. \"My village was destroyed by a [[landslide]] during a rain storm. It will never be rebuilt.\")"]
     Old Regime: 
       text: "\"Some people miss the old regime,\" he says, \"but they never did anything for me, you know? Democracy is fine. Honestly, I can't even tell the difference.\" He fans himself with the news magazine and finishes his thought. \"Some people disagree, and wish they could go back. But most don't care.\""
     Landslide: 

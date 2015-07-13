@@ -192,7 +192,7 @@ exports.save =
 
           })[0];
 
-          // Grade info not found for the score determined!s
+          // Grade info not found for the score determined
           if(gradeInfo === undefined){
             data.response.error = "No grading info found for plan score: " + planScore + ". Something may be amiss in grading.yml";
             next();
@@ -219,6 +219,7 @@ exports.save =
       // Calculate the plan's score ("grade")
       var finalPlanGrade = planGrade(planInput.tactics);
       planInput.score = finalPlanGrade.score;
+      planInput.created_at = new Date();
 
       // Create a plan object to update inside user
       var planModel = new api.mongo.plan( 

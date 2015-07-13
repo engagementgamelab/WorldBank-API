@@ -18,7 +18,7 @@ character: medicine_merchant_malcom
 #   unlocks: route_to_kibari <-- this is a symbol we'll store in another "abilities" file so its display text can be easily tweaked globally.
 dialogue:
     Initial:
-      text: "\"You are looking ill, my friend!\" he says to you by way of greeting. \"We have the cure for whatever ails you. All of our products are 100% derived from the land itself, and we never use any ingredients of foreign origin. Our medicine is the only cure that has been proven by centuries of practice here in Zariba. We are headquartered in [[Kibari]], so all our products are checked for authenticity by [[Mr. Todd]] himself!\""
+      text: ["(\"You are looking ill, my friend!\" he says to you by way of greeting. \"We have the cure for whatever ails you. All of our products are 100% derived from the land itself, and we never use any ingredients of foreign origin. Our medicine is the only cure that has been proven by centuries of practice here in Zariba. We are headquartered in [[Kibari]], so all our products are checked for authenticity by [[Mr. Todd]] himself!\")"]
 
     Kibari:
       text: "You approach the man and ask about Kibari: \"Kibari is the heart of the highlands, and the center of commerce and traditional knowledge for the nation. From Kibari, the whole nation is open wide to you. It is easy enough to get to. Just hitch a ride with one of the local farm transports. They come and go every day.\""

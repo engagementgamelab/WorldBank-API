@@ -17,7 +17,7 @@ character: doctor_zima
 #   unlocks: route_to_kibari <-- this is a symbol we'll store in another "abilities" file so its display text can be easily tweaked globally.
 dialogue:
     Initial:
-      text: "At first, he seems too engrossed in the chart to devote his full attention to you, but once you introduce yourself, he puts it down and apologizes. \"I wish I had time for a formal sit down with you,\" he says, \"but time is tight around here. I will try to share as much as I can. This hospital works very well for the rich, since they can afford whatever tests and procedures we order, but [[poor people]] tend to shy away from us, which is a shame.\""
+      text: ["(At first, he seems too engrossed in the chart to devote his full attention to you, but once you introduce yourself, he puts it down and apologizes. \"I wish I had time for a formal sit down with you,\" he says, \"but time is tight around here. I will try to share as much as I can. This hospital works very well for the rich, since they can afford whatever tests and procedures we order, but [[poor people]] tend to shy away from us, which is a shame.\")"]
     Poor People: 
       text: "You ask more about the poor people of the highlands and he gives a frustrated shrug. \"The majority of people in the highlands have no money. They can't afford basic [[preventative care]]. Even if they could, I'm not sure they would purchase it.\""
       unlocks: unlockable_vouchers_for_services 

@@ -18,7 +18,7 @@ character: capitol_city_traveler_malcom
 
 dialogue:
     Initial:
-      text: "After a few attempts of getting her attention, she tells you how she has been waiting for hours for the next train out of the station. \"There have been two trains heading to [[Mile]] that have already been cancelled!\" Flustered, she mutters under her breath about [[being late]] to meet her friend.\""
+      text: ["(After a few attempts of getting her attention, she tells you how she has been waiting for hours for the next train out of the station. \"There have been two trains heading to [[Mile]] that have already been cancelled!\" Flustered, she mutters under her breath about [[being late]] to meet her friend.\")"]
     Mile: 
       text: "You ask her about Mile, and she tells you she has never been there. \"I just need to pass through on the way to visit my friend.\""
 

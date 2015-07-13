@@ -16,7 +16,7 @@ character: grandmother_with_toddler_valeria
 #   unlocks: route_to_kibari <-- this is a symbol we'll store in another "abilities" file so its display text can be easily tweaked globally.
 dialogue:
     Initial:
-      text: "\"Oh, hello,\" the woman says. \"This airship port wasn't here the last time I came to this town, so it's a little confusing. We were visiting here for a little bit. My [[grandson]] always wanted to see the sand palaces.\""
+      text: ["(\"Oh, hello,\" the woman says. \"This airship port wasn't here the last time I came to this town, so it's a little confusing. We were visiting here for a little bit. My [[grandson]] always wanted to see the sand palaces.\")"]
     Grandson: 
       text: "When you inquire about the health of her grandson, she seems a little unsure. \"I think he's vaccinated,\" she says, \"but I don't really care for these hospitals. When I went, the nurse was very rude to me. He made me feel unwelcomed, and I had to argue with a doctor about getting a prescription for my little one.\""
       unlocks: unlockable_improve_patient_and_provider_relationship

@@ -17,6 +17,6 @@ character: nomad_kibari
 #   unlocks: route_to_kibari <-- this is a symbol we'll store in another "abilities" file so its display text can be easily tweaked globally.
 dialogue:
     Initial:
-      text: "The travelling harper nods. \"Don't I know you from somewhere?!\" he says. \"Folks around here call me Nomad. Care to hear a song?\" His light fingers pluck out a pleasant tune. When his song ends, he looks at you [[expectantly]]."
+      text: ["(The travelling harper nods. \"Don't I know you from somewhere?!\" he says. \"Folks around here call me Nomad. Care to hear a song?\" His light fingers pluck out a pleasant tune. When his song ends, he looks at you [[expectantly]].)"]
     Expectantly: 
       text: "You drop a few appreciative coins into his hat, and he thanks you. \"And here's a tip for you. If you're interested in medicine, make your way to Zima for sure. But talk to the folks at the clinic in Crup before you leave Zariba. Most people in the highlands never see the inside of a hospital, but clinics are pretty common.\""

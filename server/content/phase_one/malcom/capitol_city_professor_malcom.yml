@@ -18,7 +18,7 @@ character: capitol_city_professor_malcom
 
 dialogue:
     Initial:
-      text: "He introduces himself enthusiastically and tells you about his work studying political science and the old Zariban empire. His friendly demeanor shifts into annoyance as he speaks about his need to get to [[Mile]] and rolls his eyes at the picture of the [[prime minister]] on the front page of his paper."
+      text: ["(He introduces himself enthusiastically and tells you about his work studying political science and the old Zariban empire. His friendly demeanor shifts into annoyance as he speaks about his need to get to [[Mile]] and rolls his eyes at the picture of the [[prime minister]] on the front page of his paper.)"]
 
     Mile: 
       text: "You ask him about Mile: \"I haven't been down that far south in decades but I hear the life hasn’t changed much. Good people who still remember life before the the current regime took power.\" He indicates the Prime Minister's photo as he speaks. \"You can take the train through Mile into Zima, though the tracks have been terrible for years.\""

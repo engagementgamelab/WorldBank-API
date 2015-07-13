@@ -17,7 +17,7 @@ character: clinician_crup
 #   unlocks: route_to_kibari <-- this is a symbol we'll store in another "abilities" file so its display text can be easily tweaked globally.
 dialogue:
     Initial:
-      text: "The man extends a hand to shake and introduces himself. \"Hello,\" he says, \"I'm Dr. Maramuta. I run [[this clinic]], and I've consulted with a number of others in the area.\""
+      text: ["(The man extends a hand to shake and introduces himself. \"Hello,\" he says, \"I'm Dr. Maramuta. I run [[this clinic]], and I've consulted with a number of others in the area.\")"]
     This Clinic: 
       text: "\"Things have been very tough. In the highlands, things are done differently. The situation is not ideal, and sometimes the quick and dirty solution is better than no treatment at all. We have very little money, and we find ourselves skimping and cutting corners in order to operate.\"" 
       unlocks: unlockable_incentivise_providers_to_follow_protocols

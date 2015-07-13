@@ -17,7 +17,7 @@ character: herder_kibari
 #   unlocks: route_to_kibari <-- this is a symbol we'll store in another "abilities" file so its display text can be easily tweaked globally.
 dialogue:
     Initial:
-      text: "He pauses to speak with you, nervously keeping his birds in eyeshot, and occasionally redirecting them back to the flock. \"Since you ask,\" he says, \"I am a strong believer in traditional cures. They [[seem to work]], and they're [[easy to get]].\""
+      text: ["(He pauses to speak with you, nervously keeping his birds in eyeshot, and occasionally redirecting them back to the flock. \"Since you ask,\" he says, \"I am a strong believer in traditional cures. They [[seem to work]], and they're [[easy to get]].\")"]
     Easy To Get: 
       text: "\"I heard that some people travel for days to get to the hospital, only to be told they have no medicine. Who wants to do that?\""
     Seem To Work: 

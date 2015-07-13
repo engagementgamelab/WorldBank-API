@@ -17,7 +17,7 @@ character: mr_todd_kibari
 #   unlocks: route_to_kibari <-- this is a symbol we'll store in another "abilities" file so its display text can be easily tweaked globally.
 dialogue:
     Initial:
-      text: "A look of suspicion comes over his face for a moment, but it is quickly replaced with the same smile from before. \"Greetings!\" he says. \"Yes, it is true. I am Mr. Todd.\" You recognize the name. \"I would not claim to be the [[best medicine man]] in Zariba, but if that is what they say, that is what they say!\""
+      text: ["(A look of suspicion comes over his face for a moment, but it is quickly replaced with the same smile from before. \"Greetings!\" he says. \"Yes, it is true. I am Mr. Todd.\" You recognize the name. \"I would not claim to be the [[best medicine man]] in Zariba, but if that is what they say, that is what they say!\")"]
     Best Medicine Man: 
       text: "He chuckles. \"People come to me because I am already a part of their lives. Part of their community! They trust me, because they know when they come to see me, they will leave with the medicine they need in their hands. The hospitals and clinics you want people to visit are not good. Why would a person travel far to see a doctor who can’t even give them medicine? Ask your doctors that.\""
       unlocks: unlockable_dialogue_clinician
