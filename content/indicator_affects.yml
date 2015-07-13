@@ -302,7 +302,6 @@ expand_travelling_nurses_1:
   indicator_1: +2
   indicator_2: +1
   indicator_3: -2
-
 #------------------
 # Inconsistent Indicators - S1_T1_Y2_P3
 #------------------
@@ -330,7 +329,6 @@ placeholder_option_1:
   indicator_1: -2
   indicator_2: -1
   indicator_3: +2
-
 #------------------
 # Overflow - S1_T1_Y2_P4
 #------------------
@@ -370,7 +368,89 @@ hold_meeting_to_retrain_on_reporting_practices_2:
   indicator_1: -2
   indicator_2: -1
   indicator_3: +2
+# ------------------
+# Budget Lines - S1_T1_Y3_P2
+# ------------------
+comply_with_ministry_budget_1:
+  indicator_1: -2
+  indicator_2: -1
+  indicator_3: 0
 
+clarification_of_roles_9:
+  indicator_1: +3
+  indicator_2: +2
+  indicator_3: -1
+
+revise_business_plan_4:
+  indicator_1: -2
+  indicator_2: -1
+  indicator_3: +2
+# ------------------
+# Money Troubles - S1_T1_Y3_P3
+# ------------------
+increase_referral_incentives_1:
+  indicator_1: +2
+  indicator_2: +1
+  indicator_3: -1
+
+continue_with_plan_1:
+  indicator_1: +1
+  indicator_2: +3
+  indicator_3: -2
+
+terminate_contract_at_end_of_year_5:
+  indicator_1: 0
+  indicator_2: +2
+  indicator_3: +4
+# ------------------
+# Field Records - S1_T1_Y3_P4
+# ------------------
+placeholder_option_2:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: 0
+
+increase_funding_for_verifiers_1:
+  indicator_1: 0
+  indicator_2: +2
+  indicator_3: +4
+
+centralize_control_over_travelling_nurses_1:
+  indicator_1: -2
+  indicator_2: -1
+  indicator_3: +2
+
+warn_community_verifiers_1:
+  indicator_1: +2
+  indicator_2: +1
+  indicator_3: -1
+
+require_nurses_to_return_to_file_1:
+  indicator_1: -1
+  indicator_2: 0
+  indicator_3: +1
+# ------------------
+# Checkup Overload - S1_T1_Y3_P5
+# ------------------
+placeholder_option_3:
+  indicator_1: 0
+  indicator_2: +1
+  indicator_3: +2
+
+warn_providers_to_follow_protocols_2:
+  indicator_1: +2
+  indicator_2: +1
+  indicator_3: -1
+
+decrease_incentives_2:
+  indicator_1: -1
+  indicator_2: 0
+  indicator_3: +2
+
+maintain_current_rates_2:
+  indicator_1: -2
+  indicator_2: -1
+  indicator_3: +2
 #---------------------------------------------- THIS IS WHERE I ENDED ADDING RANDOM THINGS FYI!!#
 
 # ----------------            ---------------- #

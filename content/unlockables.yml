@@ -450,7 +450,59 @@
 - symbol: hold_meeting_to_retrain_on_reporting_practices_2
   title: "Hold Meeting to retrain on reporting practices"
 
+# ------------------
+# Budget Lines - S1_T1_Y3_P2
+# ------------------
+- symbol: comply_with_ministry_budget_1
+  title: "Comply With Ministry Budget"
 
+- symbol: clarification_of_roles_9
+  title: "Clarify role of Ministry"
+
+- symbol: revise_business_plan_4
+  title: "Revise business plan"
+# ------------------
+# Money Troubles - S1_T1_Y3_P3
+# ------------------
+- symbol: increase_referral_incentives_1
+  title: "Increase Referral Incentives"
+
+- symbol: continue_with_plan_1
+  title: "Continue With Plan As Written"
+
+- symbol: terminate_contract_at_end_of_year_5
+  title: "Terminate Contract at End of the Year"
+# ------------------
+# Field Records - S1_T1_Y3_P4
+# ------------------
+- symbol: placeholder_option_2
+  title: "I'm another placeholder. I also shouldn't exist!"
+
+- symbol: increase_funding_for_verifiers_1
+  title: "Increase Funding for Community Verifiers"
+
+- symbol: centralize_control_over_travelling_nurses_1
+  title: "Centralize Control Over Travelling Nurses"
+
+- symbol: warn_community_verifiers_1
+  title: "Warn Community Verifiers"
+
+- symbol: require_nurses_to_return_to_file_1
+  title: "Require Nurses to Return to Facility to File"
+# ------------------
+# Checkup Overload - S1_T1_Y3_P5
+# ------------------
+- symbol: placeholder_option_3
+  title: "Another placeholder. I'm not even supposed to be here today."
+
+- symbol: warn_providers_to_follow_protocols_2
+  title: "Warn Providers to Follow Protocols"
+
+- symbol: decrease_incentives_2
+  title: "Decrease Incentives"
+
+- symbol: maintain_current_rates_2
+  title: "Maintain Current Rates"
 # -------------------                       ------------------- #
 # -------------------  Scenario 2 - Year 1  ------------------- #
 # -------------------                       ------------------- #
