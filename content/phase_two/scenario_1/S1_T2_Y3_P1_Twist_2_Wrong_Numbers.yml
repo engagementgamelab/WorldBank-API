@@ -7,19 +7,19 @@
 
 # Scenario 1 Year 1 Base Problem 1: Government Overreach verification
 
-symbol: twist_wrong_numbers
+symbol: twist_2_wrong_numbers
 name: "Wrong Numbers"
 priority: 9
 
 initiating_npc: third_party_verifier # <--- character's symbol
 initiating_dialogue: "I have been reviewing Health Provider 2's records, and they do not check out. There is either fraud or accidental misreporting here."
 
-starting_options: [warning_7, sanctions_5]
-starting_options_affects: [warning_7, sanctions_5]
+starting_options: [warning_10, sanctions_6]
+starting_options_affects: [warning_10, sanctions_6]
 starting_options_cost: [small, small]
 
-final_options: [warning_7, sanctions_5, hold_meeting_to_retrain_on_reporting_practices_2]
-final_options_affects: [warning_7, sanctions_5, hold_meeting_to_retrain_on_reporting_practices_2]
+final_options: [warning_10, sanctions_6, hold_meeting_to_retrain_on_reporting_practices_3]
+final_options_affects: [warning_10, sanctions_6, hold_meeting_to_retrain_on_reporting_practices_3]
 final_options_cost: [small, small, small]
 
 characters:
@@ -43,9 +43,9 @@ characters:
 
   hospital_administrator:
     dialogue: "I think my staff is confused about what to report. Frankly, I myself have been confused at times!"
-    unlocks: [hold_meeting_to_retrain_on_reporting_practices_2]
-    unlocks_affects: [hold_meeting_to_retrain_on_reporting_practices_2]
+    unlocks: [hold_meeting_to_retrain_on_reporting_practices_3]
+    unlocks_affects: [hold_meeting_to_retrain_on_reporting_practices_3]
     feedback:
-      warning_7: "I'll talk to my staff and try to settle this."
-      sanctions_4: "I just put in orders for new equipment. Now I won't be able to afford to pay for them. I think you are taking this too far. It was an honest mistake."
-      hold_meeting_to_retrain_on_reporting_practices_2: "I think that will probably help. Let me know when works for you and I'll clear some time."
+      warning_10: "I'll talk to my staff and try to settle this."
+      sanctions_6: "I just put in orders for new equipment. Now I won't be able to afford to pay for them. I think you are taking this too far. It was an honest mistake."
+      hold_meeting_to_retrain_on_reporting_practices_3: "I think that will probably help. Let me know when works for you and I'll clear some time."

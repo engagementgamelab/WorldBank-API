@@ -171,7 +171,11 @@
   description: "description"
 
 - symbol: health_provider_3
-  display_name: Health Provider
+  display_name: Health Provider 3
+  description: "description"
+
+- symbol: health_provider_4
+  display_name: Health Provider 4
   description: "description"
 
 - symbol: ngo_manager

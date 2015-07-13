@@ -382,6 +382,9 @@
 # -------------------                       ------------------- #
 # -------------------  Scenario 1 - TWISTS  ------------------- #
 # -------------------                       ------------------- #
+
+# ------------- TWIST ONE ----------- #
+
 #------------------
 # Mismanagement - S1_T1_Y2_P1
 #------------------
@@ -400,13 +403,13 @@
   title: "Train Locals"
 
 - symbol: stick_to_the_plan_1
-  title: "Stick to the plan"
+  title: "Stick to the Plan"
 
 - symbol: embed_nurses_1
   title: "Embed Nurses"
 
 - symbol: expand_travelling_nurses_1
-  title: "Expand travelling nurses' program"
+  title: "Expand Travelling Nurses' Program"
 #------------------
 # Inconsistent Indicators - S1_T1_Y2_P3
 #------------------
@@ -414,16 +417,16 @@
   title: "This is a placeholder. I shouldn't exist!"
 
 - symbol: incentivise_facility_births_1
-  title: "Incentivise facility births"
+  title: "Incentivise Facility Births"
 
 - symbol: expand_travelling_nurses_2
-  title: "Expand traveling nurses' program"
+  title: "Expand Travelling Nurses' Program"
 
 - symbol: revise_indicators_at_end_of_year_3
-  title: "Revise indicators at end of the year"
+  title: "Revise Indicators at End of the Year"
 
 - symbol: broaden_services_1
-  title: "Broaden Services, effective next year"
+  title: "Broaden Services, Effective Next Year"
 #------------------
 # Overflow - S1_T1_Y2_P4
 #------------------
@@ -437,18 +440,18 @@
   title: "Increase Scrutiny"
 
 - symbol: terminate_contract_at_end_of_year_4
-  title: "Terminate Contract at end of the year"
+  title: "Terminate Contract at End of the Year"
 # ------------------
 # Wrong Numbers - S1_T1_Y3_P1
 # ------------------
 - symbol: warning_7
   title: "Warning"
 
-- symbol: sanctions_4
+- symbol: sanctions_5
   title: "Enact Sanctions"
 
 - symbol: hold_meeting_to_retrain_on_reporting_practices_2
-  title: "Hold Meeting to retrain on reporting practices"
+  title: "Hold Meeting to Retrain on Reporting Practices"
 
 # ------------------
 # Budget Lines - S1_T1_Y3_P2
@@ -460,7 +463,7 @@
   title: "Clarify role of Ministry"
 
 - symbol: revise_business_plan_4
-  title: "Revise business plan"
+  title: "Revise Business Plan"
 # ------------------
 # Money Troubles - S1_T1_Y3_P3
 # ------------------
@@ -503,6 +506,72 @@
 
 - symbol: maintain_current_rates_2
   title: "Maintain Current Rates"
+
+# ------------------- TWIST TWO --------------------- #
+# ------------------
+# Wrong Numbers - S1_T2_Y3_P1
+# ------------------
+- symbol: warning_10
+  title: "Warning"
+
+- symbol: sanctions_6
+  title: "Enact Sanctions"
+
+- symbol: hold_meeting_to_retrain_on_reporting_practices_3
+  title: "Hold Meeting to Retrain on Reporting Practices"
+# ------------------
+# Budget Lines - S1_T2_Y3_P2
+# ------------------
+- symbol: comply_with_ministry_budget_2
+  title: "Comply With Ministry Budget"
+
+- symbol: clarification_of_roles_10
+  title: "Clarify role of Ministry"
+
+- symbol: revise_business_plan_5
+  title: "Revise Business Plan"
+# ------------------
+# Fraud - S1_T2_Y3_P3
+# ------------------
+- symbol: warning_11
+  title: "Warning"
+
+- symbol: sanctions_7
+  title: "Enact Sanctions"
+
+- symbol: terminate_contract_at_end_of_year_6
+  title: "Terminate Contract at End of Year"
+# ------------------
+# Field Records - S1_T2_Y3_P4
+# ------------------
+- symbol: placeholder_option_4
+  title: "I'm another placeholder. I also shouldn't exist!"
+
+- symbol: increase_funding_for_verifiers_2
+  title: "Increase Funding for Community Verifiers"
+
+- symbol: centralize_control_over_travelling_nurses_2
+  title: "Centralize Control Over Travelling Nurses"
+
+- symbol: warn_community_verifiers_2
+  title: "Warn Community Verifiers"
+
+- symbol: require_nurses_to_return_to_file_2
+  title: "Require Nurses to Return to Facility to File"
+# ------------------
+# More Fraud - S1_T2_Y3_P5
+# ------------------
+- symbol: placeholder_option_5
+  title: "And I'm another placeholder." 
+
+- symbol: warning_12
+  title: "Warning"
+
+- symbol: sanctions_8
+  title: "Sanctions"
+
+- symbol: terminate_contract_at_end_of_year_7
+  title: "Terminate Contract at End of Year"
 # -------------------                       ------------------- #
 # -------------------  Scenario 2 - Year 1  ------------------- #
 # -------------------                       ------------------- #
