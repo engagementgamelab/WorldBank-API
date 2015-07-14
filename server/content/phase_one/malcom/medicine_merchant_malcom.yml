@@ -11,17 +11,20 @@ character: medicine_merchant_malcom
 
 
 # DIALOGUE FORMAT:
-# - Initial: First dialogue player sees after reading character_description.
+# - Initial: First dialogue player sees after reading character_description. This text is a multiline array, where the first string is what player sees before completing any of this character's dialogue tree, and the second and third is text they'll see subsequent to reach the end of the first and second trees.
 # ====> Use double-bracket notation for words or phrases that, if tapped, unlock subsequent tree 
 #       -- e.g. [[this]] will open the "This" dialogue option
 # - This: "this" dialogue tree
-#   unlocks: route_to_kibari <-- this is a symbol we'll store in another "abilities" file so its display text can be easily tweaked globally.
+#   unlocks: [route_to_kibari] <-- this is a symbol stored in "unlockables.yml", so its display text can be easily tweaked globally.
 dialogue:
     Initial:
-      text: ["(\"You are looking ill, my friend!\" he says to you by way of greeting. \"We have the cure for whatever ails you. All of our products are 100% derived from the land itself, and we never use any ingredients of foreign origin. Our medicine is the only cure that has been proven by centuries of practice here in Zariba. We are headquartered in [[Kibari]], so all our products are checked for authenticity by [[Mr. Todd]] himself!\")"]
+      text: 
+        - "\"You are looking ill, my friend!\" he says to you by way of greeting. \"We have the cure for whatever ails you. All of our products are 100% derived from the land itself, and we never use any ingredients of foreign origin. Our medicine is the only cure that has been proven by centuries of practice here in Zariba. We are headquartered in [[Kibari]], so all our products are checked for authenticity by [[Mr. Todd]] himself!\""
 
     Kibari:
-      text: "You approach the man and ask about Kibari: \"Kibari is the heart of the highlands, and the center of commerce and traditional knowledge for the nation. From Kibari, the whole nation is open wide to you. It is easy enough to get to. Just hitch a ride with one of the local farm transports. They come and go every day.\""
-      unlocks: unlockable_route_malcom_to_kibari
+      text: 
+        - "You approach the man and ask about Kibari: \"Kibari is the heart of the highlands, and the center of commerce and traditional knowledge for the nation. From Kibari, the whole nation is open wide to you. It is easy enough to get to. Just hitch a ride with one of the local farm transports. They come and go every day.\""
+      unlocks: [unlockable_route_malcom_to_kibari]
     Mr. Todd: 
-      text: "As soon as you mention Mr. Todd the medicine merchant’s face lights up. \"I might be a bit biased, but that man is everything for the local region. He is a genius who has built a business from the ground up! Literally! Everyone loves Mr. Todd. You need to meet him. I'm sure one conversation with him will change all your thoughts on foreign medicine!\""
+      text: 
+        - "As soon as you mention Mr. Todd the medicine merchant’s face lights up. \"I might be a bit biased, but that man is everything for the local region. He is a genius who has built a business from the ground up! Literally! Everyone loves Mr. Todd. You need to meet him. I'm sure one conversation with him will change all your thoughts on foreign medicine!\""

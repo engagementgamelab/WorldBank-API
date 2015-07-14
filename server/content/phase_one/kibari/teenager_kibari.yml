@@ -10,16 +10,19 @@ symbol: dialogue_teenager_kibari
 character: teenager_kibari
 
 # DIALOGUE FORMAT:
-# - Initial: First dialogue player sees after reading character_description.
+# - Initial: First dialogue player sees after reading character_description. This text is a multiline array, where the first string is what player sees before completing any of this character's dialogue tree, and the second and third is text they'll see subsequent to reach the end of the first and second trees.
 # ====> Use double-bracket notation for words or phrases that, if tapped, unlock subsequent tree 
 #       -- e.g. [[this]] will open the "This" dialogue option
 # - This: "this" dialogue tree
-#   unlocks: route_to_kibari <-- this is a symbol we'll store in another "abilities" file so its display text can be easily tweaked globally.
+#   unlocks: [route_to_kibari] <-- this is a symbol stored in "unlockables.yml", so its display text can be easily tweaked globally.
 dialogue:
     Initial:
-      text: ["(He extends a hand for you to shake as you come nearer. When you ask him what he thinks about hospitals, he seems mostly positive on them. \"I would go to a hospital if something was wrong with me,\" he says. \"But I'm healthy, thank goodness. A lot of other people seem to [[distrust]] the hospitals though, especially in [[this area]].\")"]
+      text: 
+        - "He extends a hand for you to shake as you come nearer. When you ask him what he thinks about hospitals, he seems mostly positive on them. \"I would go to a hospital if something was wrong with me,\" he says. \"But I'm healthy, thank goodness. A lot of other people seem to [[distrust]] the hospitals though, especially in [[this area]].\""
     Distrust: 
-      text: "\"Well,\" he says, \"It is simple enough. The medicine is foreign. The hospitals are far away, and when you get there, you are treated by strangers. It is just unfamiliar, and people distrust what is not familiar. Perhaps if these hospitals hired more people from this area, that would help. People might be more willing to go to them if they could count on seeing friendly faces. And besides, we could use the work around here.\""
-      unlocks: unlockable_hire_more_nurses_from_highlands_region
+      text: 
+        - "\"Well,\" he says, \"It is simple enough. The medicine is foreign. The hospitals are far away, and when you get there, you are treated by strangers. It is just unfamiliar, and people distrust what is not familiar. Perhaps if these hospitals hired more people from this area, that would help. People might be more willing to go to them if they could count on seeing friendly faces. And besides, we could use the work around here.\""
+      unlocks: [unlockable_hire_more_nurses_from_highlands_region]
     This Area: 
-      text: "\"You must know where you are. We are in the heart of the highlands. People here are used to doing things the old way. That means Mr. Todd.\" He points to the lavish domicile further along the road where a well-dressed man stands."
+      text: 
+        - "\"You must know where you are. We are in the heart of the highlands. People here are used to doing things the old way. That means Mr. Todd.\" He points to the lavish domicile further along the road where a well-dressed man stands."
