@@ -21,16 +21,14 @@ exports.apiAuth = {
 
     var dataInput = data.connection.rawConnection.params.body;
 
-    console.log(dataInput);
-
     data.response.authed = false;
 
     if (dataInput.key == undefined) {
-      data.error = "no key specified";
+      data.response.error = "no key specified";
       next();
     }
     else if (api.config.general.serverToken != dataInput.key) {
-      data.error = "incorrect key";
+      data.response.error = "incorrect key";
       next();
     }
     else {

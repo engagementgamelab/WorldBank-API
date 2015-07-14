@@ -10,12 +10,13 @@ symbol: dialogue_spoiled_twins_valeria
 character: spoiled_twins_valeria
 
 # DIALOGUE FORMAT:
-# - Initial: First dialogue player sees after reading character_description.
+# - Initial: First dialogue player sees after reading character_description. This text is a multiline array, where the first string is what player sees before completing any of this character's dialogue tree, and the second and third is text they'll see subsequent to reach the end of the first and second trees.
 # ====> Use double-bracket notation for words or phrases that, if tapped, unlock subsequent tree 
 #       -- e.g. [[this]] will open the "This" dialogue option
 # - This: "this" dialogue tree
-#   unlocks: route_to_kibari <-- this is a symbol we'll store in another "abilities" file so its display text can be easily tweaked globally.
+#   unlocks: [route_to_kibari] <-- this is a symbol stored in "unlockables.yml", so its display text can be easily tweaked globally.
 dialogue:
     Initial:
-      text: ["(They stare at you for a moment when you approach, then ask who you are. When you explain yourself, they are happy to share their opinions on Zariba's health care system. \n\"The highlands are where all the poor people live,\" the brother says.\n\"He knows that,\" his sister interrupts. \"Everyone knows that. We were both born here in Valeria, in our own house. No one likes to go to these hospitals. They're so ugly.\"\n\"I've been in one. They just feel dirty, and they smell. And the staff look like street people,\" the brother agrees. \"That's why no one wants to go to them.\")"]
-      unlocks: unlockable_make_aesthetic_improvements
+      text: 
+        - "They stare at you for a moment when you approach, then ask who you are. When you explain yourself, they are happy to share their opinions on Zariba's health care system. \n\"The highlands are where all the poor people live,\" the brother says.\n\"He knows that,\" his sister interrupts. \"Everyone knows that. We were both born here in Valeria, in our own house. No one likes to go to these hospitals. They're so ugly.\"\n\"I've been in one. They just feel dirty, and they smell. And the staff look like street people,\" the brother agrees. \"That's why no one wants to go to them.\""
+      unlocks: [unlockable_make_aesthetic_improvements]

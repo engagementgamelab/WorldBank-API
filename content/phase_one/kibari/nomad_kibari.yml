@@ -10,13 +10,15 @@ symbol: dialogue_nomad_kibari
 character: nomad_kibari
 
 # DIALOGUE FORMAT:
-# - Initial: First dialogue player sees after reading character_description.
+# - Initial: First dialogue player sees after reading character_description. This text is a multiline array, where the first string is what player sees before completing any of this character's dialogue tree, and the second and third is text they'll see subsequent to reach the end of the first and second trees.
 # ====> Use double-bracket notation for words or phrases that, if tapped, unlock subsequent tree 
 #       -- e.g. [[this]] will open the "This" dialogue option
 # - This: "this" dialogue tree
-#   unlocks: route_to_kibari <-- this is a symbol we'll store in another "abilities" file so its display text can be easily tweaked globally.
+#   unlocks: route_to_kibari <-- this is a symbol stored in "unlockables.yml", so its display text can be easily tweaked globally.
 dialogue:
     Initial:
-      text: ["(The travelling harper nods. \"Don't I know you from somewhere?!\" he says. \"Folks around here call me Nomad. Care to hear a song?\" His light fingers pluck out a pleasant tune. When his song ends, he looks at you [[expectantly]].)"]
+      text: 
+        - "The travelling harper nods. \"Don't I know you from somewhere?!\" he says. \"Folks around here call me Nomad. Care to hear a song?\" His light fingers pluck out a pleasant tune. When his song ends, he looks at you [[expectantly]]."
     Expectantly: 
-      text: ["(You drop a few appreciative coins into his hat, and he thanks you. \"And here's a tip for you. If you're interested in medicine, make your way to Zima for sure. But talk to the folks at the clinic in Crup before you leave Zariba. Most people in the highlands never see the inside of a hospital, but clinics are pretty common.\")"]
+      text: 
+        - "You drop a few appreciative coins into his hat, and he thanks you. \"And here's a tip for you. If you're interested in medicine, make your way to Zima for sure. But talk to the folks at the clinic in Crup before you leave Zariba. Most people in the highlands never see the inside of a hospital, but clinics are pretty common.\""

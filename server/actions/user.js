@@ -66,7 +66,7 @@ exports.create = {
 
               if(dataInput.password.length < 6)
               {
-                data.error = "Password must be longer than 6 characters.";
+                data.response.error = "Password must be longer than 6 characters.";
                 next();
               }
               else
@@ -372,13 +372,13 @@ exports.auth =
 
       // Database error
       if(err) {
-        data.error = err;
+        data.response.error = err;
 
         next();
       }
       // User not found
       else if(user == null) {
-        data.error = "The user with the specified email was not found.";
+        data.response.error = "The user with the specified email was not found.";
 
         next();
       }
@@ -389,7 +389,7 @@ exports.auth =
 
         if(passwordHash !== user.password) {
 
-          data.error = "Incorrect Password.";
+          data.response.error = "Incorrect Password.";
           next();
 
         } 
@@ -411,8 +411,8 @@ exports.auth =
 
             api.trackEvent(user._id, "User Login", "API", function(error) {
 
-              if(err !== undefined)
-                data.error = error;
+              if(error !== undefined && error !== null)
+                data.response.error = error;
 
               next();
 

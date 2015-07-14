@@ -10,18 +10,22 @@ symbol: dialogue_settled_refugee_mile
 character: settled_refugee_mile
 
 # DIALOGUE FORMAT:
-# - Initial: First dialogue player sees after reading character_description.
+# - Initial: First dialogue player sees after reading character_description. This text is a multiline array, where the first string is what player sees before completing any of this character's dialogue tree, and the second and third is text they'll see subsequent to reach the end of the first and second trees.
 # ====> Use double-bracket notation for words or phrases that, if tapped, unlock subsequent tree 
 #       -- e.g. [[this]] will open the "This" dialogue option
 # - This: "this" dialogue tree
-#   unlocks: route_to_kibari <-- this is a symbol we'll store in another "abilities" file so its display text can be easily tweaked globally.
+#   unlocks: [route_to_kibari] <-- this is a symbol stored in "unlockables.yml", so its display text can be easily tweaked globally.
 dialogue:
     Initial:
-      text: ["(He does not seem particularly bothered by your presence, and rests the magazine on his lap to speak with you. After a few minutes of idle conversation, he volunteers a little more about his past. \"I wasn't from here originally,\" he says. \"I came here as a refugee many years ago, back during the [[old regime]].\" A frown spreads across his face. \"My village was destroyed by a [[landslide]] during a rain storm. It will never be rebuilt.\")"]
+      text: 
+        - "He does not seem particularly bothered by your presence, and rests the magazine on his lap to speak with you. After a few minutes of idle conversation, he volunteers a little more about his past. \"I wasn't from here originally,\" he says. \"I came here as a refugee many years ago, back during the [[old regime]].\" A frown spreads across his face. \"My village was destroyed by a [[landslide]] during a rain storm. It will never be rebuilt.\""
     Old Regime: 
-      text: ["(\"Some people miss the old regime,\" he says, \"but they never did anything for me, you know? Democracy is fine. Honestly, I can't even tell the difference.\" He fans himself with the news magazine and finishes his thought. \"Some people disagree, and wish they could go back. But most don't care.\")"]
+      text: 
+        - "\"Some people miss the old regime,\" he says, \"but they never did anything for me, you know? Democracy is fine. Honestly, I can't even tell the difference.\" He fans himself with the news magazine and finishes his thought. \"Some people disagree, and wish they could go back. But most don't care.\""
     Landslide: 
-      text: ["(\"It was so terrible,\" he says. \"Unless you have seen one, it is hard to describe. The entire village was just gone. Many people died. I lost family members. I feel lucky that I was [[able to make it]] here, and was accepted and given hospitality, even though people here do not have much. They gave all they could and more.\")"]
+      text: 
+        - "\"It was so terrible,\" he says. \"Unless you have seen one, it is hard to describe. The entire village was just gone. Many people died. I lost family members. I feel lucky that I was [[able to make it]] here, and was accepted and given hospitality, even though people here do not have much. They gave all they could and more.\""
     Able to Make it: 
-      text: ["(He nods and explains how travel is very difficult unless you can afford to buy a train ticket. \"And few can! If you can't afford a ticket, you must walk along the tracks, and it is very dangerous. Recently, someone died making the trip to Zima, and now no one even tries it unless they are desperate, you know?\")"]
-      unlocks: unlockable_outreach
+      text: 
+        - "He nods and explains how travel is very difficult unless you can afford to buy a train ticket. \"And few can! If you can't afford a ticket, you must walk along the tracks, and it is very dangerous. Recently, someone died making the trip to Zima, and now no one even tries it unless they are desperate, you know?\""
+      unlocks: [unlockable_outreach]

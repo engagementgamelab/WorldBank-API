@@ -10,14 +10,16 @@ symbol: dialogue_nurse_zima
 character: nurse_zima
 
 # DIALOGUE FORMAT:
-# - Initial: First dialogue player sees after reading character_description.
+# - Initial: First dialogue player sees after reading character_description. This text is a multiline array, where the first string is what player sees before completing any of this character's dialogue tree, and the second and third is text they'll see subsequent to reach the end of the first and second trees.
 # ====> Use double-bracket notation for words or phrases that, if tapped, unlock subsequent tree 
 #       -- e.g. [[this]] will open the "This" dialogue option
 # - This: "this" dialogue tree
-#   unlocks: route_to_kibari <-- this is a symbol we'll store in another "abilities" file so its display text can be easily tweaked globally.
+#   unlocks: [route_to_kibari] <-- this is a symbol stored in "unlockables.yml", so its display text can be easily tweaked globally.
 dialogue:
     Initial:
-      text: ["(Once you get him talking, the nurse seems almost relieved to have someone to complain to. \"I work harder than anyone in this facility, but compared the doctors, I get paid practically nothing! I deal with [[angry people]] every day. He just writes prescriptions.\")"]
+      text: 
+        - "Once you get him talking, the nurse seems almost relieved to have someone to complain to. \"I work harder than anyone in this facility, but compared the doctors, I get paid practically nothing! I deal with [[angry people]] every day. He just writes prescriptions.\""
     Angry People: 
-      text: ["(The tall nurse crosses his arms. \"They get angry when I tell them they must go to the drugstore. They don't understand anything. They think the hospital is a pharmacy. They ask stupid questions. I get tired of it. You've never heard of a drugstore? And then when the pharmacy doesn't have the drugs… That is my fault TOO?\")"]
-      unlocks: unlockable_improve_patient_and_provider_relationship
+      text: 
+        - "The tall nurse crosses his arms. \"They get angry when I tell them they must go to the drugstore. They don't understand anything. They think the hospital is a pharmacy. They ask stupid questions. I get tired of it. You've never heard of a drugstore? And then when the pharmacy doesn't have the drugs… That is my fault TOO?\""
+      unlocks: [unlockable_improve_patient_and_provider_relationship]
