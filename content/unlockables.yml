@@ -751,13 +751,193 @@
 # Scenario 3 - Year 1 
 # ------------------- #
 
+#------------------
+# Slow Verification - S3_Y1_1
+#------------------
+
+- symbol: warn_verifier_1
+  title: "Warn Verifier"
+
+- symbol: reaffirm_ministry_authority
+  title: "Reaffirm Ministiry's Authority"
+
+- symbol: ask_reduce_oversight
+  title: "Ask to Reduce Oversight"
+
+- symbol: circulate_memo_reaffirming_ministry_authority
+  title: "Circulate Memo Reaffirming Ministry Authority"
+
+- symbol: streamline_speed_verification_process
+  title: "Streamline Speed Verification Process"
+
+- symbol: verification_1
+  title: "Verification"
+
+#------------------
+# Poor Management - S3_Y1_2
+#------------------
+
+- symbol: warning_and_retraining_2
+  title: "Warning and Retraining"
+
+- symbol: sanctions_11
+  title: "Sanctions"
+
+- symbol: review_business_plan
+  title: "Review Business Plan"
+
+#------------------
+# Bad Record Keeping - S3_Y1_3
+#------------------
+
+- symbol: hold_payment_2
+  title: "Hold Payments"
+
+- symbol: sanctions_12
+  title: "Sanctions"
+
+- symbol: capacity_building_help
+  title: "Review Business Plan"
+
+#------------------
+# Lack of Supplies - S3_Y1_4
+#------------------
+
+- symbol: warn_providers
+  title: "Warn Providers"
+
+- symbol: unlocks_sanction_providers
+  title: "Unlocks Sanction Providers"
+
+- symbol: increase_supply_budget
+  title: "Increase Supply Budget"
+
+- symbol: grant_facilities_autonomy
+  title: "Increase Supply Budget"
+
 # ------------------- #
 # Scenario 3 - Year 2
 # ------------------- #
 
+#------------------
+# Staff Issues - S3_Y2_1
+#------------------
+
+- symbol: warn_providers_2
+  title: "Warn Providers"
+
+- symbol: sanctions_13
+  title: "Sanctions"
+
+- symbol: increase_customer_service_incentives
+  title: "Increase Supply Budget"
+
+- symbol: reorganize_staff
+  title: "Increase Supply Budget"
+
+#------------------
+# Mismanagement - S3_Y2_2
+#------------------
+
+- symbol: warning_13
+  title: "Warning"
+
+- symbol: sanctions_and_retraining_on_use_of_financial_tools_2
+  title: "Sanctions and Retraining on Use of Financial Tools"
+
+- symbol: revise_business_plan_6
+  title: "Revise Business Plan"
+
+#------------------
+# Midwives - S3_Y2_4
+#------------------
+
+- symbol: request_a_budget_line_from_ministry
+  title: "Request a Budget Line from Ministry"
+
+- symbol: allow_outreach_staff_to_act_as_midwives
+  title: "Allow Outreach Staff to Act as Midwives"
+
+- symbol: grant_providers_autonomy_to_hire_staff
+  title: "Grant Providers Autonomy to Hire Staff"
+
+#------------------
+# Transparency - S3_Y2_3
+#------------------
+
+- symbol: warning_14
+  title: "Warning"
+
+- symbol: sanctions_14
+  title: "Sanctions"
+
+- symbol: strong_sanctions_2
+  title: "Strong Sanctions"
+
 # ------------------- #
 # Scenario 3 - Year 3
 # ------------------- #
+
+#------------------
+# Budget Lines - S3_Y3_1
+#------------------
+
+- symbol: comply_with_ministry_2
+  title: "Comply With Ministry"
+
+- symbol: rework_business_plan
+  title: "Sanctions"
+
+- symbol: grant_autonomy_to_providers
+  title: "Strong Sanctions"
+
+#------------------
+# Failed Inspection - S3_Y3_2
+#------------------
+
+- symbol: review_the_inspection_2
+  title: "Review the Inspection"
+
+- symbol: warning_15
+  title: "Warning"
+
+- symbol: deny_review_2
+  title: "Strong Sanctions"
+
+#------------------
+# Perscriptions - S3_Y3_3
+#------------------
+
+- symbol: warning_16
+  title: "Warning"
+
+- symbol: sanctions_15
+  title: "Sanctions"
+
+- symbol: terminate_contract_at_end_of_year_8
+  title: "Terminate Contract at End of Year"
+
+- symbol: tie_incentives_directly_to_protocol
+  title: "Tie Incentives Directly to Protocol"
+
+- symbol: reduce_incentives_for_customer_service
+  title: "Reduce Incentives for Customer Service"
+
+#------------------
+# Missing Goals - S3_Y3_4
+#------------------
+
+- symbol: return_to_traditional_financing
+  title: "Return to Traditional Financing"
+
+- symbol: terminate_both_health_contracts_of_providers
+  title: "Terminate Both Health Contracts of Providers"
+
+- symbol: terminate_hospital_contract_and_redirect_resources
+  title: "Terminate Hospital Contract and Redirect Resources"
+
+- symbol: grant_providers_autonomy
+  title: "Grant Providers Autonomy"
 
 # ------------------- #
 # Scenario 4 - Year 1 
