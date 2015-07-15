@@ -1,0 +1,58 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Problem YAML
+# ==============
+
+# Phase Two Scenario Card YML Example
+
+symbol: poor_management
+name: "Poor Management"
+priority: 2
+
+initiating_npc: coach # <--- character's symbol
+initiating_dialogue: "The hospital administrator and I were reviewing the hospital's business plan and they are not doing a good job managing their money. Even with our payments they're operating at a loss."
+
+starting_options: [warning_and_retraining_2]
+starting_options_affects: [warning_and_retraining_2]
+
+final_options: [review_business_plan, warning_and_retraining_2, sanctions_11]
+final_options_affects: [review_business_plan, warning_and_retraining_2, sanctions_11]
+
+characters:
+
+  # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
+  dep_minister_of_health: # <--- character's symbol
+    feedback: 
+      ask_reduce_oversight: "This isn't what we had in mind when we started the project. I don't see how we can, in good faith, approve costs we haven't verified." # <--- symbol of the option used and the feedback text for it
+
+  director_regional_health_services: # <--- character's symbol
+    dialogue: "We need the authority to verify things as we have always done in the past. It seems unethical to OK payments that we haven't verified."
+    feedback: 
+      streamline_speed_verification_process: "This will put some strain on our office, but I think we can get the extra work done." # <--- symbol of the option used and the feedback text for it
+
+  coach:
+    dialogue: "The plan spreads authority across multiple stakeholders, including the Ministry of Health. Whether it's a good thing, or a bad thing, that's their concern. Let's send a memo gently reminding everybody of that."
+    unlocks: [circulate_memo_reaffirming_ministry_authority] # <--- these probably will symbols
+    unlocks_affects: [circulate_memo_reaffirming_ministry_authority]
+    feedback: 
+      circulate_memo_reaffirming_ministry_authority: "I'll make sure this gets into everyone's mailbox as a high priority. Don't worry: I won't write the subject in caps lock again." # <--- symbol of the option used and the feedback text for it
+
+  third_party_verifier:
+    dialogue: "You hired us to verify reports. Having a separate body double everything we're doing is worse than redundant. It's counter-productive."
+    unlocks: [ask_reduce_oversight]
+    unlocks_affects: [ask_reduce_oversight]
+    feedback: 
+      warn_verifier_1: "All right. We'll let everyone look over our shoulders all they want. But to say it's inefficient is an understatement." # <--- symbol of the option used and the feedback text for it
+
+  community_verifier:
+    dialogue: "We're tired of submitting our reports in triplicate. The work we do is hard enough without all this paperwork."
+
+  clinic_manager:
+    dialogue: "I like working with the government, I do. But doubling verification doubles the time before I get my money, and my budget is pretty tight as it is."
+    unlocks: [streamline_speed_verification_process]
+    unlocks_affects: [streamline_speed_verification_process]
+
+  hospital_administrator:
+    dialogue: "Having three levels of verification sounds like overkill to me. And my staff is confused about who's actually in charge."

@@ -808,6 +808,258 @@ sanction_ngo_2:
   indicator_2: +1
   indicator_3: 0
 
+# ----------------               ---------------- #
+# ----------------   SCENARIO 3  ---------------- #
+# ----------------               ---------------- #
+
+
+#------------------
+# Slow Verification - S3_Y1_1
+#------------------
+warn_verifier_1:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+reaffirm_ministry_authority:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+ask_reduce_oversight:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+circulate_memo_reaffirming_ministry_authority:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+streamline_speed_verification_process:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+verification_1:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+#------------------
+# Poor Management - S3_Y1_2
+#------------------
+
+warning_and_retraining_2:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+sanctions_11:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+review_business_plan:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+#------------------
+# Bad Record Keeping - S3_Y1_3
+#------------------
+
+hold_payment_2:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+sanctions_12:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+capacity_building_help:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+#------------------
+# Lack of Supplies - S3_Y1_4
+#------------------
+
+warn_providers:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+unlocks_sanction_providers:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+increase_supply_budget:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+grant_facilities_autonomy:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+#------------------
+# Staff Issues - S3_Y2_1
+#------------------
+
+warn_providers_2:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+sanctions_13:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+increase_customer_service_incentives:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+reorganize_staff:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+#------------------
+# Mismanagement - S3_Y2_2
+#------------------
+
+warning_13:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+sanctions_and_retraining_on_use_of_financial_tools_2:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+revise_business_plan_6:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+#------------------
+# Midwives - S3_Y2_4
+#------------------
+
+request_a_budget_line_from_ministry:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+allow_outreach_staff_to_act_as_midwives:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+grant_providers_autonomy_to_hire_staff:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+#------------------
+# Budget Lines - S3_Y3_1
+#------------------
+
+comply_with_ministry_2:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+rework_business_plan:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+grant_autonomy_to_providers:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+#------------------
+# Failed Inspection - S3_Y3_2
+#------------------
+
+review_the_inspection_2:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+warning_15:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+deny_review_2:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+#------------------
+# Perscriptions - S3_Y3_3
+#------------------
+
+warning_16:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+sanctions_15:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+terminate_contract_at_end_of_year_8:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+tie_incentives_directly_to_protocol:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+reduce_incentives_for_customer_service:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+#------------------
+# Missing Goals - S3_Y3_4
+#------------------
+
+return_to_traditional_financing:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+terminate_both_health_contracts_of_providers:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+terminate_hospital_contract_and_redirect_resources:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+grant_providers_autonomy:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
 
 
 # ----------------            ---------------- #
