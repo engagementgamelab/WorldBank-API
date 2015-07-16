@@ -12,27 +12,37 @@
 - symbol: capitol_city_traveler_malcom
   display_name: Traveler from the Capitol City
   description: 
-    - "A woman who you imagine might come from the capitol stands before you. At first glance you notice she seems a bit disheveled and visibly annoyed. She is wearing a high-tech eyescreen headset and seems incredibly distracted."
+    - "A woman you imagine might come from the capitol stands before you. At first glance you notice she seems a bit disheveled and visibly annoyed. She is wearing a high-tech eyescreen headset and seems incredibly distracted."
+    - "She's still waiting for her train, and looks like she's given up hope that it will ever come."
+    - "As you pass the well-dressed woman, you wish her luck on her trip to Zima."
 
 - symbol: capitol_city_professor_malcom
   display_name: Professor from the Capitol City
   description: 
     - "A well-dressed middle-aged man leans against the ticket counter, casually reading the world news on his tablet. Next to him is a small cart filled with a dozen or so textbooks on the history of Zariba. You spy a university pin on the his lapel."
+    - "The professor looks eager to continue your conversation. He has more to say."
+    - "The professor reads a text book, 'The Zariban Nation.'"
 
 - symbol: fruit_vendor_malcom
   display_name: Fruit Vendor
   description: 
     - "A young woman, maybe 19 years, is selling fruit from a well-stocked cart. Most of them you’ve never even seen before, and a perfume-like aroma wafts from a box of red berry clusters. She looks expectantly at you, smiling politely."
+    - "You catch the vendor's eye again as she finishes selling something that looks like citrus. She tells the customer it's her daughter's favorite."
+    - "The woman packs up her cart, eager to get back to her daughter and mother."
 
 - symbol: medicine_merchant_malcom
   display_name: Medicine Merchant
   description: 
     - "In the middle of the crowded marketplace, you see a man dressed in an impressive garb that feels important and professional, but at once authentic and grounded. He seems to be charming those around him as a small crowd gathers to listen to his sermon-like presentation. Behind him is an elaborate cart of small tokens and jars, all different sizes and shapes. The sign reads \"Medicine\" in multiple languages."
+    - "The Medicine Merchant is still selling his wares, delivering the same sermon-like pitch to anyone who will listen."
+    - "As you watch more people buying the man’s goods, you wonder how much he earns, and how much of that money he passes on to Mr. Todd."
 
 - symbol: two_women_malcom
   display_name: Women Waiting for Ferry
   description: 
     - "At the far end of the market there are two women in elaborate dress. You don’t know where they are from, but they are certainly not from this region, nor do they look like they came from Capitol City. Very ornamental and expensive, their dresses pop and glide in different directions and both are wearing wild headpieces. You feel a sense of royalty from them."
+    - "The two Valerian women wait impatiently for their ferry, still chatting."
+    - "As you pass by, one shoots you a withering glance. They don't want to talk to you again."
 
 
 # -------------
@@ -43,26 +53,36 @@
   display_name: Patient
   description: 
     - "A patient sits on a chair on the deck of the clinic, waiting for her turn to be seen."
+    - "The patient coughs absently. It sounds nasty, but she's used to it."
+    - "She looks at the door, probably weighing cutting her loses and going back to work."
 
 - symbol: clinician_crup
   display_name: Clinician
   description: 
     - "A tired looking man with a stethoscope around his neck stands in the doorway of the clinic. He appears to be a doctor of some sort."
+    - "Dr. Maramuta chews his pen while looking over a spreadsheet. He takes another pen from his lab coat to make notes."
+    - "You decide to let the doctor be. He's arguing with a nurse about how much time to spend with each patient."
 
 - symbol: plantation_owner_crup
   display_name: Plantation Owner
   description: 
     - "A well-dressed woman stands observing the plantation. She has evidently just come from the larger plantation house up the path."
+    - "Looking at the plantation owner, you can only guess at her age. She's gotten a lot of sun and wind to make her look out home in the fields. She notices you looking at her."
+    - "She's focused on a bog at the back of the estate. Something needs her attention, and as she leaves, you notice she favors her left leg."
 
 - symbol: old_men_gaming_crup
   display_name: Old Men Gaming
   description: 
     - "A pair of older men sit under the shade of a palm, playing some sort of tile-laying game. The gaming set is finely crafted from polished wood, but seems old and well worn. They chat as they play."
+    - "Eventually you get their attention away from the game. No mean feat, since one of them captured a piece and the other was loudly damning him for it."
+    - "You listen some more, but after that last capture, both men are more intent on the game."
 
 - symbol: mech_farmer_crup
   display_name: Mech Farmer
   description: 
     - "A man leans up against a large piece of advanced farming equipment smoking a cigarette. It looks like he’s taking a break."
+    - "You continue to chat with the man, only distracted a little by his mech. You're surprised by how cool it is, a giant farming robot."
+    - "The man extinguishes his half-smoked cigarette and stashes it in the soft pack he keeps rolled in his sleeve. Time to get back to work."
 
 # -------------
 # Mile
@@ -72,21 +92,29 @@
   display_name: Nomad
   description: 
     - "A short man sits in the shade, tuning what looks like a harp. Haven’t you seen him somewhere before?"
+    - "Probably? Maybe? It's almost as if you can't remember his face when you look away."
+    - "You turn away and try to--nope. Can't remember what he looks like. You try it two more times. He's amused and that's only more frustrating."
 
 - symbol: farm_worker_mile
   display_name: Farm Worker
   description: 
-    - "A woman that looks to be in her thirties crouches down among rows of fresh crops, harvesting the land’s bounty. Her movements are precise and efficient, like she has been doing this her whole life. She hums softly to herself as she works in rhythm with her motions. The only adornment on her otherwise spartan attire is a small, shabby locket dangling from her neck."
+    - "A woman who looks to be in her thirties crouches down among rows of fresh crops, harvesting the land’s bounty. Her movements are precise and efficient, like she has been doing this her whole life. She hums softly to herself as she works in rhythm with her motions. The only adornment on her otherwise spartan attire is a small, shabby locket dangling from her neck."
+    - "You notice the thin tan line from the locket's chain. While you're looking, she starts talking again."
+    - "She blows some dirt off her hand before running her fingers over the locket. All the while she detassels with her other hand."
 
 - symbol: settled_refugee_mile
   display_name: Settled Refugee
   description: 
     - "You see a man in his forties reading a news magazine in the shade, slight perspiration beading along his receding hairline. The magazine looks like one from the newsstand at the train station, perhaps dropped by a careless traveler some time ago."
+    - "You look at the magazine. The man's reading an article about fall fashions, probably just to pass the time."
+    - "You want to talk with him some more, but you can't trust yourself not to remind him of what he's lost."
 
 - symbol: midwife_mile
   display_name: Midwife
   description: 
     - "A middle-aged woman walks down the path from the train station. She looks preoccupied by something, and perhaps a little angry. She carries medical texts with her, including a volume on midwifery."
+    - "As you talk with the midwife, she shifts her weight back and forth, right and left. She likely stood for most of the day long journey here."
+    - "Her book on midwifery is new, but it's the seventh edition of the text. You wonder how old the title is."
 
 # -------------
 # Kibari
@@ -106,16 +134,22 @@
   display_name: Mr. Todd
   description: 
     - "An older man stands in front of a grand domicile. He grins broadly, gesturing emphatically as he speaks to a young woman who is clearly a customer of his. \"Burn this incense before you sleep,\" you hear him say, \"Every night for one month. No more and no less.\" The woman looks happy, and very grateful."
+    - "You wish he would stop smiling long enough for you to feel like he's actually talking to you. 'The cat who got the canary' pops into your mind."
+    - "You mutter some pleasantry as you excuse yourself, annoyed that everyone else's defference to the man rubbed off on you."
 
 - symbol: traveling_merchant_kibari
   display_name: Traveling Merchant
   description: 
     - "This man is clearly a merchant of some sort, with wares from all over Zariba. He calls out to people on the street, \"Fresh fruit from Mile! Cigars from Crup! Technology from the Capitol! I have it all!\""
+    - "While you talk with the merchant you admire his clothes. They aren't especially nice. They're plain, actually. But just fasionable enough to look presentable without evoking any one region of Zariba."
+    - "You would talk with the merchant more, ask him about travel around Zariba, but he's caught up in haggling with a customer over a Milean vase."
 
 - symbol: nomad_kibari
   display_name: Nomad
   description: 
     - "A short man sits in the shade, tuning what looks like a harp. Haven’t you seen him somewhere before?"
+    - "You can't shake the feeling. Maybe he just has one of those faces."
+    - "You'd talk with him some more, but the way he looks at you, as if he knows you can't quite place him."
 
 # -------------
 # Valeria
@@ -125,16 +159,22 @@
   display_name: Grandmother with Toddler
   description: 
     - "An older woman stands with a young boy, probably her grandson. They seem a trifle lost."
+    - "The grandmother is willing to talk with you, even as she wipes some smudge off her grandson's face."
+    - "As you walk away, you glance over your shoulder. She's doting on the boy enough to make him fussy."
 
 - symbol: spoiled_twins_valeria
   display_name: Twins
   description: 
     - "A young man and woman, probably in their late teens, seem to be waiting to board an airship. They look very much alike. Probably they are brother and sister. Perhaps even twins."
+    - "While they talk, mostly for their benefit though technically answering your question, you look more closely. They have matching bracelets and that weird familiarity twins sometimes have."
+    - "You thank them for their time and wish you could dismiss what they said, although you suspect they're right about the hospitals' smell."
 
 - symbol: lydia_airship_pilot_valeria
   display_name: Airship Pilot
   description: 
     - "A woman fidgets with her flight suit, tightening a loose strap and pulling her zipper a little higher. She appears to be in her late 20s, and preparing to depart soon via airship."
+    - "As you talk, you can tell she isn't really looking at you, but at her airship. She has the ship's name, 'The Pleiades' stitched into her flight jacket."
+    - "After your done with your questions, you listen politely as she describes her ship's seven engine system. It's all very complicated, but you feel good listening."
 
 - symbol: nomad_valeria
   display_name: Nomad
