@@ -1,0 +1,53 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Problem YAML
+# ==============
+
+# Phase Two Scenario Card YML Example
+
+symbol: over_capacity
+name: "Over Capacity"
+priority: 11
+
+initiating_npc: director_regional_health_services # <--- character's symbol
+initiating_dialogue: "We've seen some great improvements over the past three years, but now the hospital is butting up against capacity. We might need to expand hiring to keep up with demand."
+
+starting_options: [expand_hiring_of_hospital_staff]
+starting_options_affects: [expand_hiring_of_hospital_staff]
+starting_options_cost: [medium]
+
+final_options: [expand_hiring_of_hospital_staff, expand_hiring_at_all_facilities, award_bonuses_to_hospital_staff]
+final_options_affects: [expand_hiring_of_hospital_staff, expand_hiring_at_all_facilities, award_bonuses_to_hospital_staff]
+final_options_cost: [medium, large, medium]
+
+
+characters:
+
+  # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
+  dep_minister_of_health: # <--- character's symbol
+    dialogue: "This is great news, as far as we're concerned!"
+    feedback: 
+      expand_hiring_of_hospital_staff: "Perfect. This should ease our capacity problems."
+
+  coach:
+    dialogue: "From what I've seen, some extra help would go a long way, but I am concerned about the learning curve for new workers."
+
+  third_party_verifier:
+    dialogue: "This is a good problem to have."
+
+  community_verifier:
+    dialogue: "The people in my most recent sample have been happy with the services they received, but did report long waits."
+
+  clinic_manager:
+    dialogue: "I'd love to have more staff. Or is this just for the hospital?  Don't forget to take care of the people doing the hard work at the clinics."
+    unlocks: [expand_hiring_at_all_facilities]
+    feedback: 
+      expand_hiring_at_all_facilities: "This was needed very badly. I look forward to meeting my new recruits."
+
+  hospital_administrator:
+    dialogue: "I am worried about on-boarding many new people. Perhaps we should reward the people who have got us this far? Bonuses and overtime would make my staff happy."
+    unlocks: [award_bonuses_to_hospital_staff]
+    feedback:
+      award_bonuses_to_hospital_staff: "This will really help motivate my staff. Thanks!"
