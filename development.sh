@@ -23,7 +23,7 @@ then
 
 	printf "\n>>>> Adding content to server root for git push \n";
 
-	git add .;
+	git add --all;
 	git commit -m "Synced content to server root.";
 else
 	printf "\n>>>> /content and /server/content are the same \n";
