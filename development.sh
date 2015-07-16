@@ -10,7 +10,7 @@
 printf "\n${COLOR}@@@@@@@@@@@@@@\nEngagement Lab API Dev Automation\n@@@@@@@@@@@@@@\n${NC}"
 
 # See if /content and /server/content differ
-CONTENT_DIFF=$(diff -qr  content server/content);
+CONTENT_DIFF=$(diff -x '.*' -qr content server/content);
 
 if [ "$CONTENT_DIFF" != "" ]
 then
