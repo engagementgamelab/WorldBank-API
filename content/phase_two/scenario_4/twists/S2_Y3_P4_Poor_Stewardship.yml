@@ -1,0 +1,59 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Problem YAML
+# ==============
+
+# Phase Two Scenario Card YML Example
+
+symbol: poor_stewardship
+name: "Poor Stewardship"
+priority: 13
+
+initiating_npc: third_party_verifier
+initiating_dialogue: "I can tell you right now what's happening because I've seen it before. People all along the chain are skimming money because the NGO and Ministry have both backed off of their responsibilities. When there's no clear authority, corruption sets in. This is what's happening here."
+
+starting_options: [clarification_of_roles_8]
+starting_options_affects: [clarification_of_roles_8]
+starting_options_cost: [small]
+
+final_options: [clarification_of_roles_8, terminate_ngo_contract_6, sanction_ngo_2]
+final_options_affects: [clarification_of_roles_8, terminate_ngo_contract_6, sanction_ngo_2]
+final_options_cost: [small, small, small]
+
+characters:
+
+  dep_minister_of_health: 
+    dialogue: "It looks like the NGO is making things worse, not better. If the NGO isn't doing their job, you terminate their contract."
+    unlocks: [terminate_ngo_contract_6]
+    unlocks_affects: [terminate_ngo_contract_6]
+
+  director_regional_health_services:
+    dialogue: "I can imagine what the Dep. Minister told you, but I'm going to advise sanctioning them. They've been with us for a while now, after all."
+    unlocks: [sanction_ngo_2]
+    unlocks_affects: [sanction_ngo_2]
+
+  ngo_manager:
+    dialogue: "You're going to threaten to terminate our contract because somewhere along the line there's corruption. You should probably see where it's happening."
+    unlocks: [sanction_verifier]
+    unlocks_affects: [sanction_verifier]
+    feedback:
+      terminate_ngo_contract_6: "We've been getting kids vaccinated against fatal diseases, improving care, saving lives. That is what you are screwing up here."
+      sanction_ngo_2: "I don't know what you expect me to do with more sanctions. I'm trying to manage a complex network, and this only complicates it more."
+
+  coach:
+    dialogue: "This could ruin everything you've built here. If it does, the Minister and Regional Director will have to deal with it. It's only fair you go to them with this."
+    narrows: [ngo_manager, coach, third_party_verifier, community_verifier, hospital_administrator]
+    feedback:
+        clarification_of_roles_8: "People are starting to think this is a band-aid, smoothing things over and rereading job descriptions every time something serious happens. This is pretty serious, here."
+
+  third_party_verifier:
+    feedback:
+        sanction_verifier: "I have been working for you this whole time, and it should tell you something that the NGO wanted me fired."
+
+  community_verifier:
+    dialogue: "This is kind of a mess. I don't want this to turn into a bigger problem than it has to be."
+
+  hospital_administrator:
+    dialogue: "There is no evidence that anyone in my hospital is profiting unduly. IF any such information were to become apparent, I would be the first to recognize and rectify the situation, but as there is none, I have no responsibility to dignify your accusation with a response. ... No, you may not take a look at our books for yourself. ... No, not my personal bank account, either."
