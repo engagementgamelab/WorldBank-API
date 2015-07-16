@@ -10,6 +10,6 @@ name: "Government Overreach on Verification"
 
 prompt: "do you want to fire the clinic?"
 choices:
-  - yes: "Yes"
+  - text: "Yes"
     load: "twist_1" # <---- This will bring the player to SCENARIO 1, YEAR 2, TWIST 1
-  - no: "No" # <---- This will keep player in SCENARIO 1, NO TWIST!
+  - text: "No" # <---- This will keep player in SCENARIO 1, NO TWIST!
