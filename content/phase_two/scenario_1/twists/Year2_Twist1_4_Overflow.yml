@@ -10,6 +10,9 @@
 symbol: twist_overflow
 name: "Overflow"
 priority: 4
+year: 2
+twist: 1
+
 
 initiating_npc: third_party_verifier # <--- character's symbol
 initiating_dialogue: "We have more referrals than expected from the traditional medicine practitioners. It looks like some people are going more than once."

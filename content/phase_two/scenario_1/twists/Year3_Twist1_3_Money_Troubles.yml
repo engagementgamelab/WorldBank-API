@@ -10,6 +10,8 @@
 symbol: twist_money_troubles
 name: "Money Troubles"
 priority: 3
+year: 3
+twist: 1
 
 initiating_npc: health_provider_3 # <--- character's symbol
 initiating_dialogue: "Hello! Wonderful to talk to you today. I have a problem, however. Some of the traditional healers I work with are telling me they do not wish to refer to your facilities. They say they could make more money by selling the traditional remedies that you are replacing."
