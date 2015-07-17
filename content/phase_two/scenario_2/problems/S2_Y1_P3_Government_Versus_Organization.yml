@@ -10,6 +10,7 @@
 symbol: government_v_organization
 name: "Government versus Organization"
 priority: 3
+year: 1
 
 initiating_npc: dep_minister_of_health
 initiating_dialogue: "The NGO's giving us the run-around when we ask to counter-verify their reports. You need to get them to realize their presence here depends on their transparency."

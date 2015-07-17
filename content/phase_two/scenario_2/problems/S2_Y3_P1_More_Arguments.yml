@@ -9,7 +9,8 @@
 
 symbol: more_arguments
 name: "More Arguments"
-priority: 10
+priority: 1
+year: 3
 
 initiating_npc: director_regional_health_services
 initiating_dialogue: "I'm getting a different answer from everyone, so I'll ask you to straighten them out. The Ministry, NGO, and health care providers can't agree on who has jurisdiction where and what we're supposed to do for patients."

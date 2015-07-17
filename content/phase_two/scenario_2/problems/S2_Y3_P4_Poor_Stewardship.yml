@@ -9,7 +9,8 @@
 
 symbol: poor_stewardship
 name: "Poor Stewardship"
-priority: 13
+priority: 4
+year: 3
 
 initiating_npc: third_party_verifier
 initiating_dialogue: "I can tell you right now what's happening because I've seen it before. People all along the chain are skimming money because the NGO and Ministry have both backed off of their responsibilities. When there's no clear authority, corruption sets in. This is what's happening here."

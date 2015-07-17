@@ -9,7 +9,8 @@
 
 symbol: transparency
 name: "Transparency"
-priority: 7
+priority: 3
+year: 2
 
 initiating_npc: third_party_verifier # <--- character's symbol
 initiating_dialogue: "There is an ongoing issue with the Clinic Manager. They looked like small stuff, but since they've had issues with record keeping, I looked more closely. I found some forms that are exact duplicates of others, which means they're filing duplicate reports to boost their numbers."

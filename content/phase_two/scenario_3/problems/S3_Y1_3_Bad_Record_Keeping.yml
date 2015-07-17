@@ -10,6 +10,7 @@
 symbol: bad_record_keeping
 name: "Bad Record Keeping"
 priority: 3
+year: 1
 
 initiating_npc: third_party_verifier # <--- character's symbol
 initiating_dialogue: "The Clinic submitted their reports to us, but there were some inconsistancies. When we asked to see their records, they couldn't supply them."

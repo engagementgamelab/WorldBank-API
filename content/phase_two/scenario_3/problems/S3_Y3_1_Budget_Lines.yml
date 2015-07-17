@@ -9,7 +9,8 @@
 
 symbol: budget_lines
 name: "Budget Lines"
-priority: 9
+priority: 1
+year: 3
 
 initiating_npc: hospital_administrator # <--- character's symbol
 initiating_dialogue: "I received a memo today on the new national health budget. The ministry released new hiring guidelines for all providers, but they don't match the goals you gave us. "

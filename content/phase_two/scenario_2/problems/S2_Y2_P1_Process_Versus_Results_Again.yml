@@ -9,7 +9,8 @@
 
 symbol: process_v_results_again
 name: "Process Versus Results"
-priority: 5
+priority: 1
+year: 1
 
 initiating_npc: ngo_manager
 initiating_dialogue: "Vaccination prices went up, so we couldn't hit our numbers again. But if we don't get our bonus, next quarter it'll be a disaster."

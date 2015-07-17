@@ -9,7 +9,8 @@
 
 symbol: missing_goals
 name: "Missing Goals"
-priority: 12
+priority: 4
+year: 3
 
 initiating_npc: dep_minister_of_health # <--- character's symbol
 initiating_dialogue: "I'm disappointed to say this, but things are not going well. Providers routinely miss goals, and our indicators have not risen as predicted. We're thinking about declaring the plan DOE and cancelling it for next year. This would mean a return to traditional financing."

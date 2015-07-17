@@ -9,7 +9,8 @@
 
 symbol: mismanagement
 name: "Mismanagement"
-priority: 5
+priority: 1
+year: 2
 
 initiating_npc: coach # <--- character's symbol
 initiating_dialogue: "I was visiting the hospital for my mentoring visit, and they are still mismanaging funds. The business plan has clear guidelines the Administrator is not sticking to."

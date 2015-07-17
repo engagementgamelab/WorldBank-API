@@ -9,7 +9,8 @@
 
 symbol: perscriptions
 name: "Perscriptions"
-priority: 11
+priority: 3
+year: 3
 
 initiating_npc: community_verifier # <--- character's symbol
 initiating_dialogue: "I've been interviewing patients, and at least at the clinics there's a serious quality of care issue. People have been leaving with what appears to be completely wrong perscriptions."

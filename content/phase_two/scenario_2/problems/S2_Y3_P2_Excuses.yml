@@ -9,7 +9,8 @@
 
 symbol: excuses
 name: "Excuses"
-priority: 11
+priority: 2
+year: 3
 
 initiating_npc: ngo_manager
 initiating_dialogue: "We've talked about the problems of expectations. We can meet our goals better if we get our bonuses."
