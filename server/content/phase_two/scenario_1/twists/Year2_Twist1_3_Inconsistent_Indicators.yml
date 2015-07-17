@@ -9,7 +9,9 @@
 
 symbol: twist_inconsistent_indicators
 name: "Inconsistent Indicators"
-priority: 7
+priority: 3
+year: 2
+twist: 1
 
 initiating_npc: dep_minister_of_health # <--- character's symbol
 initiating_dialogue: "We are seeing some indicators rise while others stay stagnant. Hospital births are barely rising, though checkups and vaccination rates are improving. We need to see all indicators rising!"

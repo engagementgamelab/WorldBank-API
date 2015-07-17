@@ -10,6 +10,8 @@
 symbol: twist_2_field_records
 name: "Field Records"
 priority: 4
+year: 3
+twist: 2
 
 initiating_npc: dep_minister_of_health # <--- character's symbol
 initiating_dialogue: "We are having difficulty tracking the effectiveness of travelling nurses in the field. We can't confirm they are meeting goals or having positive impacts on indicators."

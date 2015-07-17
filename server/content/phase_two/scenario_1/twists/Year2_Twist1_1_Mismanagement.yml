@@ -9,7 +9,9 @@
 
 symbol: twist_mismanagement
 name: "Mismanagement"
-priority: 5
+priority: 1
+year: 2
+twist: 1
 
 initiating_npc: coach # <--- character's symbol
 initiating_dialogue: "I was visiting the hospital of Provider 2 for my quarterly audit, and they are still mismanaging funds. The business plan has clear guidelines they are not sticking to."

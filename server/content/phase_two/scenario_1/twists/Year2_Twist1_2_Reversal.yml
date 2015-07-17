@@ -10,6 +10,8 @@
 symbol: twist_reversal
 name: "Reversal"
 priority: 2
+year: 2
+twist: 1
 
 initiating_npc: health_provider_3 # <--- character's symbol
 initiating_dialogue: "Hello! Again, I must say I am very pleased to be working with you. My customers though, are less happy. They are reluctant to go to your hospitals even though I refer them. Couldn't you train someone here to do the work of your nurses?"
