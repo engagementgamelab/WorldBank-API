@@ -9,7 +9,8 @@
 
 symbol: micromanagement
 name: "Micromanagement"
-priority: 12
+priority: 3
+year: 3
 
 initiating_npc: ngo_manager
 initiating_dialogue: "I keep getting calls from the Minister of Health's office checking in on us, telling us what we could be doing better, telling us how to handle things. That's your job, right?"

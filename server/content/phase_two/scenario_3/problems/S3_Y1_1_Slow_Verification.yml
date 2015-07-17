@@ -10,6 +10,7 @@
 symbol: slow_verification
 name: "Government overreach on verification"
 priority: 1
+year: 1
 
 initiating_npc: dep_minister_of_health # <--- character's symbol
 initiating_dialogue: "The independant verifier and the health providers seem to have built a coalition to box us out of the verification proccess. This plan gives us the authority to verify any and all reports, but they're pushing back."

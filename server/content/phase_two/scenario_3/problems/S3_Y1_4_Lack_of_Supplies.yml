@@ -10,6 +10,7 @@
 symbol: lack_of_supplies
 name: "Lack of Supplies"
 priority: 4
+year: 1
 
 initiating_npc: community_verifier # <--- character's symbol
 initiating_dialogue: "Community Verifier"

@@ -10,6 +10,7 @@
 symbol: process_v_results
 name: "Process versus Results"
 priority: 2
+year: 1
 
 initiating_npc: ngo_manager
 initiating_dialogue: "Look. I know we haven't hit the numbers you laid out, but we got a lot of good work done. We can easily make our marks next quarter if the payer issues us our bonus for this period."

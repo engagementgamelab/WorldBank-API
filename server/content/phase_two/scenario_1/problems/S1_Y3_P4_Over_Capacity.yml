@@ -9,7 +9,8 @@
 
 symbol: over_capacity
 name: "Over Capacity"
-priority: 11
+priority: 4
+year: 3
 
 initiating_npc: director_regional_health_services # <--- character's symbol
 initiating_dialogue: "We've seen some great improvements over the past three years, but now the hospital is butting up against capacity. We might need to expand hiring to keep up with demand."

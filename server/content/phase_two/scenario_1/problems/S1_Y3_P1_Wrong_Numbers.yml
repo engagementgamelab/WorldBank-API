@@ -9,7 +9,8 @@
 
 symbol: wrong_numbers
 name: "Wrong Numbers"
-priority: 9
+priority: 1
+year: 3
 
 initiating_npc: third_party_verifier # <--- character's symbol
 initiating_dialogue: "I have been reviewing the Hospital Administrator's records, and they do not check out. There is either fraud or accidental misreporting here."

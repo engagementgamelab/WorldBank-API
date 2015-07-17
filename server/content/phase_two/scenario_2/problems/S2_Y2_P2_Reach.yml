@@ -9,7 +9,8 @@
 
 symbol: reach
 name: "Reach"
-priority: 6
+priority: 1
+year: 2
 
 initiating_npc: dep_minister_of_health
 initiating_dialogue: "We're seeing underserved populations throughout the south. The NGO really seems to be falling short of their promises, at least in this area."

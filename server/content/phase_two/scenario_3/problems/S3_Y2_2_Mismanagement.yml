@@ -9,7 +9,8 @@
 
 symbol: mismanagement
 name: "Mismanagement"
-priority: 6
+priority: 2
+year: 2
 
 initiating_npc: coach # <--- character's symbol
 initiating_dialogue: "Coach"

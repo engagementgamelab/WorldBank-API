@@ -9,7 +9,8 @@
 
 symbol: failed_inspection
 name: "Failed Inspection"
-priority: 10
+priority: 3
+year: 3
 
 initiating_npc: clinic_manager # <--- character's symbol
 initiating_dialogue: "Hey, we just received a memo telling us we failed a quality of care inspection, but I disagree with the assessment. Given the amount of strain we are under, I believe we need to be granted some leeway in order to serve patients."

@@ -10,6 +10,7 @@
 symbol: dodging_responsibility
 name: "Dodging Responsibility"
 priority: 4
+year: 1
 
 initiating_npc: coach # <--- character's symbol
 initiating_dialogue: "I requested a meeting with the Clinic Manager recently to go over their record-keeping practices, but it keeps getting rescheduled and canceled. I can't get a firm commitment from them. It is a little suspicious, frankly."

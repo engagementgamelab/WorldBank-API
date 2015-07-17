@@ -9,7 +9,8 @@
 
 symbol: checkup_overload
 name: "Checkup Overload"
-priority: 12
+priority: 5
+year: 3
 
 initiating_npc: dep_minister_of_health # <--- character's symbol
 initiating_dialogue: "We have been looking at the numbers, and outpatient consultations have risen much faster than projected. We can't explain it."

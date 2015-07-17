@@ -10,6 +10,7 @@
 symbol: poor_management
 name: "Poor Management"
 priority: 2
+year: 1
 
 initiating_npc: coach # <--- character's symbol
 initiating_dialogue: "The hospital administrator and I were reviewing the hospital's business plan and they are not doing a good job managing their money. Even with our payments they're operating at a loss."

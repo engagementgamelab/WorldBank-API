@@ -9,7 +9,8 @@
 
 symbol: more_transparency
 name: "More Transparency"
-priority: 8
+priority: 4
+year: 2
 
 initiating_npc: coach # <--- character's symbol
 initiating_dialogue: "I was visiting one of the clinics in the network for my mentoring visit, and I was unhappy with their transparency. There were some records I was told were unavailable, and I was not able to meet with the staff as I wished."

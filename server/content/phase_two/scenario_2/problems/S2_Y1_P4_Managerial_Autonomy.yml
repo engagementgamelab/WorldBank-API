@@ -10,6 +10,7 @@
 symbol: managerial_autonomy_hiring
 name: "Managerial Autonomy"
 priority: 4
+year: 1
 
 initiating_npc: director_regional_health_services
 initiating_dialogue: "My hospitals can't hire good staff because the NGO is strangling the budget. I don't know how they expect to reach their goals if they won't let us give good care."

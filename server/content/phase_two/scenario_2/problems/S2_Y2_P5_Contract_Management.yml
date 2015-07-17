@@ -9,7 +9,8 @@
 
 symbol: contract_management
 name: "Contract Management"
-priority: 9
+priority: 5
+year: 2
 
 initiating_npc: ngo_manager
 initiating_dialogue: "We're still waiting on the fundholder to pay us. The Finance Minister's approval process has hamstrung us, and we need to get our money to pay our people."

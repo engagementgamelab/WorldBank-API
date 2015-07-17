@@ -10,6 +10,7 @@
 symbol: lack_of_procedure
 name: "Lack of Procedure"
 priority: 1
+year: 1
 
 initiating_npc: director_regional_health_services
 initiating_dialogue: "With all these changes, my providers have expressed a lot of general confusion about roles, and the ministry hasn't been able to help. Can you clarify this for me?"

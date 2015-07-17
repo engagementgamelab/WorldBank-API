@@ -9,7 +9,8 @@
 
 symbol: staff_issues
 name: "Staff_Issues"
-priority: 5
+priority: 1
+year: 2
 
 initiating_npc: community_verifier # <--- character's symbol
 initiating_dialogue: "In many of my focus groups, there's an air of mistrust of the hospitals and clinics. People who go have experienced terrible service and are telling their neighbors not to go."
