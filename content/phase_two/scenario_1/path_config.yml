@@ -1,0 +1,18 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Scenario One Path Config YAML
+# ==============
+
+prompt_year_1: "do you want to do something?"
+prompt_year_2: "do you want to do something?"
+choices: # <---- The choices the player will see during a year break.
+  - text: "Fire Clinic"
+    # This instructs the game to load the player into twist 1 if at end of year 1.
+    # At end of year 2, it would load year 3's twist 1 OR 2 depending on if the player chose an option at end of year 1.
+    # This can also be a scenario, e.g. "scenario_4", in which case the player is brought to the specified scenario, with its *default* problems loaded.
+    load: "twist" 
+
+  - text: "Fire Hospital"
+    load: "twist"
