@@ -1,0 +1,51 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Problem YAML
+# ==============
+
+# Phase Two Scenario Card YML Example
+
+symbol: poor_management
+name: "Poor Management"
+priority: 3
+
+initiating_npc: third_party_verifier # <--- character's symbol
+initiating_dialogue: "The clinic submitted their reports to us, but there were some inconsistencies. When we asked to see their records, they could not supply them."
+
+starting_options: [warning_and_retraining_1, terminate_contract_effective_end_of_year_1]
+starting_options_affects: [warning_and_retraining_1, terminate_contract_effective_end_of_year_1]
+starting_options_cost: [small, large]
+
+final_options: [warning_and_retraining_1, terminate_contract_effective_end_of_year_1]
+final_options_affects: [warning_and_retraining_1, terminate_contract_effective_end_of_year_1]
+final_options_cost: [small, large,]
+
+
+characters:
+
+  # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
+  dep_minister_of_health: # <--- character's symbol
+    dialogue: "There are other health providers in the region we could use. This is the largest, but it doesn't mean it is the best. "
+
+  director_regional_health_services:
+    dialogue: "The staff at the hospital have been slow to adapt new practices."
+
+  coach:
+    feedback: 
+      terminate_contract_effective_end_of_year_1: "It seems early to terminate their contract, but let's review at year's end. In the meantime, I will be observing and offering ways to improve."
+
+  third_party_verifier:
+    dialogue: "The data we've been seeing from this provider does indicate fund mismanagement." 
+
+  community_verifier:
+    dialogue: "I would talk directly to them if I were you."
+
+  clinic_manager:
+    dialogue: "I don't really have time to talk about this right now. Sorry."
+
+  hospital_administrator:
+    dialogue: "We're doing our best here.  There are many intricacies to the business plan, and not everyone on my staff understands them. I'm sure they'll get used to it soon, though."
+    feedback: 
+      warning_and_retraining_1: "Do you really think this is necessary?"

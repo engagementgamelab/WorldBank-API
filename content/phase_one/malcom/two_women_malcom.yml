@@ -10,12 +10,26 @@ symbol: dialogue_two_women_malcom
 character: two_women_malcom
 
 # DIALOGUE FORMAT:
-# - Initial: First dialogue player sees after reading character_description.
+# - Initial: First dialogue player sees after reading character_description. This text is a multiline array, where the first string is what player sees before completing any of this character's dialogue tree, and the second and third is text they'll see subsequent to reach the end of the first and second trees.
 # ====> Use double-bracket notation for words or phrases that, if tapped, unlock subsequent tree 
 #       -- e.g. [[this]] will open the "This" dialogue option
 # - This: "this" dialogue tree
-#   unlocks: route_to_kibari <-- this is a symbol we'll store in another "abilities" file so its display text can be easily tweaked globally.
+#   unlocks: [route_to_kibari] <-- this is a symbol stored in "unlockables.yml", so its display text can be easily tweaked globally.
 dialogue:
     Initial:
-      text: "As you approach they both turn to eye you up and down, and you feel a sense of being judged for your attire. They turn back to each other smirking, continuing their conversation. \n\"This market was fun for an hour or so, but I just cannot wait to be back at the estate. Did you hear? Uncle will be renovating the outer sand gardens to make space for three new horses!\"\n The second woman smiles. \"That sounds lovely. Hopefully next spring he'll finally put in that airship tether he's always going on about. What time is it, dear? The ferry should be here soon!\""
-      unlocks: unlockable_route_malcom_to_valeria
+      text: 
+        - "As you approach they both turn to eye you up and down, and you feel a sense of being judged for your attire. They turn back to each other smirking, continuing their conversation. \n\"This market was fun for an hour or so, but I just cannot wait to be back at the estate. Did you hear? Uncle will be renovating the outer sand gardens to make space for three new horses!\"\n The second woman smiles. \"That sounds lovely. Hopefully next spring he'll finally put in that airship tether he's always going on about.\" [[Keep Listening]] [[Interrupt Them]]"
+
+        - "They're still talking, but they seem aware that you're nearby. You're beginning to feel a little awkward."
+
+    Keep Listening:
+      text: 
+      - "You've been noticed. \"What time is it, dear? The ferry home should be here soon...\" is all they say."
+      unlocks: [unlockable_route_malcom_to_valeria]
+      unlocks_context: ["You discovered a new route to Valeria."]
+
+    Interrupt Them:
+      text: 
+      - "They seem surprised that you're addressing them, and even more surprised that you'd be asking them about healthcare. \"We're from Valeria,\" one of them says. \"So I'm not sure what I could tell you about highland clinics.\" The other considers for a moment. \"You know who would know? Lydia. The airship pilot. She's having a baby soon, I heard. If you pass through Valeria, you can ask her.\""
+      unlocks: [unlockable_dialogue_lydia]
+      unlocks_context: ["Find Lydia in Valeria to ask her about this."]

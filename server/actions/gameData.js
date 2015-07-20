@@ -15,30 +15,32 @@ Created by Engagement Lab, 2015
 * @class gameData
 * @return {Object} Raw JSON containing all current static game data.
 */
+
+var fs = require('fs');
+var path = require('path')
+var dir = require('node-dir');
+var _ = require('underscore');
+
 exports.action = {
     name: 'gameData',
     description: 'Retrieve all current game data.',
     blockedConnectionTypes: [],
     outputExample: {},
     matchExtensionMimeType: false,
-    version: 1.0,
+    version: 1.4,
     toDocument: true,
+    // requiresAuth: true,
 
     inputs: {},
 
     /* GET game data. */
-    run: function (api, connection, next) {
-
-        var fs = require('fs');
-        var path = require('path')
-        var dir = require('node-dir');
-        var _ = require('underscore');
+    run: function (api, data, next) {
 
         // Get global config options
         var _fileOptions = api.gameConfig.options;
 
         // Load global content config
-        var contentConfig = api.gameConfig.content;
+        var _contentConfig = api.gameConfig.content;
 
         // Find the corresponding config value in our global content config file 
         // if any of the YAML input has the "$config_" prefix
@@ -54,7 +56,7 @@ exports.action = {
                 else if (ymlValue[i].indexOf("$config_") !== -1) {
                   
                   var configPath = ymlValue[i].replace("$config_","").split("_");
-                  var configVal = contentConfig;
+                  var configVal = _contentConfig;
                 
                   // Crawl through the config path until we have the correct value
                   // eg. cooldown -> short
@@ -83,7 +85,7 @@ exports.action = {
 
             if(child !== undefined)
               filePath = filePath + '/' + child;
-
+            
             // Get file stats and path base name
             var fileStats = fs.lstatSync(filePath);
             var fileBaseName = path.basename(filePath);
@@ -115,7 +117,7 @@ exports.action = {
                       var fileResponse = loadFilesInPath(filePath, subChild, parent);
   
                       if(fileResponse != false)
-                        connection.response[subChild] = loadFilesInPath(filePath, subChild, parent);
+                        data.response[subChild] = loadFilesInPath(filePath, subChild, parent);
                     }
                   }
 
@@ -154,7 +156,7 @@ exports.action = {
 
                   try {
            
-                    var ymlContent = api.readYaml(filePath);
+                    var ymlContent = api.readYaml(filePath.replace(_fileOptions.content_root + '/', ''), _fileOptions.content_root);
 
                     // Do not output file contents if marked as private (is used internally by API)
                     if(ymlContent.private == undefined || !ymlContent.private)
@@ -164,7 +166,7 @@ exports.action = {
 
                       // Assign subcontents of this path
                       if(parent.indexOf(child) !== -1)
-                        connection.response[fileBaseName.substring(0, fileBaseName.lastIndexOf("."))] = ymlContent;
+                        data.response[fileBaseName.substring(0, fileBaseName.lastIndexOf("."))] = ymlContent;
                       else
                         fileResponse = ymlContent;
                     }
@@ -173,14 +175,14 @@ exports.action = {
                   catch(e) {
 
                     // Create error and set response to 400 bad request
-                    connection.rawConnection.responseHttpCode = 400;
+                    data.connection.rawConnection.responseHttpCode = 400;
 
-                    if(connection.response.errors == null)
-                        connection.response.errors = []
+                    if(data.response.errors == null)
+                        data.response.errors = []
                     
-                    connection.response.errors.push(e);
+                    data.response.errors.push(e);
                     
-                    connection.error = new Error(e);
+                    data.error = new Error(e);
 
                   }
                   
@@ -195,7 +197,7 @@ exports.action = {
 
         // Recursively find all files specified by filter and load into response
         loadFilesInPath(_fileOptions.content_root + "/", undefined, fs.readdirSync(_fileOptions.content_root + "/"));
-        next(connection, true);
+        next();
 
     }
 };

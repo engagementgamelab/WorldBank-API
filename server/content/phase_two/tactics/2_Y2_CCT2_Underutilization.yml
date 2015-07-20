@@ -1,0 +1,49 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Tactic YAML
+# ==============
+
+# Phase Two Tactic YML Template
+
+symbol: tactic_underutilization
+tactic_name: unlockable_conditional_cash_transfer  # <--- symbol of the tactic (stored in unlockables.yml) this card is using
+name: "Underutilization" # <--- display name for card
+year: 2 
+
+# This dialogue the player sees first
+initiating_dialogue: "For some reason, people just aren't taking advantage of this program as much as they should be. Our projections were flawed somehow."
+
+# The dialogue the player sees when investigation has results to show
+investigate_dialogue: "After conducting surveys, it's clear that the incentives we identified just aren't worth it to most people."
+
+# The dialogue the player sees when further investigation has results to show
+investigate_further_dialogue: "There may be some social or cultural barrier at play here that is discouraging people from accepting these incentives. Changing the incentives all together, and repackaging the program seems advisable."
+
+# These are special parameters that load a cooldown array, which is defined in content/config.yml under 'cooldown:'
+# For example, specifying $config_cooldown_long will choose the key found in config.yml under:
+# ----- cooldown:
+# -----  long: [20, 14, 10]
+investigate_cooldown: $config_cooldown_short
+investigate_further_cooldown: $config_cooldown_long
+
+# These are the usable player options added after investigation is done
+# Note that each key (e.g. 'information_campaign') MUST correspond to the one under "_affects" and feedback"
+new_options: [unlockable_increase_incentives_t2]
+
+# The affects for each new option
+new_options_affects: [unlockable_increase_incentives_t2]
+
+# These are the usable player options added after further investigation is done
+further_options: [unlockable_use_a_different_incentive]
+
+# The affects for each further new option
+further_options_affects: [unlockable_use_a_different_incentive]
+
+# This is the feedback dialogue the player sees based on the option they select
+feedback_dialogue:
+  unlockable_increase_incentives_t2: "We just need to find the right level to be attractive."
+  unlockable_use_a_different_incentive: "Let's go back to the ethnography and try to figure out how to present this program in a way that will be attractive to the most people."
+  # This key is required for every tactic card for when the player chooses observe instead of investigate
+  observe: "OK, we'll wait and see if anything changes."

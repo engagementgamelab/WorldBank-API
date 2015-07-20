@@ -1,0 +1,60 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Problem YAML
+# ==============
+
+# Scenario 1 Year 1 Base Problem 1: Government Overreach verification
+
+symbol: twist_reversal
+name: "Reversal"
+priority: 2
+
+initiating_npc: health_provider_3 # <--- character's symbol
+initiating_dialogue: "Hello! Again, I must say I am very pleased to be working with you. My customers though, are less happy. They are reluctant to go to your hospitals even though I refer them. Couldn't you train someone here to do the work of your nurses?"
+
+starting_options: [train_locals_1, stick_to_the_plan_1]
+starting_options_affects: [train_locals_1, stick_to_the_plan_1]
+starting_options_cost: [small, small]
+
+final_options: [train_locals_1, stick_to_the_plan_1, embed_nurses_1, expand_travelling_nurses_1]
+final_options_affects: [train_locals_1, stick_to_the_plan_1, embed_nurses_1, expand_travelling_nurses_1]
+final_options_cost: [small, small, small, small]
+
+characters:
+
+  # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
+  dep_minister_of_health: # <--- character's symbol
+    dialogue: "TBD (No Help)"
+
+  director_regional_health_services:
+    dialogue: "I am not comfortable with procedures taking place by new workers and trainees unsupervised. I might approve stationing a nurse at traditional medicine facilities."
+    unlocks: [embed_nurses_1]
+    unlocks_affects: [embed_nurses_1]
+
+  coach:
+    dialogue: "If they won't come to facilities, having trained people near them is better than nothing. Why not expand our travelling nurses program instead?"
+    unlocks: [expand_travelling_nurses_1]
+    unlocks_affects: [expand_travelling_nurses_1]
+    feedback:
+      embed_nurses_1: "An interesting idea. I'll help facilitate this as best I can."
+
+  third_party_verifier:
+    dialogue: "TBD (No Help)"
+
+  community_verifier:
+    dialogue: "TBD (No Help)"
+
+  clinic_manager:
+    dialogue: "TBD (No Help)"
+
+  hospital_administrator:
+    dialogue: "TBD (No Help)"
+    feedback:
+      expand_travelling_nurses_1: "It will take some time to do this, and there is a shortage of qualified people, but I will do my best."
+
+  health_provider_3:
+    feedback:
+      train_locals_1: "Excellent! I have a good feeling about you, friend."
+      stick_to_the_plan_1: "I warn you, they will not accept it."

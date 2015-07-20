@@ -1,0 +1,38 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase One Dialogue YAML
+# ==============
+
+# A character interactable
+symbol: dialogue_clinician_crup
+character: clinician_crup
+
+# DIALOGUE FORMAT:
+# - Initial: First dialogue player sees after reading character_description.
+# ====> Use double-bracket notation for words or phrases that, if tapped, unlock subsequent tree 
+#       -- e.g. [[this]] will open the "This" dialogue option
+# - This: "this" dialogue tree
+#   unlocks: [route_to_kibari] <-- this is a symbol we'll store in another "abilities" file so its display text can be easily tweaked globally.
+dialogue:
+    Initial:
+      text: 
+        - "The man extends a hand to shake and introduces himself. \"Hello,\" he says, \"I'm Dr. Maramuta. I run [[this clinic]], and I've consulted with a number of others in the area.\""
+
+    This Clinic: 
+      text: 
+        - "\"Things have been very tough. In the highlands, things are done differently. The situation is not ideal, and sometimes the quick and dirty solution is better than no treatment at all. We have very little money, and we find ourselves skimping and cutting corners in order to operate.\"" 
+      unlocks: [unlockable_incentivise_providers_to_follow_protocols]
+
+    unlockable_dialogue_mr_todd:
+      display_name: "Ask about Mr. Todd"
+      text: 
+        - "When you press him on what is being skimped on, he backpedals a little bit. \"It's not so much that we don't have enough money, it is more that the budget has already been set by the Ministry of Health, and we don't have the ability to purchase the medicine and supplies we need. You understand.\""
+      unlocks: [unlockable_grant_providers_autonomy]
+
+    unlockable_dialogue_clinician:
+      display_name: "Ask about why services aren't effective"
+      text: 
+        - "When you press him on what is being skimped on, he backpedals a little bit. \"It's not so much that we don’t have enough money, it's more that the budget has already been set by the Ministry of Health, and we don’t have the ability to purchase the medicine and supplies we need. You understand.\""
+      unlocks: [unlockable_grant_providers_autonomy]

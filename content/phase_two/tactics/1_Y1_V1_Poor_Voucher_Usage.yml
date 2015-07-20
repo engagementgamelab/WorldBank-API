@@ -13,7 +13,7 @@ name: "Poor Voucher Usage" # <--- display name for card
 year: 1
 
 # This dialogue the player sees first
-initiating_dialogue: "The manager of the voucher agency is concerned. We don’t know why at this point, but we’re not hitting our targets for voucher use. Do you want me to investigate this? Or shall we just observe for now?"
+initiating_dialogue: "The manager of the voucher agency is concerned. We don't know why at this point, but we're not hitting our targets for voucher use. Do you want me to investigate this? Or shall we just observe for now?"
 
 # The dialogue the player sees when investigation has results to show
 investigate_dialogue: "It's possible that people don't want the services for some reason. A more targeted information campaign could be of use. It also seems that people are having difficulty getting to hospitals. Here are our recommendations:"
@@ -34,7 +34,7 @@ new_options_affects: [unlockable_information_campaign, unlockable_add_travel_vou
 
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
-  unlockable_add_travel_vouchers: "Transportation Vouchers: That's simple enough to do, and it should help people reach health facilities."
+  unlockable_add_travel_vouchers: "That's simple enough to do, and it should help people reach health facilities."
   unlockable_information_campaign: "I'll contact the providers and let them know they must do more to explain their services."
   unlockable_increase_budget_for_outreach: "I will make the arrangements. As long as there are enough nurses available to carry out these outreach activites, this should help."
   # This key is required for every tactic card for when the player chooses observe instead of investigate

@@ -21,12 +21,6 @@
 # ----------------  DIALOGUE UNLOCKS   ---------------- #
 # ----------------                     ---------------- #
 
-
-# ------------------ 
-# unlocked by farm worker in Mile
-# ------------------ 
-- symbol: unlockable_dialogue_mr_todd
-
 # ------------------ 
 # unlocked by midwife in Mile
 # ------------------ 
@@ -35,8 +29,42 @@
 # ------------------ 
 # unlocked by Mr. Todd in Kibari
 # ------------------ 
-- symbol: unlockable_dialogue_clinician
+- symbol: unlockable_dialogue_dr_maramuta
 
+# ------------------
+# unlocked by traveler in Malcom
+#-------------------
+- symbol: unlockable_dialogue_dr_notega
+
+# ------------------
+# unlocked by professor in Malcom
+# ------------------
+- symbol: unlockable_dialogue_refugee
+
+# ------------------
+# unlocked by medicine merchant in Malcom 
+# ------------------
+- symbol: unlockable_dialogue_mr_todd
+
+# ------------------
+# unlocked by two women in Malcom
+# ------------------
+- symbol: unlockable_dialogue_lydia
+
+# ------------------
+# unlocked by farm worker in Mile
+# ------------------
+- symbol: unlockable_dialogue_mech_farmer
+
+# ------------------
+# unlocked by plantation owner in Crup
+# ------------------
+- symbol: unlockable_dialogue_midwife
+
+# ------------------
+# unlocked by mech farmer in Crup
+# ------------------
+- symbol: unlockable_dialogue_professor
 
 # ----------------           ---------------- #
 # ----------------  ROUTES   ---------------- #
@@ -45,47 +73,43 @@
 
 - symbol: unlockable_route_malcom_to_kibari
   title: "Route to Kibari"
-  unlocked: [malcom_to_kibari]
+  unlocked: false
 
 - symbol: unlockable_route_capitol_to_malcom
   title: "Route to Malcom"
-  unlocked: [capitol_to_malcom]
+  unlocked: true
 
 - symbol: unlockable_route_capitol_to_crup
   title: "Route to Crup"
-  unlocked: [capitol_to_crup]
+  unlocked: true
 
 - symbol: unlockable_route_crup_to_kibari
   title: "Route to Kibari"
-  unlocked: [crup_to_kibari]
+  unlocked: false
 
 - symbol: unlockable_route_malcom_to_valeria
   title: "Route to Valeria"
-  unlocked: [malcom_to_valeria]
+  unlocked: false
 
 - symbol: unlockable_route_malcom_to_mile
   title: "Route to Mile"
-  unlocked: [malcom_to_mile]
+  unlocked: true
 
 - symbol: unlockable_route_valeria_to_zima
   title: "Route to Zima"
-  unlocked: [valeria_to_zima]
+  unlocked: false
 
 - symbol: unlockable_route_zima_to_kibari
   title: "Route to Kibari"
-  unlocked: [zima_to_kibari]
-
-- symbol: unlockable_route_kibari_to_crup
-  title: "Route to Crup"
-  unlocked: [kibari_to_crup]
+  unlocked: true
 
 - symbol: unlockable_route_kibari_to_mile
   title: "Route to Mile"
-  unlocked: [kibari_to_mile]
+  unlocked: false
 
 - symbol: unlockable_route_mile_to_zima
   title: "Route to Zima"
-  unlocked: [mile_to_zima]
+  unlocked: true
 
 
 # ----------------              ---------------- #
@@ -101,35 +125,35 @@
   title: "Incentivise Providers to Deliver Services"
   description:
     - "A straightforward way to increase use of specific services, such as facility births and vaccinations, is to give bonuses to providers that deliver more of those services. This would set specific goals, and incentivise providers to reach them."
-  Priority: 2
+  priority: 2
   type: supply_side_resource_allocation
 
 - symbol: unlockable_incentivise_providers_to_follow_protocols
   title: "Incentivise Providers to Follow Protocols"
   description:
     - "If providers are not following protocols, ordering consults and prescribing things for the wrong reasons, this is both wasteful and harmful to quality of care. This would require providers to follow protocols in order to receive incentives."
-  Priority: 1
+  priority: 1
   type: supply_side_resource_allocation
 
 - symbol: unlockable_contract_outside_organization_to_administer_plan
   title: "Contract Outside Organization to Administer Plan"
   description:
     - "In instances where there is poor infrastructure or the government is not a strong partner, contracting a Non-Government Organization to fill the roles of infrastructure and management to deliver services is ideal."
-  Priority: -1
+  priority: -1
   type: supply_side_resource_allocation
 
 - symbol: unlockable_contract_private_company_to_deliver_supplies
   title: "Contract Private Company to Deliver Supplies"
   description:
-    - "If public infrastructure and traditional channels aren’t reliably delivering needed supplies, contracting a private company to deliver them would ensure things run smoothly."
-  Priority: -1 
+    - "If public infrastructure and traditional channels aren't reliably delivering needed supplies, contracting a private company to deliver them would ensure things run smoothly."
+  priority: -1 
   type: supply_side_resource_allocation
 
 - symbol: unlockable_grant_providers_autonomy
   title: "Grant Providers Autonomy"
   description: 
     - "Providers need the autonomy to order supplies and make hires that suit the needs of their local communities. Moving these crucial decisions to the ground level instead of leaving it to the Ministry or another body should improve supplies and personnel issues."
-  Priority: 1
+  priority: 1
   type: supply_side_resource_allocation
 
 # ------------------
@@ -139,22 +163,22 @@
 - symbol: unlockable_improve_patient_and_provider_relationship
   title: "Improve Patient and Provider Relationship"
   description:
-    - "Patients don’t go to facilities where they are mistreated or receive poor service. Improving patient/provider relationships could increase use of important services long term."
-  Priority: 2
+    - "Patients don't go to facilities where they are mistreated or receive poor service. Improving patient/provider relationships could increase use of important services long term."
+  priority: 2
   type: behavior_knowledge_and_professionalism
 
 - symbol: unlockable_make_aesthetic_improvements
   title: "Make Aesthetic Improvements"
   description: 
     - "If the facilities look uncleanunsafe, or just unattractive, patients will stay away. Improvements could include proper maintenance, renovations, paint, new uniforms for staff, or other upgrades."
-  Priority: -1
+  priority: -1
   type: behavior_knowledge_and_professionalism
 
 - symbol: unlockable_hire_more_nurses_from_highlands_region
-  title: "Hire From Nurses From the Highlands Region"
+  title: "Hire Nurses From the Highlands Region"
   description:
     - "If patients see familiar faces who understand their needs, they will be more likely to use and return to facilities. This would also have the upside of stimulating the economy in a poor region of the country."
-  Priority: 0
+  priority: 0
   type: behavior_knowledge_and_professionalism
 
 # ------------------
@@ -164,29 +188,29 @@
 - symbol: unlockable_vouchers_for_services
   title: "Vouchers For Services"
   description:
-    - "If patients see familiar faces who understand their needs, they will be more likely to use and return to facilities. This would also have the upside of stimulating the economy in a poor region of the country."
-  Priority: 2
+    - "This would provide vouchers to poor people so they can receive necessary services at a greatly reduces price."
+  priority: 2
   type: demand_side_resource_allocation
 
 - symbol: unlockable_travel_reimbursement
   title: "Travel Reimbursement"
   description:
     - "If patients cannot afford to travel to facilities, they cannot use services there. A voucher program for travel could help offset this cost."
-  Priority: 0
+  priority: 0
   type: demand_side_resource_allocation
 
 - symbol: unlockable_conditional_cash_transfer
   title: "Conditional Cash Transfer"
   description:
     - "In areas where social welfare must be delivered due to poverty or disaster, making the transfer of money or goods conditional on using health services that we wish to incentivise anyway makes sense."
-  Priority: 0
+  priority: 0
   type: demand_side_resource_allocation
 
 - symbol: unlockable_outreach
   title: "Outreach"
   description:
     - "When travel is difficult for patients, bringing health care workers directly to their communities through a practice known as outreach can provide services much more conveniently."
-  Priority: 2
+  priority: 2
   type: demand_side_resource_allocation
 
 # ------------------
@@ -197,21 +221,21 @@
   title: "Information Campaign to Change Cultural Customs and Behavior"
   description:
     - "Sometimes entrenched customs or cultural behaviors such as not hand washing or giving birth in unsafe environments can harm the health of communities. An educational information campaign could help change those behaviors."
-  Priority: 0
+  priority: 0
   type: demand_side_behavior_and_knowledge
 
 - symbol: unlockable_information_campaign_to_counter_misinformation
   title: "Information Campaign to Counter Misinformation"
   description:
     - "An educational information campaign to combat specific misinformation about health services could help clear up misconceptions about facility care."
-  Priority: 0
+  priority: 0
   type: demand_side_behavior_and_knowledge
 
 - symbol: unlockable_information_campaign_to_explain_changes_to_system
   title: "Information Campaign to Explain Changes to System"
   description:
     - "If major changes are going to take place in the health system, and educational information campaign to explain these changes may be necessary to avoid confusion."
-  Priority: 3
+  priority: 3
   type: demand_side_behavior_and_knowledge
 
 
@@ -239,8 +263,8 @@
 # ------------------ 
 # Bad Record Keeping - S1_Y1_P2
 # ------------------
-- symbol: hold_payments_1
-  title: "Hold payments"
+- symbol: hold_payment_1
+  title: "Hold payment"
 
 - symbol: help_build_capacity_1
   title: "Help build capacity"
@@ -383,36 +407,595 @@
 - symbol: maintain_current_rates
   title: "Maintain current rates"
 
+# -------------------                       ------------------- #
+# -------------------  Scenario 1 - TWISTS  ------------------- #
+# -------------------                       ------------------- #
+
+# ------------- TWIST ONE ----------- #
+
+#------------------
+# Mismanagement - S1_T1_Y2_P1
+#------------------
+- symbol: warning_8
+  title: "Warning"
+
+- symbol: revise_business_plan_3
+  title: "Revise Business Plan"
+
+- symbol: retrain_1
+  title: "Retrain"
+#------------------
+# Reversal - S1_T1_Y2_P2
+#------------------
+- symbol: train_locals_1
+  title: "Train Locals"
+
+- symbol: stick_to_the_plan_1
+  title: "Stick to the Plan"
+
+- symbol: embed_nurses_1
+  title: "Embed Nurses"
+
+- symbol: expand_travelling_nurses_1
+  title: "Expand Travelling Nurses' Program"
+#------------------
+# Inconsistent Indicators - S1_T1_Y2_P3
+#------------------
+- symbol: placeholder_option_1
+  title: "This is a placeholder. I shouldn't exist!"
+
+- symbol: incentivise_facility_births_1
+  title: "Incentivise Facility Births"
+
+- symbol: expand_travelling_nurses_2
+  title: "Expand Travelling Nurses' Program"
+
+- symbol: revise_indicators_at_end_of_year_3
+  title: "Revise Indicators at End of the Year"
+
+- symbol: broaden_services_1
+  title: "Broaden Services, Effective Next Year"
+#------------------
+# Overflow - S1_T1_Y2_P4
+#------------------
+- symbol: warning_9
+  title: "Warning"
+
+- symbol: sanctions_4
+  title: "Enact Sanctions"
+
+- symbol: increase_scrutiny_1
+  title: "Increase Scrutiny"
+
+- symbol: terminate_contract_at_end_of_year_4
+  title: "Terminate Contract at End of the Year"
+# ------------------
+# Wrong Numbers - S1_T1_Y3_P1
+# ------------------
+- symbol: warning_7
+  title: "Warning"
+
+- symbol: sanctions_5
+  title: "Enact Sanctions"
+
+- symbol: hold_meeting_to_retrain_on_reporting_practices_2
+  title: "Hold Meeting to Retrain on Reporting Practices"
+
+# ------------------
+# Budget Lines - S1_T1_Y3_P2
+# ------------------
+- symbol: comply_with_ministry_budget_1
+  title: "Comply With Ministry Budget"
+
+- symbol: clarification_of_roles_9
+  title: "Clarify role of Ministry"
+
+- symbol: revise_business_plan_4
+  title: "Revise Business Plan"
+# ------------------
+# Money Troubles - S1_T1_Y3_P3
+# ------------------
+- symbol: increase_referral_incentives_1
+  title: "Increase Referral Incentives"
+
+- symbol: continue_with_plan_1
+  title: "Continue With Plan As Written"
+
+- symbol: terminate_contract_at_end_of_year_5
+  title: "Terminate Contract at End of the Year"
+# ------------------
+# Field Records - S1_T1_Y3_P4
+# ------------------
+- symbol: placeholder_option_2
+  title: "I'm another placeholder. I also shouldn't exist!"
+
+- symbol: increase_funding_for_verifiers_1
+  title: "Increase Funding for Community Verifiers"
+
+- symbol: centralize_control_over_travelling_nurses_1
+  title: "Centralize Control Over Travelling Nurses"
+
+- symbol: warn_community_verifiers_1
+  title: "Warn Community Verifiers"
+
+- symbol: require_nurses_to_return_to_file_1
+  title: "Require Nurses to Return to Facility to File"
+# ------------------
+# Checkup Overload - S1_T1_Y3_P5
+# ------------------
+- symbol: placeholder_option_3
+  title: "Another placeholder. I'm not even supposed to be here today."
+
+- symbol: warn_providers_to_follow_protocols_2
+  title: "Warn Providers to Follow Protocols"
+
+- symbol: decrease_incentives_2
+  title: "Decrease Incentives"
+
+- symbol: maintain_current_rates_2
+  title: "Maintain Current Rates"
+
+# ------------------- TWIST TWO --------------------- #
+# ------------------
+# Wrong Numbers - S1_T2_Y3_P1
+# ------------------
+- symbol: warning_10
+  title: "Warning"
+
+- symbol: sanctions_6
+  title: "Enact Sanctions"
+
+- symbol: hold_meeting_to_retrain_on_reporting_practices_3
+  title: "Hold Meeting to Retrain on Reporting Practices"
+# ------------------
+# Budget Lines - S1_T2_Y3_P2
+# ------------------
+- symbol: comply_with_ministry_budget_2
+  title: "Comply With Ministry Budget"
+
+- symbol: clarification_of_roles_10
+  title: "Clarify role of Ministry"
+
+- symbol: revise_business_plan_5
+  title: "Revise Business Plan"
+# ------------------
+# Fraud - S1_T2_Y3_P3
+# ------------------
+- symbol: warning_11
+  title: "Warning"
+
+- symbol: sanctions_7
+  title: "Enact Sanctions"
+
+- symbol: terminate_contract_at_end_of_year_6
+  title: "Terminate Contract at End of Year"
+# ------------------
+# Field Records - S1_T2_Y3_P4
+# ------------------
+- symbol: placeholder_option_4
+  title: "I'm another placeholder. I also shouldn't exist!"
+
+- symbol: increase_funding_for_verifiers_2
+  title: "Increase Funding for Community Verifiers"
+
+- symbol: centralize_control_over_travelling_nurses_2
+  title: "Centralize Control Over Travelling Nurses"
+
+- symbol: warn_community_verifiers_2
+  title: "Warn Community Verifiers"
+
+- symbol: require_nurses_to_return_to_file_2
+  title: "Require Nurses to Return to Facility to File"
+# ------------------
+# More Fraud - S1_T2_Y3_P5
+# ------------------
+- symbol: placeholder_option_5
+  title: "And I'm another placeholder." 
+
+- symbol: warning_12
+  title: "Warning"
+
+- symbol: sanctions_8
+  title: "Sanctions"
+
+- symbol: terminate_contract_at_end_of_year_7
+  title: "Terminate Contract at End of Year"
+# -------------------                       ------------------- #
+# -------------------  Scenario 2 - Year 1  ------------------- #
+# -------------------                       ------------------- #
 
 
-# ------------------- #
-# Scenario 2 - Year 1 
-# ------------------- #
+#------------------
+# Lack of Procedure - S2_Y1_P1
+#------------------
+- symbol: hold_a_meeting_of_all_stakeholders_1
+  title: "Hold a meeting of all stakeholders"
 
-# ------------------- #
-# Scenario 2 - Year 2
-# ------------------- #
+- symbol: create_manual
+  title: "Create a Manual"
 
-# ------------------- #
-# Scenario 2 - Year 3
-# ------------------- #
+- symbol: give_ministry_more_power
+  title: "Give ministry more power"
 
+#------------------
+# Process Versus Results - S2_Y1_P2
+#------------------
+- symbol: deny_payment_1
+  title: "Deny Payment"
+
+- symbol: warn_but_allow_payment_once_1
+  title: "Warn but allow payment once"
+
+#------------------
+# Government Versus Organization - S2_Y1_P3
+#------------------
+- symbol: pressure_the_ngo_to_comply_1
+  title: "Pressure the NGO to comply"
+
+- symbol: cease_counter_verification
+  title: "Cease Counter-Verification"
+
+- symbol: clarification_of_roles_1
+  title: "Clarification of Roles"
+
+#------------------
+# Managerial Autonomy - S2_Y1_P4
+#------------------
+- symbol: comply_with_ngo_budget_1
+  title: "Advise to follow budget restrictions"
+
+- symbol: move_authority_to_ministry_1
+  title: "Revert power of budgeting to the Ministry"
+
+- symbol: clarification_of_roles_2
+  title: "Clarification of roles" 
+
+# -------------------                       ------------------- #
+# -------------------  Scenario 2 - Year 2  ------------------- #
+# -------------------                       ------------------- #
+
+#------------------
+# Process Versus Results Again - S2_Y2_P1
+#------------------
+- symbol: deny_payment_2
+  title: "Deny payment"
+
+- symbol: warn_but_allow_payment_once_2
+  title: "Warn but allow payment once"
+
+- symbol: revise_indicators_at_end_of_year_1
+  title: "Revise indicators at end of the year"
+
+#------------------
+# Reach - S2_Y2_P2
+#------------------
+- symbol: terminate_ngo_contract_1
+  title: "Terminate NGO contract at end of the year"
+
+- symbol: revise_operating_manual
+  title: "Revise NGO operating manual"
+
+- symbol: increase_funding_for_ngo
+  title: "Increase funding for NGO"
+
+- symbol: contract_additional_ngo_at_years_end
+  title: "Contract additional NGO at Year's End"
+#------------------
+# Arguments - S2_Y2_P3
+#------------------
+- symbol: hold_stakeholder_meeting_2
+  title: "Hold Stakeholder meeting"
+
+- symbol: warn_ngo_2
+  title: "Warn NGO"
+
+- symbol: clarification_of_roles_3
+  title: "Clarification of roles"
+
+- symbol: terminate_ngo_contract_2
+  title: "Terminate NGO Contract"
+#------------------
+# Unit Cost - S2_Y2_P4
+#------------------
+- symbol: clarification_of_roles_4
+  title: "Clarification of Roles"
+
+- symbol: move_authority_to_ministry_2
+  title: "Move budgeting authority to Ministry"
+
+- symbol: comply_with_ngo_budget_2
+  title: "Comply with NGO budget"
+
+#------------------
+# Contract Management - S2_Y2_P5
+#------------------
+- symbol: terminate_ngo_contract_3
+  title: "Terminate NGO Contract"
+
+- symbol: clarification_of_roles_5
+  title: "Clarification of roles"
+
+- symbol: hire_agency
+  title: "Hire Agency"
+
+- symbol: expidite_payment_and_service_delivery
+  title: "Expidite payment and service delivery"
+
+# -------------------                       ------------------- #
+# -------------------  Scenario 2 - Year 3  ------------------- #
+# -------------------                       ------------------- #
+
+#------------------
+# More Arguments - S2_Y3_P1
+#------------------
+- symbol: hold_stakeholder_meeting_3
+  title: "Hold Stakeholder meeting"
+
+- symbol: warn_ngo_3
+  title: "Warn NGO"
+
+- symbol: clarification_of_roles_6
+  title: "Clarification of Roles"
+
+- symbol: terminate_ngo_contract_4
+  title: "Terminate NGO Contract"
+#------------------
+# Excuses - S2_Y3_P2
+#------------------
+- symbol: hold_stakeholder_meeting_4
+  title: "Hold Stakeholder Meeting"
+
+- symbol: warn_but_allow_payment_once_3
+  title: "Warn but allow payment"
+
+- symbol: deny_payment_3
+  title: "Deny Payment"
+
+- symbol: revise_indicators_at_end_of_year_2
+  title: "Revise indicators at end of the year"
+#------------------
+# Micro-Management - S2_Y3_P3
+#------------------
+- symbol: clarification_of_roles_7
+  title: "Clarification of Roles"
+
+- symbol: terminate_ngo_contract_5
+  title: "Terminate NGO Contract"
+
+- symbol: sanction_ngo_1
+  title: "Sanction NGO"
+#------------------
+# Poor Stewardship - S2_Y3_P4
+#------------------
+- symbol: clarification_of_roles_8
+  title: "Clarification of Roles"
+
+- symbol: terminate_ngo_contract_6
+  title: "Terminate NGO Contract"
+
+- symbol: sanction_ngo_2
+  title: "Sanction NGO"
 # ------------------- #
 # Scenario 3 - Year 1 
 # ------------------- #
+
+#------------------
+# Slow Verification - S3_Y1_1
+#------------------
+
+- symbol: warn_verifier_1
+  title: "Warn Verifier"
+
+- symbol: reaffirm_ministry_authority
+  title: "Reaffirm Ministiry's Authority"
+
+- symbol: ask_reduce_oversight
+  title: "Ask to Reduce Oversight"
+
+- symbol: circulate_memo_reaffirming_ministry_authority
+  title: "Circulate Memo Reaffirming Ministry Authority"
+
+- symbol: streamline_speed_verification_process
+  title: "Streamline Speed Verification Process"
+
+- symbol: verification_1
+  title: "Verification"
+
+#------------------
+# Poor Management - S3_Y1_2
+#------------------
+
+- symbol: warning_and_retraining_2
+  title: "Warning and Retraining"
+
+- symbol: sanctions_11
+  title: "Sanctions"
+
+- symbol: review_business_plan
+  title: "Review Business Plan"
+
+#------------------
+# Bad Record Keeping - S3_Y1_3
+#------------------
+
+- symbol: hold_payment_2
+  title: "Hold Payments"
+
+- symbol: sanctions_12
+  title: "Sanctions"
+
+- symbol: capacity_building_help
+  title: "Review Business Plan"
+
+#------------------
+# Lack of Supplies - S3_Y1_4
+#------------------
+
+- symbol: warn_providers
+  title: "Warn Providers"
+
+- symbol: unlocks_sanction_providers
+  title: "Unlocks Sanction Providers"
+
+- symbol: increase_supply_budget
+  title: "Increase Supply Budget"
+
+- symbol: grant_facilities_autonomy
+  title: "Increase Supply Budget"
 
 # ------------------- #
 # Scenario 3 - Year 2
 # ------------------- #
 
+#------------------
+# Staff Issues - S3_Y2_1
+#------------------
+
+- symbol: warn_providers_2
+  title: "Warn Providers"
+
+- symbol: sanctions_13
+  title: "Sanctions"
+
+- symbol: increase_customer_service_incentives
+  title: "Increase Supply Budget"
+
+- symbol: reorganize_staff
+  title: "Increase Supply Budget"
+
+#------------------
+# Mismanagement - S3_Y2_2
+#------------------
+
+- symbol: warning_13
+  title: "Warning"
+
+- symbol: sanctions_and_retraining_on_use_of_financial_tools_2
+  title: "Sanctions and Retraining on Use of Financial Tools"
+
+- symbol: revise_business_plan_6
+  title: "Revise Business Plan"
+
+#------------------
+# Midwives - S3_Y2_4
+#------------------
+
+- symbol: request_a_budget_line_from_ministry
+  title: "Request a Budget Line from Ministry"
+
+- symbol: allow_outreach_staff_to_act_as_midwives
+  title: "Allow Outreach Staff to Act as Midwives"
+
+- symbol: grant_providers_autonomy_to_hire_staff
+  title: "Grant Providers Autonomy to Hire Staff"
+
+#------------------
+# Transparency - S3_Y2_3
+#------------------
+
+- symbol: warning_14
+  title: "Warning"
+
+- symbol: sanctions_14
+  title: "Sanctions"
+
+- symbol: strong_sanctions_2
+  title: "Strong Sanctions"
+
 # ------------------- #
 # Scenario 3 - Year 3
 # ------------------- #
 
+#------------------
+# Budget Lines - S3_Y3_1
+#------------------
+
+- symbol: comply_with_ministry_2
+  title: "Comply With Ministry"
+
+- symbol: rework_business_plan
+  title: "Sanctions"
+
+- symbol: grant_autonomy_to_providers
+  title: "Strong Sanctions"
+
+#------------------
+# Failed Inspection - S3_Y3_2
+#------------------
+
+- symbol: review_the_inspection_2
+  title: "Review the Inspection"
+
+- symbol: warning_15
+  title: "Warning"
+
+- symbol: deny_review_2
+  title: "Strong Sanctions"
+
+#------------------
+# Perscriptions - S3_Y3_3
+#------------------
+
+- symbol: warning_16
+  title: "Warning"
+
+- symbol: sanctions_15
+  title: "Sanctions"
+
+- symbol: terminate_contract_at_end_of_year_8
+  title: "Terminate Contract at End of Year"
+
+- symbol: tie_incentives_directly_to_protocol
+  title: "Tie Incentives Directly to Protocol"
+
+- symbol: reduce_incentives_for_customer_service
+  title: "Reduce Incentives for Customer Service"
+
+#------------------
+# Missing Goals - S3_Y3_4
+#------------------
+
+- symbol: return_to_traditional_financing
+  title: "Return to Traditional Financing"
+
+- symbol: terminate_both_health_contracts_of_providers
+  title: "Terminate Both Health Contracts of Providers"
+
+- symbol: terminate_hospital_contract_and_redirect_resources
+  title: "Terminate Hospital Contract and Redirect Resources"
+
+- symbol: grant_providers_autonomy
+  title: "Grant Providers Autonomy"
+
 # ------------------- #
 # Scenario 4 - Year 1 
 # ------------------- #
+#------------------
+# Slow Verification - S4_Y1_1
+#------------------
 
+- symbol: warn_verifier_2
+  title: "Warn Third-Party Verifier"
+
+- symbol: revert_counterverification_1
+  title: "Revert Counterverification to the Ministry"
+
+- symbol: streamline_speed_verification_process_2
+  title: "Streamline Ministry's Process to Speed Verification"
+
+- symbol: circulate_memo_reaffirming_ministry_authority_2
+  title: "Circulate Memo Reaffirming Ministry Authority"
+#------------------
+# Process V Results - S4_Y1_2
+#------------------
+- symbol: deny_payment_4
+  title: "Deny Payment"
+
+- symbol: increase_budget_for_supplies_1
+  title: "Increase Budget for Hospital Supplies"
+
+- symbol: allow_payments_once_4
+  title: "Warn, but Allow Payments Once"
 # ------------------- #
 # Scenario 4 - Year 2
 # ------------------- #
@@ -454,8 +1037,8 @@
 # -------------------------- #
 # Voucher Acceptance - Y2_V1
 # -------------------------- #
-- symbol: unlockable_expedite_voucher_payments
-  title: "Expedite Voucher Payments"
+- symbol: unlockable_expedite_voucher_payment
+  title: "Expedite Voucher payment"
 
 - symbol: unlockable_sanction_the_provider
   title: "Sanction the Provider"
@@ -548,8 +1131,8 @@
 # -------------------------- #
 # Cash Transfer Confusion- Y3_CCT2
 # -------------------------- #
-- symbol: unlockable_expedite_cct_payments
-  title: "Expedite CCT Payments"
+- symbol: unlockable_expedite_cct_payment
+  title: "Expedite CCT payment"
 
 - symbol: unlockable_fund_info_campaign
   title: "Fund an Information Campaign to Explain the Program"
@@ -607,17 +1190,17 @@
 # Unusual Claims - Y1_P1
 # -------------------------- #
 
-- symbol: unlockable_approve_payments
-  title: "Approve Payments"
+- symbol: unlockable_approve_payment
+  title: "Approve payment"
 
-- symbol: unlockable_warn_and_deny_payments
-  title: "Warn and Deny Payments"
+- symbol: unlockable_warn_and_deny_payment
+  title: "Warn and Deny payment"
 
 - symbol: unlockable_reinforce_following_protocols
   title: "Reinforce Following Protocols"
 
-- symbol: unlockable_issue_payments_to_institutions
-  title: "Issue Payments to Institutions Instead of Individuals"
+- symbol: unlockable_issue_payment_to_institutions
+  title: "Issue payment to Institutions Instead of Individuals"
 
 # -------------------------- #
 # Staff Trouble - Y2_P1
@@ -629,8 +1212,8 @@
 - symbol: unlockable_cull_and_rehire
   title: "Cull Workforce and Rehire"
 
-- symbol: unlockable_increase_incentives_and_expidite_payments
-  title: "Increase Incentives and Expedite Payments"
+- symbol: unlockable_increase_incentives_and_expidite_payment
+  title: "Increase Incentives and Expedite payment"
 
 # -------------------------- #
 # Possible Fraud - Y3_P1
