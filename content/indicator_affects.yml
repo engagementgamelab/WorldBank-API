@@ -1745,7 +1745,6 @@ unlockable_retrain_doctors:
 # Wrong Procedures - Y1_NP2
 # -------------------------- #
 
-<<<<<<< HEAD
 unlockable_create_robust_referral_system:
   indicator_1: 0
   indicator_2: 0
@@ -1754,7 +1753,7 @@ unlockable_create_robust_referral_system:
 unlockable_incentivise_following_set_protocols_rewards:
   indicator_1: 0
   indicator_2: 0
-=======
+
 unlockable_approve_payment:
   indicator_1: -1
   indicator_2: -1
@@ -1763,7 +1762,6 @@ unlockable_approve_payment:
 unlockable_warn_and_deny_payment:
   indicator_1: +1
   indicator_2: +1
->>>>>>> origin/master
   indicator_3: 0
 
 unlockable_incentivise_referrals:
@@ -1771,7 +1769,6 @@ unlockable_incentivise_referrals:
   indicator_2: 0
   indicator_3: 0
 
-<<<<<<< HEAD
 # -------------------------- #
 # Infection Rates - Y2_NP1
 # -------------------------- #
@@ -1790,12 +1787,11 @@ unlockable_sanction_providers_with_high_infection_rates:
   indicator_1: 0
   indicator_2: 0
   indicator_3: 0
-=======
+
 unlockable_issue_payment_to_institutions:
   indicator_1: +1
   indicator_2: +1
   indicator_3: +2
->>>>>>> origin/master
 
 # -------------------------- #
 # Waiting - Y2_NP2
@@ -1811,13 +1807,8 @@ unlockable_incentivise_best_practices_beds:
   indicator_2: 0
   indicator_3: 0
 
-<<<<<<< HEAD
-unlockable_hire_temp_administrators:
-  indicator_1: 0
-=======
 unlockable_increase_incentives_and_expidite_payment:
   indicator_1: +1
->>>>>>> origin/master
   indicator_2: 0
   indicator_3: 0
 
