@@ -10,7 +10,7 @@
 printf "\n${COLOR}@@@@@@@@@@@@@@\nEngagement Lab API Dev Automation\n@@@@@@@@@@@@@@\n${NC}"
 
 # See if /content and /server/content differ
-CONTENT_DIFF=$(diff -qr  content server/content);
+CONTENT_DIFF=$(diff -x '.*' -qr content server/content);
 
 if [ "$CONTENT_DIFF" != "" ]
 then
@@ -23,7 +23,7 @@ then
 
 	printf "\n>>>> Adding content to server root for git push \n";
 
-	git add .;
+	git add --all;
 	git commit -m "Synced content to server root.";
 else
 	printf "\n>>>> /content and /server/content are the same \n";

@@ -1,0 +1,58 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Problem YAML
+# ==============
+
+# Scenario 1 Year 1 Base Problem 1: Government Overreach verification
+
+symbol: twist_2_fraud
+name: "Fraud"
+priority: 3
+year: 3
+twist: 2
+
+initiating_npc: third_party_verifier # <--- character's symbol
+initiating_dialogue: "I just received the reports from Provider 4, and they are rife with fraudulent claims. It goes without saying that they should not be paid, but more needs to be done."
+
+starting_options: [warning_11, sanctions_7]
+starting_options_affects: [warning_11, sanctions_7]
+starting_options_cost: [small, small]
+
+final_options: [warning_11, sanctions_7, terminate_contract_at_end_of_year_6]
+final_options_affects: [warning_11, sanctions_7, terminate_contract_at_end_of_year_6]
+final_options_cost: [small, small, small]
+
+characters:
+
+  # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
+  dep_minister_of_health:
+    dialogue: "Quite the mess. This is the worst partner yet. Do what you need to do, but I recommend terminating this contract."
+    unlocks: [terminate_contract_at_end_of_year_6]
+    unlocks_affects: [terminate_contract_at_end_of_year_6]
+
+  director_regional_health_services:
+    dialogue: "A warning might not be enough here. Sanctions seem appropriate."
+
+  coach:
+    dialogue: "This is only their first year. A warning might do the trick."
+
+  community_verifier:
+    dialogue: "TBD/No Help."
+
+  clinic_manager:
+    dialogue: "TBD/No Help."
+
+  hospital_administrator:
+    dialogue: "TBD/No Help."
+
+  health_provider_3:
+    dialogue: "TBD/No Help."
+
+  health_provider_4:
+    dialogue: "What are you accusing me of, exactly? I'd like a record of this for my attorneys."
+    feedback:
+      warning_11: "Fine, fine."
+      sanctions_7: "What is this? I can sue you for breach of contract."
+      terminate_contract_at_end_of_year_6: "Who else will you contract? You've chased everyone away."

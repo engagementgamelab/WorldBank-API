@@ -1,0 +1,57 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Problem YAML
+# ==============
+
+# Scenario 1 Year 1 Base Problem 1: Government Overreach verification
+
+symbol: twist_money_troubles
+name: "Money Troubles"
+priority: 3
+year: 3
+twist: 1
+
+initiating_npc: health_provider_3 # <--- character's symbol
+initiating_dialogue: "Hello! Wonderful to talk to you today. I have a problem, however. Some of the traditional healers I work with are telling me they do not wish to refer to your facilities. They say they could make more money by selling the traditional remedies that you are replacing."
+
+starting_options: [increase_referral_incentives_1, continue_with_plan_1]
+starting_options_affects: [increase_referral_incentives_1, continue_with_plan_1]
+starting_options_cost: [small, small]
+
+final_options: [increase_referral_incentives_1, continue_with_plan_1, terminate_contract_at_end_of_year_5]
+final_options_affects: [increase_referral_incentives_1, continue_with_plan_1, terminate_contract_at_end_of_year_5]
+final_options_cost: [small, small, small]
+
+characters:
+
+  # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
+  dep_minister_of_health: # <--- character's symbol
+    dialogue: "This sounds like extortion to me. If they aren't willing to fulfill the contract, I say let them go."
+    unlocks: [terminate_contract_at_end_of_year_5]
+    unlocks_affects: [terminate_contract_at_end_of_year_5]
+
+  director_regional_health_services:
+    dialogue: "This is just one of their negotiation tactics. Don't indulge them, and they will fall into place again."
+
+  coach:
+    dialogue: "Can we afford to pay them more?"
+
+  third_party_verifier: 
+    dialogue: "TBD/No Help."
+
+  community_verifier:
+    dialogue: "TBD/No Help."
+
+  clinic_manager:
+    dialogue: "TBD (No Help)"
+
+  hospital_administrator:
+    dialogue: "I would hate to lose their referrals. This program has been fairly successful."
+
+  health_provider_3:
+    feedback:
+      increase_referral_incentives_1: "Excellent! Everything will continue to run smoothly."
+      continue_with_plan_1: "I warned you! Do not say I didn't warn you."
+      terminate_contract_at_end_of_year_5: "What? This is very foolish. I hope you reconsider."

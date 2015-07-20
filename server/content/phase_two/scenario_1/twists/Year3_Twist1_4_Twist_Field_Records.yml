@@ -1,0 +1,68 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Problem YAML
+# ==============
+
+# Scenario 1 Year 1 Base Problem 1: Government Overreach verification
+
+symbol: twist_field_records
+name: "Field Records"
+priority: 4
+year: 3
+twist: 1
+
+initiating_npc: dep_minister_of_health # <--- character's symbol
+initiating_dialogue: "We are having difficulty tracking the effectiveness of travelling nurses in the field. We can't confirm they are meeting goals or having positive impacts on indicators."
+
+starting_options: [placeholder_option_2]
+starting_options_affects: [placeholder_option_2]
+starting_options_cost: [small]
+
+final_options: [increase_funding_for_verifiers_1, centralize_control_over_travelling_nurses_1, warn_community_verifiers_1, require_nurses_to_return_to_file_1]
+final_options_affects: [increase_funding_for_verifiers_1, centralize_control_over_travelling_nurses_1, warn_community_verifiers_1, require_nurses_to_return_to_file_1]
+final_options_cost: [small, small, small, small]
+
+characters:
+
+  # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
+  dep_minister_of_health: # <--- character's symbol
+    feedback:
+      increase_funding_for_verifiers_1: "Really? I don't think we should be rewarding mismanagement."
+
+  director_regional_health_services:
+    dialogue: "It might help if they were clearing their movements through my office. Then we would know where they are going, and that they are headed where they're needed."
+    unlocks: [centralize_control_over_travelling_nurses_1]
+    unlocks_affects: [centralize_control_over_travelling_nurses_1]
+
+  coach:
+    dialogue: "Our CBO partners should be confirming all of this. I don't think it's the nurses' fault. The verifiers need to know that if they can't adequately do the work, they can be replaced."
+    unlocks: [warn_community_verifiers_1]
+    unlocks_affects: [warn_community_verifiers_1]
+    feedback:
+      centralize_control_over_travelling_nurses_1: "I'm wary of adding another level of bureaucracy to this, but it may help..."
+
+  third_party_verifier: 
+    dialogue: "The records filed by travelling nurses are sloppier and often late, since they are in the field instead of the hospital."
+    unlocks: [require_nurses_to_return_to_file_1]
+    unlocks_affects: [require_nurses_to_return_to_file_1]
+
+  community_verifier:
+    dialogue: "We often do not hear that a nurse has been to visit a patient until after she is long gone, so it's difficult to verify everything."
+    unlocks: [increase_funding_for_verifiers_1]
+    unlocks_affects: [increase_funding_for_verifiers_1]
+    feedback:
+      warn_community_verifiers_1: "We'll try to come up with a strategy to tackle this. It can't be insurmountable."
+
+  clinic_manager:
+    feedback:
+      require_nurses_to_return_to_file_1: "Many of my facilities are not much better than the field, and it will add to our own filing burden."
+
+  hospital_administrator:
+    dialogue: "Our nurses are doing good work. If the Ministry can't confirm it's having an effect, then it's a verification issue."
+    narrows: [dep_minister_of_health, director_regional_health_services, coach, clinic_manager, hospital_administrator, health_provider_3]
+
+  health_provider_3:
+    dialogue: "This is the job of the verifiers, not us."
+    narrows: [dep_minister_of_health, director_regional_health_services, coach, clinic_manager, hospital_administrator, health_provider_3]

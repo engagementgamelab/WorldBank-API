@@ -1,0 +1,54 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Problem YAML
+# ==============
+
+# Phase Two Scenario Card YML Example
+
+symbol: government_overreach_on_verification
+name: "Government overreach on verification"
+priority: 4
+year: 2
+
+initiating_npc: hospital_administrator # <--- character's symbol
+initiating_dialogue: "We're having a lot of trouble hitting goals for facility births. We're short staffed, especially when it comes to midwives."
+
+starting_options: [request_a_budget_line_from_ministry]
+starting_options_affects: [request_a_budget_line_from_ministry]
+
+final_options: [request_a_budget_line_from_ministry, grant_providers_autonomy_to_hire_staff, allow_outreach_staff_to_act_as_midwives]
+final_options_affects: [request_a_budget_line_from_ministry, grant_providers_autonomy_to_hire_staff, allow_outreach_staff_to_act_as_midwives]
+
+characters:
+
+  # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
+  dep_minister_of_health: # <--- character's symbol
+    dialogue: "If you can verify this, we'd be willing to discuss the budget."
+    narrows: [community_verifier, coach] # <--- this probably will be a symbol
+    feedback: 
+      grant_providers_autonomy_to_hire_staff: "This is a significant change to the plan. Let's discuss this at the end of the year once we see how it's panned out." # <--- symbol of the option used and the feedback text for it
+      request_a_budget_line_from_ministry: "We can allow this, but I want to see reports on the results." # <--- symbol of the option used and the feedback text for it
+
+  director_regional_health_services: # <--- character's symbol
+    dialogue: "That would explain the struggling indicators on facility births.  An alternative I've considered is allowing outreach staff to serve as midwives in the field, if facilities are overstressed."
+    unlocks: [allow_outreach_staff_to_act_as_midwives]
+    unlocks_affects: [allow_outreach_staff_to_act_as_midwives]
+
+  coach:
+    dialogue: "The Hospital Administrator has complained to me in private about not being able to hire staff members without Ministry approva. I told him the plan is firm about how these decisions are made."
+    feedback: 
+      allow_outreach_staff_to_act_as_midwives: "This would boost facility births for sure, but it's a bit of a cheat since they won't technically be in facilities. But as long as women are giving birth safely, right?" # <--- symbol of the option used and the feedback text for it
+
+  third_party_verifier:
+    dialogue: "You should talk to the Clinic Manager: they're working under similar conditions and should have insight. Run it by your RBF Coach, too."
+    narrows: [clinic_manager, coach]
+
+  community_verifier:
+    dialogue: "I've heard this complaint from several women in my community. They say there are long waits to meet with midwives. Everyone seems stressed out. Pregnancy is trying even in the best of conditions."
+
+  clinic_manager:
+    dialogue: "We have had a similar problem here. And since you mention it, granting us the autonomy to hire whatever staff would go a long way to fix this. "
+    unlocks: [grant_providers_autonomy_to_hire_staff]
+    unlocks_affects: [grant_providers_autonomy_to_hire_staff]

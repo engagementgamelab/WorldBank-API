@@ -1,0 +1,52 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Problem YAML
+# ==============
+
+# Phase Two Scenario Card YML Example
+
+symbol: mismanagement
+name: "Mismanagement"
+priority: 2
+year: 2
+
+initiating_npc: coach # <--- character's symbol
+initiating_dialogue: "Coach"
+
+starting_options: [warning_13, sanctions_and_retraining_on_use_of_financial_tools_2]
+starting_options_affects: [warning_13, sanctions_and_retraining_on_use_of_financial_tools_2]
+
+final_options: [warning_13, sanctions_and_retraining_on_use_of_financial_tools_2, revise_business_plan_6]
+final_options_affects: [warning_13, sanctions_and_retraining_on_use_of_financial_tools_2, revise_business_plan_6]
+
+characters:
+
+  # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
+  dep_minister_of_health: # <--- character's symbol
+    dialogue: "I have a meeting with the Minister of Education later this week about the curricula in our teaching hospitals. I do not have time to supervise you telling the hospital to spend money like we tell them to."
+
+  director_regional_health_services: # <--- character's symbol
+    dialogue: "Have you considered that there is a flaw in the business plan? If the Hospital Administrator is straying from it so often, it might need to be reevaluated."
+    unlocks: [revise_business_plan_6]
+    unlocks_affects: [revise_business_plan_6]
+
+  coach:
+    feedback: 
+      revise_business_plan_6: "I'll set up a meeting with the purchasing agency this week to revise for next quarter." # <--- symbol of the option used and the feedback text for it
+      sanctions_and_retraining_on_use_of_financial_tools_2: "I'll make some time this week for a retraining session and try to get this facility to understand exactly how these tools should be used. I'm informing the regulator about the sanctions now." # <--- symbol of the option used and the feedback text for it
+
+  third_party_verifier:
+    dialogue: "I'm not saying the coach isn't perceptive, but if a cursory look around the hospital is all you need to tell something's not right, it's probably not fraudulent. "
+
+  community_verifier:
+    dialogue: "I doubt they're trying to pull one over on you. I had the worst time with my finances all through my 20's; managing money is hard."
+
+  clinic_manager:
+    dialogue: "We're all short staffed, but I've found ways to make it work."
+
+  hospital_administrator:
+    dialogue: "I can't control my hiring budget, and my supplies remain squeezed. I'm short staffed and constantly running out of things. So how can I possibly meet the demmands of this business plan?"
+    feedback: 
+      warning_13: "I'm doing my best, but I don't know how long I can hold onto my staff like this." # <--- symbol of the option used and the feedback text for it
