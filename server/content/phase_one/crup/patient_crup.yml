@@ -18,8 +18,15 @@ character: patient_crup
 dialogue:
     Initial:
       text: 
-        - "The woman looks a bit exasperated, and not in the best health. When you ask her about her experience with the clinic, she offers a mostly negative account. \"We are lucky to have a clinic nearby at all,\" she says. \"But there are long waits here, and the clinic is very poor. I blame [[government incompetence]].\""
+        - "The woman looks a bit exasperated, and not in the best health. When you ask her about her experience with the clinic, she offers a mostly [[negative account]]. \"We are lucky to have a clinic nearby at all,\" she says. \"But there are long waits here, and the clinic is very poor. I blame [[government incompetence]].\""
+        - "She looks happy to see you again. Apparently she enjoyed sharing her experiences. \"No one has ever asked me my opinions about something so important before.\""
+    Negative Account:
+      text:
+        - "\"The rest would all be tolerable if the people at the hospitals and clinics were at least polite and helpful, but they are not. They treat us like a nuisance when they talk to us at all.\""
+      unlocks: [improve_patient_and_provider_relationship]
+      unlocks_context: ["Bad customer service discourages patients."]
     Government Incompetence: 
       text: 
-        - "\"The government can't get out of its own way,\" she says. \"The governor claims they are increasing the budget for health care and doing many great things for people in the highlands, but where are the results? I don't see them. And it's not just this, it is everything they are involved with. They cannot be trusted to keep their word. I try to have no dealings with them.\""
+        - "\"The government can't get out of its own way,\" she says. \"The governor claims they are increasing the budget for health care and doing many great things for people in the highlands, but where are the results? I do not see them. And it's not just this, it is everything they are involved with. They cannot be trusted to keep their word. I try to have no dealings with them.\""
       unlocks: [unlockable_contract_outside_organization_to_administer_plan]
+      unlocks_context: ["If the government is not a competent, reliable regulator, an NGO might fill this role instead."]

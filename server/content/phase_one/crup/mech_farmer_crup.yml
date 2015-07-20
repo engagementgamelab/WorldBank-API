@@ -18,8 +18,16 @@ character: mech_farmer_crup
 dialogue:
     Initial:
       text: 
-        - "He offers you a cigarette as you draw nearer, which you politely refuse. \"Suit yourself,\" he says. He explains he has been working on the plantation for a few years now, and though the work is hard, the pay is reliable. \"I just wish they paid us [[a bit more]].\""
-    A Bit More: 
+        - "He offers you a cigarette as you draw nearer, which you politely refuse. \"Suit yourself,\" he says, taking another drag. He explains he has been working on the plantation for a few years now, and though the work is hard, the pay is reliable. \"I just wish they paid us [[a bit more]].\" [[Advanced Equipment]]"
+        - "\"You are still here?\" the farmer asks. \"Well then, what do you want to talk about?\""
+    Advanced Equipment:
+      text:
+        - "You ask about the expensive-looking machine he's leaning up against. \"It's not mine,\" he says. \"The Plantation owns this. They got a big grant from the government to modernize. Suits me fine, since I don't have to pick fruit out of thorns this way. We have a picture of the Prime Minister up in the cafeteria.\""
+      unlocks: [unlockable_dialogue_professor]
+      unlocks_context: ["A professor might have something to say about this."]
+    unlockable_dialogue_mech_farmer:
+      display_name: "A Bit More"
       text: 
-        - "\"We're lucky to get anything, of course. Most people in the highlands earn nothing and only eat what they grow. But even so, the pay does not go very far.\" He frowns, taking a puff from his cigarette. When you ask about affording health care, he laughs. \"The clinic is fine, but I would rather save my money for something else, unless it is an emergency. You know?\""
+        - "You ask about the woman in Mile who takes pride in farming the land. \"Pride is nice, but money is better. Even so, the pay does not go very far.\" He frowns, taking a puff from his cigarette. When you ask about affording health care, he laughs. \"The clinic is fine, but I would rather save my money for something else, unless it's an emergency. You know?\""
       unlocks: [unlockable_vouchers_for_services]
+      unlocks_context: ["Even workers on the plantation in Crup do not have enough money to afford services."]

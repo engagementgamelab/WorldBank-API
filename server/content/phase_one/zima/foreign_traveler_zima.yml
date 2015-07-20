@@ -17,8 +17,13 @@ character: foreign_traveler_zima
 dialogue:
     Initial:
       text: 
-        - "You strike up a conversation with the traveler, and she explains that she is investigating the mining industry in West Zariba for her company. \"It is a [[long journey]], and I dread the trip through the highlands.\""
+        - "You strike up a conversation with the traveler, and she explains that she is investigating the mining industry in [[West Zariba]] for her company. \"It is a [[long journey]], and I dread the trip through the highlands.\""
+        - "\"My car is leaving soon,\" she says. \"So make it quick.\""
     Long Journey: 
       text: 
-        - "She looks anxious. \"I'll not be taking the train. Instead, I am taking a private motor car. I am afraid of trains. I leave in a few hours, bound for Kibari, which I hear is the center of the Zariban Highlands. I guess it is kind of exciting.\""
+        - "She looks anxious. \"I will not be taking the train. Instead, I am taking a private motor car. I am afraid of trains. I leave in a few hours, bound for Kibari, which I hear is the center of the Zariban Highlands. I guess it is kind of exciting.\""
       unlocks: [unlockable_route_zima_to_kibari]
+      unlocks_context: ["You've discovered a new route to Kibari."]
+    West Zariba:
+      text:
+        - "She's happy to tell you about West Zariba. \"It is a long way from the highlands,\" she says. \"Because of international interest in rare elements, this area has been invested in heavily by the Zariban Government. They are quite capable of building infrastructure when they are motivated to do so.\""

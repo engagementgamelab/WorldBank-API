@@ -13,7 +13,7 @@
 
 - symbol: kibari
   display_name: Kibari
-  description: "Home to the prolific traditional medicine provider (Mr. Todd), this is a bustling city that isn’t as large as Zima or Malcom, but is still the center of trade and commerce for the smaller villages and towns in the central area of the region."
+  description: "Home to the prolific traditional medicine provider (Mr. Todd), this is a bustling city that isn't as large as Zima or Malcom, but is still the center of trade and commerce for the smaller villages and towns in the central area of the region."
   enabled: true
   npc_interactions: 3
 

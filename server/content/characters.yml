@@ -26,7 +26,8 @@
 - symbol: fruit_vendor_malcom
   display_name: Fruit Vendor
   description: 
-    - "A young woman, maybe 19 years, is selling fruit from a well-stocked cart. Most of them you’ve never even seen before, and a perfume-like aroma wafts from a box of red berry clusters. She looks expectantly at you, smiling politely."
+
+    - "A young woman, maybe 19 years, is selling fruit from a well-stocked cart. Most of them you've never even seen before, and a perfume-like aroma wafts from a box of red berry clusters. She looks expectantly at you, smiling politely."
     - "You catch the vendor's eye again as she finishes selling something that looks like citrus. She tells the customer it's her daughter's favorite."
     - "The woman packs up her cart, eager to get back to her daughter and mother."
 
@@ -35,12 +36,12 @@
   description: 
     - "In the middle of the crowded marketplace, you see a man dressed in an impressive garb that feels important and professional, but at once authentic and grounded. He seems to be charming those around him as a small crowd gathers to listen to his sermon-like presentation. Behind him is an elaborate cart of small tokens and jars, all different sizes and shapes. The sign reads \"Medicine\" in multiple languages."
     - "The Medicine Merchant is still selling his wares, delivering the same sermon-like pitch to anyone who will listen."
-    - "As you watch more people buying the man’s goods, you wonder how much he earns, and how much of that money he passes on to Mr. Todd."
+    - "As you watch more people buying the man's goods, you wonder how much he earns, and how much of that money he passes on to Mr. Todd."
 
 - symbol: two_women_malcom
   display_name: Women Waiting for Ferry
   description: 
-    - "At the far end of the market there are two women in elaborate dress. You don’t know where they are from, but they are certainly not from this region, nor do they look like they came from Capitol City. Very ornamental and expensive, their dresses pop and glide in different directions and both are wearing wild headpieces. You feel a sense of royalty from them."
+    - "At the far end of the market there are two women in elaborate dress. You don't know where they are from, but they are certainly not from this region, nor do they look like they came from Capitol City. Very ornamental and expensive, their dresses pop and glide in different directions and both are wearing wild headpieces. You feel a sense of royalty from them."
     - "The two Valerian women wait impatiently for their ferry, still chatting."
     - "As you pass by, one shoots you a withering glance. They don't want to talk to you again."
 
@@ -56,8 +57,8 @@
     - "The patient coughs absently. It sounds nasty, but she's used to it."
     - "She looks at the door, probably weighing cutting her loses and going back to work."
 
-- symbol: clinician_crup
-  display_name: Clinician
+- symbol: dr_maramuta_crup
+  display_name: Dr. Maramuta
   description: 
     - "A tired looking man with a stethoscope around his neck stands in the doorway of the clinic. He appears to be a doctor of some sort."
     - "Dr. Maramuta chews his pen while looking over a spreadsheet. He takes another pen from his lab coat to make notes."
@@ -80,7 +81,7 @@
 - symbol: mech_farmer_crup
   display_name: Mech Farmer
   description: 
-    - "A man leans up against a large piece of advanced farming equipment smoking a cigarette. It looks like he’s taking a break."
+    - "A man leans up against a large piece of advanced farming equipment smoking a cigarette. It looks like he's taking a break."
     - "You continue to chat with the man, only distracted a little by his mech. You're surprised by how cool it is, a giant farming robot."
     - "The man extinguishes his half-smoked cigarette and stashes it in the soft pack he keeps rolled in his sleeve. Time to get back to work."
 
@@ -91,14 +92,14 @@
 - symbol: nomad_mile
   display_name: Nomad
   description: 
-    - "A short man sits in the shade, tuning what looks like a harp. Haven’t you seen him somewhere before?"
+    - "A short man sits in the shade, tuning what looks like a harp. Haven't you seen him somewhere before?"
     - "Probably? Maybe? It's almost as if you can't remember his face when you look away."
     - "You turn away and try to--nope. Can't remember what he looks like. You try it two more times. He's amused and that's only more frustrating."
 
 - symbol: farm_worker_mile
   display_name: Farm Worker
   description: 
-    - "A woman who looks to be in her thirties crouches down among rows of fresh crops, harvesting the land’s bounty. Her movements are precise and efficient, like she has been doing this her whole life. She hums softly to herself as she works in rhythm with her motions. The only adornment on her otherwise spartan attire is a small, shabby locket dangling from her neck."
+    - "A woman who looks to be in her thirties crouches down among rows of fresh crops, harvesting the land's bounty. Her movements are precise and efficient, like she has been doing this her whole life. She hums softly to herself as she works in rhythm with her motions. The only adornment on her otherwise spartan attire is a small, shabby locket dangling from her neck."
     - "You notice the thin tan line from the locket's chain. While you're looking, she starts talking again."
     - "She blows some dirt off her hand before running her fingers over the locket. All the while she detassels with her other hand."
 
@@ -147,7 +148,7 @@
 - symbol: nomad_kibari
   display_name: Nomad
   description: 
-    - "A short man sits in the shade, tuning what looks like a harp. Haven’t you seen him somewhere before?"
+    - "A short man sits in the shade, tuning what looks like a harp. Haven't you seen him somewhere before?"
     - "You can't shake the feeling. Maybe he just has one of those faces."
     - "You'd talk with him some more, but the way he looks at you, as if he knows you can't quite place him."
 
@@ -179,7 +180,7 @@
 - symbol: nomad_valeria
   display_name: Nomad
   description: 
-    - "A man sits, tuning his harp. Haven’t you seen him somewhere before?"
+    - "A man sits, tuning his harp. Haven't you seen him somewhere before?"
 
 # -------------
 # Zima
@@ -200,8 +201,8 @@
   description: 
     - "Her assortment of luggage marks this woman as a traveller, and her clothes and attitude tell you she is foreign. Where could she be going?" 
 
-- symbol: doctor_zima
-  display_name: Doctor
+- symbol: dr_notega_Zima
+  display_name: Dr. Notega
   description: 
     - "A middle aged man is examining a medical chart of some kind. You recognize him as a doctor both by his attire and his nametag, \"Dr. Notega.\"" 
 
