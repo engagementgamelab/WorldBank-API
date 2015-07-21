@@ -213,12 +213,13 @@ exports.save =
         });
 
         // Output the score and plan info
-        return { score: planScore, grade_info: gradeInfo };
+        return { score: planScore, grade_info: gradeInfo  };
       }
 
       // Calculate the plan's score ("grade")
       var finalPlanGrade = planGrade(planInput.tactics);
       planInput.score = finalPlanGrade.score;
+      planInput.default_affects = finalPlanGrade.grade_info.default_affects;
       planInput.created_at = new Date();
 
       // Create a plan object to update inside user
@@ -318,20 +319,22 @@ exports.scenario =
 
       }
          
-      api.mongo.user.findOne(dataInput.user_id, function (err, user) {
+      api.mongo.user.findById(dataInput.user_id, function (err, user) {
     
           if(user == null) {
             data.response.error = "User not found";
             next();
           }
 
-          api.mongo.plan.findOne(dataInput.plan_id, function (err, plan) {
+          api.mongo.plan.findById(dataInput.plan_id, function (err, plan) {
 
             if (err) data.response.error = err;
 
             user.plan_id = plan._id;
             data.response.current_scenario = user.current_scenario = assignUserScenario(plan);
             data.response.tactics = plan.tactics;
+            api.log("plan.default_affects: "+plan, 'notice');
+            data.response.default_affects = plan.default_affects;
 
             user.save(function (err, updatedUser) {
               
