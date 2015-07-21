@@ -1,0 +1,56 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Problem YAML
+# ==============
+
+# Phase Two Scenario Card YML Example
+
+symbol: midwives
+name: "Midwives"
+priority: 8
+
+initiating_npc: hospital_administrator # <--- character's symbol
+initiating_dialogue: "We're having a lot of trouble hitting goals for facility births. We're short-staffed, especially when it comes to midwives."
+
+starting_options: [request_budget_for_more_midwives_1]
+starting_options_affects: [request_budget_for_more_midwives_1]
+
+final_options: [request_budget_for_more_midwives_1, allow_outreach_staff_to_act_as_midwives_2, grant_autonomy_to_providers_3]
+final_options_affects: [request_budget_for_more_midwives_1, allow_outreach_staff_to_act_as_midwives_2, grant_autonomy_to_providers_3]
+
+characters:
+
+  # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory"
+
+  dep_minister_of_health:
+    dialogue: "This might be our most important indicator. Our infant mortality rate is abysmal, and if more money gets those numbers down, I'll argue for it."
+
+  director_regional_health_services:
+    dialogue: "That would explain the struggling indicators on facility births. An alternative I've considered is allowing outreach staff to serve as midwives in the field, if facilities are overstressed."
+    unlocks: [allow_outreach_staff_to_act_as_midwives_2]
+    unlocks_affects: [allow_outreach_staff_to_act_as_midwives_2]
+    feedback:
+      advise_to_follow_budget_restrictions_1: "OK, we'll make do. We always have."
+
+  ngo_manager:
+    dialogue: "If you can verify this, we'd be willing to discuss the budget."
+    narrows: [dep_minister_of_health, director_regional_health_services, ngo_manager,third_party_verifier]
+    feedback:
+      grant_autonomy_to_providers_3: "We'll do whatever you think is best, though this is a pretty major change. Let's discuss this at the end of the year."
+      request_budget_for_more_midwives_1: "We can allow this, but we'll pay close attention to the results."
+
+  coach:
+    dialogue: "The Hospital Administrator has complained to me in private about not being able to hire staff members without NGO approval. The plan is set up that way, but if we granted them autonomy to make hiring choices, things would run more smoothly."
+    unlocks: [grant_autonomy_to_providers_3] # <--- these probably will symbols
+    unlocks_affects: [grant_autonomy_to_providers_3]
+    feedback:
+      allow_outreach_staff_to_act_as_midwives_2: "This would boost our facility births for sure, but it's a bit of a cheat since they won't technically be in facilities. Whatever gets babies delivered safely, though."
+
+  third_party_verifier:
+    dialogue: "The RBF Coach has been in regular contact with the Hospital Administrator, they might be able to offer a perspective on things."
+    narrows: [dep_minister_of_health, director_regional_health_services, ngo_manager, third_party_verifier, community_verifier]
+
+  community_verifier:
+    dialogue: "I've heard this complaint from several women in my community. They say there are long waits to meet with midwives. It puts strain on everyone. Pregnancy is trying even in the best of conditions."

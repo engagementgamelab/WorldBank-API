@@ -825,7 +825,7 @@
   title: "Sanctions"
 
 - symbol: capacity_building_help
-  title: "Review Business Plan"
+  title: "Help With Capacity Building"
 
 #------------------
 # Lack of Supplies - S3_Y1_4
@@ -841,7 +841,7 @@
   title: "Increase Supply Budget"
 
 - symbol: grant_facilities_autonomy
-  title: "Increase Supply Budget"
+  title: "Grant Facilities Autonomy"
 
 # ------------------- #
 # Scenario 3 - Year 2
@@ -858,10 +858,10 @@
   title: "Sanctions"
 
 - symbol: increase_customer_service_incentives
-  title: "Increase Supply Budget"
+  title: "Increase Incentives for Customer Service"
 
 - symbol: reorganize_staff
-  title: "Increase Supply Budget"
+  title: "Reorganize Staff"
 
 #------------------
 # Mismanagement - S3_Y2_2
@@ -914,10 +914,10 @@
   title: "Comply With Ministry"
 
 - symbol: rework_business_plan
-  title: "Sanctions"
+  title: "Rework Business Plan"
 
 - symbol: grant_autonomy_to_providers
-  title: "Strong Sanctions"
+  title: "Grant Autonomy to Providers"
 
 #------------------
 # Failed Inspection - S3_Y3_2
@@ -930,7 +930,7 @@
   title: "Warning"
 
 - symbol: deny_review_2
-  title: "Strong Sanctions"
+  title: "Deny Review"
 
 #------------------
 # Perscriptions - S3_Y3_3
@@ -996,15 +996,146 @@
 
 - symbol: allow_payments_once_4
   title: "Warn, but Allow Payments Once"
+#------------------
+# Government V Organization - S4_Y1_3
+#------------------
+- symbol: hold_stakeholder_meeting_5
+  title: "Hold Meeting of Stakeholders"
+
+- symbol: clarification_of_roles_11
+  title: "Clarification of Roles"
+
+- symbol: warning_17
+  title: "Warning"
+
+- symbol: terminate_ngo_contract_7
+  title: "Terminate NGO Contract"
+#------------------
+# Lack of Supplies - S4_Y1_4
+#------------------
+- symbol: warn_ngo_4
+  title: "Warn NGO"
+
+- symbol: sanction_ngo_3
+  title: "Sanction NGO"
+
+- symbol: increase_supply_budget_2
+  title: "Increase Supply Budget"
+
+- symbol: grant_facilities_autonomy_2
+  title: "Grant Facilities Autonomy to Order Supplies"
+
+- symbol: warn_providers_3
+  title: "Warn Providers"
 # ------------------- #
 # Scenario 4 - Year 2
 # ------------------- #
+#------------------
+# Staff Issues S4_Y2_1
+#------------------
+- symbol: warn_ngo_5
+  title: "Warn NGO"
 
+- symbol: sanction_ngo_4
+  title: "Sanction NGO"
+
+- symbol: increase_customer_service_incentives_2
+  title: "Increase Incentives for Customer Service"
+
+- symbol: reorganize_staff_2
+  title: "Reorganize Staff"
+#------------------
+# Reach S4_Y2_2
+#------------------
+- symbol: terminate_contract_at_end_of_year_9
+  title: "Terminate Contract at End of Year"
+
+- symbol: increase_funding_for_ngo_2
+  title: "Increase Funding for NGO"
+
+- symbol: terminate_contract_at_end_of_year_9
+  title: "Terminate Contract at End of Year"
+
+- symbol: contract_additional_ngo_2
+  title: "Contract Additional NGO"
+#------------------
+# Budget Lines S4_Y2_3
+#------------------
+- symbol: advise_to_follow_budget_restrictions_1
+  title: "Advise to Follow Budget Restrictions"
+
+- symbol: move_authority_to_ministry_3
+  title: "Move Authority to Ministry"
+
+- symbol: grant_autonomy_to_providers_2
+  title: "Grant Autonomy to Providers"
+#------------------
+# Midwives S4_Y2_4
+#------------------
+- symbol: request_budget_for_more_midwives_1
+  title: "Request Budget Line for More Midwives"
+
+- symbol: allow_outreach_staff_to_act_as_midwives_2
+  title: "Allow Outreach Staff to Act as Midwives"
+
+- symbol: grant_autonomy_to_providers_3
+  title: "Grant Autonomy to Providers"
 # ------------------- #
 # Scenario 4 - Year 3
 # ------------------- #
+#------------------
+# New Budget S4_Y3_1
+#------------------
+- symbol: comply_with_ngo_budget_3
+  title: "Advise to Comply with NGO Budget"
 
+- symbol: rework_business_plan_2
+  title: "Rework Business Plan"
 
+- symbol: grant_autonomy_to_providers_4
+  title: "Grant Autonomy to Providers"
+#------------------
+# Process V Results Again S4_Y3_2
+#------------------
+- symbol: deny_payment_5
+  title: "Deny Payments"
+
+- symbol: allow_payments_once_5
+  title: "Warn, but Allow Payments Once"
+
+- symbol: revise_indicators_at_end_of_year_4
+  title: "Revise Indicators at End of Year"
+#------------------
+# Prescriptions S4_Y3_3
+#------------------
+- symbol: warning_18
+  title: "Warning"
+
+- symbol: sanctions_16
+  title: "Sanctions"
+
+- symbol: terminate_contract_at_end_of_year_10
+  title: "Terminate Contract at End of Year"
+
+- symbol: tie_incentives_directly_to_protocol_2
+  title: "Tie Incentives Directly to Protocol"
+
+- symbol: reduce_incentives_for_customer_service_2
+  title: "Reduce Incentives for Customer Service"
+#------------------
+# Missing Goals S4_Y3_4
+#------------------
+- symbol: return_to_traditional_financing_2
+  title: "Return to Traditional Financing"
+
+- symbol: terminate_hospital_contract_1
+  title: "Terminate Hospital Contract"
+
+- symbol: terminate_ngo_contract_8
+  title: "Terminate NGO Contract"
+
+- symbol: grant_autonomy_to_providers_5
+  title: "Grant Autonomy to Providers"
 # ----------------                          ---------------- #
 # ---------------- PHASE 2 TACTIC OPTIONS   ---------------- #
 # ----------------                          ---------------- #

@@ -1102,6 +1102,216 @@ allow_payments_once_4:
   indicator_1: 0
   indicator_2: 0
   indicator_3: 0
+#------------------
+# Government V Organization - S4_Y1_3
+#------------------
+hold_stakeholder_meeting_5:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+clarification_of_roles_11:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+warning_17:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+terminate_ngo_contract_7:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+#------------------
+# Lack of Supplies - S4_Y1_4
+#------------------
+warn_ngo_4:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+sanction_ngo_3:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+increase_supply_budget_2:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+grant_facilities_autonomy_2:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+warn_providers_3:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+#------------------
+# Staff Issues - S4_Y2_1
+#------------------
+warn_ngo_5:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+sanction_ngo_4:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+increase_customer_service_incentives_2:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+reorganize_staff_2:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+#------------------
+# Reach - S4_Y2_2
+#------------------
+terminate_contract_at_end_of_year_9:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+increase_funding_for_ngo_2:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+terminate_contract_at_end_of_year_9:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+contract_additional_ngo_2:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+#------------------
+# Budget Lines - S4_Y2_3
+#------------------
+advise_to_follow_budget_restrictions_1:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+move_authority_to_ministry_3:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+grant_autonomy_to_providers_2:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+#------------------
+# Midwives S4_Y2_4
+#------------------
+request_budget_for_more_midwives_1:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+allow_outreach_staff_to_act_as_midwives_2:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+grant_autonomy_to_providers_3:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+#------------------
+# New Budget S4_Y3_1
+#------------------
+comply_with_ngo_budget_3:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+rework_business_plan_2:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+grant_autonomy_to_providers_4:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+#------------------
+# Process V Results Again S4_Y3_1
+#------------------
+deny_payment_5:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+allow_payments_once_5:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+revise_indicators_at_end_of_year_4:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+#------------------
+# Prescriptions S4_Y3_3
+#------------------
+warning_18:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+sanctions_16:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+terminate_contract_at_end_of_year_10:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+tie_incentives_directly_to_protocol_2:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+reduce_incentives_for_customer_service_2:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+#------------------
+# Missing Goals S4_Y3_4
+#------------------
+return_to_traditional_financing_2:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+terminate_hospital_contract_1:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+terminate_ngo_contract_8:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+grant_autonomy_to_providers_5:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
 # ----------------            ---------------- #
 # ----------------   TACTICS  ---------------- #
 # ----------------            ---------------- #

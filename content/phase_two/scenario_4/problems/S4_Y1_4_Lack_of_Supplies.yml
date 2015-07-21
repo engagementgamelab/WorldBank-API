@@ -1,0 +1,58 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Problem YAML
+# ==============
+
+# Phase Two Scenario Card YML Example
+
+symbol: lack_of_supplies
+name: "Lack of Supplies"
+priority: 4
+
+initiating_npc: community_verifier # <--- character's symbol
+initiating_dialogue: "Bad news. We have surveyed many patients from the hospitals and local clinics, and at every focus group, someone reports being turned away without services."
+
+starting_options: [warn_ngo_4]
+starting_options_affects: [warn_ngo_4]
+
+final_options: [warn_ngo_4, sanction_ngo_3, increase_supply_budget_2, grant_facilities_autonomy_2, warn_providers_3]
+final_options_affects: [warn_ngo_4, sanction_ngo_3, increase_supply_budget_2, grant_facilities_autonomy_2, warn_providers_3]
+
+characters:
+
+  # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
+  dep_minister_of_health: # <--- character's symbol
+    dialogue: "If people are being turned away, it's because funds are being mismanaged. Sanctions may be the only thing that makes a difference."
+    unlocks: [sanction_ngo_3]
+    unlocks_affects: [sanction_ngo_3]
+
+  director_regional_health_services:
+    dialogue: "This is a serious problem. It's hard enough getting people to hospitals even when services are abundant."
+    feedback:
+      increase_supply_budget_2: "We have increased the budget every year. I am not optimistic this will solve the problem."
+
+  ngo_manager:
+    dialogue: "This is a problem at the provider level. You should issue them a warning. Or if you prefer, I can do so."
+    unlocks: [warn_providers_3]
+    unlocks_affects: [warn_providers_3]
+    feedback:
+      warn_ngo_4: "Warning received. I'll discuss this with our health providers and work on a solution."
+      grant_facilities_autonomy_2: "This problem is due to facilities mismanaging what they are given, not my budget lines. It's not a good idea to give them more responsibility when they've done such a bad job with what they have."
+      sanction_ngo_3: "How are we supposed to accomplish anything if you keep handicapping us? You understand this is going to affect care outcomes."
+
+  coach:
+    dialogue: "I'm not sure why, but these facilities are always low on supplies. Maybe the budget's been set too low."
+    unlocks: [increase_supply_budget_2] # <--- these probably will symbols
+    unlocks_affects: [increase_supply_budget_2]
+
+  third_party_verifier:
+    dialogue: "The numbers are poor, but at least the facilities don't appear to be exaggerating them."
+
+  hospital_administrator:
+    dialogue: "We put in requests for supplies, but they are not filled in a timely way. We get too much of some things, and not enough of others. If we could order our own supplies directly, this wouldn't be a problem, but the Ministry sets our orders down to the exact number of syringes."
+    unlocks: [grant_facilities_autonomy_2]
+    unlocks_affects: [grant_facilities_autonomy_2]
+    feedback:
+      warn_providers_3: "I'm at a loss. I'll hold a meeting with my staff and the RBF Coach and try to figure out how to resolve this."
