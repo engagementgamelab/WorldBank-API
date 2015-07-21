@@ -9,7 +9,7 @@
 
 symbol: process_v_results
 name: "Process V. Results"
-priority: 1
+priority: 2
 
 initiating_npc: ngo_manager # <--- character's symbol
 initiating_dialogue: "Look. I know we haven't hit the numbers you laid out, but we got a lot of good work done. We can easily make our marks next quarter if the payor issues us our bonus for this period."
