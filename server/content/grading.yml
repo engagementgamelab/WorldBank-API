@@ -23,6 +23,7 @@
 - score: 14-11
   grade: A
   description: "Congratulations on exceeding your goals. The pilot test we conducted has shown significant increases in all three major indicators. We are confident that over the next three years, this plan will continue to bear fruit."
+  default_affects: [10, 20, 15]
 
 # Facility births: +10%
 # Vaccinations: +20%
@@ -31,6 +32,7 @@
 - score: 10-8
   grade: B
   description: "The pilot test we ran showed some promising results. We have seen measurable increases in all three major indicators, especially in vaccinations. With proper implementation over the next three years, Facility Births and Quality of Care could rise to match it."
+  default_affects: [5, 15, 5]
 
 # Facility births: +5%
 # Vaccinations: +15%
@@ -39,6 +41,8 @@
 - score: 7-4
   grade: C
   description: "The results of our pilot test were mixed to say the least. Indicators have barely budged and are within the margins of error. We recommend re-evaluation of the context. A second attempt could yield a plan with greater efficacy."
+  default_affects: [0, -5, 0]
+
 # Facility births: 0
 # Vaccinations: -5%
 # Quality of care: 0
@@ -46,6 +50,8 @@
 - score: 3-1
   grade: D
   description: "We ran a pilot test and somehow, your plan as done more harm than good. Maybe RBF isn't the right answer after all. We strongly recommend re-evaluation of the context. More research and surveys should help. If this plan is put into practice, the implementer will have their work cut out for them!" 
+  default_affects: [-8, -10, 0]
+
 # Facility births: -8%
 # Vaccinations: -10%
 # Quality of care: 0%
