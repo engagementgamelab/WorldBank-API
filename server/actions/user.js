@@ -220,13 +220,14 @@ exports.save =
       var finalPlanGrade = planGrade(planInput.tactics);
       planInput.score = finalPlanGrade.score;
       planInput.default_affects = finalPlanGrade.grade_info.default_affects;
+      planInput.affects_bias = finalPlanGrade.grade_info.affects_bias;
+
       planInput.created_at = new Date();
 
       // Create a plan object to update inside user
       var planModel = new api.mongo.plan( 
         planInput
       );
-        
 
       // Find specified user
       api.mongo.user.findOne(dataInput.user_id, function (err, user) {
@@ -333,8 +334,8 @@ exports.scenario =
             user.plan_id = plan._id;
             data.response.current_scenario = user.current_scenario = assignUserScenario(plan);
             data.response.tactics = plan.tactics;
-            api.log("plan.default_affects: "+plan, 'notice');
             data.response.default_affects = plan.default_affects;
+            data.response.affects_bias = plan.affects_bias;
 
             user.save(function (err, updatedUser) {
               

@@ -27,6 +27,7 @@ var planSchema = new mongoose.Schema({
   tactics: { type: Array, required: true },
   score: { type: Number, required: true, default: 10 },
   default_affects: { type: Array, required: true },
+  affects_bias: { type: Array, required: true },
   created_at: { type: Date, required: true }
 
 });
