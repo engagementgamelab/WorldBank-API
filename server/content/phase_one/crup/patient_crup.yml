@@ -23,7 +23,7 @@ dialogue:
     Negative Account:
       text:
         - "\"The rest would all be tolerable if the people at the hospitals and clinics were at least polite and helpful, but they are not. They treat us like a nuisance when they talk to us at all.\""
-      unlocks: [improve_patient_and_provider_relationship]
+      unlocks: [unlockable_improve_patient_and_provider_relationship]
       unlocks_context: ["Bad customer service discourages patients."]
     Government Incompetence: 
       text: 
