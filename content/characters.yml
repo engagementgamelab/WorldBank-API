@@ -185,3 +185,7 @@
 - symbol: hospital_administrator
   display_name: Hospital Administrator
   description: "You try to get the wiry man's attention, but even when he's talking to you his eyes dart away."
+
+- symbol: health_provider_3
+  display_name: health provider
+  description: "something"

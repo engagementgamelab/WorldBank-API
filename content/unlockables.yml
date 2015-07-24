@@ -66,6 +66,11 @@
 # ------------------
 - symbol: unlockable_dialogue_professor
 
+# ------------------
+# unlocked by dr maramuta in Crup
+# ------------------
+- symbol: unlockable_dialogue_clinician
+
 # ----------------           ---------------- #
 # ----------------  ROUTES   ---------------- #
 # ----------------           ---------------- #
