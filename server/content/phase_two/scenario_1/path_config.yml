@@ -5,8 +5,8 @@
 # Phase Two Scenario One Path Config YAML
 # ==============
 
-prompt_year_1: "do you want to do something?"
-prompt_year_2: "do you want to do something?"
+prompt_year_1: "Thank you for joining us for the end of year meeting. It seems like your plan implementation is going smoothly, yes? That said, we would like to know if you need anything approved through us to make the plan run more efficiently."
+prompt_year_2: "You've made it to the end of year two. I hope you are checking your indicators and making sure the RBF plan is running smoothly. Is there anything you need from us?"
 choices: # <---- The choices the player will see during a year break.
   - text: "Fire Clinic"
     # This instructs the game to load the player into twist 1 if at end of year 1.
