@@ -13,7 +13,7 @@ priority: 3
 year: 1
 
 initiating_npc: third_party_verifier # <--- character's symbol
-initiating_dialogue: "The Clinic submitted their reports to us, but there were some inconsistancies. When we asked to see their records, they couldn't supply them."
+initiating_dialogue: "The Clinic submitted their reports to us, but there were some inconsistencies. When we asked to see their records, they couldn't supply them."
 
 starting_options: [hold_payment_2]
 starting_options_affects: [hold_payment_2]
@@ -30,8 +30,8 @@ characters:
     unlocks_affects: [sanctions_12]
 
   director_regional_health_services: # <--- character's symbol
-    dialogue: "We need the authority to verify things as we have always done in the past. It seems unethical to OK payments that we haven't verified."
-    narrows: [clinic_manager, hospital_administrator] # <--- this probably will be a symbol
+    dialogue: "All providers in my region know the requirements for keeping records. Something must be wrong. I'd talk to them."
+    narrows: [dep_minister_of_health, director_regional_health_services, coach, third_party_verifier, community_verifier] # <--- this probably will be a symbol
 
   coach:
     dialogue: "Can't imagine why they aren't keeping records. Last time I talked to them, they said everything was fine and they didn't want my help."

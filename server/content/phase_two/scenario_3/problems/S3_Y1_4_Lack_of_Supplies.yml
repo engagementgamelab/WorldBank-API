@@ -13,7 +13,7 @@ priority: 4
 year: 1
 
 initiating_npc: community_verifier # <--- character's symbol
-initiating_dialogue: "Community Verifier"
+initiating_dialogue: "Bad news: We're running surveys of patients from the hospitals and local clinics, and at every focus group, someone reports being turned away without services."
 
 starting_options: [warn_providers]
 starting_options_affects: [warn_providers]
@@ -36,9 +36,17 @@ characters:
     feedback: 
       increase_supply_budget: "We've increased the budget every year and that hasn't solved the problem yet. That isn't to say our health care providers are the problem, only that it might not be budgetary." # <--- symbol of the option used and the feedback text for it
 
+  coach:
+    dialogue: "I'm not sure why, but these facilities are always low on supplies. Maybe they just need more money."
+    unlocks: [increase_supply_budget]
+    unlocks_affects: [increase_supply_budget]
+
+  third_party_verifier:
+    dialogue: "The numbers are poor, but at least the facilities are being honest about it."
+
   clinic_manager:
     dialogue: "I've spoken to the RBF coach about this a number of times. If we don't have basic supplies, we cannot treat patients."
-    narrows: [coach, hospital_administrator] # <--- this probably will be a symbol
+    narrows: [dep_minister_of_health, director_regional_health_services, clinic_manager, third_party_verifier, community_verifier] # <--- this probably will be a symbol
     feedback: 
       unlocks_sanction_providers: "You can't seriously be asking us to do more with even less. It costs money to provide quality care." # <--- symbol of the option used and the feedback text for it
 
