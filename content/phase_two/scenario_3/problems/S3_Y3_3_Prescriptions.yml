@@ -7,8 +7,8 @@
 
 # Phase Two Scenario Card YML Example
 
-symbol: perscriptions
-name: "Perscriptions"
+symbol: prescriptions
+name: "Prescriptions"
 priority: 3
 year: 3
 

@@ -26,7 +26,7 @@ characters:
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
     dialogue: "Our monitors have found mismanagement of funds. Hospitals should provide the necessary services with what we give them to work with. "
-    narrows: [third_party_verifier, clinic_manager] # <--- this probably will be a symbol
+    narrows: [dep_minister_of_health, director_regional_health_services, coach, community_verifier, hospital_administrator] # <--- this probably will be a symbol
     feedback: 
       grant_autonomy_to_providers: "Hiring and firing is within the scope of regulation, which is my role. But if you think it's essential, we'll step back." # <--- symbol of the option used and the feedback text for it
 
@@ -37,7 +37,7 @@ characters:
 
   coach:
     dialogue: "We've been running into this problem for three years now. The only way I see this working in the future is cutting the Ministry out of the picture and letting providers hire staff."
-    narrows: [clinic_manager, director_regional_health_services] # <--- this probably will be a symbol
+    narrows: [dep_minister_of_health, coach, third_party_verifier, community_verifier, hospital_administrator] # <--- this probably will be a symbol
 
   third_party_verifier:
     dialogue: "I have noticed some inconsistencies in the data that indicate funds are being mismanaged. The providers might benefit from tighter rules."
