@@ -168,33 +168,33 @@ capacity_building:
 # ------------------
 
 warning_5:
-  indicator_1: 0
-  indicator_2: -1
-  indicator_3: +2
+  indicator_1: -1
+  indicator_2: 0
+  indicator_3: +1
 
 sanctions_3:
-  indicator_1: -1
-  indicator_2: -1
-  indicator_3: 0
+  indicator_1: +1
+  indicator_2: 0
+  indicator_3: -1
 
 hold_meeting_to_retrain_on_reporting_practices:
   indicator_1: +1
-  indicator_2: 0
-  indicator_3: +1
+  indicator_2: +1
+  indicator_3: +2
 
 # ------------------
 # Budget Lines - S1_Y3_P2
 # ------------------
 
 comply_with_ministry_request:
-  indicator_1: 0
-  indicator_2: +2
-  indicator_3: -1
+  indicator_1: -1
+  indicator_2: -1
+  indicator_3: -2
 
 clarify_separation_of_functions_and_responsibilities_2:
   indicator_1: +1
-  indicator_2: 0
-  indicator_3: +1
+  indicator_2: +1
+  indicator_3: +2
 
 Revise_business_plan_2:
   indicator_1: 0
@@ -251,13 +251,13 @@ decrease_incentives:
   indicator_3: 0
 
 warn_providers_to_follow_protocols:
-  indicator_1: -2
+  indicator_1: -1
   indicator_2: -1
-  indicator_3: +2
+  indicator_3: +3
 
 maintain_current_rates:
-  indicator_1: +4
-  indicator_2: +2
+  indicator_1: +2
+  indicator_2: +1
   indicator_3: -4
 
 # -------------------                       ------------------- #
@@ -274,57 +274,57 @@ warning_8:
 
 revise_business_plan_3:
   indicator_1: -1
-  indicator_2: -3
-  indicator_3: +2
+  indicator_2: -1
+  indicator_3: +1
 
 retrain_1:
-  indicator_1: -2
-  indicator_2: -1
-  indicator_3: 0
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +2
 #------------------
 # Reversal - S1_T1_Y2_P2
 #------------------
 train_locals_1:
-  indicator_1: -2
+  indicator_1: +1
   indicator_2: -1
-  indicator_3: 0
+  indicator_3: -3
 
 stick_to_the_plan_1:
-  indicator_1: -2
-  indicator_2: -1
-  indicator_3: +2
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +1
 
 embed_nurses_1:
-  indicator_1: -1
-  indicator_2: -3
-  indicator_3: +2
+  indicator_1: +2
+  indicator_2: 0
+  indicator_3: 0
 
 expand_travelling_nurses_1:
   indicator_1: +2
-  indicator_2: +1
-  indicator_3: -2
+  indicator_2: 0
+  indicator_3: +1
 #------------------
 # Inconsistent Indicators - S1_T1_Y2_P3
 #------------------
 incentivise_facility_births_1:
-  indicator_1: -1
-  indicator_2: -3
-  indicator_3: +2
+  indicator_1: 0
+  indicator_2: +3
+  indicator_3: 0
 
 expand_travelling_nurses_2:
-  indicator_1: -2
-  indicator_2: -1
-  indicator_3: +2
+  indicator_1: +1
+  indicator_2: 0
+  indicator_3: 0
 
 revise_indicators_at_end_of_year_3:
-  indicator_1: -2
-  indicator_2: -1
+  indicator_1: 0
+  indicator_2: 0
   indicator_3: 0
 
 broaden_services_1:
-  indicator_1: -2
-  indicator_2: -1
-  indicator_3: +2
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: -5
 
 placeholder_option_1:
   indicator_1: -2
@@ -334,19 +334,19 @@ placeholder_option_1:
 # Overflow - S1_T1_Y2_P4
 #------------------
 warning_9:
-  indicator_1: -1
-  indicator_2: -3
-  indicator_3: +5
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: +1
 
 sanctions_4:
-  indicator_1: -2
-  indicator_2: -1
-  indicator_3: 0
+  indicator_1: +1
+  indicator_2: 0
+  indicator_3: +2
 
 increase_scrutiny_1:
-  indicator_1: -2
+  indicator_1: -1
   indicator_2: -1
-  indicator_3: +2
+  indicator_3: 0
 
 terminate_contract_at_end_of_year_4:
   indicator_1: -1
@@ -366,43 +366,44 @@ sanctions_4:
   indicator_3: 0
 
 hold_meeting_to_retrain_on_reporting_practices_2:
-  indicator_1: -2
-  indicator_2: -1
+  indicator_1: -1
+  indicator_2: 0
+
   indicator_3: +2
 # ------------------
 # Budget Lines - S1_T1_Y3_P2
 # ------------------
 comply_with_ministry_budget_1:
-  indicator_1: -2
+  indicator_1: -1
   indicator_2: -1
-  indicator_3: 0
+  indicator_3: -2
 
 clarification_of_roles_9:
-  indicator_1: +3
-  indicator_2: +2
-  indicator_3: -1
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: -2
 
 revise_business_plan_4:
-  indicator_1: -2
-  indicator_2: -1
-  indicator_3: +2
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: -1
 # ------------------
 # Money Troubles - S1_T1_Y3_P3
 # ------------------
 increase_referral_incentives_1:
-  indicator_1: +2
-  indicator_2: +1
-  indicator_3: -1
+  indicator_1: +3
+  indicator_2: +3
+  indicator_3: 0
 
 continue_with_plan_1:
   indicator_1: +1
-  indicator_2: +3
-  indicator_3: -2
+  indicator_2: +1
+  indicator_3: 0
 
 terminate_contract_at_end_of_year_5:
-  indicator_1: 0
-  indicator_2: +2
-  indicator_3: +4
+  indicator_1: -2
+  indicator_2: -2
+  indicator_3: 0
 # ------------------
 # Field Records - S1_T1_Y3_P4
 # ------------------
@@ -433,23 +434,20 @@ require_nurses_to_return_to_file_1:
 # ------------------
 # Checkup Overload - S1_T1_Y3_P5
 # ------------------
-placeholder_option_3:
-  indicator_1: 0
-  indicator_2: +1
-  indicator_3: +2
+
 
 warn_providers_to_follow_protocols_2:
-  indicator_1: +2
-  indicator_2: +1
-  indicator_3: -1
+  indicator_1: -1
+  indicator_2: -1
+  indicator_3: +3
 
 decrease_incentives_2:
-  indicator_1: -1
-  indicator_2: 0
-  indicator_3: +2
+  indicator_1: -2
+  indicator_2: -1
+  indicator_3: 0
 
 maintain_current_rates_2:
-  indicator_1: -2
+  indicator_1: +2
   indicator_2: -1
   indicator_3: +2
 # ------------------- TWIST TWO --------------------- #
@@ -467,9 +465,9 @@ sanctions_6:
   indicator_3: 0
 
 hold_meeting_to_retrain_on_reporting_practices_3:
-  indicator_1: -2
-  indicator_2: -2
-  indicator_3: +1
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +2
 # ------------------
 # Budget Lines - S1_T2_Y3_P2
 # ------------------
@@ -493,24 +491,20 @@ revise_business_plan_5:
 warning_11:
   indicator_1: -2
   indicator_2: -2
-  indicator_3: +3
+  indicator_3: -2
 
 sanctions_7:
-  indicator_1: -2
-  indicator_2: -1
-  indicator_3: 0
+  indicator_1: +1
+  indicator_2: 0
+  indicator_3: +1
 
 terminate_contract_at_end_of_year_6:
-  indicator_1: -1
-  indicator_2: -2
-  indicator_3: 0
+  indicator_1: +2
+  indicator_2: +2
+  indicator_3: +1
 # ------------------
 # Field Records - S1_T2_Y3_P4
 # ------------------
-placeholder_option_4:
-  indicator_1: +1
-  indicator_2: +1
-  indicator_3: 0
 
 increase_funding_for_verifiers_2:
   indicator_1: 0
@@ -537,17 +531,17 @@ require_nurses_to_return_to_file_2:
 warning_12:
   indicator_1: -2
   indicator_2: -2
-  indicator_3: +3
+  indicator_3: -2
 
 sanctions_8:
-  indicator_1: -2
-  indicator_2: -1
-  indicator_3: 0
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +1
 
 terminate_contract_at_end_of_year_7:
-  indicator_1: -1
-  indicator_2: -2
-  indicator_3: 0
+  indicator_1: +2
+  indicator_2: +2
+  indicator_3: +2
 #---------------------------------------------- THIS IS WHERE I ENDED ADDING RANDOM THINGS FYI!!#
 
 # ----------------            ---------------- #
@@ -568,117 +562,117 @@ create_manual:
   indicator_3: +4
 
 give_ministry_more_power:
-  indicator_1: -3
-  indicator_2: 0
-  indicator_3: +1
+  indicator_1: -2
+  indicator_2: -2
+  indicator_3: -2
 
 #------------------
 # Process Versus Results - S2_Y1_P2
 #------------------
 deny_payment_1:
-  indicator_1: -1
-  indicator_2: +2
-  indicator_3: -3
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: 0
 
 warn_but_allow_payment_once_1:
-  indicator_1: +1
-  indicator_2: +3
+  indicator_1: -1
+  indicator_2: -1
   indicator_3: -2
 
 #------------------
 # Government Versus Organization - S2_Y1_P3
 #------------------
 pressure_the_ngo_to_comply_1:
-  indicator_1: +2
-  indicator_2: +1
+  indicator_1: -2
+  indicator_2: -2
   indicator_3: -2
 
 cease_counter_verification:
-  indicator_1: +3
-  indicator_2: +2
-  indicator_3: -1
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: -3
 
 clarification_of_roles_1:
-  indicator_1: -3
-  indicator_2: 0
-  indicator_3: +1
+  indicator_1: +2
+  indicator_2: +1
+  indicator_3: +2
 
 #------------------
 # Managerial Autonomy - S2_Y1_P4
 #------------------
 comply_with_ngo_budget_1:
-  indicator_1: +2
-  indicator_2: +1
-  indicator_3: -2
+  indicator_1: -1
+  indicator_2: -2
+  indicator_3: -1
 
 move_authority_to_ministry_1:
-  indicator_1: 0
-  indicator_2: +2
-  indicator_3: +4
+  indicator_1: -1
+  indicator_2: -1
+  indicator_3: -1
 
 clarification_of_roles_2:
-  indicator_1: -3
+  indicator_1: +1
   indicator_2: 0
-  indicator_3: +1
+  indicator_3: +2
 
 #------------------
 # Process Versus Results Again - S2_Y2_P1
 #------------------
 deny_payment_2:
-  indicator_1: -3
+  indicator_1: 0
   indicator_2: 0
-  indicator_3: +1
+  indicator_3: 0
 
 warn_but_allow_payment_once_2:
-  indicator_1: 0
-  indicator_2: +2
-  indicator_3: +4
+  indicator_1: -3
+  indicator_2: 0
+  indicator_3: -2
 
 revise_indicators_at_end_of_year_1:
-  indicator_1: +1
-  indicator_2: +3
-  indicator_3: -3
+  indicator_1: -1
+  indicator_2: -1
+  indicator_3: 0
 
 #------------------
 # Reach - S2_Y2_P2
 #------------------
 terminate_ngo_contract_1:
-  indicator_1: -2
-  indicator_2: 0
-  indicator_3: +2
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +1
 
 revise_operating_manual:
   indicator_1: 0
-  indicator_2: +2
-  indicator_3: +4
+  indicator_2: 0
+  indicator_3: 0
 
 increase_funding_for_ngo:
-  indicator_1: +2
-  indicator_2: +1
-  indicator_3: -2
+  indicator_1: -1
+  indicator_2: -1
+  indicator_3: -1
 
 contract_additional_ngo_at_years_end:
-  indicator_1: -1
-  indicator_2: 0
-  indicator_3: +2
+  indicator_1: +2
+  indicator_2: +1
+  indicator_3: +1
 
 #------------------
 # Arguments - S2_Y2_P3
 #------------------
 hold_stakeholder_meeting_2:
   indicator_1: 0
-  indicator_2: +2
-  indicator_3: +4
+  indicator_2: 0
+  indicator_3: 0
 
 warn_ngo_2:
-  indicator_1: +2
-  indicator_2: +1
-  indicator_3: -2
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
 
 clarification_of_roles_3:
-  indicator_1: -2
+  indicator_1: -1
   indicator_2: 0
-  indicator_3: +2
+  indicator_3: -1
 
 terminate_ngo_contract_2:
   indicator_1: +2
@@ -689,88 +683,84 @@ terminate_ngo_contract_2:
 # Unit Cost - S2_Y2_P4
 #------------------
 clarification_of_roles_4:
-  indicator_1: -3
-  indicator_2: 0
+  indicator_1: +2
+  indicator_2: +1
   indicator_3: +1
 
 move_authority_to_ministry_2:
   indicator_1: 0
-  indicator_2: +2
-  indicator_3: +4
+  indicator_2: 0
+  indicator_3: 0
 
 comply_with_ngo_budget_2:
   indicator_1: -1
-  indicator_2: +1
-  indicator_3: +2
+  indicator_2: -2
+  indicator_3: -2
 
 #------------------
 # Contract Management - S2_Y2_P5
 #------------------
 terminate_ngo_contract_3:
-  indicator_1: -1
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+clarification_of_roles_5:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+hire_agency:
+  indicator_1: +2
   indicator_2: +1
   indicator_3: +2
 
-clarification_of_roles_5:
-  indicator_1: +2
-  indicator_2: +1
-  indicator_3: -2
-
-hire_agency:
-  indicator_1: -1
+expidite_payment_and_service_delivery:
+  indicator_1: +1
   indicator_2: 0
   indicator_3: +1
-
-expidite_payment_and_service_delivery:
-  indicator_1: +3
-  indicator_2: +1
-  indicator_3: 0
 
 #------------------
 # More Arguments - S2_Y3_P1
 #------------------
 hold_stakeholder_meeting_3:
-  indicator_1: +1
-  indicator_2: +1
+  indicator_1: 0
+  indicator_2: 0
   indicator_3: 0
 
 warn_ngo_3:
-  indicator_1: +2
-  indicator_2: +2
-  indicator_3: +2
-
-clarification_of_roles_6:
-  indicator_1: +2
-  indicator_2: +2
+  indicator_1: +1
+  indicator_2: 0
   indicator_3: +1
 
-terminate_ngo_contract_4:
-  indicator_1: +3
-  indicator_2: +2
+clarification_of_roles_6:
+  indicator_1: 0
+  indicator_2: 0
   indicator_3: 0
+
+terminate_ngo_contract_4:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +1
 
 #------------------
 # Excuses - S2_Y3_P2
 #------------------
-hold_stakeholder_meeting_4:
-  indicator_1: +1
-  indicator_2: +1
-  indicator_3: +1
 
 warn_but_allow_payment_once_3:
-  indicator_1: -3
+  indicator_1: -2
+  indicator_2: -3
+  indicator_3: -2
+
+deny_payment_3:
+  indicator_1: +1
   indicator_2: 0
   indicator_3: +1
 
-deny_payment_3:
-  indicator_1: -2
-  indicator_2: -2
-  indicator_3: -3
-
 revise_indicators_at_end_of_year_2:
-  indicator_1: +1
+  indicator_1: 0
   indicator_2: 0
-  indicator_3: -2
+  indicator_3: 0
 
 #------------------
 # Micro-Management - S2_Y3_P3
@@ -778,24 +768,24 @@ revise_indicators_at_end_of_year_2:
 clarification_of_roles_7:
   indicator_1: +1
   indicator_2: 0
-  indicator_3: -2
+  indicator_3: +1
 
 terminate_ngo_contract_5:
   indicator_1: 0
-  indicator_2: +2
-  indicator_3: +4
+  indicator_2: 0
+  indicator_3: 0
 
 sanction_ngo_1:
-  indicator_1: -2
-  indicator_2: -1
-  indicator_3: -2
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: -1
 
 #------------------
 # Poor Stewardship - S2_Y3_P4
 #------------------
 clarification_of_roles_8:
-  indicator_1: +3
-  indicator_2: +2
+  indicator_1: -1
+  indicator_2: -1
   indicator_3: -1
 
 terminate_ngo_contract_6:
@@ -805,8 +795,8 @@ terminate_ngo_contract_6:
 
 sanction_ngo_2:
   indicator_1: 0
-  indicator_2: +1
-  indicator_3: 0
+  indicator_2: 0
+  indicator_3: +1
 
 # ----------------               ---------------- #
 # ----------------   SCENARIO 3  ---------------- #
@@ -819,7 +809,7 @@ sanction_ngo_2:
 warn_verifier_1:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: -1
 
 reaffirm_ministry_authority:
   indicator_1: 0
@@ -827,22 +817,17 @@ reaffirm_ministry_authority:
   indicator_3: 0
 
 ask_reduce_oversight:
-  indicator_1: 0
+  indicator_1: +1
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: +1
 
 circulate_memo_reaffirming_ministry_authority:
-  indicator_1: 0
-  indicator_2: 0
+  indicator_1: -1
+  indicator_2: -1
   indicator_3: 0
 
 streamline_speed_verification_process:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
-
-verification_1:
-  indicator_1: 0
+  indicator_1: +1
   indicator_2: 0
   indicator_3: 0
 
@@ -851,14 +836,14 @@ verification_1:
 #------------------
 
 warning_and_retraining_2:
-  indicator_1: 0
+  indicator_1: +1
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: +1
 
 sanctions_11:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: -1
 
 review_business_plan:
   indicator_1: 0
@@ -870,33 +855,33 @@ review_business_plan:
 #------------------
 
 hold_payment_2:
-  indicator_1: 0
+  indicator_1: +1
   indicator_2: 0
   indicator_3: 0
 
 sanctions_12:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: -2
 
 capacity_building_help:
-  indicator_1: 0
+  indicator_1: +1
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: +1
 
 #------------------
 # Lack of Supplies - S3_Y1_4
 #------------------
 
 warn_providers:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_1: -2
+  indicator_2: -2
+  indicator_3: -1
 
 unlocks_sanction_providers:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_1: -2
+  indicator_2: -3
+  indicator_3: -2
 
 increase_supply_budget:
   indicator_1: 0
@@ -904,52 +889,71 @@ increase_supply_budget:
   indicator_3: 0
 
 grant_facilities_autonomy:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_1: +4
+  indicator_2: +2
+  indicator_3: +3
 
 #------------------
 # Staff Issues - S3_Y2_1
 #------------------
 
 warn_providers_2:
-  indicator_1: 0
+  indicator_1: -1
   indicator_2: 0
   indicator_3: 0
 
 sanctions_13:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: -2
 
 increase_customer_service_incentives:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: +1
 
 reorganize_staff:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_1: -1
+  indicator_2: -1
+  indicator_3: +2
 
 #------------------
 # Mismanagement - S3_Y2_2
 #------------------
 
 warning_13:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +1
 
 sanctions_and_retraining_on_use_of_financial_tools_2:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_1: +2
+  indicator_2: +2
+  indicator_3: +2
 
 revise_business_plan_6:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: -1
+
+  #------------------
+# Transparency - S3_Y2_3
+#------------------
+
+warning_14:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +1
+
+sanctions_14:
+  indicator_1: +2
+  indicator_2: +2
+  indicator_3: +2
+
+strong_sanctions_2:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: -1
 
 #------------------
 # Midwives - S3_Y2_4
@@ -957,37 +961,37 @@ revise_business_plan_6:
 
 request_a_budget_line_from_ministry:
   indicator_1: 0
-  indicator_2: 0
+  indicator_2: +1
   indicator_3: 0
 
 allow_outreach_staff_to_act_as_midwives:
   indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_2: +2
+  indicator_3: -5
 
 grant_providers_autonomy_to_hire_staff:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_1: +2
+  indicator_2: +3
+  indicator_3: +4
 
 #------------------
 # Budget Lines - S3_Y3_1
 #------------------
 
 comply_with_ministry_2:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_1: -1
+  indicator_2: -1
+  indicator_3: -2
 
 rework_business_plan:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: -1
 
 grant_autonomy_to_providers:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_1: +2
+  indicator_2: +1
+  indicator_3: +4
 
 #------------------
 # Failed Inspection - S3_Y3_2
@@ -996,17 +1000,17 @@ grant_autonomy_to_providers:
 review_the_inspection_2:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: -1
 
 warning_15:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: +1
 
 deny_review_2:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: +2
 
 #------------------
 # Perscriptions - S3_Y3_3
@@ -1015,51 +1019,51 @@ deny_review_2:
 warning_16:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: +1
 
 sanctions_15:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: +1
 
 terminate_contract_at_end_of_year_8:
-  indicator_1: 0
-  indicator_2: 0
+  indicator_1: -2
+  indicator_2: -4
   indicator_3: 0
 
 tie_incentives_directly_to_protocol:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: +4
 
 reduce_incentives_for_customer_service:
-  indicator_1: 0
+  indicator_1: -1
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: +2
 
 #------------------
 # Missing Goals - S3_Y3_4
 #------------------
 
 return_to_traditional_financing:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_1: -1
+  indicator_2: -2
+  indicator_3: -1
 
 terminate_both_health_contracts_of_providers:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: -1
 
 terminate_hospital_contract_and_redirect_resources:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: -2
 
 grant_providers_autonomy:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_1: +3
+  indicator_2: +2
+  indicator_3: +3
 # ----------------               ---------------- #
 # ----------------   SCENARIO 4  ---------------- #
 # ----------------               ---------------- #
@@ -1069,7 +1073,7 @@ grant_providers_autonomy:
 warn_verifier_2:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: -1
 
 revert_counterverification_1:
   indicator_1: 0
@@ -1077,21 +1081,21 @@ revert_counterverification_1:
   indicator_3: 0
 
 streamline_speed_verification_process_2:
-  indicator_1: 0
+  indicator_1: +1
   indicator_2: 0
   indicator_3: 0
 
 circulate_memo_reaffirming_ministry_authority_2:
-  indicator_1: 0
-  indicator_2: 0
+  indicator_1: -1
+  indicator_2: -1
   indicator_3: 0
 #------------------
 # Process V Results - S4_Y1_2
 #------------------
 deny_payment_4:
-  indicator_1: 0
+  indicator_1: +1
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: +1
 
 increase_budget_for_supplies_1:
   indicator_1: 0
@@ -1099,9 +1103,9 @@ increase_budget_for_supplies_1:
   indicator_3: 0
 
 allow_payments_once_4:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_1: -1
+  indicator_2: -2
+  indicator_3: -1
 #------------------
 # Government V Organization - S4_Y1_3
 #------------------
@@ -1111,31 +1115,31 @@ hold_stakeholder_meeting_5:
   indicator_3: 0
 
 clarification_of_roles_11:
-  indicator_1: 0
+  indicator_1: +1
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: +1
 
 warning_17:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: +1
 
 terminate_ngo_contract_7:
-  indicator_1: 0
+  indicator_1: +1
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: +2
 #------------------
 # Lack of Supplies - S4_Y1_4
 #------------------
 warn_ngo_4:
   indicator_1: 0
-  indicator_2: 0
+  indicator_2: -1
   indicator_3: 0
 
 sanction_ngo_3:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_1: -1
+  indicator_2: -2
+  indicator_3: -1
 
 increase_supply_budget_2:
   indicator_1: 0
@@ -1143,21 +1147,21 @@ increase_supply_budget_2:
   indicator_3: 0
 
 grant_facilities_autonomy_2:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_1: +3
+  indicator_2: +3
+  indicator_3: +3
 
 warn_providers_3:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: -2
 #------------------
 # Staff Issues - S4_Y2_1
 #------------------
 warn_ngo_5:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: +1
 
 sanction_ngo_4:
   indicator_1: 0
@@ -1165,21 +1169,17 @@ sanction_ngo_4:
   indicator_3: 0
 
 increase_customer_service_incentives_2:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_1: +2
+  indicator_2: +1
+  indicator_3: -3
 
 reorganize_staff_2:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_1: -1
+  indicator_2: -1
+  indicator_3: +2
 #------------------
 # Reach - S4_Y2_2
 #------------------
-terminate_contract_at_end_of_year_9:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
 
 increase_funding_for_ngo_2:
   indicator_1: 0
@@ -1187,21 +1187,21 @@ increase_funding_for_ngo_2:
   indicator_3: 0
 
 terminate_contract_at_end_of_year_9:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +1
 
 contract_additional_ngo_2:
-  indicator_1: 0
-  indicator_2: 0
+  indicator_1: +2
+  indicator_2: +2
   indicator_3: 0
 #------------------
 # Budget Lines - S4_Y2_3
 #------------------
 advise_to_follow_budget_restrictions_1:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_1: -1
+  indicator_2: -2
+  indicator_3: -1
 
 move_authority_to_ministry_3:
   indicator_1: 0
@@ -1209,33 +1209,33 @@ move_authority_to_ministry_3:
   indicator_3: 0
 
 grant_autonomy_to_providers_2:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_1: +3
+  indicator_2: +3
+  indicator_3: +3
 #------------------
 # Midwives S4_Y2_4
 #------------------
 request_budget_for_more_midwives_1:
   indicator_1: 0
-  indicator_2: 0
+  indicator_2: +1
   indicator_3: 0
 
 allow_outreach_staff_to_act_as_midwives_2:
   indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_2: +2
+  indicator_3: -5
 
 grant_autonomy_to_providers_3:
   indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_2: +3
+  indicator_3: +2
 #------------------
 # New Budget S4_Y3_1
 #------------------
 comply_with_ngo_budget_3:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_1: -1
+  indicator_2: -1
+  indicator_3: -1
 
 rework_business_plan_2:
   indicator_1: 0
@@ -1243,21 +1243,21 @@ rework_business_plan_2:
   indicator_3: 0
 
 grant_autonomy_to_providers_4:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_1: +2
+  indicator_2: +1
+  indicator_3: +2
 #------------------
 # Process V Results Again S4_Y3_1
 #------------------
 deny_payment_5:
-  indicator_1: 0
+  indicator_1: +1
   indicator_2: 0
   indicator_3: 0
 
 allow_payments_once_5:
-  indicator_1: 0
+  indicator_1: -2
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: -2
 
 revise_indicators_at_end_of_year_4:
   indicator_1: 0
@@ -1269,49 +1269,49 @@ revise_indicators_at_end_of_year_4:
 warning_18:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: +1
 
 sanctions_16:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: +1
 
 terminate_contract_at_end_of_year_10:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +1
 
 tie_incentives_directly_to_protocol_2:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: +4
 
 reduce_incentives_for_customer_service_2:
-  indicator_1: 0
+  indicator_1: -1
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: +1
 #------------------
 # Missing Goals S4_Y3_4
 #------------------
 return_to_traditional_financing_2:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_1: -1
+  indicator_2: -1
+  indicator_3: -1
 
 terminate_hospital_contract_1:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_1: -1
+  indicator_2: -2
+  indicator_3: -3
 
 terminate_ngo_contract_8:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +1
 
 grant_autonomy_to_providers_5:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_1: +2
+  indicator_2: +2
+  indicator_3: +2
 # ----------------            ---------------- #
 # ----------------   TACTICS  ---------------- #
 # ----------------            ---------------- #
@@ -1332,13 +1332,13 @@ unlockable_information_campaign:
   indicator_3: 0
 
 unlockable_add_travel_vouchers:
-  indicator_1: +1
+  indicator_1: +3
   indicator_2: +2
   indicator_3: 0
 
 unlockable_increase_budget_for_outreach:
-  indicator_1: +3
-  indicator_2: +1
+  indicator_1: +2
+  indicator_2: 0
   indicator_3: 0
 
 # -------------------------- 
@@ -1346,9 +1346,9 @@ unlockable_increase_budget_for_outreach:
 # -------------------------- 
 
 unlockable_warning_t1:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: +2
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: 0
 
 unlockable_sanctions_t1:
   indicator_1: -1
@@ -1361,7 +1361,7 @@ unlockable_sanctions_t1:
 
 unlockable_expedite_voucher_payment:
   indicator_1: +2
-  indicator_2: +2
+  indicator_2: +1
   indicator_3: +1
 
 unlockable_sanction_the_provider:
@@ -1379,12 +1379,12 @@ unlockable_warn_the_provider:
 # -------------------------- 
 
 unlockable_warning_t2:
-  indicator_1: +1
-  indicator_2: +1
+  indicator_1: 0
+  indicator_2: 0
   indicator_3: +1
 
 unlockable_sanctions_t2:
-  indicator_1: +2
+  indicator_1: +1
   indicator_2: 0
   indicator_3: +1
 
@@ -1418,8 +1418,8 @@ unlockable_print_vouchers_locally:
 
 unlockable_contract_organization_to_help_distribute:
   indicator_1: +3
-  indicator_2: +2
-  indicator_3: -1
+  indicator_2: 0
+  indicator_3: +1
 
 unlockable_sanction_voucher_agency:
   indicator_1: -1
@@ -1437,7 +1437,7 @@ unlockable_sanction_voucher_agency:
 # -------------------------- #
 
 unlockable_broaden_what_is_covered:
-  indicator_1: +1
+  indicator_1: 0
   indicator_2: 0
   indicator_3: -2
 
@@ -1451,9 +1451,9 @@ unlockable_information_campaign_to_explain_what_is_covered:
 # -------------------------- #
 
 unlockable_retrain:
-  indicator_1: +1
+  indicator_1: -1
   indicator_2: 0
-  indicator_3: +1
+  indicator_3: -1
 
 unlockable_hire_third_party_to_rewrite:
   indicator_1: +2
@@ -1494,8 +1494,8 @@ unlockable_increase_incentives_t2:
   indicator_3: 0
 
 unlockable_use_a_different_incentive:
-  indicator_1: +3
-  indicator_2: +2
+  indicator_1: +2
+  indicator_2: +1
   indicator_3: 0
 
 # -------------------------- #
@@ -1557,7 +1557,7 @@ unlockable_tell_providers_to_act_without_ministry_approval:
 
 unlockable_warning_t3:
   indicator_1: +1
-  indicator_2: +1
+  indicator_2: 0
   indicator_3: +1
 
 unlockable_advise_providers_to_hire_more_outreach_staff:
@@ -1673,13 +1673,13 @@ unlockable_sanction_those_providers:
 # -------------------------- #
 
 unlockable_directly_incensitive_service_improve:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_1: +2
+  indicator_2: +2
+  indicator_3: +2
 
 unlockable_increase_incentives_service_deliveries:
-  indicator_1: 0
-  indicator_2: 0
+  indicator_1: +1
+  indicator_2: +1
   indicator_3: 0
 
 # -------------------------- #
@@ -1687,9 +1687,9 @@ unlockable_increase_incentives_service_deliveries:
 # -------------------------- #
 
 unlockable_directly_incensitive_service_better:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +1
 
 unlockable_sensitization_campaign:
   indicator_1: 0
@@ -1701,14 +1701,14 @@ unlockable_sensitization_campaign:
 # -------------------------- #
 
 unlockable_sanction_these_providers:
-  indicator_1: 0
+  indicator_1: +1
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: +1
 
 unlockable_cut_incentives:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: +2
 
 unlockable_cancel_contracts:
   indicator_1: 0
@@ -1724,23 +1724,18 @@ unlockable_cancel_contracts:
 # -------------------------- #
 
 unlockable_widen_search_area:
-  indicator_1: 0
+  indicator_1: +1
   indicator_2: 0
   indicator_3: 0
 
 unlockable_lower_requirements_and_increase_training:
-  indicator_1: 0
+  indicator_1: -1
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: -1
 
 # -------------------------- #
 # Training Problems - Y1_N1
 # -------------------------- #
-
-unlockable_analyze_highland_effect:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
 
 unlockable_increase_incentives_for_attractive_facilities:
   indicator_1: 0
@@ -1748,9 +1743,9 @@ unlockable_increase_incentives_for_attractive_facilities:
   indicator_3: 0
 
 unlockable_let_hospitals_select_hires:
-  indicator_1: 0
+  indicator_1: +1
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: +2
 
 # ----------------                                 ---------------- #
 # ----------------   Make Aesthetic Improvements   ---------------- #
@@ -1766,9 +1761,9 @@ unlockable_continue_with_plan_aesthetic:
   indicator_3: 0
 
 unlockable_grant_permission:
-  indicator_1: 0
+  indicator_1: +1
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: +1
 
 # ----------------                                                  ---------------- #
 # ----------------   Contract Private Company to Deliver Supplies   ---------------- #
@@ -1812,14 +1807,14 @@ unlockable_hire_air_service:
 # ------------------------- #
 
 unlockable_pay_new_rate:
-  indicator_1: 0
+  indicator_1: +1
   indicator_2: 0
   indicator_3: 0
 
 unlockable_negotiate:
-  indicator_1: 0
+  indicator_1: +1
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: -1
 
 # ----------------                                                    ---------------- #
 # ----------------   Information Campaign to Counter Misinformation   ---------------- #
@@ -1937,19 +1932,19 @@ unlockable_increase_budget_for_printing_informational_collateral:
 # -------------------------- #
 
 unlockable_limit_perscriptions:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_1: -1
+  indicator_2: -1
+  indicator_3: -1
 
 unlockable_incentivise_following_set_protocols:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +1
 
 unlockable_retrain_doctors:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: +1
 
 # -------------------------- #
 # Wrong Procedures - Y1_NP2
@@ -1961,8 +1956,9 @@ unlockable_create_robust_referral_system:
   indicator_3: 0
 
 unlockable_incentivise_following_set_protocols_rewards:
-  indicator_1: 0
+  indicator_1: +1
   indicator_2: 0
+  indicator_3: +2
 
 unlockable_approve_payment:
   indicator_1: -1
@@ -1977,7 +1973,7 @@ unlockable_warn_and_deny_payment:
 unlockable_incentivise_referrals:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: +1
 
 # -------------------------- #
 # Infection Rates - Y2_NP1
@@ -1986,36 +1982,31 @@ unlockable_incentivise_referrals:
 unlockable_incentivise_sanitization_protocols:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: +1
 
 unlockable_incentivise_best_practices:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: +2
 
 unlockable_sanction_providers_with_high_infection_rates:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: 0
-
-unlockable_issue_payment_to_institutions:
-  indicator_1: +1
-  indicator_2: +1
-  indicator_3: +2
+  indicator_3: +1
 
 # -------------------------- #
 # Waiting - Y2_NP2
 # -------------------------- #
 
 unlockable_institute_guidelines_streamline_traffic:
-  indicator_1: 0
-  indicator_2: 0
+  indicator_1: +1
+  indicator_2: +1
   indicator_3: 0
 
 unlockable_incentivise_best_practices_beds:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: +1
 
 unlockable_increase_incentives_and_expidite_payment:
   indicator_1: +1
@@ -2029,26 +2020,26 @@ unlockable_increase_incentives_and_expidite_payment:
 unlockable_incentivise_best_practices_high_goals:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: +1
 
 unlockable_sanction_providers_performing_unnecessary_procedures:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: +2
 
 # -------------------------- #
 # Inspection Failure - Y3_NP2
 # -------------------------- #
 
 unlockable_incentivise_best_practices_long_term:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +1
 
 unlockable_sanction_providers_who_fail_safety_inspection:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: +2
 
 # ----------------                                                       ---------------- #
 # ----------------   Information Campaign to Change Cultural Behaviors   ---------------- #
