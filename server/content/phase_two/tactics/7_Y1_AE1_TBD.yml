@@ -7,9 +7,9 @@
 
 # Phase Two Tactic YML Template
 
-symbol: tactic_TBD
+symbol: tactic_make_aesthetic_improvements
 tactic_name: unlockable_make_aesthetic_improvements # <--- symbol of the tactic (stored in unlockables.yml) this card is using
-name: "Aesthetic Improvements" # <--- display name for card
+name: "Make Aesthetic Improvements" # <--- display name for card
 year: 3
 
 # This dialogue the player sees first
@@ -30,10 +30,16 @@ investigate_further_cooldown: $config_cooldown_long
 
 # These are the usable player options added after investigation is done
 # Note that each key (e.g. 'information_campaign') MUST correspond to the one under "_affects" and feedback"
-new_options: [unlockable_grant_permission, unlockable_continue_with_plan_aesthetic]
+new_options: [unlockable_grant_permission]
 
 # The affects for each new option
-new_options_affects: [unlockable_grant_permission, unlockable_continue_with_plan_aesthetic]
+new_options_affects: [unlockable_grant_permission]
+
+# These are the usable player options added after further investigation is done
+further_options: [unlockable_grant_permission]
+
+# The affects for each further new option
+further_options_affects: [unlockable_grant_permission]
 
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:

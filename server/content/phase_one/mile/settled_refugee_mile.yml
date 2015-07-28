@@ -18,8 +18,7 @@ character: settled_refugee_mile
 dialogue:
     Initial:
       text: 
-        - "He does not seem particularly bothered by your presence, and rests the magazine on his lap to speak with you. After a few minutes of idle conversation, he volunteers a little more about his past. \"I wasn't from here originally,\" he says. \"I came here as a refugee many years ago, back during the old regime. It was a very [[difficult journey]].\" A frown spreads across his face. \"My village was destroyed by a [[landslide]] during a rain storm. It will never be rebuilt.\""
-
+        - "He does not seem particularly bothered by your presence, and rests the magazine on his lap to speak with you. After a few minutes of idle conversation, he volunteers a little more about his past. \"I was not from here originally,\" he says. \"I came here as a refugee many years ago, back during the old regime. It was a very [[difficult journey]].\" A frown spreads across his face. \"My village was destroyed by a [[landslide]] during a rain storm. It will never be rebuilt.\""
         - "He looks up from his magazine to greet you. \"Nice to see you again. Did you want to discuss something with me?\""
     unlockable_dialogue_refugee:
       display_name: "Mention Professor and Old Regime"

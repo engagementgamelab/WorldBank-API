@@ -20,21 +20,18 @@ dialogue:
     Initial:
       text: 
         - "He introduces himself enthusiastically and tells you about his work studying political science and the old Zariban empire. His friendly demeanor shifts into annoyance as he speaks about his need to get to [[Mile]] and rolls his eyes at the picture of the [[prime minister]] on the front page of his paper."
-
         - "The professor closes the window on his tablet and looks you square in the eye. \"Back to continue our conversation?\""
-
     Mile: 
       text: 
-        - "You ask him about Mile: \"I haven't been down that far south in decades but I hear the life hasn't changed much. Good people who still remember life before the the current regime took power.\" He indicates the Prime Minister's photo as he speaks. \"You can take the train through Mile into Zima, though the tracks have been terrible for years.\""
+        - "You ask him about Mile: \"I haven not been down that far south in decades but I hear the life hasn't changed much. Good people who still remember life before the the current regime took power.\" He indicates the Prime Minister's photo as he speaks. \"You can take the train through Mile into Zima, though the tracks have been terrible for years.\""
       unlocks: [unlockable_dialogue_refugee]
       unlocks_context: ["Find someone in Mile who has traveled. They can confirm this..."]
-
     Prime Minister: 
       text: 
-        - "As soon as you say the words 'prime minister' his eyes grow wide and he puts down his paper. \"You know, ever since the new government took power, the train has gotten worse and worse. They should be investing in transport instead of inviting foreigners into the country to pillage our resources.\" He eyes you appraisingly before continuing. \"I will tell you this, the government is corrupt and incompetent. They are not respected in the highlands, where they still remember the old regime. They can't keep the trains running, and they won't be in power for long.\""
+        - "As soon as you say the words prime minister his eyes grow wide and he puts down his paper. \"You know, ever since the new government took power, the train has gotten worse and worse. They should be investing in transport instead of inviting foreigners into the country to pillage our resources.\" He eyes you appraisingly before continuing. \"I will tell you this, the government is corrupt and incompetent. They are not respected in the highlands, where they still remember the old regime. They can't keep the trains running, and they won't be in power for long.\""
       unlocks: [unlockable_contract_outside_organization_to_administer_plan]
       unlocks_context: ["If the professor is right and the government is not a strong partner, an NGO might be needed to make sure services are delivered."]
     unlockable_dialogue_professor:
       display_name: "Ask about Farm Bill"
       text: 
-       - "You bring up the farm bill you learned about in Crup. \"You mean the massive bribe given to landowners out of the people's pocket? Just more proof that this government needs to buy support. It's like the papers say: the Prime Minister is far more interested in pleasing foreigners than helping his own people.\" You don't argue, but it strikes you that he's contradicting himself."
+       - "You bring up the farm bill you learned about in Crup. \"You mean the massive bribe given to landowners out of the people's pocket? Just more proof that this government needs to buy support. It is like the papers say; the Prime Minister is far more interested in pleasing foreigners than helping his own people.\" You don not argue, but it strikes you that he is contradicting himself."

@@ -44,13 +44,10 @@ characters:
     unlocks_affects: [clarification_of_roles_9]
 
   community_verifier:
-    dialogue: "TBD/No Help."
+    dialogue: "I really don't think that this is in my wheelhouse; maybe somebody else on your team would have a better idea?"
 
   third_party_verifier: 
     dialogue: "I have found some mismanagement of funds in the past as well. However, we are supposed to be granting autonomy."
-
-  clinic_manager:
-    dialogue: "TBD (No Help)"
 
   hospital_administrator:
     feedback:

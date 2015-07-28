@@ -7,7 +7,7 @@
 
 # Phase Two Tactic YML Template
 
-symbol: inconclusive_metrics
+symbol: tactic_inconclusive_metrics
 tactic_name: unlockable_information_campaign_to_change_cultural_behaviors  # <--- symbol of the tactic (stored in unlockables.yml) this card is using
 name: "Inconclusive Metrics" # <--- display name for card
 year: 2

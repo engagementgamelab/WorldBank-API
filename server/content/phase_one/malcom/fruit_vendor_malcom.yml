@@ -19,7 +19,6 @@ dialogue:
     Initial:
       text: 
         - "\"Fresh fruit!\" she calls as you approach. \"Only the best, grown by local [[farmers]]. Try the berries! They are my [[daughter]]'s favorite.\" She hands you a sample. \"No charge,\" she says."
-
         - "The woman looks at you with recognition and offers a wave as you return. \"Can I help you with something else?\""
     Farmers: 
       text: 

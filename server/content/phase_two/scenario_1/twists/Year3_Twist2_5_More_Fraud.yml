@@ -46,7 +46,7 @@ characters:
     dialogue: "I have heard from some people that Provider 4 has the worst service in Zariba."
 
   hospital_administrator:
-    dialogue: "TBD/No Help."
+    dialogue: "Sorry, I'm kind of up to my elbows in work here, I don't know if I have much advice to contribute to this situation."
 
   health_provider_4:
     dialogue: "The mistake is on the other party. I have been doing everything by the book."
