@@ -163,7 +163,7 @@
 - symbol: doctor_zima
   display_name: Doctor
   description:
-    - "A middle aged man is examining a medical chart of some kind. You recognize him as a doctor both by his attire and his nametag, \"Dr. Notega.\"" 
+    - "A middle aged man is examining a medical chart of some kind. You recognize him as a doctor both by his attire and his nametag, \"Dr. Notega.\""
 
 - symbol: nurse_zima
   display_name: Nurse
@@ -225,6 +225,11 @@
     - "You try to get the wiry man's attention, but even when he's talking to you his eyes dart away."
 
 - symbol: health_provider_3
-  display_name: health provider
+  display_name: Mr. Todd
   description:
-    - "something"
+    - "Your favorite traditional health practitioner."
+
+- symbol: health_provider_4
+  display_name: Clinic Specialist
+  description:
+    - "Helps make your clinics special."
