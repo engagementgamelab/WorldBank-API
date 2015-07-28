@@ -225,11 +225,11 @@
     - "You try to get the wiry man's attention, but even when he's talking to you his eyes dart away."
 
 - symbol: health_provider_3
-  display_name: Clinic Specialist
-  description:
-    - "Clinically Special."
-
-- symbol: health_provider_4
   display_name: Mr. Todd
   description:
-    - "Traditional Health Practitioner."
+    - "Your favorite traditional health practitioner."
+
+- symbol: health_provider_4
+  display_name: Clinic Specialist
+  description:
+    - "Helps make your clinics special."
