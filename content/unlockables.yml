@@ -180,7 +180,7 @@
 - symbol: unlockable_make_aesthetic_improvements
   title: "Make Aesthetic Improvements"
   description: 
-    - "If the facilities look uncleanunsafe, or just unattractive, patients will stay away. Improvements could include proper maintenance, renovations, paint, new uniforms for staff, or other upgrades."
+    - "If the facilities look unclean, unsafe, or just unattractive, patients will stay away. Improvements could include proper maintenance, renovations, paint, new uniforms for staff, or other upgrades."
   priority: -1
   type: behavior_knowledge_and_professionalism
 
@@ -200,13 +200,6 @@
   description:
     - "This would provide vouchers to poor people so they can receive necessary services at a greatly reduces price."
   priority: 2
-  type: demand_side_resource_allocation
-
-- symbol: unlockable_travel_reimbursement
-  title: "Travel Reimbursement"
-  description:
-    - "If patients cannot afford to travel to facilities, they cannot use services there. A voucher program for travel could help offset this cost."
-  priority: 0
   type: demand_side_resource_allocation
 
 - symbol: unlockable_conditional_cash_transfer
@@ -269,7 +262,7 @@
   title: "Authorize providers to take action at their level"
 
 - symbol: clarify_separation_of_functions_1
-  title: "Clarify the seperation of functions and responsibilities"
+  title: "Clarify the separation of functions and responsibilities"
 # ------------------ 
 # Bad Record Keeping - S1_Y1_P2
 # ------------------
@@ -317,7 +310,7 @@
   title: "Set sanctions and retrain using financial tools"
 
 - symbol: revise_business_plan_1
-  title: "Revise the buisness plan"
+  title: "Revise the business plan"
 # ------------------
 # Lack of Transparency - S1_Y2_P2
 # ------------------
@@ -382,7 +375,7 @@
   title: "Clarify the separation of functions"
 
 - symbol: revise_business_plan_2
-  title: "Revise buisness plan"
+  title: "Revise business plan"
 # ------------------
 # Failed Inspection - S1_Y3_P3
 # ------------------
@@ -404,7 +397,7 @@
   title: "Expand hiring at all facilities"
 
 - symbol: award_bonuses_to_hospital_staff
-  title: "Award bonsues to hospital staff"
+  title: "Award bonuses to hospital staff"
 # ------------------
 # Checkup Overload - S1_Y3_P5
 # ------------------
@@ -447,7 +440,7 @@
   title: "Embed Nurses"
 
 - symbol: expand_travelling_nurses_1
-  title: "Expand Travelling Nurses' Program"
+  title: "Expand Traveling Nurses' Program"
 #------------------
 # Inconsistent Indicators - S1_T1_Y2_P3
 #------------------
@@ -458,7 +451,7 @@
   title: "Incentivise Facility Births"
 
 - symbol: expand_travelling_nurses_2
-  title: "Expand Travelling Nurses' Program"
+  title: "Expand Traveling Nurses' Program"
 
 - symbol: revise_indicators_at_end_of_year_3
   title: "Revise Indicators at End of the Year"
@@ -729,7 +722,7 @@
   title: "Hire Agency"
 
 - symbol: expidite_payment_and_service_delivery
-  title: "Expidite payment and service delivery"
+  title: "Expedite payment and service delivery"
 
 # -------------------                       ------------------- #
 # -------------------  Scenario 2 - Year 3  ------------------- #
@@ -797,7 +790,7 @@
   title: "Warn Verifier"
 
 - symbol: reaffirm_ministry_authority
-  title: "Reaffirm Ministiry's Authority"
+  title: "Reaffirm Ministry's Authority"
 
 - symbol: ask_reduce_oversight
   title: "Ask to Reduce Oversight"
@@ -1378,7 +1371,7 @@
 # -------------------------- #
 
 - symbol: unlockable_directly_incensitive_service_improve
-  title: "Directly Incensitive Improved Service"
+  title: "Directly Incentivise Improved Service"
 
 - symbol: unlockable_increase_incentives_service_deliveries
   title: "Increase Incentives Service Deliveries"
@@ -1388,7 +1381,7 @@
 # -------------------------- #
 
 - symbol: unlockable_directly_incensitive_service_better
-  title: "Directly Incensitive Better Service"
+  title: "Directly Incentivise Better Service"
 
 - symbol: unlockable_sensitization_campaign
   title: "Sensitization Campaign"
@@ -1497,7 +1490,7 @@
   title: "Provide Funding to Hire New Staff"
 
 - symbol: unlockable_increase_incentives_for_meeting_campaign_goals
-  title: "Increase Insentives for Meeting Campaign Goals"
+  title: "Increase Incentivise for Meeting Campaign Goals"
 
 - symbol: unlockable_reevaluate_whether_this_campaign_is_necessary
   title: "Re-evaluate Whether This Campaign Is Necessary"
@@ -1573,7 +1566,7 @@
 # -------------------------- #
 
 - symbol: unlockable_limit_perscriptions
-  title: "Limit Perscriptions"
+  title: "Limit Prescriptions"
 
 - symbol: unlockable_incentivise_following_set_protocols
   title: "Incentivise Following Set Protocols"
@@ -1586,20 +1579,20 @@
 # -------------------------- #
 
 - symbol: unlockable_create_robust_referral_system
-  title: "Create Robust Refferal System"
+  title: "Create Robust Referral System"
 
 - symbol: unlockable_incentivise_following_set_protocols_rewards
   title: "Incentivise Following Set Protocols Rewards"
 
 - symbol: unlockable_incentivise_referrals
-  title: "Incentivise Refferals"
+  title: "Incentivise Referrals"
 
 # -------------------------- #
 # Infection Rates - Y2_NP1
 # -------------------------- #
 
 - symbol: unlockable_incentivise_sanitization_protocols
-  title: "Incentivise Sanitization Protocols"
+  title: "Incentivise Sanitation Protocols"
 
 - symbol: unlockable_incentivise_best_practices
   title: "Incentivise Best Practices"
@@ -1638,7 +1631,7 @@
   title: "Incentivise Best Practices Long Term"
 
 - symbol: unlockable_sanction_providers_who_fail_safety_inspection
-  title: "Sanctoin Providers Who Fail Safety Inspections"
+  title: "Sanction Providers Who Fail Safety Inspections"
 
 
 # ----------------                                                       ---------------- #
