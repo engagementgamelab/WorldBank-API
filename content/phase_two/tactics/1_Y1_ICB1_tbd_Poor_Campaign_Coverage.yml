@@ -1,0 +1,41 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Tactic YAML
+# ==============
+
+# Phase Two Tactic YML Template
+
+symbol: poor_campaign_coverage
+tactic_name: unlockable_information_campaign_to_change_cultural_behaviors  # <--- symbol of the tactic (stored in unlockables.yml) this card is using
+name: "Poor Campaign Coverage" # <--- display name for card
+year: 1
+
+# This dialogue the player sees first
+initiating_dialogue: "This campaign is having difficulty covering all of the target regions. Providers say they don't have the staff to support it and perform necessary healthcare functions."
+
+# The dialogue the player sees when investigation has results to show
+investigate_dialogue: "They do appear short-staffed. Providing funding for new hires could help, or we could reorganize our sensitization strategy."
+
+# These are special parameters that load a cooldown array, which is defined in content/config.yml under 'cooldown:'
+# For example, specifying $config_cooldown_long will choose the key found in config.yml under:
+# ----- cooldown:
+# -----  long: [20, 14, 10]
+investigate_cooldown: $config_cooldown_short
+investigate_further_cooldown: $config_cooldown_long
+
+# These are the usable player options added after investigation is done
+# Note that each key (e.g. 'information_campaign') MUST correspond to the one under "_affects" and feedback"
+new_options: [unlockable_provide_funding_to_hire_new_staff_t2, unlockable_increase_incentives_for_meeting_campaign_goals_t2, unlockable_reevaluate_whether_this_campaign_is_necessary_t2]
+
+# The affects for each new option
+new_options_affects: [unlockable_provide_funding_to_hire_new_staff_t2, unlockable_increase_incentives_for_meeting_campaign_goals_t2, unlockable_reevaluate_whether_this_campaign_is_necessary_t2]
+
+# This is the feedback dialogue the player sees based on the option they select
+feedback_dialogue:
+  unlockable_provide_funding_to_hire_new_staff_t2: "Everywhere I've worked we were short-staffed and were told to make do. We're telling people to do a job and giving them the money to do it. We are in uncharted territory!"
+  unlockable_increase_incentives_for_meeting_campaign_goals_t2: "This could certainly spur people to meet goals. I'm worried, though, that they're spread thin already."
+  unlockable_reevaluate_whether_this_campaign_is_necessary_t2: "We might not need to spend all the money for this staff, but if not, we should probably cut the plan at year's end."
+  # This key is required for every tactic card for when the player chooses observe instead of investigate
+  observe: "If we don't engage it'll probably just fizzle out."

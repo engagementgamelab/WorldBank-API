@@ -28,7 +28,7 @@ characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
-    dialogue: "TBD (No Help)"
+    dialogue: "Sorry, I’m kind of up to my elbows in work here, I don’t know if I have much advice to contribute to this situation."
 
   director_regional_health_services:
     dialogue: "Have you considered that there is a flaw in the business plan? If Provider 2 is straying from it so often, it might need to be reevaluated."
@@ -41,13 +41,10 @@ characters:
       retrain_1: "I will make some time this week for a retraining session."
 
   third_party_verifier:
-    dialogue: "TBD (No Help)"
+    dialogue: "I really don’t think that this is in my wheelhouse; maybe somebody else on your team would have a better idea?"
 
   community_verifier:
-    dialogue: "TBD (No Help)"
-
-  clinic_manager:
-    dialogue: "TBD (No Help)"
+    dialogue: "Wow, uh, I’m not really sure what I would do in your shoes. That might be in somebody else’s job description, though."
 
   hospital_administrator:
     dialogue: "The business plan is far too restrictive! You need to give us all more latitude in how we spend the funds you give us."

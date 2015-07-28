@@ -1644,3 +1644,40 @@
 # ----------------                                                       ---------------- #
 # ----------------   Information Campaign to Change Cultural Behaviors   ---------------- #
 # ----------------                                                       ---------------- #
+
+# -------------------------- #
+# Poor Campaign Coverage - Y1_ICB1
+# -------------------------- #
+
+- symbol: unlockable_provide_funding_to_hire_new_staff_t2
+  title: "Provide Funding to Hire New Staff"
+
+- symbol: unlockable_increase_incentives_for_meeting_campaign_goals_t2
+  title: "Increase Incentives for Meeting Campaign Goals"
+
+- symbol: unlockable_reevaluate_whether_this_campaign_is_necessary_t2
+  title: "Re-evaluate Whether This Campaign is Necessary"
+
+# -------------------------- #
+# Inconclusive Metrics - Y2_ICB2
+# -------------------------- #
+
+- symbol: unlockable_change_methodologies_t1
+  title: "Change Methodologies"
+
+- symbol: unlockable_end_campaign_t2
+  title: "End Campaign"
+
+
+# -------------------------- #
+# Nationalist Backlash - Y3_ICB3
+# -------------------------- #
+
+- symbol: unlockable_revise_language_in_campaign_t2
+  title: "Revise Language in Campaign"
+
+- symbol: unlockable_halt_campaign_t2
+  title: "Halt Campaign"
+
+- symbol: unlockable_request_meeting_with_candidate_t2
+  title: "Request a Meeting With the Candidate"
