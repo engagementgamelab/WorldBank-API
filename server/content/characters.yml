@@ -6,6 +6,18 @@
 # ==============
 
 # -------------
+# Capitol
+# -------------
+- symbol: rahb_capitol_city
+  display_name: Observation Team Supervisor--Rahb
+  description:
+    - "This is Rahb, the Observation Team Supervisor who will be assisting you in this office."
+
+- symbol: deputy_minister_of_health_capitol_city
+  display_name: Deputy Minister of Health
+  description:
+    - "You recognize this person as the Deputy Minister of Health, a very important partner for you in this process."
+# -------------
 # Malcom
 # -------------
 

@@ -2044,3 +2044,53 @@ unlockable_sanction_providers_who_fail_safety_inspection:
 # ----------------                                                       ---------------- #
 # ----------------   Information Campaign to Change Cultural Behaviors   ---------------- #
 # ----------------                                                       ---------------- #
+
+# -------------------------- #
+# Poor Campaign Coverage - Y1_ICB1
+# -------------------------- #
+
+unlockable_provide_funding_to_hire_new_staff_t2:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_increase_incentives_for_meeting_campaign_goals_t2:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_reevaluate_whether_this_campaign_is_necessary_t2:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+# -------------------------- #
+# Inconclusive Metrics - Y2_ICB2
+# -------------------------- #
+unlockable_change_methodologies_t1:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_end_campaign_t2:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+# -------------------------- #
+# Nationalist Backlash - Y3_ICB3
+# -------------------------- #
+unlockable_revise_language_in_campaign_t2:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_halt_campaign_t2:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_request_meeting_with_candidate_t2:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
