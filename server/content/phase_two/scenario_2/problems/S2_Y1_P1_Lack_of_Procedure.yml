@@ -38,6 +38,8 @@ characters:
 
   coach:
     dialogue: "It's always handy to have something written down for people to look at."
+    feedback:
+      stakeholder_meeting: I'll talk to everyone and make sure they understand what we tried to get across about proper roles.""
 
   third_party_verifier:
     dialogue: "It would be good to deal with this before the different agencies start getting testy with each other."
