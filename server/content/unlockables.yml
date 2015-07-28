@@ -71,6 +71,11 @@
 # ------------------
 - symbol: unlockable_dialogue_clinician
 
+# These were missing and causing errors in build. - Johnny
+- symbol: unlockable_dialogue_plantation_owner
+- symbol: unlockable_dialogue_mr_todd_2
+
+
 # ----------------           ---------------- #
 # ----------------  ROUTES   ---------------- #
 # ----------------           ---------------- #
