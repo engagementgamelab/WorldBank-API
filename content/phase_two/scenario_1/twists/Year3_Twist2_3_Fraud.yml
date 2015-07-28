@@ -39,16 +39,10 @@ characters:
     dialogue: "This is only their first year. A warning might do the trick."
 
   community_verifier:
-    dialogue: "TBD/No Help."
-
-  clinic_manager:
-    dialogue: "TBD/No Help."
+    dialogue: "Sorry, I'm kind of up to my elbows in work here, I don't know if I have much advice to contribute to this situation."
 
   hospital_administrator:
-    dialogue: "TBD/No Help."
-
-  health_provider_3:
-    dialogue: "TBD/No Help."
+    dialogue: "I really don't think that this is in my wheelhouse; maybe somebody else on your team would have a better idea?"
 
   health_provider_4:
     dialogue: "What are you accusing me of, exactly? I'd like a record of this for my attorneys."

@@ -44,6 +44,6 @@ further_options_affects: [unlockable_increase_budget_for_printing_informational_
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
   unlockable_provide_health_facilities_with_equipment_to_print_materials: "This ended up being more of a cost than we realized, since now we have employees printing these up, which cuts into their time. And if they all need ink at the same time, we're doomed."
-  unlockable_increase_budget_for_printing_informational_collateral: "TBD"
+  unlockable_increase_budget_for_printing_informational_collateral: "Hopefully we aren't just throwing money at a problem, but somebody needs to do this. I'll reach out to the bulk printer and look into raising our quantities."
   # This key is required for every tactic card for when the player chooses observe instead of investigate
   observe: "OK, we'll wait and see if anything changes."

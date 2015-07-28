@@ -15,7 +15,7 @@ twist: 1
 
 
 initiating_npc: third_party_verifier # <--- character's symbol
-initiating_dialogue: "I have been reviewing Health Provider 2's records, and they do not check out. There is either fraud or accidental misreporting here."
+initiating_dialogue: "I have been reviewing the Hospital Administrator's records, and they do not check out. There is either fraud or accidental misreporting here."
 
 starting_options: [warning_7, sanctions_5]
 starting_options_affects: [warning_7, sanctions_5]
@@ -29,7 +29,7 @@ characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
-    dialogue: "TBD (No Help)"
+    dialogue: "Sorry, I'm kind of up to my elbows in work here, I don't know if I have much advice to contribute to this situation."
 
   director_regional_health_services:
     dialogue: "I've had some communication with Provider 2 in the past, but I believe he is honest. You should talk to him directly to see what the problem is."
@@ -40,9 +40,6 @@ characters:
 
   community_verifier:
     dialogue: "I can confirm the numbers do not match up. Very suspicious."
-
-  clinic_manager:
-    dialogue: "TBD (No Help)"
 
   hospital_administrator:
     dialogue: "I think my staff is confused about what to report. Frankly, I myself have been confused at times!"

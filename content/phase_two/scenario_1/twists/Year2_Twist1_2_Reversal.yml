@@ -28,7 +28,7 @@ characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
-    dialogue: "TBD (No Help)"
+    dialogue: "I really don't think that this is in my wheelhouse; maybe somebody else on your team would have a better idea?"
 
   director_regional_health_services:
     dialogue: "I am not comfortable with procedures taking place by new workers and trainees unsupervised. I might approve stationing a nurse at traditional medicine facilities."
@@ -43,16 +43,13 @@ characters:
       embed_nurses_1: "An interesting idea. I'll help facilitate this as best I can."
 
   third_party_verifier:
-    dialogue: "TBD (No Help)"
+    dialogue: "Wow, uh, I'm not really sure what I would do in your shoes. That might be in somebody else's job description, though."
 
   community_verifier:
-    dialogue: "TBD (No Help)"
-
-  clinic_manager:
-    dialogue: "TBD (No Help)"
+    dialogue: "People are reluctant but I believe they could be swayed to come to facilities. I recommend keeping the plan as it is."
 
   hospital_administrator:
-    dialogue: "TBD (No Help)"
+    dialogue: "Sorry, I'm kind of up to my elbows in work here. I don't know if I have much advice to contribute to this situation."
     feedback:
       expand_travelling_nurses_1: "It will take some time to do this, and there is a shortage of qualified people, but I will do my best."
 

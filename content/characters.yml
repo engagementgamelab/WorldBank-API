@@ -42,7 +42,7 @@
 - symbol: fruit_vendor_malcom
   display_name: Fruit Vendor
   description:
-    - "A young woman, maybe 19 years, is selling fruit from a well-stocked cart. Most of them you’ve never even seen before, and a perfume-like aroma wafts from a box of red berry clusters. She looks expectantly at you, smiling politely."
+    - "A young woman, maybe 19 years, is selling fruit from a well-stocked cart. Most of them you've never even seen before, and a perfume-like aroma wafts from a box of red berry clusters. She looks expectantly at you, smiling politely."
 
 - symbol: medicine_merchant_malcom
   display_name: Medicine Merchant
@@ -52,7 +52,7 @@
 - symbol: two_women_malcom
   display_name: Women Waiting for Ferry
   description:
-    - "At the far end of the market there are two women in elaborate dress. You don’t know where they are from, but they are certainly not from this region, nor do they look like they came from Capitol City. Very ornamental and expensive, their dresses pop and glide in different directions and both are wearing wild headpieces. You feel a sense of royalty from them."
+    - "At the far end of the market there are two women in elaborate dress. You don't know where they are from, but they are certainly not from this region, nor do they look like they came from Capitol City. Very ornamental and expensive, their dresses pop and glide in different directions and both are wearing wild headpieces. You feel a sense of royalty from them."
 
 
 # -------------
@@ -82,7 +82,7 @@
 - symbol: mech_farmer_crup
   display_name: Mech Farmer
   description:
-    - "A man leans up against a large piece of advanced farming equipment smoking a cigarette. It looks like he’s taking a break."
+    - "A man leans up against a large piece of advanced farming equipment smoking a cigarette. It looks like he's taking a break."
 
 # -------------
 # Mile
@@ -91,12 +91,12 @@
 - symbol: nomad_mile
   display_name: Nomad
   description:
-    - "A short man sits in the shade, tuning what looks like a harp. Haven’t you seen him somewhere before?"
+    - "A short man sits in the shade, tuning what looks like a harp. Haven't you seen him somewhere before?"
 
 - symbol: farm_worker_mile
   display_name: Farm Worker
   description:
-    - "A woman that looks to be in her thirties crouches down among rows of fresh crops, harvesting the land’s bounty. Her movements are precise and efficient, like she has been doing this her whole life. She hums softly to herself as she works in rhythm with her motions. The only adornment on her otherwise spartan attire is a small, shabby locket dangling from her neck."
+    - "A woman that looks to be in her thirties crouches down among rows of fresh crops, harvesting the land's bounty. Her movements are precise and efficient, like she has been doing this her whole life. She hums softly to herself as she works in rhythm with her motions. The only adornment on her otherwise spartan attire is a small, shabby locket dangling from her neck."
 
 - symbol: settled_refugee_mile
   display_name: Settled Refugee
@@ -135,7 +135,7 @@
 - symbol: nomad_kibari
   display_name: Nomad
   description:
-    - "A short man sits in the shade, tuning what looks like a harp. Haven’t you seen him somewhere before?"
+    - "A short man sits in the shade, tuning what looks like a harp. Haven't you seen him somewhere before?"
 
 # -------------
 # Valeria
@@ -159,7 +159,7 @@
 - symbol: nomad_valeria
   display_name: Nomad
   description:
-    - "A man sits, tuning his harp. Haven’t you seen him somewhere before?"
+    - "A man sits, tuning his harp. Haven't you seen him somewhere before?"
 
 # -------------
 # Zima

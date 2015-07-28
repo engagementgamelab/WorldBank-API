@@ -39,13 +39,10 @@ characters:
     dialogue: "Can we afford to pay them more?"
 
   third_party_verifier: 
-    dialogue: "TBD/No Help."
+    dialogue: "Sorry, I'm kind of up to my elbows in work here, I don't know if I have much advice to contribute to this situation."
 
   community_verifier:
-    dialogue: "TBD/No Help."
-
-  clinic_manager:
-    dialogue: "TBD (No Help)"
+    dialogue: "Wow, uh, I'm not really sure what I would do in your shoes. That might be in somebody else's job description, though."
 
   hospital_administrator:
     dialogue: "I would hate to lose their referrals. This program has been fairly successful."

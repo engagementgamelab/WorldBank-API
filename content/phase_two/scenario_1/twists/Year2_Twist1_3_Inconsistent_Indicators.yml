@@ -26,10 +26,6 @@ final_options_cost: [small, small, small, small]
 
 characters:
 
-  # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
-  dep_minister_of_health: # <--- character's symbol
-    dialogue: "TBD (No Help)"
-
   director_regional_health_services:
     dialogue: "Hiring more traveling nurses to staff facilities near settlements is my suggestion."
     unlocks: [expand_travelling_nurses_2]
@@ -45,13 +41,10 @@ characters:
       revise_indicators_at_end_of_year_3: "It might make sense to revise these goals down."
 
   third_party_verifier:
-    dialogue: "TBD (No Help)"
+    dialogue: "Wow, uh, I'm not really sure what I would do in your shoes. That might be in somebody else's job description, though."
 
   community_verifier:
     dialogue: "People here are still reluctant to travel to facilities."
-
-  clinic_manager:
-    dialogue: "TBD (No Help)"
 
   hospital_administrator:
     dialogue: "Vaccinations are easier to manage. Births take more planning. More resources are likely required to make this work."
