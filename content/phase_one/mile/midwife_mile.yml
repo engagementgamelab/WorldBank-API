@@ -19,21 +19,18 @@ dialogue:
     Initial:
       text: 
         - "When you give her the opportunity, she is all too happy to vent. She explains that she is a [[midwife]], and that she just had a job interview at the hospital in Zima. \"Or at least I [[thought I did]].\""
-        - "She looks frustrated and ready to continue venting. \"I'll tell you something else...\""
-
-    Thought I Did: 
+        - "She looks frustrated and ready to continue venting. \"I will tell you something else.\""
+    Thought I Did:
       text: 
         - "She is clearly still steamed about what happened at the hospital as she relates what happened there in angry tones. \"I travelled more than a day to get there, and did the entire interview, only to be told there were no resources available to hire me! The hospital administrator said she would love to have me on their staff, but a new position was not budgeted.\""
       unlocks: [unlockable_dialogue_hospital_administrator]
       unlocks_context: ["Ask the Hospital Administrator in Zima more about this."]
-
     Midwife: 
       text: 
         - "She scoffs. \"Skilled midwives such as myself who can travel are very hard to come by, and very in demand these days, since most women won't travel long distances to give birth. I can't believe they would not hire me.\""
       unlocks: [unlockable_outreach]
       unlocks_context: ["A budget for outreach staff is necessary, according to the midwife in Mile."]
-
     unlockable_dialogue_midwife:
       display_name: "Ask about Crup Plantation Owner"
       text: 
-        - "You ask the midwife about what the plantation owner said. \"Yes, that's true. Women do prefer to give birth at home, and I don't see that changing any time soon. People don't like being told they are wrong. My advice: Focus on improving facilities and spreading the word, not attacking old customs.\""
+        - "You ask the midwife about what the plantation owner said. \"Yes, that is true. Women do prefer to give birth at home, and I don't see that changing any time soon. People don't like being told they are wrong. My advice is to focus on improving facilities and spreading the word, not attacking old customs.\""
