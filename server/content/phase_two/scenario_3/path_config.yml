@@ -5,14 +5,14 @@
 # Phase Two Scenario One Path Config YAML
 # ==============
 
-prompt_year_1: "Thank you for joining us for the end of year meeting. It seems like your plan implementation is going smoothly, yes? That said, we would like to know if you need anything approved through us to make the plan run more efficiently."
-prompt_year_2: "You've made it to the end of year two. I hope you are checking your indicators and making sure the RBF plan is running smoothly. Is there anything you need from us?"
+prompt_year_1: "Thank you for joining us for the end of year meeting. It seems like your plan implementation is going smoothly, yes? That said, we would like to know if you need anything approved through us to make the plan run more efficiently. We have reports that granting providers more autonomy is a viable modification to this plan."
+prompt_year_2: "You've made it to the end of year two. I hope you are checking your indicators and making sure the RBF plan is running smoothly. Is there anything you need from us? Granting more autonomy to providers is still a viable measure if you feel it would help us hit our indicator goals."
 choices: # <---- The choices the player will see during a year break.
-  - text: "Fire Clinic"
+  - text: "Modify plan to grant providers more autonomy"
     # This instructs the game to load the player into twist 1 if at end of year 1.
     # At end of year 2, it would load year 3's twist 1 OR 2 depending on if the player chose an option at end of year 1.
     # This can also be a scenario, e.g. "scenario_4", in which case the player is brought to the specified scenario, with its *default* problems loaded.
-    load: "twist" 
+    load: "scenario_1" 
 
-  - text: "Fire Hospital"
-    load: "twist"
+  - text: "Modify plan to grant providers more autonomy"
+    load: "scenario_1"
