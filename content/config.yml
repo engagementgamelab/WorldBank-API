@@ -22,18 +22,21 @@ plan:
   scoring_keys: [3, 3, 2, 2, 2, 1]
 
   # Scenario assignment filtering
+  # pbc is when you have an NGO. Autonomy is granting providers
   assignment_matrix:
     pbc_true:
       autonomy_true:
-        scenario_1
+        scenario_2
       autonomy_false: 
-        scenario_1
+        scenario_4
 
     pbc_false:
       autonomy_true:
         scenario_1
       autonomy_false:
-        scenario_1
+        scenario_3
+
+   # end score: [80, 85, 50] #
 
 # All cooldowns are in seconds, and must be defined as arrays
 # If only one cooldown is needed (will not be chosen from a sequence), just use something like "[13]"
