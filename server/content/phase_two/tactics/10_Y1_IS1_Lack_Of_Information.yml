@@ -27,7 +27,7 @@ investigate_further_cooldown: $config_cooldown_long
 
 # These are the usable player options added after investigation is done
 # Note that each key (e.g. 'information_campaign') MUST correspond to the one under "_affects" and feedback"
-new_options: [unlockable_provider_ambassadors, unlockable_invite_community_leaders, unloackable_word_of_mouth]
+new_options: [unlockable_provider_ambassadors, unlockable_invite_community_leaders, unlockable_word_of_mouth]
 
 # The affects for each new option
 new_options_affects: [unlockable_provider_ambassadors, unlockable_invite_community_leaders, unlockable_word_of_mouth]
