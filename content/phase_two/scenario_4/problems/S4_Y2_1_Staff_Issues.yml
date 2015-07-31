@@ -32,6 +32,7 @@ characters:
     dialogue: "Providers in my region have complained often of over-stressed staff. There are not enough workers, and supplies are still running out frequently."
 
   ngo_manager:
+    dialogue: "I am not sure what the issue is exactly."
     feedback:
       warn_ngo_5: "I'll do what I can, but we're struggling as it is. I don't know how we can improve."
 
