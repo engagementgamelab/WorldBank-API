@@ -18,4 +18,4 @@ character: finance_minister_capitol_city
 dialogue:
     Initial:
       text: 
-        - "This is the Finance Minister, who has been brought in today to explain the financial situation in Zariba as it relates to the health sector. The Finance Minister looks at you intently with a serious expression. \"We have increased the budget for healthcare in each region year after year, but results have not increased to match it. This year, we will spend more than ever before. We need to try something new. That is why you are here.\""
+        - "The Finance Minister looks at you intently with a serious expression. \"We have increased the budget for healthcare in each region year after year, but results have not increased to match it. This year, we will spend more than ever before. We need to try something new. That is why you are here.\""

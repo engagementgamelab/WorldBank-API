@@ -18,7 +18,7 @@ character: rahb_capitol_city
 dialogue:
     Initial:
       text: 
-        - "This is Rahb, the Observation Team Supervisor who will be assisting you in this office. Welcome again to Zariba, Rahb says, I hope you've had some time to yourself in the Capitol City to get your bearings, but of course, you are here to work. You'll be [[making a plan]] that will transform our health system over the next three years, but to figure out what should be in that plan, you will need to explore the country and [[talk to people]]"
+        - "Welcome again to Zariba! I hope you've had some time to yourself in the Capitol City to get your bearings, but of course, you are here to work. You'll be [[making a plan]] that will transform our health system over the next three years, but to figure out what should be in that plan, you will need to explore the country and [[talk to people]]"
     Making a Plan: 
       text: 
         - "\"You can use your notebook to keep track of where you have been, what you have learned, and what options seem to make sense for your plan. Click it now and explore it. As you can see, for now, it is mostly blank. That will change.\""
