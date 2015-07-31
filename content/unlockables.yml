@@ -135,7 +135,7 @@
   title: "Incentivise Providers to Deliver Services"
   description:
     - "A straightforward way to increase use of specific services, such as facility births and vaccinations, is to give bonuses to providers that deliver more of those services. This would set specific goals, and incentivise providers to reach them."
-  priority: 2
+  priority: 1
   type: supply_side_resource_allocation
 
 - symbol: unlockable_incentivise_providers_to_follow_protocols
