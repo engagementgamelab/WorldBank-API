@@ -1089,6 +1089,12 @@ circulate_memo_reaffirming_ministry_authority_2:
   indicator_1: -1
   indicator_2: -1
   indicator_3: 0
+
+ask_reduce_oversight_2:
+  Indicator_1: 0
+  indicator_2: +2
+  indicator_3: +1
+  
 #------------------
 # Process V Results - S4_Y1_2
 #------------------
