@@ -29,7 +29,7 @@ exports.action = {
     matchExtensionMimeType: false,
     version: 1.4,
     toDocument: true,
-    // requiresAuth: true,
+    requiresAuth: true,
 
     inputs: {},
 

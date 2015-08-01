@@ -292,6 +292,7 @@ exports.scenario =
     matchExtensionMimeType: false,
     version: 1.0,
     toDocument: true,
+    requiresAuth: true,
     requiresUserLogin: true,
 
     inputs:  {

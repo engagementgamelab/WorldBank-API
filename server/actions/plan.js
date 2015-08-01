@@ -31,6 +31,7 @@ exports.getAll =
     matchExtensionMimeType: false,
     version: 1.0,
     toDocument: true,
+    requiresAuth: true,
 
     inputs: {},
 

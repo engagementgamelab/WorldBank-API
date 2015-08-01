@@ -7,6 +7,9 @@
 #  Created by Johnny Richardson on 7/9/15.
 # ==============
 
+COLOR='\033[1;35m'
+NC='\033[0m' # No Color
+
 printf "\n${COLOR}@@@@@@@@@@@@@@\nEngagement Lab API Dev Automation\n@@@@@@@@@@@@@@\n${NC}"
 
 # See if /content and /server/content differ

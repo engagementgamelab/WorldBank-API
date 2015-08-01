@@ -7,7 +7,6 @@
 #  Created by Johnny Richardson on 7/1/15.
 # ==============
 
-
 COLOR='\033[1;35m'
 NC='\033[0m' # No Color
 
