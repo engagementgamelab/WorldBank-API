@@ -17,7 +17,7 @@ initiating_dialogue: "We're seeing underserved populations throughout the south.
 starting_options: [terminate_contract_at_end_of_year_9]
 starting_options_affects: [terminate_contract_at_end_of_year_9]
 
-final_options: [terminate_contract_at_end_of_year_9, increase_funding_for_ngo_2,terminate_contract_at_end_of_year_9, contract_additional_ngo_2]
+final_options: [terminate_contract_at_end_of_year_9, increase_funding_for_ngo_2, contract_additional_ngo_2]
 final_options_affects: [terminate_contract_at_end_of_year_9, increase_funding_for_ngo_2, terminate_contract_at_end_of_year_9, contract_additional_ngo_2]
 
 characters:
