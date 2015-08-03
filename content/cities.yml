@@ -45,4 +45,4 @@
   display_name: Capitol City
   description: "This is the Capitol City of Zariba. Home to the offices of the Ministry of Health and where journey to help Zariba begins! The Capitol sits on the main transportation line. With easy access to the glorious rail system, travelers can go from the Capitol to the most southern city, Zima, in only a few days time."
   enabled: true
-  npc_interactions: 0
+  npc_interactions: 4
