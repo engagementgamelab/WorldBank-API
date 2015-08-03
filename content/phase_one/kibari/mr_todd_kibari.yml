@@ -19,7 +19,6 @@ dialogue:
     Initial:
       text: 
         - "A look of suspicion comes over his face for a moment, but it is quickly replaced with the same smile from before. \"Greetings!\" he says. \"Yes, it is true. I am Mr. Todd.\" You recognize the name. \"I would not claim to be the [[best medicine man]] in Zariba, but if that is what they say, that is [[what they say]]!\" He gives you a knowing nod. \"As for you, I know who you are. You're here working with the Ministry, coming to promote their useless clinics.\""
-
         - "Mr. Todd smirks at you as you return. \"Still here, hmm? What more do you want me to say?\""
     Best Medicine Man: 
       text: 

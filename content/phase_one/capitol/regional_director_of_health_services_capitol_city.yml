@@ -20,8 +20,8 @@ dialogue:
     Initial:
       text: 
         - "The Regional Director speaks up. \"I have been trying to improve the health system in the Highlands region for a few years now, but there are [[many obstacles]]. The main referral hospital is in Zima, which is far from the highlands. If we want to improve the health of the people in Zariba, we need to start in the highlands, but there are many obstacles. The situation is not good, and we lag behind the rest of the country, and our neighbors,\" he says. \"More than 80% of the people in the highlands live in extreme poverty, and cannot purchase even basic health services."
-    unlocks: [unlockable_autonomy]
-    unlocks_context: ["The Regional Director of Health Services for the Highlands says more autonomy is needed for health staff in the region."]
+      unlocks: [unlockable_autonomy]
+      unlocks_context: ["The Regional Director of Health Services for the Highlands says more autonomy is needed for health staff in the region."]
     Many Obstacles:
       text:
        - "\"Health professionals in the Highlands region could do better in order to improve the services utilization and to improve the health for the people that live there, but they need more empowerment to be able to make decisions that will benefit patients and families that live in the Highlands.\""
