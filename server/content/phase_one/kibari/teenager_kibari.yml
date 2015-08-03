@@ -19,7 +19,6 @@ dialogue:
     Initial:
       text: 
         - "He extends a hand for you to shake as you come nearer. When you ask him what he thinks about hospitals, he seems mostly positive on them. \"I would go to a hospital if something was wrong with me,\" he says. \"But I'm healthy, thank goodness. A lot of other people seem to [[distrust]] the hospitals though, especially in [[this area]].\""
-
         - "The teen waves as you draw nearer. \"I was wondering if I would see you again. Something else you want to talk about?\""
     Distrust: 
       text: 

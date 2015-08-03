@@ -19,20 +19,17 @@ dialogue:
     Initial:
       text: 
         - "When you approach him, his eyes light up. \"What can I do for you?\" he asks. \"Anything you need, I have it.\" You buy some sweets from him out of politeness, and after that he seems happy to share what he knows about the area. \"The nearest cities to here are [[Crup]] and [[Mile]]. Both easy enough to get to. I'm actually on my way to [[Zima]]."
-
         - "\"Anything else you need?\" he asks, watching as you approach."
     Mile: 
       text:
         - "You ask about Mile, and he offers some advice. \"In Mile, no one has any money at all, but it is on the route to the capitol city, so I pass through from time to time. If you want to get there, just hop on one of the produce trucks that makes the rounds from here to there. They leave pretty frequently.\""
       unlocks: [unlockable_route_kibari_to_mile]
       unlocks_context: ["You discovered a new route to Mile."]
-
     Crup:
       text:
         "\"The people from Crup,\" he says, \"Are poor, except for the plantation owners. They can only afford basic things. There is a clinic there, though. If you want to go there, there is a bus that departs in the mornings and evenings.\""
       unlocks: [unlockable_route_crup_to_kibari]
       unlocks_context: ["You discovered a new route to Crup."]
-
     Zima:
       text:
         - "\"I'm headed there soon. Nice city. Port town. With a large hospital, too. You can tag along with me and I'll show you the way.\""

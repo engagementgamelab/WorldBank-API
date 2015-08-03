@@ -19,17 +19,14 @@ dialogue:
     Initial:
       text: 
         - "They explain that they have been [[incentivizing service providers]] to vaccinate more children to prevent [[the epidemic]] from spreading."
-
         - "They're still talking, but they seem aware that you're nearby. You're beginning to feel a little awkward."
-
     Incentivizing Service Providers:
       text: 
-      - "\"Our experience has been good in increasing the number of children to be vaccinated. However, our overall support is to incentivize the providers to improve quality of care instead of increasing only the quantity of services. This is especially by following protocol and therapeutic guidelines.\""
+        - "\"Our experience has been good in increasing the number of children to be vaccinated. However, our overall support is to incentivize the providers to improve quality of care instead of increasing only the quantity of services. This is especially by following protocol and therapeutic guidelines.\""
       unlocks: [unlockable_incentivise_providers_to_follow_protocols]
       unlocks_context: ["Incentivizing providers to deliver services may go at the expense of quality, so it is important to also incentivize providers to follow protocols and therapeutic guidelines."]
-
     The Epidemic:
       text: 
-      - "\"In the Highlands, access to services is limited and people do not value the importance of preventive services, like vaccinations; instead they only go to the clinic when they are sick. Ensuring sufficient outreach is done to these areas for important services like vaccinations are crucial as well as early detection of epidemic cases.\""
+        - "\"In the Highlands, access to services is limited and people do not value the importance of preventive services, like vaccinations; instead they only go to the clinic when they are sick. Ensuring sufficient outreach is done to these areas for important services like vaccinations are crucial as well as early detection of epidemic cases.\""
       unlocks: [unlockable_outreach]
       unlocks_context: ["Bringing the healthcare workers to the communities to provide services like vaccinations can increase the vaccination coverage and prevent epidemic."]
