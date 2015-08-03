@@ -18,8 +18,8 @@ character: old_men_gaming_crup
 dialogue:
     Initial:
       text: 
-        - "You stand a little closer and are able to hear their conversation. \"Damn arthritis,\" one says, grabbing at a tile.\nThe other replies, \"You should visit Kibari and see Mr. Todd. Best medicine man in Zariba!\" [[Keep listening]] [[Interrupt]]"
-        - "\"Excellent move,\" one says. \n\"I have you on the run, now,\" replies the second. \"Ouch... damn arthritis.\" \n\"You need to see Mr. Todd.\""
+        - "You stand a little closer and are able to hear their conversation. \"Damn arthritis,\" one says, grabbing at a tile.\The other replies, \"You should visit Kibari and see Mr. Todd. Best medicine man in Zariba!\" [[Keep listening]] [[Interrupt]]"
+        - "\"Excellent move,\" one says. \"I have you on the run, now,\" replies the second. \"Ouch... damn arthritis.\" \"You need to see Mr. Todd.\""
     Keep Listening:
       text:
         - "You continue to listen in to their converation. \"Mr. Todd, Mr. Todd. You always talk about him,\" the first man says, placing his piece on the board. \"I might try it. The doctor at the clinic gave me some ointment and it did nothing. I went back two or three times and told him about the pain, but he kept giving me the same ointment. I asked for a referral to a hospital, but he refused.\""
@@ -27,6 +27,6 @@ dialogue:
       unlocks_context: ["It sounds like the wrong medicine was prescribed in Crup. Doctors must follow protocol."]
     Interrupt:
       text:
-        - "You interrupt their conversation to ask about Kibari. \n\"People walk there. Mr. Todd's customers are very loyal. But if you do not wish to walk, a bus goes to Kibari twice a day...\" the first man says. /n\"It's your move,\" the other grumbles, growing impatient."
+        - "You interrupt their conversation to ask about Kibari. \"People walk there. Mr. Todd's customers are very loyal. But if you do not wish to walk, a bus goes to Kibari twice a day...\" the first man says. \"It's your move,\" the other grumbles, growing impatient."
       unlocks: [unlockable_route_crup_to_kibari]
       unlocks_context: ["You discovered a new route to Kibari."]

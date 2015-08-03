@@ -186,8 +186,8 @@
   description:
     - "Her assortment of luggage marks this woman as a traveller, and her clothes and attitude tell you she is foreign. Where could she be going?" 
 
-- symbol: doctor_zima
-  display_name: Doctor
+- symbol: dr_notega_zima
+  display_name: Dr. Notega
   description:
     - "A middle aged man is examining a medical chart of some kind. You recognize him as a doctor both by his attire and his nametag, \"Dr. Notega.\""
 
