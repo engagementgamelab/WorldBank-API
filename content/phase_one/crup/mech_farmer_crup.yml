@@ -22,7 +22,7 @@ dialogue:
         - "\"You are still here?\" the farmer asks. \"Well then, what do you want to talk about?\""
     Advanced Equipment:
       text:
-        - "You ask about the expensive-looking machine he's leaning up against. \"It's not mine,\" he says. \"The Plantation owns this. They got a big grant from the government to modernize. Suits me fine, since I don't have to pick fruit out of thorns this way. We got a picture of the Prime Minister to put up in the cafeteria, too.\""
+        - "You ask about the expensive-looking machine he's leaning up against. \"It's not mine,\" he says. \"The Plantation owns this. They got a big grant from the government to modernize. Suits me fine, since I don't have to pick fruit out of thorns this way.\""
       unlocks: [unlockable_dialogue_professor]
       unlocks_context: ["A professor might have something to say about this."]
     unlockable_dialogue_mech_farmer:
