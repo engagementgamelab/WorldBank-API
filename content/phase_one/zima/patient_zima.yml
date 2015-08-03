@@ -18,7 +18,7 @@ character: patient_zima
 dialogue:
     Initial:
       text: 
-        - "She seems surprised when you sit down to talk with her. She explains that it cost her [[a lot of money]] to get here, but it was necessary since her headaches do not go away.\n\"I have more money [[than most]],\" she continues, \"so I should be thankful, I suppose. I got vaccinations for my son, and the doctor said he is too skinny, so they gave me some protein bars.\""
+        - "She seems surprised when you sit down to talk with her. She explains that it cost her [[a lot of money]] to get here, but it was necessary since her headaches do not go away, and she wanted to get her grandson vaccinated."
         - "\"Still waiting!\" she says as you approach. \"Did you want to talk about something else?\""
     A Lot Of Money: 
       text: 

@@ -23,7 +23,7 @@ dialogue:
     Many Obstacles:
       text:
        - "\"The situation is not good, and we lag behind the rest of the country, and our neighbors,\" he says. \"More than 80% of the people in the Highlands live in extreme poverty, and cannot purchase even basic health services. There is also some [[confusion]] about what to expect at health care facilities.\""
-      unlocks: [unlockables_vouchers_for_services]
+      unlocks: [unlockable_vouchers_for_services]
       unlocks_context: ["The Regional Director of Health Services for the Highlands says 80% of people live in extreme poverty."]
     Confusion:
       text:

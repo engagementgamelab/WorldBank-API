@@ -22,12 +22,12 @@ dialogue:
         - "\"You are still here?\" the farmer asks. \"Well then, what do you want to talk about?\""
     Advanced Equipment:
       text:
-        - "You ask about the expensive-looking machine he's leaning up against. \"It's not mine,\" he says. \"The Plantation owns this. They got a big grant from the government to modernize. Suits me fine, since I don't have to pick fruit out of thorns this way. We have a picture of the Prime Minister up in the cafeteria.\""
+        - "You ask about the expensive-looking machine he's leaning up against. \"It's not mine,\" he says. \"The Plantation owns this. They got a big grant from the government to modernize. Suits me fine, since I don't have to pick fruit out of thorns this way. We got a picture of the Prime Minister to put up in the cafeteria, too.\""
       unlocks: [unlockable_dialogue_professor]
       unlocks_context: ["A professor might have something to say about this."]
     unlockable_dialogue_mech_farmer:
       display_name: "A Bit More"
       text: 
-        - "You ask about the woman in Mile who takes pride in farming the land. \"Pride is nice, but money is better. Even so, the pay does not go very far.\" He frowns, taking a puff from his cigarette. When you ask about affording health care, he laughs. \"The clinic is fine, but I would rather save my money for something else, unless it's an emergency. You know?\""
-      unlocks: [unlockable_vouchers_for_services]
-      unlocks_context: ["Even workers on the plantation in Crup do not have enough money to afford services."]
+        - "You ask about the woman in Mile who takes pride in farming the land. \"Pride is nice, but money is better. Even so, the pay does not go very far.\" He frowns, taking a puff from his cigarette. When you ask about affording health care, he laughs. \"I can afford it, but I would never let my wife give birth in there; the traditional way is the best, at home. The clinic is fine, but I would rather save my money for something else, unless it's an emergency. You know?\""
+      unlocks: [unlockable_information_campaign_to_change_cultural_customs_and_behavior]
+      unlocks_context: ["Workers on the plantation in Crup believe delivering the traditional way is best."]

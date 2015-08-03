@@ -22,7 +22,7 @@ dialogue:
         - "\"Excellent move,\" one says. \n\"I have you on the run, now,\" replies the second. \"Ouch... damn arthritis.\" \n\"You need to see Mr. Todd.\""
     Keep Listening:
       text:
-        - "You continue to listen in to their converation. \"Mr. Todd, Mr. Todd. You always talk about him,\" the first man says, placing his piece on the board. \"I might try it. The doctor at the clinic gave me some ointment and it did nothing. He told me to go to the hospital for some test, but that's all the way in Zima.\""
+        - "You continue to listen in to their converation. \"Mr. Todd, Mr. Todd. You always talk about him,\" the first man says, placing his piece on the board. \"I might try it. The doctor at the clinic gave me some ointment and it did nothing. I went back two or three times and told him about the pain, but he kept giving me the same ointment. I asked for a referral to a hospital, but he refused.\""
       unlocks: [unlockable_incentivise_providers_to_follow_protocols]
       unlocks_context: ["It sounds like the wrong medicine was prescribed in Crup. Doctors must follow protocol."]
     Interrupt:

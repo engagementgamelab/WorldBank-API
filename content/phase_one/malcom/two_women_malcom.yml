@@ -18,18 +18,18 @@ character: two_women_malcom
 dialogue:
     Initial:
       text: 
-        - "As you approach they both turn to eye you up and down, and you feel a sense of being judged for your attire. They turn back to each other smirking, continuing their conversation. \n\"This market was fun for an hour or so, but I just cannot wait to be back at the estate. Did you hear? Uncle will be renovating the outer sand gardens to make space for three new horses!\"\n The second woman smiles. \"That sounds lovely. Hopefully next spring he'll finally put in that airship tether he's always going on about.\" [[Keep Listening]] [[Interrupt Them]]"
+        - "They explain that they have been [[incentivizing service providers]] to vaccinate more children to prevent [[the epidemic]] from spreading."
 
         - "They're still talking, but they seem aware that you're nearby. You're beginning to feel a little awkward."
 
-    Keep Listening:
+    Incentivizing Service Providers:
       text: 
-      - "You've been noticed. \"What time is it, dear? The ferry home should be here soon...\" is all they say."
-      unlocks: [unlockable_route_malcom_to_valeria]
-      unlocks_context: ["You discovered a new route to Valeria."]
+      - "\"Our experience has been good in increasing the number of children to be vaccinated. However, our overall support is to incentivize the providers to improve quality of care instead of increasing only the quantity of services. This is especially by following protocol and therapeutic guidelines.\""
+      unlocks: [unlockable_incentivise_providers_to_follow_protocols]
+      unlocks_context: ["Incentivizing providers to deliver services may go at the expense of quality, so it is important to also incentivize providers to follow protocols and therapeutic guidelines."]
 
-    Interrupt Them:
+    The Epidemic:
       text: 
-      - "They seem surprised that you're addressing them, and even more surprised that you'd be asking them about healthcare. \"We're from Valeria,\" one of them says. \"So I'm not sure what I could tell you about highland clinics.\" The other considers for a moment. \"You know who would know? Lydia. The airship pilot. She's having a baby soon, I heard. If you pass through Valeria, you can ask her.\""
-      unlocks: [unlockable_dialogue_lydia]
-      unlocks_context: ["Find Lydia in Valeria to ask her about this."]
+      - "\"In the Highlands, access to services is limited and people do not value the importance of preventive services, like vaccinations; instead they only go to the clinic when they are sick. Ensuring sufficient outreach is done to these areas for important services like vaccinations are crucial as well as early detection of epidemic cases.\""
+      unlocks: [unlockable_outreach]
+      unlocks_context: ["Bringing the healthcare workers to the communities to provide services like vaccinations can increase the vaccination coverage and prevent epidemic."]

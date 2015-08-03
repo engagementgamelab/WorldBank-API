@@ -18,7 +18,7 @@ character: traveling_merchant_kibari
 dialogue:
     Initial:
       text: 
-        - "When you approach him, his eyes light up. \"What can I do for you?\" he asks. \"Anything you need, I have it.\" You buy some trifle from him out of politeness, and after that he seems happy to share what he knows about the area. \"The nearest cities to here are [[Crup]] and [[Mile]]. Both easy enough to get to. I'm actually on my way to [[Zima]]."
+        - "When you approach him, his eyes light up. \"What can I do for you?\" he asks. \"Anything you need, I have it.\" You buy some sweets from him out of politeness, and after that he seems happy to share what he knows about the area. \"The nearest cities to here are [[Crup]] and [[Mile]]. Both easy enough to get to. I'm actually on my way to [[Zima]]."
 
         - "\"Anything else you need?\" he asks, watching as you approach."
     Mile: 

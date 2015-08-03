@@ -22,11 +22,11 @@ dialogue:
         - "The woman looks at you with recognition and offers a wave as you return. \"Can I help you with something else?\""
     Farmers: 
       text: 
-        - "You ask about the farmers who grew the fruit. The woman replies in a rehearsed tone. \"Very hardworking people. Very poor, but who needs money when you can eat what you grow? I live in the city, so I have to sell fruit to make ends meet and support my family.\""
+        - "You ask about the farmers who grew the fruit. The woman replies in a rehearsed tone. \"Me and my neighbors spend our time working on the land so that we can harvest the fruit. I come to the city so I can sell fruit to make ends meet and support my family. We are very poor, but we are a hardworking people.\""
       unlocks: [unlockable_vouchers_for_services]
-      unlocks_context: ["People like the fruit vendor can't afford services, so vouchers may be necessary."]
+      unlocks_context: ["People like the fruit farmers can't afford services, so vouchers may be necessary."]
     Daughter: 
       text: 
-        - "\"My daughter? She is just three, and the cutest girl you have ever seen,\" the fruit seller beams. \"Her grandmother is watching her, so I can sell fruit here in the market. I support all three of us.\" When you ask about the girl's vaccinations, the woman shrugs. \"Who has time to travel to a hospital? Keeping her fed is more important.\""
+        - "\"My daughter? She is just three, and the cutest girl you have ever seen,\" the fruit seller beams. \"Her grandmother is watching her, so I can sell fruit here in the market. I support all three of us.\" When you ask about the girl's vaccinations, the woman shrugs. \"Who has time to travel to a clinic? Keeping her fed is more important.\""
       unlocks: [unlockable_outreach]
       unlocks_context: ["The fruit seller in Malcom doesn't have time to travel. Bringing Outreach staff to her area could solve this."]

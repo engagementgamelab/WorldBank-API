@@ -22,11 +22,11 @@ dialogue:
         - "\"You are a curious one,\" the herder says."
     Easy To Get:
       text: 
-        - "\"I heard that some people travel for days to get to the hospital, only to be told they have no medicine. Who wants to do that?\""
+        - "\"The clinic here in town never has any medicines, and I hear that some people travel for days to get to the hospital. Who wants to do that? You hear people die of negligence all the time in the hospital anyway.\""
       unlocks: [unlockable_outreach]
       unlocks_context: ["The herder mentioned people are discouraged to travel."]
     Seem To Work: 
       text: 
         - "He clutches his medallion. \"This is said to protect me from fevers, which kill many people in this area. I haven not gotten sick with a fever since I put it on. Hospitals on the other hand? Who even knows what happens in them?\""
       unlocks: [unlockable_information_campaign_to_change_cultural_customs_and_behavior]
-      unlocks_context: ["People like the herder in Kibari believe strongly in traditional remedies that don't work."]
+      unlocks_context: ["People like the herder in Kibari believe strongly in traditional remedies that don't work. They are accustomed to the old ways of doing things."]

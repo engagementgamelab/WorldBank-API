@@ -33,6 +33,6 @@ dialogue:
     unlockable_dialogue_lydia:
       display_name: "Personal Trip"
       text:
-        - "You mention the women in Malcom who referred you to her. Lydia rolls her eyes. \"I hope they weren't too rude to you. They were right, though. I'm actually three months pregnant today,\" she offers, \"and I have an appointment with Dr. Notega in Zima. If I'm being honest, I wouldn't trust any other facility for this. The clinics don't seem to have the resources.\""
+        - "\"I'm actually three months pregnant today,\" she offers, \"and I have an appointment with Dr. Notega in Zima. If I'm being honest, I wouldn't trust any other facility for this. The clinics don't seem to have the resources and staff do not seem to be very proactive to provide services. There used to be a good clinic in Valeria that recently burned down..\""
       unlocks: [unlockable_incentivise_providers_to_deliver_services]
-      unlocks_context: ["If clinics lack resources to deliver facility births, incentives for this service may be needed."]
+      unlocks_context: ["If clinics lack resources to deliver facility births, and staffs are not motivated, incentives for this service may be needed."]
