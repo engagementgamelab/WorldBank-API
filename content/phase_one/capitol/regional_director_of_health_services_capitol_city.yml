@@ -19,14 +19,16 @@ character: regional_director_of_health_services_capitol_city
 dialogue:
     Initial:
       text: 
-        - "The Regional Director speaks up. \"I have been trying to improve the health system in the Highlands region for a few years now, but there are [[many obstacles]].\""
+        - "The Regional Director speaks up. \"I have been trying to improve the health system in the Highlands region for a few years now, but there are [[many obstacles]]. The main referral hospital is in Zima, which is far from the highlands. If we want to improve the health of the people in Zariba, we need to start in the highlands, but there are many obstacles. The situation is not good, and we lag behind the rest of the country, and our neighbors,\" he says. \"More than 80% of the people in the highlands live in extreme poverty, and cannot purchase even basic health services."
+    unlocks: [unlockable_autonomy]
+    unlocks_context: ["The Regional Director of Health Services for the Highlands says more autonomy is needed for health staff in the region."]
     Many Obstacles:
       text:
-       - "\"The situation is not good, and we lag behind the rest of the country, and our neighbors,\" he says. \"More than 80% of the people in the Highlands live in extreme poverty, and cannot purchase even basic health services. There is also some [[confusion]] about what to expect at health care facilities.\""
+       - "\"Health professionals in the Highlands region could do better in order to improve the services utilization and to improve the health for the people that live there, but they need more empowerment to be able to make decisions that will benefit patients and families that live in the Highlands.\""
       unlocks: [unlockable_vouchers_for_services]
       unlocks_context: ["The Regional Director of Health Services for the Highlands says 80% of people live in extreme poverty."]
     Confusion:
       text:
        - "When you ask about the confusion, he nods. \"Those with little money also have little time to educate themselves on matters of health,\" he says. \"If we are going to be implementing radical changes, I'm honestly not sure how people in the rural communities of the highlands will be able to keep up.\""
       unlocks: [unlockable_information_campaign_to_explain_changes_to_system]
-      unlocks_context: ["The Regional Director claims that it will be difficult to sensitize the populace on changes, so care must be taken."]
+      unlocks_context: ["The Regional Director claims that it will be difficult to sensitize the population on changes needed, so good communication strategies need to be used."]
