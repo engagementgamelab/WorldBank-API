@@ -22,15 +22,15 @@ dialogue:
         - "She looks frustrated and ready to continue venting. \"I will tell you something else.\""
     Thought I Did:
       text: 
-        - "She is clearly still steamed about what happened at the hospital as she relates what happened there in angry tones. \"I travelled more than a day to get there, and did the entire interview, only to be told there were no resources available to hire me! The hospital administrator said she would love to have me on their staff, but a new position was not budgeted.\""
+        - "She is clearly still upset about what happened at the hospital as she tells you the story in an angry tone. \"I travelled more than a day to get there, and did the entire interview, only to be told that suddenly there were no resources available to hire me! The hospital administrator said she would love to have me on their staff, but bureaucrats in the capitol suddenly decided there was no budget for that.\""
       unlocks: [unlockable_dialogue_hospital_administrator]
       unlocks_context: ["Ask the Hospital Administrator in Zima more about this."]
     Midwife: 
       text: 
-        - "She scoffs. \"Skilled midwives such as myself who can travel are very hard to come by, and very in demand these days, since most women won't travel long distances to give birth. I can't believe they would not hire me.\""
+        - "She scoffs. \"Skilled midwives such as myself who can travel are very hard to come by, and very in demand these days, since most women won't travel long distances to give birth. I can't believe they would not hire me. I could even be hired here in Mile, and that would save the lives of many mothers and babies.\""
       unlocks: [unlockable_outreach]
       unlocks_context: ["A budget for outreach staff is necessary, according to the midwife in Mile."]
     unlockable_dialogue_midwife:
       display_name: "Ask about Crup Plantation Owner"
       text: 
-        - "You ask the midwife about what the plantation owner said. \"Yes, that is true. Women do prefer to give birth at home, and I don't see that changing any time soon. People don't like being told they are wrong. My advice is to focus on improving facilities and spreading the word, not attacking old customs.\""
+        - "You ask the midwife about what the plantation owner said. \"Yes, that is true. Women do prefer to give birth at home, and I don't see that changing any time soon. People don't like being told they are wrong. My advice is to focus on improving health services and spreading the word, not attacking old customs.\""

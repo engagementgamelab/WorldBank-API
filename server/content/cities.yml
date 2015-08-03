@@ -13,7 +13,7 @@
 
 - symbol: kibari
   display_name: Kibari
-  description: "Home to the prolific traditional medicine provider (Mr. Todd), this is a bustling city that isn't as large as Zima or Malcom, but is still the center of trade and commerce for the smaller villages and towns in the central area of the region."
+  description: "Known far and wide as the \"Heart of the Highlands,\" Kibari is one of the largest settlements in the Zariban interior. The town is a center of commerce for the area since it's \"on the way to everywhere,\" and is a cultural melting pot with people from all over the country."
   enabled: true
   npc_interactions: 3
 

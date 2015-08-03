@@ -18,21 +18,21 @@ character: dr_maramuta_crup
 dialogue:
     Initial:
       text: 
-        - "The man extends a hand to shake and introduces himself. \"Hello,\" he says, \"I'm Dr. Maramuta. I run [[this clinic]], and I've consulted with a number of others in the area. Times are tough these days, and our [[budget]] has been seriously strained.\""
+        - "The man extends a hand to shake and introduces himself. \"Hello,\" he says, \"I'm Dr. Maramuta. I run [[this clinic]], and I've worked with a number of others in the area. Times are tough these days, and our [[budget]] has been seriously strained.\""
         - "Dr. Maramuta motions you over to him. \"I have to meet with a patient soon, but I have a little more time to chat. What else can I help you with?\""
     This Clinic: 
       text: 
-        - "\"Things have been very tough. In the highlands, things are done differently. The situation is not ideal, and sometimes the quick and dirty solution is better than no treatment at all. We have no money, and things are skimped on.\""
+        - "\"Things have been very tough. In the highlands, things are done differently. The situation is not ideal, and sometimes following protocol just takes extra time which is hard with so many patients. We don't have all the supplies and therefore staff do not follow protocols, and they don't seem to care, anyway. And we do not have any money, so things are skimped on.\""
       unlocks: [unlockable_incentivise_providers_to_follow_protocols]
-      unlocks_context: ["Dr. Maramuta talked about cutting corners. This must be discouraged."]
+      unlocks_context: ["Dr. Maramuta talked about not following protocols. This must be discouraged."]
     Budget:
       text: 
         - "When you press him on budget strains, he backtracks a little bit. \"It's not so much that we don't have any money, it's more that the budget has already been set by the Ministry of Health, and we don't have the ability to purchase the medicine and supplies we need. You understand.\""
       unlocks: [unlockable_grant_providers_autonomy]
-      unlocks_context: ["Dr. Maramuta in Crup needs autonomy to order supplies for his clinics."]
+      unlocks_context: ["Dr. Maramuta in Crup needs autonomy to purchase supplies for his clinics."]
     unlockable_dialogue_dr_maramuta:
       display_name: "Ask about Mr. Todd's claim"
       text: 
         - "You bring up Mr. Todd's claim that people travel long distances and receive no medicine. Dr. Maramuta nods. \"This is sadly true, and also due to the budgeting issues I mentioned. It is a self-fulfilling prophecy. People tell their neighbors that there is no medicine, so people do not come here. Then since few people come, the Ministry adjusts our budget. Then when people do come, there is no medicine because of the budget lines we are given, and they spread the word. It will be hard to convince people that these problems have been solved.\""
-      unlocks: [unlockable_information_campaign_to_explain_changes_to_system]
+      unlocks: [unlockable_information_campaign_to_counter_misinformation]
       unlocks_context: ["Dr. Maramuta says that clinics have a bad reputation. This needs to be countered."]

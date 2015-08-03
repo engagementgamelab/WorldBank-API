@@ -22,17 +22,17 @@ dialogue:
         - "The hospital administrator looks frustrated. She tugs on her hair as she pores over some document. When she sees you again, she looks up. \"Oh, I thought you had left. What else can I tell you?\""
     Budget Constraints: 
       text: 
-        - "\"The root cause of the constraints is simple bureaucracy. How we spend our budget is determined by a ministry bureaucrat in the capitol city who has no idea what our actual needs are. If we had the autonomy to allocate our budget nimbly, the supply issue would go away.\""
+        - "\"The root cause of the constraints is simple bureaucracy. How we spend our budget is determined by a ministry bureaucrat in the capitol city who has no idea what our actual needs are. If we had the autonomy to allocate and spend our budget, the supply issue would go away.\""
       unlocks: [unlockable_grant_providers_autonomy]
       unlocks_context: ["The hospital administrator says she lacks the autonomy to purchase needed supplies."]
     Trickle-down Effect:
       text:
-        - "\"When we do not have the proper supplies, it looks bad to the patients, and we lose face. Not only that, the lack of basic supplies begins to wear on my staff. I am aware of some attitude problems. All of this is not conducive to treating people.\""
+        - "\"When we do not have the proper supplies, it looks bad to the patients, and we lose face. Not only that, the lack of basic supplies begins to wear on my staff. I am aware of some attitude problems. All of this is not conducive to treating patients.\""
       unlocks: [unlockable_improve_patient_and_provider_relationship]
       unlocks_context: ["Stressed staff have 'attitude problems' according to the hospital administrator."]
     unlockable_dialogue_hospital_administrator:
       display_name: "Ask about the midwife in Mile" 
       text: 
-        - "You bring up the midwife you met in Mile, and the administrator nods. \"Same problem. We did not have the autonomy needed to budget for that hire, so I had to turn away a qualified, needed worker.\""
+        - "You bring up the midwife you met in Mile, and the administrator nods. \"The same problem, as we do not have the autonomy to allocate the budget that we had requested for a midwife to be hired. At the central level, they did not feel this was important, so I had to turn away a qualified, needed worker.\""
       unlocks: [unlockable_grant_providers_autonomy]
       unlocks_context: ["In Zima's hospital, midwives are needed but they lack the autonomy to hire them."]

@@ -28,4 +28,4 @@ dialogue:
       text: 
         - "\"I don't remember exactly what the doctor said, but he kept saying that he did not need antibiotics. When I finally got him to write me a prescription, I felt like he wrote it just to shut me up. He didn't seem to care, you know?\""
       unlocks: [unlockable_incentivise_providers_to_follow_protocols]
-      unlocks_context: ["Doctors are writing prescriptions to please patients, not for solid medical reasons."]
+      unlocks_context: ["Doctors are writing prescriptions to please patients, not based on solid medical reasons."]
