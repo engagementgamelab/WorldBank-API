@@ -721,7 +721,7 @@
 - symbol: hire_agency
   title: "Hire Agency"
 
-- symbol: expidite_payment_and_service_delivery
+- symbol: expedite_payment_and_service_delivery
   title: "Expedite payment and service delivery"
 
 # -------------------                       ------------------- #
@@ -1349,7 +1349,7 @@
 - symbol: unlockable_cull_and_rehire
   title: "Cull Workforce and Rehire"
 
-- symbol: unlockable_increase_incentives_and_expidite_payment
+- symbol: unlockable_increase_incentives_and_expedite_payment
   title: "Increase Incentives and Expedite payment"
 
 # -------------------------- #

@@ -13,7 +13,7 @@ priority: 2
 year: 2
 
 initiating_npc: coach # <--- character's symbol
-initiating_dialogue: "Coach"
+initiating_dialogue: "I was doing my mentoring visit at the hospital and saw they are still mismanaging funds. The business plan has clear guidelines and the Administrator is just not sticking to them."
 
 starting_options: [warning_13, sanctions_and_retraining_on_use_of_financial_tools_2]
 starting_options_affects: [warning_13, sanctions_and_retraining_on_use_of_financial_tools_2]
@@ -47,6 +47,6 @@ characters:
     dialogue: "We're all short staffed, but I've found ways to make it work."
 
   hospital_administrator:
-    dialogue: "I can't control my hiring budget, and my supplies remain squeezed. I'm short staffed and constantly running out of things. So how can I possibly meet the demmands of this business plan?"
+    dialogue: "I can't control my hiring budget, and my supplies remain squeezed. I'm short staffed and constantly running out of things. So how can I possibly meet the demands of this business plan?"
     feedback: 
       warning_13: "I'm doing my best, but I don't know how long I can hold onto my staff like this." # <--- symbol of the option used and the feedback text for it

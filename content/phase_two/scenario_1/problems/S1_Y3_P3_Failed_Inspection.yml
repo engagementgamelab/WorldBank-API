@@ -28,7 +28,7 @@ characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
-    dialogue: "Quality of care is important insofar as it enables better and more services to be deleivered."
+    dialogue: "Quality of care is important insofar as it enables better and more services to be delivered."
 
   director_regional_health_services:
     dialogue: "I recognize that their job is difficult, but quality of care is one of the indicators we are working to improve."
