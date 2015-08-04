@@ -155,7 +155,7 @@
 - symbol: spoiled_twins_valeria
   display_name: Spoiled Twins
   description:
-    - "A young man and woman, probably in their late teens, seem to be waiting to board an airship. They look very much alike. Probably they are brother and sister. Perhaps even twins."
+    - "A young man and woman, probably in their late teens, seem to be waiting to board an airship. They look very much alike. They are probably brother and sister, maybe even twins."
 
 - symbol: lydia_airship_pilot_valeria
   display_name: Airship Pilot
@@ -184,7 +184,7 @@
 - symbol: foreign_traveler_zima
   display_name: Foreign Traveler
   description:
-    - "Her assortment of luggage marks this woman as a traveller, and her clothes and attitude tell you she is foreign. Where could she be going?" 
+    - "Her assortment of luggage marks this woman as a traveler, and her clothes and attitude tell you she is foreign. Where could she be going?" 
 
 - symbol: dr_notega_zima
   display_name: Dr. Notega
