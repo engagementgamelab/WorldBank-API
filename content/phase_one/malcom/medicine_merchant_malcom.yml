@@ -29,5 +29,5 @@ dialogue:
     Mr. Todd: 
       text: 
         - "As soon as you mention Mr. Todd the medicine merchant's face lights up. \"I might be a bit biased, but that man is everything for the local region. He is a genius who has built a business from the ground up! Literally! Everyone loves Mr. Todd. You need to meet him. I am sure one conversation with him will change all your thoughts on foreign medicine!\""
-      unlocks: [unlockable_dialogue_mr_todd_2]
+      unlocks: [unlockable_dialogue_mr_todd]
       unlocks_context: ["Mr. Todd in Kibari will have more to say about this."]
