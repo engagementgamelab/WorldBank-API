@@ -1,0 +1,55 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Problem YAML
+# ==============
+
+# Phase Two Scenario Card YML Example
+
+symbol: new_budget
+name: "New Budget"
+priority: 9
+
+initiating_npc: hospital_administrator # <--- character's symbol
+initiating_dialogue: "I received a memo today going over the new budget for all health facilities. The NGO has released new hiring guidelines, but these do not match our goals."
+
+starting_options: [comply_with_ngo_budget_3]
+starting_options_affects: [comply_with_ngo_budget_3]
+
+final_options: [comply_with_ngo_budget_3, rework_business_plan_2, grant_autonomy_to_providers_4]
+final_options_affects: [comply_with_ngo_budget_3, rework_business_plan_2, grant_autonomy_to_providers_4]
+
+characters:
+
+  # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory"
+
+  dep_minister_of_health:
+    dialogue: "This is par for the course. Providers always complain about budget changes."
+
+  director_regional_health_services:
+    dialogue: "If the NGO is claiming this is necessary, I would take it seriously. A compromise might be to rework the business plan with Ministry oversight."
+    unlocks: [rework_business_plan_2]
+    unlocks_affects: [rework_business_plan_2]
+
+  ngo_manager:
+    dialogue: "Our own monitors have found hospitals mismanaging funds. They need strict guidelines to provide the necessary services. Maybe one of your verifiers or advisors can confirm?"
+    narrows: [dep_minister_of_health, director_regional_health_services, ngo_manager]
+    feedback:
+      grant_autonomy_to_providers_4: "If you think it's essential, we won't fight you over authority. But the plan will need to be altered to account for this change."
+
+  coach:
+    dialogue: "These problems have been going on for too long. The only way I see this working in the future is reducing the NGO's outsized control over the budget and granting autonomy to the providers to hire staff as needed."
+    unlocks: [grant_autonomy_to_providers_4] # <--- these probably will symbols
+    unlocks_affects: [grant_autonomy_to_providers_4]
+
+  third_party_verifier:
+    dialogue: "I have noticed some inconsistencies in the data that indicate to me some funds are being mismanaged. The hospital can fix that problem themselves."
+
+  community_verifier:
+    dialogue: "I don't understand the need for these new guidelines, but then again, I'm not working in the hospital."
+
+  hospital_administrator:
+    feedback:
+      rework_business_plan_2: "I don't believe this will be constructive, but I'm willing to try."
+      comply_with_ngo_budget_3: "If you insist..."

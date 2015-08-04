@@ -1,0 +1,57 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Problem YAML
+# ==============
+
+# Phase Two Scenario Card YML Example
+
+symbol: prescriptions
+name: "Prescriptions"
+priority: 11
+
+initiating_npc: community_verifier # <--- character's symbol
+initiating_dialogue: "I've been interviewing patients, and at least at the clinics there's a serious quality of care issue. People have been leaving with what appears to be completely wrong prescriptions."
+
+starting_options: [warning_18, sanctions_16]
+starting_options_affects: [warning_18, sanctions_16]
+
+final_options: [warning_18, sanctions_16, terminate_contract_at_end_of_year_10, tie_incentives_directly_to_protocol_2, reduce_incentives_for_customer_service_2]
+final_options_affects: [warning_18, sanctions_16, terminate_contract_at_end_of_year_10, tie_incentives_directly_to_protocol_2, reduce_incentives_for_customer_service_2]
+
+characters:
+
+  # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory"
+
+  dep_minister_of_health:
+    dialogue: "That's unacceptable. I think it's time we looked for someone else to fulfill these duties. Letting the NGO go and contracting facilities directly would give us far better oversight."
+    unlocks: [terminate_contract_at_end_of_year_10]
+    unlocks_affects: [terminate_contract_at_end_of_year_10]
+
+  director_regional_health_services:
+    dialogue: "We must conduct an investigation right away. Begin by speaking directly with the health providers and find out why this is happening."
+    narrows: [dep_minister_of_health, director_regional_health_services, ngo_manager, third_party_verifier]
+
+  ngo_manager:
+    dialogue: "I run the entire health network of Zariba and can't be everywhere at once. In the end, I am responsible, but I'm not being given the support I need."
+    feedback:
+      warning_18: "Everyone who works for me is doing their best. I don't know what I can do without an increase in resources."
+      sanctions_16: "I need an increase in resources to deal with this, not a cut! How can I fix this problem if I'm hamstrung by sanctions?"
+
+  coach:
+    dialogue: "This sounds like we've been incentivising the wrong things. Adhering to best practices is much more important than happy patients. Let's rethink this."
+    unlocks: [tie_incentives_directly_to_protocol_2] # <--- these probably will symbols
+    unlocks_affects: [tie_incentives_directly_to_protocol_2]
+    feedback:
+      reduce_incentives_for_customer_service_2: "I know I pushed hard for patient satisfaction, but that might have been... misguided. Let's implement this and see what happens."
+      tie_incentives_directly_to_protocol_2: "I'll work on implementing this change. I think this will prove to be a turning point in the plan."
+      terminate_contract_at_end_of_year_10: "I'll inform the NGO and begin transitioning into contracting directly with providers early next year."
+
+  third_party_verifier:
+    dialogue: "This is a mess. I should have caught this myself. I'll look more closely to see what else is being misreported."
+
+  hospital_administrator:
+    dialogue: "At first I was shocked to hear this, but the more I thought about it, the more it makes sense. Patients don't know the difference, and if we're incentivizing happy patients, the wrong medicine is better than no medicine."
+    unlocks: [reduce_incentives_for_customer_service_2]
+    unlocks_affects: [reduce_incentives_for_customer_service_2]

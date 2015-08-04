@@ -1,0 +1,53 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Problem YAML
+# ==============
+
+# Phase Two Scenario Card YML Example
+
+symbol: government_vs_organization
+name: "Government Vs. Organization"
+priority: 3
+
+initiating_npc: director_regional_health_services # <--- character's symbol
+initiating_dialogue: "I'm getting a different answer from everyone, so I'll ask you to straighten them out. The Ministry, NGO, and health care providers can't agree on who has jurisdiction where and what we're supposed to do for patients."
+
+starting_options: [hold_stakeholder_meeting_5]
+starting_options_affects: [hold_stakeholder_meeting_5]
+
+final_options: [hold_stakeholder_meeting_5, clarification_of_roles_11, warning_17, terminate_ngo_contract_7]
+final_options_affects: [hold_stakeholder_meeting_5, clarification_of_roles_11, warning_17, terminate_ngo_contract_7]
+
+characters:
+
+  # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
+  dep_minister_of_health: # <--- character's symbol
+    dialogue: "Best way to win an argument? End the conversation."
+    unlocks: [terminate_ngo_contract_7]
+    unlocks_affects: [terminate_ngo_contract_7] # <--- this probably will be a symbol
+    feedback: 
+      clarification_of_roles_11: "I do hope this is the last time we have to go through this." # <--- symbol of the option used and the feedback text for it
+  ngo_manager:
+    dialogue: "I'm only doing what I thought you asked me to. If I'm not let me know."
+    unlocks: [clarification_of_roles_11]
+    unlocks_affects: [clarification_of_roles_11]
+    feedback:
+      warning_17: "Okay, we'll let the health care providers have their autonomy."
+      terminate_ngo_contract_7: "The whole reason you brought us on was nothing was getting accomplished. That's what we were doing and now you're telling us not to."
+  coach:
+    dialogue: "The health care providers are caught between the people paying them and the Ministry they report to. That's the problem that needs solving."
+    narrows: [coach, third_party_verifier, community_verifier, hospital_administrator]
+    feedback:
+      hold_stakeholder_meeting_5: "For a problem like this, a truce is about as good as we can hope for. Well, maybe not a truce, as such. More of a cease fire."
+
+  third_party_verifier:
+    dialogue: "There's plenty of work to be done without these arguments."
+
+  community_verifier:
+    dialogue: "The other day, a woman was telling me about her prenatal checkup. She's in the stirrups and the doctor had to leave the examination room to get lectured on what all care she was supposed to give. That has got to stop."
+  hospital_administrator:
+    dialogue: "I couldn't do what the NGO Director does. No argument there. But they are not so good at their job that they can do mine, too."
+    unlocks: [warning_17]
+    unlocks_affects: [warning_17]

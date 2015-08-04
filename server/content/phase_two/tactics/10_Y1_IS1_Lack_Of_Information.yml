@@ -1,0 +1,42 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Tactic YAML
+# ==============
+
+# Phase Two Tactic YML Template
+
+symbol: tactic_lack_of_information
+tactic_name: unlockable_information_campaign_to_explain_changes_to_system  # <--- symbol of the tactic (stored in unlockables.yml) this card is using
+name: "Lack of Information" # <--- display name for card
+year: 1
+
+# This dialogue the player sees first
+initiating_dialogue: "Community verifier says opinions about health care facilities aren't changing, and people are not changing much."
+
+# The dialogue the player sees when investigation has results to show
+investigate_dialogue: "Most people have not heard about the changes."
+
+# These are special parameters that load a cooldown array, which is defined in content/config.yml under 'cooldown:'
+# For example, specifying $config_cooldown_long will choose the key found in config.yml under:
+# ----- cooldown:
+# -----  long: [20, 14, 10]
+investigate_cooldown: $config_cooldown_short
+investigate_further_cooldown: $config_cooldown_long
+
+# These are the usable player options added after investigation is done
+# Note that each key (e.g. 'information_campaign') MUST correspond to the one under "_affects" and feedback"
+new_options: [unlockable_provider_ambassadors, unlockable_invite_community_leaders, unlockable_word_of_mouth]
+
+# The affects for each new option
+new_options_affects: [unlockable_provider_ambassadors, unlockable_invite_community_leaders, unlockable_word_of_mouth]
+
+
+# This is the feedback dialogue the player sees based on the option they select
+feedback_dialogue:
+  unlockable_provider_ambassadors: "This can begin next year if we revise the contracts to include it."
+  unlockable_invite_community_leaders: "Like it or not, we're still outsiders or working for outsiders. It's a good idea to get some leaders on our side."
+  unlockable_word_of_mouth: "This will only work if we keep doing good work, but word of mouth campaigns have worked in the past."
+  # This key is required for every tactic card for when the player chooses observe instead of investigate
+  observe: "OK, we'll wait and see if anything changes."

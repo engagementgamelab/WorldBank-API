@@ -1,0 +1,58 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Problem YAML
+# ==============
+
+# Phase Two Scenario Card YML Example
+
+symbol: prescriptions
+name: "Prescriptions"
+priority: 3
+year: 3
+
+initiating_npc: community_verifier # <--- character's symbol
+initiating_dialogue: "I've been interviewing patients, and at least at the clinics there's a serious quality of care issue. People have been leaving with what appears to be completely wrong perscriptions."
+
+starting_options: [warning_16, sanctions_15]
+starting_options_affects: [warning_16, sanctions_15]
+
+final_options: [warning_16, sanctions_15, terminate_contract_at_end_of_year_8, tie_incentives_directly_to_protocol, reduce_incentives_for_customer_service]
+final_options_affects: [warning_16, sanctions_15, terminate_contract_at_end_of_year_8, tie_incentives_directly_to_protocol, reduce_incentives_for_customer_service]
+
+characters:
+
+  # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
+  dep_minister_of_health: # <--- character's symbol
+    dialogue: "That's unnacceptable. I think it's time we looked for someone else to fulfill these duties. There are other health care providers in Zariba. "
+    unlocks: [terminate_contract_at_end_of_year_8] # <--- these probably will symbols
+    unlocks_affects: [terminate_contract_at_end_of_year_8]
+
+  director_regional_health_services: # <--- character's symbol
+    dialogue: "We must conduct an investigation right away. Begin by speaking directly with the health providers and find out why this is happening."
+    narrows: [clinic_manager, hospital_administrator, coach] # <--- this probably will be a symbol
+    feedback: 
+      terminate_contract_at_end_of_year_8: "I understand. I will inform the Clinic Manager of this, and begin the search for a replacement ASAP." # <--- symbol of the option used and the feedback text for it
+
+  coach:
+    dialogue: "Maybe we've been incentivising the wrong things. Prescriptions make patients happy, whether or not they're correct. I've prioritized happy patients, maybe above best practices."
+    unlocks: [tie_incentives_directly_to_protocol] # <--- these probably will symbols
+    unlocks_affects: [tie_incentives_directly_to_protocol]
+    feedback: 
+      reduce_incentives_for_customer_service: "That's an approach I hadn't thought of. Let's implement it, see what happens." # <--- symbol of the option used and the feedback text for it
+      tie_incentives_directly_to_protocol: "I'll work on implementing this change. I think this'll be a turning point for the plan." # <--- symbol of the option used and the feedback text for it
+
+  third_party_verifier:
+    dialogue: "How did I miss this!? I'll look more closely to see what else the clinics are misreporting."
+
+  clinic_manager:
+    dialogue: "I run an entire network of clinics, and unfortnately I can't be everywhere at once. In the end, I am responsible, but I feel I am not being given the support I need."
+    feedback: 
+      warning_16: "You're asking me to discipline my clinics for avoiding fights with patients who think medicine means walking out with a bottle of pills. I also have to discipline them for not making patients happy. I'll try to figure out some way to balance those." # <--- symbol of the option used and the feedback text for it
+      sanctions_15: "You cut our funds when patients complain, which they do because we don't prescribe them drugs. Then, when we give them what they want, you cut our funds again. You need to figure out what you want." # <--- symbol of the option used and the feedback text for it
+
+  hospital_administrator:
+    dialogue: "At first I was shocked to hear this, but the more I thought about it, the more it makes sense. Patients don't know the difference, and if we're incentivizing happy patients, the wrong medicine is better than no medicine."
+    unlocks: [reduce_incentives_for_customer_service] # <--- these probably will symbols
+    unlocks_affects: [reduce_incentives_for_customer_service]

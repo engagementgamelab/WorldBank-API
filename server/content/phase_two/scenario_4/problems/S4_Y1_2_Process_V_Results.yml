@@ -1,0 +1,53 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Problem YAML
+# ==============
+
+# Phase Two Scenario Card YML Example
+
+symbol: process_v_results
+name: "Process V. Results"
+priority: 2
+
+initiating_npc: ngo_manager # <--- character's symbol
+initiating_dialogue: "Look. I know we haven't hit the numbers you laid out, but we got a lot of good work done. We can easily make our marks next quarter if the payor issues us our bonus for this period."
+
+starting_options: [deny_payment_4]
+starting_options_affects: [deny_payment_4]
+
+final_options: [deny_payment_4, increase_budget_for_supplies_1, allow_payments_once_4]
+final_options_affects: [deny_payment_4, increase_budget_for_supplies_1, allow_payments_once_4]
+
+characters:
+
+  # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
+  dep_minister_of_health: # <--- character's symbol
+    dialogue: "What do the providers think? They should have a pretty good idea if the NGO is at least trying to hit their goals "
+    narrows: [dep_minister_of_health, coach, ngo_manager, third_party_verifier, community_verifier] # <--- this probably will be a symbol
+    feedback: 
+      increase_budget_for_supplies_1: "This will need approval from the Finance Ministry, but it could improve things. Still, the claims should not be paid this quarter." # <--- symbol of the option used and the feedback text for it
+  director_regional_health_services:
+    dialogue: "If they think giving them the money for what they did get done will help next time, we can pay them this once."
+    unlocks: [allow_payments_once_4]
+    unlocks_affects: [allow_payments_once_4]
+
+  ngo_manager:
+    feedback:
+      allow_payments_once_4: "This will help us do even more good work! Thank you."
+      deny_payment_4: "We're working with little enough as it is. If we can't reach our goals with what we have, what makes you think we'll do better with less?"
+
+  coach:
+    dialogue: "I'm worried that if we give them the bonus this time it'll set a precedent."
+
+  third_party_verifier:
+    dialogue: "They were upfront about not meeting your goals, but it's your decision."
+
+  community_verifier:
+    dialogue: "I understand that results get paid, but if we don't pay them, my people won't get any treatment, let alone too little."
+
+  hospital_administrator:
+    dialogue: "They're trying. I'm seeing it in my hospitals. The problem is with our wupply line. If we had the necessary supplies, we could easily meet these goals."
+    unlocks: [increase_budget_for_supplies_1]
+    unlocks_affects: [increase_budget_for_supplies_1]

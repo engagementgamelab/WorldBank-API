@@ -1,0 +1,55 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Problem YAML
+# ==============
+
+# Scenario 1 Year 1 Base Problem 1: Government Overreach verification
+
+symbol: twist_budget_lines
+name: "Budget Lines"
+priority: 2
+year: 3
+twist: 1
+
+initiating_npc: hospital_administrator # <--- character's symbol
+initiating_dialogue: "I received a memo today going over the new national health budget. The ministry has released new hiring guidelines for all providers, but it does not match our goals."
+
+starting_options: [comply_with_ministry_budget_1]
+starting_options_affects: [comply_with_ministry_budget_1]
+starting_options_cost: [small]
+
+final_options: [comply_with_ministry_budget_1, clarification_of_roles_9, revise_business_plan_4]
+final_options_affects: [comply_with_ministry_budget_1, clarification_of_roles_9, revise_business_plan_4]
+final_options_cost: [small, small, small]
+
+characters:
+
+  # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
+  dep_minister_of_health: # <--- character's symbol
+    dialogue: "Our own monitors have found mismanagement of funds. They need strict guidelines to provide the necessary services."
+    narrows: [dep_minister_of_health, director_regional_health_services, coach, community_verifier]
+    feedback: 
+      clarification_of_roles_9: "This is within the scope of regulation, which is my role. But if you think it's essential, we will step back on this."
+
+  director_regional_health_services:
+    dialogue: "If the Ministry is claiming this is necessary, I would take it seriously. A compromise might be to re-work the business plan with Ministry oversight."
+    unlocks: [revise_business_plan_4]
+    unlocks_affects: [revise_business_plan_4]
+
+  coach:
+    dialogue: "I'd speak with the Ministry about this right away."
+    unlocks: [clarification_of_roles_9]
+    unlocks_affects: [clarification_of_roles_9]
+
+  community_verifier:
+    dialogue: "I really don't think that this is in my wheelhouse; maybe somebody else on your team would have a better idea?"
+
+  third_party_verifier: 
+    dialogue: "I have found some mismanagement of funds in the past as well. However, we are supposed to be granting autonomy."
+
+  hospital_administrator:
+    feedback:
+      revise_business_plan_4: "I don't believe this will be constructive, but I'm willing to try."
+      comply_with_ministry_budget_1: "If you insist..."

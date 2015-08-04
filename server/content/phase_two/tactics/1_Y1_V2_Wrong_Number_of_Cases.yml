@@ -1,0 +1,43 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Tactic YAML
+# ==============
+
+# Phase Two Tactic YML Template
+
+symbol: tactic_wrong_number_of_cases
+tactic_name: unlockable_vouchers_for_services  # <--- symbol of the tactic (stored in unlockables.yml) this card is using
+name: "Wrong Number of Cases" # <--- display name for card
+year: 1
+
+# This dialogue the player sees first
+initiating_dialogue: "The Verifier just let me know that the number of cases reported for the voucher program appears to be incorrect."
+
+# The dialogue the player sees when investigation has results to show
+investigate_dialogue: "I verified this with the providers, and they claim that this was an unintended mistake. We could just issue a nonpayment, or we could issue sanctions. Alternatively, I could investigate further for evidence of fraud."
+
+# The dialogue the player sees when further investigation has results to show
+investigate_further_dialogue: "My investigation did not turn up any hard evidence of fraud."
+
+# These are special parameters that load a cooldown array, which is defined in content/config.yml under 'cooldown:'
+# For example, specifying $config_cooldown_long will choose the key found in config.yml under:
+# ----- cooldown:
+# -----  long: [20, 14, 10]
+investigate_cooldown: $config_cooldown_short
+investigate_further_cooldown: $config_cooldown_long
+
+# These are the usable player options added after investigation is done
+# Note that each key (e.g. 'information_campaign') MUST correspond to the one under "_affects" and feedback"
+new_options: [unlockable_warning_t1, unlockable_sanctions_t1]
+
+# The affects for each new option
+new_options_affects: [unlockable_warning_t1, unlockable_sanctions_t1]
+
+# This is the feedback dialogue the player sees based on the option they select
+feedback_dialogue:
+  unlockable_warning_t1: "I'll issue the warning and let the fundholder know that payments should be withheld for the false cases."
+  unlockable_sanctions_t1: "We'll levy sanctions, then. My analysis suggests they can afford to pay the penalty."
+  # This key is required for every tactic card for when the player chooses observe instead of investigate
+  observe: "OK, we'll wait and see if anything changes."

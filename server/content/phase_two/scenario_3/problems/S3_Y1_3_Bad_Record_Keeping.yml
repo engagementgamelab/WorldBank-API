@@ -1,0 +1,55 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Problem YAML
+# ==============
+
+# Phase Two Scenario Card YML Example
+
+symbol: bad_record_keeping
+name: "Bad Record Keeping"
+priority: 3
+year: 1
+
+initiating_npc: third_party_verifier # <--- character's symbol
+initiating_dialogue: "The Clinic submitted their reports to us, but there were some inconsistencies. When we asked to see their records, they couldn't supply them."
+
+starting_options: [hold_payment_2]
+starting_options_affects: [hold_payment_2]
+
+final_options: [hold_payment_2, capacity_building_help, sanctions_12]
+final_options_affects: [hold_payment_2, capacity_building_help, sanctions_12]
+
+characters:
+
+  # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
+  dep_minister_of_health: # <--- character's symbol
+    dialogue: "If they aren't following the rules, they shouldn't be paid. A penalty may also be in order."
+    unlocks: [sanctions_12] # <--- these probably will symbols
+    unlocks_affects: [sanctions_12]
+
+  director_regional_health_services: # <--- character's symbol
+    dialogue: "All providers in my region know the requirements for keeping records. Something must be wrong. I'd talk to them."
+    narrows: [dep_minister_of_health, director_regional_health_services, coach, third_party_verifier, community_verifier] # <--- this probably will be a symbol
+
+  coach:
+    dialogue: "Can't imagine why they aren't keeping records. Last time I talked to them, they said everything was fine and they didn't want my help."
+
+  third_party_verifier:
+    feedback: 
+      capacity_building_help: "Help capacity building: When I'm over there next I'll check on their on-the-spot training, figure out where they're making mistakes." # <--- symbol of the option used and the feedback text for it
+
+  community_verifier:
+    dialogue: "My team has had no issue keeping records. I wonder what the issue is at the clinics?"
+
+  clinic_manager:
+    dialogue: "I wish I could tell you what happened. The only thing I can think of is someone sent our originals to the Ministry instead of copies. But I assure you, we are keeping records. With all the strictures you have in place, my staff is having a hard time keeping up with patient care and paperwork."
+    unlocks: [capacity_building_help]
+    unlocks_affects: [capacity_building_help]
+    feedback: 
+      hold_payment_2: "I understand you have to do this. We'll make due and improve next quarter." # <--- symbol of the option used and the feedback text for it
+      sanctions_12: "I don't think the answer to our staff problem is to cut our allocation. This will affect patient treatment." # <--- symbol of the option used and the feedback text for it
+
+  hospital_administrator:
+    dialogue: "Perhaps they just need some more time to get used to all of this. Cut them some slack this once, and they'll figure it out as we go."

@@ -1,0 +1,57 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Problem YAML
+# ==============
+
+# Phase Two Scenario Card YML Example
+
+symbol: reach
+name: "Reach"
+priority: 6
+
+initiating_npc: dep_minister_of_health # <--- character's symbol
+initiating_dialogue: "We're seeing underserved populations throughout the south. The NGO is falling short of their promises, especially in this area."
+
+starting_options: [terminate_contract_at_end_of_year_9]
+starting_options_affects: [terminate_contract_at_end_of_year_9]
+
+final_options: [terminate_contract_at_end_of_year_9, increase_funding_for_ngo_2, contract_additional_ngo_2]
+final_options_affects: [terminate_contract_at_end_of_year_9, increase_funding_for_ngo_2, terminate_contract_at_end_of_year_9, contract_additional_ngo_2]
+
+characters:
+
+  # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory"
+
+  dep_minister_of_health:
+    feedback:
+      increase_funding_for_ngo_2: "You realize you're rewarding these people for failure? I don't want to step in on this issue. Don't make me."
+
+  director_regional_health_services:
+    dialogue: "We're seeing underserved populations throughout the south. The NGO is falling short of their promises, especially in this area."
+
+  ngo_manager:
+    dialogue: "It's been a lot harder to reach some populations than we expected, especially down there. Health facilities in this region are much shorter on supplies and staff than we originally estimated, and there's no budget for us to make up the shortfall."
+    unlocks: [increase_funding_for_ngo_2]
+    unlocks_affects: [increase_funding_for_ngo_2]
+    feedback:
+      terminate_contract_at_end_of_year_9: "We can't, cannot, get to absolutely everyone, so you're making it impossible to get health care for everyone else. That's self-defeating!"
+      contract_additional_ngo_2: "I think we could have done it, but it would be a lot of work to reach that province. I appreciate the help."
+
+  coach:
+    dialogue: "Look, we have one group running things pretty well for most of the country. Maybe we need someone to run support for them who's more used to this kind of issue."
+    unlocks: [contract_additional_ngo_2] # <--- these probably will symbols
+    unlocks_affects: [contract_additional_ngo_2]
+
+  third_party_verifier:
+    dialogue: "I'm sure they are having trouble getting to some people, but no informational campaign is going to reach everybody."
+
+  community_verifier:
+    dialogue: "You can always just guide the NGO on how they should address this. It might be kind of micro-manage-y, but that's what you have a coach for, right?"
+
+  hospital_administrator:
+    dialogue: "I have less control over my staff than you might think. When we struggle to fill demand on a day to day basis, there isn't much time left over for morale-building and discipline."
+    feedback:
+      reorganize_staff_2: "More orders from on high about who I can hire? Just thinking about how long it will take to train all these people to where my current staff is makes me mad. And that will happen after I fire my people."
+      sanction_ngo_4: "You realize that when you sanction the NGO, the money tends to come out of my budget? You cannot keep doing this to us."

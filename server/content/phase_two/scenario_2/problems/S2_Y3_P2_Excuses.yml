@@ -1,0 +1,57 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Problem YAML
+# ==============
+
+# Phase Two Scenario Card YML Example
+
+symbol: excuses
+name: "Excuses"
+priority: 2
+year: 3
+
+initiating_npc: ngo_manager
+initiating_dialogue: "We've talked about the problems of expectations. We can meet our goals better if we get our bonuses."
+
+starting_options: [hold_stakeholder_meeting_4]
+starting_options_affects: [hold_stakeholder_meeting_4]
+starting_options_cost: [small]
+
+final_options: [hold_stakeholder_meeting_4, warn_but_allow_payment_once_3, deny_payment_3, revise_indicators_at_end_of_year_2]
+final_options_affects: [hold_stakeholder_meeting_4, warn_but_allow_payment_once_3, deny_payment_3, revise_indicators_at_end_of_year_2]
+final_options_cost: [small, small, small, small]
+
+characters:
+
+  dep_minister_of_health: 
+    dialogue: "They claim they're doing such a bang up job. Are they?"
+    narrows: [dep_minister_of_health, ngo_manager, coach, third_party_verifier, community_verifier]
+
+  director_regional_health_services:
+    dialogue: "It's a lot easier to work with people when they're getting paid. Just sayin'."
+    unlocks: [warn_but_allow_payment_once_3]
+    unlocks_affects: [warn_but_allow_payment_once_3]
+
+  ngo_manager: 
+    dialogue: "I'm only doing what I thought you asked me to. If I'm not, let me know."
+    feedback:
+      warn_but_allow_payment_once_3: "It's good to know we can count on you, just like you're counting on us."
+      deny_payment_3: "We're struggling with these numbers as it is. It hurts patients when we don't have money to work with."
+
+  coach:
+    dialogue: "Maybe they're doing the best that can be done. I don't know. It can't hurt to make sure we're being realistic in our expectations."
+    unlocks: [revise_indicators_at_end_of_year_2]
+    unlocks_affects: [revise_indicators_at_end_of_year_2]
+    feedback:
+        revise_indicators_at_end_of_year_2: "OK, at year's end let's all sit everyone down and we'll figure out what would be realistic goals for the money we have to work with."
+
+  third_party_verifier:
+    dialogue: "Have you read 'Things Fall Apart'? It might be a good idea."
+
+  community_verifier:
+    dialogue: "You're within your rights not to pay the NGO, it's true. But people have a right to health care."
+
+  hospital_administrator:
+    dialogue: "As much as I've butt heads with the NGO, I'd like to continue treating patients."

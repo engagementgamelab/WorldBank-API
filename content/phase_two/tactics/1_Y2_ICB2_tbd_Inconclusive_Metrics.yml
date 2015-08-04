@@ -1,0 +1,40 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Tactic YAML
+# ==============
+
+# Phase Two Tactic YML Template
+
+symbol: tactic_inconclusive_metrics
+tactic_name: unlockable_information_campaign_to_change_cultural_behaviors  # <--- symbol of the tactic (stored in unlockables.yml) this card is using
+name: "Inconclusive Metrics" # <--- display name for card
+year: 2
+
+# This dialogue the player sees first
+initiating_dialogue: "This campaign doesn't appear to be having the effect we'd hoped for. It's not causing any harm but we also can't prove it is helping."
+
+# The dialogue the player sees when investigation has results to show
+investigate_dialogue: "We could re-consider our methodology, both in how we practice this campaign, and how we evaluate it. But it might be best to just end it now."
+
+# These are special parameters that load a cooldown array, which is defined in content/config.yml under 'cooldown:'
+# For example, specifying $config_cooldown_long will choose the key found in config.yml under:
+# ----- cooldown:
+# -----  long: [20, 14, 10]
+investigate_cooldown: $config_cooldown_short
+investigate_further_cooldown: $config_cooldown_long
+
+# These are the usable player options added after investigation is done
+# Note that each key (e.g. 'information_campaign') MUST correspond to the one under "_affects" and feedback"
+new_options: [unlockable_change_methodologies_t1, unlockable_end_campaign_t2]
+
+# The affects for each new option
+new_options_affects: [unlockable_change_methodologies_t1, unlockable_end_campaign_t2]
+
+# This is the feedback dialogue the player sees based on the option they select
+feedback_dialogue:
+  unlockable_change_methodologies_t1: "I'll see to this. Although I'm still not convinced it will have any effect, at least we can say we did everything we could to get this to work!"
+  unlockable_end_campaign_t2: "We can talk again at the end of the year and decide if this is worth the expenditure."
+  # This key is required for every tactic card for when the player chooses observe instead of investigate
+  observe: "If we don't engage it'll probably just fizzle out."

@@ -1,0 +1,58 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Problem YAML
+# ==============
+
+# Phase Two Scenario Card YML Example
+
+symbol: lack_of_supplies
+name: "Lack of Supplies"
+priority: 4
+year: 1
+
+initiating_npc: community_verifier # <--- character's symbol
+initiating_dialogue: "Bad news: We're running surveys of patients from the hospitals and local clinics, and at every focus group, someone reports being turned away without services."
+
+starting_options: [warn_providers]
+starting_options_affects: [warn_providers]
+
+final_options: [warn_providers, unlocks_sanction_providers, increase_supply_budget, grant_facilities_autonomy]
+final_options_affects: [warn_providers, unlocks_sanction_providers, increase_supply_budget, grant_facilities_autonomy]
+
+characters:
+
+  # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
+  dep_minister_of_health: # <--- character's symbol
+    dialogue: "If people are being turned away, it's because funds are being mismanaged. Sanctioning them may be the only thing that providers will pay attention to."
+    unlocks: [unlocks_sanction_providers] # <--- these probably will symbols
+    unlocks_affects: [unlocks_sanction_providers]
+    feedback: 
+      grant_facilities_autonomy: "It's a bad idea to give more responsibility to an organization that's done such a bad job managing their resources." # <--- symbol of the option used and the feedback text for itA
+
+  director_regional_health_services: # <--- character's symbol
+    dialogue: "This is a serious problem. It would hard enough getting people to hospitals if services were abundant."
+    feedback: 
+      increase_supply_budget: "We've increased the budget every year and that hasn't solved the problem yet. That isn't to say our health care providers are the problem, only that it might not be budgetary." # <--- symbol of the option used and the feedback text for it
+
+  coach:
+    dialogue: "I'm not sure why, but these facilities are always low on supplies. Maybe they just need more money."
+    unlocks: [increase_supply_budget]
+    unlocks_affects: [increase_supply_budget]
+
+  third_party_verifier:
+    dialogue: "The numbers are poor, but at least the facilities are being honest about it."
+
+  clinic_manager:
+    dialogue: "I've spoken to the RBF coach about this a number of times. If we don't have basic supplies, we cannot treat patients."
+    narrows: [dep_minister_of_health, director_regional_health_services, clinic_manager, third_party_verifier, community_verifier] # <--- this probably will be a symbol
+    feedback: 
+      unlocks_sanction_providers: "You can't seriously be asking us to do more with even less. It costs money to provide quality care." # <--- symbol of the option used and the feedback text for it
+
+  hospital_administrator:
+    dialogue: "We put in requests for supplies, but it's forever before they're filled. And when they do, we get too much of some things, and not enough of others. If we could simply order our own supplies directly, this wouldn't be a problem, but the Ministry says what we're allowed to get down to the last syringe."
+    unlocks: [grant_facilities_autonomy] # <--- these probably will symbols
+    unlocks_affects: [grant_facilities_autonomy]
+    feedback: 
+      warn_providers: "I'm at a loss. I'll hold a meeting with my staff and the RBF Coach, try to figure out how to solve this." # <--- symbol of the option used and the feedback text for it

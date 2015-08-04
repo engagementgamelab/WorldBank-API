@@ -29,7 +29,7 @@ exports.action = {
     matchExtensionMimeType: false,
     version: 1.4,
     toDocument: true,
-    // requiresAuth: true,
+    requiresAuth: true,
 
     inputs: {},
 
@@ -156,7 +156,7 @@ exports.action = {
 
                   try {
            
-                    var ymlContent = api.readYaml(filePath);
+                    var ymlContent = api.readYaml(filePath.replace(_fileOptions.content_root + '/', ''), _fileOptions.content_root);
 
                     // Do not output file contents if marked as private (is used internally by API)
                     if(ymlContent.private == undefined || !ymlContent.private)

@@ -1,0 +1,49 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Tactic YAML
+# ==============
+
+# Phase Two Tactic YML Template
+
+symbol: tactic_field_records
+tactic_name: unlockable_outreach  # <--- symbol of the tactic (stored in unlockables.yml) this card is using
+name: "Field Records" # <--- display name for card
+year: 1
+
+# This dialogue the player sees first
+initiating_dialogue: "The nurses working in communities have had some issues with recordkeeping in the fields. The forms often have mistakes or never show up, then the providers try to claim them anyway."
+
+# The dialogue the player sees when investigation has results to show
+investigate_dialogue: "The providers claim the problem is the nurses themselves. I could try to contact some of them directly to see what's going on. Or we could issue a warning to the providers that employ them."
+
+# The dialogue the player sees when further investigation has results to show
+investigate_further_dialogue: "Nurses say they are over-taxed in communities. Actually hiring more might give them the leeway they need to pay more attention to record keeping."
+
+# These are special parameters that load a cooldown array, which is defined in content/config.yml under 'cooldown:'
+# For example, specifying $config_cooldown_long will choose the key found in config.yml under:
+# ----- cooldown:
+# -----  long: [20, 14, 10]
+investigate_cooldown: $config_cooldown_short
+investigate_further_cooldown: $config_cooldown_long
+
+# These are the usable player options added after investigation is done
+# Note that each key (e.g. 'information_campaign') MUST correspond to the one under "_affects" and feedback"
+new_options: [unlockable_warning_t3]
+
+# The affects for each new option
+new_options_affects: [unlockable_warning_t3]
+
+# These are the usable player options added after further investigation is done
+further_options: [unlockable_advise_providers_to_hire_more_outreach_staff]
+
+# The affects for each further new option
+further_options_affects: [unlockable_advise_providers_to_hire_more_outreach_staff]
+
+# This is the feedback dialogue the player sees based on the option they select
+feedback_dialogue:
+  unlockable_warning_t3: "I will tell the providers that they must be responsible for their employees."
+  unlockable_advise_providers_to_hire_more_outreach_staff: "Let's make it a priority during the contract negotiation and the Business Plan elaboration."
+  # This key is required for every tactic card for when the player chooses observe instead of investigate
+  observe: "OK, we'll wait and see if anything changes."

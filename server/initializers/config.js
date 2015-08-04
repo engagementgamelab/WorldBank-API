@@ -33,12 +33,15 @@ module.exports = {
     api.log('Content root is ' + _configOptions.content_root, 'notice');
     
     // Parse YAML syntax given a file path, and throw exception on error
-    api.readYaml = function loadYML(filePath) {
+    api.readYaml = function loadYML(filePath, fileRoot) {
+
+      if(fileRoot === undefined)
+        fileRoot = _configOptions.content_root;
 
       // Logging
-      api.log('Loading YAML at ' + filePath, 'info');
+      api.log('Loading YAML at ' + fileRoot + "/" + filePath, 'info');
 
-      var pathToYml = _configOptions.content_root + "/" + filePath;
+      var pathToYml = fileRoot + "/" + filePath;
 
       try {
           var data = undefined;
@@ -75,7 +78,7 @@ module.exports = {
     api.gameConfig = {
 
       // Load global content config
-      content: api.readYaml(_configOptions.content_root + "/" + _configOptions.settings),
+      content: api.readYaml(_configOptions.settings),
       options: _configOptions
       
     };

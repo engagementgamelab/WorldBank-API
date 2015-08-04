@@ -1,0 +1,50 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Tactic YAML
+# ==============
+
+# Phase Two Tactic YML Template
+
+symbol: tactic_backlash
+tactic_name: unlockable_information_campaign_to_counter_misinformation  # <--- symbol of the tactic (stored in unlockables.yml) this card is using
+name: "Backlash" # <--- display name for card
+year: 3
+
+# This dialogue the player sees first
+initiating_dialogue: "There has been some backlash about this campaign from users of traditional medecine. They consider it insulting and inflamatory."
+
+# The dialogue the player sees when investigation has results to show
+investigate_dialogue: "Some people want the campaign to be revised for cultural sensativity, while others want it halted all together. It's a minority that is opposed to this, but very vocal. I wonder what has them so upset after more than two years?"
+
+# The dialogue the player sees when further investigation has results to show
+investigate_further_dialogue: "It turns out there is an election for regional governer coming up, and the conervative candidate is stirring the pot against foreign influences, including us! We could speak with him directly, perhaps."
+
+# These are special parameters that load a cooldown array, which is defined in content/config.yml under 'cooldown:'
+# For example, specifying $config_cooldown_long will choose the key found in config.yml under:
+# ----- cooldown:
+# -----  long: [20, 14, 10]
+investigate_cooldown: $config_cooldown_short
+investigate_further_cooldown: $config_cooldown_long
+
+# These are the usable player options added after investigation is done
+# Note that each key (e.g. 'information_campaign') MUST correspond to the one under "_affects" and feedback"
+new_options: [unlockable_revise_language_in_campaign, unlockable_halt_campaign]
+
+# The affects for each new option
+new_options_affects: [unlockable_revise_language_in_campaign, unlockable_halt_campaign]
+
+# These are the usable player options added after further investigation is done
+further_options: [unlockable_request_meeting_with_candidate]
+
+# The affects for each further new option
+further_options_affects: [unlockable_request_meeting_with_candidate]
+
+# This is the feedback dialogue the player sees based on the option they select
+feedback_dialogue:
+  unlockable_revise_language_in_campaign: "We could write some copy about how our language is inflammatory, but if you have actual inflammation, real medicine helps! No? OK. I'll tone down the copy."
+  unlockable_halt_campaign: "It's not going to raise awareness to stop advertising. Some nationalist politician is jeopardizing public health to gain traction."
+  unlockable_request_meeting_with_candidate: "I admire you wanting to sit down with this politico. I think it'll frustrate you to no end, but I respect you for it."
+  # This key is required for every tactic card for when the player chooses observe instead of investigate
+  observe: "If we don't engage it'll probably just fizzle out."

@@ -66,7 +66,7 @@ exports.create = {
 
               if(dataInput.password.length < 6)
               {
-                data.error = "Password must be longer than 6 characters.";
+                data.response.error = "Password must be longer than 6 characters.";
                 next();
               }
               else
@@ -192,7 +192,7 @@ exports.save =
 
           })[0];
 
-          // Grade info not found for the score determined!s
+          // Grade info not found for the score determined
           if(gradeInfo === undefined){
             data.response.error = "No grading info found for plan score: " + planScore + ". Something may be amiss in grading.yml";
             next();
@@ -213,18 +213,21 @@ exports.save =
         });
 
         // Output the score and plan info
-        return { score: planScore, grade_info: gradeInfo };
+        return { score: planScore, grade_info: gradeInfo  };
       }
 
       // Calculate the plan's score ("grade")
       var finalPlanGrade = planGrade(planInput.tactics);
       planInput.score = finalPlanGrade.score;
+      planInput.default_affects = finalPlanGrade.grade_info.default_affects;
+      planInput.affects_bias = finalPlanGrade.grade_info.affects_bias;
+
+      planInput.created_at = new Date();
 
       // Create a plan object to update inside user
       var planModel = new api.mongo.plan( 
         planInput
       );
-        
 
       // Find specified user
       api.mongo.user.findOne(dataInput.user_id, function (err, user) {
@@ -289,6 +292,7 @@ exports.scenario =
     matchExtensionMimeType: false,
     version: 1.0,
     toDocument: true,
+    requiresAuth: true,
     requiresUserLogin: true,
 
     inputs:  {
@@ -317,20 +321,22 @@ exports.scenario =
 
       }
          
-      api.mongo.user.findOne(dataInput.user_id, function (err, user) {
+      api.mongo.user.findById(dataInput.user_id, function (err, user) {
     
           if(user == null) {
             data.response.error = "User not found";
             next();
           }
 
-          api.mongo.plan.findOne(dataInput.plan_id, function (err, plan) {
+          api.mongo.plan.findById(dataInput.plan_id, function (err, plan) {
 
             if (err) data.response.error = err;
 
             user.plan_id = plan._id;
             data.response.current_scenario = user.current_scenario = assignUserScenario(plan);
             data.response.tactics = plan.tactics;
+            data.response.default_affects = plan.default_affects;
+            data.response.affects_bias = plan.affects_bias;
 
             user.save(function (err, updatedUser) {
               
@@ -371,13 +377,13 @@ exports.auth =
 
       // Database error
       if(err) {
-        data.error = err;
+        data.response.error = err;
 
         next();
       }
       // User not found
       else if(user == null) {
-        data.error = "The user with the specified email was not found.";
+        data.response.error = "The user with the specified email was not found.";
 
         next();
       }
@@ -388,7 +394,7 @@ exports.auth =
 
         if(passwordHash !== user.password) {
 
-          data.error = "Incorrect Password.";
+          data.response.error = "Incorrect Password.";
           next();
 
         } 
@@ -410,8 +416,8 @@ exports.auth =
 
             api.trackEvent(user._id, "User Login", "API", function(error) {
 
-              if(err !== undefined)
-                data.error = error;
+              if(error !== undefined && error !== null)
+                data.response.error = error;
 
               next();
 
