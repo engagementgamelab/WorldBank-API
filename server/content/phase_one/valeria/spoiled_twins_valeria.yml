@@ -27,6 +27,6 @@ dialogue:
       unlocks_context: ["You discovered a new route to Zima."]
     Interrupt:
       text:
-        - "They stare at you for a moment when you approach, then ask who you are. When you explain yourself, they are happy to share their opinions on Zariba's health care system. \"The highlands are where all the poor people live,\" the brother says. \"He knows that,\" his sister interrupts. \"Everyone knows that. We were both born here in Valeria. No one likes to go to those hospitals in the Highlands. They're so run-down and uninviting.\" \"I've been in one. They just feel dirty, and they smell. And the staff seem very uninterested,\" the brother agrees. \"That's why no one wants to go to them.\""
+        - "They stare at you for a moment when you approach, then ask who you are. When you explain yourself, they are happy to share their opinions on Zariba's health care system. \"The highlands are where all the poor people live,\" the brother says. \"Obviously,\" his sister interrupts. \"Everyone knows that. We were both born here in Valeria. No one likes to go to those hospitals in the Highlands. They're so run-down and uninviting.\" \"I've been in one. They just feel dirty, and they smell. And the staff seem very uninterested,\" the brother agrees. \"That's why no one wants to go to them.\""
       unlocks: [unlockable_make_aesthetic_improvements]
       unlocks_context: ["The twins in Valeria say that people avoid the hospitals because they look run-down."]

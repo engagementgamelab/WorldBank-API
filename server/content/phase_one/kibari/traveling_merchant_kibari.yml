@@ -27,7 +27,7 @@ dialogue:
       unlocks_context: ["You discovered a new route to Mile."]
     Crup:
       text:
-        "\"The people from Crup,\" he says, \"Are poor, except for the plantation owners. They can only afford basic things. There is a clinic there, though. If you want to go there, there is a bus that departs in the mornings and evenings.\""
+        - "\"The people from Crup,\" he says, \"Are poor, except for the plantation owners. They can only afford basic things. There is a clinic there, though. If you want to go there, there is a bus that departs in the mornings and evenings.\""
       unlocks: [unlockable_route_crup_to_kibari]
       unlocks_context: ["You discovered a new route to Crup."]
     Zima:

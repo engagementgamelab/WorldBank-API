@@ -73,6 +73,27 @@
     - "At the far end of the market there are two women in elaborate dress. You don’t know where they are from, but they are certainly not from this region, nor do they look like they came from Capitol City. Very ornamental and expensive, their dresses pop and glide in different directions and both are wearing wild headpieces. You feel a sense of royalty from them."
     - "The two Valerian women wait impatiently for their ferry, still chatting."
     - "As you pass by, one shoots you a withering glance. They don't want to talk to you again."
+
+- symbol: capitol_city_professor_malcom
+  display_name: Professor from the Capitol City
+  description:
+    - "A well-dressed middle-aged man leans against the ticket counter, casually reading the world news on his tablet. Next to him is a small cart filled with a dozen or so textbooks on the history of Zariba. You notice a pin from a university on his jacket."
+
+- symbol: fruit_vendor_malcom
+  display_name: Fruit Vendor
+  description:
+    - "A young woman, maybe 19 years, is selling fruit from a well-stocked cart. Most of them you've never even seen before, and a perfume-like aroma wafts from a box of red berry clusters. She looks expectantly at you, smiling politely."
+
+- symbol: medicine_merchant_malcom
+  display_name: Medicine Merchant
+  description:
+    - "In the middle of the crowded marketplace, you see a man dressed in an impressive robe that feels important and professional, but at once authentic and grounded. He seems to be charming those around him as a small crowd gathers to listen to his sermon-like presentation. Behind him is an elaborate cart of small medallions, tokens, and jars, all different sizes and shapes. The sign reads \"Medicine\" in multiple languages."
+
+- symbol: two_women_malcom
+  display_name: Women Waiting for Ferry
+  description:
+    - "At the far end of the market there are two women in elaborate dress. They introduce themselves as working for a local NGO and they have come out here for a review of the situation in the recent measles epidemic."
+
 # -------------
 # Crup
 # -------------
@@ -112,6 +133,20 @@
     - "You continue to chat with the man, only distracted a little by his mech. You're surprised by how cool it is, a giant farming robot."
     - "The man extinguishes his half-smoked cigarette and stashes it in the soft pack he keeps rolled in his sleeve. Time to get back to work."
 
+- symbol: old_men_gaming_crup
+  display_name: Old Men Gaming
+  description:
+    - "A pair of older men sit under the shade of a tree, playing some sort of tile-laying game. The gaming set is finely crafted from polished wood, but seems old and well worn. They chat as they play."
+    - "Eventually you get their attention away from the game. No mean feat, since one of them captured a piece and the other was loudly damning him for it."
+    - "You listen some more, but after that last capture, both men are more intent on the game."
+
+- symbol: mech_farmer_crup
+  display_name: Mech Farmer
+  description:
+    - "A man leans up against a large piece of advanced farming equipment smoking a cigarette. It looks like he's taking a break."
+    - "You continue to chat with the man, only distracted a little by his mech. You're surprised by how cool it is, a giant farming robot."
+    - "The man extinguishes his half-smoked cigarette and stashes it in the soft pack he keeps rolled in his sleeve. Time to get back to work."
+
 # -------------
 # Mile
 # -------------
@@ -142,6 +177,7 @@
     - "A middle-aged woman walks down the path from the train station. She looks preoccupied by something, and perhaps a little angry. She carries medical texts with her, including a volume on midwifery."
     - "As you talk with the midwife, she shifts her weight back and forth, right and left. She likely stood for most of the day long journey here."
     - "Her book on midwifery is new, but it's the seventh edition of the text. You wonder how old the title is."
+
 
 # -------------
 # Kibari
@@ -186,7 +222,7 @@
   display_name: Nurse Aid
   description: 
     - "You meet a young woman standing outside on the street. You notice the insignia on her jacket belonging to the clinic in Crup."
-    - "After speaking to the Nurse's aid you feel like she is a trusted source. 
+    - "After speaking to the Nurse's aid you feel like she is a trusted source."
     - "She is trying to enjoy her day off, you should not bother her any longer"
 
 # -------------
