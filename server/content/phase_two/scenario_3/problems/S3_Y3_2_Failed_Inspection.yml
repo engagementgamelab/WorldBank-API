@@ -13,7 +13,7 @@ priority: 3
 year: 3
 
 initiating_npc: clinic_manager # <--- character's symbol
-initiating_dialogue: "Hey, we just received a memo telling us we failed a quality of care inspection, but I disagree with the assessment. We're doing a great job, considering the strain we're under."
+initiating_dialogue: "I'm a bit surprised, we just received a memo telling us we failed a quality of care inspection, but I disagree with the assessment. We're doing a great job, considering the strain we're under."
 
 starting_options: [review_the_inspection_2]
 starting_options_affects: [review_the_inspection_2]
@@ -25,13 +25,13 @@ characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
-    dialogue: "Quality of care is important insofar as it enables better and more services to be delivered. It might be that the clinic is delivering as much good care as they can given they're circumstances."
+    dialogue: "Quality of care is important insofar as it enables better and more services to be delivered. It might be that the clinic is delivering as much good care as they can given their circumstances."
 
   director_regional_health_services: # <--- character's symbol
     dialogue: "I recognize that their job is difficult, but quality of care is one of the indicators we are working to improve."
 
   coach:
-    dialogue: "We can't waffle on quality of care. It's crucial to the plan. I understnd they rely on these payments, but they need to know that we don't make exceptions."
+    dialogue: "We can't equivocate on quality of care. It's crucial to the plan. I understnd they rely on these payments, but they need to know that we don't make exceptions."
     unlocks: [warning_15]
     unlocks_affects: [warning_15]
 

@@ -13,7 +13,7 @@ priority: 3
 year: 3
 
 initiating_npc: community_verifier # <--- character's symbol
-initiating_dialogue: "I've been interviewing patients, and at least at the clinics there's a serious quality of care issue. People have been leaving with what appears to be completely wrong perscriptions."
+initiating_dialogue: "I've been interviewing patients, and at least at the clinics there's a serious quality of care issue. People have been leaving with what appears to be completely wrong prescriptions."
 
 starting_options: [warning_16, sanctions_15]
 starting_options_affects: [warning_16, sanctions_15]
@@ -36,7 +36,7 @@ characters:
       terminate_contract_at_end_of_year_8: "I understand. I will inform the Clinic Manager of this, and begin the search for a replacement ASAP." # <--- symbol of the option used and the feedback text for it
 
   coach:
-    dialogue: "Maybe we've been incentivising the wrong things. Prescriptions make patients happy, whether or not they're correct. I've prioritized happy patients, maybe above best practices."
+    dialogue: "Maybe we've been incentivising the wrong things. Prescriptions make patients happy, whether or not they're correct. I've prioritized happy patients, perhaps to the detriment of best practices."
     unlocks: [tie_incentives_directly_to_protocol] # <--- these probably will symbols
     unlocks_affects: [tie_incentives_directly_to_protocol]
     feedback: 
@@ -47,7 +47,7 @@ characters:
     dialogue: "How did I miss this!? I'll look more closely to see what else the clinics are misreporting."
 
   clinic_manager:
-    dialogue: "I run an entire network of clinics, and unfortnately I can't be everywhere at once. In the end, I am responsible, but I feel I am not being given the support I need."
+    dialogue: "I run an entire network of clinics, and unfortunately I can't be everywhere at once. In the end, I am responsible, but I feel I am not being given the support I need."
     feedback: 
       warning_16: "You're asking me to discipline my clinics for avoiding fights with patients who think medicine means walking out with a bottle of pills. I also have to discipline them for not making patients happy. I'll try to figure out some way to balance those." # <--- symbol of the option used and the feedback text for it
       sanctions_15: "You cut our funds when patients complain, which they do because we don't prescribe them drugs. Then, when we give them what they want, you cut our funds again. You need to figure out what you want." # <--- symbol of the option used and the feedback text for it

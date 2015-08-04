@@ -51,5 +51,5 @@ characters:
     dialogue: "I wouldn't say checking in constitutes micromanagement, but I'm not seeing these memos, so I don't know."
 
   hospital_administrator:
-    dialogue: "The Ministry signs the checks. Sometimes, we get to cash them and get people healthy. Ask them and whoever they have helping you."
+    dialogue: "The Ministry signs the checks. Sometimes, we get to cash them and get people healthy. Ask them and whomever they have helping you."
     narrows: [director_regional_health_services, ngo_manager, third_party_verifier, community_verifier, hospital_administrator]

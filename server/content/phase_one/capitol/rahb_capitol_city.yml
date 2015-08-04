@@ -18,10 +18,10 @@ character: rahb_capitol_city
 dialogue:
     Initial:
       text: 
-        - "Welcome again to Zariba! I hope you've had some time to yourself in the Capitol City to get your bearings, but of course, you are here to work. You'll be [[making a plan]] that will transform our health system over the next three years, but to figure out what should be in that plan, you will need to explore the country and [[talk to people]]"
+        - "Welcome again to Zariba! I hope you've had some time to yourself in the Capitol City to get your bearings, but of course, you are here to work. You'll be [[making a plan]] that will transform our health system over the next three years, but to figure out what should be in that plan, you will need to explore the country and [[talk to people]]."
     Making a Plan: 
       text: 
         - "\"You can use your notebook to keep track of where you have been, what you have learned, and what options seem to make sense for your plan. Click it now and explore it. As you can see, for now, it is mostly blank. That will change.\""
-    Talking to People: 
+    Talk to People: 
       text: 
         - "\"In each area you visit, you will be able to talk to people just like you are talking to me, by clicking and spending options. You can only spend limited time in each city, though, so choose who you talk to wisely. I have taken the liberty of setting up a meeting with the Deputy Minister of Health, the Finance Minister, and the Regional Health Supervisor for the Highlands Region. It's starting now! Click on them to talk.\""

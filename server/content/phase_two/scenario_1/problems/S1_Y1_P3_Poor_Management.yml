@@ -12,8 +12,8 @@ name: "Poor Management"
 priority: 3
 year: 1
 
-initiating_npc: third_party_verifier # <--- character's symbol
-initiating_dialogue: "The clinic submitted their reports to us, but there were some inconsistencies. When we asked to see their records, they could not supply them."
+initiating_npc: coach # <--- character's symbol
+initiating_dialogue: "I have been reviewing the Hospital's business plan with the administrator, and their funds are being mismanaged. They are operating at a loss, even with our payments. It's because of unwise spending habits."
 
 starting_options: [warning_and_retraining_1, terminate_contract_effective_end_of_year_1]
 starting_options_affects: [warning_and_retraining_1, terminate_contract_effective_end_of_year_1]

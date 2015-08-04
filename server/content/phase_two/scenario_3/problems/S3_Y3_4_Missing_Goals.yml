@@ -52,7 +52,7 @@ characters:
       terminate_both_health_contracts_of_providers: "If I couldn't make this work, nobody can. The past three years has been one unmitigated disaster." # <--- symbol of the option used and the feedback text for it
 
   hospital_administrator:
-    dialogue: "I heard through the grapevine what's happening. I know there have been issues, but I believe the problem is and has been beurocracy from the Ministry's offices. If you grant us autonomy to hire staff as needed and order supplies to fill our patients' needs, things have to improve."
+    dialogue: "I heard through the grapevine what's happening. I know there have been issues, but I believe the problem is and has been bureaucracy from the Ministry's offices. If you grant us autonomy to hire staff as needed and order supplies to fill our patients' needs, things have to improve."
     unlocks: [grant_providers_autonomy]
     unlocks_affects: [grant_providers_autonomy]
     feedback: 

@@ -73,7 +73,6 @@
 
 # These were missing and causing errors in build. - Johnny
 - symbol: unlockable_dialogue_plantation_owner
-- symbol: unlockable_dialogue_mr_todd_2
 - symbol: unlockable_limit_prescriptions
 
 
@@ -722,7 +721,7 @@
 - symbol: hire_agency
   title: "Hire Agency"
 
-- symbol: expidite_payment_and_service_delivery
+- symbol: expedite_payment_and_service_delivery
   title: "Expedite payment and service delivery"
 
 # -------------------                       ------------------- #
@@ -1350,7 +1349,7 @@
 - symbol: unlockable_cull_and_rehire
   title: "Cull Workforce and Rehire"
 
-- symbol: unlockable_increase_incentives_and_expidite_payment
+- symbol: unlockable_increase_incentives_and_expedite_payment
   title: "Increase Incentives and Expedite payment"
 
 # -------------------------- #

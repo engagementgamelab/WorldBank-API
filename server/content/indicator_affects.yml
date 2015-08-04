@@ -715,7 +715,7 @@ hire_agency:
   indicator_2: +1
   indicator_3: +2
 
-expidite_payment_and_service_delivery:
+expedite_payment_and_service_delivery:
   indicator_1: +1
   indicator_2: 0
   indicator_3: +1
@@ -1646,7 +1646,7 @@ unlockable_cull_and_rehire:
   indicator_2: 0
   indicator_3: -1
 
-unlockable_increase_incentives_and_expidite_payments:
+unlockable_increase_incentives_and_expedite_payments:
   indicator_1: +1
   indicator_2: 0
   indicator_3: +2
@@ -2014,7 +2014,7 @@ unlockable_incentivise_best_practices_beds:
   indicator_2: 0
   indicator_3: +1
 
-unlockable_increase_incentives_and_expidite_payment:
+unlockable_increase_incentives_and_expedite_payment:
   indicator_1: +1
   indicator_2: 0
   indicator_3: 0

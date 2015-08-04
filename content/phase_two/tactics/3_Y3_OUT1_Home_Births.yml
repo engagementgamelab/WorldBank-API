@@ -13,7 +13,7 @@ name: "Home Births" # <--- display name for card
 year: 3
 
 # This dialogue the player sees first
-initiating_dialogue: "The outreach staff have been very succesful over the past year! Providers are now asking if these outreach professionals can oversee home births to count them as facility births."
+initiating_dialogue: "The outreach staff have been very successful over the past year! Providers are now asking if these outreach professionals can oversee home births to count them as facility births."
 
 # The dialogue the player sees when investigation has results to show
 investigate_dialogue: "This would make it much easier for us to hit our facility birth goals, but it goes against the plan. And according to our statistics, could be dangerous for women and their babies. "
