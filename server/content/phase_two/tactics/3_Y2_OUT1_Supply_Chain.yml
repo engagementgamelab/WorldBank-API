@@ -13,7 +13,7 @@ name: "Supply Chain" # <--- display name for card
 year: 2
 
 # This dialogue the player sees first
-initiating_dialogue: "My team has been conducting some evaluation interviews, and nurses in the outreach staff claim they don't have adaquate supplies to perform well in the field."
+initiating_dialogue: "My team has been conducting some evaluation interviews, and nurses in the outreach staff claim they don't have adequate supplies to perform well in the field."
 
 # The dialogue the player sees when investigation has results to show
 investigate_dialogue: "This speaks to quality of care. The Ministry of Health says we need to incentivise following protocols more strongly. Then facilities will be able to pay for better supplies. Providers say we actually have more nurses than we need, and not enough supplies to equip them all. I could analyze this and see what the impact of these nurses has actually been."

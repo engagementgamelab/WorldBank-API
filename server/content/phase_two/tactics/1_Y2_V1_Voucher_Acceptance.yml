@@ -16,7 +16,7 @@ year: 2
 initiating_dialogue: "The community verifier tells me that some people were turned away from a hospital in the highlands when they tried to pay with vouchers. They demanded cash!"
 
 # The dialogue the player sees when investigation has results to show
-investigate_dialogue: "I spoke with the adminstrator of the hospital, and they said they don't have the money they need to keep the hospital open without the cash. It takes weeks for them to be paid for the vouchers, so they can't afford to accept them."
+investigate_dialogue: "I spoke with the administrator of the hospital, and they said they don't have the money they need to keep the hospital open without the cash. It takes weeks for them to be paid for the vouchers, so they can't afford to accept them."
 
 # These are special parameters that load a cooldown array, which is defined in content/config.yml under 'cooldown:'
 # For example, specifying $config_cooldown_long will choose the key found in config.yml under:

@@ -28,7 +28,7 @@ characters:
     dialogue: "If you can verify this, we'd be willing to discuss the budget."
     narrows: [dep_minister_of_health, director_regional_health_services, third_party_verifier, clinic_manager, hospital_administrator] # <--- this probably will be a symbol
     feedback: 
-      grant_providers_autonomy_to_hire_staff: "This is a significant change to the plan. Let's discuss this at the end of the year once we see how it's panned out." # <--- symbol of the option used and the feedback text for it
+      grant_providers_autonomy_to_hire_staff: "This is a significant change to the plan. Let's discuss this at the end of the year once we see how it pans out." # <--- symbol of the option used and the feedback text for it
       request_a_budget_line_from_ministry: "We can allow this, but I want to see reports on the results." # <--- symbol of the option used and the feedback text for it
 
   director_regional_health_services: # <--- character's symbol
@@ -37,7 +37,7 @@ characters:
     unlocks_affects: [allow_outreach_staff_to_act_as_midwives]
 
   coach:
-    dialogue: "The Hospital Administrator has complained to me in private about not being able to hire staff members without Ministry approva. I told him the plan is firm about how these decisions are made."
+    dialogue: "The Hospital Administrator has complained to me in private about not being able to hire staff members without Ministry approval. I told him the plan is firm about how these decisions are made."
     feedback: 
       allow_outreach_staff_to_act_as_midwives: "This would boost facility births for sure, but it's a bit of a cheat since they won't technically be in facilities. But as long as women are giving birth safely, right?" # <--- symbol of the option used and the feedback text for it
 

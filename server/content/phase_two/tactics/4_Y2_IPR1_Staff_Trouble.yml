@@ -27,15 +27,15 @@ investigate_further_cooldown: $config_cooldown_long
 
 # These are the usable player options added after investigation is done
 # Note that each key (e.g. 'information_campaign') MUST correspond to the one under "_affects" and feedback"
-new_options: [unlockable_retrain_t2, unlockable_cull_and_rehire, unlockable_increase_incentives_and_expidite_payment]
+new_options: [unlockable_retrain_t2, unlockable_cull_and_rehire, unlockable_increase_incentives_and_expedite_payment]
 
 # The affects for each new option
-new_options_affects: [unlockable_retrain_t2, unlockable_cull_and_rehire, unlockable_increase_incentives_and_expidite_payment]
+new_options_affects: [unlockable_retrain_t2, unlockable_cull_and_rehire, unlockable_increase_incentives_and_expedite_payment]
 
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
   unlockable_retrain_t2: "I'll start organizing some curriculum regarding best practices, but hopefully it's not too late to fix the problems here. Sometimes these issues can just become engrained in a workplace's culture."
   unlockable_cull_and_rehire: "The people we're cutting were pretty entrenched in things before we came in. It's not fun to fire that many people, and we'll probably rehire a lot of them, but the distance will help."
-  unlockable_increase_incentives_and_expidite_payment: "I told them we're increasing incentives and getting them out faster and they said 'getting them to us at all would be faster'. So, we really have to make sure that happens."
+  unlockable_increase_incentives_and_expedite_payment: "I told them we're increasing incentives and getting them out faster and they said 'getting them to us at all would be faster'. So, we really have to make sure that happens."
   # This key is required for every tactic card for when the player chooses observe instead of investigate
   observe: "OK, we'll wait and see if anything changes."

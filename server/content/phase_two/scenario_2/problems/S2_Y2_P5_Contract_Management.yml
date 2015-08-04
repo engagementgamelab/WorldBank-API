@@ -19,8 +19,8 @@ starting_options: [terminate_ngo_contract_3]
 starting_options_affects: [terminate_ngo_contract_3]
 starting_options_cost: [small]
 
-final_options: [terminate_ngo_contract_3, clarification_of_roles_5, hire_agency, expidite_payment_and_service_delivery]
-final_options_affects: [terminate_ngo_contract_3, clarification_of_roles_5, hire_agency, expidite_payment_and_service_delivery]
+final_options: [terminate_ngo_contract_3, clarification_of_roles_5, hire_agency, expedite_payment_and_service_delivery]
+final_options_affects: [terminate_ngo_contract_3, clarification_of_roles_5, hire_agency, expedite_payment_and_service_delivery]
 final_options_cost: [small, small, small, small]
 
 characters:
@@ -39,7 +39,7 @@ characters:
     dialogue: "I know that to the Hospital Administrator, these stipulations seem really stringent, but you brought us on in part to reign in spending."
     feedback:
         terminate_ngo_contract_3: "I get it that this has been stressful, so this might be for the best, but I hope you can handle this. For the patients' sakes."
-        expidite_payment_and_service_delivery: "Thank you. This is going to work much better."
+        expedite_payment_and_service_delivery: "Thank you. This is going to work much better."
 
   coach:
     dialogue: "It's probably too late to do it now, but before the year's out we should look into getting someone who can manage the contract so we don't have to go to bat every time there's an argument."
@@ -59,5 +59,5 @@ characters:
 
   hospital_administrator:
     dialogue: "Get the NGO their money! I have no empty beds! The doctors and nurses keep asking me when we're going to be able to do something about it and the best I can tell them is, well, I try to explain how all this is supposed to work. And that explanation doesn't do anything for a head wound."
-    unlocks: [expidite_payment_and_service_delivery]
-    unlocks_affects: [expidite_payment_and_service_delivery]
+    unlocks: [expedite_payment_and_service_delivery]
+    unlocks_affects: [expedite_payment_and_service_delivery]

@@ -46,7 +46,7 @@ characters:
     dialogue: "That does sound suspicious. I'll be looking carefully at their records this quarter." 
 
   community_verifier:
-    dialogue: "I would talk directly to them if I were you."
+    dialogue: "This is a little outside of my purview."
 
   clinic_manager:
     dialogue: "I think you underestimate just how busy we have been with outreach and patient care. We are not a large staff, and our time is very precious. Maybe next month things will be slower."
