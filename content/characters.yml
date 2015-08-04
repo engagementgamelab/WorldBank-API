@@ -12,139 +12,136 @@
   display_name: Observation Team Supervisor--Rahb
   description:
     - "This is Rahb, the Observation Team Supervisor who will be assisting you in this office."
-    - "2nd description"
-    - "3rd description"
+    - "Rahb patiently waits for you to listen to her directions, as she has more to tell you about the world of Zariba."
+    - "She motions to the other people in the room, encouraging you to speak to them."
 
 - symbol: deputy_minister_of_health_capitol_city
   display_name: Deputy Minister of Health
   description:
     - "You recognize this person as the Deputy Minister of Health, a very important partner for you in this process."
-    - "2nd description"
-    - "3rd description"
+    - "The Deputy Minister has nothing more to say to you"
+    - "The Deputy Minister has nothing more to say to you"
 
 - symbol: finance_minister_capitol_city
   display_name: Finance Minister
   description: 
     - "This is the Finance Minister, who has been brought in today to explain the financial situation in Zariba as it relates to the health sector."
-    - "2nd description"
-    - "3rd description"
+    - "The Finance Minister has nothing more to say to you"
+    - "The Finance Minister has nothing more to say to you"
 
 - symbol: regional_director_of_health_services_capitol_city
   display_name: Regional Director of Health Services
   description: 
     - "This is the Director of Regional Health Services for the Highlands region of Zariba. As you understand, this person works under the Deputy Minister and is probably the most knowledgeable person here when it comes to healthcare in the Highlands."
-    - "2nd description"
-    - "3rd description"
+    - "There is more to ask before you venture forth!"
+    - "The Regional Director of Health has nothing more to say to you"
+
 # -------------
 # Malcom
 # -------------
-
 - symbol: capitol_city_traveler_malcom
   display_name: Traveler from the Capitol City
-  description:
-    - "A well-dressed woman who you imagine might come from the capitol stands before you. At first glance you notice she seems a bit annoyed and incredibly distracted."
-    - "2nd description"
-    - "3rd description"
+  description: 
+    - "A woman you imagine might come from the capitol stands before you. At first glance you notice she seems a bit disheveled and visibly annoyed. She is wearing a high-tech eyescreen headset and seems incredibly distracted."
+    - "She's still waiting for her train, and looks like she's given up hope that it will ever come."
+    - "As you pass the well-dressed woman, you wish her luck on her trip to Zima."
 
 - symbol: capitol_city_professor_malcom
   display_name: Professor from the Capitol City
-  description:
-    - "A well-dressed middle-aged man leans against the ticket counter, casually reading the world news on his tablet. Next to him is a small cart filled with a dozen or so textbooks on the history of Zariba. You notice a pin from a university on his jacket."
-    - "2nd description"
-    - "3rd description"
+  description: 
+    - "A well-dressed middle-aged man leans against the ticket counter, casually reading the world news on his tablet. Next to him is a small cart filled with a dozen or so textbooks on the history of Zariba. You spy a university pin on the his lapel."
+    - "The professor looks eager to continue your conversation. He has more to say."
+    - "The professor reads a text book, 'The Zariban Nation.'"
 
 - symbol: fruit_vendor_malcom
   display_name: Fruit Vendor
-  description:
-    - "A young woman, maybe 19 years, is selling fruit from a well-stocked cart. Most of them you've never even seen before, and a perfume-like aroma wafts from a box of red berry clusters. She looks expectantly at you, smiling politely."
-    - "2nd description"
-    - "3rd description"
+  description: 
+    - "A young woman, maybe 19 years, is selling fruit from a well-stocked cart. Most of them you’ve never even seen before, and a perfume-like aroma wafts from a box of red berry clusters. She looks expectantly at you, smiling politely."
+    - "You catch the vendor's eye again as she finishes selling something that looks like citrus. She tells the customer it's her daughter's favorite."
+    - "The woman packs up her cart, eager to get back to her daughter and mother."
 
 - symbol: medicine_merchant_malcom
   display_name: Medicine Merchant
-  description:
-    - "In the middle of the crowded marketplace, you see a man dressed in an impressive robe that feels important and professional, but at once authentic and grounded. He seems to be charming those around him as a small crowd gathers to listen to his sermon-like presentation. Behind him is an elaborate cart of small medallions, tokens, and jars, all different sizes and shapes. The sign reads \"Medicine\" in multiple languages."
-    - "2nd description"
-    - "3rd description"
+  description: 
+    - "In the middle of the crowded marketplace, you see a man dressed in an impressive garb that feels important and professional, but at once authentic and grounded. He seems to be charming those around him as a small crowd gathers to listen to his sermon-like presentation. Behind him is an elaborate cart of small tokens and jars, all different sizes and shapes. The sign reads \"Medicine\" in multiple languages."
+    - "The Medicine Merchant is still selling his wares, delivering the same sermon-like pitch to anyone who will listen."
+    - "As you watch more people buying the man’s goods, you wonder how much he earns, and how much of that money he passes on to Mr. Todd."
 
 - symbol: two_women_malcom
   display_name: Women Waiting for Ferry
-  description:
-    - "At the far end of the market there are two women in elaborate dress. They introduce themselves as working for a local NGO and they have come out here for a review of the situation in the recent measles epidemic."
-    - "2nd description"
-    - "3rd description"
-
-
+  description: 
+    - "At the far end of the market there are two women in elaborate dress. You don’t know where they are from, but they are certainly not from this region, nor do they look like they came from Capitol City. Very ornamental and expensive, their dresses pop and glide in different directions and both are wearing wild headpieces. You feel a sense of royalty from them."
+    - "The two Valerian women wait impatiently for their ferry, still chatting."
+    - "As you pass by, one shoots you a withering glance. They don't want to talk to you again."
 # -------------
 # Crup
 # -------------
 
 - symbol: patient_crup
   display_name: Patient
-  description:
+  description: 
     - "A patient sits on a chair on the deck of the clinic, waiting for her turn to be seen."
-    - "2nd description"
-    - "3rd description"
+    - "The patient coughs absently. It sounds nasty, but she's used to it."
+    - "She looks at the door, probably weighing cutting her loses and going back to work."
 
 - symbol: dr_maramuta_crup
   display_name: Dr. Maramuta
   description:
     - "A tired looking man with a stethoscope around his neck stands in the doorway of the clinic. He appears to be a doctor of some sort."
-    - "2nd description"
-    - "3rd description"
+    - "Dr. Maramuta chews his pen while looking over a spreadsheet. He takes another pen from his lab coat to make notes."
+    - "You decide to let the doctor be. He's arguing with a nurse about how much time to spend with each patient."
 
 - symbol: plantation_owner_crup
   display_name: Plantation Owner
-  description:
+  description: 
     - "A well-dressed woman stands observing the plantation. She has evidently just come from the larger plantation house up the path."
-    - "2nd description"
-    - "3rd description"
+    - "Looking at the plantation owner, you can only guess at her age. She's gotten a lot of sun and wind to make her look out home in the fields. She notices you looking at her."
+    - "She's focused on a bog at the back of the estate. Something needs her attention, and as she leaves, you notice she favors her left leg."
 
 - symbol: old_men_gaming_crup
   display_name: Old Men Gaming
-  description:
-    - "A pair of older men sit under the shade of a tree, playing some sort of tile-laying game. The gaming set is finely crafted from polished wood, but seems old and well worn. They chat as they play."
-    - "2nd description"
-    - "3rd description"
+  description: 
+    - "A pair of older men sit under the shade of a palm, playing some sort of tile-laying game. The gaming set is finely crafted from polished wood, but seems old and well worn. They chat as they play."
+    - "Eventually you get their attention away from the game. No mean feat, since one of them captured a piece and the other was loudly damning him for it."
+    - "You listen some more, but after that last capture, both men are more intent on the game."
 
 - symbol: mech_farmer_crup
   display_name: Mech Farmer
-  description:
-    - "A man leans up against a large piece of advanced farming equipment smoking a cigarette. It looks like he's taking a break."
-    - "2nd description"
-    - "3rd description"
+  description: 
+    - "A man leans up against a large piece of advanced farming equipment smoking a cigarette. It looks like he’s taking a break."
+    - "You continue to chat with the man, only distracted a little by his mech. You're surprised by how cool it is, a giant farming robot."
+    - "The man extinguishes his half-smoked cigarette and stashes it in the soft pack he keeps rolled in his sleeve. Time to get back to work."
 
 # -------------
 # Mile
 # -------------
-
 - symbol: nomad_mile
   display_name: Nomad
-  description:
-    - "A short man sits in the shade, tuning what looks like a harp. Haven't you seen him somewhere before?"
-    - "2nd description"
-    - "3rd description"
+  description: 
+    - "A short man sits in the shade, tuning what looks like a harp. Haven’t you seen him somewhere before?"
+    - "Probably? Maybe? It's almost as if you can't remember his face when you look away."
+    - "You turn away and try to--nope. Can't remember what he looks like. You try it two more times. He's amused and that's only more frustrating."
 
 - symbol: farm_worker_mile
   display_name: Farm Worker
-  description:
-    - "A woman that looks to be in her thirties crouches down among rows of fresh crops, harvesting the land's bounty. Her movements are precise and efficient, like she has been doing this her whole life. She hums softly to herself as she works in rhythm with her motions. The only adornment on her otherwise spartan attire is a small locket dangling from her neck."
-    - "2nd description"
-    - "3rd description"
+  description: 
+    - "A woman who looks to be in her thirties crouches down among rows of fresh crops, harvesting the land’s bounty. Her movements are precise and efficient, like she has been doing this her whole life. She hums softly to herself as she works in rhythm with her motions. The only adornment on her otherwise spartan attire is a small, shabby locket dangling from her neck."
+    - "You notice the thin tan line from the locket's chain. While you're looking, she starts talking again."
+    - "She blows some dirt off her hand before running her fingers over the locket. All the while she detassels with her other hand."
 
 - symbol: settled_refugee_mile
   display_name: Settled Refugee
-  description:
+  description: 
     - "You see a man in his forties reading a news magazine in the shade, slight perspiration beading along his receding hairline. The magazine looks like one from the newsstand at the train station, perhaps dropped by a careless traveler some time ago."
-    - "2nd description"
-    - "3rd description"
+    - "You look at the magazine. The man's reading an article about fall fashions, probably just to pass the time."
+    - "You want to talk with him some more, but you can't trust yourself not to remind him of what he's lost."
 
 - symbol: midwife_mile
   display_name: Midwife
-  description:
-    - "A middle-aged woman walks down the path from the train station. She looks preoccupied by something, and perhaps a little angry. She carries medical textbooks with her, including a volume on midwifery."
-    - "2nd description"
-    - "3rd description"
+  description: 
+    - "A middle-aged woman walks down the path from the train station. She looks preoccupied by something, and perhaps a little angry. She carries medical texts with her, including a volume on midwifery."
+    - "As you talk with the midwife, she shifts her weight back and forth, right and left. She likely stood for most of the day long journey here."
+    - "Her book on midwifery is new, but it's the seventh edition of the text. You wonder how old the title is."
 
 # -------------
 # Kibari
@@ -152,76 +149,77 @@
 
 - symbol: teenager_kibari
   display_name: Teenager
-  description:
+  description: 
     - "A young man looking to be in his teens kicks a stone down the road. You notice a rolled-up flyer in his pocket that seems to be some sort of a \"help wanted\" notice."
-    - "2nd description"
-    - "3rd description"
+    - "There is a tension in his voice and you sympathize with his frustration. Still, you are not sure if his suggestions are helpful. Maybe he has more to say?"
+    - "The teen seems uninterested in engaging with you any longer"
 
 - symbol: herder_kibari
   display_name: Herder
-  description:
+  description: 
     - "A herder is wrangling a small flock of flightless birds toward the market, taking care that none wander off. You notice a medallion around his neck that looks familiar to you. Many people in this area seem to be wearing them."
-    - "2nd description"
-    - "3rd description"
+    - "Whenever people speak of homeopathic medicine you feel uneasy due to your position. Yet the pride in his voice and the way his birds seem drawn to him reminds you of the genuine people who populate this beautfil land."
+    - "one of the herder's birds keeps knawing on his ankle. You take this as an sign and eave him to his work."
 
 - symbol: mr_todd_kibari
   display_name: Mr. Todd
-  description:
+  description: 
     - "An older man stands in front of a grand domicile. He grins broadly, gesturing emphatically as he speaks to a young woman who is clearly a customer of his. \"Burn this incense before you sleep,\" you hear him say, \"Every night for one month. No more and no less.\" The woman looks happy, and very grateful."
-    - "2nd description"
-    - "3rd description"
+    - "You wish he would stop smiling long enough for you to feel like he's actually talking to you. 'The cat who got the canary' pops into your mind."
+    - "You mutter some pleasantry as you excuse yourself, annoyed that everyone else's defference to the man rubbed off on you."
 
 - symbol: traveling_merchant_kibari
   display_name: Traveling Merchant
-  description:
+  description: 
     - "This man is clearly a merchant of some sort, with wares from all over Zariba. He calls out to people on the street, \"Fresh fruit from Mile! Cigars from Crup! Technology from the Capitol! I have it all!\""
-    - "2nd description"
-    - "3rd description"
+    - "While you talk with the merchant you admire his clothes. They aren't especially nice. They're plain, actually. But just fasionable enough to look presentable without evoking any one region of Zariba."
+    - "You would talk with the merchant more, ask him about travel around Zariba, but he's caught up in haggling with a customer over a Milean vase."
 
 - symbol: nomad_kibari
   display_name: Nomad
-  description:
-    - "A short man sits in the shade, tuning what looks like a harp. Haven't you seen him somewhere before?"
-    - "2nd description"
-    - "3rd description"
+  description: 
+    - "A short man sits in the shade, tuning what looks like a harp. Haven’t you seen him somewhere before?"
+    - "You can't shake the feeling. Maybe he just has one of those faces."
+    - "You'd talk with him some more, but the way he looks at you, as if he knows you can't quite place him."
 
 - symbol: nurse_aid_kibari
   display_name: Nurse Aid
   description: 
-    - "You meet a young woman standing outside on the street. She is a nurse aid in Kibari."
-    - "2nd description"
-    - "3rd description"
+    - "You meet a young woman standing outside on the street. You notice the insignia on her jacket belonging to the clinic in Crup."
+    - "After speaking to the Nurse's aid you feel like she is a trusted source. 
+    - "She is trying to enjoy her day off, you should not bother her any longer"
+
 # -------------
 # Valeria
 # -------------
 
 - symbol: grandmother_with_toddler_valeria
   display_name: Grandmother with Toddler
-  description:
-    - "An older woman stands with a young boy, probably her grandson. They seem a bit lost."
-    - "2nd description"
-    - "3rd description"
+  description: 
+    - "An older woman stands with a young boy, probably her grandson. They seem a trifle lost."
+    - "The grandmother is willing to talk with you, even as she wipes some smudge off her grandson's face."
+    - "As you walk away, you glance over your shoulder. She's doting on the boy enough to make him fussy."
 
 - symbol: spoiled_twins_valeria
-  display_name: Spoiled Twins
-  description:
+  display_name: Twins
+  description: 
     - "A young man and woman, probably in their late teens, seem to be waiting to board an airship. They look very much alike. Probably they are brother and sister. Perhaps even twins."
-    - "2nd description"
-    - "3rd description"
+    - "While they talk, mostly for their benefit though technically answering your question, you look more closely. They have matching bracelets and that weird familiarity twins sometimes have."
+    - "You thank them for their time and wish you could dismiss what they said, although you suspect they're right about the hospitals' smell."
 
 - symbol: lydia_airship_pilot_valeria
   display_name: Airship Pilot
-  description:
+  description: 
     - "A woman fidgets with her flight suit, tightening a loose strap and pulling her zipper a little higher. She appears to be in her late 20s, and preparing to depart soon via airship."
-    - "2nd description"
-    - "3rd description"
+    - "As you talk, you can tell she isn't really looking at you, but at her airship. She has the ship's name, 'The Pleiades' stitched into her flight jacket."
+    - "After your done with your questions, you listen politely as she describes her ship's seven engine system. It's all very complicated, but you feel good listening."
 
 - symbol: nomad_valeria
   display_name: Nomad
-  description:
-    - "A man sits, tuning his harp. Haven't you seen him somewhere before?"
-    - "2nd description"
-    - "3rd description"
+  description: 
+    - "A man sits, tuning his harp. Haven’t you seen him somewhere before?"
+    - "Love that nomad!"
+    - "Love that nomad!"
 
 # -------------
 # Zima
@@ -231,43 +229,37 @@
   display_name: Hospital Administrator
   description:
     - "A woman you recognize as the hospital administrator sits at her desk, going over some of the day's paperwork."
-    - "2nd description"
-    - "3rd description"
+    - "You sense there is more she can help you with."
+    - "You should leave her to her work"
 
 - symbol: patient_zima
   display_name: Patient
   description:
     - "A woman sits in the waiting room, staring into space. Either she is waiting for her turn to see the doctor, or here with someone who is currently being examined." 
-    - "2nd description"
-    - "3rd description"
+    - "the woman reaches over to touch your hand and thank you for listening to her problems. You can tell she is eager to speak to you further."
+    - "You said your goodbyes and decide to leave to her rest before her appointment"
 
 - symbol: foreign_traveler_zima
   display_name: Foreign Traveler
   description:
     - "Her assortment of luggage marks this woman as a traveller, and her clothes and attitude tell you she is foreign. Where could she be going?" 
-    - "2nd description"
-    - "3rd description"
+    - "You recognize her clothing as Valerian silk and wonder if she found her way here on an airship."
+    - "You should make your way into the hospital."
 
 - symbol: dr_notega_zima
   display_name: Dr. Notega
   description:
-    - "A middle aged man is examining a medical chart of some kind. You recognize him as a doctor both by his attire and his nametag, \"Dr. Notega.\""
-    - "2nd description"
-    - "3rd description"
+    - "A middle aged man is examining a medical chart of some kind. You recognize him as a doctor both by his attire and his nametag, Dr. Notega."
+    - "Dr. Notega has a lot to say about the state of health in Zariba. You trust he is a reliable source who might have more information for you."
+    - "You shake hands with the doctor, thanking for his time, and leaving him to his work"
 
 - symbol: nurse_zima
   display_name: Nurse
   description:
     - "The tall male nurse towers over everyone. Forehead scrunched in frustrated tension, he wipes a few beads of sweat from his brow."
-    - "2nd description"
-    - "3rd description"
+    - "Though not the most pleasant conversation, You remind yourself it is important to gather as much information as possible, perhaps he has more to say?"
+    - "The nurse seems flustered, but you understand the predictiment he is in and sympathize with the situation."
 
-- symbol: patient_zima
-  display_name: Patient
-  description:
-    - "A woman sits in the waiting room, staring into space. Either she is waiting for her turn to see the doctor, or here with someone who is currently being examined." 
-    - "2nd description"
-    - "3rd description"
 
 # ============
 # I had to add these for phase 2 as some scenario cards reference them. PLEASE ensure a character exists here before referencing it. - Johnny
@@ -277,75 +269,53 @@
   display_name: Dep. Minister of Health
   description:
     - "You recognize this person as the Deputy Minister of Health, a very important partner for you in this process."
-    - "2nd description"
-    - "3rd description"
 
 - symbol: coach
   display_name: Coach
   description:
     - "You aren't sure what you were expecting for your coach but...no. This is it. Exactly. Right down to the baseball cap."
-    - "2nd description"
-    - "3rd description"
 
 - symbol: third_party_verifier
   display_name: Third Party Verifier
   description:
     - "You heard Mr. Mokonanye used to be a police lieutenant and looking at him, you'd believe it."
-    - "2nd description"
-    - "3rd description"
 
 - symbol: ngo_manager
   display_name: NGO Manager
   description:
     - "The NGO Manager is a short man, and looks accustomed to worry. Or maybe his face is just like that."
-    - "2nd description"
-    - "3rd description"
 
 - symbol: community_verifier
   display_name: Community Verifier
   description:
     - "Amina looks up from the stack of casefiles on her desk and smiles. You almost expect her to present you with fresh baked cookies."
-    - "2nd description"
-    - "3rd description"
 
 - symbol: clinic_manager
   display_name: Clinic Manager
   description:
     - "The Clinic Manager is a big guy, with a big smile in his big beard. His smile lines compete with his frown lines, though."
-    - "2nd description"
-    - "3rd description"
 
 - symbol: director_regional_health_services
   display_name: Director of Regional Health Services 
   description:
     - "You read 'Jaquilyn Appiah' on her nameplate, but when she shakes your hand she introduces herself as 'Jackie.'"
-    - "2nd description"
-    - "3rd description"
 
 - symbol: supervisor
   display_name: Supervisor of Plan Observation
   description:
     - "The Supervisor seems all right angles: square shoulders and a sharp suit. Amicable, but not necessarily approachable."
-    - "2nd description"
-    - "3rd description"
 
 - symbol: hospital_administrator
   display_name: Hospital Administrator
   description:
     - "You try to get the wiry man's attention, but even when he's talking to you his eyes dart away."
-    - "2nd description"
-    - "3rd description"
 
 - symbol: health_provider_3
   display_name: Mr. Todd
   description:
     - "Your favorite traditional health practitioner."
-    - "2nd description"
-    - "3rd description"
 
 - symbol: health_provider_4
   display_name: Clinic Specialist
   description:
     - "Helps make your clinics special."
-    - "2nd description"
-    - "3rd description"
