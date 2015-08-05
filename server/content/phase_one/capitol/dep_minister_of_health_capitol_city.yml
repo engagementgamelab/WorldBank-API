@@ -6,8 +6,8 @@
 # ==============
 
 # A character interactable
-symbol: dialogue_deputy_minister_of_health_capitol_city
-character: deputy_minister_of_health_capitol_city
+symbol: dialogue_dep_minister_of_health_capitol_city
+character: dep_minister_of_health_capitol_city
 
 # DIALOGUE FORMAT:
 # - Initial: First dialogue player sees after reading character_description.
