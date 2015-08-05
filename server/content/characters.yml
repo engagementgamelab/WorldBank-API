@@ -15,7 +15,7 @@
     - "Rahb patiently waits for you to listen to her directions, as she has more to tell you about the world of Zariba."
     - "She motions to the other people in the room, encouraging you to speak to them."
 
-- symbol: deputy_minister_of_health_capitol_city
+- symbol: dep_minister_of_health_capitol_city
   display_name: Deputy Minister of Health
   description:
     - "You recognize this person as the Deputy Minister of Health, a very important partner for you in this process."
