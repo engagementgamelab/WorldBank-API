@@ -25,13 +25,11 @@ dialogue:
         - "He chuckles. \"People come to me because I am already a part of their lives. Part of their community! The hospitals and clinics you want people to visit are not good. The nurses and doctors treat you like a stranger. No, like an interloper. An annoyance. They do not care about people like I do. My patients are always satisfied.\""
       unlocks: [unlockable_improve_patient_and_provider_relationship]
       unlocks_context: ["If facility staff are not treating patients well, we should incentivise them based on improved patient satisfaction scores."]
-
     What They Say:
       text:
         - "You press, and ask him what else people are saying. \"People say lots of things,\" he replies. \"For instance, those nasty rumors about what else has been going on in the hospitals. I heard some folks saying they believe hospitals are a trick to take our money and make us sicker! I don't know how those get started. People say what they say,\" he reiterates."
       unlocks: [unlockable_information_campaign_to_counter_misinformation]
       unlocks_context: ["There seems to be some misinformation circulating about poor-quality services from hospitals that dissuade people from using them. An information campaign could counter this."]
-
     unlockable_dialogue_mr_todd: 
       display_name: "Ask about clinics"
       text: 
