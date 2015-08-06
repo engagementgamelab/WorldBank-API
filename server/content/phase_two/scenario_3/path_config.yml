@@ -14,5 +14,3 @@ choices: # <---- The choices the player will see during a year break.
     # This can also be a scenario, e.g. "scenario_4", in which case the player is brought to the specified scenario, with its *default* problems loaded.
     load: "scenario_1" 
 
-  - text: "Modify plan to grant providers more autonomy"
-    load: "scenario_1"
