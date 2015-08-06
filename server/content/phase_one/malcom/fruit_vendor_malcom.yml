@@ -18,15 +18,15 @@ character: fruit_vendor_malcom
 dialogue:
     Initial:
       text: 
-        - "\"Fresh fruit!\" she calls as you approach. \"Only the best, grown by local [[farmers]]. Try the berries! They are my [[daughter]]'s favorite.\" She hands you a sample. \"No charge,\" she says."
+        - "\"Fresh fruit!\" she calls as you approach. \"Only the best, grown by local [[farmers]]. Try the berries! They are a [[Valerian]] favorite.\" She hands you a sample. \"No charge,\" she says."
         - "The woman looks at you with recognition and offers a wave as you return. \"Can I help you with something else?\""
     Farmers: 
       text: 
         - "You ask about the farmers who grew the fruit. \"Me and my neighbors spend our time working on the land so that we can harvest the fruit. I come to the city so I can sell fruit to make ends meet and support my family. We are very poor, but we are a hardworking people.\""
       unlocks: [unlockable_vouchers_for_services]
       unlocks_context: ["People like the fruit farmers can't afford services, so vouchers may be necessary."]
-    Daughter: 
+    Valerian: 
       text: 
-        - "\"My daughter? She is just three, and the cutest girl you have ever seen,\" the fruit seller beams. \"Her grandmother is watching her, so I can sell fruit here in the market. I support all three of us.\" When you ask about the girl's vaccinations, the woman shrugs. \"Who has time to travel to a clinic? Keeping her fed is more important.\""
-      unlocks: [unlockable_outreach]
-      unlocks_context: ["The fruit seller in Malcom doesn't have time to travel. Bringing Outreach staff to her area could solve this."]
+        - "You ask about Valeria. \"Valeria never used to be part of Zariba, but now that we have road access there is a whole new market! The airship port is somthing you wont want to miss. A bus leaves for Valeria every hour until sunset.\""
+      unlocks: [unlockable_route_malcom_to_valeria]
+      unlocks_context: ["You have discovered a route to Valeria"]
