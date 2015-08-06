@@ -73,7 +73,7 @@
     - "At the far end of the market there are two women in elaborate dress. You don’t know where they are from, but they are certainly not from this region, nor do they look like they came from Capitol City. Very ornamental and expensive, their dresses pop and glide in different directions and both are wearing wild headpieces. You feel a sense of royalty from them."
     - "The two Valerian women wait impatiently for their ferry, still chatting."
     - "As you pass by, one shoots you a withering glance. They don't want to talk to you again."
-    
+
 # -------------
 # Crup
 # -------------
@@ -287,7 +287,7 @@
     - "You recognize this person as the Deputy Minister of Health, a very important partner for you in this process."
 
 - symbol: coach
-  display_name: Coach
+  display_name: RBF Coach
   description:
     - "You aren't sure what you were expecting for your coach but...no. This is it. Exactly. Right down to the baseball cap."
 
