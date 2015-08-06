@@ -19,16 +19,20 @@ character: regional_director_of_health_services_capitol_city
 dialogue:
     Initial:
       text: 
-        - "The Regional Director speaks up. \"I have been trying to improve the health system in the Highlands region for a few years now, but there are [[many obstacles]]. The main referral hospital is in Zima, which is far from the highlands. If we want to improve the health of the people in Zariba, we need to start in the highlands, but there are many obstacles and much [[confusion]]. The situation is not good, and we lag behind the rest of the country, and our neighbors,\" he says. \"More than 80% of the people in the highlands live in extreme poverty, and cannot purchase even basic health services."
+        - "The Regional Director speaks up. \"I have been trying to improve the health system in the Highlands region for a few years now, but there are [[many obstacles]]. The main referral hospital is in Zima which is far from the highlands and has its own [[logistical problems]]. If we want to improve the health of the people in Zariba, we need to start in the highlands, but there are many obstacles and much [[confusion]]. The situation is not good, and we lag behind the rest of the country, and our neighbors,\" he says. \"More than 80% of the people in the highlands live in extreme poverty, and cannot purchase even basic health services."
+        - "I still have more to tell you"
+    Logistical Problems:
+      text:
+        - "\"I have heard from various sources that the hospital staff are running into beaucratic oversight problems which slows down their effectiveness to help the populace. It is risky, but maybe our new RBF approach could give them autonomy while keeping them in check?\""
       unlocks: [unlockable_grant_providers_autonomy]
       unlocks_context: ["The Regional Director of Health Services for the Highlands says more autonomy is needed for health staff in the region."]
     Many Obstacles:
       text:
-       - "\"Health professionals in the Highlands region could do better in order to improve the services utilization and to improve the health for the people that live there, but they need more empowerment to be able to make decisions that will benefit patients and families that live in the Highlands.\""
+        - "\"Health professionals in the Highlands region could do better in order to improve the services utilization and to improve the health for the people that live there, but they need more empowerment to be able to make decisions that will benefit patients and families that live in the Highlands.\""
       unlocks: [unlockable_vouchers_for_services]
       unlocks_context: ["The Regional Director of Health Services for the Highlands says 80% of people live in extreme poverty."]
     Confusion:
       text:
-       - "When you ask about the confusion, he nods. \"Those with little money also have little time to educate themselves on matters of health,\" he says. \"If we are going to be implementing radical changes, I'm honestly not sure how people in the rural communities of the highlands will be able to keep up.\""
+        - "When you ask about the confusion, he nods. \"Those with little money also have little time to educate themselves on matters of health,\" he says. \"If we are going to be implementing radical changes, I'm honestly not sure how people in the rural communities of the highlands will be able to keep up.\""
       unlocks: [unlockable_information_campaign_to_explain_changes_to_system]
       unlocks_context: ["The Regional Director claims that it will be difficult to sensitize the population on changes needed, so good communication strategies need to be used."]

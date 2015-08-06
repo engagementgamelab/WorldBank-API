@@ -27,6 +27,6 @@ dialogue:
       unlocks_context: ["Nurses are clearly over-stressed, and provide poor service."]
     Prescriptions:
       text:
-        - "\"Lucky for the doctors, they can just write the prescriptions. I've seen antibiotics prescribed for viruses, or even for nothing at all, just because it's the only medicine we always have in stock.\""
+        - "\"Lucky for the doctors, they can just write the prescriptions. I have seen antibiotics prescribed for viruses, or even for nothing at all, just because it is the only medicine we always have in stock.\""
       unlocks: [unlockable_incentivise_providers_to_follow_protocols]
       unlocks_affects: ["According to the nurse, doctors are prescribing medicine for the wrong reasons."]
