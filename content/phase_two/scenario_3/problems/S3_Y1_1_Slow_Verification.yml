@@ -30,7 +30,7 @@ characters:
     unlocks_affects: [sanctions_11]
 
   director_regional_health_services: # <--- character's symbol
-    dialogue: "The plan's faltering a bit. Are you sure this is the hospital adminstrator's fault and not some issue with the business plan? It might be on us."
+    dialogue: "The plan's faltering a bit. Are you sure this is the hospital administrator's fault and not some issue with the business plan? It might be on us."
     unlocks: [review_business_plan]
     unlocks_affects: [review_business_plan]
 
@@ -39,7 +39,7 @@ characters:
       sanctions_11: "I'll make sure this gets into everyone's mailbox as a high priority. Don't worry: I won't write the subject in caps lock again." # <--- symbol of the option used and the feedback text for it
 
   third_party_verifier:
-    dialogue: "The data says they are doing a good job managing funds. There are a lot of unecessary costs."
+    dialogue: "The data says they are doing a good job managing funds. There are a lot of unnecessary costs."
 
   community_verifier:
     dialogue: "I would talk directly to them if I were you. Maybe they're seeing something we aren't."
