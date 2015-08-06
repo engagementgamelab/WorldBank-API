@@ -22,7 +22,7 @@ dialogue:
         - "Dr. Notega seems a little overwhelmed, but he pauses in his work to talk to you. \"Anything else you want to know? I am happy to talk while I have a little time.\""
     Poor People: 
       text: 
-        - "You ask more about the poor people of the highlands and he gives a frustrated shrug. \"The majority of people in the highlands have no money. They can't afford basic care like deliveries. Even if they could, I'm not sure they would purchase it.\""
+        - "You ask more about the poor people of the highlands and he gives a frustrated shrug. \"The majority of people in the highlands have no money. They can not afford basic care like deliveries. Even if they could, I am not sure they would purchase it.\""
       unlocks: [unlockable_vouchers_for_services]
       unlocks_context: ["Dr. Notega says only the rich can afford to deliver in his hospital."]
     For The Rich:
@@ -33,4 +33,4 @@ dialogue:
     unlockable_dialogue_dr_notega:
       display_name: "Supply Issues"
       text:
-        - "You ask about the supply issues his friend told you about back in the train station. \"Yes, there are serious supply issues, but the problem's not the train. It's our budget. The hospital administrator can tell you all about this, I'm sure.\""
+        - "You ask about the supply issues his friend told you about back in the train station. \"Yes, there are serious supply issues, but the problem is not the train. It is our budget. The hospital administrator can tell you all about this, I am sure.\""

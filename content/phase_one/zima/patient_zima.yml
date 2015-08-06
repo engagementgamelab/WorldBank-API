@@ -18,15 +18,15 @@ character: patient_zima
 dialogue:
     Initial:
       text: 
-        - "She seems surprised when you sit down to talk with her. She explains that it cost her [[a lot of money]] to get here, but it was necessary since her headaches do not go away, and she wanted to get her grandson vaccinated."
+        - "She seems surprised when you sit down to talk with her. She explains that it cost her [[a lot of money]] to get here and, but it was necessary since her headaches do not go away, and she wanted to get her grandson vaccinated."
         - "\"Still waiting!\" she says as you approach. \"Did you want to talk about something else?\""
     A Lot Of Money: 
       text: 
         - "\"Would you believe it? The train cost me more than the medicine!\""
-      unlocks: [unlockable_outreach]
+      unlocks: [unlockable_vouchers_for_services]
       unlocks_context: ["A patient in Zima complained it is expensive to travel."]
     Than Most: 
       text: 
         - "\"Most of my neighbors cannot afford even simple health services like vaccinations or doctors appointments.\""
-      unlocks: [unlockable_vouchers_for_services]
+      unlocks: [unlockable_outreach]
       unlocks_context: ["Most people cannot afford services, according to a patient."]
