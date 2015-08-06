@@ -18,7 +18,7 @@ character: mech_farmer_crup
 dialogue:
     Initial:
       text: 
-        - "He offers you a cigarette as you draw nearer, which you politely refuse. \"Suit yourself,\" he says, taking another drag. He explains he has been working on the plantation for a few years now, and though the work is hard, the pay is reliable and we get to use the most [[Advanced Equipment]]. \"I just wish they paid us [[a bit more]].\""
+        - "He offers you a cigarette as you draw nearer, which you politely refuse. \"Suit yourself,\" he says, taking another drag. He explains he has been working on the plantation for a few years now, and though the work is hard, the pay is reliable and we get to use [[Advanced Equipment]]. \"I just wish they paid us [[a bit more]].\""
         - "\"You are still here?\" the farmer asks. \"Well then, what do you want to talk about?\""
     Advanced Equipment:
       text:
