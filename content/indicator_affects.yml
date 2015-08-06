@@ -325,11 +325,6 @@ broaden_services_1:
   indicator_1: 0
   indicator_2: 0
   indicator_3: -5
-
-placeholder_option_1:
-  indicator_1: -2
-  indicator_2: -1
-  indicator_3: +2
 #------------------
 # Overflow - S1_T1_Y2_P4
 #------------------
@@ -368,8 +363,8 @@ sanctions_4:
 hold_meeting_to_retrain_on_reporting_practices_2:
   indicator_1: -1
   indicator_2: 0
-
   indicator_3: +2
+
 # ------------------
 # Budget Lines - S1_T1_Y3_P2
 # ------------------
@@ -407,11 +402,6 @@ terminate_contract_at_end_of_year_5:
 # ------------------
 # Field Records - S1_T1_Y3_P4
 # ------------------
-placeholder_option_2:
-  indicator_1: +1
-  indicator_2: +1
-  indicator_3: 0
-
 increase_funding_for_verifiers_1:
   indicator_1: 0
   indicator_2: +2
@@ -434,8 +424,6 @@ require_nurses_to_return_to_file_1:
 # ------------------
 # Checkup Overload - S1_T1_Y3_P5
 # ------------------
-
-
 warn_providers_to_follow_protocols_2:
   indicator_1: -1
   indicator_2: -1

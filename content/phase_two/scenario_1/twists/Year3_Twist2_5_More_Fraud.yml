@@ -16,8 +16,8 @@ twist: 2
 initiating_npc: third_party_verifier # <--- character's symbol
 initiating_dialogue: "The fourth quarter reports are in and our review has found many suspicious claims from Provider 4. This is becoming a habit, and needs to stop."
 
-starting_options: [placeholder_option_5]
-starting_options_affects: [placeholder_option_5]
+starting_options: [warning_12]
+starting_options_affects: [warning_12]
 starting_options_cost: [small]
 
 final_options: [warning_12, sanctions_8, terminate_contract_at_end_of_year_7]
@@ -50,8 +50,6 @@ characters:
 
   health_provider_4:
     dialogue: "The mistake is on the other party. I have been doing everything by the book."
-    unlocks: [warning_12]
-    unlocks_affects: [warning_12]
     feedback:
       warning_12: "I'll pass this on to my staff."
       sanctions_8: "So I pay for the verifier's mistakes? Ridiculous."

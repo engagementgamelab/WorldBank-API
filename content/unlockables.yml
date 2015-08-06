@@ -444,9 +444,6 @@
 #------------------
 # Inconsistent Indicators - S1_T1_Y2_P3
 #------------------
-- symbol: placeholder_option_1
-  title: "This is a placeholder. I shouldn't exist!"
-
 - symbol: incentivise_facility_births_1
   title: "Incentivise Facility Births"
 
@@ -509,9 +506,6 @@
 # ------------------
 # Field Records - S1_T1_Y3_P4
 # ------------------
-- symbol: placeholder_option_2
-  title: "I'm another placeholder. I also shouldn't exist!"
-
 - symbol: increase_funding_for_verifiers_1
   title: "Increase Funding for Community Verifiers"
 
@@ -526,9 +520,6 @@
 # ------------------
 # Checkup Overload - S1_T1_Y3_P5
 # ------------------
-- symbol: placeholder_option_3
-  title: "Another placeholder. I'm not even supposed to be here today."
-
 - symbol: warn_providers_to_follow_protocols_2
   title: "Warn Providers to Follow Protocols"
 
@@ -575,9 +566,6 @@
 # ------------------
 # Field Records - S1_T2_Y3_P4
 # ------------------
-- symbol: placeholder_option_4
-  title: "I'm another placeholder. I also shouldn't exist!"
-
 - symbol: increase_funding_for_verifiers_2
   title: "Increase Funding for Community Verifiers"
 
@@ -592,9 +580,6 @@
 # ------------------
 # More Fraud - S1_T2_Y3_P5
 # ------------------
-- symbol: placeholder_option_5
-  title: "And I'm another placeholder." 
-
 - symbol: warning_12
   title: "Warning"
 
