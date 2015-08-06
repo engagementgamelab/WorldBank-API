@@ -16,8 +16,8 @@ twist: 2
 initiating_npc: dep_minister_of_health # <--- character's symbol
 initiating_dialogue: "We are having difficulty tracking the effectiveness of travelling nurses in the field. We can't confirm they are meeting goals or having positive impacts on indicators."
 
-starting_options: [placeholder_option_4]
-starting_options_affects: [placeholder_option_4]
+starting_options: [centralize_control_over_travelling_nurses_2]
+starting_options_affects: [centralize_control_over_travelling_nurses_2]
 starting_options_cost: [small]
 
 final_options: [increase_funding_for_verifiers_2, centralize_control_over_travelling_nurses_2, warn_community_verifiers_2, require_nurses_to_return_to_file_2]
@@ -33,8 +33,6 @@ characters:
 
   director_regional_health_services:
     dialogue: "It might help if they were clearing their movements through my office. Then we would know where they are going, and that they are headed where they're needed."
-    unlocks: [centralize_control_over_travelling_nurses_2]
-    unlocks_affects: [centralize_control_over_travelling_nurses_2]
 
   coach:
     dialogue: "Our CBO partners should be confirming all of this. I don't think it's the nurses' fault. The verifiers need to know that if they can't adequately do the work, they can be replaced."

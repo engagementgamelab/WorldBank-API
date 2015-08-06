@@ -16,8 +16,8 @@ twist: 1
 initiating_npc: dep_minister_of_health # <--- character's symbol
 initiating_dialogue: "We have been looking at the numbers, and vaccination delivery has risen much faster than projected. We can't explain it."
 
-starting_options: [placeholder_option_3]
-starting_options_affects: [placeholder_option_3]
+starting_options: [maintain_current_rates_2]
+starting_options_affects: [maintain_current_rates_2]
 starting_options_cost: [small]
 
 final_options: [warn_providers_to_follow_protocols_2, decrease_incentives_2, maintain_current_rates_2]
@@ -53,12 +53,8 @@ characters:
 
   hospital_administrator:
     dialogue: "Really? I haven't noticed anything like that at my hospital. Anyway, I thought vaccinating people was a good thing."
-    unlocks: [maintain_current_rates_2]
-    unlocks_affects: [maintain_current_rates_2]
     feedback:
       warn_providers_to_follow_protocols_2: "I'll have my staff re-assess these practices."
 
   health_provider_3:
     dialogue: "What's wrong with people getting vaccinated? It's better than the alternative."
-    unlocks: [maintain_current_rates_2]
-    unlocks_affects: [maintain_current_rates_2]

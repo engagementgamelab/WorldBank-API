@@ -14,10 +14,10 @@ year: 3
 twist: 1
 
 initiating_npc: dep_minister_of_health # <--- character's symbol
-initiating_dialogue: "We are having difficulty tracking the effectiveness of travelling nurses in the field. We can't confirm they are meeting goals or having positive impacts on indicators."
+initiating_dialogue: "We are having difficulty tracking the effectiveness of traveling nurses in the field. We can't confirm they are meeting goals or having positive impacts on indicators."
 
-starting_options: [placeholder_option_2]
-starting_options_affects: [placeholder_option_2]
+starting_options: [warn_community_verifiers_1]
+starting_options_affects: [warn_community_verifiers_1]
 starting_options_cost: [small]
 
 final_options: [increase_funding_for_verifiers_1, centralize_control_over_travelling_nurses_1, warn_community_verifiers_1, require_nurses_to_return_to_file_1]
@@ -38,13 +38,11 @@ characters:
 
   coach:
     dialogue: "Our CBO partners should be confirming all of this. I don't think it's the nurses' fault. The verifiers need to know that if they can't adequately do the work, they can be replaced."
-    unlocks: [warn_community_verifiers_1]
-    unlocks_affects: [warn_community_verifiers_1]
     feedback:
       centralize_control_over_travelling_nurses_1: "I'm wary of adding another level of bureaucracy to this, but it may help..."
 
   third_party_verifier: 
-    dialogue: "The records filed by travelling nurses are sloppier and often late, since they are in the field instead of the hospital."
+    dialogue: "The records filed by traveling nurses are sloppier and often late, since they are in the field instead of the hospital."
     unlocks: [require_nurses_to_return_to_file_1]
     unlocks_affects: [require_nurses_to_return_to_file_1]
 

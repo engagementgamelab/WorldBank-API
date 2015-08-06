@@ -16,8 +16,8 @@ twist: 1
 initiating_npc: dep_minister_of_health # <--- character's symbol
 initiating_dialogue: "We are seeing some indicators rise while others stay stagnant. Hospital births are barely rising, though checkups and vaccination rates are improving. We need to see all indicators rising!"
 
-starting_options: [placeholder_option_1]
-starting_options_affects: [placeholder_option_1]
+starting_options: [revise_indicators_at_end_of_year_3]
+starting_options_affects: [revise_indicators_at_end_of_year_3]
 starting_options_cost: [small]
 
 final_options: [incentivise_facility_births_1, expand_travelling_nurses_2, revise_indicators_at_end_of_year_3, broaden_services_1]
@@ -35,8 +35,6 @@ characters:
 
   coach:
     dialogue: "Perhaps the indicators need to be reviewed at the end of the year?"
-    unlocks: [revise_indicators_at_end_of_year_3]
-    unlocks_affects: [revise_indicators_at_end_of_year_3]
     feedback:
       revise_indicators_at_end_of_year_3: "It might make sense to revise these goals down."
 
