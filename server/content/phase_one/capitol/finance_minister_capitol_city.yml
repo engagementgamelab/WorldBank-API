@@ -18,7 +18,8 @@ character: finance_minister_capitol_city
 dialogue:
     Initial:
       text: 
-        - "The Finance Minister looks at you intently with a [[serious expression]]. "
+        - "The Finance Minister looks at you intently with a [[serious expression]]."
+        - "You have much to learn and I have spoken at length already."
     Serious Expression:
       text:
-        - "\"We have been using our usual methods of funding here,\" he says. \"We have increased the budget for healthcare in each region year after year, but results have not increased to match it. This year, we will spend more than ever before. We need to try something new and more effective. That is why you are here.\""
+        - "\"We have been using our usual methods of funding here,\" he says. \"We have increased the budget for health care in each region year after year, but results have not increased to match it. This year, we will spend more than ever before. We need to try something new and more effective. That is why you are here.\""
