@@ -26,7 +26,7 @@ dialogue:
       unlocks_context: ["The Grandmother in Valeria thinks the nurses are rude."]
     Prescription: 
       text: 
-        - " When I went to the hospital the nurse was very rude to me. He made me feel unwelcome and I had to argue with a doctor about getting a prescription for my little one.\"I don't remember exactly what the doctor said, but he kept saying that he did not need antibiotics. When I finally got him to write me a prescription, I felt like he wrote it just to shut me up. He did not seem to care, you know?\""
+        - "When I went to the hospital the nurse was very rude to me. He made me feel unwelcome and I had to argue with a doctor about getting a prescription for my little one. \"I don not remember exactly what the doctor said, but he kept saying that he did not need antibiotics. When I finally got him to write me a prescription, I felt like he wrote it just to shut me up. He did not seem to care, you know?\""
       unlocks: [unlockable_incentivise_providers_to_follow_protocols]
       unlocks_context: ["Doctors are writing prescriptions to please patients, not based on solid medical reasons."]
 
