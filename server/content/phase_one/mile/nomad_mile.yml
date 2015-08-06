@@ -19,7 +19,3 @@ dialogue:
     Initial:
       text: 
         - "He greets you with a friendly nod. \"I've been just about everywhere in this country, you know? I travel here and there, play my harp, make enough money for a meal, and then on to the next place! The people here are poor. Can't give me much coin for my time, but that just means they need music the most. So I always stop in this town on my way to the next destination. What they lack in money they more than make up for in hospitality and spirit. Good cooks, too!\""
-    # Upon Exiting: 
-    #   text: 
-        - "You return to the train station and immediately it is clear that something is not right. People seem worried, or even angry, and they crowd around an information booth. It's chaotic here, but you manage to learn that bad weather has triggered landslide to the east, and the train tracks between Mile and Zima have been destroyed. It could take weeks to repair! A group of young men approach you. They say they drive a produce truck that is leaving the city right now, and for a small price, they can get you to Kibari, the heart of the highlands. \"From there,\" they say, \"you can get anywhere!\""
-    #   unlocks: [unlockable_route_kibari_to_mile]
