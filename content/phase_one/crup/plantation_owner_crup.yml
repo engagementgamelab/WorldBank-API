@@ -18,7 +18,7 @@ character: plantation_owner_crup
 dialogue:
     Initial:
       text: 
-        - "She greets you in a business-like way and introduces herself. \"Yes, I do own this plantation,\" she says. \"Over a hundred people work and live here. It wasn't easy, but I have worked hard and built a legacy for my [[son]] to inherit when I'm gone. His wife, who is from Kibari, is pregnant. We have [[disagreements]] on where the child will be born.\""
+        - "She greets you in a business-like way and introduces herself. \"Yes, I do own this plantation,\" she says. \"Over a hundred people work and live here. It wasn't easy, but I have worked hard and built a legacy for my [[sons]] to inherit when I'm gone. His wife, who is from Kibari, is pregnant. We have [[disagreements]] on where the child will be born.\""
         - "The plantation owner nods to you. \"Was there something else?\""
     Sons: 
       text: 
