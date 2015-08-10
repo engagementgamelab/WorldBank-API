@@ -80,6 +80,9 @@ exports.test = {
 
 exports.staging = { 
   general: function(api){
+    // New Relic RPM init
+    require('newrelic');
+    
     return {  
       developmentMode: false,
       // configuration for your actionhero project structure

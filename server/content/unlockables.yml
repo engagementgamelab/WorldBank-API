@@ -111,7 +111,7 @@
 
 - symbol: unlockable_route_zima_to_kibari
   title: "Route to Kibari"
-  unlocked: true
+  unlocked: false
 
 - symbol: unlockable_route_kibari_to_mile
   title: "Route to Mile"
