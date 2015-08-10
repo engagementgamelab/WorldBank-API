@@ -5,12 +5,6 @@
 # Route Definitions
 # ==============
 
-- symbol: malcom_to_kibari
-  city1: malcom
-  city2: kibari
-  unlocked: true
-  cost: 3
-
 - symbol: capitol_to_malcom
   city1: capitol
   city2: malcom
