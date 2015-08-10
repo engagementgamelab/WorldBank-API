@@ -25,7 +25,7 @@
 
 - symbol: crup
   display_name: Crup
-  description: "Accessed initially from the Capitol, Crup is a plantation-like farming village that has a deep divide between the high class owners and the workers on the plantations."
+  description: "Crup is a plantation-like farming village that has a deep divide between owners and the workers. There is a popular clinic here that is worth checking out."
   enabled: true
   npc_interactions: [4, 4]
 
