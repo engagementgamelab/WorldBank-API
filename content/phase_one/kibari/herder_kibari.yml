@@ -29,4 +29,4 @@ dialogue:
       text: 
         - "He clutches his medallion. \"This is said to protect me from fevers, which kill many people in this area. I have not gotten sick with a fever since I put it on. Hospitals on the other hand? Who even knows what happens in them?\""
       unlocks: [unlockable_information_campaign_to_change_cultural_customs_and_behavior]
-      unlocks_context: ["People like the herder in Kibari believe strongly in traditional remedies that don't work. They are accustomed to the old ways of doing things."]
+      unlocks_context: ["People in Kibari believe strongly in traditional remedies. They are accustomed to the old ways of doing things."]

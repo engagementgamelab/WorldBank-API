@@ -25,7 +25,7 @@ dialogue:
       text: 
         - "She nods, looking unhappy. \"Unfortunately, this happens all too often. The train has been the main way both people and goods move through the country for longer than I can remember. But it is unreliable.\""
       unlocks: [unlockable_contract_private_company_to_deliver_supplies]
-      unlocks_context: ["You learned from a traveller that most goods move by train, but the train is unreliable. A private company could avoid this problem."]
+      unlocks_context: ["a traveller says that goods move by train, but the train is unreliable. A private company could avoid this problem."]
     Her Friend:
       text: 
         - "You learn she is attempting to head to Zima, the southern city on the water, to visit her friend Doctor Notega at the hospital there. \"We are very close, and since he has been frustrated with his job, I want to help him have a little fun for a few days. Apparently he has not been receiving supplies, or so he says. If you go there, ask him, and I am  sure he will tell you all about it.\""

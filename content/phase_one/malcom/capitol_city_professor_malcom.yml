@@ -30,7 +30,7 @@ dialogue:
       text: 
         - "As soon as you say the words 'prime minister' his eyes grow wide and he puts down his paper. \"You know, ever since the new government took power, the trains have gotten worse and worse. They should be investing in transport instead of inviting foreign companies into the country to steal our natural resources.\" He eyes you appraisingly before continuing. \"I will tell you this, the government is corrupt and incompetent. They are not respected in the highlands, where they still remember the old regime. They can't keep the trains running, and they won't be in power for long.\""
       unlocks: [unlockable_contract_outside_organization_to_administer_plan]
-      unlocks_context: ["If the professor is right and the government is not a strong partner, an NGO might be needed to make sure services are delivered."]
+      unlocks_context: ["The government might not be a strong partner, an NGO might be needed to make sure services are delivered."]
     unlockable_dialogue_professor:
       display_name: "Ask about Farm Bill"
       text: 
