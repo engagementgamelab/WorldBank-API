@@ -18,14 +18,15 @@ character: nurse_aid_kibari
 dialogue:
     Initial:
       text: 
-        - "You ask her about the [[availibility of supplies]] and what it is like to [[work in her clinic]]."
-    Availibility of Supplies: 
+        - "You ask her about the [[availability of supplies]] and what it is like to [[work in her clinic]]."
+        - "Did you have more to ask me?"
+    Availability of Supplies: 
       text: 
         - "She responds, \"I am frequently running out of supplies, the medical supply department in the capitol is never sending me the supplies I am requesting in a timely manner. The buffer drug stock gets finished every time before getting the new supplies. For example, I run out of vaccines and syringes all the time. I am sure you heard of the recent measles outbreak? I also do not have basic medicines and supplies to treat patients. If I had the resources I could buy the supplies I need here in Kibari.\""
       unlocks: [unlockable_grant_providers_autonomy]
       unlocks_context: ["If the nurse aid had the resources, she could buy supplies locally."]
     Work in her Clinic:
       text:
-        - "\"I see many patients, but it is also very frustrating as I can't be in the clinic all day. I have to work two jobs to make ends meet for my family as a nurse aid in the government health system. I don't get paid enough. Incentives would help me spend more time delivering services.\""
+        - "\"I see many patients, but it is also very frustrating as I can not be in the clinic all day. I have to work two jobs to make ends meet for my family as a nurse aid in the government health system. I do not get paid enough. Incentives would help me spend more time delivering services.\""
       unlocks: [unlockable_incentivise_providers_to_deliver_services]
       unlocks_context: ["Incentives for the nurse aid enables her to spend more time in the clinic, rather than working another job."]

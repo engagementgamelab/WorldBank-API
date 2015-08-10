@@ -17,5 +17,5 @@ character: nomad_valeria
 #   unlocks: [route_to_kibari] <-- this is a symbol stored in "unlockables.yml", so its display text can be easily tweaked globally.
 dialogue:
     Initial:
-      text: 
-        - "\"Funny seeing you here,\" the harper says. \"You can call me Nomad. Most folks do. I've been everywhere in this country. This part of Zariba is probably the richest. Land Barons have been building palaces out of sand for hundreds of years here. Not sure how they get the sand to hold together, but it seems to work. The airships are new, though. Got to change with the times.\""
+      text:
+        - "\"Funny seeing you here\" the harper says. \"I have been everywhere in this country. This part of Zariba is probably the richest. Land Barons have been building palaces out of sand for hundreds of years here. Not sure how they get the sand to hold together, but it seems to work. The airships are new, though. Got to change with the times.\""
