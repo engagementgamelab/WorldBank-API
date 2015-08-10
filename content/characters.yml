@@ -168,14 +168,14 @@
   description: 
     - "A young man looking to be in his teens kicks a stone down the road. You notice a rolled-up flyer in his pocket that seems to be some sort of a \"help wanted\" notice."
     - "There is a tension in his voice and you sympathize with his frustration. Still, you are not sure if his suggestions are helpful. Maybe he has more to say?"
-    - "The teen seems uninterested in engaging with you any longer"
+    - "The teen seems uninterested in engaging with you any longer."
 
 - symbol: herder_kibari
   display_name: Herder
   description: 
     - "A herder is wrangling a small flock of flightless birds toward the market, taking care that none wander off. You notice a medallion around his neck that looks familiar to you. Many people in this area seem to be wearing them."
     - "Whenever people speak of homeopathic medicine you feel uneasy due to your position. Yet the pride in his voice and the way his birds seem drawn to him reminds you of the genuine people who populate this beautfil land."
-    - "one of the herder's birds keeps knawing on his ankle. You take this as an sign and eave him to his work."
+    - "One of the herder's birds keeps gnawing on his ankle. You take this as a sign and leave him to his work."
 
 - symbol: mr_todd_kibari
   display_name: Mr. Todd
@@ -203,7 +203,7 @@
   description: 
     - "You meet a young woman standing outside on the street. You notice the insignia on her jacket belonging to the clinic in Crup."
     - "After speaking to the Nurse's aid you feel like she is a trusted source."
-    - "She is trying to enjoy her day off, you should not bother her any longer"
+    - "She is trying to enjoy her day off, you should not bother her any longer."
 
 # -------------
 # Valeria
@@ -253,7 +253,7 @@
   description:
     - "A woman sits in the waiting room, staring into space. Either she is waiting for her turn to see the doctor, or here with someone who is currently being examined." 
     - "the woman reaches over to touch your hand and thank you for listening to her problems. You can tell she is eager to speak to you further."
-    - "You said your goodbyes and decide to leave to her rest before her appointment"
+    - "You said your goodbyes and decide to leave to her rest before her appointment."
 
 - symbol: foreign_traveler_zima
   display_name: Foreign Traveler
@@ -267,7 +267,7 @@
   description:
     - "A middle aged man is examining a medical chart of some kind. You recognize him as a doctor both by his attire and his nametag, Dr. Notega."
     - "Dr. Notega has a lot to say about the state of health in Zariba. You trust he is a reliable source who might have more information for you."
-    - "You shake hands with the doctor, thanking for his time, and leaving him to his work"
+    - "You shake hands with the doctor, thanking for his time, and leaving him to his work."
 
 - symbol: nurse_zima
   display_name: Nurse
