@@ -70,9 +70,3 @@
   city2: zima
   unlocked: true
   cost: 2
-
-- symbol: kibari_to_zima
-  city1: kibari
-  city2: zima
-  unlocked: true
-  cost: 3
