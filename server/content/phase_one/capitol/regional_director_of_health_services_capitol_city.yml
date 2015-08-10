@@ -35,4 +35,4 @@ dialogue:
       text:
         - "When you ask about the confusion, he nods. \"Those with little money also have little time to educate themselves on matters of health,\" he says. \"If we are going to be implementing radical changes, I'm honestly not sure how people in the rural communities of the highlands will be able to keep up.\""
       unlocks: [unlockable_information_campaign_to_explain_changes_to_system]
-      unlocks_context: ["The Regional Director claims that it will be difficult to sensitize the population on changes needed, so good communication strategies need to be used."]
+      unlocks_context: ["It will be difficult to sensitize the population on changes, so good communication strategies will help."]
