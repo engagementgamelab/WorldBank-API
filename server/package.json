@@ -23,6 +23,7 @@
     "forever": "latest",
     "passport": "latest",
     "passport-local": "latest",
+    "newrelic": "latest",
     "universal-analytics": "0.3.8"
   },
   "devDependencies": {
