@@ -19,22 +19,22 @@
   display_name: Deputy Minister of Health
   description:
     - "You recognize this person as the Deputy Minister of Health, a very important partner for you in this process."
-    - "The Deputy Minister has nothing more to say to you"
-    - "The Deputy Minister has nothing more to say to you"
+    - "The Deputy Minister has nothing more to say to you."
+    - "The Deputy Minister has nothing more to say to you."
 
 - symbol: finance_minister_capitol_city
   display_name: Finance Minister
   description: 
     - "This is the Finance Minister, who has been brought in today to explain the financial situation in Zariba as it relates to the health sector."
-    - "The Finance Minister has nothing more to say to you"
-    - "The Finance Minister has nothing more to say to you"
+    - "The Finance Minister has nothing more to say to you."
+    - "The Finance Minister has nothing more to say to you."
 
 - symbol: regional_director_of_health_services_capitol_city
   display_name: Regional Director of Health Services
   description: 
     - "This is the Director of Regional Health Services for the Highlands region of Zariba. As you understand, this person works under the Deputy Minister and is probably the most knowledgeable person here when it comes to healthcare in the Highlands."
     - "There is more to ask before you venture forth!"
-    - "The Regional Director of Health has nothing more to say to you"
+    - "The Regional Director of Health has nothing more to say to you."
 
 # -------------
 # Malcom

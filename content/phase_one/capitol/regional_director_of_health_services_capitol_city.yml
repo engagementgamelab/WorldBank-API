@@ -20,7 +20,7 @@ dialogue:
     Initial:
       text: 
         - "The Regional Director speaks up. \"I have been trying to improve the health system in the Highlands region for a few years now, but there are [[many obstacles]]. The main referral hospital is in Zima which is far from the highlands and has its own [[logistical problems]]. If we want to improve the health of the people in Zariba, we need to start in the highlands, but there are many obstacles and much [[confusion]]. The situation is not good, and we lag behind the rest of the country, and our neighbors,\" he says. \"More than 80% of the people in the highlands live in extreme poverty, and cannot purchase even basic health services."
-        - "I still have more to tell you"
+        - "I still have more to tell you."
     Logistical Problems:
       text:
         - "\"I have heard from various sources that the hospital staff are running into beaucratic oversight problems which slows down their effectiveness to help the populace. It is risky, but maybe our new RBF approach could give them autonomy while keeping them in check?\""
