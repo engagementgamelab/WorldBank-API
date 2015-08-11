@@ -1,0 +1,12 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Phase Two Content Configuration
+# ==============
+
+# The time it takes for a tactic card to be spawned (one of these is chosen at random to queue the next card)
+tactic_card_intervals: [15, 20, 35]
+
+# The length of a month
+month_length_seconds: 25
