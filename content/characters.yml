@@ -42,14 +42,14 @@
 - symbol: capitol_city_traveler_malcom
   display_name: Traveler from the Capitol City
   description: 
-    - "A woman you imagine might come from the capitol stands before you. At first glance you notice she seems a bit disheveled and visibly annoyed. She is wearing a high-tech eyescreen headset and seems incredibly distracted."
+    - "A woman you imagine might come from the capitol stands before you. At first glance you notice she seems a bit annoyed and visibly distracted."
     - "She's still waiting for her train, and looks like she's given up hope that it will ever come."
     - "As you pass the well-dressed woman, you wish her luck on her trip to Zima."
 
 - symbol: capitol_city_professor_malcom
   display_name: Professor from the Capitol City
   description: 
-    - "A well-dressed middle-aged man leans against the ticket counter, casually reading the world news on his tablet. Next to him is a small cart filled with a dozen or so textbooks on the history of Zariba. You spy a university pin on the his lapel."
+    - "A well-dressed middle-aged man leans against the ticket counter, casually reading the world news on his tablet. Next to him is a small cart filled with a dozen or so textbooks on the history of Zariba. You  notice a pin from a university on his jacket."
     - "The professor looks eager to continue your conversation. He has more to say."
     - "The professor reads a text book, 'The Zariban Nation.'"
 
@@ -63,7 +63,7 @@
 - symbol: medicine_merchant_malcom
   display_name: Medicine Merchant
   description: 
-    - "In the middle of the crowded marketplace, you see a man dressed in an impressive garb that feels important and professional, but at once authentic and grounded. He seems to be charming those around him as a small crowd gathers to listen to his sermon-like presentation. Behind him is an elaborate cart of small tokens and jars, all different sizes and shapes. The sign reads \"Medicine\" in multiple languages."
+    - "In the middle of the crowded marketplace, you see a man dressed in an impressive robe that feels important and professional. He seems to be charming those around him as a small crowd gathers to listen to his sermon-like presentation. Behind him is an elaborate cart of small medallions, tokens, and jars, all different sizes and shapes. The sign reads \"Medicine\" in multiple languages."
     - "The Medicine Merchant is still selling his wares, delivering the same sermon-like pitch to anyone who will listen."
     - "As you watch more people buying the man’s goods, you wonder how much he earns, and how much of that money he passes on to Mr. Todd."
 
@@ -140,7 +140,7 @@
 - symbol: farm_worker_mile
   display_name: Farm Worker
   description: 
-    - "A woman who looks to be in her thirties crouches down among rows of fresh crops, harvesting the land’s bounty. Her movements are precise and efficient, like she has been doing this her whole life. She hums softly to herself as she works in rhythm with her motions. The only adornment on her otherwise spartan attire is a small, shabby locket dangling from her neck."
+    - "A woman who looks to be in her thirties crouches down among rows of fresh crops, harvesting the land’s bounty. Her movements are precise and efficient, like she has been doing this her whole life. She hums softly to herself as she works in rhythm with her motions. The only adornment on her otherwise spartan attire is a small locket dangling from her neck."
     - "You notice the thin tan line from the locket's chain. While you're looking, she starts talking again."
     - "She blows some dirt off her hand before running her fingers over the locket. All the while she detassels with her other hand."
 
@@ -154,7 +154,7 @@
 - symbol: midwife_mile
   display_name: Midwife
   description: 
-    - "A middle-aged woman walks down the path from the train station. She looks preoccupied by something, and perhaps a little angry. She carries medical texts with her, including a volume on midwifery."
+    - "A middle-aged woman walks down the path from the train station. She looks preoccupied by something, and perhaps a little angry. She carries medical textbooks with her, including a volume on midwifery."
     - "As you talk with the midwife, she shifts her weight back and forth, right and left. She likely stood for most of the day long journey here."
     - "Her book on midwifery is new, but it's the seventh edition of the text. You wonder how old the title is."
 
@@ -182,7 +182,7 @@
   description: 
     - "An older man stands in front of a grand domicile. He grins broadly, gesturing emphatically as he speaks to a young woman who is clearly a customer of his. \"Burn this incense before you sleep,\" you hear him say, \"Every night for one month. No more and no less.\" The woman looks happy, and very grateful."
     - "You wish he would stop smiling long enough for you to feel like he's actually talking to you. 'The cat who got the canary' pops into your mind."
-    - "You mutter some pleasantry as you excuse yourself, annoyed that everyone else's defference to the man rubbed off on you."
+    - "You mutter some pleasantry as you excuse yourself, annoyed that everyone else's deference to the man rubbed off on you."
 
 - symbol: traveling_merchant_kibari
   display_name: Traveling Merchant
@@ -212,7 +212,7 @@
 - symbol: grandmother_with_toddler_valeria
   display_name: Grandmother with Toddler
   description: 
-    - "An older woman stands with a young boy, probably her grandson. They seem a trifle lost."
+    - "An older woman stands with a young boy, probably her grandson. They seem a bit lost."
     - "The grandmother is willing to talk with you, even as she wipes some smudge off her grandson's face."
     - "As you walk away, you glance over your shoulder. She's doting on the boy enough to make him fussy."
 
@@ -246,13 +246,13 @@
   description:
     - "A woman you recognize as the hospital administrator sits at her desk, going over some of the day's paperwork."
     - "You sense there is more she can help you with."
-    - "You should leave her to her work"
+    - "You should leave her to her work."
 
 - symbol: patient_zima
   display_name: Patient
   description:
     - "A woman sits in the waiting room, staring into space. Either she is waiting for her turn to see the doctor, or here with someone who is currently being examined." 
-    - "the woman reaches over to touch your hand and thank you for listening to her problems. You can tell she is eager to speak to you further."
+    - "The woman reaches over to touch your hand and thanks you for listening to her problems. You can tell she is eager to speak to you further."
     - "You said your goodbyes and decide to leave to her rest before her appointment."
 
 - symbol: foreign_traveler_zima
