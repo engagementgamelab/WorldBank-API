@@ -19,9 +19,9 @@ character: capitol_city_traveler_malcom
 dialogue:
     Initial:
       text: 
-        - "After a few attempts of getting her attention, she tells you how she has been waiting for hours for the next train out of the station. \"There have been two trains heading to Mile that have already been [[cancelled]]!\" Flustered, she mutters under her breath about being late to meet [[her friend]].\""
+        - "After a few attempts of getting her attention, she tells you how she has been waiting for hours for the next train out of the station. \"There have been two trains heading to Mile that have already been [[canceled]]!\" Flustered, she mutters under her breath about being late to meet [[her friend]].\""
         - "She's finished with her phone call now, and it's easy to get her attention again."
-    Cancelled: 
+    Canceled: 
       text: 
         - "She nods, looking unhappy. \"Unfortunately, this happens all too often. The train has been the main way both people and goods move through the country for longer than I can remember. But it is unreliable.\""
       unlocks: [unlockable_contract_private_company_to_deliver_supplies]
