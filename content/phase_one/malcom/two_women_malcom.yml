@@ -18,7 +18,7 @@ character: two_women_malcom
 dialogue:
     Initial:
       text: 
-        - "You lean a little closer and realize they are two prominent NGO Managers. They reference the difficulty they have been having [[incentivizing service providers]] to vaccinate more children. They mention an [[the epidemic]] that is apprently spreading."
+        - "You lean a little closer and realize they are two prominent NGO Managers. They reference the difficulty they have been having [[incentivizing service providers]] to vaccinate more children. They mention an [[the epidemic]] that is apparently spreading."
         - "They're still talking, but they seem aware that you're nearby. You're beginning to feel a little awkward."
     Incentivizing Service Providers:
       text: 
