@@ -23,7 +23,7 @@ dialogue:
         - "I still have more to tell you."
     Logistical Problems:
       text:
-        - "\"I have heard from various sources that the hospital staff are running into beaucratic oversight problems which slows down their effectiveness to help the populace. It is risky, but maybe our new RBF approach could give them autonomy while keeping them in check?\""
+        - "\"I have heard from various sources that the hospital staff are running into bureaucratic oversight problems which slows down their effectiveness to help the populace. It is risky, but maybe our new RBF approach could give them autonomy while keeping them in check?\""
       unlocks: [unlockable_grant_providers_autonomy]
       unlocks_context: ["The Regional Director of Health Services for the Highlands says more autonomy is needed for health staff in the region."]
     Many Obstacles:
