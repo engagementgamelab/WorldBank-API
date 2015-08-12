@@ -9,4 +9,4 @@
 tactic_card_intervals: [15, 20, 35]
 
 # The length of a month
-month_length_seconds: 25
+month_length_seconds: 30
