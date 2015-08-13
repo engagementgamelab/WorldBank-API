@@ -29,4 +29,4 @@ dialogue:
       text:
         - "\"Lucky for the doctors, they can just write the prescriptions. I have seen antibiotics prescribed for viruses, or even for nothing at all, just because it is the only medicine we always have in stock.\""
       unlocks: [unlockable_incentivise_providers_to_follow_protocols]
-      unlocks_affects: ["According to the nurse, doctors are prescribing medicine for the wrong reasons."]
+      unlocks_context: ["According to the nurse, doctors are prescribing medicine for the wrong reasons."]
