@@ -18,7 +18,7 @@ initiating_dialogue: "I was visiting the hospital of Provider 2 for my quarterly
 
 starting_options: [warning_8, retrain_1]
 starting_options_affects: [warning_8, retrain_1]
-starting_options_cost: [small, small, small]
+starting_options_cost: [small, small]
 
 final_options: [warning_8, revise_business_plan_3, retrain_1]
 final_options_affects: [warning_8, revise_business_plan_3, retrain_1]

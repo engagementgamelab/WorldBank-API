@@ -20,9 +20,9 @@ starting_options: [warn_community_verifiers_1]
 starting_options_affects: [warn_community_verifiers_1]
 starting_options_cost: [small]
 
-final_options: [increase_funding_for_verifiers_1, centralize_control_over_travelling_nurses_1, warn_community_verifiers_1, require_nurses_to_return_to_file_1]
-final_options_affects: [increase_funding_for_verifiers_1, centralize_control_over_travelling_nurses_1, warn_community_verifiers_1, require_nurses_to_return_to_file_1]
-final_options_cost: [small, small, small, small]
+final_options: [increase_funding_for_verifiers_1, centralize_control_over_travelling_nurses_1, warn_community_verifiers_1, require_nurses_to_return_to_file_1, increase_funding_for_verifiers_1]
+final_options_affects: [increase_funding_for_verifiers_1, centralize_control_over_travelling_nurses_1, warn_community_verifiers_1, require_nurses_to_return_to_file_1, increase_funding_for_verifiers_1]
+final_options_cost: [small, small, small, small, medium]
 
 characters:
 
