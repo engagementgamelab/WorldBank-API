@@ -57,5 +57,3 @@ characters:
 
   hospital_administrator:
     dialogue: "That is why you brought the NGO in, to get people treated. There might be someone who could do it better."
-    unlocks: [terminate_contract_1]
-    unlocks_affects: [terminate_contract_1]
