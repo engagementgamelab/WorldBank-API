@@ -25,7 +25,7 @@ characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
-    dialogue: "That's unnacceptable. I think it's time we looked for someone else to fulfill these duties. There are other health care providers in Zariba. "
+    dialogue: "That's unacceptable. I think it's time we looked for someone else to fulfill these duties. There are other health care providers in Zariba. "
     unlocks: [terminate_contract_at_end_of_year_8] # <--- these probably will symbols
     unlocks_affects: [terminate_contract_at_end_of_year_8]
 

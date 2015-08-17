@@ -34,11 +34,11 @@ characters:
     unlocks: [review_business_plan]
     unlocks_affects: [review_business_plan]
     feedback: 
-      review_business_plan: "This will put some strain on our office, but I think we can get the extra work done. [PLACEHOLDER FEEDBACK]" # <--- symbol of the option used and the feedback text for it
+      review_business_plan: "Alright, we can take a look at the plan and see if we can create some breathing room." # <--- symbol of the option used and the feedback text for it
 
   coach:
     feedback: 
-      sanctions_11: "Alright, but I think this is a little much for so early in the game. I'll keep an eye out and maybe we can avoid this happening." # <--- symbol of the option used and the feedback text for it
+      sanctions_11: "Alright, but I think this is a little much for so early in the game. I'll keep an eye out and maybe we can avoid this happening again." # <--- symbol of the option used and the feedback text for it
 
   third_party_verifier:
     dialogue: "The data says they are doing a good job managing funds. There are a lot of unnecessary costs."
