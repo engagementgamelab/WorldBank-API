@@ -35,11 +35,13 @@ characters:
 
   coach:
     dialogue: "Quality of care is not something we should grant leeway on. It is crucially important to the plan!"
-    unlocks: [warning]
+    unlocks: [warning_6]
+    unlocks_affects: [warning_6]
 
   third_party_verifier:
     dialogue: "They failed inspection, plain and simple. A review is not necessary."
     unlocks: [deny_review]
+    unlocks_affects: [deny_review]
 
   community_verifier:
     dialogue: "These are small clinics, with very little operating budget. Denying payment will cause immediate harm to the community."

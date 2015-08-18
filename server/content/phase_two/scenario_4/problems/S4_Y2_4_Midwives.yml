@@ -46,7 +46,7 @@ characters:
     unlocks: [grant_autonomy_to_providers_3] # <--- these probably will symbols
     unlocks_affects: [grant_autonomy_to_providers_3]
     feedback:
-      allow_outreach_staff_to_act_as_midwives_2: "This would boost our facility births for sure, but it's a bit of a cheat since they won't technically be in facilities. Whatever gets babies delivered safely, though."
+      allow_outreach_staff_to_act_as_midwives_2: "This would boost our facility births for sure, but it's a bit of a cheat since they won't technically be in facilities. Whatever gets babies safely delivered, though."
 
   third_party_verifier:
     dialogue: "The RBF Coach has been in regular contact with the Hospital Administrator, they might be able to offer a perspective on things."

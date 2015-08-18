@@ -32,13 +32,13 @@ characters:
 
   director_regional_health_services: 
     dialogue: "I'm with the Dep. Minister on this. We are responsible for how the NGO operates."
-    feedback: 
-      clarification_of_roles_1: "All right, I understand. I'll inform the staff here." # <--- symbol of the option used and the feedback text for it
 
   ngo_manager:
     dialogue: "We verify internally and talk to the other verifiers. Don't you think this would be a little much?"
     unlocks: [cease_counter_verification_1]
     unlocks_affects: [cease_counter_verification_1]
+    feedback:
+      pressure_the_ngo_to_comply_1: "It takes a lot of time for us to comply with all these verifications. I'm worried we won't have time to meet our goals if we're busy with paperwork."
 
   coach:
     dialogue: "The problem doesn't have to do with anyone but the NGO and the Third Party Verifier. Hammer it out with them."

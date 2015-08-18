@@ -12,7 +12,7 @@ name: "Missing Goals"
 priority: 12
 
 initiating_npc: dep_minister_of_health # <--- character's symbol
-initiating_dialogue: "I hate to say it, but things are not going well. The NGO routinely misses its goals, and our indicators have not risen as predicted. We're thinking about declaring the plan DOA, cancelling it next year, and returning to traditional financing."
+initiating_dialogue: "I hate to say it, but things are not going well. The NGO routinely misses its goals, and our indicators have not risen as predicted. We're thinking about declaring the plan a failure, cancelling it next year, and returning to traditional financing."
 
 starting_options: [return_to_traditional_financing_2]
 starting_options_affects: [return_to_traditional_financing_2]
