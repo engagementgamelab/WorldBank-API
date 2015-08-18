@@ -340,7 +340,7 @@
   title: "Give warning"
 
 - symbol: terminate_contract_at_end_of_year_3
-  title: "terminate this contract at the end of the year"
+  title: "Terminate this contract at the end of the year"
 
 - symbol: audit
   title: "Conduct audit"
