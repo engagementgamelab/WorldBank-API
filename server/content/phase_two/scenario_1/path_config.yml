@@ -5,7 +5,7 @@
 # Phase Two Scenario One Path Config YAML
 # ==============
 
-prompt_year_1: "Thank you for joining us for the end of year meeting. It seems like your plan implementation is going smoothly, yes? That said, we would like to know if you need anything approved through us to make the plan run more efficiently. It seems like your plan is runnign quite well, but there is always opportunity for slight modification."
+prompt_year_1: "Thank you for joining us for the end of year meeting. It seems like your plan implementation is going smoothly, yes? That said, we would like to know if you need anything approved through us to make the plan run more efficiently. It seems like your plan is running quite well, but there is always opportunity for slight modification."
 prompt_year_2: "You've made it to the end of year two. I hope you are checking your indicators and making sure the RBF plan is running smoothly. Is there anything you need from us? If the new Clinic Manager is not working out we can make internal adjustments."
 choices: # <---- The choices the player will see during a year break.
   - text: "Suggest replacing the Clinic Manager"
