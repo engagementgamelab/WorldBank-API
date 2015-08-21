@@ -38,7 +38,7 @@ characters:
 
   third_party_verifier:
     feedback: 
-      capacity_building_help: "Help capacity building: When I'm over there next I'll check on their on-the-spot training, figure out where they're making mistakes." # <--- symbol of the option used and the feedback text for it
+      capacity_building_help: "When I'm over there next I'll check on their on-the-spot training, figure out where they're making mistakes." # <--- symbol of the option used and the feedback text for it
 
   community_verifier:
     dialogue: "My team has had no issue keeping records. I wonder what the issue is at the clinics?"

@@ -18,7 +18,7 @@ initiating_dialogue: "I was visiting the hospital of Provider 2 for my quarterly
 
 starting_options: [warning_8, retrain_1]
 starting_options_affects: [warning_8, retrain_1]
-starting_options_cost: [small, small, small]
+starting_options_cost: [small, small]
 
 final_options: [warning_8, revise_business_plan_3, retrain_1]
 final_options_affects: [warning_8, revise_business_plan_3, retrain_1]
@@ -47,6 +47,9 @@ characters:
     dialogue: "Wow, uh, I'm not really sure what I would do in your shoes. That might be in somebody else's job description, though."
 
   hospital_administrator:
-    dialogue: "The business plan is far too restrictive! You need to give us all more latitude in how we spend the funds you give us."
+    dialogue: "TWe need to spend money where it's needed, and I know where it is needed. That was the purpose of granting us autonomy in the first place."
     feedback:
       warning_8: "I will do my best, but I don't see a sustainable path forward with the current plan."
+
+  health_provider_3:
+    dialogue: "The business plan is far too restrictive! You need to give us all more latitude in how we spend the funds you give us."

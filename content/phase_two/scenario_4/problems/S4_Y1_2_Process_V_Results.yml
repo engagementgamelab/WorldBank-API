@@ -48,6 +48,6 @@ characters:
     dialogue: "I understand that results get paid, but if we don't pay them, my people won't get any treatment, let alone too little."
 
   hospital_administrator:
-    dialogue: "They're trying. I'm seeing it in my hospitals. The problem is with our wupply line. If we had the necessary supplies, we could easily meet these goals."
+    dialogue: "They're trying. I'm seeing it in my hospitals. The problem is with our supply line. If we had the necessary supplies, we could easily meet these goals."
     unlocks: [increase_budget_for_supplies_1]
     unlocks_affects: [increase_budget_for_supplies_1]

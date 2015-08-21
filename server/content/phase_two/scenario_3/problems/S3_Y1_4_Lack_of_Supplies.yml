@@ -32,7 +32,7 @@ characters:
       grant_facilities_autonomy: "It's a bad idea to give more responsibility to an organization that's done such a bad job managing their resources." # <--- symbol of the option used and the feedback text for itA
 
   director_regional_health_services: # <--- character's symbol
-    dialogue: "This is a serious problem. It would hard enough getting people to hospitals if services were abundant."
+    dialogue: "This is a serious problem. Even if services were abundant, it's hard to get people to come to the hospital."
     feedback: 
       increase_supply_budget: "We've increased the budget every year and that hasn't solved the problem yet. That isn't to say our health care providers are the problem, only that it might not be budgetary." # <--- symbol of the option used and the feedback text for it
 

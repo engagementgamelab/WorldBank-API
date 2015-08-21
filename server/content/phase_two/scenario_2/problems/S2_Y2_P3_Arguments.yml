@@ -30,7 +30,7 @@ characters:
     unlocks: [terminate_ngo_contract_2]
     unlocks_affects: [terminate_ngo_contract_2]
     feedback:
-      clarification_of_roles: "That's sorted out. Just, you know, be sure you're writing all this down so next time these issues don't crop up. "
+      clarification_of_roles_3: "That's sorted out. Just, you know, be sure you're writing all this down so next time these issues don't crop up. "
 
   director_regional_health_services:
     dialogue: "The NGO keeps trying to order me around and I know how to do my job. And even if I didn't, I don't work for them."

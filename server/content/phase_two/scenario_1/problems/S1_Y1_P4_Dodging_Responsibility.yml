@@ -21,7 +21,7 @@ starting_options_cost: [small]
 
 final_options: [warning_1, revise_business_plan_to_include_regular_meetings_1, terminate_contract_effective_end_of_year_2]
 final_options_affects: [warning_1, revise_business_plan_to_include_regular_meetings_1, terminate_contract_effective_end_of_year_2]
-final_options_cost: [small, large,]
+final_options_cost: [small, large, large]
 
 
 characters:

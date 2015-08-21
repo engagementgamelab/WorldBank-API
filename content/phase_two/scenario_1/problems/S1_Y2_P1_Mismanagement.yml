@@ -41,7 +41,7 @@ characters:
       sanctions_and_retraining_on_use_of_financial_tools: "I'll make some time this week for a retraining session and try to drill down on exactly how these tools should be used. I'm informing the regulator about the sanctions now."
 
   third_party_verifier:
-    dialogue: "If i had to guess, I would say this is simple mismanagement, nothing fraudulent." 
+    dialogue: "If I had to guess, I would say this is simple mismanagement, nothing fraudulent." 
 
   community_verifier:
     dialogue: "I'm not really sure. I haven't even been to this hospital!"

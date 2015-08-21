@@ -15,13 +15,13 @@ year: 3
 initiating_npc: ngo_manager
 initiating_dialogue: "We've talked about the problems of expectations. We can meet our goals better if we get our bonuses."
 
-starting_options: [hold_stakeholder_meeting_4]
-starting_options_affects: [hold_stakeholder_meeting_4]
+starting_options: [deny_payment_3]
+starting_options_affects: [deny_payment_3]
 starting_options_cost: [small]
 
-final_options: [hold_stakeholder_meeting_4, warn_but_allow_payment_once_3, deny_payment_3, revise_indicators_at_end_of_year_2]
-final_options_affects: [hold_stakeholder_meeting_4, warn_but_allow_payment_once_3, deny_payment_3, revise_indicators_at_end_of_year_2]
-final_options_cost: [small, small, small, small]
+final_options: [warn_but_allow_payment_once_3, deny_payment_3, revise_indicators_at_end_of_year_2]
+final_options_affects: [warn_but_allow_payment_once_3, deny_payment_3, revise_indicators_at_end_of_year_2]
+final_options_cost: [small, small, small]
 
 characters:
 

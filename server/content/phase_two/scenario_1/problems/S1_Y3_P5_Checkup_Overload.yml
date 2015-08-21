@@ -31,10 +31,12 @@ characters:
   director_regional_health_services:  
     dialogue: "For some reason people in this region have been taking advantage of this service much more than others. Perhaps providers are pushing the services too strongly."  
     unlocks: [decrease_incentives]
+    unlocks_affects: [decrease_incentives]
 
   coach:
     dialogue: "We can reduce the fee for this, but we need to think carefully about what other effects that will have on the plan."
     unlocks: [decrease_incentives]
+    unlocks_affects: [decrease_incentives]
     feedback:
       decrease_incentives: "I'll research the best way to do this without having any undesired effects."
 
@@ -44,15 +46,18 @@ characters:
   community_verifier:
     dialogue: "We have heard rumors of people going to the hospital and being offered services they don't want."
     unlocks: [warn_providers_to_follow_protocols]
+    unlocks_affects: [warn_providers_to_follow_protocols]
 
   clinic_manager:
     dialogue: "What's wrong with people getting outpatient services? It's better than the alternative."
     unlocks: [maintain_current_rates]
+    unlocks_affects: [maintain_current_rates]
     feedback:
       maintain_current_rates: "Smooth sailing ahead. Nice talking to you!"
 
   hospital_administrator:
     dialogue: "Really? I haven't noticed that at my hospital. Anyway, I thought treating people was a good thing."
     unlocks: [maintain_current_rates]
+    unlocks_affects: [maintain_current_rates]
     feedback:
       warn_providers_to_follow_protocols: "I'll have my staff re-assess these practices."

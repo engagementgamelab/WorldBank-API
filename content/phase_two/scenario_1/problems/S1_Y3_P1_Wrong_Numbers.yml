@@ -17,11 +17,11 @@ initiating_dialogue: "I have been reviewing the Hospital Administrator's records
 
 starting_options: [warning_5, sanctions_3]
 starting_options_affects: [warning_5, sanctions_3]
-starting_options_cost: [small, small, medium]
+starting_options_cost: [small, small]
 
 final_options: [warning_5, sanctions_3, hold_meeting_to_retrain_on_reporting_practices]
 final_options_affects: [warning_5, sanctions_3, hold_meeting_to_retrain_on_reporting_practices]
-final_options_cost: [small, medium, medium, medium]
+final_options_cost: [small, medium, medium]
 
 
 characters:
@@ -46,6 +46,7 @@ characters:
   hospital_administrator:
     dialogue: "I think my staff is confused about what to report. Frankly, I myself have been confused at times!"
     unlocks: [hold_meeting_to_retrain_on_reporting_practices]
+    unlocks_affects: [hold_meeting_to_retrain_on_reporting_practices]
     feedback:
       hold_meeting_to_retrain_on_reporting_practices: "I think that will probably help. Let me know when works for you and I'll clear some time."
       warning_5: "I'll talk to my staff and try to settle this."

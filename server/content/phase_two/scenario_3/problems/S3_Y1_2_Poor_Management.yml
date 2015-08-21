@@ -25,32 +25,31 @@ characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
-    feedback: 
-      ask_reduce_oversight: "There are other health providers in the region we could use. A sanction will remind them." # <--- symbol of the option used and the feedback text for it
+    dialogue: "There are other health providers in the region we could use. A sanction will remind them."
+    unlocks: [sanctions_11]
+    unlocks_affects: [sanctions_11]
 
   director_regional_health_services: # <--- character's symbol
     dialogue: "The plan's faltering a bit. Are you sure this is the hospital's administrator's fault and not some issue with the business plan? It might be on us."
+    unlocks: [review_business_plan]
+    unlocks_affects: [review_business_plan]
     feedback: 
-      streamline_speed_verification_process: "This will put some strain on our office, but I think we can get the extra work done." # <--- symbol of the option used and the feedback text for it
+      review_business_plan: "Alright, we can take a look at the plan and see if we can create some breathing room." # <--- symbol of the option used and the feedback text for it
 
   coach:
     feedback: 
-      sanctions_11: "Alright, but I think this is a little much for so early in the game. I'll keep an eye out and maybe we can avoid this happening." # <--- symbol of the option used and the feedback text for it
+      sanctions_11: "Alright, but I think this is a little much for so early in the game. I'll keep an eye out and maybe we can avoid this happening again." # <--- symbol of the option used and the feedback text for it
 
   third_party_verifier:
-    dialogue: "You hired us to verify reports. Having a separate body double everything we're doing is worse than redundant. It's counter-productive."
-    unlocks: [ask_reduce_oversight]
-    unlocks_affects: [ask_reduce_oversight]
-    feedback: 
-      warn_verifier_1: "All right. We'll let everyone look over our shoulders all they want. But to say it's inefficient is an understatement." # <--- symbol of the option used and the feedback text for it
+    dialogue: "The data says they are doing a good job managing funds. There are a lot of unnecessary costs."
 
   community_verifier:
-    dialogue: "We're tired of submitting our reports in triplicate. The work we do is hard enough without all this paperwork."
+    dialogue: "I would talk directly to them if I were you. Maybe they're seeing something we aren't."
 
   clinic_manager:
-    dialogue: "I like working with the government, I do. But doubling verification doubles the time before I get my money, and my budget is pretty tight as it is."
-    unlocks: [streamline_speed_verification_process]
-    unlocks_affects: [streamline_speed_verification_process]
+    dialogue: "I don't know about the hospital, we're trying to meet goals without a lot of supplies or money to buy more."
 
   hospital_administrator:
-    dialogue: "Having three levels of verification sounds like overkill to me. And my staff is confused about who's actually in charge."
+    dialogue: "We're doing our best here. The plan is complicated, and not all my people have had time to look at it while treating patients, filing their records, that sort of thing. We'll get used to operating within the budget soon."
+    feedback:
+      warning_and_retraining_2: "We are trying to work with the money we have. We don't need to be chastised for that."

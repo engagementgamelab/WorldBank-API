@@ -19,8 +19,8 @@ starting_options: [clarification_of_roles_8]
 starting_options_affects: [clarification_of_roles_8]
 starting_options_cost: [small]
 
-final_options: [clarification_of_roles_8, terminate_ngo_contract_6, sanction_ngo_2]
-final_options_affects: [clarification_of_roles_8, terminate_ngo_contract_6, sanction_ngo_2]
+final_options: [clarification_of_roles_8, terminate_ngo_contract_6, sanction_ngo_2, sanction_verifier]
+final_options_affects: [clarification_of_roles_8, terminate_ngo_contract_6, sanction_ngo_2, sanction_verifier]
 final_options_cost: [small, small, small]
 
 characters:

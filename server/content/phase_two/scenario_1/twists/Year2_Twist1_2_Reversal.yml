@@ -36,7 +36,7 @@ characters:
     unlocks_affects: [embed_nurses_1]
 
   coach:
-    dialogue: "If they won't come to facilities, having trained people near them is better than nothing. Why not expand our travelling nurses program instead?"
+    dialogue: "If they won't come to facilities, having trained people near them is better than nothing. Why not expand our travelling nurses program instead, though?"
     unlocks: [expand_travelling_nurses_1]
     unlocks_affects: [expand_travelling_nurses_1]
     feedback:

@@ -13,7 +13,7 @@ priority: 4
 year: 3
 
 initiating_npc: dep_minister_of_health # <--- character's symbol
-initiating_dialogue: "I'm disappointed to say this, but things are not going well. Providers routinely miss goals, and our indicators have not risen as predicted. We're thinking about declaring the plan DOE and cancelling it for next year. This would mean a return to traditional financing."
+initiating_dialogue: "I'm disappointed to say this, but things are not going well. Providers routinely miss goals, and our indicators have not risen as predicted. We're thinking about declaring the plan a failure and cancelling it for next year. This would mean a return to traditional financing."
 
 starting_options: [return_to_traditional_financing]
 starting_options_affects: [return_to_traditional_financing]

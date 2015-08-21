@@ -141,7 +141,7 @@
 - symbol: unlockable_incentivise_providers_to_follow_protocols
   title: "Incentivise Providers to Follow Protocols"
   description:
-    - "This would stress providers to follow protocols in order to receive incentives and create consequences for noncomplicance."
+    - "This would stress providers to follow protocols in order to receive incentives and create consequences for noncompliance."
   priority: 1
   type: supply_side_resource_allocation
 
@@ -162,7 +162,7 @@
 - symbol: unlockable_grant_providers_autonomy
   title: "Grant Providers Autonomy"
   description: 
-    - "This will allow providers the autonomy to suit the needs of their local communities instead of waiting on the Ministry decsions."
+    - "This will allow providers the autonomy to suit the needs of their local communities instead of waiting on the Ministry decisions."
   priority: 1
   type: supply_side_resource_allocation
 
@@ -187,7 +187,7 @@
 - symbol: unlockable_hire_more_nurses_from_highlands_region
   title: "Hire Nurses From the Highlands Region"
   description:
-    - "This would iniate the hiring of local nurses to work in health facilities, leading to a possible economy boost in poor regions."
+    - "This would initiate the hiring of local nurses to work in health facilities, leading to a possible economy boost in poor regions."
   priority: 0
   type: behavior_knowledge_and_professionalism
 
@@ -340,7 +340,7 @@
   title: "Give warning"
 
 - symbol: terminate_contract_at_end_of_year_3
-  title: "terminate this contract at the end of the year"
+  title: "Terminate this contract at the end of the year"
 
 - symbol: audit
   title: "Conduct audit"

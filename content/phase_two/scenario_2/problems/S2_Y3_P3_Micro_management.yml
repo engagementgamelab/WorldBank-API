@@ -28,6 +28,7 @@ characters:
   dep_minister_of_health: 
     dialogue: "We need the NGO to be accountable and if that's a problem with them, we're not going to be able to work with them."
     unlocks: [terminate_ngo_contract_5]
+    unlocks_affects: [terminate_ngo_contract_5]
     feedback:
       clarification_of_roles_7: "We keep going around and around with this. For the future, it is not your position to clarify ours."
 
