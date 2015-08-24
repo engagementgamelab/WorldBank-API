@@ -146,7 +146,7 @@
   type: supply_side_resource_allocation
 
 - symbol: unlockable_contract_outside_organization_to_administer_plan
-  title: "Contract Outside Organization to Administer Plan"
+  title: "Contract Outside Organization to Deliver Services"
   description:
     - "If there is poor infrastructure or government control, contracting an NGO to manage this role might be ideal."
   priority: -1
@@ -340,7 +340,7 @@
   title: "Give warning"
 
 - symbol: terminate_contract_at_end_of_year_3
-  title: "terminate this contract at the end of the year"
+  title: "Terminate this contract at the end of the year"
 
 - symbol: audit
   title: "Conduct audit"
