@@ -13,7 +13,7 @@ priority: 4
 year: 3
 
 initiating_npc: dep_minister_of_health # <--- character's symbol
-initiating_dialogue: "I'm disappointed to say this, but things are not going well. Providers routinely miss goals, and our indicators have not risen as predicted. We're thinking about declaring the plan a failure and cancelling it for next year. This would mean a return to traditional financing."
+initiating_dialogue: "I'm disappointed to say this, but things are not going well. Providers routinely miss goals, and our indicators have not risen as predicted. We're thinking about declaring the program a failure and cancelling it for next year. This would mean a return to traditional financing."
 
 starting_options: [return_to_traditional_financing]
 starting_options_affects: [return_to_traditional_financing]
@@ -26,13 +26,13 @@ characters:
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
     feedback: 
-      grant_providers_autonomy: "Let's schedule a meeting to discuss this at the end of the year. I might be able to persuade the Minister to give us one more year with an altered plan." # <--- symbol of the option used and the feedback text for it
+      grant_providers_autonomy: "Let's schedule a meeting to discuss this at the end of the year. I might be able to persuade the Minister to give us one more year with an altered program." # <--- symbol of the option used and the feedback text for it
 
   director_regional_health_services: # <--- character's symbol
     dialogue: "As much as it pains me to say so, I agree with the Deputy Minister. We need to change tactics."
 
   coach:
-    dialogue: "There must be another solution here. I'm committed to making this plan work. Even with new health providers taking on contracts."
+    dialogue: "There must be another solution here. I'm committed to making this program work. Even with new health providers taking on contracts."
     unlocks: [terminate_both_health_contracts_of_providers]
     unlocks_affects: [terminate_both_health_contracts_of_providers]
     feedback: 
@@ -56,4 +56,4 @@ characters:
     unlocks: [grant_providers_autonomy]
     unlocks_affects: [grant_providers_autonomy]
     feedback: 
-      terminate_hospital_contract_and_redirect_resources: "Well. This is disappointing. I was doing everything I could to make this plan work." # <--- symbol of the option used and the feedback text for it
+      terminate_hospital_contract_and_redirect_resources: "Well. This is disappointing. I was doing everything I could to make this program work." # <--- symbol of the option used and the feedback text for it

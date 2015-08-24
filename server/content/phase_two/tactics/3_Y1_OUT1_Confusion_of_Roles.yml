@@ -16,7 +16,7 @@ year: 1
 initiating_dialogue: "We haven't seen the outreach teams yet. They are supposed to be delivering services in the field already."
 
 # The dialogue the player sees when investigation has results to show
-investigate_dialogue: "My investigation showed that providers are not conducting the outreach as required by the contract. However, the ministry is requiring the providers to submit plans for outreach, and so far the ministry hasn't approved these plans."
+investigate_dialogue: "My investigation showed that providers are not conducting the outreach as required by the contract. However, the ministry is requiring the providers to submit programs for outreach, and so far the ministry hasn't approved these programs."
 
 # These are special parameters that load a cooldown array, which is defined in content/config.yml under 'cooldown:'
 # For example, specifying $config_cooldown_long will choose the key found in config.yml under:

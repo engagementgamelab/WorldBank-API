@@ -36,7 +36,7 @@ characters:
     dialogue: "Our own monitors have found hospitals mismanaging funds. They need strict guidelines to provide the necessary services. Maybe one of your verifiers or advisors can confirm?"
     narrows: [dep_minister_of_health, director_regional_health_services, ngo_manager]
     feedback:
-      grant_autonomy_to_providers_4: "If you think it's essential, we won't fight you over authority. But the plan will need to be altered to account for this change."
+      grant_autonomy_to_providers_4: "If you think it's essential, we won't fight you over authority. But the program will need to be altered to account for this change."
 
   coach:
     dialogue: "These problems have been going on for too long. The only way I see this working in the future is reducing the NGO's outsized control over the budget and granting autonomy to the providers to hire staff as needed."

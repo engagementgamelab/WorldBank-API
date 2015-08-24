@@ -24,7 +24,7 @@ characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
-    dialogue: "We're paying for the NGO to administrate the logistics of this plan, and if they aren't doing so effectively, it might help to remind them who they're working for."
+    dialogue: "We're paying for the NGO to administrate the logistics of this program, and if they aren't doing so effectively, it might help to remind them who they're working for."
     unlocks: [sanction_ngo_4]
     unlocks_affects: [sanction_ngo_4]
 

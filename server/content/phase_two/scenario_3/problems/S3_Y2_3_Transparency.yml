@@ -45,7 +45,7 @@ characters:
   clinic_manager:
     dialogue: "I told my staff to start keeping better records. I can talk to them again and stress its importance..."
     feedback: 
-      sanctions_14: "Our budget is strained as it is. I'll have to fire people. Which will make it harder to meet your goals. And so on until we have to close and your plan fails." # <--- symbol of the option used and the feedback text for it
+      sanctions_14: "Our budget is strained as it is. I'll have to fire people. Which will make it harder to meet your goals. And so on until we have to close and your program fails." # <--- symbol of the option used and the feedback text for it
       strong_sanctions_2: "This is a disaster! For such a small error? I've been bending over backwards to meet the Ministry's spartan budgeting requirements. We'll need to let staff go. I'm going to have to fire my people because you want to, what, make an example of us? Thanks for putting that on me." # <--- symbol of the option used and the feedback text for it
 
   hospital_administrator:

@@ -34,7 +34,7 @@ characters:
     unlocks_affects: [decrease_incentives]
 
   coach:
-    dialogue: "We can reduce the fee for this, but we need to think carefully about what other effects that will have on the plan."
+    dialogue: "We can reduce the fee for this, but we need to think carefully about what other effects that will have on the program."
     unlocks: [decrease_incentives]
     unlocks_affects: [decrease_incentives]
     feedback:

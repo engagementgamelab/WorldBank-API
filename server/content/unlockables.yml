@@ -146,7 +146,7 @@
   type: supply_side_resource_allocation
 
 - symbol: unlockable_contract_outside_organization_to_administer_plan
-  title: "Contract Outside Organization to Deliver Services"
+  title: "Contract Outside Organization to Administer Program"
   description:
     - "If there is poor infrastructure or government control, contracting an NGO to manage this role might be ideal."
   priority: -1
@@ -434,7 +434,7 @@
   title: "Train Locals"
 
 - symbol: stick_to_the_plan_1
-  title: "Stick to the Plan"
+  title: "Stick to the Program"
 
 - symbol: embed_nurses_1
   title: "Embed Nurses"
@@ -499,7 +499,7 @@
   title: "Increase Referral Incentives"
 
 - symbol: continue_with_plan_1
-  title: "Continue With Plan As Written"
+  title: "Continue With Program As Written"
 
 - symbol: terminate_contract_at_end_of_year_5
   title: "Terminate Contract at End of the Year"
@@ -1299,7 +1299,7 @@
   title: "Increase Facility Birth Incentives"
 
 - symbol: unlockable_continue_with_plan
-  title: "Continue With Plan as Written"
+  title: "Continue With Program as Written"
 
 - symbol: unlockable_give_permission
   title: "Give Permission"
@@ -1423,7 +1423,7 @@
 # -------------------------- #
 
 - symbol: unlockable_continue_with_plan_aesthetic
-  title: "Continue With Plan Aesthetic"
+  title: "Continue With Program Aesthetic"
 
 - symbol: unlockable_grant_permission
   title: "Grant Permission"
@@ -1447,7 +1447,7 @@
 # -------------------------- #
 
 - symbol: unlockable_terminate_contract_at_end_of_year
-  title: "Terminate Contract at End of Year and Return to Pre-plan Shipping Methods"
+  title: "Terminate Contract at End of Year and Return to Pre-Program Shipping Methods"
 
 - symbol: unlockable_hire_another_ground_based_service
   title: "Hire Another Ground-Based Service"

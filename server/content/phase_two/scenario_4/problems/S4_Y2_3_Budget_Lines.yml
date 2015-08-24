@@ -40,7 +40,7 @@ characters:
       move_authority_to_ministry_3: "I really thought we were supposed to handle this, but if the Ministry wants to, that's fine."
 
   coach:
-    dialogue: "Hate to say it, but the NGO has too much power over the budget. We should alter the plan to allow providers to make these decisions at their level."
+    dialogue: "Hate to say it, but the NGO has too much power over the budget. We should alter the program to allow providers to make these decisions at their level."
     unlocks: [grant_autonomy_to_providers_2] # <--- these probably will symbols
     unlocks_affects: [grant_autonomy_to_providers_2]
 

@@ -52,7 +52,7 @@ characters:
       incentivise_facility_births_1: "That will make this a good deal easier for us."
 
   health_provider_3:
-    dialogue: "You should accept more traditional techniques into your plan. People should have the choice, don't you think?"
+    dialogue: "You should accept more traditional techniques into your program. People should have the choice, don't you think?"
     unlocks: [broaden_services_1]
     unlocks_affects: [broaden_services_1]
     feedback:

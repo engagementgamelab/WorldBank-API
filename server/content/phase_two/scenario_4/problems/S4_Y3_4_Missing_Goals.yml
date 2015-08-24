@@ -12,7 +12,7 @@ name: "Missing Goals"
 priority: 12
 
 initiating_npc: dep_minister_of_health # <--- character's symbol
-initiating_dialogue: "I hate to say it, but things are not going well. The NGO routinely misses its goals, and our indicators have not risen as predicted. We're thinking about declaring the plan a failure, cancelling it next year, and returning to traditional financing."
+initiating_dialogue: "I hate to say it, but things are not going well. The NGO routinely misses its goals, and our indicators have not risen as predicted. We're thinking about declaring the program a failure, cancelling it next year, and returning to traditional financing."
 
 starting_options: [return_to_traditional_financing_2]
 starting_options_affects: [return_to_traditional_financing_2]
@@ -34,10 +34,10 @@ characters:
     unlocks_affects: [terminate_hospital_contract_1]
     feedback:
       terminate_ngo_contract_8: "If we couldn't make this work, nobody can. The past three years have been an unmitigated disaster."
-      grant_autonomy_to_providers_5: "Let's schedule a meeting to discuss this at the end of the year. I might be able to persuade the Minister to give us one more year with an altered plan."
+      grant_autonomy_to_providers_5: "Let's schedule a meeting to discuss this at the end of the year. I might be able to persuade the Minister to give us one more year with an altered program."
 
   coach:
-    dialogue: "There must be another solution here. I'm committed to making this plan work. Even with new health providers and without the assistance of the NGO."
+    dialogue: "There must be another solution here. I'm committed to making this program work. Even with new health providers and without the assistance of the NGO."
     unlocks: [terminate_ngo_contract_8] # <--- these probably will symbols
     unlocks_affects: [terminate_ngo_contract_8]
     feedback:
@@ -54,4 +54,4 @@ characters:
     unlocks: [grant_autonomy_to_providers_5]
     unlocks_affects: [grant_autonomy_to_providers_5]
     feedback:
-      terminate_hospital_contract_1: "This is so disappointing. I did everything I could to make this plan work and help people."
+      terminate_hospital_contract_1: "This is so disappointing. I did everything I could to make this program work and help people."
