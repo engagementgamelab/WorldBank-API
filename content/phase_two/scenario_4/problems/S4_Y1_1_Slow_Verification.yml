@@ -12,7 +12,7 @@ name: "Slow Verification"
 priority: 1
 
 initiating_npc: ngo_manager # <--- character's symbol
-initiating_dialogue: "I need a little help here. The independent verifier and the Hospital Administrator have built a coalition to box us out of the verification process. This plan gives us the authority to verify any and all reports, but they're pushing back."
+initiating_dialogue: "I need a little help here. The independent verifier and the Hospital Administrator have built a coalition to box us out of the verification process. This program gives us the authority to verify any and all reports, but they're pushing back."
 
 starting_options: [warn_verifier_2]
 starting_options_affects: [warn_verifier_2]
@@ -38,7 +38,7 @@ characters:
     feedback:
       revert_counterverification_1: "You hired us to manage this! Why not give us a chance?"
   coach:
-    dialogue: "The plan spreads authority across multiple stakeholders, including the Ministry of Health. Whether it's a good thing or a bad thing, that's on them. Let's send around a memo."
+    dialogue: "The program spreads authority across multiple stakeholders, including the Ministry of Health. Whether it's a good thing or a bad thing, that's on them. Let's send around a memo."
     unlocks: [circulate_memo_reaffirming_ministry_authority_2]
     unlocks_affects: [circulate_memo_reaffirming_ministry_authority_2]
     feedback:

@@ -24,7 +24,7 @@ dialogue:
       text: 
         - "\"I have two sons and a daughter, a husband and a brother,\" she explains. When you ask about their health care, particularly whether her children have been immunized, she shrugs, looking a little guilty. \"I barely have time to do what needs doing here, you know? Between doing my work and taking care of basic needs, who has time to think about health care, let alone visit a clinic? Taking care of basics like food and water, and a roof that does not leak is far more important. I have heard that the government is introducing a welfare program for people like me. That will help, but I still don't see the purpose of going to a health facility to vaccinate my children when they are not sick.\""
       unlocks: [unlockable_conditional_cash_transfer]
-      unlocks_context: ["People are concerned with leaking roofs. An organized social welfare scheme could make visiting health services a condition of the plan."]
+      unlocks_context: ["People are concerned with leaking roofs. An organized social welfare scheme could make visiting health services a condition of the program."]
     Pride: 
       text: 
         - "\"I guess I am proud of it,\" she smiles. \"My family has farmed this land for generations. Soon my children will be old enough to contribute, and carry our family on to the next generation. This makes me very happy. It's not just about feeding ourselves. This isn't some plantation like Crup. We work for ourselves here and value the way that we connect with the land as we have done for generations.\""

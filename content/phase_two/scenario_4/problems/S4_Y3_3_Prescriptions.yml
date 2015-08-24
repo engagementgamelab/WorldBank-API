@@ -45,7 +45,7 @@ characters:
     unlocks_affects: [tie_incentives_directly_to_protocol_2]
     feedback:
       reduce_incentives_for_customer_service_2: "I know I pushed hard for patient satisfaction, but that might have been... misguided. Let's implement this and see what happens."
-      tie_incentives_directly_to_protocol_2: "I'll work on implementing this change. I think this will prove to be a turning point in the plan."
+      tie_incentives_directly_to_protocol_2: "I'll work on implementing this change. I think this will prove to be a turning point in the program."
       terminate_contract_at_end_of_year_10: "I'll inform the NGO and begin transitioning into contracting directly with providers early next year."
 
   third_party_verifier:

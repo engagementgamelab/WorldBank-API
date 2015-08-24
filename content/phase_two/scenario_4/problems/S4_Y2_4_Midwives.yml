@@ -42,7 +42,7 @@ characters:
       request_budget_for_more_midwives_1: "We can allow this, but we'll pay close attention to the results."
 
   coach:
-    dialogue: "The Hospital Administrator has complained to me in private about not being able to hire staff members without NGO approval. The plan is set up that way, but if we granted them autonomy to make hiring choices, things would run more smoothly."
+    dialogue: "The Hospital Administrator has complained to me in private about not being able to hire staff members without NGO approval. The program is set up that way, but if we granted them autonomy to make hiring choices, things would run more smoothly."
     unlocks: [grant_autonomy_to_providers_3] # <--- these probably will symbols
     unlocks_affects: [grant_autonomy_to_providers_3]
     feedback:

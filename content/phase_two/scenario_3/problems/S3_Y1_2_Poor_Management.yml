@@ -50,6 +50,6 @@ characters:
     dialogue: "I don't know about the hospital, we're trying to meet goals without a lot of supplies or money to buy more."
 
   hospital_administrator:
-    dialogue: "We're doing our best here. The plan is complicated, and not all my people have had time to look at it while treating patients, filing their records, that sort of thing. We'll get used to operating within the budget soon."
+    dialogue: "We're doing our best here. The program is complicated, and not all my people have had time to look at it while treating patients, filing their records, that sort of thing. We'll get used to operating within the budget soon."
     feedback:
       warning_and_retraining_2: "We are trying to work with the money we have. We don't need to be chastised for that."
