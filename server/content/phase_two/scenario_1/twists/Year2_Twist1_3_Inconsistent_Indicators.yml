@@ -14,7 +14,7 @@ year: 2
 twist: 1
 
 initiating_npc: dep_minister_of_health # <--- character's symbol
-initiating_dialogue: "We are seeing some indicators rise while others stay stagnant. Hospital births are barely rising, though checkups and vaccination rates are improving. We need to see all indicators rising!"
+initiating_dialogue: "We are seeing some indicators rise while others stay stagnant. Hospital births are barely rising, though ANC checkups and vaccination rates are improving. We need to see all indicators rising!"
 
 starting_options: [revise_indicators_at_end_of_year_3]
 starting_options_affects: [revise_indicators_at_end_of_year_3]
@@ -27,14 +27,14 @@ final_options_cost: [small, small, small, small]
 characters:
 
   director_regional_health_services:
-    dialogue: "Hiring more traveling nurses to staff facilities near settlements is my suggestion."
+    dialogue: "Hiring more outreach nurses to staff facilities near communities is my suggestion."
     unlocks: [expand_travelling_nurses_2]
     unlocks_affects: [expand_travelling_nurses_2]
     feedback: 
       expand_travelling_nurses_2: "This makes a good deal of sense to me."
 
   coach:
-    dialogue: "Perhaps the indicators need to be reviewed at the end of the year?"
+    dialogue: "Perhaps the indicator goals need to be reviewed at the end of the year?"
     feedback:
       revise_indicators_at_end_of_year_3: "It might make sense to revise these goals down."
 

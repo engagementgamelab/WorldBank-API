@@ -14,7 +14,7 @@ year: 2
 twist: 1
 
 initiating_npc: coach # <--- character's symbol
-initiating_dialogue: "I was visiting the hospital of Provider 2 for my quarterly audit, and they are still mismanaging funds. The business plan has clear guidelines they are not sticking to."
+initiating_dialogue: "I was visiting the hospital for my coaching meeting, and they are still not following the clear fund management guidelines. I think they're pretty clear, why aren't they sticking to them?"
 
 starting_options: [warning_8, retrain_1]
 starting_options_affects: [warning_8, retrain_1]
