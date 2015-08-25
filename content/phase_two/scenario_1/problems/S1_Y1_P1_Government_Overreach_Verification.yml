@@ -13,15 +13,15 @@ priority: 1
 year: 1
 
 initiating_npc: hospital_administrator # <--- character's symbol
-initiating_dialogue: "The ministry has asked us to send copies of all our reports to them for verification. I thought that was supposed to stop that and send only to the third party verifier? I guess I'm still a little confused."
+initiating_dialogue: "The ministry has asked us to send copies of all our reports to them for verification. I thought that was supposed to stop and we would only send reports to the third party verifier? I guess I'm still a little confused."
 
 starting_options: [comply_with_ministry_1]
 starting_options_affects: [comply_with_ministry_1]
 starting_options_cost: [small]
 
-final_options: [comply_with_ministry_1, authorize_providers_to_take_action_at_their_level_1, clarify_separation_of_functions_1]
-final_options_affects: [comply_with_ministry_1, authorize_providers_to_take_action_at_their_level_1, clarify_separation_of_functions_1]
-final_options_cost: [small, small, medium]
+final_options: [comply_with_ministry_1, clarify_separation_of_functions_1]
+final_options_affects: [comply_with_ministry_1, clarify_separation_of_functions_1]
+final_options_cost: [small, medium]
 
 characters:
 
@@ -36,9 +36,9 @@ characters:
     dialogue: "I know the Minister of Health fairly well, and I can tell you that things go more smoothly if you're cooperative."
 
   coach:
-    dialogue: "Duplicating efforts seems to be hampering the health providers. I'd either clarify everyone's roles for them, or empower health providers to push back somehow."
-    unlocks: [clarify_separation_of_functions_1, authorize_providers_to_take_action_at_their_level_1] # <--- these probably will symbols
-    unlocks_affects: [clarify_separation_of_functions_1, authorize_providers_to_take_action_at_their_level_1]
+    dialogue: "Duplicating efforts seems to be hampering the health providers. I'd clarify everyone's roles for them."
+    unlocks: [clarify_separation_of_functions_1] # <--- these probably will symbols
+    unlocks_affects: [clarify_separation_of_functions_1]
 
   third_party_verifier:
     dialogue: "I didn't know about this. If the Ministry is doubling our verification efforts, it could prove very confusing to the providers."
@@ -54,4 +54,3 @@ characters:
   hospital_administrator:
     feedback:
       comply_with_ministry_1: "OK, we'll do our best."
-      authorize_providers_to_take_action_at_their_level_1: "OK I'll bring it up the next time they send in their request, however, I will need some technical support to convince the ministry decision makers."

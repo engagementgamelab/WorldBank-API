@@ -8,19 +8,19 @@
 # Phase Two Scenario Card YML Example
 
 symbol: dodging_responsibility
-name: "Dodging Responsibility"
+name: "Avoiding Responsibility"
 priority: 4
 year: 1
 
 initiating_npc: coach # <--- character's symbol
-initiating_dialogue: "I requested a meeting with the Clinic Manager recently to go over their record-keeping practices, but it keeps getting rescheduled and canceled. I can't get a firm commitment from them. It is a little suspicious, frankly."
+initiating_dialogue: "I requested a meeting with the Clinic Manager recently to go over practices for making information on their performance publicly available. They keep rescheduling and canceling, but the performance score makes it clear that they are not performing on this."
 
 starting_options: [warning_1]
 starting_options_affects: [warning_1]
 starting_options_cost: [small]
 
-final_options: [warning_1, revise_business_plan_to_include_regular_meetings_1, terminate_contract_effective_end_of_year_2]
-final_options_affects: [warning_1, revise_business_plan_to_include_regular_meetings_1, terminate_contract_effective_end_of_year_2]
+final_options: [warning_1, revise_business_plan_to_include_regular_meetings_1, continue_with_plan_2]
+final_options_affects: [warning_1, revise_business_plan_to_include_transparency_1, continue_with_plan_2]
 final_options_cost: [small, large, large]
 
 
@@ -28,31 +28,31 @@ characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
-    dialogue: "There are other health providers in the region we could use. It seems this one is becoming more difficult to work with. It might be worth discussing their contract with the purchasing agency."
-    unlocks: [terminate_contract_effective_end_of_year_2]
-    unlocks_affects: [terminate_contract_effective_end_of_year_2]
+    dialogue: "I don't think this is a big issue, and we have other more urgent things to worry about."
+    unlocks: [continue_with_plan_2]
+    unlocks_affects: [continue_with_plan_2]
 
 
   director_regional_health_services:
-    dialogue: "I have experienced similar problems with this provider. It is hard to schedule their time. More regular meeting times might help."
-    unlocks: [revise_business_plan_to_include_regular_meetings_1]
-    unlocks_affects: [revise_business_plan_to_include_regular_meetings_1]
+    dialogue: "I have experienced similar problems with this provider. It is hard to schedule their time. Transparency to the community is a key priority to ensure in their next business plan."
+    unlocks: [revise_business_plan_to_include_transparency_1]
+    unlocks_affects: [revise_business_plan_to_include_transparency_1]
 
   coach:
     feedback: 
-      terminate_contract_effective_end_of_year_2: "That's pretty drastic. Let's discuss this at the end of the year. I'll make it clear to them they are on notice."
+      continue_with_plan_2: "Quality is a very important area, this is a missed opportunity. They are losing out on many more resources linked to that indicator."
 
   third_party_verifier:
-    dialogue: "That does sound suspicious. I'll be looking carefully at their records this quarter." 
+    dialogue: "Community transparency does not seem to be high on their agenda, so, yes, they are performing low on their quality score." 
 
   community_verifier:
     dialogue: "This is a little outside of my purview."
 
   clinic_manager:
-    dialogue: "I think you underestimate just how busy we have been with outreach and patient care. We are not a large staff, and our time is very precious. Maybe next month things will be slower."
+    dialogue: "I think you underestimate just how busy we have been with outreach and patient care. We are not a large staff, and our time is very precious. Maybe next quarter things will be slower and we can focus on this."
     feedback: 
       warning_1: "I'm sure I'll have some time next quarter once our busiest time dies down."
-      revise_business_plan_to_include_regular_meetings_1: "That will be extremely dicey. We are tight on time as it is. I'll see what I can do, though."
+      revise_business_plan_to_include_transparency_1: "Hopefully things will be less busy so we can focus on that. If it can bring in more resources, then it's worth exploring."
 
   hospital_administrator:
     dialogue: "I've observed the clinics we're talking about a number of times, and there's never enough time and money to go around."

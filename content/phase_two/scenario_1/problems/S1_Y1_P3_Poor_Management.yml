@@ -13,7 +13,7 @@ priority: 3
 year: 1
 
 initiating_npc: coach # <--- character's symbol
-initiating_dialogue: "I have been reviewing the Hospital's business plan with the administrator, and their funds are being mismanaged. They are operating at a loss, even with our payments. It's because of unwise spending habits."
+initiating_dialogue: "I have been reviewing the Hospital's business plan with the administrator, and they do not seem to manage their funds very well. They are operating at a loss, even with our payments. It's because of unwise spending habits."
 
 starting_options: [warning_and_retraining_1, terminate_contract_effective_end_of_year_1]
 starting_options_affects: [warning_and_retraining_1, terminate_contract_effective_end_of_year_1]
@@ -38,7 +38,7 @@ characters:
       terminate_contract_effective_end_of_year_1: "It seems early to terminate their contract, but let's review at year's end. In the meantime, I will be observing and offering ways to improve."
 
   third_party_verifier:
-    dialogue: "The data we've been seeing from this provider does indicate fund mismanagement." 
+    dialogue: "It seems this hospital has not been able to increase their performance very well." 
 
   community_verifier:
     dialogue: "I would talk directly to them if I were you."

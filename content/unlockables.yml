@@ -258,9 +258,6 @@
 - symbol: comply_with_ministry_1
   title: "Comply with the Ministry"
 
-- symbol: authorize_providers_to_take_action_at_their_level_1
-  title: "Authorize providers to take action at their level"
-
 - symbol: clarify_separation_of_functions_1
   title: "Clarify the separation of functions and responsibilities"
 # ------------------ 
@@ -303,14 +300,17 @@
 # ------------------
 # Mismanagement - S1_Y2_P1
 # ------------------
-- symbol: warning_2
-  title: "Give warning"
+- symbol: sanctions_17
+  title: "Sanctions"
 
-- symbol: sanctions_and_retraining_on_use_of_financial_tools
-  title: "Set sanctions and retrain using financial tools"
+- symbol: retraining_on_use_of_financial_tools
+  title: "Retrain on using financial tools"
 
 - symbol: revise_business_plan_1
   title: "Revise the business plan"
+
+- symbol: audit_2
+  title: "Conduct an Audit"
 # ------------------
 # Lack of Transparency - S1_Y2_P2
 # ------------------
@@ -320,8 +320,8 @@
 - symbol: mild_sanctions 
   title: "Establish mild sanctions"
 
-- symbol: strong_sanctions
-  title:  "Establish strong sanctions"
+- symbol: terminate_contract
+  title:  "Terminate Contract at End of Year"
 # ------------------
 # Inconsistent Indicators - S1_Y2_P3
 # ------------------
@@ -341,9 +341,6 @@
 
 - symbol: terminate_contract_at_end_of_year_3
   title: "Terminate this contract at the end of the year"
-
-- symbol: audit
-  title: "Conduct audit"
 
 - symbol: capacity_building
   title: "Build capacity"
@@ -375,12 +372,12 @@
   title: "Clarify the separation of functions"
 
 - symbol: revise_business_plan_2
-  title: "Revise business plan"
+  title: "Revise RBF Manual"
 # ------------------
 # Failed Inspection - S1_Y3_P3
 # ------------------
 - symbol: review_the_inspection
-  title: "Review the inspection"
+  title: "Review the Quality Indicator Assessment"
 
 - symbol: warning_6
   title: "Give warning"
@@ -394,7 +391,7 @@
   title: "Expand the hospital staff by hiring new employees"
 
 - symbol: expand_hiring_at_all_facilities
-  title: "Expand hiring at all facilities"
+  title: "Increase Incentives for all Facilities"
 
 - symbol: award_bonuses_to_hospital_staff
   title: "Award bonuses to hospital staff"

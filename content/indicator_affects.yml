@@ -16,11 +16,6 @@ comply_with_ministry_1:
   indicator_2: 0
   indicator_3: -1
 
-authorize_providers_to_take_action_at_their_level_1:
-  indicator_1: +1
-  indicator_2: +1
-  indicator_3: 0
-
 clarify_separation_of_functions_1:
   indicator_1: +1
   indicator_2: +1
@@ -68,12 +63,12 @@ warning_1:
   indicator_2: 0
   indicator_3: +1
 
-terminate_contract_effective_end_of_year_2:
+continue_with_plan_2:
   indicator_1: -2
   indicator_2: -4
   indicator_3: -3
 
-revise_business_plan_to_include_regular_meetings_1:
+revise_business_plan_to_include_transparency_1:
   indicator_1: +1
   indicator_2: +1
   indicator_3: +2
@@ -84,17 +79,22 @@ revise_business_plan_to_include_regular_meetings_1:
 # Mismanagement - S1_Y2_P1
 # ------------------
 
-warning_2:
+sanctions_17:
   indicator_1: +1
   indicator_2: 0
   indicator_3: +1
 
-sanctions_and_retraining_on_use_of_financial_tools:
+retraining_on_use_of_financial_tools:
   indicator_1: +2
   indicator_2: +1
   indicator_3: +1 
 
 revise_business_plan_1:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+audit_2:
   indicator_1: 0
   indicator_2: 0
   indicator_3: 0
@@ -114,7 +114,7 @@ mild_sanctions:
   indicator_2: -1
   indicator_3: +1
 
-strong_sanctions:
+terminate_contract:
   indicator_1: 0
   indicator_2: -1
   indicator_3: +1
@@ -152,11 +152,6 @@ terminate_contract_at_end_of_year_3:
   indicator_1: 0
   indicator_2: 0
   indicator_3: 0
-
-audit:
-  indicator_1: +1
-  indicator_2: 0
-  indicator_3: +1
 
 capacity_building:
   indicator_1: 0
@@ -211,7 +206,7 @@ review_the_inspection:
   indicator_2: +1
   indicator_3: +2
 
-warning_6:
+revise_business_plan_7:
   indicator_1: +1
   indicator_2: 0
   indicator_3: +1
