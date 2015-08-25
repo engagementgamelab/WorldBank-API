@@ -1063,31 +1063,15 @@ grant_providers_autonomy:
 #------------------
 # Slow Verification - S4_Y1_1
 #------------------
-warn_verifier_2:
+request_expedited_payment_1:
   indicator_1: 0
   indicator_2: 0
   indicator_3: -1
 
-revert_counterverification_1:
+speed_third_party_hire_1:
   indicator_1: 0
   indicator_2: 0
   indicator_3: 0
-
-streamline_speed_verification_process_2:
-  indicator_1: +1
-  indicator_2: 0
-  indicator_3: 0
-
-circulate_memo_reaffirming_ministry_authority_2:
-  indicator_1: -1
-  indicator_2: -1
-  indicator_3: 0
-
-ask_reduce_oversight_2:
-  Indicator_1: 0
-  indicator_2: +2
-  indicator_3: +1
-  
 #------------------
 # Process V Results - S4_Y1_2
 #------------------
@@ -1150,7 +1134,7 @@ grant_facilities_autonomy_2:
   indicator_2: +3
   indicator_3: +3
 
-warn_providers_3:
+increase_ngo_autonomy_1:
   indicator_1: 0
   indicator_2: 0
   indicator_3: -2
@@ -1161,6 +1145,11 @@ warn_ngo_5:
   indicator_1: 0
   indicator_2: 0
   indicator_3: +1
+
+increase_ngo_autonomy_2:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: -2
 
 sanction_ngo_4:
   indicator_1: 0
@@ -1211,6 +1200,11 @@ grant_autonomy_to_providers_2:
   indicator_1: +3
   indicator_2: +3
   indicator_3: +3
+
+clarify_roles_1:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
 #------------------
 # Midwives S4_Y2_4
 #------------------
@@ -1219,7 +1213,7 @@ request_budget_for_more_midwives_1:
   indicator_2: +1
   indicator_3: 0
 
-allow_outreach_staff_to_act_as_midwives_2:
+travel_vouchers_1:
   indicator_1: 0
   indicator_2: +2
   indicator_3: -5

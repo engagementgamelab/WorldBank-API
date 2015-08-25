@@ -962,20 +962,11 @@
 # Slow Verification - S4_Y1_1
 #------------------
 
-- symbol: warn_verifier_2
-  title: "Warn Third-Party Verifier"
+- symbol: request_expedited_payment_1
+  title: "Request Expedited Payment from Ministry"
 
-- symbol: revert_counterverification_1
-  title: "Revert Counterverification to the Ministry"
-
-- symbol: streamline_speed_verification_process_2
-  title: "Streamline Ministry's Process to Speed Verification"
-
-- symbol: circulate_memo_reaffirming_ministry_authority_2
-  title: "Circulate Memo Reaffirming Ministry Authority"
-
-- symbol: ask_reduce_oversight_2
-  title: "Ask Ministry to Reduce Oversight"
+- symbol: speed_third_party_hire_1
+  title: "Speed Hire of Third Party Verifier"
 #------------------
 # Process V Results - S4_Y1_2
 #------------------
@@ -1014,10 +1005,10 @@
   title: "Increase Supply Budget"
 
 - symbol: grant_facilities_autonomy_2
-  title: "Grant Facilities Autonomy to Order Supplies"
+  title: "Grant Facilities Autonomy to Order or Purchase Supplies"
 
-- symbol: warn_providers_3
-  title: "Warn Providers"
+- symbol: increase_ngo_autonomy_1
+  title: "Increase NGO Autonomy"
 # ------------------- #
 # Scenario 4 - Year 2
 # ------------------- #
@@ -1026,6 +1017,9 @@
 #------------------
 - symbol: warn_ngo_5
   title: "Warn NGO"
+
+- symbol: increase_ngo_autonomy_2
+  title: "Increase NGO Autonomy"
 
 - symbol: sanction_ngo_4
   title: "Sanction NGO"
@@ -1042,7 +1036,7 @@
   title: "Terminate Contract at End of Year"
 
 - symbol: increase_funding_for_ngo_2
-  title: "Increase Funding for NGO"
+  title: "Revise Fees for Indicators"
 
 - symbol: terminate_contract_at_end_of_year_9
   title: "Terminate Contract at End of Year"
@@ -1060,13 +1054,16 @@
 
 - symbol: grant_autonomy_to_providers_2
   title: "Grant Autonomy to Providers"
+
+- symbol: clarify_roles_1
+  title: "Clarification of Roles"
 #------------------
 # Midwives S4_Y2_4
 #------------------
 - symbol: request_budget_for_more_midwives_1
   title: "Request Budget Line for More Midwives"
 
-- symbol: allow_outreach_staff_to_act_as_midwives_2
+- symbol: travel_vouchers_1
   title: "Allow Outreach Staff to Act as Midwives"
 
 - symbol: grant_autonomy_to_providers_3
