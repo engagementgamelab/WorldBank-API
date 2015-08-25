@@ -13,7 +13,7 @@ priority: 4
 year: 1
 
 initiating_npc: director_regional_health_services
-initiating_dialogue: "My hospitals can't hire good staff because the NGO is strangling the budget. I don't know how they expect to reach their goals if they won't let us give good care."
+initiating_dialogue: "The NGOs will not reach their targets unless they hire more staff to work in the hospitals, otherwise they will be unable to provide good quality of care."
 
 starting_options: [comply_with_ngo_budget_1]
 starting_options_affects: [comply_with_ngo_budget_1]
@@ -26,7 +26,7 @@ final_options_cost: [small, small, small]
 characters:
 
   dep_minister_of_health: 
-    dialogue: "We have a pretty good sense of how budgeting worked and where we can improve it if you give us the authority."
+    dialogue: "We have a pretty good sense of how staffing worked and where we can improve it if you give us the authority to recruit."
     unlocks: [move_authority_to_ministry_1]
     unlocks_affects: [move_authority_to_ministry_1]
 
@@ -35,13 +35,13 @@ characters:
       comply_with_ngo_budget_1: "OK, we'll make do. We always have."
 
   ngo_manager:
-    dialogue: "This is results based financing. We're responsible for the results, so let us decide on the financing."
+    dialogue: "This is results based financing. We're responsible for the results, so let us decide on how to use the financing."
     feedback:
-      clarification_of_roles_2: "We can just focus on this, then. That works for me."
-      move_authority_to_ministry_1: "I really thought we were supposed to handle this, but if they Ministry wants to, that's fine." 
+      clarification_of_roles_2: "It would be helpful for you to reiterate that we have autonomy on how to use the resources to achieve the target results."
+      move_authority_to_ministry_1: "I really thought we were supposed to handle this, but if they Ministry wants to, that is fine." 
 
   coach:
-    dialogue: "We can probably handle this without a lot of shuffling. Just remind everyone what they're supposed to be doing."
+    dialogue: "We can probably handle this without a lot of drama. Just remind everyone what they're supposed to be doing."
     unlocks: [clarification_of_roles_2]
     unlocks_affects: [clarification_of_roles_2]
 
@@ -52,5 +52,5 @@ characters:
     dialogue: "My only concern is people not getting care because the budget keeps getting tied up in arguments."
 
   hospital_administrator:
-    dialogue: "Will you talk to the Dep. Minister? I have hiring to do, and that's a lot of paperwork. Have you done hiring before? There is a lot of paperwork!"
-    narrows: [director_regional_health_services, ngo_manager, third_party_verifier, community_verifier, hospital_administrator]
+    dialogue: "We definitely need more staff. I've already highlighted this to the NGO."
+    narrows: [director_regional_health_services, dep_minister_of_health, third_party_verifier, community_verifier, hospital_administrator]

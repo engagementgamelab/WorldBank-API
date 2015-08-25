@@ -19,34 +19,31 @@ starting_options: [clarification_of_roles_4]
 starting_options_affects: [clarification_of_roles_4]
 starting_options_cost: [small]
 
-final_options: [clarification_of_roles_4, move_authority_to_ministry_2, comply_with_ngo_budget_2]
-final_options_affects: [clarification_of_roles_4, move_authority_to_ministry_2, comply_with_ngo_budget_2]
+final_options: [clarification_of_roles_4, cancel_ngo_contract_1, loosen_drug_control_1]
+final_options_affects: [clarification_of_roles_4, cancel_ngo_contract_1, loosen_drug_control_1]
 starting_options_cost: [small, small, small]
 
 characters:
 
   dep_minister_of_health: 
-    dialogue: "We've been whittling down whose job is whose throughout this process, so you don't have to tell me this isn't my place, but were it up to me, I'd cancel the NGO contract."
-    unlocks: [clarification_of_roles_4]
-    unlocks_affects: [clarification_of_roles_4]
-
+    dialogue: "We've spoken directly with the NGO a number of times on this. We are emphatic when we say we control the drugs, not them. They should focus on delivering services."
 
   director_regional_health_services:
-    dialogue: "The Ministry of Health has been handling these budgets for a long time. It wasn't perfect, but it worked better than this."
-    unlocks: [move_authority_to_ministry_2]
-    unlocks_affects: [move_authority_to_ministry_2]
+    dialogue: "We've been whittling down whose job is whose throughout this process, so you don't have to tell me this isn't my place, but were it up to me, I'd cancel the NGO contract."
+    unlocks: [cancel_ngo_contract_1]
+    unlocks_affects: [cancel_ngo_contract_1]
 
   ngo_manager: 
-    dialogue: "I know that to the Hospital Administrator, these stipulations seem really stringent, but you brought us on in part to reign in spending."
-    unlocks: [comply_with_ngo_budget_2]
-    unlocks_affects: [comply_with_ngo_budget_2]
+    dialogue: "We are doing our best to deliver these services, but the government controls the drugs, not us. We try to treat as many patients as we can, but if the Ministry strangles our supply, it doesn't work."
+    unlocks: [loosen_drug_control_1]
+    unlocks_affects: [loosen_drug_control_1]
     feedback:
-        clarification_of_roles_4: "OK. I'm just trying to make this work as smoothly and efficiently as possible."
+      clarification_of_roles_4: "OK. I'm just trying to make this work as smoothly and efficiently as possible."
+      cancel_ngo_contract_1: "I don't understand why you brought us on in the first place if you were going to fire us for doing the work."
+      loosen_drug_control_1: "That will help a great deal. This way we can ensure the proper medications get where they need to go, at the right cost."
 
   coach:
     dialogue: "I'll ask, because this seems to be an ongoing problem: is that the NGO's position? They seem to be overstepping their role."
-    feedback:
-        move_authority_to_ministry: "The Ministry already has a lot going on, but I guess they can handle local hospital budgeting, too."
 
   third_party_verifier:
     dialogue: "If they can't agree on a budget, I'm not going to have any cases to verify. And I like my job."
@@ -57,4 +54,4 @@ characters:
 
   hospital_administrator:
     feedback:
-        comply_with_ngo_budget_2: "I'll comply, but I'll have to cut that money from somewhere."
+      comply_with_ngo_budget_2: "I'll comply, but I'll have to cut that money from somewhere."

@@ -675,12 +675,12 @@ clarification_of_roles_4:
   indicator_2: +1
   indicator_3: +1
 
-move_authority_to_ministry_2:
+cancel_ngo_contract_1:
   indicator_1: 0
   indicator_2: 0
   indicator_3: 0
 
-comply_with_ngo_budget_2:
+loosen_drug_control_1:
   indicator_1: -1
   indicator_2: -2
   indicator_3: -2
@@ -698,7 +698,7 @@ clarification_of_roles_5:
   indicator_2: 0
   indicator_3: 0
 
-hire_agency:
+ask_ministry_to_speed_payment_1:
   indicator_1: +2
   indicator_2: +1
   indicator_3: +2
@@ -758,20 +758,25 @@ clarification_of_roles_7:
   indicator_2: 0
   indicator_3: +1
 
-terminate_ngo_contract_5:
+include_approval_ngo_curriculum:
   indicator_1: 0
   indicator_2: 0
   indicator_3: 0
 
-sanction_ngo_1:
+warn_ngo_6:
   indicator_1: 0
   indicator_2: 0
+  indicator_3: -1
+
+allow_private_curriculum:
+  indicator_1: -1
+  indicator_2: -1
   indicator_3: -1
 
 #------------------
 # Poor Stewardship - S2_Y3_P4
 #------------------
-clarification_of_roles_8:
+warn_ngo_7:
   indicator_1: -1
   indicator_2: -1
   indicator_3: -1
