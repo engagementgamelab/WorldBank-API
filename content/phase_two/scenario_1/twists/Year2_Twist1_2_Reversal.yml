@@ -36,11 +36,11 @@ characters:
     unlocks_affects: [embed_nurses_1]
 
   coach:
-    dialogue: "If they won't come to facilities, having trained people near them is better than nothing. Why not expand our travelling nurses program instead, though?"
+    dialogue: "If they won't come to facilities, having trained people near them is better than nothing. Why not expand our outreach program instead, though?"
     unlocks: [expand_travelling_nurses_1]
     unlocks_affects: [expand_travelling_nurses_1]
     feedback:
-      embed_nurses_1: "An interesting idea. I'll help facilitate this as best I can."
+      embed_nurses_1: "An interesting idea. I'll help facilitate this as best I can, but we'll have to keep an eye on things."
 
   third_party_verifier:
     dialogue: "Wow, uh, I'm not really sure what I would do in your shoes. That might be in somebody else's job description, though."
@@ -51,7 +51,7 @@ characters:
   hospital_administrator:
     dialogue: "Sorry, I'm kind of up to my elbows in work here. I don't know if I have much advice to contribute to this situation."
     feedback:
-      expand_travelling_nurses_1: "It will take some time to do this, and there is a shortage of qualified people, but I will do my best."
+      expand_travelling_nurses_1: "It will take some time to do this, and there is a shortage of qualified people, but it may be the best of our options."
 
   health_provider_3:
     feedback:

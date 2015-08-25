@@ -342,6 +342,11 @@ terminate_contract_at_end_of_year_4:
   indicator_1: -1
   indicator_2: -3
   indicator_3: +2
+
+create_new_guidelines_1:
+  indicator_1: +1
+  indicator_2: 0
+  indicator_3: +1
 # ------------------
 # Wrong Numbers - S1_T1_Y3_P1
 # ------------------

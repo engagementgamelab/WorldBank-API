@@ -36,7 +36,7 @@ characters:
     dialogue: "This is just one of their negotiation tactics. Don't indulge them, and they will fall into place again."
 
   coach:
-    dialogue: "Can we afford to pay them more?"
+    dialogue: "Can we afford to pay them more? If so, that may just solve it."
 
   third_party_verifier: 
     dialogue: "Sorry, I'm kind of up to my elbows in work here, I don't know if I have much advice to contribute to this situation."

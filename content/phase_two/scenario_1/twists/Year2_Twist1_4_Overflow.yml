@@ -15,15 +15,15 @@ twist: 1
 
 
 initiating_npc: third_party_verifier # <--- character's symbol
-initiating_dialogue: "We have more referrals than expected from the traditional medicine practitioners. It looks like some people are going more than once."
+initiating_dialogue: "We have more referrals than expected from the traditional medicine practitioners. It looks like some people are visiting clinics when it is not necessarily needed."
 
 starting_options: [warning_9, sanctions_4]
 starting_options_affects: [warning_9, sanctions_4]
 starting_options_cost: [small, small]
 
-final_options: [warning_9, sanctions_4, increase_scrutiny_1, terminate_contract_at_end_of_year_4]
-final_options_affects: [warning_9, sanctions_4, increase_scrutiny_1, terminate_contract_at_end_of_year_4]
-final_options_cost: [small, small, small, small]
+final_options: [warning_9, sanctions_4, increase_scrutiny_1, terminate_contract_at_end_of_year_4, create_new_guidelines_1]
+final_options_affects: [warning_9, sanctions_4, increase_scrutiny_1, terminate_contract_at_end_of_year_4, create_new_guidelines_1]
+final_options_cost: [small, small, small, small, small]
 
 characters:
 
@@ -39,7 +39,11 @@ characters:
     unlocks_affects: [sanctions_4]
 
   coach:
-    dialogue: "A warning should be sufficient. This is their first year, after all. I can work more closely with them in the coming quarter."
+    dialogue: "The guidelines are obviously not clear enough to either the new provider, the patients, or both. We need to issue updated guidelines that are clear."
+    unlocks: [create_new_guidelines_1]
+    unlocks_affects: [create_new_guidelines_1]
+    feedback:
+      create_new_guidelines_1: "Hopefully a little bit of clarity will get things back on track."
 
   third_party_verifier:
     dialogue: "Sorry, I'm kind of up to my elbows in work here, I don't know if I have much advice to contribute to this situation."

@@ -423,7 +423,7 @@
   title: "Revise Business Plan"
 
 - symbol: retrain_1
-  title: "Retrain"
+  title: "Retrain on Business Plan Concepts"
 #------------------
 # Reversal - S1_T1_Y2_P2
 #------------------
@@ -437,7 +437,7 @@
   title: "Embed Nurses"
 
 - symbol: expand_travelling_nurses_1
-  title: "Expand Traveling Nurses' Program"
+  title: "Expand Outreach Program"
 #------------------
 # Inconsistent Indicators - S1_T1_Y2_P3
 #------------------
@@ -445,7 +445,7 @@
   title: "Incentivise Facility Births"
 
 - symbol: expand_travelling_nurses_2
-  title: "Expand Traveling Nurses' Program"
+  title: "Expand Outreach Program"
 
 - symbol: revise_indicators_at_end_of_year_3
   title: "Revise Indicators at End of the Year"
@@ -466,6 +466,9 @@
 
 - symbol: terminate_contract_at_end_of_year_4
   title: "Terminate Contract at End of the Year"
+
+- symbol: create_new_guidelines_1
+  title: "Create New Guidelines"
 # ------------------
 # Wrong Numbers - S1_T1_Y3_P1
 # ------------------
@@ -488,7 +491,7 @@
   title: "Clarify role of Ministry"
 
 - symbol: revise_business_plan_4
-  title: "Revise Business Plan"
+  title: "Revise RBF Manual and Retraining"
 # ------------------
 # Money Troubles - S1_T1_Y3_P3
 # ------------------
@@ -507,13 +510,13 @@
   title: "Increase Funding for Community Verifiers"
 
 - symbol: centralize_control_over_travelling_nurses_1
-  title: "Centralize Control Over Travelling Nurses"
+  title: "Centralize Control Over Outreach Nurses"
 
 - symbol: warn_community_verifiers_1
   title: "Warn Community Verifiers"
 
 - symbol: require_nurses_to_return_to_file_1
-  title: "Require Nurses to Return to Facility to File"
+  title: "Require Outreach Nurses to Return to Outreach Center to File"
 # ------------------
 # Checkup Overload - S1_T1_Y3_P5
 # ------------------
@@ -548,7 +551,7 @@
   title: "Clarify role of Ministry"
 
 - symbol: revise_business_plan_5
-  title: "Revise Business Plan"
+  title: "Revise RBF Manual and Retraining"
 # ------------------
 # Fraud - S1_T2_Y3_P3
 # ------------------
@@ -567,13 +570,13 @@
   title: "Increase Funding for Community Verifiers"
 
 - symbol: centralize_control_over_travelling_nurses_2
-  title: "Centralize Control Over Travelling Nurses"
+  title: "Centralize Control Over Outreach Nurses"
 
 - symbol: warn_community_verifiers_2
   title: "Warn Community Verifiers"
 
 - symbol: require_nurses_to_return_to_file_2
-  title: "Require Nurses to Return to Facility to File"
+  title: "Require Outreach Nurses to Return to Outreach Center to File"
 # ------------------
 # More Fraud - S1_T2_Y3_P5
 # ------------------
