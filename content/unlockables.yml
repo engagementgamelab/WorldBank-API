@@ -600,7 +600,7 @@
   title: "Hold a meeting of all stakeholders"
 
 - symbol: create_manual
-  title: "Create a Manual"
+  title: "Update Manual"
 
 - symbol: give_ministry_more_power
   title: "Give ministry more power"
@@ -621,7 +621,7 @@
   title: "Pressure the NGO to comply"
 
 - symbol: cease_counter_verification
-  title: "Cease Counter-Verification"
+  title: "Cease Counter-Verification by Ministry"
 
 - symbol: clarification_of_roles_1
   title: "Clarification of Roles"
@@ -652,7 +652,7 @@
   title: "Warn but allow payment once"
 
 - symbol: revise_indicators_at_end_of_year_1
-  title: "Revise indicators at end of the year"
+  title: "Revise Fees For Indicators at End of the Year"
 
 #------------------
 # Reach - S2_Y2_P2
@@ -660,14 +660,11 @@
 - symbol: terminate_ngo_contract_1
   title: "Terminate NGO contract at end of the year"
 
-- symbol: revise_operating_manual
-  title: "Revise NGO operating manual"
-
 - symbol: increase_funding_for_ngo
-  title: "Increase funding for NGO"
+  title: "Revise Fees for Indicators"
 
 - symbol: contract_additional_ngo_at_years_end
-  title: "Contract additional NGO at Year's End"
+  title: "Contract Additional NGO at Year's End"
 #------------------
 # Arguments - S2_Y2_P3
 #------------------
@@ -691,8 +688,8 @@
 - symbol: move_authority_to_ministry_2
   title: "Move budgeting authority to Ministry"
 
-- symbol: comply_with_ngo_budget_2
-  title: "Comply with NGO budget"
+- symbol: loosen_drug_control_1
+  title: "Loosen Government Control of Drugs"
 
 #------------------
 # Contract Management - S2_Y2_P5
@@ -703,8 +700,8 @@
 - symbol: clarification_of_roles_5
   title: "Clarification of roles"
 
-- symbol: hire_agency
-  title: "Hire Agency"
+- symbol: ask_ministry_to_speed_payment_1
+  title: "Ask Ministry of Finance to Speed NGO Payment"
 
 - symbol: expedite_payment_and_service_delivery
   title: "Expedite payment and service delivery"
@@ -747,16 +744,19 @@
 - symbol: clarification_of_roles_7
   title: "Clarification of Roles"
 
-- symbol: terminate_ngo_contract_5
-  title: "Terminate NGO Contract"
+- symbol: include_approval_ngo_curriculum_1
+  title: "Include Approval of Training Curriculum Used by NGOs"
 
-- symbol: sanction_ngo_1
-  title: "Sanction NGO"
+- symbol: warn_ngo_6
+  title: "Warn NGO"
+
+- symbol: allow_private_curriculum_1
+  title: "Allow NGO to Keep Curriculum Private"
 #------------------
 # Poor Stewardship - S2_Y3_P4
 #------------------
-- symbol: clarification_of_roles_8
-  title: "Clarification of Roles"
+- symbol: warn_ngo_7
+  title: "Warn NGO"
 
 - symbol: terminate_ngo_contract_6
   title: "Terminate NGO Contract"

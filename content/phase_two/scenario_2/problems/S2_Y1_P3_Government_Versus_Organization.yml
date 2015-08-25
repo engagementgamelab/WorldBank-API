@@ -13,7 +13,7 @@ priority: 3
 year: 1
 
 initiating_npc: dep_minister_of_health
-initiating_dialogue: "The NGO's giving us the run-around when we ask to counter-verify their reports. You need to get them to realize their presence here depends on their transparency."
+initiating_dialogue: "The NGO is giving us the run-around when we ask to counter-verify their reports. You need to get them to realize their presence here depends on their transparency."
 
 starting_options: [pressure_the_ngo_to_comply_1]
 starting_options_affects: [pressure_the_ngo_to_comply_1]
@@ -31,14 +31,14 @@ characters:
       clarification_of_roles_1: "Next time, let's try to avoid this by making everyone's job clear beforehand. Thanks."
 
   director_regional_health_services: 
-    dialogue: "I'm with the Dep. Minister on this. We are responsible for how the NGO operates."
+    dialogue: "I'm with the Dep. Minister on this, I want to know what the NGOs are doing."
 
   ngo_manager:
-    dialogue: "We verify internally and talk to the other verifiers. Don't you think this would be a little much?"
+    dialogue: "We verify everything, I promise. We also give third-party access to the verification, there is no need for the government to also verify."
     unlocks: [cease_counter_verification_1]
     unlocks_affects: [cease_counter_verification_1]
     feedback:
-      pressure_the_ngo_to_comply_1: "It takes a lot of time for us to comply with all these verifications. I'm worried we won't have time to meet our goals if we're busy with paperwork."
+      pressure_the_ngo_to_comply_1: "It takes a lot of time for us to comply with all these verifications. I'm worried we won't have time to meet our targets if we're busy with paperwork."
 
   coach:
     dialogue: "The problem doesn't have to do with anyone but the NGO and the Third Party Verifier. Hammer it out with them."
@@ -50,9 +50,9 @@ characters:
     unlocks_affects: [clarification_of_roles_1]
 
   community_verifier:
-    dialogue: "I think there's enough oversight in what we're doing. This shouldn't be the role of the Ministry."
+    dialogue: "I think there's enough oversight. This shouldn't be the role of the Ministry."
     unlocks: [clarification_of_roles_1]
     unlocks_affects: [clarification_of_roles_1]
 
   hospital_administrator:
-    dialogue: "It wouldn't be a lot more paperwork for us to submit for counter-verification, but I don't know that it's necessary."
+    dialogue: "It wouldn't be a lot more paperwork for us to submit for counter-verification, but I don't know that it's necessary. Is the third-party verifier not providing a copy to the government?"
