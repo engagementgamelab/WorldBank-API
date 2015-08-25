@@ -778,13 +778,13 @@
   title: "Reaffirm Ministry's Authority"
 
 - symbol: ask_reduce_oversight
-  title: "Ask to Reduce Oversight"
+  title: "Ask to Reduce Regulatory Measure"
 
 - symbol: circulate_memo_reaffirming_ministry_authority
   title: "Circulate Memo Reaffirming Ministry Authority"
 
 - symbol: streamline_speed_verification_process
-  title: "Streamline Speed Verification Process"
+  title: "Streamline Ministry Constraints to Speed Verification"
 
 - symbol: verification_1
   title: "Verification"
@@ -829,7 +829,7 @@
   title: "Increase Supply Budget"
 
 - symbol: grant_facilities_autonomy
-  title: "Grant Facilities Autonomy"
+  title: "Grant Facilities Autonomy to Order or Purchase Supplies"
 
 # ------------------- #
 # Scenario 3 - Year 2
@@ -855,14 +855,14 @@
 # Mismanagement - S3_Y2_2
 #------------------
 
-- symbol: warning_13
-  title: "Warning"
-
-- symbol: sanctions_and_retraining_on_use_of_financial_tools_2
-  title: "Sanctions and Retraining on Use of Financial Tools"
+- symbol: retraining_on_use_of_financial_tools_2
+  title: "Retraining on Use of Financial Tools"
 
 - symbol: revise_business_plan_6
   title: "Revise Business Plan"
+
+- symbol: sanctions_18
+  title: "Sanctions"
 
 #------------------
 # Midwives - S3_Y2_4
@@ -871,8 +871,8 @@
 - symbol: request_a_budget_line_from_ministry
   title: "Request a Budget Line from Ministry"
 
-- symbol: allow_outreach_staff_to_act_as_midwives
-  title: "Allow Outreach Staff to Act as Midwives"
+- symbol: offer_vouchers_for_travel
+  title: "Offer Vouchers For Travel"
 
 - symbol: grant_providers_autonomy_to_hire_staff
   title: "Grant Providers Autonomy to Hire Staff"
@@ -887,8 +887,8 @@
 - symbol: sanctions_14
   title: "Sanctions"
 
-- symbol: strong_sanctions_2
-  title: "Strong Sanctions"
+- symbol: terminate_contract_1
+  title: "Terminate Contract"
 
 # ------------------- #
 # Scenario 3 - Year 3
@@ -912,16 +912,16 @@
 #------------------
 
 - symbol: review_the_inspection_2
-  title: "Review the Inspection"
+  title: "Review the third party assessment on the quality score"
 
-- symbol: warning_15
-  title: "Warning"
+- symbol: revise_business_plan_7
+  title: "Revise Business Plan"
 
 - symbol: deny_review_2
   title: "Deny Review"
 
 #------------------
-# Perscriptions - S3_Y3_3
+# Prescriptions - S3_Y3_3
 #------------------
 
 - symbol: warning_16
@@ -947,7 +947,7 @@
   title: "Return to Traditional Financing"
 
 - symbol: terminate_both_health_contracts_of_providers
-  title: "Terminate Both Health Contracts of Providers"
+  title: "Terminate Both Health Contracts of Providers And Hire New Ones"
 
 - symbol: terminate_hospital_contract_and_redirect_resources
   title: "Terminate Hospital Contract and Redirect Resources"

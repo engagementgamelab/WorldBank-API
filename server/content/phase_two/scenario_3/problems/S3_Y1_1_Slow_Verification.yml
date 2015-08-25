@@ -13,7 +13,7 @@ priority: 1
 year: 1
 
 initiating_npc: dep_minister_of_health # <--- character's symbol
-initiating_dialogue: "The independent verifier and the health providers seem to have built a coalition to box us out of the verification process. This program gives us the authority to verify any and all reports, but they're pushing back."
+initiating_dialogue: "The independent verifier and the health providers seem to have built a coalition to box us out of the verification process. This RBF program gives us the authority to verify any and all reports, but they're pushing back."
 
 starting_options: [warn_verifier_1]
 starting_options_affects: [warn_verifier_1]

@@ -943,7 +943,7 @@ sanctions_14:
   indicator_2: +2
   indicator_3: +2
 
-strong_sanctions_2:
+terminate_contract_1:
   indicator_1: 0
   indicator_2: 0
   indicator_3: -1
@@ -957,7 +957,7 @@ request_a_budget_line_from_ministry:
   indicator_2: +1
   indicator_3: 0
 
-allow_outreach_staff_to_act_as_midwives:
+offer_vouchers_for_travel:
   indicator_1: 0
   indicator_2: +2
   indicator_3: -5
@@ -995,7 +995,7 @@ review_the_inspection_2:
   indicator_2: 0
   indicator_3: -1
 
-warning_15:
+revise_business_plan_7:
   indicator_1: 0
   indicator_2: 0
   indicator_3: +1
