@@ -13,19 +13,21 @@ priority: 2
 year: 2
 
 initiating_npc: coach # <--- character's symbol
-initiating_dialogue: "I was doing my mentoring visit at the hospital and saw they are still mismanaging funds. The business plan has clear guidelines and the Administrator is just not sticking to them."
+initiating_dialogue: "I was visiting the hospital for my coaching visit, and they are still not following the clear guidelines about how to manage the funds. I think the guidelines are pretty clear, why are they not sticking to them? The business plan has clear guidelines they are not sticking to."
 
-starting_options: [warning_13, sanctions_and_retraining_on_use_of_financial_tools_2]
-starting_options_affects: [warning_13, sanctions_and_retraining_on_use_of_financial_tools_2]
+starting_options: [sanctions_18, retraining_on_use_of_financial_tools_2]
+starting_options_affects: [sanctions_18, retraining_on_use_of_financial_tools_2]
 
-final_options: [warning_13, sanctions_and_retraining_on_use_of_financial_tools_2, revise_business_plan_6]
-final_options_affects: [warning_13, sanctions_and_retraining_on_use_of_financial_tools_2, revise_business_plan_6]
+final_options: [sanctions_18, retraining_on_use_of_financial_tools_2, revise_business_plan_6, audit_3]
+final_options_affects: [sanctions_18, retraining_on_use_of_financial_tools_2, revise_business_plan_6, audit_3]
 
 characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
-    dialogue: "I have a meeting with the Minister of Education later this week about the curricula in our teaching hospitals. I do not have time to supervise you telling the hospital to spend money like we tell them to."
+    dialogue: It sounds like funds have been mismanaged."
+    unlocks: [audit_3]
+    unlocks_affects: [audit_3]
 
   director_regional_health_services: # <--- character's symbol
     dialogue: "Have you considered that there is a flaw in the business plan? If the Hospital Administrator is straying from it so often, it might need to be reevaluated."
@@ -34,8 +36,8 @@ characters:
 
   coach:
     feedback: 
-      revise_business_plan_6: "I'll set up a meeting with the purchasing agency this week to revise for next quarter." # <--- symbol of the option used and the feedback text for it
-      sanctions_and_retraining_on_use_of_financial_tools_2: "I'll make some time this week for a retraining session and try to get this facility to understand exactly how these tools should be used. I'm informing the regulator about the sanctions now." # <--- symbol of the option used and the feedback text for it
+      revise_business_plan_6: "I will schedule a meeting this week with the purchasing agency and begin the revision process for next quarter." # <--- symbol of the option used and the feedback text for it
+      retraining_on_use_of_financial_tools_2: "I hope the Hospital Administrator will see its importance. I'll make some time this week for a retraining session and try to drill down on exactly how these tools should be used." # <--- symbol of the option used and the feedback text for it
 
   third_party_verifier:
     dialogue: "I'm not saying the coach isn't perceptive, but if a cursory look around the hospital is all you need to tell something's not right, it's probably not fraudulent. "
@@ -49,4 +51,5 @@ characters:
   hospital_administrator:
     dialogue: "I can't control my hiring budget, and my supplies remain squeezed. I'm short staffed and constantly running out of things. So how can I possibly meet the demands of this business plan?"
     feedback: 
-      warning_13: "I'm doing my best, but I don't know how long I can hold onto my staff like this." # <--- symbol of the option used and the feedback text for it
+      sanctions_18: "I'm doing my best, but I don't know how long I can hold onto my staff like this." # <--- symbol of the option used and the feedback text for it
+      audit_3: "Very well, I'll clear some time. I'm sure you won't find anything wrong with our books."

@@ -13,7 +13,7 @@ priority: 2
 year: 1
 
 initiating_npc: coach # <--- character's symbol
-initiating_dialogue: "The hospital administrator and I were reviewing the hospital's business plan and they are not doing a good job managing their money. Even with our payments they're operating at a loss."
+initiating_dialogue: "The hospital administrator and I were reviewing the hospital's business plan and they do not seem to manage funds well. Even with our payments they're operating at a loss."
 
 starting_options: [warning_and_retraining_2]
 starting_options_affects: [warning_and_retraining_2]
@@ -34,14 +34,14 @@ characters:
     unlocks: [review_business_plan]
     unlocks_affects: [review_business_plan]
     feedback: 
-      review_business_plan: "Alright, we can take a look at the plan and see if we can create some breathing room." # <--- symbol of the option used and the feedback text for it
+      review_business_plan: "Making a reasonable plan with things we can achieve together will put us on the right path." # <--- symbol of the option used and the feedback text for it
 
   coach:
     feedback: 
       sanctions_11: "Alright, but I think this is a little much for so early in the game. I'll keep an eye out and maybe we can avoid this happening again." # <--- symbol of the option used and the feedback text for it
 
   third_party_verifier:
-    dialogue: "The data says they are doing a good job managing funds. There are a lot of unnecessary costs."
+    dialogue: "It seems this hospital has not been able to increase their performance very well."
 
   community_verifier:
     dialogue: "I would talk directly to them if I were you. Maybe they're seeing something we aren't."
