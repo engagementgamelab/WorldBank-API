@@ -13,7 +13,7 @@ priority: 5
 year: 3
 
 initiating_npc: dep_minister_of_health # <--- character's symbol
-initiating_dialogue: "We have been looking at the numbers, and outpatient consultations have risen much faster than projected. We can't explain it."
+initiating_dialogue: "We have been looking at the numbers, and caesarian sections in the hospital have risen much faster than projected. We can't explain it."
 
 starting_options: [decrease_incentives]
 starting_options_affects: [decrease_incentives]
@@ -29,7 +29,7 @@ characters:
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory") # <--- character's symbol
 
   director_regional_health_services:  
-    dialogue: "For some reason people in this region have been taking advantage of this service much more than others. Perhaps providers are pushing the services too strongly."  
+    dialogue: "For some reason people in this region have been taking advantage of this service more than others. It would be good to investigate this further. Perhaps providers are pushing the services too strongly."  
     unlocks: [decrease_incentives]
     unlocks_affects: [decrease_incentives]
 
@@ -53,10 +53,10 @@ characters:
     unlocks: [maintain_current_rates]
     unlocks_affects: [maintain_current_rates]
     feedback:
-      maintain_current_rates: "Smooth sailing ahead. Nice talking to you!"
+      maintain_current_rates: "I'm glad to refer complicated cases to the hospital."
 
   hospital_administrator:
-    dialogue: "Really? I haven't noticed that at my hospital. Anyway, I thought treating people was a good thing."
+    dialogue: "Really? We haven't yet achieved the WHO standard of less than 10 to 15 percent of caesarian sections, so I don't think you should be worried. I am keeping a close eye on this. I am glad to see more caesarian sections because I have been referring a lot of complicated deliveries."
     unlocks: [maintain_current_rates]
     unlocks_affects: [maintain_current_rates]
     feedback:
