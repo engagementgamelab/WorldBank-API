@@ -17,14 +17,14 @@ initiating_dialogue: "In many of my focus groups, there's an air of mistrust wit
 starting_options: [warn_ngo_5]
 starting_options_affects: [warn_ngo_5]
 
-final_options: [warn_ngo_5, sanction_ngo_4, increase_customer_service_incentives_2, reorganize_staff_2]
-final_options_affects: [warn_ngo_5, sanction_ngo_4, increase_customer_service_incentives_2, reorganize_staff_2]
+final_options: [warn_ngo_5, sanction_ngo_4, increase_customer_service_incentives_2, reorganize_staff_2, increase_ngo_autonomy_2]
+final_options_affects: [warn_ngo_5, sanction_ngo_4, increase_customer_service_incentives_2, reorganize_staff_2, increase_ngo_autonomy_2]
 
 characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
-    dialogue: "We're paying for the NGO to administrate the logistics of this program, and if they aren't doing so effectively, it might help to remind them who they're working for."
+    dialogue: "We're paying for the NGO to provide increased quantity and improved quality of services, and if they are not doing that we should sanction them."
     unlocks: [sanction_ngo_4]
     unlocks_affects: [sanction_ngo_4]
 
@@ -32,9 +32,12 @@ characters:
     dialogue: "Providers in my region have complained often of over-stressed staff. There are not enough workers, and supplies are still running out frequently."
 
   ngo_manager:
-    dialogue: "I am not sure what the issue is exactly."
+    dialogue: "IAs long as the Ministry is not allowing us to hire staff it is difficult for us to improve the situation."
+    unlocks: [increase_ngo_autonomy_2]
+    unlocks_affects: [increase_ngo_autonomy_2]
     feedback:
-      warn_ngo_5: "I'll do what I can, but we're struggling as it is. I don't know how we can improve."
+      warn_ngo_5: "I'll do what I can, but we're struggling as it is. I don't know how we can improve without being able to hire staff ourselves."
+      increase_ngo_autonomy_2: "Thank you! Hopefully we can start to make some progress here!"
 
   coach:
     dialogue: "Customer service is a huge part of quality of care. If staff aren't doing it now, we need to increase incentives."

@@ -34,10 +34,10 @@ characters:
     unlocks: [clarification_of_roles_11]
     unlocks_affects: [clarification_of_roles_11]
     feedback:
-      warning_17: "Okay, we'll let the health care providers have their autonomy."
+      warning_17: "Okay, we'll try to stick with the national protocols, but our track record proves that ours are very successful."
       terminate_ngo_contract_7: "The whole reason you brought us on was nothing was getting accomplished. That's what we were doing and now you're telling us not to."
   coach:
-    dialogue: "The health care providers are caught between the people paying them and the Ministry they report to. That's the problem that needs solving."
+    dialogue: "The contract says that the NGO should be using the national protocols, but it looks like they are using their own set of guidelines. You should talk to them, and the ministry to work this out."
     narrows: [coach, third_party_verifier, community_verifier, hospital_administrator]
     feedback:
       hold_stakeholder_meeting_5: "For a problem like this, a truce is about as good as we can hope for. Well, maybe not a truce, as such. More of a cease fire."
@@ -46,8 +46,9 @@ characters:
     dialogue: "There's plenty of work to be done without these arguments."
 
   community_verifier:
-    dialogue: "The other day, a woman was telling me about her prenatal checkup. She's in the stirrups and the doctor had to leave the examination room to get lectured on what all care she was supposed to give. That has got to stop."
+    dialogue: "The other day, a woman was getting her prenatal checkup. She's waiting in the examination room for the doctor to arrive, but he was almost thirty minutes late because someone from the NGO was lecturing him on what kind of care to give. That has got to stop."
+
   hospital_administrator:
-    dialogue: "I couldn't do what the NGO Director does. No argument there. But they are not so good at their job that they can do mine, too."
+    dialogue: "I couldn't do what the NGO Director does. No argument there. But they are in my country. They should respect our health guidelines."
     unlocks: [warning_17]
     unlocks_affects: [warning_17]

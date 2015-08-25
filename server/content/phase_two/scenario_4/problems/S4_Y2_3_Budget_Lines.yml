@@ -8,33 +8,29 @@
 # Phase Two Scenario Card YML Example
 
 symbol: budget_lines
-name: "Budget Lines"
+name: "Budget"
 priority: 7
 
 initiating_npc: director_regional_health_services # <--- character's symbol
-initiating_dialogue: "My hospitals are reporting that they can't meet their quality goals this quarter, but they're blaming the NGO's budget. I don't know how the NGO expects to reach goals if they won't let the hospitals deliver quality care."
+initiating_dialogue: "The NGOs will not reach their targets unless they hire more staff to work in the hospitals, as otherwise they are not able to provide good quality of care."
 
-starting_options: [advise_to_follow_budget_restrictions_1]
-starting_options_affects: [advise_to_follow_budget_restrictions_1]
+starting_options: [clarify_roles_1]
+starting_options_affects: [clarify_roles_1]
 
-final_options: [advise_to_follow_budget_restrictions_1, move_authority_to_ministry_3, grant_autonomy_to_providers_2]
-final_options_affects: [advise_to_follow_budget_restrictions_1, move_authority_to_ministry_3, grant_autonomy_to_providers_2]
+final_options: [clarify_roles_1, move_authority_to_ministry_3, grant_autonomy_to_providers_2]
+final_options_affects: [clarify_roles_1, move_authority_to_ministry_3, grant_autonomy_to_providers_2]
 
 characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory"
 
   dep_minister_of_health:
-    dialogue: "We have a pretty good sense of how budgeting was working and where we can improve it if you give us back the authority."
+    dialogue: "We have a pretty good sense of how staffing was working and where we can improve it if you give us back the authority to recruit."
     unlocks: [move_authority_to_ministry_3]
     unlocks_affects: [move_authority_to_ministry_3]
 
-  director_regional_health_services:
-    feedback:
-      advise_to_follow_budget_restrictions_1: "OK, we'll make do. We always have."
-
   ngo_manager:
-    dialogue: "This is results-based financing. We're responsible for the results, so let us decide on the financing."
+    dialogue: "This is results-based financing. We're responsible for the results, so let us decide on how to use the financing."
     feedback:
       grant_autonomy_to_providers_2: "That's fine by me, but let's discuss it at the end of the year. It's a pretty big change."
       move_authority_to_ministry_3: "I really thought we were supposed to handle this, but if the Ministry wants to, that's fine."
@@ -51,5 +47,5 @@ characters:
     dialogue: "My only concern is people not getting care because the budget keeps getting tied up in arguments."
 
   hospital_administrator:
-    dialogue: "I've already made myself clear on this a number of times. The RBF Coach knows exactly what the problem is."
-    narrows: [ngo_manager, third_party_verifier, community_verifier, hospital_administrator]
+    dialogue: "We definitely need more staff, I have already highlighted this to the NGO."
+    narrows: [director_regional_health_services, third_party_verifier, community_verifier, hospital_administrator]
