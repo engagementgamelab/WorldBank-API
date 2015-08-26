@@ -8,5 +8,11 @@
 # The time it takes for a tactic card to be spawned (one of these is chosen at random to queue the next card)
 tactic_card_intervals: [15, 20, 35]
 
-# The length of a month
-month_length_seconds: 30
+# The length of phase two
+phase_length_seconds: 900
+
+# The array of tactic symbols that correspond to supervisor "tactics" problems, if the tactic is not part of player's selected plan
+tactics_not_selected: 
+  - unlockable_improve_patient_and_provider_relationship_not_selected
+  - unlockable_information_campaign_to_explain_changes_to_system
+  - unlockable_incentivise_providers_to_follow_protocols

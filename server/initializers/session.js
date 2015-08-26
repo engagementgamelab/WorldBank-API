@@ -8,7 +8,7 @@ module.exports = {
         api.session = function(type) {
             return {
                     prefix: "__" + type + "_session:",
-                    duration: 60 * 60 * 1000 // 1 hour
+                    duration: 180 * 60 * 1000 // 3 hours
             }
         };
 

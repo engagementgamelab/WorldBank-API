@@ -30,6 +30,7 @@ exports.action = {
     version: 1.4,
     toDocument: true,
     requiresAuth: true,
+    // requiresUserLogin: true,
 
     inputs: {},
 
