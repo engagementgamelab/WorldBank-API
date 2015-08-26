@@ -24,7 +24,7 @@
   grade: A
   description: "Congratulations on exceeding your goals. The pilot test we conducted has shown significant increases in all three major indicators. We are confident that over the next three years, this program will continue to bear fruit."
   default_affects: [10, 20, 15]
-  affects_bias: [2, 1, 2]
+  affects_bias: [-2, -1, -2]
 
 # Facility births: +10%
 # Vaccinations: +20%
@@ -34,7 +34,7 @@
   grade: B
   description: "The pilot test we ran showed some promising results. We have seen measurable increases in all three major indicators, especially in vaccinations. With proper implementation over the next three years, Facility Births and Quality of Care could rise to match it."
   default_affects: [5, 15, 5]
-  affects_bias: [1, 0, 1]
+  affects_bias: [-1, -2, -1]
 
 # Facility births: +5%
 # Vaccinations: +15%
@@ -44,7 +44,7 @@
   grade: C
   description: "The results of our pilot test were mixed to say the least. Indicators have barely budged and are within the margins of error. We recommend re-evaluation of the context. A second attempt could yield a program with greater efficacy."
   default_affects: [0, -5, 0]
-  affects_bias: [0, -1, -2]
+  affects_bias: [-2, -1, -2]
 
 # Facility births: 0
 # Vaccinations: -5%
