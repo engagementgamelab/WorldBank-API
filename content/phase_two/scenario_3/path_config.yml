@@ -5,8 +5,16 @@
 # Phase Two Scenario One Path Config YAML
 # ==============
 
-prompt_year_1: "Thank you for joining us for the end of year meeting. It seems like your program implementation is going smoothly, yes? That said, we would like to know if you need anything approved through us to make the program run more efficiently. We have reports that granting providers more autonomy is a viable modification to this program."
-prompt_year_2: "You've made it to the end of year two. I hope you are checking your indicators and making sure the RBF program is running smoothly. Is there anything you need from us? Granting more autonomy to providers is still a viable measure if you feel it would help us hit our indicator goals."
+prompt_year_1: 
+  - "You did nothing!!"
+  - "Thank you for joining us for the end of year meeting. It seems like your program implementation is going smoothly, yes? That said, we would like to know if you need anything approved through us to make the program run more efficiently. We have reports that granting providers more autonomy is a viable modification to this program."
+  - "Good Job!"
+
+prompt_year_2:
+  - "You did nothing!!"
+  - "You've made it to the end of year two. I hope you are checking your indicators and making sure the RBF program is running smoothly. Is there anything you need from us? Granting more autonomy to providers is still a viable measure if you feel it would help us hit our indicator goals."
+  - "Good Job!" 
+
 choices: # <---- The choices the player will see during a year break.
   - text: "Modify program to grant providers more autonomy"
     # This instructs the game to load the player into twist 1 if at end of year 1.
