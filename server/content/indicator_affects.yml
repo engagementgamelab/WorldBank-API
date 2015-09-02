@@ -1924,7 +1924,7 @@ unlockable_increase_budget_for_printing_informational_collateral:
 # Overperscription - Y1_NP1
 # -------------------------- #
 
-unlockable_limit_perscriptions:
+unlockable_limit_prescriptions:
   indicator_1: -1
   indicator_2: -1
   indicator_3: -1

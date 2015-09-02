@@ -71,9 +71,10 @@
 # ------------------
 - symbol: unlockable_dialogue_clinician
 
-# These were missing and causing errors in build. - Johnny
+# ------------------
+# unlocked by Lydia in Valeria
+# ------------------
 - symbol: unlockable_dialogue_plantation_owner
-- symbol: unlockable_limit_prescriptions
 
 
 # ----------------           ---------------- #
@@ -368,8 +369,8 @@
 - symbol: comply_with_ministry_request
   title: "Comply with the Ministry's request"
 
-- symbol: clarify_separation_of_functions_2
-  title: "Clarify the separation of functions"
+- symbol: clarify_separation_of_functions_and_responsibilities_2
+  title: "Clarify the separation of functions and responsibilities"
 
 - symbol: revise_business_plan_2
   title: "Revise RBF Manual"
@@ -1550,7 +1551,7 @@
 # Overperscription - Y1_NP1
 # -------------------------- #
 
-- symbol: unlockable_limit_perscriptions
+- symbol: unlockable_limit_prescriptions
   title: "Limit Prescriptions"
 
 - symbol: unlockable_incentivise_following_set_protocols
