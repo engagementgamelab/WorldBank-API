@@ -1,0 +1,12 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Tutorial 
+# ==============
+
+tooltip_1:
+  spotlight_position: [-0.105, -0.766]
+  spotlight_size: [1, 1]
+  overlay_location: "Top-Right"
+  text: "text"
