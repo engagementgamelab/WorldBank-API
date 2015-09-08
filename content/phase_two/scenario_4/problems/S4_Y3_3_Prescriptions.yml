@@ -40,7 +40,7 @@ characters:
       sanctions_16: "I need an increase in resources to deal with this, not a cut! How can I fix this problem if I'm hamstrung by sanctions?"
 
   coach:
-    dialogue: "This sounds like we've been incentivising the wrong things. Adhering to best practices is much more important than happy patients. Let's rethink this."
+    dialogue: "This sounds like we've been incentivising the wrong things. Adhering to best practices is much more important than satisfied patients. Let's rethink this."
     unlocks: [tie_incentives_directly_to_protocol_2] # <--- these probably will symbols
     unlocks_affects: [tie_incentives_directly_to_protocol_2]
     feedback:
@@ -49,7 +49,7 @@ characters:
       terminate_contract_at_end_of_year_10: "I'll inform the NGO and begin transitioning into contracting directly with providers early next year."
 
   third_party_verifier:
-    dialogue: "This is a mess. I should have caught this myself. I'll look more closely to see what else is being misreported."
+    dialogue: "This is a mess. I'll take another look. It would be very easy for us to verify whether they're really following protocols."
 
   hospital_administrator:
     dialogue: "At first I was shocked to hear this, but the more I thought about it, the more it makes sense. Patients don't know the difference, and if we're incentivizing happy patients, the wrong medicine is better than no medicine."

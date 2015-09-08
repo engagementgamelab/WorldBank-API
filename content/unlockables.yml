@@ -1075,14 +1075,17 @@
 #------------------
 # New Budget S4_Y3_1
 #------------------
-- symbol: comply_with_ngo_budget_3
-  title: "Advise to Comply with NGO Budget"
+- symbol: move_authority_to_ministry_4
+  title: "Move Authority to the Ministry"
 
-- symbol: rework_business_plan_2
-  title: "Rework Business Plan"
+- symbol: terminate_ngo_contract_9
+  title: "Terminate NGO Contract"
 
-- symbol: grant_autonomy_to_providers_4
-  title: "Grant Autonomy to Providers"
+- symbol: loosen_drug_control_2
+  title: "Loosen Government Control of Drugs"
+
+- symbol: clarification_of_roles_12
+  title: "Clarification of Roles"
 #------------------
 # Process V Results Again S4_Y3_2
 #------------------
@@ -1093,7 +1096,7 @@
   title: "Warn, but Allow Payments Once"
 
 - symbol: revise_indicators_at_end_of_year_4
-  title: "Revise Indicators at End of Year"
+  title: "Increase Fee for Indicators at End of Year"
 #------------------
 # Prescriptions S4_Y3_3
 #------------------
@@ -1121,7 +1124,7 @@
   title: "Terminate Hospital Contract"
 
 - symbol: terminate_ngo_contract_8
-  title: "Terminate NGO Contract"
+  title: "Terminate NGO Contract and Hire New Providers"
 
 - symbol: grant_autonomy_to_providers_5
   title: "Grant Autonomy to Providers"

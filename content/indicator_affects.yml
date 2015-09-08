@@ -1225,20 +1225,25 @@ grant_autonomy_to_providers_3:
 #------------------
 # New Budget S4_Y3_1
 #------------------
-comply_with_ngo_budget_3:
+loosen_drug_control_2:
   indicator_1: -1
   indicator_2: -1
   indicator_3: -1
 
-rework_business_plan_2:
+move_authority_to_ministry_4:
   indicator_1: 0
   indicator_2: 0
   indicator_3: 0
 
-grant_autonomy_to_providers_4:
+terminate_ngo_contract_9:
   indicator_1: +2
   indicator_2: +1
   indicator_3: +2
+
+clarification_of_roles_12:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0 
 #------------------
 # Process V Results Again S4_Y3_1
 #------------------
