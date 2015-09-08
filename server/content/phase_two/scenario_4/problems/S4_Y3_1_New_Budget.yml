@@ -12,44 +12,46 @@ name: "New Budget"
 priority: 9
 
 initiating_npc: hospital_administrator # <--- character's symbol
-initiating_dialogue: "I received a memo today going over the new budget for all health facilities. The NGO has released new hiring guidelines, but these do not match our goals."
+initiating_dialogue: "Look, I don't really know what you and the NGO have worked out, but I need to be authorized to purchase supplies at the right costs. Can you tell them to lighten these restrictions some?"
 
-starting_options: [comply_with_ngo_budget_3]
-starting_options_affects: [comply_with_ngo_budget_3]
+starting_options: [clarification_of_roles_12]
+starting_options_affects: [clarification_of_roles_12]
 
-final_options: [comply_with_ngo_budget_3, rework_business_plan_2, grant_autonomy_to_providers_4]
-final_options_affects: [comply_with_ngo_budget_3, rework_business_plan_2, grant_autonomy_to_providers_4]
+final_options: [clarification_of_roles_12, terminate_ngo_contract_9, loosen_drug_control_2, move_authority_to_ministry_4]
+final_options_affects: [clarification_of_roles_12, terminate_ngo_contract_9, loosen_drug_control_2, move_authority_to_ministry_4]
 
 characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory"
 
   dep_minister_of_health:
-    dialogue: "This is par for the course. Providers always complain about budget changes."
+    dialogue: "We've spoken directly with the NGO a number of times on this. We are emphatic when we say we control the drugs, not them. They should focus on delivering services."
 
   director_regional_health_services:
-    dialogue: "If the NGO is claiming this is necessary, I would take it seriously. A compromise might be to rework the business plan with Ministry oversight."
-    unlocks: [rework_business_plan_2]
-    unlocks_affects: [rework_business_plan_2]
+    dialogue: "We've been whittling down whose job is whose throughout this process, so you don't have to tell me this isn't my place, but were it up to me, I'd cancel the NGO contract."
+    unlocks: [terminate_ngo_contract_9]
+    unlocks_affects: [terminate_ngo_contract_9]
 
   ngo_manager:
-    dialogue: "Our own monitors have found hospitals mismanaging funds. They need strict guidelines to provide the necessary services. Maybe one of your verifiers or advisors can confirm?"
-    narrows: [dep_minister_of_health, director_regional_health_services, ngo_manager]
+    dialogue: "We are doing our best to deliver these services, but the government controls the drugs, not us. We try to treat as many patients as we can, but if the Ministry strangles our supply, it doesn't work."
+    unlocks: [loosen_drug_control_2]
+    unlocks_affects: [loosen_drug_control_2]
     feedback:
-      grant_autonomy_to_providers_4: "If you think it's essential, we won't fight you over authority. But the program will need to be altered to account for this change."
+      terminate_ngo_contract_9: "I don't understand why you brought us on in the first place if you were going to fire us for doing the work."
+      loosen_drug_control_2: "That will help a great deal. This way we can ensure the proper medications get where they need to go, and at the right cost."
+      clarification_of_roles_12: "OK. I'm just trying to make this work as smoothly and efficiently as possible."
 
   coach:
-    dialogue: "These problems have been going on for too long. The only way I see this working in the future is reducing the NGO's outsized control over the budget and granting autonomy to the providers to hire staff as needed."
-    unlocks: [grant_autonomy_to_providers_4] # <--- these probably will symbols
-    unlocks_affects: [grant_autonomy_to_providers_4]
+    dialogue: "I'll ask, because this seems to be an ongoing problem: is that the NGO's position? They seem to be overstepping their role."
+    unlocks: [move_authority_to_ministry_4]
+    unlocks_affects: [move_authority_to_ministry_4]
+    feedback:
+      move_authority_to_ministry_4: "The Ministry already has a lot going on, but I guess they can handle local hospital budgeting too."
+
 
   third_party_verifier:
-    dialogue: "I have noticed some inconsistencies in the data that indicate to me some funds are being mismanaged. The hospital can fix that problem themselves."
+    dialogue: "If they can't agree on a budget, I'm not going to have any cases to verify. And I like my job."
 
   community_verifier:
-    dialogue: "I don't understand the need for these new guidelines, but then again, I'm not working in the hospital."
-
-  hospital_administrator:
-    feedback:
-      rework_business_plan_2: "I don't believe this will be constructive, but I'm willing to try."
-      comply_with_ngo_budget_3: "If you insist..."
+    dialogue: "If I were you, and I'm offering this as someone who lives here, ask the Ministry and your coach what to do. The Ministry gets the last call and the NGO doesn't."
+    narrows: [ngo_manager, third_party_verifier, hospital_administrator]
