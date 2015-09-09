@@ -5,8 +5,45 @@
 # Tutorial 
 # ==============
 
-tooltip_1:
+# PHASE TWO
+
+
+phase_2_start:
+  overlay_location: "Center"
+  text: "You’ll run the plan from here. The monitor connects you to your plan’s major stakeholders and health data from the region. As issues arise, you will investigate, consult with others, and make decisions, which will have a direct statistical impact."
+  confirm: true
+
+phase_2_indicators:
   spotlight_position: [-0.105, -0.766]
   spotlight_size: [1, 1]
-  overlay_location: "Top-Right"
-  text: "text"
+  overlay_location: "Top-Left"
+  text: "Stakeholders raise their issues here, with your options listed below. Your policy choices will adapt the RBF plan over the next three years, so try to raise the indicators as much as you can. You can track them by clicking the data button, try it!"
+
+phase_2_indicators_opened:
+  overlay_location: "Bottom-Right"
+  text: "Here’s your indicator screen. Zariba’s health data will be tracked over the plan’s 3 years so you can see as your targets rise or fall in response to your policy. If the graph keeps lowering month to month, take another look at your plan!"
+
+phase_2_first_problem:
+  spotlight_position: [-0.105, -0.766]
+  spotlight_size: [1, 1]
+  overlay_location: "Top-Left"
+  text: "An issue has come up! Look over your responses below, but mind that time goes on in-game while you deliberate. Initial replies are efficient, but your health partners may have a better solution. They’re listed here, let’s ask one!"
+
+phase_2_contact_selected:
+  spotlight_position: [-0.105, -0.766]
+  spotlight_size: [1, 1]
+  overlay_location: "Top-Left"
+  text: "Contacts can open up additional options or offer their opinion on a problem for more context, so try to make the most of them! You can only consult three contacts per issue, though, so consider who might have the best perspective on the problem."
+
+phase_2_supervisor_event:
+  spotlight_position: [-0.105, -0.766]
+  spotlight_size: [1, 1]
+  overlay_location: "Top-Left"
+  text: "Rahb’s flagged an issue to look at on the supervisor tab, try taking a look! You can react to it like other events, but you can also task Rahb with investigating further. A timer will count down, and you’ll be unable to speak to her while she works."
+
+phase_2_year_break:
+  spotlight_position: [-0.105, -0.766]
+  spotlight_size: [1, 1]
+  overlay_location: "Top-Left"
+  text: "Well, the plan’s been working for a year, how did it go? Here you’ll be able to take a break, look over your progress, and possibly decide on reworking your plan if things aren’t going as well as you hoped. You can move onto the next year whenever you’re ready!"
+
