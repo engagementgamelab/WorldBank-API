@@ -336,7 +336,7 @@ exports.scenario =
             data.response.current_scenario = user.current_scenario = assignUserScenario(plan);
             data.response.tactics = plan.tactics;
             data.response.default_affects = plan.default_affects;
-            data.response.affects_bias = plan.affects_bias;
+            data.response.affects_goal = api.gameConfig.content.plan.end_score;
 
             user.save(function (err, updatedUser) {
               
