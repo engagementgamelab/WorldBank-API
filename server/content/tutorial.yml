@@ -8,6 +8,11 @@
 # PHASE TWO
 
 
+phase_1_start:
+  overlay_location: "Center"
+  text: "Let’s talk to Rahb, your RBF Plan Supervisor. Click on anybody highlighted to speak to them, and select from the available topics at the bottom of the dialogue. Notice that when you ask Rahb something, the number in the upper-left decreases."
+  confirm: true
+
 phase_2_start:
   overlay_location: "Center"
   text: "You’ll run the plan from here. The monitor connects you to your plan’s major stakeholders and health data from the region. As issues arise, you will investigate, consult with others, and make decisions, which will have a direct statistical impact."
