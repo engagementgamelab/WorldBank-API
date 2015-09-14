@@ -14,7 +14,7 @@ year: 3
 twist: 2
 
 initiating_npc: hospital_administrator # <--- character's symbol
-initiating_dialogue: "I received a memo today going over the new national health budget. The ministry has released new hiring guidelines for all providers, but it does not match our goals."
+initiating_dialogue: "I received a memo today about policy guidance and the new national health budget. The ministry has released new purchasing guidelines for all providers, but that limits our autonomy. This is bad news for us."
 
 starting_options: [comply_with_ministry_budget_2]
 starting_options_affects: [comply_with_ministry_budget_2]
@@ -28,28 +28,30 @@ characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
-    dialogue: "Our own monitors have found mismanagement of funds. They need strict guidelines to provide the necessary services."
+    dialogue: "Our auditors have found mismanagement of funds. The providers need strict guidelines to provide the necessary services, and use the funds appropriately."
     narrows: [dep_minister_of_health, director_regional_health_services, coach, community_verifier]
     feedback: 
-      clarification_of_roles_10: "This is within the scope of regulation, which is my role. But if you think it's essential, we will step back on this."
+      clarification_of_roles_10: "This revision to the procurement guidelines is within the scope of regulation, which is my role. But if you think it's essential for the providers to keep autonomy, we will step back on this."
 
   director_regional_health_services:
-    dialogue: "If the Ministry is claiming this is necessary, I would take it seriously. A compromise might be to re-work the business plan with Ministry oversight."
+    dialogue: "If the Ministry is claiming this is necessary, I would take it seriously. A compromise might be to re-work the RBF Manual, and training with Ministry oversight."
     unlocks: [revise_business_plan_5]
     unlocks_affects: [revise_business_plan_5]
 
   coach:
-    dialogue: "I'd speak with the Ministry about this right away."
+    dialogue: "I have found some mismanagement of funds in the past as well, but appropriate actions were taken. We are supposed to be granting autonomy. Also, remember that the providers are paid for the services already provided."
     unlocks: [clarification_of_roles_10]
     unlocks_affects: [clarification_of_roles_10]
+    feedback:
+      comply_with_ministry_budget_2: "I don't believe this is the best option, but if you insist..."
 
   community_verifier:
-    dialogue: "I really don't think that this is in my wheelhouse; maybe somebody else on your team would have a better idea?"
+    dialogue: "I don't understand the need for these new guidelines, but then again, I am not working in the hospital."
 
   third_party_verifier: 
-    dialogue: "I have found some mismanagement of funds in the past as well. However, we are supposed to be granting autonomy."
+    dialogue: "We are verifying the result and ensure that the providers get paid accurately. So why take away their autonomy?"
 
   hospital_administrator:
+    dialogue: "I need to be able to purchase whatever is needed. This is a return to the bad old days, with many delays in receiving supplies from the central level, and I can't agree with it."
     feedback:
       revise_business_plan_5: "I don't believe this will be constructive, but I'm willing to try."
-      comply_with_ministry_budget_2: "If you insist..."

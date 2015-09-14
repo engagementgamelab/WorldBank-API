@@ -13,22 +13,24 @@ priority: 1
 year: 2
 
 initiating_npc: coach # <--- character's symbol
-initiating_dialogue: "I was visiting the hospital for my mentoring visit, and they are still mismanaging funds. The business plan has clear guidelines the Administrator is not sticking to."
+initiating_dialogue: "I was visiting the hospital for my mentoring visit, and they still don't have a balanced budget or expenditure. The business plan has clear guidelines on this and the Administrator is not sticking to them."
 
-starting_options: [warning_2, sanctions_and_retraining_on_use_of_financial_tools]
-starting_options_affects: [warning_2, sanctions_and_retraining_on_use_of_financial_tools]
-starting_options_cost: [small, medium]
+starting_options: [sanctions_17, retraining_on_use_of_financial_tools]
+starting_options_affects: [sanctions_17, retraining_on_use_of_financial_tools]
+starting_options_cost: [medium, medium]
 
-final_options: [warning_2, sanctions_and_retraining_on_use_of_financial_tools, revise_business_plan_1]
-final_options_affects: [warning_2, sanctions_and_retraining_on_use_of_financial_tools, revise_business_plan_1]
-final_options_cost: [small, medium, medium]
+final_options: [sanctions_17, retraining_on_use_of_financial_tools, audit_2, revise_business_plan_1]
+final_options_affects: [sanctions_17, retraining_on_use_of_financial_tools, audit_2, revise_business_plan_1]
+final_options_cost: [medium, medium, medium, medium]
 
 
 characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
-    dialogue: "I have been slammed with meetings all week, and don't really have time to discuss this right now. Sorry."
+    dialogue: "It sounds like funds have gone missing."
+    unlocks: [audit_2]
+    unlocks_affects: [audit_2]
 
   director_regional_health_services:
     dialogue: "Have you considered that there is a flaw in the business plan? If the Hospital Administrator is straying from it so often, it might need to be reevaluated."
@@ -38,19 +40,20 @@ characters:
   coach:
     feedback: 
       revise_business_plan_1: "I will schedule a meeting this week with the purchasing agency and begin the revision process for next quarter."
-      sanctions_and_retraining_on_use_of_financial_tools: "I'll make some time this week for a retraining session and try to drill down on exactly how these tools should be used. I'm informing the regulator about the sanctions now."
+      retraining_on_use_of_financial_tools: "I hope the Hospital Administrator will see its importance. I'll make some time this week for a retraining session and try to drill down on exactly how these tools should be used."
 
   third_party_verifier:
     dialogue: "If I had to guess, I would say this is simple mismanagement, nothing fraudulent." 
 
   community_verifier:
-    dialogue: "I'm not really sure. I haven't even been to this hospital!"
+    dialogue: "I'm not really sure. I have never even been to the hospital!"
 
   clinic_manager:
-    dialogue: "When was the last time you revised the business plan?"
+    dialogue: "When was the last time the hospital revised the business plan?"
 
   hospital_administrator:
     dialogue: "We need to spend money where it's needed, and as the administrator of this hospital, I know where it is needed. That was the purpose of granting us autonomy in the first place."
     feedback: 
-      warning_2: "I will do my best, but I I'm really worried things are going to start breaking down soon."
+      sanctions_17: "I will do my best, but I'm really worried things are going to start breaking down soon."
+      audit_2: "Very well, I'll clear some time. I'm sure you won't find anything wrong with our books."
 

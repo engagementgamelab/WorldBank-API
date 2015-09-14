@@ -13,7 +13,7 @@ priority: 4
 year: 2
 
 initiating_npc: coach # <--- character's symbol
-initiating_dialogue: "I was visiting one of the clinics in the network for my mentoring visit, and I was unhappy with their transparency. There were some records I was told were unavailable, and I was not able to meet with the staff as I wished."
+initiating_dialogue: "I was visiting one of the clinics in the network for my mentoring visit, and I was unhappy with their transparency. They do not display their performance indicators, or even contact details for the public in an emergency. The community representatives are also complaining that the clinics haven't held a single meeting with the Health Facility Management Committee."
 
 starting_options: [warning_4, terminate_contract_at_end_of_year_3]
 starting_options_affects: [warning_4, terminate_contract_at_end_of_year_3]
@@ -28,12 +28,12 @@ characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
-    dialogue: "I was under the impression that the plan required transparency."
+    dialogue: "I was under the impression that the program required transparency."
 
   director_regional_health_services:
-    dialogue: "This has gone far enough. We should order a total audit of all their practices."
-    unlocks: [audit]
-    unlocks_affects: [audit]
+    dialogue: "This has gone far enough. I will start looking for other providers."
+    unlocks: [terminate_contract_at_end_of_year_3]
+    unlocks_affects: [terminate_contract_at_end_of_year_3]
 
   coach:
     feedback:
@@ -51,7 +51,6 @@ characters:
     unlocks: [capacity_building]
     unlocks_affects: [capacity_building]
     feedback: 
-      audit: "Very well, I'll clear some time. I'd be interested to hear your suggestions on improving things."
       warning_4: "I'll try to make my staff more available next time."
 
   hospital_administrator:

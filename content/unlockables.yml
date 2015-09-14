@@ -71,9 +71,10 @@
 # ------------------
 - symbol: unlockable_dialogue_clinician
 
-# These were missing and causing errors in build. - Johnny
+# ------------------
+# unlocked by Lydia in Valeria
+# ------------------
 - symbol: unlockable_dialogue_plantation_owner
-- symbol: unlockable_limit_prescriptions
 
 
 # ----------------           ---------------- #
@@ -146,7 +147,7 @@
   type: supply_side_resource_allocation
 
 - symbol: unlockable_contract_outside_organization_to_administer_plan
-  title: "Contract Outside Organization to Administer Plan"
+  title: "Contract Outside Organization to Administer Program"
   description:
     - "If there is poor infrastructure or government control, contracting an NGO to manage this role might be ideal."
   priority: -1
@@ -258,9 +259,6 @@
 - symbol: comply_with_ministry_1
   title: "Comply with the Ministry"
 
-- symbol: authorize_providers_to_take_action_at_their_level_1
-  title: "Authorize providers to take action at their level"
-
 - symbol: clarify_separation_of_functions_1
   title: "Clarify the separation of functions and responsibilities"
 # ------------------ 
@@ -303,14 +301,17 @@
 # ------------------
 # Mismanagement - S1_Y2_P1
 # ------------------
-- symbol: warning_2
-  title: "Give warning"
+- symbol: sanctions_17
+  title: "Sanctions"
 
-- symbol: sanctions_and_retraining_on_use_of_financial_tools
-  title: "Set sanctions and retrain using financial tools"
+- symbol: retraining_on_use_of_financial_tools
+  title: "Retrain on using financial tools"
 
 - symbol: revise_business_plan_1
   title: "Revise the business plan"
+
+- symbol: audit_2
+  title: "Conduct an Audit"
 # ------------------
 # Lack of Transparency - S1_Y2_P2
 # ------------------
@@ -320,8 +321,8 @@
 - symbol: mild_sanctions 
   title: "Establish mild sanctions"
 
-- symbol: strong_sanctions
-  title:  "Establish strong sanctions"
+- symbol: terminate_contract
+  title:  "Terminate Contract at End of Year"
 # ------------------
 # Inconsistent Indicators - S1_Y2_P3
 # ------------------
@@ -341,9 +342,6 @@
 
 - symbol: terminate_contract_at_end_of_year_3
   title: "Terminate this contract at the end of the year"
-
-- symbol: audit
-  title: "Conduct audit"
 
 - symbol: capacity_building
   title: "Build capacity"
@@ -371,16 +369,16 @@
 - symbol: comply_with_ministry_request
   title: "Comply with the Ministry's request"
 
-- symbol: clarify_separation_of_functions_2
-  title: "Clarify the separation of functions"
+- symbol: clarify_separation_of_functions_and_responsibilities_2
+  title: "Clarify the separation of functions and responsibilities"
 
 - symbol: revise_business_plan_2
-  title: "Revise business plan"
+  title: "Revise RBF Manual"
 # ------------------
 # Failed Inspection - S1_Y3_P3
 # ------------------
 - symbol: review_the_inspection
-  title: "Review the inspection"
+  title: "Review the Quality Indicator Assessment"
 
 - symbol: warning_6
   title: "Give warning"
@@ -394,7 +392,7 @@
   title: "Expand the hospital staff by hiring new employees"
 
 - symbol: expand_hiring_at_all_facilities
-  title: "Expand hiring at all facilities"
+  title: "Increase Incentives for all Facilities"
 
 - symbol: award_bonuses_to_hospital_staff
   title: "Award bonuses to hospital staff"
@@ -426,7 +424,7 @@
   title: "Revise Business Plan"
 
 - symbol: retrain_1
-  title: "Retrain"
+  title: "Retrain on Business Plan Concepts"
 #------------------
 # Reversal - S1_T1_Y2_P2
 #------------------
@@ -434,13 +432,13 @@
   title: "Train Locals"
 
 - symbol: stick_to_the_plan_1
-  title: "Stick to the Plan"
+  title: "Stick to the Program"
 
 - symbol: embed_nurses_1
   title: "Embed Nurses"
 
 - symbol: expand_travelling_nurses_1
-  title: "Expand Traveling Nurses' Program"
+  title: "Expand Outreach Program"
 #------------------
 # Inconsistent Indicators - S1_T1_Y2_P3
 #------------------
@@ -448,7 +446,7 @@
   title: "Incentivise Facility Births"
 
 - symbol: expand_travelling_nurses_2
-  title: "Expand Traveling Nurses' Program"
+  title: "Expand Outreach Program"
 
 - symbol: revise_indicators_at_end_of_year_3
   title: "Revise Indicators at End of the Year"
@@ -469,6 +467,9 @@
 
 - symbol: terminate_contract_at_end_of_year_4
   title: "Terminate Contract at End of the Year"
+
+- symbol: create_new_guidelines_1
+  title: "Create New Guidelines"
 # ------------------
 # Wrong Numbers - S1_T1_Y3_P1
 # ------------------
@@ -491,7 +492,7 @@
   title: "Clarify role of Ministry"
 
 - symbol: revise_business_plan_4
-  title: "Revise Business Plan"
+  title: "Revise RBF Manual and Retraining"
 # ------------------
 # Money Troubles - S1_T1_Y3_P3
 # ------------------
@@ -499,7 +500,7 @@
   title: "Increase Referral Incentives"
 
 - symbol: continue_with_plan_1
-  title: "Continue With Plan As Written"
+  title: "Continue With Program As Written"
 
 - symbol: terminate_contract_at_end_of_year_5
   title: "Terminate Contract at End of the Year"
@@ -510,13 +511,13 @@
   title: "Increase Funding for Community Verifiers"
 
 - symbol: centralize_control_over_travelling_nurses_1
-  title: "Centralize Control Over Travelling Nurses"
+  title: "Centralize Control Over Outreach Nurses"
 
 - symbol: warn_community_verifiers_1
   title: "Warn Community Verifiers"
 
 - symbol: require_nurses_to_return_to_file_1
-  title: "Require Nurses to Return to Facility to File"
+  title: "Require Outreach Nurses to Return to Outreach Center to File"
 # ------------------
 # Checkup Overload - S1_T1_Y3_P5
 # ------------------
@@ -551,7 +552,7 @@
   title: "Clarify role of Ministry"
 
 - symbol: revise_business_plan_5
-  title: "Revise Business Plan"
+  title: "Revise RBF Manual and Retraining"
 # ------------------
 # Fraud - S1_T2_Y3_P3
 # ------------------
@@ -570,13 +571,13 @@
   title: "Increase Funding for Community Verifiers"
 
 - symbol: centralize_control_over_travelling_nurses_2
-  title: "Centralize Control Over Travelling Nurses"
+  title: "Centralize Control Over Outreach Nurses"
 
 - symbol: warn_community_verifiers_2
   title: "Warn Community Verifiers"
 
 - symbol: require_nurses_to_return_to_file_2
-  title: "Require Nurses to Return to Facility to File"
+  title: "Require Outreach Nurses to Return to Outreach Center to File"
 # ------------------
 # More Fraud - S1_T2_Y3_P5
 # ------------------
@@ -600,7 +601,7 @@
   title: "Hold a meeting of all stakeholders"
 
 - symbol: create_manual
-  title: "Create a Manual"
+  title: "Update Manual"
 
 - symbol: give_ministry_more_power
   title: "Give ministry more power"
@@ -621,7 +622,7 @@
   title: "Pressure the NGO to comply"
 
 - symbol: cease_counter_verification
-  title: "Cease Counter-Verification"
+  title: "Cease Counter-Verification by Ministry"
 
 - symbol: clarification_of_roles_1
   title: "Clarification of Roles"
@@ -652,7 +653,7 @@
   title: "Warn but allow payment once"
 
 - symbol: revise_indicators_at_end_of_year_1
-  title: "Revise indicators at end of the year"
+  title: "Revise Fees For Indicators at End of the Year"
 
 #------------------
 # Reach - S2_Y2_P2
@@ -660,14 +661,11 @@
 - symbol: terminate_ngo_contract_1
   title: "Terminate NGO contract at end of the year"
 
-- symbol: revise_operating_manual
-  title: "Revise NGO operating manual"
-
 - symbol: increase_funding_for_ngo
-  title: "Increase funding for NGO"
+  title: "Revise Fees for Indicators"
 
 - symbol: contract_additional_ngo_at_years_end
-  title: "Contract additional NGO at Year's End"
+  title: "Contract Additional NGO at Year's End"
 #------------------
 # Arguments - S2_Y2_P3
 #------------------
@@ -691,8 +689,8 @@
 - symbol: move_authority_to_ministry_2
   title: "Move budgeting authority to Ministry"
 
-- symbol: comply_with_ngo_budget_2
-  title: "Comply with NGO budget"
+- symbol: loosen_drug_control_1
+  title: "Loosen Government Control of Drugs"
 
 #------------------
 # Contract Management - S2_Y2_P5
@@ -703,8 +701,8 @@
 - symbol: clarification_of_roles_5
   title: "Clarification of roles"
 
-- symbol: hire_agency
-  title: "Hire Agency"
+- symbol: ask_ministry_to_speed_payment_1
+  title: "Ask Ministry of Finance to Speed NGO Payment"
 
 - symbol: expedite_payment_and_service_delivery
   title: "Expedite payment and service delivery"
@@ -747,16 +745,19 @@
 - symbol: clarification_of_roles_7
   title: "Clarification of Roles"
 
-- symbol: terminate_ngo_contract_5
-  title: "Terminate NGO Contract"
+- symbol: include_approval_ngo_curriculum_1
+  title: "Include Approval of Training Curriculum Used by NGOs"
 
-- symbol: sanction_ngo_1
-  title: "Sanction NGO"
+- symbol: warn_ngo_6
+  title: "Warn NGO"
+
+- symbol: allow_private_curriculum_1
+  title: "Allow NGO to Keep Curriculum Private"
 #------------------
 # Poor Stewardship - S2_Y3_P4
 #------------------
-- symbol: clarification_of_roles_8
-  title: "Clarification of Roles"
+- symbol: warn_ngo_7
+  title: "Warn NGO"
 
 - symbol: terminate_ngo_contract_6
   title: "Terminate NGO Contract"
@@ -778,13 +779,13 @@
   title: "Reaffirm Ministry's Authority"
 
 - symbol: ask_reduce_oversight
-  title: "Ask to Reduce Oversight"
+  title: "Ask to Reduce Regulatory Measure"
 
 - symbol: circulate_memo_reaffirming_ministry_authority
   title: "Circulate Memo Reaffirming Ministry Authority"
 
 - symbol: streamline_speed_verification_process
-  title: "Streamline Speed Verification Process"
+  title: "Streamline Ministry Constraints to Speed Verification"
 
 - symbol: verification_1
   title: "Verification"
@@ -829,7 +830,7 @@
   title: "Increase Supply Budget"
 
 - symbol: grant_facilities_autonomy
-  title: "Grant Facilities Autonomy"
+  title: "Grant Facilities Autonomy to Order or Purchase Supplies"
 
 # ------------------- #
 # Scenario 3 - Year 2
@@ -855,14 +856,14 @@
 # Mismanagement - S3_Y2_2
 #------------------
 
-- symbol: warning_13
-  title: "Warning"
-
-- symbol: sanctions_and_retraining_on_use_of_financial_tools_2
-  title: "Sanctions and Retraining on Use of Financial Tools"
+- symbol: retraining_on_use_of_financial_tools_2
+  title: "Retraining on Use of Financial Tools"
 
 - symbol: revise_business_plan_6
   title: "Revise Business Plan"
+
+- symbol: sanctions_18
+  title: "Sanctions"
 
 #------------------
 # Midwives - S3_Y2_4
@@ -871,8 +872,8 @@
 - symbol: request_a_budget_line_from_ministry
   title: "Request a Budget Line from Ministry"
 
-- symbol: allow_outreach_staff_to_act_as_midwives
-  title: "Allow Outreach Staff to Act as Midwives"
+- symbol: offer_vouchers_for_travel
+  title: "Offer Vouchers For Travel"
 
 - symbol: grant_providers_autonomy_to_hire_staff
   title: "Grant Providers Autonomy to Hire Staff"
@@ -887,8 +888,8 @@
 - symbol: sanctions_14
   title: "Sanctions"
 
-- symbol: strong_sanctions_2
-  title: "Strong Sanctions"
+- symbol: terminate_contract_1
+  title: "Terminate Contract"
 
 # ------------------- #
 # Scenario 3 - Year 3
@@ -912,16 +913,16 @@
 #------------------
 
 - symbol: review_the_inspection_2
-  title: "Review the Inspection"
+  title: "Review the third party assessment on the quality score"
 
-- symbol: warning_15
-  title: "Warning"
+- symbol: revise_business_plan_7
+  title: "Revise Business Plan"
 
 - symbol: deny_review_2
   title: "Deny Review"
 
 #------------------
-# Perscriptions - S3_Y3_3
+# Prescriptions - S3_Y3_3
 #------------------
 
 - symbol: warning_16
@@ -947,7 +948,7 @@
   title: "Return to Traditional Financing"
 
 - symbol: terminate_both_health_contracts_of_providers
-  title: "Terminate Both Health Contracts of Providers"
+  title: "Terminate Both Health Contracts of Providers And Hire New Ones"
 
 - symbol: terminate_hospital_contract_and_redirect_resources
   title: "Terminate Hospital Contract and Redirect Resources"
@@ -962,20 +963,11 @@
 # Slow Verification - S4_Y1_1
 #------------------
 
-- symbol: warn_verifier_2
-  title: "Warn Third-Party Verifier"
+- symbol: request_expedited_payment_1
+  title: "Request Expedited Payment from Ministry"
 
-- symbol: revert_counterverification_1
-  title: "Revert Counterverification to the Ministry"
-
-- symbol: streamline_speed_verification_process_2
-  title: "Streamline Ministry's Process to Speed Verification"
-
-- symbol: circulate_memo_reaffirming_ministry_authority_2
-  title: "Circulate Memo Reaffirming Ministry Authority"
-
-- symbol: ask_reduce_oversight_2
-  title: "Ask Ministry to Reduce Oversight"
+- symbol: speed_third_party_hire_1
+  title: "Speed Hire of Third Party Verifier"
 #------------------
 # Process V Results - S4_Y1_2
 #------------------
@@ -1014,10 +1006,10 @@
   title: "Increase Supply Budget"
 
 - symbol: grant_facilities_autonomy_2
-  title: "Grant Facilities Autonomy to Order Supplies"
+  title: "Grant Facilities Autonomy to Order or Purchase Supplies"
 
-- symbol: warn_providers_3
-  title: "Warn Providers"
+- symbol: increase_ngo_autonomy_1
+  title: "Increase NGO Autonomy"
 # ------------------- #
 # Scenario 4 - Year 2
 # ------------------- #
@@ -1026,6 +1018,9 @@
 #------------------
 - symbol: warn_ngo_5
   title: "Warn NGO"
+
+- symbol: increase_ngo_autonomy_2
+  title: "Increase NGO Autonomy"
 
 - symbol: sanction_ngo_4
   title: "Sanction NGO"
@@ -1042,7 +1037,7 @@
   title: "Terminate Contract at End of Year"
 
 - symbol: increase_funding_for_ngo_2
-  title: "Increase Funding for NGO"
+  title: "Revise Fees for Indicators"
 
 - symbol: terminate_contract_at_end_of_year_9
   title: "Terminate Contract at End of Year"
@@ -1060,13 +1055,16 @@
 
 - symbol: grant_autonomy_to_providers_2
   title: "Grant Autonomy to Providers"
+
+- symbol: clarify_roles_1
+  title: "Clarification of Roles"
 #------------------
 # Midwives S4_Y2_4
 #------------------
 - symbol: request_budget_for_more_midwives_1
   title: "Request Budget Line for More Midwives"
 
-- symbol: allow_outreach_staff_to_act_as_midwives_2
+- symbol: travel_vouchers_1
   title: "Allow Outreach Staff to Act as Midwives"
 
 - symbol: grant_autonomy_to_providers_3
@@ -1077,14 +1075,17 @@
 #------------------
 # New Budget S4_Y3_1
 #------------------
-- symbol: comply_with_ngo_budget_3
-  title: "Advise to Comply with NGO Budget"
+- symbol: move_authority_to_ministry_4
+  title: "Move Authority to the Ministry"
 
-- symbol: rework_business_plan_2
-  title: "Rework Business Plan"
+- symbol: terminate_ngo_contract_9
+  title: "Terminate NGO Contract"
 
-- symbol: grant_autonomy_to_providers_4
-  title: "Grant Autonomy to Providers"
+- symbol: loosen_drug_control_2
+  title: "Loosen Government Control of Drugs"
+
+- symbol: clarification_of_roles_12
+  title: "Clarification of Roles"
 #------------------
 # Process V Results Again S4_Y3_2
 #------------------
@@ -1095,7 +1096,7 @@
   title: "Warn, but Allow Payments Once"
 
 - symbol: revise_indicators_at_end_of_year_4
-  title: "Revise Indicators at End of Year"
+  title: "Increase Fee for Indicators at End of Year"
 #------------------
 # Prescriptions S4_Y3_3
 #------------------
@@ -1123,7 +1124,7 @@
   title: "Terminate Hospital Contract"
 
 - symbol: terminate_ngo_contract_8
-  title: "Terminate NGO Contract"
+  title: "Terminate NGO Contract and Hire New Providers"
 
 - symbol: grant_autonomy_to_providers_5
   title: "Grant Autonomy to Providers"
@@ -1299,7 +1300,7 @@
   title: "Increase Facility Birth Incentives"
 
 - symbol: unlockable_continue_with_plan
-  title: "Continue With Plan as Written"
+  title: "Continue With Program as Written"
 
 - symbol: unlockable_give_permission
   title: "Give Permission"
@@ -1423,7 +1424,7 @@
 # -------------------------- #
 
 - symbol: unlockable_continue_with_plan_aesthetic
-  title: "Continue With Plan Aesthetic"
+  title: "Continue With Program Aesthetic"
 
 - symbol: unlockable_grant_permission
   title: "Grant Permission"
@@ -1447,7 +1448,7 @@
 # -------------------------- #
 
 - symbol: unlockable_terminate_contract_at_end_of_year
-  title: "Terminate Contract at End of Year and Return to Pre-plan Shipping Methods"
+  title: "Terminate Contract at End of Year and Return to Pre-Program Shipping Methods"
 
 - symbol: unlockable_hire_another_ground_based_service
   title: "Hire Another Ground-Based Service"
@@ -1553,7 +1554,7 @@
 # Overperscription - Y1_NP1
 # -------------------------- #
 
-- symbol: unlockable_limit_perscriptions
+- symbol: unlockable_limit_prescriptions
   title: "Limit Prescriptions"
 
 - symbol: unlockable_incentivise_following_set_protocols

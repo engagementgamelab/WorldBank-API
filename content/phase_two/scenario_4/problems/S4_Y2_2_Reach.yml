@@ -12,7 +12,7 @@ name: "Reach"
 priority: 6
 
 initiating_npc: dep_minister_of_health # <--- character's symbol
-initiating_dialogue: "We're seeing underserved populations throughout the south. The NGO is falling short of their promises, especially in this area."
+initiating_dialogue: "We're seeing underserved populations throughout the south. The NGO is falling short of their promises, especially in this one area."
 
 starting_options: [terminate_contract_at_end_of_year_9]
 starting_options_affects: [terminate_contract_at_end_of_year_9]
@@ -26,26 +26,26 @@ characters:
 
   dep_minister_of_health:
     feedback:
-      increase_funding_for_ngo_2: "You realize you're rewarding these people for failure? I don't want to step in on this issue. Don't make me."
+      increase_funding_for_ngo_2: "You realize you're rewarding these people for failure? Please make sure that this is the right decision."
 
   director_regional_health_services:
-    dialogue: "We're seeing underserved populations throughout the south. The NGO is falling short of their promises, especially in this area."
+    dialogue: "The health care providers and NGOs are working hard, but there are many social and cultural barriers in this region."
 
   ngo_manager:
-    dialogue: "It's been a lot harder to reach some populations than we expected, especially down there. Health facilities in this region are much shorter on supplies and staff than we originally estimated, and there's no budget for us to make up the shortfall."
+    dialogue: "It's been a lot harder to reach some populations than we expected, especially down there. The people living in the South are more entrenched in traditional medicine, and that's a big obstacle for us to get over when we can only afford the health care itself."
     unlocks: [increase_funding_for_ngo_2]
     unlocks_affects: [increase_funding_for_ngo_2]
     feedback:
-      terminate_contract_at_end_of_year_9: "We can't, cannot, get to absolutely everyone, so you're making it impossible to get health care for everyone else. That's self-defeating!"
-      contract_additional_ngo_2: "I think we could have done it, but it would be a lot of work to reach that province. I appreciate the help."
+      terminate_contract_at_end_of_year_9: "We cannot get to absolutely everyone, so you're making it impossible to get health care for everyone else. That's self-defeating!"
+      contract_additional_ngo_2: "I think we could have done it, but it would be a lot of work to reach that province in the south, so I think that this is for the best."
 
   coach:
-    dialogue: "Look, we have one group running things pretty well for most of the country. Maybe we need someone to run support for them who's more used to this kind of issue."
+    dialogue: "Look, we have one group running things pretty well for most of the country. Maybe we need another NGO who is more used to this kind of region, to better focus on the population."
     unlocks: [contract_additional_ngo_2] # <--- these probably will symbols
     unlocks_affects: [contract_additional_ngo_2]
 
   third_party_verifier:
-    dialogue: "I'm sure they are having trouble getting to some people, but no informational campaign is going to reach everybody."
+    dialogue: "I'm sure they are having trouble getting to some people, but it is impossible to reach everybody."
 
   community_verifier:
     dialogue: "You can always just guide the NGO on how they should address this. It might be kind of micro-manage-y, but that's what you have a coach for, right?"

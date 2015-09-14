@@ -13,13 +13,13 @@ priority: 4
 year: 2
 
 initiating_npc: hospital_administrator # <--- character's symbol
-initiating_dialogue: "We're having a lot of trouble hitting goals for facility births. We're short staffed, especially when it comes to midwives."
+initiating_dialogue: "We're having a lot of trouble increasing our numbers for facility births. We're short staffed, especially when it comes to midwives."
 
 starting_options: [request_a_budget_line_from_ministry]
 starting_options_affects: [request_a_budget_line_from_ministry]
 
-final_options: [request_a_budget_line_from_ministry, grant_providers_autonomy_to_hire_staff, allow_outreach_staff_to_act_as_midwives]
-final_options_affects: [request_a_budget_line_from_ministry, grant_providers_autonomy_to_hire_staff, allow_outreach_staff_to_act_as_midwives]
+final_options: [request_a_budget_line_from_ministry, grant_providers_autonomy_to_hire_staff, offer_vouchers_for_travel]
+final_options_affects: [request_a_budget_line_from_ministry, grant_providers_autonomy_to_hire_staff, offer_vouchers_for_travel]
 
 characters:
 
@@ -28,18 +28,18 @@ characters:
     dialogue: "If you can verify this, we'd be willing to discuss the budget."
     narrows: [dep_minister_of_health, director_regional_health_services, third_party_verifier, clinic_manager, hospital_administrator] # <--- this probably will be a symbol
     feedback: 
-      grant_providers_autonomy_to_hire_staff: "This is a significant change to the plan. Let's discuss this at the end of the year once we see how it's panned out." # <--- symbol of the option used and the feedback text for it
+      grant_providers_autonomy_to_hire_staff: "This is a significant change to the program. Let's discuss this at the end of the year once we see how it's panned out." # <--- symbol of the option used and the feedback text for it
       request_a_budget_line_from_ministry: "We can allow this, but I want to see reports on the results." # <--- symbol of the option used and the feedback text for it
 
   director_regional_health_services: # <--- character's symbol
-    dialogue: "That would explain the struggling indicators on facility births.  An alternative I've considered is allowing outreach staff to serve as midwives in the field, if facilities are overstressed."
-    unlocks: [allow_outreach_staff_to_act_as_midwives]
-    unlocks_affects: [allow_outreach_staff_to_act_as_midwives]
+    dialogue: "That would explain the struggling indicators on facility births.  An alternative I've considered is providing vouchers for travel to bring people directly to facilities."
+    unlocks: [offer_vouchers_for_travel]
+    unlocks_affects: [offer_vouchers_for_travel]
 
   coach:
-    dialogue: "The Hospital Administrator has complained to me in private about not being able to hire staff members without Ministry approval. I told him the plan is firm about how these decisions are made."
+    dialogue: "The Hospital Administrator has complained to me in private about not being able to hire staff members without Ministry approval. I told him the program is firm about how these decisions are made."
     feedback: 
-      allow_outreach_staff_to_act_as_midwives: "This would boost facility births for sure, but it's a bit of a cheat since they won't technically be in facilities. But as long as women are giving birth safely, right?" # <--- symbol of the option used and the feedback text for it
+      offer_vouchers_for_travel: "This will remove an important barrier, though I still worry that we are short-staffed at facilities." # <--- symbol of the option used and the feedback text for it
 
   third_party_verifier:
     dialogue: "You should talk to the Clinic Manager: they're working under similar conditions and should have insight. Run it by your RBF Coach, too."

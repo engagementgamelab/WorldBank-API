@@ -5,10 +5,18 @@
 # Phase Two Scenario One Path Config YAML
 # ==============
 
-prompt_year_1: "Thank you for joining us for the end of year meeting. It seems like your plan implementation is going smoothly, yes? That said, we would like to know if you need anything approved through us to make the plan run more efficiently. We are currently delivering services through an NGO, though if things aren't going as well it isn’t too late to switch to a PBF system."
-prompt_year_2: "You've made it to the end of year two. I hope you are checking your indicators and making sure the RBF plan is running smoothly. I understand you’re personally invested in this NGO contract, but I foresee problems down the lineI understand you’re personally invested in the NGO, but I foresee problems down the line Is there anything you need from us?"
+prompt_year_1:
+  - "You did nothing!!"
+  - "Thank you for joining us for the end of year meeting. It seems like your program implementation is going smoothly, yes? That said, we would like to know if you need anything approved through us to make the program run more efficiently. We are currently delivering services through an NGO, though if things aren't going as well it isn’t too late to switch to a PBF system."
+  - "Good Job!"
+
+prompt_year_2:
+  - "You did nothing!!"
+  -  "You've made it to the end of year two. I hope you are checking your indicators and making sure the RBF program is running smoothly. I understand you’re personally invested in the NGO, but I foresee problems down the line. Is there anything you need from us?"
+  - "Good Job!"
+
 choices: # <---- The choices the player will see during a year break.
-  - text: "Change from a PBC focused plan to PBF focused plan by replacing the NGO with public services"
+  - text: "Change from a PBC-focused program to PBF-focused program by replacing the NGO with public services"
     # This instructs the game to load the player into twist 1 if at end of year 1.
     # At end of year 2, it would load year 3's twist 1 OR 2 depending on if the player chose an option at end of year 1.
     # This can also be a scenario, e.g. "scenario_4", in which case the player is brought to the specified scenario, with its *default* problems loaded.

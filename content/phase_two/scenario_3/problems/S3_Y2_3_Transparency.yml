@@ -18,8 +18,8 @@ initiating_dialogue: "There is an ongoing issue with the Clinic Manager. They lo
 starting_options: [warning_14, sanctions_14]
 starting_options_affects: [warning_14, sanctions_14]
 
-final_options: [warning_14, sanctions_14, strong_sanctions_2]
-final_options_affects: [warning_14, sanctions_14, strong_sanctions_2]
+final_options: [warning_14, sanctions_14, terminate_contract_1]
+final_options_affects: [warning_14, sanctions_14, terminate_contract_1]
 
 characters:
 
@@ -28,9 +28,9 @@ characters:
     dialogue: "We cannot afford this kind of impropriety. Deal with this."
 
   director_regional_health_services: # <--- character's symbol
-    dialogue: "This is troubling. Look into other providers for next year's contract."
-    unlocks: [strong_sanctions_2]
-    unlocks_affects: [strong_sanctions_2]
+    dialogue: "This is troubling. I may begin looking into other providers for you to contract next year."
+    unlocks: [terminate_contract_1]
+    unlocks_affects: [terminate_contract_1]
 
   coach:
     dialogue: "This is a big deal. Honesty aside, we need accurate numbers to know what kind of progress we're making. We need to send a very clear message: unvalidated reports will not be paid."
@@ -45,8 +45,8 @@ characters:
   clinic_manager:
     dialogue: "I told my staff to start keeping better records. I can talk to them again and stress its importance..."
     feedback: 
-      sanctions_14: "Our budget is strained as it is. I'll have to fire people. Which will make it harder to meet your goals. And so on until we have to close and your plan fails." # <--- symbol of the option used and the feedback text for it
-      strong_sanctions_2: "This is a disaster! For such a small error? I've been bending over backwards to meet the Ministry's spartan budgeting requirements. We'll need to let staff go. I'm going to have to fire my people because you want to, what, make an example of us? Thanks for putting that on me." # <--- symbol of the option used and the feedback text for it
+      sanctions_14: "Our budget is strained as it is. I'll have to fire people. Which will make it harder to meet your goals. And so on until we have to close and your program fails." # <--- symbol of the option used and the feedback text for it
+      terminate_contract_1: "This is a disaster! For such a small error?" # <--- symbol of the option used and the feedback text for it
 
   hospital_administrator:
     dialogue: "Don't go too hard on them. These clinics do good work."

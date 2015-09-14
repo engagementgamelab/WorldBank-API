@@ -36,15 +36,15 @@ characters:
       terminate_contract_at_end_of_year_8: "I understand. I will inform the Clinic Manager of this, and begin the search for a replacement ASAP." # <--- symbol of the option used and the feedback text for it
 
   coach:
-    dialogue: "Maybe we've been incentivising the wrong things. Prescriptions make patients happy, whether or not they're correct. I've prioritized happy patients, perhaps to the detriment of best practices."
+    dialogue: "Maybe we've been incentivising the wrong things. Prescriptions make patients happy, whether or not they're correct. I've prioritized satisfied patients, perhaps to the detriment of best practices."
     unlocks: [tie_incentives_directly_to_protocol] # <--- these probably will symbols
     unlocks_affects: [tie_incentives_directly_to_protocol]
     feedback: 
       reduce_incentives_for_customer_service: "That's an approach I hadn't thought of. Let's implement it, see what happens." # <--- symbol of the option used and the feedback text for it
-      tie_incentives_directly_to_protocol: "I'll work on implementing this change. I think this'll be a turning point for the plan." # <--- symbol of the option used and the feedback text for it
+      tie_incentives_directly_to_protocol: "I'll work on implementing this change. I think this'll be a turning point for the program." # <--- symbol of the option used and the feedback text for it
 
   third_party_verifier:
-    dialogue: "How did I miss this!? I'll look more closely to see what else the clinics are misreporting."
+    dialogue: "How did I miss this!? I'll take another look. It would be very easy for us to verify whether they're really following protocols."
 
   clinic_manager:
     dialogue: "I run an entire network of clinics, and unfortunately I can't be everywhere at once. In the end, I am responsible, but I feel I am not being given the support I need."

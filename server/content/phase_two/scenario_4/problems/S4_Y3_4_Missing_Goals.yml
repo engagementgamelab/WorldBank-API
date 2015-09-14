@@ -12,7 +12,7 @@ name: "Missing Goals"
 priority: 12
 
 initiating_npc: dep_minister_of_health # <--- character's symbol
-initiating_dialogue: "I hate to say it, but things are not going well. The NGO routinely misses its goals, and our indicators have not risen as predicted. We're thinking about declaring the plan a failure, cancelling it next year, and returning to traditional financing."
+initiating_dialogue: "I hate to say it, but things are not going well. The NGO is underperforming, and our indicators have not risen as predicted. We're thinking about cancelling the program next year, and returning to traditional financing."
 
 starting_options: [return_to_traditional_financing_2]
 starting_options_affects: [return_to_traditional_financing_2]
@@ -27,21 +27,21 @@ characters:
   director_regional_health_services:
     dialogue: "As much as it pains me to say so, I agree with the Deputy Minister. We need to change our approach."
     narrows: [dep_minister_of_health, director_regional_health_services, ngo_manager, third_party_verifier]
+    feedback:
+      return_to_traditional_financing_2: "Part of me feels like the past three years have been wasted, but I guess there's no sense in throwing good money out after bad. It's been a pleasure working with you."
 
   ngo_manager:
     dialogue: "The problem is at the level of providers and always has been. If we terminate the hospital's contract, we can find another provider to fill their role and salvage our project."
     unlocks: [terminate_hospital_contract_1]
     unlocks_affects: [terminate_hospital_contract_1]
     feedback:
-      terminate_ngo_contract_8: "If we couldn't make this work, nobody can. The past three years have been an unmitigated disaster."
-      grant_autonomy_to_providers_5: "Let's schedule a meeting to discuss this at the end of the year. I might be able to persuade the Minister to give us one more year with an altered plan."
+      terminate_ngo_contract_8: "If we couldn't make this work, nobody can. The past three years have been an unmitigated disaster. But I wish you luck."
+      grant_autonomy_to_providers_5: "Let's schedule a meeting to discuss this at the end of the year. I might be able to persuade the Minister to give us one more year with an altered program."
 
   coach:
-    dialogue: "There must be another solution here. I'm committed to making this plan work. Even with new health providers and without the assistance of the NGO."
+    dialogue: "There must be another solution here. I'm committed to making this program work. Even with new health providers and without the assistance of the NGO."
     unlocks: [terminate_ngo_contract_8] # <--- these probably will symbols
     unlocks_affects: [terminate_ngo_contract_8]
-    feedback:
-      return_to_traditional_financing_2: "Part of me feels like the past three years have been wasted, but I guess there's no sense in throwing good money out after bad. It's been a pleasure working with you."
 
   third_party_verifier:
     dialogue: "I've heard a lot of complaining, but it amounts to finger pointing. Can you fire everybody? Except me, that is."
@@ -54,4 +54,4 @@ characters:
     unlocks: [grant_autonomy_to_providers_5]
     unlocks_affects: [grant_autonomy_to_providers_5]
     feedback:
-      terminate_hospital_contract_1: "This is so disappointing. I did everything I could to make this plan work and help people."
+      terminate_hospital_contract_1: "This is so disappointing. I did everything I could to make this program work and help people."

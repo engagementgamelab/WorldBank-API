@@ -19,16 +19,14 @@ starting_options: [terminate_ngo_contract_3]
 starting_options_affects: [terminate_ngo_contract_3]
 starting_options_cost: [small]
 
-final_options: [terminate_ngo_contract_3, clarification_of_roles_5, hire_agency, expedite_payment_and_service_delivery]
-final_options_affects: [terminate_ngo_contract_3, clarification_of_roles_5, hire_agency, expedite_payment_and_service_delivery]
+final_options: [terminate_ngo_contract_3, clarification_of_roles_5, ask_ministry_to_speed_payment_1, expedite_payment_and_service_delivery]
+final_options_affects: [terminate_ngo_contract_3, clarification_of_roles_5, ask_ministry_to_speed_payment_1, expedite_payment_and_service_delivery]
 final_options_cost: [small, small, small, small]
 
 characters:
 
   dep_minister_of_health: 
-    dialogue: "This is something I had to learn early on when I switched from practicing medicine to politics: if you can't cut something out of the budget, just stop budgeting for it. Just terminate the contract so we won't have to go through this."
-    unlocks: [terminate_ngo_contract_3]
-    unlocks_affects: [terminate_ngo_contract_3]
+    dialogue: "This is just another sign that our relationship with this NGO is not working. If it's not working, the contract should be terminated. We can work directly with providers."
 
   director_regional_health_services:
     dialogue: "I get where the Dep. Minister is coming from, but I see people getting treated. We need to get everyone on the same page."
@@ -36,25 +34,24 @@ characters:
     unlocks_affects: [clarification_of_roles_5]
 
   ngo_manager: 
-    dialogue: "I know that to the Hospital Administrator, these stipulations seem really stringent, but you brought us on in part to reign in spending."
     feedback:
-        terminate_ngo_contract_3: "I get it that this has been stressful, so this might be for the best, but I hope you can handle this. For the patients' sakes."
-        expedite_payment_and_service_delivery: "Thank you. This is going to work much better."
+      terminate_ngo_contract_3: "I get it that this has been stressful, so this might be for the best, but I hope you can handle this. For the patients' sakes."
+      expedite_payment_and_service_delivery: "Thank you. This is going to work much better."
 
   coach:
-    dialogue: "It's probably too late to do it now, but before the year's out we should look into getting someone who can manage the contract so we don't have to go to bat every time there's an argument."
-    unlocks: [hire_agency]
-    unlocks_affects: [hire_agency]
+    dialogue: "The cause is obvious: bureaucracy in the Ministry of Finance. They should know that we pay for results, and every time they delay funding, it causes a feedback loop that hurts results down the line.."
+    unlocks: [ask_ministry_to_speed_payment_1]
+    unlocks_affects: [ask_ministry_to_speed_payment_1]
     feedback:
-        clarification_of_roles_5: "Sure, you can remind the Ministry and NGO, again, who's supposed to do what. But that will only work until the next argument."
-        hire_agency: "I know this is more money spent, but we need to focus on lowering the infant mortality rate, not refereeing a fight between adults."
+      clarification_of_roles_5: "Sure, you can remind the Ministry and NGO, again, who's supposed to do what. But that will only work until the next argument."
+      ask_ministry_to_speed_payment_1: "I hope they heed your request. This is getting serious."
 
   third_party_verifier:
     dialogue: "I'm sure you're getting good advice from the people who are writing the checks. They are, at least, smart enough to know what they want."
     narrows: [director_regional_health_services, ngo_manager, third_party_verifier, community_verifier, hospital_administrator]
 
   community_verifier:
-    dialogue: "You have an advisor, and that's good. Someone thinking about the big picture. Great. But maybe you should ask the people who are using this money to help people."
+    dialogue: "The people that will know this best are the coach and the health provider. They deal with the impact of these decisions every day."
     narrows: [dep_minister_of_health, director_regional_health_services, ngo_manager, third_party_verifier, community_verifier]
 
   hospital_administrator:

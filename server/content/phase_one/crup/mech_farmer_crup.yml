@@ -18,11 +18,11 @@ character: mech_farmer_crup
 dialogue:
     Initial:
       text: 
-        - "He offers you a cigarette as you draw nearer, which you politely refuse. \"Suit yourself,\" he says, taking another drag. He explains he has been working on the plantation for a few years now, and though the work is hard, the pay is reliable and we get to use [[Advanced Equipment]]. \"I just wish they paid us [[a bit more]].\""
+        - "He offers you a cigarette as you draw nearer, which you politely refuse. \"Suit yourself,\" he says, taking another drag. He explains he has been working on the plantation for a few years now, and though the work is hard, the [[Advanced Equipment]] they use is always functional. \"I just wish they paid us [[a bit more]].\""
         - "\"You are still here?\" the farmer asks. \"Well then, what do you want to talk about?\""
     Advanced Equipment:
       text:
-        - "You ask about the expensive-looking machine he's leaning up against. \"It's not mine,\" he says. \"The Plantation owns this. They got a big grant from the government to modernize. Suits me fine, since I don't have to pick fruit out of thorns this way.\""
+        - "You ask about the expensive-looking machine he's leaning up against. \"It's not mine,\" he says. \"The Plantation owns this. They got a big grant from the government to modernize. Suits me fine, since I do not have to pick fruit out of thorns this way.\""
       unlocks: [unlockable_dialogue_professor]
       unlocks_context: ["A professor might have something to say about this."]
     unlockable_dialogue_mech_farmer:

@@ -16,7 +16,7 @@ year: 1
 initiating_dialogue: "None of the hospitals or facilities have met their hiring goals for this quarter."
 
 # The dialogue the player sees when investigation has results to show
-investigate_dialogue: "There just aren't enough qualified people in the prescribed area to meet the hiring guidelines in the plan."
+investigate_dialogue: "There just aren't enough qualified people in the prescribed area to meet the hiring guidelines in the program."
 
 # These are special parameters that load a cooldown array, which is defined in content/config.yml under 'cooldown:'
 # For example, specifying $config_cooldown_long will choose the key found in config.yml under:

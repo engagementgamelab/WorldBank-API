@@ -43,7 +43,7 @@ characters:
     dialogue: "They all seem to be legitimate, so I don't suspect fraud. Would you like me to go over the paperwork again?"
 
   community_verifier:
-    dialogue: "We have heard rumors of people going to the hospital and being offered services they don't want."
+    dialogue: "We have heard rumors of people going to the clinic and being offered services they don't want."
     unlocks: [warn_providers_to_follow_protocols_2]
     unlocks_affects: [warn_providers_to_follow_protocols_2]
 

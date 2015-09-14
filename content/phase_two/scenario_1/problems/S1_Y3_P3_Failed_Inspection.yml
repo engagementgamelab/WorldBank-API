@@ -8,19 +8,19 @@
 # Phase Two Scenario Card YML Example
 
 symbol: failed_inspection
-name: "Failed Inspection"
+name: "Poor Quality Indicator Scores"
 priority: 3
 year: 3
 
 initiating_npc: clinic_manager # <--- character's symbol
-initiating_dialogue: "Hey, we just received a memo telling us we failed a quality of care inspection, but I disagree with the assessment. Given the amount of strain we are under, I believe we need to be granted some leeway in order to serve patients."
+initiating_dialogue: "Hey, the third party verifier just came to assess our quality score, but I disagree with the assessment results. Given the amount of strain we are under, I believe we need to be granted some leeway in order to serve patients."
 
 starting_options: [review_the_inspection]
 starting_options_affects: [review_the_inspection]
 starting_options_cost: [medium]
 
-final_options: [review_the_inspection, warning_6, deny_review]
-final_options_affects: [review_the_inspection, warning_6, deny_review]
+final_options: [review_the_inspection, revise_business_plan_7, deny_review]
+final_options_affects: [review_the_inspection, revise_business_plan_7, deny_review]
 final_options_cost: [medium, small, small]
 
 
@@ -34,12 +34,12 @@ characters:
     dialogue: "I recognize that their job is difficult, but quality of care is one of the indicators we are working to improve."
 
   coach:
-    dialogue: "Quality of care is not something we should grant leeway on. It is crucially important to the plan!"
-    unlocks: [warning_6]
-    unlocks_affects: [warning_6]
+    dialogue: "Quality of care is not something we should grant leeway on. It is crucially important, but if they are under such strain, they may require extra staff."
+    unlocks: [revise_business_plan_7]
+    unlocks_affects: [revise_business_plan_7]
 
   third_party_verifier:
-    dialogue: "They failed inspection, plain and simple. A review is not necessary."
+    dialogue: "They scored poorly, plain and simple. A review is not necessary."
     unlocks: [deny_review]
     unlocks_affects: [deny_review]
 
@@ -49,8 +49,8 @@ characters:
   clinic_manager:
     Feedback: 
       review_the_inspection: "Thank you! I think you'll find our quality is sufficient."
-      warning_6: "I don't know what we can do to improve things before the year is out."
-      deny_review: "This may be a serious problem. I was not paid last quarter, and it looks like I won't be paid this quarter."
+      revise_business_plan_7: "I would appreciate some support from the coach to figure out how we can improve things here."
+      deny_review: "If you aren't going to take me seriously, how can I have faith in this system?"
 
   hospital_administrator:
-    dialogue: "I can tell you it is painful to miss a payment, even when things are going well. What harm is there in reviewing the inspection?"
+    dialogue: "I can tell you it is painful to lose out in payment because of the quality score when things get busy. What harm is there in reviewing the inspection?"

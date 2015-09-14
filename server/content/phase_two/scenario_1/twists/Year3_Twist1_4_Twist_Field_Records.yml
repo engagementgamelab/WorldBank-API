@@ -14,22 +14,22 @@ year: 3
 twist: 1
 
 initiating_npc: dep_minister_of_health # <--- character's symbol
-initiating_dialogue: "We are having difficulty tracking the effectiveness of traveling nurses in the field. We can't confirm they are meeting goals or having positive impacts on indicators."
+initiating_dialogue: "We believe that the outreach nurses in the field could be used more effectively. Currently, there's not sufficient data that shows they are going to where they are most needed. Better record keeping could help us use them to their fullest potential. We can't confirm they are meeting goals or having positive impacts on indicators."
 
 starting_options: [warn_community_verifiers_1]
 starting_options_affects: [warn_community_verifiers_1]
 starting_options_cost: [small]
 
-final_options: [increase_funding_for_verifiers_1, centralize_control_over_travelling_nurses_1, warn_community_verifiers_1, require_nurses_to_return_to_file_1, increase_funding_for_verifiers_1]
-final_options_affects: [increase_funding_for_verifiers_1, centralize_control_over_travelling_nurses_1, warn_community_verifiers_1, require_nurses_to_return_to_file_1, increase_funding_for_verifiers_1]
-final_options_cost: [small, small, small, small, medium]
+final_options: [centralize_control_over_travelling_nurses_1, warn_community_verifiers_1, require_nurses_to_return_to_file_1, data_capacity_building_1]
+final_options_affects: [centralize_control_over_travelling_nurses_1, warn_community_verifiers_1, require_nurses_to_return_to_file_1, data_capacity_building_1]
+final_options_cost: [small, small, small, medium]
 
 characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
     feedback:
-      increase_funding_for_verifiers_1: "Really? I don't think we should be rewarding mismanagement."
+      data_capacity_building_1: "Alright, if you really think this will help, I'm willing to give it a chance."
 
   director_regional_health_services:
     dialogue: "It might help if they were clearing their movements through my office. Then we would know where they are going, and that they are headed where they're needed."
@@ -37,19 +37,19 @@ characters:
     unlocks_affects: [centralize_control_over_travelling_nurses_1]
 
   coach:
-    dialogue: "Our CBO partners should be confirming all of this. I don't think it's the nurses' fault. The verifiers need to know that if they can't adequately do the work, they can be replaced."
+    dialogue: "I would focus on capacity-building around the use of data. Even with all the data in the world, if no one is able to analyze it, it might as well not exist."
+    unlocks: [data_capacity_building_1]
+    unlocks_affects: [data_capacity_building_1]
     feedback:
       centralize_control_over_travelling_nurses_1: "I'm wary of adding another level of bureaucracy to this, but it may help..."
 
   third_party_verifier: 
-    dialogue: "The records filed by traveling nurses are sloppier and often late, since they are in the field instead of the hospital."
+    dialogue: "The records filed by outreach nurses are sloppier and often late, since they are in the field instead of the hospital."
     unlocks: [require_nurses_to_return_to_file_1]
     unlocks_affects: [require_nurses_to_return_to_file_1]
 
   community_verifier:
-    dialogue: "We often do not hear that a nurse has been to visit a patient until after she is long gone, so it's difficult to verify everything."
-    unlocks: [increase_funding_for_verifiers_1]
-    unlocks_affects: [increase_funding_for_verifiers_1]
+    dialogue: "I really wish I had an answer for you, but I can only give you data, not tell you what to do with it."
     feedback:
       warn_community_verifiers_1: "We'll try to come up with a strategy to tackle this. It can't be insurmountable."
 
@@ -59,8 +59,8 @@ characters:
 
   hospital_administrator:
     dialogue: "Our nurses are doing good work. If the Ministry can't confirm it's having an effect, then it's a verification issue."
-    narrows: [dep_minister_of_health, director_regional_health_services, coach, clinic_manager, hospital_administrator, health_provider_3]
+    narrows: [dep_minister_of_health, director_regional_health_services, coach, clinic_manager, hospital_administrator, health_provider_3, community_verifier]
 
   health_provider_3:
     dialogue: "This is the job of the verifiers, not us."
-    narrows: [dep_minister_of_health, director_regional_health_services, coach, clinic_manager, hospital_administrator, health_provider_3]
+    narrows: [dep_minister_of_health, director_regional_health_services, coach, clinic_manager, hospital_administrator, health_provider_3, community_verifier]

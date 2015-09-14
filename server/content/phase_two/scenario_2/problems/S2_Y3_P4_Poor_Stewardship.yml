@@ -8,25 +8,25 @@
 # Phase Two Scenario Card YML Example
 
 symbol: poor_stewardship
-name: "Poor Stewardship"
+name: "Over-Reporting"
 priority: 4
 year: 3
 
 initiating_npc: third_party_verifier
-initiating_dialogue: "I can tell you right now what's happening because I've seen it before. People all along the chain are skimming money because the NGO and Ministry have both backed off of their responsibilities. When there's no clear authority, corruption sets in. This is what's happening here."
+initiating_dialogue: "Over-reporting has become an issue in the last few months. I'm not sure why it's happening, but there's no getting around it. We're being billed for work that's not getting done."
 
-starting_options: [clarification_of_roles_8]
-starting_options_affects: [clarification_of_roles_8]
+starting_options: [warn_ngo_7]
+starting_options_affects: [warn_ngo_7]
 starting_options_cost: [small]
 
-final_options: [clarification_of_roles_8, terminate_ngo_contract_6, sanction_ngo_2, sanction_verifier]
-final_options_affects: [clarification_of_roles_8, terminate_ngo_contract_6, sanction_ngo_2, sanction_verifier]
+final_options: [warn_ngo_7, terminate_ngo_contract_6, sanction_ngo_2]
+final_options_affects: [warn_ngo_7, terminate_ngo_contract_6, sanction_ngo_2]
 final_options_cost: [small, small, small]
 
 characters:
 
   dep_minister_of_health: 
-    dialogue: "It looks like the NGO is making things worse, not better. If the NGO isn't doing their job, you terminate their contract."
+    dialogue: "We've struggled with the NGO in a number of ways, and this is the last straw as far as I'm concerned. Terminate the contract."
     unlocks: [terminate_ngo_contract_6]
     unlocks_affects: [terminate_ngo_contract_6]
 
@@ -36,25 +36,18 @@ characters:
     unlocks_affects: [sanction_ngo_2]
 
   ngo_manager:
-    dialogue: "You're going to threaten to terminate our contract because somewhere along the line there's corruption. You should probably see where it's happening."
-    unlocks: [sanction_verifier]
-    unlocks_affects: [sanction_verifier]
+    dialogue: "We made a lot of new hires this quarter to meet increased demand. This is a good thing! Our new staff members aren't executing the program as planned, but we can deal with that. I'll pass your warning on."
     feedback:
       terminate_ngo_contract_6: "We've been getting kids vaccinated against fatal diseases, improving care, saving lives. That is what you are screwing up here."
-      sanction_ngo_2: "I don't know what you expect me to do with more sanctions. I'm trying to manage a complex network, and this only complicates it more."
+      sanction_ngo_2: "I don't know what you expect me to do with more sanctions. I'm trying to manage a complex network!"
+      warn_ngo_7: "I will pass this warning along. I promise it will be taken seriously."
 
   coach:
-    dialogue: "This could ruin everything you've built here. If it does, the Minister and Regional Director will have to deal with it. It's only fair you go to them with this."
+    dialogue: "This is very troubling. I would refer you to the Ministry for advice, as the responsibility of the project eventually rests with them."
     narrows: [ngo_manager, coach, third_party_verifier, community_verifier, hospital_administrator]
-    feedback:
-        clarification_of_roles_8: "People are starting to think this is a band-aid, smoothing things over and rereading job descriptions every time something serious happens. This is pretty serious, here."
-
-  third_party_verifier:
-    feedback:
-        sanction_verifier: "I have been working for you this whole time, and it should tell you something that the NGO wanted me fired."
 
   community_verifier:
     dialogue: "This is kind of a mess. I don't want this to turn into a bigger problem than it has to be."
 
   hospital_administrator:
-    dialogue: "There is no evidence that anyone in my hospital is profiting unduly. IF any such information were to become apparent, I would be the first to recognize and rectify the situation, but as there is none, I have no responsibility to dignify your accusation with a response. ... No, you may not take a look at our books for yourself. ... No, not my personal bank account, either."
+    dialogue: "I have no knowledge of this. If the NGO is over-reporting results, it is happening at their level, not mine."

@@ -49,7 +49,7 @@
 - symbol: capitol_city_professor_malcom
   display_name: Professor from the Capitol City
   description: 
-    - "A well-dressed middle-aged man leans against the ticket counter, casually reading the world news on his tablet. Next to him is a small cart filled with a dozen or so textbooks on the history of Zariba. You  notice a pin from a university on his jacket."
+    - "A well-dressed middle-aged man sits on a bench, casually reading the world news. Next to him is a small bag filled with textbooks on the history of Zariba. You  notice a pin from a university on his jacket."
     - "The professor looks eager to continue your conversation. He has more to say."
     - "The professor reads a text book, 'The Zariban Nation.'"
 
@@ -317,7 +317,7 @@
     - "You read 'Jaquilyn Appiah' on her nameplate, but when she shakes your hand she introduces herself as 'Jackie.'"
 
 - symbol: supervisor
-  display_name: Supervisor of Plan Observation
+  display_name: Supervisor of Program Observation
   description:
     - "The Supervisor seems all right angles: square shoulders and a sharp suit. Amicable, but not necessarily approachable."
 

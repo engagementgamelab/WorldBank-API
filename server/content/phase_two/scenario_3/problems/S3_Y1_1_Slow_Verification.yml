@@ -13,7 +13,7 @@ priority: 1
 year: 1
 
 initiating_npc: dep_minister_of_health # <--- character's symbol
-initiating_dialogue: "The independent verifier and the health providers seem to have built a coalition to box us out of the verification process. This plan gives us the authority to verify any and all reports, but they're pushing back."
+initiating_dialogue: "The independent verifier and the health providers seem to have built a coalition to box us out of the verification process. This RBF program gives us the authority to verify any and all reports, but they're pushing back."
 
 starting_options: [warn_verifier_1]
 starting_options_affects: [warn_verifier_1]
@@ -34,7 +34,7 @@ characters:
       streamline_speed_verification_process: "This will put some strain on our office, but I think we can get the extra work done."
 
   coach:
-    dialogue: "The plan spreads authority across multiple stakeholders, including the Ministry of Health. Whether it's a good thing or a bad thing, that's their concern. Let's send a memo gently reminding everyone of that."
+    dialogue: "The program spreads authority across multiple stakeholders, including the Ministry of Health. Whether it's a good thing or a bad thing, that's their concern. Let's send a memo gently reminding everyone of that."
     unlocks: [circulate_memo_reaffirming_ministry_authority]
     unlocks_affects: [circulate_memo_reaffirming_ministry_authority]
     feedback: 

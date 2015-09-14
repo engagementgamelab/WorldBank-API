@@ -17,8 +17,8 @@ initiating_dialogue: "Bad news. We have surveyed many patients from the hospital
 starting_options: [warn_ngo_4]
 starting_options_affects: [warn_ngo_4]
 
-final_options: [warn_ngo_4, sanction_ngo_3, increase_supply_budget_2, grant_facilities_autonomy_2, warn_providers_3]
-final_options_affects: [warn_ngo_4, sanction_ngo_3, increase_supply_budget_2, grant_facilities_autonomy_2, warn_providers_3]
+final_options: [warn_ngo_4, sanction_ngo_3, increase_supply_budget_2, grant_facilities_autonomy_2, increase_ngo_autonomy_1]
+final_options_affects: [warn_ngo_4, sanction_ngo_3, increase_supply_budget_2, grant_facilities_autonomy_2, increase_ngo_autonomy_1]
 
 characters:
 
@@ -34,16 +34,16 @@ characters:
       increase_supply_budget_2: "We have increased the budget every year. I am not optimistic this will solve the problem."
 
   ngo_manager:
-    dialogue: "This is a problem at the provider level. You should issue them a warning. Or if you prefer, I can do so."
-    unlocks: [warn_providers_3]
-    unlocks_affects: [warn_providers_3]
+    dialogue: "If the government would just let us do the purchasing, then we would not run low on supplies, and we wouldn't have to turn patients away."
+    unlocks: [increase_ngo_autonomy_1]
+    unlocks_affects: [increase_ngo_autonomy_1]
     feedback:
       warn_ngo_4: "Warning received. I'll discuss this with our health providers and work on a solution."
       grant_facilities_autonomy_2: "This problem is due to facilities mismanaging what they are given, not my budget lines. It's not a good idea to give them more responsibility when they've done such a bad job with what they have."
       sanction_ngo_3: "How are we supposed to accomplish anything if you keep handicapping us? You understand this is going to affect care outcomes."
 
   coach:
-    dialogue: "I'm not sure why, but these facilities are always low on supplies. Maybe the budget's been set too low."
+    dialogue: "Maybe the budget for the medical store has been set too low?"
     unlocks: [increase_supply_budget_2] # <--- these probably will symbols
     unlocks_affects: [increase_supply_budget_2]
 
@@ -51,8 +51,8 @@ characters:
     dialogue: "The numbers are poor, but at least the facilities don't appear to be exaggerating them."
 
   hospital_administrator:
-    dialogue: "We put in requests for supplies, but they are not filled in a timely way. We get too much of some things, and not enough of others. If we could order our own supplies directly, this wouldn't be a problem, but the Ministry sets our orders down to the exact number of syringes."
+    dialogue: "We put in requests for supplies, but they are not filled in a timely way. We get too much of some things, and not enough of others. If we could order or purchase our own supplies directly, this wouldn't be a problem, but the Ministry sets our orders down to the exact number of syringes."
     unlocks: [grant_facilities_autonomy_2]
     unlocks_affects: [grant_facilities_autonomy_2]
     feedback:
-      warn_providers_3: "I'm at a loss. I'll hold a meeting with my staff and the RBF Coach and try to figure out how to resolve this."
+      increase_ngo_autonomy_1: "I'm at a loss. I'll hold a meeting with my staff and the RBF Coach and try to figure out how to resolve this."

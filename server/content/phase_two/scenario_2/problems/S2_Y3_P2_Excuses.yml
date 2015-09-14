@@ -13,7 +13,7 @@ priority: 2
 year: 3
 
 initiating_npc: ngo_manager
-initiating_dialogue: "We've talked about the problems of expectations. We can meet our goals better if we get our bonuses."
+initiating_dialogue: "I feel we've been misled about the situation on the ground here. Rising fuel prices are one thing, but the cultural barriers we've had to deal with are beyond what were initially described. I am confident we can meet our targets next year, but only if we get our bonuses this year. Otherwise, the entire program is doomed."
 
 starting_options: [deny_payment_3]
 starting_options_affects: [deny_payment_3]
@@ -26,11 +26,11 @@ final_options_cost: [small, small, small]
 characters:
 
   dep_minister_of_health: 
-    dialogue: "They claim they're doing such a bang up job. Are they?"
+    dialogue: "They claim they're doing a terrific job. Are they?"
     narrows: [dep_minister_of_health, ngo_manager, coach, third_party_verifier, community_verifier]
 
   director_regional_health_services:
-    dialogue: "It's a lot easier to work with people when they're getting paid. Just sayin'."
+    dialogue: "It's a lot easier to work with people when they're getting paid."
     unlocks: [warn_but_allow_payment_once_3]
     unlocks_affects: [warn_but_allow_payment_once_3]
 
@@ -45,7 +45,7 @@ characters:
     unlocks: [revise_indicators_at_end_of_year_2]
     unlocks_affects: [revise_indicators_at_end_of_year_2]
     feedback:
-        revise_indicators_at_end_of_year_2: "OK, at year's end let's all sit everyone down and we'll figure out what would be realistic goals for the money we have to work with."
+        revise_indicators_at_end_of_year_2: "OK, at year's end let's all sit down and we'll figure out what would be realistic goals for the money we have to work with."
 
   third_party_verifier:
     dialogue: "Have you read 'Things Fall Apart'? It might be a good idea."
@@ -54,4 +54,4 @@ characters:
     dialogue: "You're within your rights not to pay the NGO, it's true. But people have a right to health care."
 
   hospital_administrator:
-    dialogue: "As much as I've butt heads with the NGO, I'd like to continue treating patients."
+    dialogue: "As much as I've disagreed with the NGO, I'd like to continue treating patients."

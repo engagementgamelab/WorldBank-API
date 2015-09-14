@@ -13,7 +13,7 @@ priority: 2
 year: 1
 
 initiating_npc: third_party_verifier # <--- character's symbol
-initiating_dialogue: "The Clinic submitted their reports to us, but there were some inconsistencies. When we asked to see their records, they could not supply them."
+initiating_dialogue: "The Clinic submitted their reports on indicator performance, but there appear to be some inconsistencies. When we asked to see their records, they could not supply them."
 
 starting_options: [hold_payment_1]
 starting_options_affects: [hold_payment_1]
@@ -47,7 +47,7 @@ characters:
     dialogue: "My team has had no issue keeping records. I wonder what the issue is at the clinics?"
 
   clinic_manager:
-    dialogue: "The reports we submitted are correct, I can give you my word on that. The problem is we do not have the time and resources needed to keep and collect all the records required."
+    dialogue: "I'm surprised, I thought the reports we submitted were correct. It would be really helpful if someone could explain the mistakes we are making."
     unlocks: [help_build_capacity_1]
     unlocks_affects: [help_build_capacity_1]
     feedback:

@@ -13,7 +13,7 @@ priority: 2
 year: 1
 
 initiating_npc: ngo_manager
-initiating_dialogue: "Look. I know we haven't hit the numbers you laid out, but we got a lot of good work done. We can easily make our marks next quarter if the payor issues us our bonus for this period."
+initiating_dialogue: "Look. I know we haven't hit the targets you set in the contract, but we did get a lot of good work done. We can easily hit our targets next quarter if we receive our bonus for this period."
 
 starting_options: [deny_payment_1]
 starting_options_affects: [deny_payment_1]
@@ -31,8 +31,7 @@ characters:
       deny_payment_1: "We're working with little enough as it is."
 
   dep_minister_of_health: # <--- character's symbol
-    dialogue: "What do the providers think? They should have a pretty good idea if the NGO is at least trying to hit their goals."
-    narrows: [ngo_manager, coach, third_party_verifier, community_verifier]
+    dialogue: "If they didn't hit the targets, we shouldn't pay them."
 
   director_regional_health_services:
     dialogue: "If they think giving them the money for what they did get done will help next time, we can pay them this once."

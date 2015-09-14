@@ -28,8 +28,6 @@ characters:
     dialogue: "If people are being turned away, it's because funds are being mismanaged. Sanctioning them may be the only thing that providers will pay attention to."
     unlocks: [unlocks_sanction_providers] # <--- these probably will symbols
     unlocks_affects: [unlocks_sanction_providers]
-    feedback: 
-      grant_facilities_autonomy: "It's a bad idea to give more responsibility to an organization that's done such a bad job managing their resources." # <--- symbol of the option used and the feedback text for itA
 
   director_regional_health_services: # <--- character's symbol
     dialogue: "This is a serious problem. Even if services were abundant, it's hard to get people to come to the hospital."
@@ -40,6 +38,8 @@ characters:
     dialogue: "I'm not sure why, but these facilities are always low on supplies. Maybe they just need more money."
     unlocks: [increase_supply_budget]
     unlocks_affects: [increase_supply_budget]
+    feedback: 
+      grant_facilities_autonomy: "I'll see to this. In addition, we should issue a recommendation to the Ministry about the usefulness of autonomy in these facilities in general, as this is clearly not well-understood." # <--- symbol of the option used and the feedback text for itA
 
   third_party_verifier:
     dialogue: "The numbers are poor, but at least the facilities are being honest about it."
@@ -51,7 +51,7 @@ characters:
       unlocks_sanction_providers: "You can't seriously be asking us to do more with even less. It costs money to provide quality care." # <--- symbol of the option used and the feedback text for it
 
   hospital_administrator:
-    dialogue: "We put in requests for supplies, but it's forever before they're filled. And when they do, we get too much of some things, and not enough of others. If we could simply order our own supplies directly, this wouldn't be a problem, but the Ministry says what we're allowed to get down to the last syringe."
+    dialogue: "We put in requests for supplies, but it's forever before they're filled. And when they do, we get too much of some things, and not enough of others. If we could simply order or purchase our own supplies directly, this wouldn't be a problem, but the Ministry says what we're allowed to get down to the last syringe."
     unlocks: [grant_facilities_autonomy] # <--- these probably will symbols
     unlocks_affects: [grant_facilities_autonomy]
     feedback: 

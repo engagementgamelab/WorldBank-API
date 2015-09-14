@@ -13,42 +13,43 @@ priority: 1
 year: 1
 
 initiating_npc: director_regional_health_services
-initiating_dialogue: "With all these changes, my providers have expressed a lot of general confusion about roles, and the ministry hasn't been able to help. Can you clarify this for me?"
+initiating_dialogue: "With all these changes, my providers have expressed a lot of general confusion about who does what. Can you clarify this for me?"
 
 starting_options: [hold_a_meeting_of_all_stakeholders_1]
 starting_options_affects: [hold_a_meeting_of_all_stakeholders_1]
 starting_options_cost: [small]
 
-final_options: [hold_a_meeting_of_all_stakeholders_1, create_manual, give_ministry_more_power]
-final_options_affects: [hold_a_meeting_of_all_stakeholders_1, create_manual, give_ministry_more_power]
+final_options: [hold_a_meeting_of_all_stakeholders_1, create_manual, clarify_roles_1]
+final_options_affects: [hold_a_meeting_of_all_stakeholders_1, create_manual, clarify_roles_1]
 final_options_cost: [small, small, small]
 
 characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
-    dialogue: "We can handle distributing the work."
-    unlocks: [give_ministry_more_power]
-    unlocks_affects: [give_ministry_more_power]
+    dialogue: "Let's get this clear once and for all, who does what."
+    unlocks: [clarify_roles_1]
+    unlocks_affects: [clarify_roles_1]
     feedback: 
-      give_ministry_more_power: "All right, I understand. I'll inform the staff here." # <--- symbol of the option used and the feedback text for it
       create_manual: "This will make things much more clear. Thank you."
 
   ngo_manager:
-    dialogue: "I can improve on the literature the ministry has put out."
+    dialogue: "I can improve on the manual the ministry has put out."
     unlocks: [create_manual]
     unlocks_affects: [create_manual]
+    feedback:
+      clarify_roles_1: "Let's meet together with the ministry so that we make sure that it is really clear." # <--- symbol of the option used and the feedback text for it
 
   coach:
-    dialogue: "It's always handy to have something written down for people to look at."
+    dialogue: "It's always handy to have something written down for people to refer to."
     feedback:
-      hold_a_meeting_of_all_stakeholders_1: I'll talk to everyone and make sure they understand what we tried to get across about proper roles.""
+      hold_a_meeting_of_all_stakeholders_1: I'll talk to everyone and make sure they understand what we tried to get across about the different roles.""
 
   third_party_verifier:
     dialogue: "It would be good to deal with this before the different agencies start getting testy with each other."
 
   community_verifier:
-    dialogue: "I'm worried this is going to affect the care people are getting."
+    dialogue: "I'm worried this confusion is going to affect the care people are getting."
 
   coach:
     dialogue: "It's always handy to have something written down for people to look at."
@@ -56,5 +57,5 @@ characters:
     unlocks_affects: [create_manual]
 
   hospital_administrator:
-    dialogue: "I keep getting different answers from the NGO and the Ministry. Can you talk to them about it?"
+    dialogue: "I keep getting different answers from the NGO and the Ministry about roles. Can you talk to them about it?"
     narrows: [coach, third_party_verifier, community_verifier, hospital_administrator]

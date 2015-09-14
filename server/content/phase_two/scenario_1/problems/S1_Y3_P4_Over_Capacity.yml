@@ -13,7 +13,7 @@ priority: 4
 year: 3
 
 initiating_npc: director_regional_health_services # <--- character's symbol
-initiating_dialogue: "We've seen some great improvements over the past three years, but now the hospital is butting up against capacity. We might need to expand hiring to keep up with demand."
+initiating_dialogue: "We've seen some great improvements over the past three years, but now the hospital is almost at capacity. We might need to expand hiring to keep up with demand."
 
 starting_options: [expand_hiring_of_hospital_staff]
 starting_options_affects: [expand_hiring_of_hospital_staff]
@@ -28,12 +28,12 @@ characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
-    dialogue: "This is great news, as far as we're concerned!"
-    feedback: 
-      expand_hiring_of_hospital_staff: "Perfect. This should ease our capacity problems."
+    dialogue: "It's great news that they've managed to improve their performance so much!"
 
   coach:
-    dialogue: "From what I've seen, some extra help would go a long way, but I am concerned about the learning curve for new workers."
+    dialogue: "I agree they are doing very well, and they may need more resources, but why don't you leave it to the provider to decide they want to hire more staff? In line with their autonomy, I mean."
+    feedback: 
+      expand_hiring_of_hospital_staff: "We gave the providers autonomy to decide how to best improve performance, are you sure this is the best solution? Shouldn't they decide?"
 
   third_party_verifier:
     dialogue: "This is a good problem to have."
@@ -42,15 +42,15 @@ characters:
     dialogue: "The people in my most recent sample have been happy with the services they received, but did report long waits."
 
   clinic_manager:
-    dialogue: "I'd love to have more staff. Or is this just for the hospital?  Don't forget to take care of the people doing the hard work at the clinics."
+    dialogue: "I'd love to have more staff too. Or is this just for the hospital? Wouldn't it be better if you gave us the money and let us decide how to get the best results?"
     unlocks: [expand_hiring_at_all_facilities]
     unlocks_affects: [expand_hiring_at_all_facilities]
-    feedback: 
-      expand_hiring_at_all_facilities: "This was needed very badly. I look forward to meeting my new recruits."
+    feedback:
+      expand_hiring_at_all_facilities: "Thank you, this is fantastic news, I look forward to performing even better."
 
   hospital_administrator:
-    dialogue: "I am worried about on-boarding many new people. Perhaps we should reward the people who have got us this far? Bonuses and overtime would make my staff happy."
+    dialogue: "I am worried about on-boarding and managing many new people. Why don't you just give us more resources so we can decide whether to reward existing staff or to hire new people?"
     unlocks: [award_bonuses_to_hospital_staff]
     unlocks_affects: [award_bonuses_to_hospital_staff]
     feedback:
-      award_bonuses_to_hospital_staff: "This will really help motivate my staff. Thanks!"
+      award_bonuses_to_hospital_staff: "This is great, now I can really address older problems and make this a star-performing hospital."

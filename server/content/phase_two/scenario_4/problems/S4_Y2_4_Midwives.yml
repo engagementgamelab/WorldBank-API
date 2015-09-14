@@ -12,7 +12,7 @@ name: "Midwives"
 priority: 8
 
 initiating_npc: hospital_administrator # <--- character's symbol
-initiating_dialogue: "We're having a lot of trouble hitting goals for facility births. We're short-staffed, especially when it comes to midwives."
+initiating_dialogue: "We're having a lot of trouble increasing facility births. We're short-staffed, especially when it comes to midwives."
 
 starting_options: [request_budget_for_more_midwives_1]
 starting_options_affects: [request_budget_for_more_midwives_1]
@@ -28,9 +28,9 @@ characters:
     dialogue: "This might be our most important indicator. Our infant mortality rate is abysmal, and if more money gets those numbers down, I'll argue for it."
 
   director_regional_health_services:
-    dialogue: "That would explain the struggling indicators on facility births. An alternative I've considered is allowing outreach staff to serve as midwives in the field, if facilities are overstressed."
-    unlocks: [allow_outreach_staff_to_act_as_midwives_2]
-    unlocks_affects: [allow_outreach_staff_to_act_as_midwives_2]
+    dialogue: "That would explain the struggling indicators on facility births. An alternative I've considered is giving more assistance for travel, to get people to come to the facilities."
+    unlocks: [travel_vouchers_1]
+    unlocks_affects: [travel_vouchers_1]
     feedback:
       advise_to_follow_budget_restrictions_1: "OK, we'll make do. We always have."
 
@@ -42,11 +42,11 @@ characters:
       request_budget_for_more_midwives_1: "We can allow this, but we'll pay close attention to the results."
 
   coach:
-    dialogue: "The Hospital Administrator has complained to me in private about not being able to hire staff members without NGO approval. The plan is set up that way, but if we granted them autonomy to make hiring choices, things would run more smoothly."
+    dialogue: "The Hospital Administrator has complained to me in private about not being able to hire staff members without NGO approval. The program is set up that way, but if we granted them autonomy to make hiring choices, things would run more smoothly."
     unlocks: [grant_autonomy_to_providers_3] # <--- these probably will symbols
     unlocks_affects: [grant_autonomy_to_providers_3]
     feedback:
-      allow_outreach_staff_to_act_as_midwives_2: "This would boost our facility births for sure, but it's a bit of a cheat since they won't technically be in facilities. Whatever gets babies safely delivered, though."
+      travel_vouchers_1: "This will remove an important barrier, though I still worry that we are short-staffed at facilities."
 
   third_party_verifier:
     dialogue: "The RBF Coach has been in regular contact with the Hospital Administrator, they might be able to offer a perspective on things."

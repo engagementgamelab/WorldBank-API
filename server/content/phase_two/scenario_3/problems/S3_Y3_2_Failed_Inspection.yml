@@ -13,13 +13,13 @@ priority: 3
 year: 3
 
 initiating_npc: clinic_manager # <--- character's symbol
-initiating_dialogue: "I'm a bit surprised, we just received a memo telling us we failed a quality of care inspection, but I disagree with the assessment. We're doing a great job, considering the strain we're under."
+initiating_dialogue: "Hey, the third party verifier just came to assess our quality score, but I disagree with the assessment results. Given the amount of strain we are under, I believe we need to be granted some leeway in order to serve patients."
 
 starting_options: [review_the_inspection_2]
 starting_options_affects: [review_the_inspection_2]
 
-final_options: [review_the_inspection_2, warning_15, deny_review_2]
-final_options_affects: [review_the_inspection_2, warning_15, deny_review_2]
+final_options: [review_the_inspection_2, revise_business_plan_7, deny_review_2]
+final_options_affects: [review_the_inspection_2, revise_business_plan_7, deny_review_2]
 
 characters:
 
@@ -31,12 +31,14 @@ characters:
     dialogue: "I recognize that their job is difficult, but quality of care is one of the indicators we are working to improve."
 
   coach:
-    dialogue: "We can't equivocate on quality of care. It's crucial to the plan. I understand they rely on these payments, but they need to know that we don't make exceptions."
-    unlocks: [warning_15]
-    unlocks_affects: [warning_15]
+    dialogue: "Quality of care is not something we should grant leeway on. It is crucially important. If they are under such strain, they may require extra staff."
+    unlocks: [revise_business_plan_7]
+    unlocks_affects: [revise_business_plan_7]
+    feedback:
+      review_the_inspection_2: "I will coordinate this review, but I still think they need to stick to the business plan."
 
   third_party_verifier:
-    dialogue: "They failed my inspection, plain and simple. A review is not necessary."
+    dialogue: "They scored poorly, plain and simple. A review is not necessary."
     unlocks: [deny_review_2]
     unlocks_affects: [deny_review_2]
 
@@ -45,9 +47,8 @@ characters:
 
   clinic_manager:
     feedback: 
-      review_the_inspection_2: "Thank you! I think you'll find our quality sufficient." # <--- symbol of the option used and the feedback text for it
-      warning_15: "I don't know what we can do to improve things before the year is out, but I guess we'll have to try." # <--- symbol of the option used and the feedback text for it
-      deny_review_2: "I'm looking at half a year without payments, last quarter and this one, and you won't even consider my point of view." # <--- symbol of the option used and the feedback text for it
+      revise_business_plan_7: "I would appreciate some support from the coach on how we can improve things here." # <--- symbol of the option used and the feedback text for it
+      deny_review_2: "You are not taking me seriously. How can I have faith in this system?" # <--- symbol of the option used and the feedback text for it
 
   hospital_administrator:
-    dialogue: "I can tell you it is painful to miss a payment, even when things are going well. What harm is there in reviewing the inspection?"
+    dialogue: "I can tell you it is painful to lose out in the payment because of the quality score, especially when things are busy. What harm is there in reviewing the inspection?"

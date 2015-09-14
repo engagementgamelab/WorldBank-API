@@ -12,49 +12,43 @@ name: "Slow Verification"
 priority: 1
 
 initiating_npc: ngo_manager # <--- character's symbol
-initiating_dialogue: "I need a little help here. The independent verifier and the Hospital Administrator have built a coalition to box us out of the verification process. This plan gives us the authority to verify any and all reports, but they're pushing back."
+initiating_dialogue: "I need a little help here. The program has just begun and already we're seeing delays in payments. This does not bode well."
 
-starting_options: [warn_verifier_2]
-starting_options_affects: [warn_verifier_2]
+starting_options: [request_expedited_payment_1]
+starting_options_affects: [request_expedited_payment_1]
 
-final_options: [warn_verifier_2, revert_counterverification_1, streamline_speed_verification_process_2, circulate_memo_reaffirming_ministry_authority_2, ask_reduce_oversight_2]
-final_options_affects: [warn_verifier_2, revert_counterverification_1, streamline_speed_verification_process_2, circulate_memo_reaffirming_ministry_authority_2, ask_reduce_oversight_2]
+final_options: [request_expedited_payment_1, speed_third_party_hire_1]
+final_options_affects: [request_expedited_payment_1, speed_third_party_hire_1]
 
 characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health:
-    dialogue: "Before we hired the NGO, counterverifying was our responsibility. This is a role we were better suited for."
-    unlocks: [revert_counterverification_1]
-    unlocks_affects: [revert_counterverification_1]
-    feedback: 
-      ask_reduce_oversight_2: "This defeats the purpose of our plans. How can we approve funding in good faith if we haven't verified it ourselves?"
+    dialogue: "The delay is in our verification, unfortunately. We haven't hired a third party yet, so only the first level of verification is complete."
+    unlocks: [speed_third_party_hire_1]
+    unlocks_affects: [speed_third_party_hire_1]
+    feedback:
+      speed_third_party_hire_1: "We realize this is important, and we'll make every effort to ensure it goes smoothly."
+      request_expedited_payment_1: "We're working at capacity to get this done. Things are just taking a little longer than we planned."
 
   director_regional_health_services:
-    dialogue: "Having three levels of verification sounds like overkill to me. And it's confusing to the health providers. Who is the actual final authority on these matters?"
-    feedback:
-      streamline_speed_verification_process_2: "This will put some strain on our office. I'll do my best to get my office to comply with this."
+    dialogue: "I'm not sure what the delay is. I'd speak with the Deputy Minister or the Third Party Verifier"
+
   ngo_manager:
     feedback:
-      revert_counterverification_1: "You hired us to manage this! Why not give us a chance?"
+      speed_third_party_hire_1: "You hired us to manage this! Why not give us a chance?"
+
   coach:
-    dialogue: "The plan spreads authority across multiple stakeholders, including the Ministry of Health. Whether it's a good thing or a bad thing, that's on them. Let's send around a memo."
-    unlocks: [circulate_memo_reaffirming_ministry_authority_2]
-    unlocks_affects: [circulate_memo_reaffirming_ministry_authority_2]
-    feedback:
-      circulate_memo_reaffirming_ministry_authority_2: "I'll make sure everyone gets eyes on this."
+    dialogue: "These delays will cause a cascade of failures. I recommend expediting payments to avoid a negative feedback loop."
+
 
   third_party_verifier:
-    dialogue: "We were hired by the ministry and the NGO to do this work. Having a separate body double everything we're doing is worse than redundant, it's counter-productive."
-    unlocks: [ask_reduce_oversight_2]
-    unlocks_affects: [ask_reduce_oversight_2]
-    feedback:
-      warn_verifier_2: "All right. We'll back off. But to say the process is inefficient would be an understatement."
+    dialogue: "We're waiting on some paperwork to clear before we're officially on the job. As soon as this decision is finalized and we get our contract, we'll take care of it."
+    unlocks: [speed_third_party_hire_1]
+    unlocks_affects: [speed_third_party_hire_1]
 
   community_verifier:
-    dialogue: "We're tired of submitting our reports in triplicate. My job is hard enough without all this bureaucracy."
+    dialogue: "The Ministry takes forever to do anything. They need to be prodded, I think."
 
   hospital_administrator:
     dialogue: "I have a good relationship with the government, but double-checking takes twice as long. That means it takes twice the time for us to get paid, and my budget can't take that strain."
-    unlocks: [streamline_speed_verification_process_2]
-    unlocks_affects: [streamline_speed_verification_process_2]

@@ -29,6 +29,8 @@ var userSchema = new mongoose.Schema({
   location: { type: String, required: true },
   created_at: { type: Date, required: true },
   last_accessed: { type: Date, required: true },
+  tutorial_done: {type: Boolean, required: true, default: false },
+  submitted_plan: {type: Boolean, required: true, default: false },
   plan_id: { type: String, required: false },
   current_scenario: { type: String, required: false }
 });
@@ -41,10 +43,6 @@ userSchema.pre('validate', function(next) {
 
   next();
 });
-
-/*userSchema.statics.updateForId = function (data) {
-  this.update( { _id: id }, { $set: });
-}*/
 
 // Create the User model
 var User = mongoose.model('User', userSchema);

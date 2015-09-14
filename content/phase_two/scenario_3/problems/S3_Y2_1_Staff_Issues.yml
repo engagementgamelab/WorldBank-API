@@ -30,17 +30,17 @@ characters:
     unlocks_affects: [sanctions_13]
 
   director_regional_health_services: # <--- character's symbol
-    dialogue: "Providers in my region complain often of over-stressed staff. They have not enough people working with not enough supplies, and that's bound to affect service."
+    dialogue: "Providers in my region complain often of over-stressed staff. They have too few people working with a lack of supplies, and that's bound to affect service."
 
   coach:
     dialogue: "Customer service is a huge part of quality of care. Increase incentives, whatever we need to do, we have to get staff to be nicer to patients."
     unlocks: [increase_customer_service_incentives] # <--- these probably will symbols
     unlocks_affects: [increase_customer_service_incentives]
     feedback: 
-      increase_customer_service_incentives: "I'll let everyone know. I wouldn't mind something like this around here. Hey, if I smile more, will you give me a raise?" # <--- symbol of the option used and the feedback text for it
+      increase_customer_service_incentives: "I'll let everyone know. I wouldn't mind something like this around here, linking the patient satisfaction to the bonuses. Hey, if I smile more, will you give me a raise?" # <--- symbol of the option used and the feedback text for it
 
   third_party_verifier:
-    dialogue: "I keep hearing these horror stories. A man told me a nurse yelled at his son when he was scared of getting a shot. That's unacceptable. It might not be my place to say so, but firing staff and hiring new people might be appropriate."
+    dialogue: "I keep hearing these horror stories. A man told me a nurse yelled at his son when he was scared of getting an injection. That's unacceptable. It might not be my place to say so, but firing staff and hiring new people might be appropriate."
     unlocks: [reorganize_staff] # <--- these probably will symbols
     unlocks_affects: [reorganize_staff]
 
@@ -51,6 +51,6 @@ characters:
       reorganize_staff: "It's great that you can hand down these decrees of who I may and may not hire. I'm sure that while my new phlebotomist keeps sticking people, they'll do it with a smile." # <--- symbol of the option used and the feedback text for it
 
   hospital_administrator:
-    dialogue: "I can tell my staff to be nicer, but they're working hard to meet goals, deal with patients who come in frustrated, and all on a shoestring budget. With all that, it's hard to tell them to smile or else."
+    dialogue: "I can tell my staff to be nicer, but they're working hard to meet goals, deal with patients who come in frustrated, and all on a shoestring budget."
     feedback: 
       sanctions_13: "Making it harder for me to do my job is not the answer to our problems. We need to fix the actual problem. No, I don't know what that would be, because I'm trying to hold a hospital together." # <--- symbol of the option used and the feedback text for it

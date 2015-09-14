@@ -42,6 +42,7 @@ module.exports = {
       });
       connection.once('open', function callback () {
           console.log('Mongo connection opened');
+          api.log('Good to go!', 'notice');
       });
 
       next();

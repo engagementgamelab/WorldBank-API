@@ -13,7 +13,7 @@ priority: 3
 year: 1
 
 initiating_npc: third_party_verifier # <--- character's symbol
-initiating_dialogue: "The Clinic submitted their reports to us, but there were some inconsistencies. When we asked to see their records, they couldn't supply them."
+initiating_dialogue: "The Clinic submitted their reports on indicator performance to us, but there appear to be some inconsistencies. When we asked to see their records, they could not supply them."
 
 starting_options: [hold_payment_2]
 starting_options_affects: [hold_payment_2]
@@ -25,7 +25,7 @@ characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
-    dialogue: "If they aren't following the rules, they shouldn't be paid. A penalty may also be in order."
+    dialogue: "If they are not following the rules, they should not be paid. A penalty may also be in order."
     unlocks: [sanctions_12] # <--- these probably will symbols
     unlocks_affects: [sanctions_12]
 
@@ -35,16 +35,16 @@ characters:
 
   coach:
     dialogue: "Can't imagine why they aren't keeping records. Last time I talked to them, they said everything was fine and they didn't want my help."
-
-  third_party_verifier:
     feedback: 
       capacity_building_help: "When I'm over there next I'll check on their on-the-spot training, figure out where they're making mistakes." # <--- symbol of the option used and the feedback text for it
+
+
 
   community_verifier:
     dialogue: "My team has had no issue keeping records. I wonder what the issue is at the clinics?"
 
   clinic_manager:
-    dialogue: "I wish I could tell you what happened. The only thing I can think of is someone sent our originals to the Ministry instead of copies. But I assure you, we are keeping records. With all the strictures you have in place, my staff is having a hard time keeping up with patient care and paperwork."
+    dialogue: "I am surprised, I thought the reports we submitted were correct. It would be really helpful if someone could explain the mistakes we are making."
     unlocks: [capacity_building_help]
     unlocks_affects: [capacity_building_help]
     feedback: 
