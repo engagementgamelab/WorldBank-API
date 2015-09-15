@@ -9,14 +9,14 @@
 
 symbol: tactic_poor_campaign_coverage
 tactic_name: unlockable_information_campaign_to_change_cultural_behaviors  # <--- symbol of the tactic (stored in unlockables.yml) this card is using
-name: "Poor Campaign Coverage" # <--- display name for card
+name: "Poor Effect of Campaign" # <--- display name for card
 year: 1
 
 # This dialogue the player sees first
-initiating_dialogue: "This campaign is having difficulty covering all of the target regions. Providers say they don't have the staff to support it and perform necessary healthcare functions."
+initiating_dialogue: "Incentivizing community health workers to do IEC for BCC does not seem to have the desired effect: there is no increase in women delivering in the facility."
 
 # The dialogue the player sees when investigation has results to show
-investigate_dialogue: "They do appear short-staffed. Providing funding for new hires could help, or we could reorganize our sensitization strategy."
+investigate_dialogue: "My investigation showed that it is not the fact that they don't know about delivery in a facility, but cultural issues. The women culturally are supposed to deliver at home and stay in the house for the first week. This is why we have very low numbers on institutional delivery and post-natal care indicators. The tradition is to deliver in the house with a Traditional Birth Assistant (TBA), often pressured by the mother-in-law. These unskilled deliveries lead to a lot of maternal deaths in the home."
 
 # These are special parameters that load a cooldown array, which is defined in content/config.yml under 'cooldown:'
 # For example, specifying $config_cooldown_long will choose the key found in config.yml under:
@@ -27,15 +27,15 @@ investigate_further_cooldown: $config_cooldown_long
 
 # These are the usable player options added after investigation is done
 # Note that each key (e.g. 'information_campaign') MUST correspond to the one under "_affects" and feedback"
-new_options: [unlockable_provide_funding_to_hire_new_staff_t2, unlockable_increase_incentives_for_meeting_campaign_goals_t2, unlockable_reevaluate_whether_this_campaign_is_necessary_t2]
+new_options: [unlockable_incentivize_bring_women_to_facilities_2, unlockable_incentivize_midwives_home_delivery_2, unlockable_leave_things_as_is_2]
 
 # The affects for each new option
-new_options_affects: [unlockable_provide_funding_to_hire_new_staff_t2, unlockable_increase_incentives_for_meeting_campaign_goals_t2, unlockable_reevaluate_whether_this_campaign_is_necessary_t2]
+new_options_affects: [unlockable_incentivize_bring_women_to_facilities_2, unlockable_incentivize_midwives_home_delivery_2, unlockable_leave_things_as_is_2]
 
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
-  unlockable_provide_funding_to_hire_new_staff_t2: "Everywhere I've worked we were short-staffed and were told to make do. We're telling people to do a job and giving them the money to do it. We are in uncharted territory!"
-  unlockable_increase_incentives_for_meeting_campaign_goals_t2: "This could certainly spur people to meet goals. I'm worried, though, that they're spread thin already."
-  unlockable_reevaluate_whether_this_campaign_is_necessary_t2: "We might not need to spend all the money for this staff, but if not, we should probably cut the program at year's end."
+  unlockable_incentivize_bring_women_to_facilities_2: "This sounds like a smart strategy."
+  unlockable_incentivize_midwives_home_delivery_2: "This may work. It will require more staff at the health facility, though if midwives travel to a house, you will need another to cover the clinic. We will also need to be mindful of quality and ensure they have all the equipment and the conditions to deliver in the home."
+  unlockable_leave_things_as_is_2: "We might not need to spend all the money for this staff, but if not, we should probably cut the program at year's end."
   # This key is required for every tactic card for when the player chooses observe instead of investigate
   observe: "If we don't engage it'll probably just fizzle out."

@@ -1497,15 +1497,15 @@ unlockable_use_a_different_incentive:
   indicator_3: 0
 
 # -------------------------- #
-# Payment Inconsistancy - Y3_CCT1
+# Payment Inconsistency - Y3_CCT1
 # -------------------------- #
 
-unlockable_only_pay_for_results:
+unlockable_cut_back_cct:
   indicator_1: +1
   indicator_2: +1
   indicator_3: +2
 
-unlockable_allow_temporary_exception:
+unlockable_push_minfin_to_expedite_payments:
   indicator_1: -1
   indicator_2: -1
   indicator_3: -1
@@ -1536,18 +1536,24 @@ unlockable_embed_cct_officer_at_facilities:
 
 
 # -------------------------- #
-# Confusion of Roles - Y1_O1
+# Resistance to Outreach - Y1_O1
 # -------------------------- #
 
-unlockable_clarify_role_for_ministry:
+unlockable_incentivize_bring_women_to_facilities:
   indicator_1: +3
   indicator_2: +3
   indicator_3: +3
 
-unlockable_tell_providers_to_act_without_ministry_approval:
+unlockable_incentivize_midwives_home_delivery:
   indicator_1: +2
   indicator_2: +1
   indicator_3: +1
+
+unlockable_delivery_info_campaign:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
 
 # -------------------------- #
 # Field Records - Y1_O2
@@ -1558,44 +1564,65 @@ unlockable_warning_t3:
   indicator_2: 0
   indicator_3: +1
 
-unlockable_advise_providers_to_hire_more_outreach_staff:
+unlockable_retrain_outreach_nurses:
   indicator_1: +2
   indicator_2: +1
   indicator_3: +2
 
+unlockable_move_to_quarterly_basis:
+  indicator_1: +1
+  indicator_2: 0
+  indicator_3: +1
 # -------------------------- #
 # Supply Chain - Y2_O1
 # -------------------------- #
 
-unlockable_increase_quality_of_care_incentives:
+unlockable_introduce_quality_of_care_incentives_at_community_level:
   indicator_1: +1
   indicator_2: +1
   indicator_3: +1
 
-unlockable_reduce_workforce:
+unlockable_strengthen_supply_chain:
   indicator_1: -2
   indicator_2: -1
   indicator_3: -2
 
 # -------------------------- #
-# Home Births - Y3_O1
+# Organizational Inefficiency - Y2_O2
 # -------------------------- #
 
-unlockable_increase_facility_birth_incentives:
+unlockable_reduce_outreach_staff:
+  indicator_1: -2
+  indicator_2: -1
+  indicator_3: -2
+
+unlockable_leave_things_as_is:
+  indicator_1: +1
+  indicator_2: 0
+  indicator_3: +1
+
+unlockable_increase_outreach_incentive_level:
+  indicator_1: +2
+  indicator_2: +1
+  indicator_3: +2
+# -------------------------- #
+# Drop-off in Promotional Services - Y3_O1
+# -------------------------- #
+
+unlockable_incentivize_promotional_services:
   indicator_1: 0
   indicator_2: +1
   indicator_3: 0
 
-unlockable_continue_with_plan:
+unlockable_warn_outreach_staff:
   indicator_1: 0
   indicator_2: 0
   indicator_3: 0
 
-unlockable_give_permission:
+unlockable_change_nothing:
   indicator_1: 0
-  indicator_2: +3
-  indicator_3: -8
-
+  indicator_2: 0
+  indicator_3: 0
 # ----------------                                               ---------------- #
 # ----------------   Improve Patient and Provider Relationship   ---------------- #
 # ----------------                                               ---------------- #
@@ -1604,60 +1631,50 @@ unlockable_give_permission:
 # Unusual Claims - Y1_P1
 # ------------------------- #
 
-unlockable_approve_payments:
-  indicator_1: -1
-  indicator_2: -1
-  indicator_3: -2
-
-unlockable_warn_and_deny_payments:
+unlockable_train_community_verifiers:
   indicator_1: +1
   indicator_2: +1
   indicator_3: 0
 
-unlockable_reinforce_following_protocols:
+unlockable_revise_cv_surveys:
   indicator_1: 0
   indicator_2: 0
   indicator_3: +3
 
-unlockable_issue_payments_to_institutions:
+unlockable_reorganize_cv_staff:
   indicator_1: +1
   indicator_2: +1
   indicator_3: +2
 
 # -------------------------- #
-# Staff Trouble - Y2_P1
+# Delayed Scores - Y2_P1
 # ------------------------- #
 
-unlockable_retrain_t2:
+unlockable_incentivize_timely_scores:
   indicator_1: 0
   indicator_2: 0
   indicator_3: 0
 
-unlockable_cull_and_rehire:
+unlockable_shift_to_quarterly_basis_2:
   indicator_1: 0
   indicator_2: 0
   indicator_3: -1
 
-unlockable_increase_incentives_and_expedite_payments:
+unlockable_hire_local_verifiers:
   indicator_1: +1
   indicator_2: 0
   indicator_3: +2
 
 # -------------------------- #
-# Possible Fraud - Y3_P1
+# Patient Satisfaction Not Improving - Y3_P1
 # ------------------------- #
 
-unlockable_sanction_offending_workers:
+unlockable_retrain_verifiers_on_data:
   indicator_1: -1
   indicator_2: 0
   indicator_3: -1
 
-unlockable_warning_t4:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: +1
-
-unlockable_sanction_those_providers:
+unlockable_retrain_providers_on_data:
   indicator_1: +1
   indicator_2: +1
   indicator_3: +2
@@ -1721,7 +1738,7 @@ unlockable_cancel_contracts:
 # Candidates - Y1_N2
 # -------------------------- #
 
-unlockable_widen_search_area:
+unlockable_enhance_highland_training_facilities:
   indicator_1: +1
   indicator_2: 0
   indicator_3: 0
@@ -1814,6 +1831,11 @@ unlockable_negotiate:
   indicator_2: 0
   indicator_3: -1
 
+unlockable_return_to_train_shipping:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
 # ----------------                                                    ---------------- #
 # ----------------   Information Campaign to Counter Misinformation   ---------------- #
 # ----------------                                                    ---------------- #
@@ -1841,7 +1863,7 @@ unlockable_reevaluate_whether_this_campaign_is_necessary:
 # Overexposure - Y2_IM1
 # ------------------------- #
 
-unlockable_temporarily_reduce_output:
+unlockable_refocus_campaign_staff:
   indicator_1: +1
   indicator_2: +1
   indicator_3: 0
@@ -1993,26 +2015,7 @@ unlockable_sanction_providers_with_high_infection_rates:
   indicator_3: +1
 
 # -------------------------- #
-# Waiting - Y2_NP2
-# -------------------------- #
-
-unlockable_institute_guidelines_streamline_traffic:
-  indicator_1: +1
-  indicator_2: +1
-  indicator_3: 0
-
-unlockable_incentivise_best_practices_beds:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: +1
-
-unlockable_increase_incentives_and_expedite_payment:
-  indicator_1: +1
-  indicator_2: 0
-  indicator_3: 0
-
-# -------------------------- #
-# Wrong Procedures 2 - Y3_NP1
+# Overprescription 2 - Y3_NP1
 # -------------------------- #
 
 unlockable_incentivise_best_practices_high_goals:
@@ -2047,17 +2050,17 @@ unlockable_sanction_providers_who_fail_safety_inspection:
 # Poor Campaign Coverage - Y1_ICB1
 # -------------------------- #
 
-unlockable_provide_funding_to_hire_new_staff_t2:
+unlockable_incentivize_bring_women_to_facilities_2:
   indicator_1: 0
   indicator_2: 0
   indicator_3: 0
 
-unlockable_increase_incentives_for_meeting_campaign_goals_t2:
+unlockable_incentivize_midwives_home_delivery_2:
   indicator_1: 0
   indicator_2: 0
   indicator_3: 0
 
-unlockable_reevaluate_whether_this_campaign_is_necessary_t2:
+unlockable_leave_things_as_is_2:
   indicator_1: 0
   indicator_2: 0
   indicator_3: 0
@@ -2065,7 +2068,7 @@ unlockable_reevaluate_whether_this_campaign_is_necessary_t2:
 # -------------------------- #
 # Inconclusive Metrics - Y2_ICB2
 # -------------------------- #
-unlockable_change_methodologies_t1:
+unlockable_provide_family_transport_incentive:
   indicator_1: 0
   indicator_2: 0
   indicator_3: 0
@@ -2075,6 +2078,10 @@ unlockable_end_campaign_t2:
   indicator_2: 0
   indicator_3: 0
 
+unlockable_leave_things_as_is_3:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
 # -------------------------- #
 # Nationalist Backlash - Y3_ICB3
 # -------------------------- #

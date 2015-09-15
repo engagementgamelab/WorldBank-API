@@ -13,10 +13,10 @@ name: "Payment Inconsistency" # <--- display name for card
 year: 3 
 
 # This dialogue the player sees first
-initiating_dialogue: "We have been going over the budget, and it looks like we have been overpaying. Our output does not match the indicators."
+initiating_dialogue: "I have been hearing complaints from clients that the CCT payments are not being paid on time. They are losing faith in the program."
 
 # The dialogue the player sees when investigation has results to show
-investigate_dialogue: "The finance ministry has been OKing payments to providers even though goals have not been met. Apparently providers have been focusing on improving quality, which has taken longer than expected, so the finance ministry made an exception."
+investigate_dialogue: "It seems the Ministry of Finance has been delaying payment on these due to poor communication within their department. We should either push them to speed up, or consider cutting back the CCT program, if we don't have the capacity to process it."
 
 # These are special parameters that load a cooldown array, which is defined in content/config.yml under 'cooldown:'
 # For example, specifying $config_cooldown_long will choose the key found in config.yml under:
@@ -27,14 +27,14 @@ investigate_further_cooldown: $config_cooldown_long
 
 # These are the usable player options added after investigation is done
 # Note that each key (e.g. 'information_campaign') MUST correspond to the one under "_affects" and feedback"
-new_options: [unlockable_only_pay_for_results, unlockable_allow_temporary_exception]
+new_options: [unlockable_push_minfin_to_expedite_payments, unlockable_cut_back_cct]
 
 # The affects for each new option
-new_options_affects: [unlockable_only_pay_for_results, unlockable_allow_temporary_exception]
+new_options_affects: [unlockable_push_minfin_to_expedite_payments, unlockable_cut_back_cct]
 
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
-  unlockable_only_pay_for_results: "Clearly we can't authorize payments without verified results on pre-agreed behavior change."
-  unlockable_allow_temporary_exception: "So we'll allow that payment in the hopes it will encourage service utilisation even for other indicators. It is a social program, anyway."
+  unlockable_push_minfin_to_expedite_payments: "I'll draft a memo to the Minister's office right away stressing the importance of timely payments."
+  unlockable_cut_back_cct: "I'll try to work with the Ministry to determine their capacity and reasses the scale of the program for the coming year."
   # This key is required for every tactic card for when the player chooses observe instead of investigate
   observe: "OK, we'll wait and see if anything changes."

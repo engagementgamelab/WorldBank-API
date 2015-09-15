@@ -13,13 +13,13 @@ name: "Make Aesthetic Improvements" # <--- display name for card
 year: 3
 
 # This dialogue the player sees first
-initiating_dialogue: "Providers are complaining that the aesthetic improvements were a waste of time and money, and are asking that we not require them to complete the renovations."
+initiating_dialogue: "Providers have been requested to establish a beautiful garden at the facility in order to attract patients and attain the bonus. They are complaining that the focus on the garden is a waste of time and money, and are asking that we not require them to complete this."
 
 # The dialogue the player sees when investigation has results to show
-investigate_dialogue: "It seems that most customers were pretty happy with the facilities as they were before. I don't think they will have too much of an impact. I'm not sure how this will effect staff morale, though."
+investigate_dialogue: "It seems that most customers do not really care about the garden. I don't think it will have too much of an impact. The staff seems to like it, though."
 
 # The dialogue the player sees when further investigation has results to show
-investigate_further_dialogue: "I believe letting hospital management concentrate on services instead of renovations would improve things a good deal in terms of staff morale."
+investigate_further_dialogue: "I believe letting the facility management concentrate on delivering services instead of establishing a garden would improve things a good deal in terms of patient satisfaction."
 
 # These are special parameters that load a cooldown array, which is defined in content/config.yml under 'cooldown:'
 # For example, specifying $config_cooldown_long will choose the key found in config.yml under:

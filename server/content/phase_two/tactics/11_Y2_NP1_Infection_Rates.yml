@@ -13,10 +13,10 @@ name: "Infection Rates" # <--- display name for card
 year: 2
 
 # This dialogue the player sees first
-initiating_dialogue: "There's been a sharp uptick in infections recently and it's probably on us."
+initiating_dialogue: "There's been a sharp increase in infections recently and it's probably because the number of clients have increased significantly. There are more and more women delivering in the facility, but there are concerns about quality."
 
 # The dialogue the player sees when investigation has results to show
-investigate_dialogue: "Surprise! Sanitization protocols are not being followed and that's why people are getting these awful infections."
+investigate_dialogue: "Surprise! Sterilization protocols are not being followed and that's why women are getting these infections."
 
 # These are special parameters that load a cooldown array, which is defined in content/config.yml under 'cooldown:'
 # For example, specifying $config_cooldown_long will choose the key found in config.yml under:
@@ -36,7 +36,7 @@ new_options_affects: [unlockable_incentivise_sanitization_protocols, unlockable_
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
   unlockable_incentivise_sanitization_protocols: "It smacks of gold star rewards for kids. 'Wash your hands, children!' Oh well. As long as it doesn't drain the discretionary budget too much."
-  unlockable_incentivise_best_practices: "If we're going to give them money, we might as well ask them to try a little harder than 'good enough not to maybe kill somebody.'"
-  unlockable_sanction_providers_with_high_infection_rates: "If staff can't be bothered to follow sanitation guidelines, then we are well within our rights to sanction them."
+  unlockable_incentivise_best_practices: "If we're going to increase the number of women delivering in the facility, we better make sure they receive quality care and not die because of it."
+  unlockable_sanction_providers_with_high_infection_rates: "If staff can't be bothered to follow sterilization guidelines, then we are well within our rights to sanction them."
   # This key is required for every tactic card for when the player chooses observe instead of investigate
   observe: "OK, we'll wait and see if anything changes."

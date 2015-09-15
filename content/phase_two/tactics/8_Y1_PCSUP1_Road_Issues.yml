@@ -16,10 +16,10 @@ year: 1
 initiating_dialogue: "There have been a number of late delivieries."
 
 # The dialogue the player sees when investigation has results to show
-investigate_dialogue: "The late deliveries seem to be due to heavy rains suffered this year washing out roads. We could penalize the shipping co. and advise them to find better routes, or we could seek alternate delivery means."
+investigate_dialogue: "The late deliveries seem to be due to heavy rains suffered this year washing out roads, according to the company. We could penalize them, or advise them to find better routes--they can even use the train if it works better--all we want is results."
 
 # The dialogue the player sees when further investigation has results to show
-investigate_further_dialogue: "Even with as unreliable as the train is, it's better than depending on roads. We could go back to using the trains, or try our luck with the delivery trucks."
+investigate_further_dialogue: "Even as unreliable as the train is, it may be better than depending on roads. We could end the contract and go back to using the trains, or continue to try our luck with the shipping company."
 
 # These are special parameters that load a cooldown array, which is defined in content/config.yml under 'cooldown:'
 # For example, specifying $config_cooldown_long will choose the key found in config.yml under:

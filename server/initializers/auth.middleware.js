@@ -23,6 +23,8 @@ module.exports = {
         // Check to see if an action being accessed has requiresAuth property set to true
         if(data.actionTemplate.requiresAuth === true) {
 
+          api.log("Checking if authenticated", "notice");
+
           // Is this session's 'client' authenticated?
           api.session.checkAuth(
 
@@ -47,9 +49,11 @@ module.exports = {
 
     // Definition for the user auth middleware
     var userAuthMiddleware = {
-      name: 'API authenication middleware.',
+      name: 'User authenication middleware.',
       global: true,
       preProcessor: function(data, next) {
+
+        api.log("Checking if user authenticated", "notice");
 
         // Check to see if an action being accessed has requiresUserLogin property set to true
         if(data.actionTemplate.requiresUserLogin === true) {

@@ -9,14 +9,16 @@
 
 symbol: tactic_staff_trouble
 tactic_name: unlockable_improve_patient_and_provider_relationship  # <--- symbol of the tactic (stored in unlockables.yml) this card is using
-name: "Staff Trouble" # <--- display name for card
+name: "Delayed Scores" # <--- display name for card
 year: 2
 
 # This dialogue the player sees first
-initiating_dialogue: "I am getting reports from on of our health providers that their staff, doctors, and nurses are rebelling. They are tired of filling out customer service forms, and aren't receiving incentives. They are threatening to leave."
+initiating_dialogue: "The health facilities have been complaining that they are not receiving payments on time for their client satisfaction scores. If they're not being paid on time, their staff might decide it's not worth doing any longer, and the program could fall apart."
 
 # The dialogue the player sees when investigation has results to show
-investigate_dialogue: "Something clearly isn't working here. Increasing incentives and expiditing payments could help, but other facilities are handling this much better. Maybe retraining, or even a culling and rehiring might be worth looking into."
+investigate_dialogue: "I checked with the Ministry of Finance, and this time it doesn't look like it's their fault. The community verifiers seem to be the bottleneck. They're not returning scores on time, which leads to delays. If payments were quarterly, this could give them some flexibility, but they may not be incentivized strongly enough to act. "
+
+investigate_further_dialogue: "I interviewed some of the community verifiers, and they say that when they go to neighboring communities, it's hard to find patients' houses. Streed addresses are missing in rural areas, and the road conditions are bad in Zariba, as you know. Contracting verifiers for each community would counteract this."
 
 # These are special parameters that load a cooldown array, which is defined in content/config.yml under 'cooldown:'
 # For example, specifying $config_cooldown_long will choose the key found in config.yml under:
@@ -27,15 +29,19 @@ investigate_further_cooldown: $config_cooldown_long
 
 # These are the usable player options added after investigation is done
 # Note that each key (e.g. 'information_campaign') MUST correspond to the one under "_affects" and feedback"
-new_options: [unlockable_retrain_t2, unlockable_cull_and_rehire, unlockable_increase_incentives_and_expedite_payment]
+new_options: [unlockable_incentivize_timely_scores, unlockable_shift_to_quarterly_basis_2]
 
 # The affects for each new option
-new_options_affects: [unlockable_retrain_t2, unlockable_cull_and_rehire, unlockable_increase_incentives_and_expedite_payment]
+new_options_affects: [unlockable_incentivize_timely_scores, unlockable_shift_to_quarterly_basis_2]
+
+further_options: [unlockable_hire_local_verifiers]
+
+further_options_affects: [unlockable_hire_local_verifiers]
 
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
-  unlockable_retrain_t2: "I'll start organizing some curriculum regarding best practices, but hopefully it's not too late to fix the problems here. Sometimes these issues can just become engrained in a workplace's culture."
-  unlockable_cull_and_rehire: "The people we're cutting were pretty entrenched in things before we came in. It's not fun to fire that many people, and we'll probably rehire a lot of them, but the distance will help."
-  unlockable_increase_incentives_and_expedite_payment: "I told them we're increasing incentives and getting them out faster and they said 'getting them to us at all would be faster'. So, we really have to make sure that happens."
+  unlockable_incentivize_timely_scores: "This is a direct approach. I expect we'll see results soon."
+  unlockable_shift_to_quarterly_basis_2: "This could give them the time they need to submit reports. Payments will at least be on time this way."
+  unlockable_hire_local_verifiers: "This will be a logistical challenge, but it may be the only way to overcome these barriers."
   # This key is required for every tactic card for when the player chooses observe instead of investigate
   observe: "OK, we'll wait and see if anything changes."

@@ -19,7 +19,7 @@ plan:
   starting_score: 14
 
   # Plan priorities
-  scoring_keys: [3, 3, 2, 2, 2, 1]
+  scoring_keys: [3, 3, 3, 2, 2, 1]
 
   # Scenario assignment filtering
   # pbc is when you have an NGO. Autonomy is granting providers

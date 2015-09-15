@@ -9,17 +9,14 @@
 
 symbol: tactic_home_births
 tactic_name: unlockable_outreach  # <--- symbol of the tactic (stored in unlockables.yml) this card is using
-name: "Home Births" # <--- display name for card
+name: "Drop-off in Promotional Services" # <--- display name for card
 year: 3
 
 # This dialogue the player sees first
-initiating_dialogue: "The outreach staff have been very successful over the past year! Providers are now asking if these outreach professionals can oversee home births to count them as facility births."
+initiating_dialogue: "The Community Verifier tells me that there has been a large drop-off in simple health activities such as promoting hand-washing and sanitation at the household level. These aren't incentivized services, but they are very important."
 
 # The dialogue the player sees when investigation has results to show
-investigate_dialogue: "This would make it much easier for us to hit our facility birth goals, but it goes against the program. And according to our statistics, could be dangerous for women and their babies. "
-
-# The dialogue the player sees when further investigation has results to show
-investigate_further_dialogue: "Our investigation indicates that facilities don't have the capacity to see all the women that are now asking for services. Increasing incentives for these services could help boost capacity there."
+investigate_dialogue: "The outreach staff has been spending time searching out the last children in each community who have not been vaccinated, and hanging around pregnant women's homes so they can refer them for the incentive bonus. They do this instead of the promotional services, since that's where the incentives push them."
 
 # These are special parameters that load a cooldown array, which is defined in content/config.yml under 'cooldown:'
 # For example, specifying $config_cooldown_long will choose the key found in config.yml under:
@@ -30,21 +27,15 @@ investigate_further_cooldown: $config_cooldown_long
 
 # These are the usable player options added after investigation is done
 # Note that each key (e.g. 'information_campaign') MUST correspond to the one under "_affects" and feedback"
-new_options: [unlockable_continue_with_plan, unlockable_give_permission]
+new_options: [unlockable_warn_outreach_staff, unlockable_incentivize_promotional_services, unlockable_change_nothing]
 
 # The affects for each new option
-new_options_affects: [unlockable_continue_with_plan, unlockable_give_permission]
-
-# These are the usable player options added after further investigation is done
-further_options: [unlockable_increase_facility_birth_incentives]
-
-# The affects for each further new option
-further_options_affects: [unlockable_increase_facility_birth_incentives]
+new_options_affects: [unlockable_warn_outreach_staff, unlockable_incentivize_promotional_services, unlockable_change_nothing]
 
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
-  unlockable_give_permission: "An interesting tactic."
-  unlockable_continue_with_plan: "If they are pleased with the outreach program now, they will continue to be pleased going forward."
-  unlockable_increase_facility_birth_incentives: "We can stimulate the collaboration between facilities and community."
+  unlockable_incentivize_promotional_services: "This should ensure that these fundamental services take place."
+  unlockable_warn_outreach_staff: "We'll tell them that this behavior is not acceptable, and that further steps may be taken if need be."
+  unlockable_change_nothing: "Perhaps this will work itself out in time."
   # This key is required for every tactic card for when the player chooses observe instead of investigate
   observe: "OK, we'll wait and see if anything changes."

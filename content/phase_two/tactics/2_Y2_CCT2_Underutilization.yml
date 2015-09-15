@@ -44,6 +44,6 @@ further_options_affects: [unlockable_use_a_different_incentive]
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
   unlockable_increase_incentives_t2: "We just need to find the right level to be attractive."
-  unlockable_use_a_different_incentive: "Let's go back to the ethnography and try to figure out how to present this program in a way that will be attractive to the most people."
+  unlockable_use_a_different_incentive: "Let's go back to the ethnography and try to figure out the right kind of incentive and how to present this program in a way that will be attractive to the most people."
   # This key is required for every tactic card for when the player chooses observe instead of investigate
   observe: "OK, we'll wait and see if anything changes."

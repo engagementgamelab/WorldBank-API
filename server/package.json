@@ -4,7 +4,7 @@
   "type": "git",
   "repository": "https://github.com/engagementgamelab/WorldBank-API.git",
   "description": "Engagement Lab's WorldBank API",
-  "version": "0.0.15",
+  "version": "0.0.17",
   "engines": {
     "node": ">=0.10.0"
   },

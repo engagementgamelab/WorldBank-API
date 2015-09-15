@@ -13,10 +13,10 @@ name: "CCT Qualification Confusion" # <--- display name for card
 year: 1
 
 # This dialogue the player sees first
-initiating_dialogue: "There is some confusion on who qualifies for cash transfers. This is supposed to target the poorest people from the highlands, but according to reports some from the capital city and larger settlements have been requesting and receiving funds."
+initiating_dialogue: "There is some confusion on who qualifies for cash transfers. This is supposed to target the poorest people from the highlands, but according to reports some people from the Capitol City and larger settlements have been requesting and receiving funds."
 
 # The dialogue the player sees when investigation has results to show
-investigate_dialogue: "The policy itself seems to contain some ambiguities. A revision of the policy's inclusion/exclusion criterea could be the solution. I can look into hiring a third party to handle that. The policy also seems to be confusing to some workers. We could retrain them, and that might solve the problem."
+investigate_dialogue: "The policy itself seems to contain some ambiguities. A revision of the policy's inclusion/exclusion criterea could be the solution. I can look into hiring a third party to handle that. The policy also seems to be confusing to some providers. We could retrain them, and that might solve the problem."
 
 # The dialogue the player sees when further investigation has results to show
 investigate_further_dialogue: "One of the hospital administrators has offered to revise the inclusion/exclusion policies to make it cearer for their staff. With our approval, of course. This would save us the cost of hiring a third party to revise them, if you trust the administrator to do it. "

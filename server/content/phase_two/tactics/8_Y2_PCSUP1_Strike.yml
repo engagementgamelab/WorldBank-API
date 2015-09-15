@@ -43,7 +43,7 @@ further_options_affects: [unlockable_hire_another_ground_based_service, unlockab
 
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
-  unlockable_terminate_contract_at_end_of_year: "OK, we'll discuss this at the end of the year. The old way of doing things wasn't great, which is why we switched in the first place, but it'll work as a stop-gap."
+  unlockable_terminate_contract_at_end_of_year: "OK, we'll discuss this at the end of the year. The old way of doing things wasn't great, which is why we switched in the first place, but it'll work as until we can find a better solution."
   unlockable_hire_another_ground_based_service: "We probably should have gone with them first. We didn't because they're a little more expensive, but that's because they offer benefits and that sort of thing. They're less likely to strike."
   unlockable_hire_air_service: "This will cut deeper into our coffers, but they have a good track record."
   # This key is required for every tactic card for when the player chooses observe instead of investigate
