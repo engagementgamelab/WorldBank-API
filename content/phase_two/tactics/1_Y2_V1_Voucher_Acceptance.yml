@@ -35,7 +35,7 @@ new_options_affects: [unlockable_expedite_voucher_payment, unlockable_sanction_t
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
   unlockable_expedite_voucher_payment: "It could be better to shorten the process of verification and to ensure a timely payment."
-  unlockable_sanction_the_provider: "They've shown flagrant disregard for the letter and spirit of the contract. We can find another hospital which can do the same job."
-  unlockable_warn_the_provider: "Warn the providers: I will take time with providers to explain the payment procedures so that they can better plan for their expenditures."
+  unlockable_sanction_the_provider: "They've shown flagrant disregard for the letter and spirit of the contract. We can find another hospital that can do the same job."
+  unlockable_warn_the_provider: "I will take time with providers to explain the payment procedures so that they can better plan for their expenditures."
   # This key is required for every tactic card for when the player chooses observe instead of investigate
   observe: "OK, we'll wait and see if anything changes."

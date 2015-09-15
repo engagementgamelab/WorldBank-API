@@ -9,14 +9,14 @@
 
 symbol: tactic_wrong_procedures_2
 tactic_name: unlockable_incentivise_providers_to_follow_protocols # <--- symbol of the tactic (stored in unlockables.yml) this card is using
-name: "Wrong Procedures 2" # <--- display name for card
+name: "Overprescription 2" # <--- display name for card
 year: 3
 
 # This dialogue the player sees first
-initiating_dialogue: "Our community verifier has informed us of more patients who have received wrong procedures."
+initiating_dialogue: "Our community verifier has informed us of more patients who have been prescribed more than five fancy medicines for something like a simple flu. They are then told to go to the private pharmacy to buy the drugs."
 
 # The dialogue the player sees when investigation has results to show
-investigate_dialogue: "Referrals have increased, but in an almost random way."
+investigate_dialogue: "The private pharmacy is run by the doctor's nephew."
 
 # These are special parameters that load a cooldown array, which is defined in content/config.yml under 'cooldown:'
 # For example, specifying $config_cooldown_long will choose the key found in config.yml under:
@@ -35,7 +35,7 @@ new_options_affects: [unlockable_incentivise_best_practices_high_goals, unlockab
 
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
-  unlockable_incentivise_best_practices_high_goals: "Just make sure they have high goals, and meet them, before rewarding hospitals for not taking peoples' appendices."
-  unlockable_sanction_providers_performing_unnecessary_procedures: "This is a serious problem. Unnecessary surgery isn't something we can wait and see with, so I'm glad you set this precedent."
+  unlockable_incentivise_best_practices_high_goals: "Just make sure include patient treatment charts against protocols. We do not want to pay for services below standard."
+  unlockable_sanction_providers_performing_unnecessary_procedures: "This is a serious problem. I hope this will solve it."
   # This key is required for every tactic card for when the player chooses observe instead of investigate
   observe: "OK, we'll wait and see if anything changes."

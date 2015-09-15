@@ -45,6 +45,6 @@ further_options_affects: [unlockable_modify_business_plan_t1]
 feedback_dialogue:
   unlockable_warning_t2: "The senior staff management should be personally verifying reports before the third party verifier sees it. This is fraud, and not acceptable."
   unlockable_sanctions_t2: "This warrants a strong response. If it continues, we might need to go further and look for other providers in the area."
-  unlockable_modify_business_plan_t1: "We can set new targets for the Voucher program."
+  unlockable_modify_business_plan_t1: "We'll focus on training and emphasizing the proper way to do reporting."
   # This key is required for every tactic card for when the player chooses observe instead of investigate
   observe: "OK, we'll wait and see if anything changes."

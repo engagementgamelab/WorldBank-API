@@ -1167,7 +1167,7 @@
   title: "Sanction the Provider"
 
 - symbol: unlockable_warn_the_provider
-  title: "Warn the Provider"
+  title: "Capacity Building on Vouchers"
 # -------------------------- #
 # False Declarations - Y2_V2
 # -------------------------- #
@@ -1178,7 +1178,7 @@
   title: "Sanctions"
 
 - symbol: unlockable_modify_business_plan_t1
-  title: "Modify the Business Plan to Stop Voucher-Based Bonuses for Individuals"
+  title: "Build Capacity for New Employees"
 # -------------------------- #
 # Running Out of Vouchers - Y3_V1
 # -------------------------- #
@@ -1228,7 +1228,7 @@
 # CCT Penetration - Y2_CCT1
 # -------------------------- #
 - symbol: unlockable_increase_incentives
-  title: "Increase Incentives"
+  title: "Increase Value of CCT Incentives"
 
 - symbol: unlockable_cultural_campaign
   title: "Campaign to Shift Traditional Birthing Behaviors"
@@ -1244,13 +1244,13 @@
 - symbol: unlockable_use_a_different_incentive
   title: "Use a Different Incentive"
 # -------------------------- #
-# Payment Inconsistancy - Y3_CCT1
+# Payment Inconsistency - Y3_CCT1
 # -------------------------- #
-- symbol: unlockable_only_pay_for_results
-  title: "Only Pay For Results"
+- symbol: unlockable_push_minfin_to_expedite_payments
+  title: "Push the Ministry of Finance to Expedite Payments"
 
-- symbol: unlockable_allow_temporary_exception
-  title: "Allow Temporary Exception"
+- symbol: unlockable_cut_back_cct
+  title: "Cut Back CCT Program"
 # -------------------------- #
 # Cash Transfer Confusion- Y3_CCT2
 # -------------------------- #
@@ -1270,40 +1270,58 @@
 
 
 # -------------------------- #
-# Confusion of Roles - Y1_O1
+# Resistance to Outreach - Y1_O1
 # -------------------------- #
-- symbol: unlockable_clarify_role_for_ministry
-  title: "Clarify Role for Ministry"
+- symbol: unlockable_incentivize_midwives_home_delivery
+  title: "Incentivized Skilled Health Workers to do Home Deliveries"
 
-- symbol: unlockable_tell_providers_to_act_without_ministry_approval
-  title: "Tell Providers to Act Without Ministry Approval"
+- symbol: unlockable_delivery_info_campaign
+  title: "Start Information Campaign"
+
+- symbol: unlockable_incentivize_bring_women_to_facilities
+  title: "Incentivize Community Health Workers and TBAs to Bring Women to Deliver in Facilities"
 # -------------------------- #
 # Field Records - Y1_O2
 # -------------------------- #
 - symbol: unlockable_warning_t3
   title: "Warning"
 
-- symbol: unlockable_advise_providers_to_hire_more_outreach_staff
-  title: "Advise Providers to Hire More Outreach Staff"
+- symbol: unlockable_retrain_outreach_nurses
+  title: "Retrain Outreach Nurses"
+
+- symbol: unlockable_move_to_quarterly_basis
+  title: "Move From Monthly to Quarterly Basis"
 # -------------------------- #
 # Supply Chain - Y2_O1
 # -------------------------- #
-- symbol: unlockable_increase_quality_of_care_incentives
-  title: "Increase Quality of Care Incentives"
+- symbol: unlockable_introduce_quality_of_care_incentives_at_community_level
+  title: "Introduce Quality of Care Incentives for RBF at Community Level"
 
-- symbol: unlockable_reduce_workforce
-  title: "Reduce Workforce"
+- symbol: unlockable_strengthen_supply_chain
+  title: "Strengthen Supply Chain"
+
 # -------------------------- #
-# Home Births - Y3_O1
+# Organizational Inefficiency - Y2_O2
 # -------------------------- #
-- symbol: unlockable_increase_facility_birth_incentives
-  title: "Increase Facility Birth Incentives"
+- symbol: unlockable_reduce_outreach_staff
+  title: "Reduce Number of Outreach Staff In Line with Actual Needs"
 
-- symbol: unlockable_continue_with_plan
-  title: "Continue With Program as Written"
+- symbol: unlockable_leave_things_as_is
+  title: "Leave Things As They Are"
 
-- symbol: unlockable_give_permission
-  title: "Give Permission"
+- symbol: unlockable_increase_outreach_incentive_level
+  title: "Increase Level of Incentive for Outreach"
+# -------------------------- #
+# Drop-off in Promotional Services - Y3_O1
+# -------------------------- #
+- symbol: unlockable_incentivize_promotional_services
+  title: "Incentivize Promotional Services"
+
+- symbol: unlockable_warn_outreach_staff
+  title: "Warn Outreach Staff"
+
+- symbol: unlockable_change_nothing
+  title: "Change Nothing"
 
 # ----------------                                               ---------------- #
 # ----------------   Improve Patient and Provider Relationship   ---------------- #
@@ -1313,43 +1331,37 @@
 # Unusual Claims - Y1_P1
 # -------------------------- #
 
-- symbol: unlockable_approve_payment
-  title: "Approve payment"
+- symbol: unlockable_train_community_verifiers
+  title: "Retrain Community Verifiers"
 
-- symbol: unlockable_warn_and_deny_payment
-  title: "Warn and Deny payment"
+- symbol: unlockable_revise_cv_surveys
+  title: "Revise Community Verification Surveys"
 
-- symbol: unlockable_reinforce_following_protocols
-  title: "Reinforce Following Protocols"
-
-- symbol: unlockable_issue_payment_to_institutions
-  title: "Issue payment to Institutions Instead of Individuals"
+- symbol: unlockable_reorganize_cv_staff
+  title: "Reorganize Community Verification Staff"
 
 # -------------------------- #
-# Staff Trouble - Y2_P1
+# Delayed Scores - Y2_P1
 # -------------------------- #
 
-- symbol: unlockable_retrain_t2
-  title: "Retrain"
+- symbol: unlockable_incentivize_timely_scores
+  title: "Create a Contract to Incentivize Verifiers to Deliver Timely Scores"
 
-- symbol: unlockable_cull_and_rehire
-  title: "Cull Workforce and Rehire"
+- symbol: unlockable_shift_to_quarterly_basis_2
+  title: "Reduce Payment Frequency From Monthly to Quarterly"
 
-- symbol: unlockable_increase_incentives_and_expedite_payment
-  title: "Increase Incentives and Expedite payment"
+- symbol: unlockable_hire_local_verifiers
+  title: "Hire Verifiers More Locally"
 
 # -------------------------- #
-# Possible Fraud - Y3_P1
+# Patient Satisfaction Not Improving - Y3_P1
 # -------------------------- #
 
-- symbol: unlockable_sanction_offending_workers
-  title: "Sanction Offending Workers"
+- symbol: unlockable_retrain_providers_on_data
+  title: "Retrain Providers on Data Analysis"
 
-- symbol: unlockable_warning_t4
-  title: "Warning"
-
-- symbol: unlockable_sanction_those_providers
-  title: "Sanction Those Providers"
+- symbol: unlockable_retrain_verifiers_on_data
+  title: "Retrain Verifiers on Data Collection"
 
 # ----------------                                                            ---------------- #
 # ----------------   Improve Patient and Provider Relationship Not Selected   ---------------- #
@@ -1360,20 +1372,20 @@
 # -------------------------- #
 
 - symbol: unlockable_directly_incensitive_service_improve
-  title: "Directly Incentivise Improved Service"
+  title: "Directly Incentivize Improved Service"
 
 - symbol: unlockable_increase_incentives_service_deliveries
-  title: "Increase Incentives Service Deliveries"
+  title: "Increase Incentives for Service Deliveries"
 
 # -------------------------- #
 # Poor Surveys - Y1_NNIPR1
 # -------------------------- #
 
 - symbol: unlockable_directly_incensitive_service_better
-  title: "Directly Incentivise Better Service"
+  title: "Directly Incentivize Better Service"
 
 - symbol: unlockable_sensitization_campaign
-  title: "Sensitization Campaign"
+  title: "Have a Sensitization Campaign for Health Workers"
 
 # -------------------------- #
 # Fraud Alert - Y1_NNIPR1
@@ -1396,24 +1408,21 @@
 # Candidates - Y1_N2
 # -------------------------- #
 
-- symbol: unlockable_widen_search_area
-  title: "Widen Search Area"
+- symbol: unlockable_enhance_highland_training_facilities
+  title: "Enhance Training Facilities in Highland Region So More Staff Become Available"
 
 - symbol: unlockable_lower_requirements_and_increase_training
   title: "Lower Requirements and Increase Training"
 
 # -------------------------- #
-# Training Problems - Y1_N1
+# No Effect - Y1_N1
 # -------------------------- #
 
-- symbol: unlockable_analyze_highland_effect
-  title: "Analyze Highland Effect"
-
 - symbol: unlockable_increase_incentives_for_attractive_facilities
-  title: "Increase Incentives for Attractive Facilities"
+  title: "Increase Incentives for Highland Nurses"
 
 - symbol: unlockable_let_hospitals_select_hires
-  title: "Let Hospitals Select Hires"
+  title: "Let Facilities Select Hires"
 
 # ----------------                                 ---------------- #
 # ----------------   Make Aesthetic Improvements   ---------------- #
@@ -1448,7 +1457,7 @@
 # -------------------------- #
 
 - symbol: unlockable_terminate_contract_at_end_of_year
-  title: "Terminate Contract at End of Year and Return to Pre-Program Shipping Methods"
+  title: "Terminate Contract at End of Year and Return to Using Train"
 
 - symbol: unlockable_hire_another_ground_based_service
   title: "Hire Another Ground-Based Service"
@@ -1466,6 +1475,9 @@
 - symbol: unlockable_negotiate
   title: "Negotiate"
 
+- symbol: unlockable_return_to_train_shipping
+  title: "Return to Using the Train to Ship Supplies"
+
 
 # ----------------                                                    ---------------- #
 # ----------------   Information Campaign to Counter Misinformation   ---------------- #
@@ -1482,15 +1494,15 @@
   title: "Increase Incentivise for Meeting Campaign Goals"
 
 - symbol: unlockable_reevaluate_whether_this_campaign_is_necessary
-  title: "Re-evaluate Whether This Campaign Is Necessary"
+  title: "Halt Campaign to Assess Challenges and Goals"
 
 
 # -------------------------- #
 # Overexposure - Y2_IM1
 # -------------------------- #
 
-- symbol: unlockable_temporarily_reduce_output
-  title: "Temporarily Reduce Output and Create New Materials"
+- symbol: unlockable_refocus_campaign_staff
+  title: "Instruct Campaign Staff to Focus on Delivering Information"
 
 - symbol: unlockable_end_campaign
   title: "End Campaign"
@@ -1581,7 +1593,7 @@
 # -------------------------- #
 
 - symbol: unlockable_incentivise_sanitization_protocols
-  title: "Incentivise Sanitation Protocols"
+  title: "Incentivise Sterilization Protocols"
 
 - symbol: unlockable_incentivise_best_practices
   title: "Incentivise Best Practices"
@@ -1590,27 +1602,14 @@
   title: "Sanction Providers with High Infection Rates"
 
 # -------------------------- #
-# Waiting - Y2_NP2
-# -------------------------- #
-
-- symbol: unlockable_institute_guidelines_streamline_traffic
-  title: "Institute Guidelines to Streamline Traffic"
-
-- symbol: unlockable_incentivise_best_practices_beds
-  title: "Incentivise Best Practices Beds"
-
-- symbol: unlockable_hire_temp_administrators
-  title: "Hire Temp Administrators"
-
-# -------------------------- #
-# Wrong Procedures 2 - Y3_NP1
+# Overprescription 2 - Y3_NP1
 # -------------------------- #
 
 - symbol: unlockable_incentivise_best_practices_high_goals
-  title: "Incentivise Best Practices High Goals"
+  title: "Incentivise Best Practices Protocols"
 
 - symbol: unlockable_sanction_providers_performing_unnecessary_procedures
-  title: "Sanction Providers Performing Unnecessary Procedures"
+  title: "Sanction Providers Prescribing Unnecessary Drugs"
 
 # -------------------------- #
 # Inspection Failure - Y3_NP2
@@ -1620,7 +1619,7 @@
   title: "Incentivise Best Practices Long Term"
 
 - symbol: unlockable_sanction_providers_who_fail_safety_inspection
-  title: "Sanction Providers Who Fail Safety Inspections"
+  title: "Warn Providers Who Fail Safety Inspections"
 
 
 # ----------------                                                       ---------------- #
@@ -1631,26 +1630,27 @@
 # Poor Campaign Coverage - Y1_ICB1
 # -------------------------- #
 
-- symbol: unlockable_provide_funding_to_hire_new_staff_t2
-  title: "Provide Funding to Hire New Staff"
+- symbol: unlockable_incentivize_bring_women_to_facilities_2
+  title: "Incentivize Outreach Staff and TBAs to Refer Women to Deliver In-Facility"
 
-- symbol: unlockable_increase_incentives_for_meeting_campaign_goals_t2
-  title: "Increase Incentives for Meeting Campaign Goals"
+- symbol: unlockable_incentivize_midwives_home_delivery_2
+  title: "Incentivize Skilled Health Workers to Assist Home Deliveries"
 
-- symbol: unlockable_reevaluate_whether_this_campaign_is_necessary_t2
-  title: "Re-evaluate Whether This Campaign is Necessary"
+- symbol: unlockable_leave_things_as_is_2
+  title: "Continue the Campaign As-Is"
 
 # -------------------------- #
 # Inconclusive Metrics - Y2_ICB2
 # -------------------------- #
 
-- symbol: unlockable_change_methodologies_t1
-  title: "Change Methodologies"
+- symbol: unlockable_provide_family_transport_incentive
+  title: "Provide Incentive to Compensate Family for Transportation"
 
 - symbol: unlockable_end_campaign_t2
-  title: "End Campaign"
+  title: "End Campaign and Increase Incentive for Facility Delivery"
 
-
+- symbol: unlockable_leave_things_as_is_3
+  title: "Continue with Plan As-Is"
 # -------------------------- #
 # Nationalist Backlash - Y3_ICB3
 # -------------------------- #

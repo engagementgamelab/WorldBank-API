@@ -9,17 +9,16 @@
 
 symbol: tactic_possible_fraud
 tactic_name: unlockable_improve_patient_and_provider_relationship  # <--- symbol of the tactic (stored in unlockables.yml) this card is using
-name: "Possible Fraud" # <--- display name for card
+name: "Patient Satisfaction Not Improving" # <--- display name for card
 year: 3
 
 # This dialogue the player sees first
-initiating_dialogue: "It seems that some health workers are falsifying claims on their customer service reports."
+initiating_dialogue: "Good news and bad news. The good news is, scores are now being reported on time, and payments are being made. The bad news is, the patient satisfaction scores are not actually going up."
 
 # The dialogue the player sees when investigation has results to show
-investigate_dialogue: "Given our push to improve customer service in facilities, I suppose it isn't surprising that some staff might be motivated to fudge their reports, but whatever the case we can't tolerate fraud, however small."
+investigate_dialogue: "The health providers need to take action if they want to earn the full incentives on offer. The failure seems to be coming at the point of data analysis. Either the data itself is not sufficiently detailed, which means the community verifiers aren't doing their job, or the health providers just need to devote more time to data analysis."
 
-# The dialogue the player sees when further investigation has results to show
-investigate_further_dialogue: "Some facilities seem to be pressuring employees into getting better ratings."
+investigate_further_dialogue: "The health providers want to make use of this data, but they just don't have the capacity. It's time we stepped in, if we ever want to see an improvement."
 
 # These are special parameters that load a cooldown array, which is defined in content/config.yml under 'cooldown:'
 # For example, specifying $config_cooldown_long will choose the key found in config.yml under:
@@ -30,21 +29,15 @@ investigate_further_cooldown: $config_cooldown_long
 
 # These are the usable player options added after investigation is done
 # Note that each key (e.g. 'information_campaign') MUST correspond to the one under "_affects" and feedback"
-new_options: [unlockable_sanction_offending_workers, unlockable_warning_t4]
+new_options: [unlockable_retrain_verifiers_on_data, unlockable_retrain_providers_on_data]
 
 # The affects for each new option
-new_options_affects: [unlockable_sanction_offending_workers, unlockable_warning_t4]
+new_options_affects: [unlockable_retrain_verifiers_on_data, unlockable_retrain_providers_on_data]
 
-# These are the usable player options added after further investigation is done
-further_options: [unlockable_sanction_those_providers]
-
-# The affects for each further new option
-further_options_affects: [unlockable_sanction_those_providers]
 
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
-  unlockable_sanction_offending_workers: "I'll start coordinating between our verifiers and providers to narrow down who our key offenders are and show them that this is unacceptable. This isn't going to be a fun week, but this has got to stop."
-  unlockable_warning_t4: "My concern is that if we only warn them, they aren't going to stop. On the other hand, this kind of thing is hard to prove, so that isn't very helpful, either."
-  unlockable_sanction_those_providers: "The usual indignance. We don't have any hard evidence, but I wouldn't be surprised if this is the last we hear about falsified reports."
+  unlockable_retrain_verifiers_on_data: "I'll make sure this happens. Still, I wonder about the analysis side, and what the health providers may be missing."
+  unlockable_retrain_providers_on_data: "Building capacity in this area will be sure to benefit them now and in the future. It's important to know how to read and analyze data to make improvements."
   # This key is required for every tactic card for when the player chooses observe instead of investigate
   observe: "OK, we'll wait and see if anything changes."
