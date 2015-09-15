@@ -14,25 +14,31 @@ module.exports = {
 
         api.session.connectionKey = function(connection, type) {
 
-            api.log("fingerprint: " + connection.fingerprint, 'notice');
-
-            if (connection.type === 'web')
+            if (connection.type === 'web') {
+                api.log("fingerprint: " + connection.fingerprint, 'notice');
+                
                 return api.session(type).prefix + connection.fingerprint;
-            else
+            }
+            else {
+                api.log("fingerprint: " + connection.id, 'notice');
+
                 return api.session(type).prefix + connection.id;
+            }
+    
         }
 
         api.session.save = function(connection, session, next, type) {
+            
             var key = api.session.connectionKey(connection, type);
 
-            api.log("save: " + key, 'notice');
-
+            api.log("save key for type " + type + ": " + key, 'notice');
 
             api.cache.save(key, session, api.session.duration, function(error) {
                 if (typeof next == "function") {                    
                     next(error);
                 };
             });
+
         }
 
         api.session.load = function(connection, next, type) {

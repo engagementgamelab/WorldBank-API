@@ -38,11 +38,11 @@ module.exports = {
       var connection = mongoose.connection.db;
 
       connection.on('error',  function callback (err) {
-          console.log('Mongo connection failed: ' + err);
+          api.log('Mongo connection failed: ' + err, 'crit');
       });
       connection.once('open', function callback () {
-          console.log('Mongo connection opened');
-          api.log('Good to go!', 'notice');
+          api.log('Mongo connection opened', 'debug');
+          api.log('Good to go!', 'alert');
       });
 
       next();

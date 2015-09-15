@@ -28,7 +28,7 @@ exports.apiAuth = {
       next();
     }
     else if (api.config.general.serverToken != dataInput.key) {
-      data.response.error = "incorrect key";
+      data.response.error = "incorrect server key";
       next();
     }
     else {

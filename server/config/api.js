@@ -1,6 +1,7 @@
 /**
 * @module api
 */
+// BASE SERVER CONFIG
 exports.default = {
   general: function(api){
     return {
@@ -12,7 +13,7 @@ exports.default = {
       // A unique token to your application that servers will use to authenticate to each other
       serverToken: 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855',
       // The welcome message seen by TCP and webSocket clients upon connection
-      welcomeMessage: 'Hello! Welcome to the actionhero api',
+      welcomeMessage: 'Hello! Welcome to the Engagement Lab API!',
       // the redis prefix for actionhero's cache objects
       cachePrefix: 'actionhero:cache:',
       // the redis prefix for actionhero's cache/lock objects
@@ -59,31 +60,13 @@ exports.default = {
   }
 }
 
-exports.test = { 
-  general: function(api){
-    var actionDomains = true;
-    if(process.env.ACTIONDOMAINS === 'false'){
-      actionDomains = false;
-    }
-
-    return {
-      id: 'test-server',
-      developmentMode: true,
-      actionDomains: actionDomains,
-      startingChatRooms: {
-        'defaultRoom': {},
-        'otherRoom': {},
-      },
-    }
-  }
-}
-
+// STAGING SERVER CONFIG
 exports.staging = { 
   general: function(api){
     // New Relic RPM init
     require('newrelic');
     
-    return {  
+    return {
       developmentMode: false,
       // configuration for your actionhero project structure
       paths: {
@@ -94,10 +77,20 @@ exports.staging = {
   }
 }
 
+// PRODUCTION SERVER CONFIG
 exports.production = { 
   general: function(api){
+    // New Relic RPM init
+    require('newrelic');
+
     return {  
-      developmentMode: false
+      serverToken: '27a3996e6c59d6f1c38331517732eebdd879d4574eae2c6d7a7290be7d1bd49e',
+      developmentMode: false,
+      // configuration for your actionhero project structure
+      paths: {
+        // Engagement Lab API: This is a custom folder for our YAML content
+        'content':      [ 'content' ]
+      }
     }
   }
 }
