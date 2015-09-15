@@ -30,10 +30,10 @@ investigate_further_cooldown: $config_cooldown_long
 
 # These are the usable player options added after investigation is done
 # Note that each key (e.g. 'information_campaign') MUST correspond to the one under "_affects" and feedback"
-new_options: [unlockable_pay_new_rate]
+new_options: [unlockable_pay_new_rate, unlockable_return_to_train_shipping]
 
 # The affects for each new option
-new_options_affects: [unlockable_pay_new_rate]
+new_options_affects: [unlockable_pay_new_rate, unlockable_return_to_train_shipping]
 
 # These are the usable player options added after further investigation is done
 further_options: [unlockable_negotiate]
@@ -45,5 +45,6 @@ further_options_affects: [unlockable_negotiate]
 feedback_dialogue:
   unlockable_pay_new_rate: "We'll have to get a little creative with the budget for this, but what else can we do?"
   unlockable_negotiate: "They wouldn't budge. Didn't hurt to try, though."
+  unlockable_return_to_train_shipping: "So we're firing the shipping company and going back to the train? Works for me."
   # This key is required for every tactic card for when the player chooses observe instead of investigate
   observe: "OK, we'll wait and see if anything changes."

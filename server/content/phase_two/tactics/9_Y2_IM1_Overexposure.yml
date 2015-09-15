@@ -16,7 +16,7 @@ year: 2
 initiating_dialogue: "The response to our campaign seems to be dropping off significantly. Should I look into the cause of this?"
 
 # The dialogue the player sees when investigation has results to show
-investigate_dialogue: "It appears that our information campaign has now gone too well, and we have become over-exposed."
+investigate_dialogue: "From what I have been able to discover, the campaigners are focusing a bit too strongly on what misinformation is being spread, and what the sources are. This is creating more suspicion about what the health facilities are doing and why."
 
 # These are special parameters that load a cooldown array, which is defined in content/config.yml under 'cooldown:'
 # For example, specifying $config_cooldown_long will choose the key found in config.yml under:
@@ -27,14 +27,14 @@ investigate_further_cooldown: $config_cooldown_long
 
 # These are the usable player options added after investigation is done
 # Note that each key (e.g. 'information_campaign') MUST correspond to the one under "_affects" and feedback"
-new_options: [unlockable_temporarily_reduce_output, unlockable_end_campaign]
+new_options: [unlockable_refocus_campaign_staff, unlockable_end_campaign]
 
 # The affects for each new option
-new_options_affects: [unlockable_temporarily_reduce_output, unlockable_end_campaign]
+new_options_affects: [unlockable_refocus_campaign_staff, unlockable_end_campaign]
 
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
-  unlockable_temporarily_reduce_output: "We've had plenty of exposure so far. This should give people time to refresh."
+  unlockable_refocus_campaign_staff: "This will be more constructive, no doubt."
   unlockable_end_campaign: "We can talk again at the end of the year and decide if this is worth the expenditure."
   # This key is required for every tactic card for when the player chooses observe instead of investigate
   observe: "OK, we'll wait and see if anything changes."

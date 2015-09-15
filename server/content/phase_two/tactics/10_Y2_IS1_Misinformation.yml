@@ -13,7 +13,7 @@ name: "Misinformation" # <--- display name for card
 year: 2
 
 # This dialogue the player sees first
-initiating_dialogue: "People have been coming to facilities totally confused about what services are being supplemented and how to get them."
+initiating_dialogue: "People have been coming to facilities totally confused as they hear facilities are paid for service delivery, and yet they also pay for the services."
 
 # The dialogue the player sees when investigation has results to show
 investigate_dialogue: "Misinformation is circulating about how the program works."
@@ -35,7 +35,7 @@ new_options_affects: [unlockable_increase_funding_for_sensitization_strategy, un
 
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
-  unlockable_increase_funding_for_sensitization_strategy: "This should work as long as we can relate it directly to the problems we're having. And we can get the materials printed."
+  unlockable_increase_funding_for_sensitization_strategy: "This should work as long as we can communicate how facilities operate. And we can get the materials printed."
   unlockable_create_informational_pamphlets: "Let's just hope the language is clear enough and we get the pamphlets in time."
   # This key is required for every tactic card for when the player chooses observe instead of investigate
   observe: "OK, we'll wait and see if anything changes."

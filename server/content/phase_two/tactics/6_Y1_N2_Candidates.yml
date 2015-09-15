@@ -13,10 +13,10 @@ name: "Candidates" # <--- display name for card
 year: 1
 
 # This dialogue the player sees first
-initiating_dialogue: "None of the hospitals or facilities have met their hiring goals for this quarter."
+initiating_dialogue: "None of the hospitals or facilities have managed to hire as many staff from the highland regions as per the criteria established in the quality checklist. They haven't attained the score, and thus lose out on part of the incentive for this quarter."
 
 # The dialogue the player sees when investigation has results to show
-investigate_dialogue: "There just aren't enough qualified people in the prescribed area to meet the hiring guidelines in the program."
+investigate_dialogue: "There just aren't enough qualified medical staff in the highland regions that can be hired to meet the targets established in the quality checklist."
 
 # These are special parameters that load a cooldown array, which is defined in content/config.yml under 'cooldown:'
 # For example, specifying $config_cooldown_long will choose the key found in config.yml under:
@@ -27,15 +27,15 @@ investigate_further_cooldown: $config_cooldown_long
 
 # These are the usable player options added after investigation is done
 # Note that each key (e.g. 'information_campaign') MUST correspond to the one under "_affects" and feedback"
-new_options: [unlockable_widen_search_area, unlockable_lower_requirements_and_increase_training]
+new_options: [unlockable_enhance_highland_training_facilities, unlockable_lower_requirements_and_increase_training]
 
 # The affects for each new option
-new_options_affects: [unlockable_widen_search_area, unlockable_lower_requirements_and_increase_training]
+new_options_affects: [unlockable_enhance_highland_training_facilities, unlockable_lower_requirements_and_increase_training]
 
 
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
-  unlockable_widen_search_area: "We might have to pay people to relocate, but good staff is vital."
+  unlockable_enhance_highland_training_facilities: "We might have to pay people to relocate, but good staff is vital."
   unlockable_lower_requirements_and_increase_training: "Lowering requirements is going to come back and bite us unless we're very lucky."
   # This key is required for every tactic card for when the player chooses observe instead of investigate
   observe: "OK, we'll wait and see if anything changes."
