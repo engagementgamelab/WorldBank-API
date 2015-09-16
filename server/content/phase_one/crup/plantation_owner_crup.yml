@@ -18,16 +18,16 @@ character: plantation_owner_crup
 dialogue:
     Initial:
       text: 
-        - "She greets you in a business-like way and introduces herself. \"Yes, I do own this plantation,\" she says. \"Over a hundred people work and live here. It wasn't easy, but I have worked hard and built a legacy for my [[sons]] to inherit when I'm gone. His wife, who is from Kibari, is pregnant. We have [[disagreements]] on where the child will be born.\""
+        - "She greets you in a business-like way and introduces herself. \"Yes, I do own this plantation,\" she says. \"Over a hundred people work and live here. It wasn't easy, but I have worked hard and built a legacy for my [[sons]] to inherit when I'm gone. My oldest boy's wife, who is from Kibari, is pregnant. We have [[disagreements]] on where the child will be born.\""
         - "The plantation owner nods to you. \"Was there something else?\""
     Sons: 
       text: 
-        - "\"I have two sons. They were both born in the hospital in Valeria, unlike the workers who want to deliver them. I have a friend in Mile who is a midwife, you could ask her.\""
+        - "\"I have two sons. They were both born in the hospital in Zima, unlike the workers who want to deliver at home. I have a friend in Mile who is a midwife, you could ask her about it.\""
       unlocks: [unlockable_dialogue_midwife]
       unlocks_context: ["A midwife might have more to say about this. Find her."]
     Disagreements: 
       text: 
-        - "\"In Zariba, it is customary that women give birth in their own homes with a traditional attendant in the room. His wife does not want to travel to Valeria and does not want a midwife. It is frustrating.\" When you ask about whether her employees can afford the same care, she shrugs. \"I would be willing to pay for my employees to deliver with a midwife, but they don't want to change their practices anyway.\""
+        - "\"In Zariba, it is customary that women give birth in their own homes with a traditional attendant in the room. My daughter in law does not want to travel to Valeria and does not want a midwife. It is frustrating.\" When you ask about whether her employees can afford the same care, she shrugs. \"I would be willing to pay for my employees to deliver with a midwife, but they don't want to change their practices anyway.\""
       unlocks: [unlockable_information_campaign_to_change_cultural_customs_and_behavior]
       unlocks_context: ["The plantation owner says that women give birth in their own homes, even when this is dangerous."]
     unlockable_dialogue_plantation_owner:

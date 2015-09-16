@@ -18,7 +18,7 @@ character: nurse_aid_kibari
 dialogue:
     Initial:
       text: 
-        - "You ask her about the [[availability of supplies]] and what it is like to [[work in her clinic]]."
+        - "\"I work at a clinic nearby,\" she says. You wonder what it is like to [[work in her clinic]], so hear to Kibari, and about the [availability of supplies]] there."
         - "Did you have more to ask me?"
     Availability of Supplies: 
       text: 
