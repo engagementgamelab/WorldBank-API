@@ -5,6 +5,7 @@
 # Route Definitions
 # ==============
 
+#Train#
 - symbol: capitol_to_malcom
   city1: capitol
   city2: malcom
@@ -12,6 +13,7 @@
   speed: 30
   cost: 2
 
+#Bus#
 - symbol: capitol_to_crup
   city1: capitol
   city2: crup
@@ -19,6 +21,8 @@
   speed: 30
   cost: 1
 
+
+#Bus#
 - symbol: crup_to_kibari
   city1: crup
   city2: kibari
@@ -26,6 +30,8 @@
   speed: 30
   cost: 2
 
+
+#Bus#
 - symbol: malcom_to_valeria
   city1: malcom
   city2: valeria
@@ -33,6 +39,8 @@
   speed: 30
   cost: 1
 
+
+#fruit truck#
 - symbol: malcom_to_kibari
   city1: malcom
   city2: kibari
@@ -40,6 +48,7 @@
   speed: 30
   cost: 2
 
+#train#
 - symbol: malcom_to_mile
   city1: malcom
   city2: mile
@@ -47,6 +56,8 @@
   speed: 30
   cost: 2
 
+
+#airship#
 - symbol: valeria_to_zima
   city1: valeria
   city2: zima
@@ -54,6 +65,8 @@
   speed: 30
   cost: 1
 
+
+#Fruit truck#
 - symbol: zima_to_kibari
   city1: zima
   city2: kibari
@@ -61,6 +74,8 @@
   speed: 30
   cost: 3
 
+
+#fruit truck#
 - symbol: kibari_to_mile
   city1: kibari
   city2: mile
@@ -68,6 +83,8 @@
   speed: 30
   cost: 1
 
+
+#train#
 - symbol: mile_to_zima
   city1: mile
   city2: zima
