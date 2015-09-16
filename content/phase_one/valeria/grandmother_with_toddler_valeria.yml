@@ -17,16 +17,16 @@ character: grandmother_with_toddler_valeria
 dialogue:
     Initial:
       text: 
-        - "\"Oh, hello,\" the woman says. \"This airship port wasn't here the last time I came to this town, so it's a little confusing. We were visiting here for a little bit. My [[grandson]] always wanted to see the sand palaces and after I convinced that terrible doctor to write me a [[prescription]] he seems to be more active.\""
+        - "\"Oh, hello,\" the woman says. \"This airship port wasn't here the last time I came to this town, so it's a little confusing. We were visiting here for a little bit. My [[grandson]] has been sick for a long time, and he always wanted to see the sand palaces. After I convinced that terrible doctor to write me a [[prescription]] the little guy is finally up to travelling.\""
         - "\"Oh, hello again. What else do you want to chat about?\""
     Grandson: 
       text: 
-        - "When you inquire about the health of her grandson, she seems a little unsure. \"I think he's vaccinated,\" she says, \"but I don't really care for these hospitals.\""
+        - "When you inquire about the health of her grandson, she seems a little unsure. \"I think he's vaccinated,\" she says, \"but I don't really care for these hospitals. The nurse there was rude to me. He made me feel unwelcome and I had to argue with a doctor about getting a prescription for my little one.\""
       unlocks: [unlockable_improve_patient_and_provider_relationship]
       unlocks_context: ["The Grandmother in Valeria thinks the nurses are rude."]
     Prescription: 
       text: 
-        - "When I went to the hospital the nurse was very rude to me. He made me feel unwelcome and I had to argue with a doctor about getting a prescription for my little one. \"I do not remember exactly what the doctor said, but he kept saying that he did not need antibiotics. When I finally got him to write me a prescription, I felt like he wrote it just to shut me up. He did not seem to care, you know?\""
+        - "\"I do not remember exactly what the doctor said, but he kept saying that he did not need antibiotics. When I finally got him to write me a prescription, I felt like he wrote it just to shut me up. He did not seem to care, you know?\""
       unlocks: [unlockable_incentivise_providers_to_follow_protocols]
       unlocks_context: ["Doctors are writing prescriptions to please patients, not based on solid medical reasons."]
 

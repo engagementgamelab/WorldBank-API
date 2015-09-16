@@ -18,15 +18,15 @@ character: two_women_malcom
 dialogue:
     Initial:
       text: 
-        - "You lean a little closer and realize they are two prominent NGO Managers. They reference the difficulty they have been having [[incentivizing service providers]] to vaccinate more children. They mention [[the epidemic]] that is apparently spreading."
+        - "You lean a little closer and realize they are two prominent NGO Managers. They reference the difficulty they have been having [[incentivizing service providers]] to vaccinate more children. They're talking about [[an epidemic]] that is apparently spreading."
         - "They're still talking, but they seem aware that you're nearby. You're beginning to feel a little awkward."
     Incentivizing Service Providers:
       text: 
-        - "\"How has your organization dealt with the growing gap in vaccination rates?\" one women says to the other. The other woman responds proudly, \"Our experience in increasing the number of children vaccinated is due to our program where we incentivize the providers to improve quality of care instead of increasing only the quantity of services. This has especially worked well when they follow protocol and therapeutic guidelines.\""
+        - "\"How has your organization dealt with the growing gap in vaccination rates?\" one women says to the other. The other woman responds proudly, \"Our program greatly improved the number of children vaccinated in the north. It incentivized the providers to improve quality of care instead of increasing only the quantity of services. This worked especially well when we emphasized protocol and therapeutic guidelines.\""
       unlocks: [unlockable_incentivise_providers_to_follow_protocols]
       unlocks_context: ["NGO managers suggested it is important to incentivize providers to follow protocols and therapeutic guidelines."]
-    The Epidemic:
+    An Epidemic:
       text: 
-        - "\"Have you heard? In the Highlands, access to services is limited and people do not value the importance of preventive services like vaccinations. Instead they only go to the clinic when they are sick.\" The first woman says this with a slight agitation. The second woman chimes in \"Well that is why deploying sufficient outreach and detecting epidemic cases is crucial to our nonprofit success and helping the area get back on its feet.\""
+        - "\"Have you heard? In the Highlands, access to services is limited and people do not value the importance of preventive services like vaccinations. Instead they only go to the clinic when they are sick.\" The first woman says this with a slight agitation. The second woman chimes in \"They should be utilizing outreach in this region and detecting epidemic casess. In the north, this has been is crucial to helping the area get back on its feet.\""
       unlocks: [unlockable_outreach]
       unlocks_context: ["Bringing healthcare workers directly to communities and providing services like vaccinations can prevent an epidemic."]

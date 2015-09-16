@@ -11,6 +11,8 @@
   unlocked: true
   speed: 30
   cost: 2
+  #Train#
+
 
 - symbol: capitol_to_crup
   city1: capitol
@@ -18,6 +20,8 @@
   unlocked: true
   speed: 30
   cost: 1
+  #Bus#
+
 
 - symbol: crup_to_kibari
   city1: crup
@@ -25,6 +29,8 @@
   unlocked: false
   speed: 30
   cost: 2
+  #Bus#
+
 
 - symbol: malcom_to_valeria
   city1: malcom
@@ -32,6 +38,9 @@
   unlocked: false
   speed: 30
   cost: 1
+  #Bus#
+
+
 
 - symbol: malcom_to_kibari
   city1: malcom
@@ -39,6 +48,8 @@
   unlocked: false
   speed: 30
   cost: 2
+  #fruit truck#
+
 
 - symbol: malcom_to_mile
   city1: malcom
@@ -46,6 +57,9 @@
   unlocked: true
   speed: 30
   cost: 2
+  #train#
+
+
 
 - symbol: valeria_to_zima
   city1: valeria
@@ -53,6 +67,8 @@
   unlocked: false
   speed: 30
   cost: 1
+  #airship#
+
 
 - symbol: zima_to_kibari
   city1: zima
@@ -60,6 +76,9 @@
   unlocked: false
   speed: 30
   cost: 3
+  #Fruit truck#
+
+
 
 - symbol: kibari_to_mile
   city1: kibari
@@ -67,6 +86,7 @@
   unlocked: false
   speed: 30
   cost: 1
+  #fruit truck#
 
 - symbol: mile_to_zima
   city1: mile
@@ -74,3 +94,4 @@
   unlocked: true
   speed: 30
   cost: 2
+  #train#

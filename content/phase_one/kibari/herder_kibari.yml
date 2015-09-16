@@ -22,7 +22,7 @@ dialogue:
         - "\"You are a curious one,\" the herder says."
     Easy To Get:
       text: 
-        - "\"The clinic here in town never has any medicines, and I hear that some people travel for days to get to the hospital. Who wants to do that? You hear people die of negligence all the time in the hospital anyway.\""
+        - "\"The clinic nearest to town never has any medicines, and I hear that some people travel for days to get to the hospital. Who wants to do that? You hear people die of negligence all the time in the hospital.\""
       unlocks: [unlockable_outreach]
       unlocks_context: ["The herder mentioned people are discouraged to travel."]
     Seem To Work: 

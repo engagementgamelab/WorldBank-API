@@ -22,4 +22,6 @@ dialogue:
         - "You have much to learn and I have spoken at length already."
     Serious Expression:
       text:
-        - "\"We have been using our usual methods of funding here,\" he says. \"We have increased the budget for health care in each region year after year, but results have not increased to match it. This year, we will spend more than ever before. We need to try something new and more effective. That is why you are here.\""
+        - "\"We have been using our usual methods of funding here,\" he says. \"We have increased the budget for health care in each region year after year, but results have not increased to match it. This year, we will spend more than ever before. We need to try something new and more effective. That is why you are here. I have heard that facilities are struggling to meet basic needs for hiring and supplies. It is a risk, but perhaps we should give them the freedom to solve their own problems instead of making them dependant on us for all their needs.\""
+      unlocks: [unlockable_grant_providers_autonomy]
+      unlocks_context: ["The Finance Minister suggests more autonomy is needed for health staff in the region."]\""

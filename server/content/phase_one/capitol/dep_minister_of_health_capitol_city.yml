@@ -18,10 +18,10 @@ character: dep_minister_of_health_capitol_city
 dialogue:
   Initial:
     text:
-      - "Thank you again for coming all the way here. [[Your expertise]] is much appreciated. Our health system has been drastically underperforming despite our huge efforts. Our mortality rates for children under five are unacceptable. "
+      - "Thank you again for coming all the way here. [[Your expertise]] is much appreciated. Our health system has been drastically underperforming despite concerted efforts. Our mortality rates for children under five are unacceptable. "
       - "Thank you again for all your help!"
   Your Expertise:
     text:
-      - "We have identified three indicators to address to improve these numbers: Vaccinations, Facility Births, and Quality of Care. We have pushed facilities to improve on these indicators, but so far the results have been underwhelming. First and foremost, I recommend that you find a way to boost these key services and quality indicators."
+      - "We have identified three indicators to address that could improve these numbers: Vaccinations, Facility Births, and Quality of Care. We have pushed facilities to improve on these indicators, but so far the results have been underwhelming. First and foremost, I recommend that you find a way to boost these key services and quality indicators."
     unlocks: [unlockable_incentivise_providers_to_deliver_services]
     unlocks_context: ["Facilities are not providing enough services. If they are incentivised to provide more, they probably will."]

@@ -12,7 +12,7 @@
   display_name: Observation Team Supervisor--Rahb
   description:
     - "This is Rahb, the Observation Team Supervisor who will be assisting you in this office."
-    - "Rahb patiently waits for you to listen to her directions, as she has more to tell you about the world of Zariba."
+    - "Rahb patiently waits for you to listen to her directions, as she has more to tell you about the country of Zariba."
     - "She motions to the other people in the room, encouraging you to speak to them."
 
 - symbol: dep_minister_of_health_capitol_city
@@ -33,7 +33,7 @@
   display_name: Regional Director of Health Services
   description: 
     - "This is the Director of Regional Health Services for the Highlands region of Zariba. As you understand, this person works under the Deputy Minister and is probably the most knowledgeable person here when it comes to healthcare in the Highlands."
-    - "There is more to ask before you venture forth!"
+    - "I can explain a little bit more if you have the time."
     - "The Regional Director of Health has nothing more to say to you."
 
 # -------------
@@ -58,19 +58,19 @@
   description: 
     - "A young woman, maybe 19 years, is selling fruit from a well-stocked cart. Most of them you’ve never even seen before, and a perfume-like aroma wafts from a box of red berry clusters. She looks expectantly at you, smiling politely."
     - "You catch the vendor's eye again as she finishes selling something that looks like citrus. She tells the customer it's her daughter's favorite."
-    - "The woman packs up her cart, eager to get back to her daughter and mother."
+    - "The woman is packing up her cart, eager to get back to her family."
 
 - symbol: medicine_merchant_malcom
   display_name: Medicine Merchant
   description: 
-    - "In the middle of the crowded marketplace, you see a man dressed in an impressive robe that feels important and professional. He seems to be charming those around him as a small crowd gathers to listen to his sermon-like presentation. Behind him is an elaborate cart of small medallions, tokens, and jars, all different sizes and shapes. The sign reads \"Medicine\" in multiple languages."
+    - "In the middle of the crowded marketplace, you see a man dressed in an impressive robe. He seems to be charming those around him as a small crowd gathers to listen to his sermon-like presentation. Behind him is an elaborate cart of small medallions, tokens, and jars, all different sizes and shapes. The sign reads \"Medicine\" in multiple languages."
     - "The Medicine Merchant is still selling his wares, delivering the same sermon-like pitch to anyone who will listen."
     - "As you watch more people buying the man’s goods, you wonder how much he earns, and how much of that money he passes on to Mr. Todd."
 
 - symbol: two_women_malcom
   display_name: Women Waiting for Ferry
   description: 
-    - "At the far end of the market there are two women in elaborate buisness-like dress. You notice a logo for one of the more popularly known NGO organizations in the region pinned to their front pockets. They are in a heated discussion and you can listen in without interupting."
+    - "At the far end of the market there are two women in elaborate buisness-like dress. You notice a logo for one of the more popularly NGO organizations in the region pinned to their front pockets. They are in a heated discussion and you can listen in without interupting."
     - "The two NGO managers wait impatiently for their ferry, still chatting."
     - "They look in your direction with awkwardness, noticing you overheard their discussion. You feel its best to move on."
 
@@ -110,20 +110,6 @@
   display_name: Mech Farmer
   description: 
     - "A man leans up against a large piece of advanced farming equipment smoking a cigarette. It looks like he’s taking a break."
-    - "You continue to chat with the man, only distracted a little by his mech. You're surprised by how cool it is, a giant farming robot."
-    - "The man extinguishes his half-smoked cigarette and stashes it in the soft pack he keeps rolled in his sleeve. Time to get back to work."
-
-- symbol: old_men_gaming_crup
-  display_name: Old Men Gaming
-  description:
-    - "A pair of older men sit under the shade of a tree, playing some sort of tile-laying game. The gaming set is finely crafted from polished wood, but seems old and well worn. They chat as they play."
-    - "Eventually you get their attention away from the game. No mean feat, since one of them captured a piece and the other was loudly damning him for it."
-    - "You listen some more, but after that last capture, both men are more intent on the game."
-
-- symbol: mech_farmer_crup
-  display_name: Mech Farmer
-  description:
-    - "A man leans up against a large piece of advanced farming equipment smoking a cigarette. It looks like he's taking a break."
     - "You continue to chat with the man, only distracted a little by his mech. You're surprised by how cool it is, a giant farming robot."
     - "The man extinguishes his half-smoked cigarette and stashes it in the soft pack he keeps rolled in his sleeve. Time to get back to work."
 
@@ -174,7 +160,7 @@
   display_name: Herder
   description: 
     - "A herder is wrangling a small flock of flightless birds toward the market, taking care that none wander off. You notice a medallion around his neck that looks familiar to you. Many people in this area seem to be wearing them."
-    - "Whenever people speak of homeopathic medicine you feel uneasy due to your position. Yet the pride in his voice and the way his birds seem drawn to him reminds you of the genuine people who populate this beautiful land."
+    - "Whenever people speak of traditional medicine you feel uneasy due to your position. Yet the pride in his voice and the way his birds seem drawn to him reminds you of the genuine people who populate this beautiful land."
     - "One of the herder's birds keeps gnawing on his ankle. You take this as a sign and leave him to his work."
 
 - symbol: mr_todd_kibari
@@ -228,7 +214,7 @@
   description: 
     - "A woman fidgets with her flight suit, tightening a loose strap and pulling her zipper a little higher. She appears to be in her late 20s, and preparing to depart soon via airship."
     - "As you talk, you can tell she isn't really looking at you, but at her airship. She has the ship's name, 'The Pleiades' stitched into her flight jacket."
-    - "After your done with your questions, you listen politely as she describes her ship's seven engine system. It's all very complicated, but you feel good listening."
+    - "After you're done with your questions, you listen politely as she describes her ship's seven engine system. It's all very complicated, but you feel good listening."
 
 - symbol: nomad_valeria
   display_name: Nomad
@@ -273,8 +259,8 @@
   display_name: Nurse
   description:
     - "The tall male nurse towers over everyone. Forehead scrunched in frustrated tension, he wipes a few beads of sweat from his brow."
-    - "Though not the most pleasant conversation, You remind yourself it is important to gather as much information as possible, perhaps he has more to say?"
-    - "The nurse seems flustered, but you understand the predictiment he is in and sympathize with the situation."
+    - "Though not the most pleasant conversation, You remind yourself it is important to gather as much information as possible. Perhaps he has more to say?"
+    - "The nurse seems flustered, but you understand the predictiment he is in and sympathize."
 
 
 # ============
