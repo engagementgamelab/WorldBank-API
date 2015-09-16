@@ -22,7 +22,7 @@ dialogue:
         - "Dr. Maramuta motions you over to him. \"I have to meet with a patient soon, but I have a little more time to chat. What else can I help you with?\""
     This Clinic: 
       text: 
-        - "\"Things have been very tough. In the highlands, things are done differently. The situation is not ideal, and sometimes following protocol just takes extra time which is hard with so many patients. We don't have all the supplies and therefore staff do not follow protocols, and they don't seem to care, anyway. And we do not have any money, so things are skimped on.\""
+        - "\"Things have been very tough. In the highlands, things are done differently. The situation is not ideal, and sometimes following protocol just takes extra time which is hard with so many patients. We don't have all the supplies we need, so sometimes the staff couldn't  follow protocols if they wanted to, and they don't seem to care, anyway. Between missing supplies and a lack of money, things are skimped on too often.\""
       unlocks: [unlockable_incentivise_providers_to_follow_protocols]
       unlocks_context: ["Dr. Maramuta talked about not following protocols. This must be discouraged."]
     Budget:
