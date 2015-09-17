@@ -22,7 +22,7 @@ dialogue:
         - "I still have more to tell you!"
     Making a Program: 
       text: 
-        - "\"You can use your notebook to keep track of where you have been, what you have learned, and what options seem to make sense for your program. Click it now and explore it. As you can see, for now, it is mostly blank. That will change.\""
+        - "\"You can use your notebook to keep track of where you have been, what you have learned, and what options seem to make sense for your program. The icon to open your notebook is on the lower left of your screen.\""
     Talk to People: 
       text: 
         - "\"In each area you visit, you will be able to talk to people just like you are talking to me, by clicking and spending conversation points. Your time in each city is limited though, so choose who you talk to wisely. I have taken the liberty of setting up a meeting with the Deputy Minister of Health, the Finance Minister, and the Regional Health Supervisor for the Highlands Region. It is starting now! They are on the other side of the talbe to your right. Click on them to talk.\""
