@@ -23,6 +23,7 @@ phase_1_rahb:
   spotlight_size: [2.38, 1]
   mask_position: [246, -62]
   mask_size: [128, 180]
+  confirm: true
 
 phase_1_interactions_counter:
   overlay_location: "Center"
@@ -31,6 +32,7 @@ phase_1_interactions_counter:
   spotlight_size: [5, 3.51]
   mask_position: [0, 0]
   mask_size: [84, 54]
+  confirm: true
 
 phase_1_move_around:
   overlay_location: "Center"
@@ -39,6 +41,7 @@ phase_1_move_around:
   spotlight_size: [3.56, 1.2]
   mask_position: [144, 0]
   mask_size: [500, 295]
+  confirm: true
 
 phase_1_unlocked_something:
   overlay_location: "Center"
@@ -47,6 +50,7 @@ phase_1_unlocked_something:
   spotlight_size: [1.87, 2.43]
   mask_position: [483, 0]
   mask_size: [244, 98]
+  confirm: true
 
 phase_1_plan_creation_screen:
   overlay_location: "Center"
@@ -55,6 +59,7 @@ phase_1_plan_creation_screen:
   spotlight_size: [3.3, 3.25]
   mask_position: [739, -331]
   mask_size: [46, 47]
+  confirm: true
 
 phase_1_tactics:
   overlay_location: "Bottom-Right"
@@ -63,6 +68,7 @@ phase_1_tactics:
   spotlight_size: [1.56, 2.43]
   mask_position: [0, -38]
   mask_size: [302, 86]
+  confirm: true
 
 phase_1_tactic_slots:
   overlay_location: "Bottom-Left"
@@ -71,32 +77,60 @@ phase_1_tactic_slots:
   spotlight_size: [1.41, 2.28]
   mask_position: [400, -38]
   mask_size: [302, 105]
+  confirm: true
 
 phase_1_continue_talking:
   overlay_location: "Bottom-Left"
   text: "Talk to the rest of the Capitol city officials to learn more about Zariba and the challenges it faces! "
   spotlight_position: [0.31, -1.27]
   spotlight_size: [4.85, 1.87]
-  mask_position: [0, 0]
-  mask_size: [1, 1]
+  mask_position: [262, -389]
+  mask_size: [148, 71]
+  confirm: true
 
 phase_1_map:
   overlay_location: "Bottom-Right"
   text: "This is your map of Zariba. You can click and drag to see different part of the map. The  green circle indicates where you are. Cities will unlock as you find new ways to travel across the country. Each city has different people with unique perspectives on the situation. "
   spotlight_position: [-0.83, -0.66]
   spotlight_size: [3.82, 1.82]
-  mask_position: [0, 0]
-  mask_size: [1, 1]
+  mask_position: [623, -393]
+  mask_size: [140, 66]
+  confirm: true
 
 phase_1_city_routes:
   overlay_location: "Bottom-Right"
   text: "Open routes are highlighted in yellow. You are free to travel these routes. Discover new routes to find the most effective path! Try clicking on Malcom or Crup now. "
   spotlight_position: [-0.13, -0.04]
   spotlight_size: [1.26, 1]
-  mask_position: [0, 0]
-  mask_size: [1, 1]
+  mask_position: [610, -384]
+  mask_size: [148, 67]
+  confirm: true
 
+phase_1_travel:
+  overlay_location: "Bottom-Left"
+  text: "Read the description to decide if you want to travel to this city. Click the visit button, or click cancel to return to the map. "
+  spotlight_position: [-0.34, -0.14]
+  spotlight_size: [1.66, 1.17]
+  mask_position: [236, -69]
+  mask_size: [263, 198]
 
+phase_1_travel_days:
+  overlay_location: "Center"
+  text: "This shows how many days you have left to explore Zariba. Every time you travel to a new city it will cost some number of days, depending on the route. When you run out of days the game ends, so choose routes carefully! "
+  spotlight_position: [0.31, -1.91]
+  spotlight_size: [3.92, 2.54]
+  mask_position: [434, -275]
+  mask_size: [156, 50]
+  confirm: true
+
+phase_1_conversation_points:
+  overlay_location: "Center"
+  text: "Hold on, you still have conversation points left in this city! Making the best proposal depends on gathering as much information as possible from people here. Remember, you can see your remaining interactions at the upper-left. Click on the map icon to return to the city. "
+  spotlight_position: [-2.72, 0.27]
+  spotlight_size: [3.4, 2.54]
+  mask_position: [446, -256]
+  mask_size: [148, 71]
+  confirm: true
 
 phase_1_start:
   overlay_location: "Center"
