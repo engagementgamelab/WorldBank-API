@@ -84,3 +84,11 @@
   speed: 30
   cost: 2
   transportation_mode: train
+
+- symbol: crup_to_zima
+  city1: crup
+  city2: zima
+  unlocked: false
+  speed: 30
+  cost: 2
+  transportation_mode: truck #fruit truck specifically#

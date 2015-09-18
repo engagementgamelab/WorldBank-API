@@ -122,6 +122,10 @@
   title: "Route to Zima"
   unlocked: true
 
+- symbol: unlockable_route_crup_to_zima
+  title: "Route to Zima"
+  unlocked: false
+
 
 # ----------------              ---------------- #
 # ---------------- PLAN OPTIONS ---------------- #
@@ -175,7 +179,7 @@
   title: "Improve Patient and Provider Relationship"
   description:
     - "This would help improve patient/provider relationships in order to increase use of important services long term."
-  priority: 2
+  priority: 3
   type: behavior_knowledge_and_professionalism
 
 - symbol: unlockable_make_aesthetic_improvements
@@ -239,7 +243,7 @@
   title: "Information Campaign to Explain Changes to System"
   description:
     - "This would launch an educational information campaign to explain major changes in the health system."
-  priority: 3
+  priority: 0
   type: demand_side_behavior_and_knowledge
 
 
