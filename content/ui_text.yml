@@ -8,9 +8,10 @@
 copy_plan_screen_instructions_tactics: "instructions in plan screen under tactics column"
 copy_plan_screen_name_prompt: "prompt to enter plan name on submit"
 
-copy_unlock_notifications_dialog: "unlock notification"
-copy_unlock_notifications_tactic: "unlock notification"
-copy_unlock_notifications_route: "unlock notification"
+copy_unlock_notifications_dialog: "New dialog unlocked!"
+copy_unlock_notifications_tactic: "New tactic unlocked!"
+copy_unlock_notifications_route: "New route unlocked!"
+copy_unlock_notifications_indicators: "Indicators updated!"
 
-copy_city_already_visited: "you’ve already visited this city but you can pass through it"
-copy_city_extra_day: "you’ve already visited this city but you can pass through it or spend an extra day talking to the rest of the people"
+copy_city_already_visited: "You've already visited this city but you can pass through it"
+copy_city_extra_day: "You've already visited this city but you can pass through it or spend an extra day talking to the rest of the people"
