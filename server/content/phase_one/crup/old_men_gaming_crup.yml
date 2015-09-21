@@ -16,23 +16,23 @@ character: old_men_gaming_crup
 # - This: "this" dialogue tree
 #   unlocks: [route_to_kibari] <-- this is a symbol stored in "unlockables.yml", so its display text can be easily tweaked globally.
 dialogue:
-    Initial:
-      text: 
-        - "You stand a little closer and are able to hear their conversation. \"Damn arthritis,\" one says, grabbing at a tile. The other replies, \"You should visit Kibari and see Mr. Todd. Best medicine man in Zariba!\" You realize they haven't noticed your presence. Do you [[Keep listening]] or interrupt to [[ask about kibari]] or [[ask about Zima]]."
-        - "\"Excellent move,\" one says. \"I have you on the run, now,\" replies the second. \"Ouch... damn arthritis.\" \"You need to see Mr. Todd.\""
-    keep listening:
-      text:
-        - "You continue to listen in to their converation. \"Mr. Todd, Mr. Todd. You always talk about him,\" the first man says, placing his piece on the board. \"I might try it. The doctor at the clinic gave me some ointment and it did nothing. I went back two or three times and told him about the pain, but he kept giving me the same ointment. I asked for a referral to a hospital, but he refused.\""
-      unlocks: [unlockable_incentivise_providers_to_follow_protocols]
-      unlocks_context: ["It sounds like the wrong medicine was prescribed in Crup. Doctors must follow protocol."]
-    ask about kibari:
-      text:
-        - "You interrupt their conversation to ask about Kibari. \"People walk there. Mr. Todd's customers are very loyal. But if you do not wish to walk, a bus goes to Kibari twice a day...\" the first man says. \"It's your move,\" the other grumbles, growing impatient."
-      unlocks: [unlockable_route_crup_to_kibari]
-      unlocks_context: ["You discovered a new route to Kibari."]
-   ask about Zima:
-      text:
-        - "\"My favorite part of the lower region is the wonderful ride from here to Zima,\" the first man says. \"You will want to jump on the commuter bus and hitch a ride down the highland highway. Say hi to Dr. Notega for me!\" "
-      unlocks: [unlockable_route_crup_to_zima]
-      unlocks_context: ["You discovered a new route to Zima."]
+  Initial:
+    text: 
+      - "You stand a little closer and are able to hear their conversation. \"Damn arthritis,\" one says, grabbing at a tile. The other replies, \"You should visit Kibari and see Mr. Todd. Best medicine man in Zariba!\" You realize they haven't noticed your presence. Do you [[Keep listening]] or interrupt to [[ask about kibari]] or [[ask about Zima]]."
+      - "\"Excellent move,\" one says. \"I have you on the run, now,\" replies the second. \"Ouch... damn arthritis.\" \"You need to see Mr. Todd.\""
+  Keep Listening:
+    text:
+      - "You continue to listen in to their converation. \"Mr. Todd, Mr. Todd. You always talk about him,\" the first man says, placing his piece on the board. \"I might try it. The doctor at the clinic gave me some ointment and it did nothing. I went back two or three times and told him about the pain, but he kept giving me the same ointment. I asked for a referral to a hospital, but he refused.\""
+    unlocks: [unlockable_incentivise_providers_to_follow_protocols]
+    unlocks_context: ["It sounds like the wrong medicine was prescribed in Crup. Doctors must follow protocol."]
+  Ask About Kibari:
+    text:
+      - "You interrupt their conversation to ask about Kibari. \"People walk there. Mr. Todd's customers are very loyal. But if you do not wish to walk, a bus goes to Kibari twice a day...\" the first man says. \"It's your move,\" the other grumbles, growing impatient."
+    unlocks: [unlockable_route_crup_to_kibari]
+    unlocks_context: ["You discovered a new route to Kibari."]
+  Ask About Zima:
+    text:
+      - "\"My favorite part of the lower region is the wonderful ride from here to Zima,\" the first man says. \"You will want to jump on the commuter bus and hitch a ride down the highland highway. Say hi to Dr. Notega for me!\""
+    unlocks: [unlockable_route_crup_to_zima]
+    unlocks_context: ["You discovered a new route to Zima."]
 
