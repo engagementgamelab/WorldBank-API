@@ -31,8 +31,8 @@ dialogue:
     unlocks: [unlockable_route_crup_to_kibari]
     unlocks_context: ["You discovered a new route to Kibari."]
   Ask About Zima:
-      text:
-        - "\"My favorite part of the lower region is the wonderful ride from here to Zima,\" the first man says. \"You will want to jump on the commuter bus and hitch a ride down the highland highway. Say hi to Dr. Notega for me!\""
-      unlocks: [unlockable_route_crup_to_zima]
-      unlocks_context: ["You discovered a new route to Zima."]
+    text:
+      - "\"My favorite part of the lower region is the wonderful ride from here to Zima,\" the first man says. \"You will want to jump on the commuter bus and hitch a ride down the highland highway. Say hi to Dr. Notega for me!\""
+    unlocks: [unlockable_route_crup_to_zima]
+    unlocks_context: ["You discovered a new route to Zima."]
 
