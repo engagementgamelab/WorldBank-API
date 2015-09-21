@@ -1,0 +1,16 @@
+#===============
+# World Bank RBF
+# Engagement Lab, 2015
+# -------------
+# Miscellaneous UI Game Copy Definitions
+# ==============
+
+copy_plan_screen_instructions_tactics: "instructions in plan screen under tactics column"
+copy_plan_screen_name_prompt: "prompt to enter plan name on submit"
+
+copy_unlock_notifications_dialog: "unlock notification"
+copy_unlock_notifications_tactic: "unlock notification"
+copy_unlock_notifications_route: "unlock notification"
+
+copy_city_already_visited: "you’ve already visited this city but you can pass through it"
+copy_city_extra_day: "you’ve already visited this city but you can pass through it or spend an extra day talking to the rest of the people"
