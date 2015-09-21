@@ -11,8 +11,19 @@ copy_plan_screen_name_prompt: "Give your program proposal a name."
 copy_unlock_notifications_dialog: "Investigation Topic Discovered"
 copy_unlock_notifications_tactic: "Program Option Update"
 copy_unlock_notifications_route: "New Route Found"
+copy_unlock_notifications_indicators: "Indicators updated"
 
-copy_city_visit: "do you wanna visit this city??"
-copy_city_pass_through: "You've already visited this city, but you can pass through it by clicking continue."
-copy_city_reenter: "do you wanna spend an extra freakin day in this dang town?"
-copy_city_pass_through_reenter: "you’ve already visited this city but you can pass through it or spend an extra day talking to the rest of the people"
+copy_out_of_interactions: "You've spoken to as many people as you can, and it is now time to move on. Take a look at the map to choose your next destination."
+copy_out_of_days: "You traveled around Zariba and met many interesting people, but you are now out of days. Time to submit your final program proposal!"
+
+# Adjacent city, never visited
+copy_city_visit: "Click Visit to travel here and enter the city."
+
+# Adjacent city, visited, extra day spent
+copy_city_pass_through: "You've already visited this city, but you can pass through it by clicking Continue."
+
+# Current city, extra day unspent
+copy_city_extra_day: "You've already been here, but you can re-enter the city to talk to people you may have missed. Click Re-enter below to spend an extra day."
+
+# Adjacent city, visited, extra day unspent
+copy_city_pass_through_extra_day: "Do you want to go this way? From here, you could re-enter the city, or just continue on to your next destination."
