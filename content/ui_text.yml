@@ -13,8 +13,8 @@ copy_unlock_notifications_tactic: "Program Option Update"
 copy_unlock_notifications_route: "New Route Found"
 copy_unlock_notifications_indicators: "Indicators updated"
 
-copy_out_of_interactions: "time to leave this city"
-copy_out_of_days: "time to make a plan"
+copy_out_of_interactions: "You've spoken to as many people as you can, and it is now time to move on. Take a look at the map to choose your next destination."
+copy_out_of_days: "You traveled around Zariba and met many interesting people, but you are now out of days. Time to submit your final program proposal!"
 
 # Adjacent city, never visited
 copy_city_visit: "Click Visit to travel here and enter the city."
