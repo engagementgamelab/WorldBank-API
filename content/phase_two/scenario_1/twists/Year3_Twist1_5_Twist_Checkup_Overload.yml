@@ -16,11 +16,11 @@ twist: 1
 initiating_npc: dep_minister_of_health # <--- character's symbol
 initiating_dialogue: "We have been looking at the numbers, and vaccination delivery has risen much faster than projected. We can't explain it."
 
-starting_options: [maintain_current_rates_2]
-starting_options_affects: [maintain_current_rates_2]
+starting_options: [decrease_incentives_2]
+starting_options_affects: [decrease_incentives_2]
 starting_options_cost: [small]
 
-final_options: [warn_providers_to_follow_protocols_2, decrease_incentives_2, maintain_current_rates_2]
+final_options: [warn_providers_to_follow_protocols_2, maintain_current_rates_2, decrease_incentives_2]
 final_options_affects: [warn_providers_to_follow_protocols_2, decrease_incentives_2, maintain_current_rates_2]
 final_options_cost: [small, small, small]
 
@@ -28,16 +28,12 @@ characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   director_regional_health_services:
-    dialogue: "For some reason people in this region have been taking advantage of this service much more than others. Perhaps providers are pushing the services too strongly."
-    unlocks: [decrease_incentives_2]
-    unlocks_affects: [decrease_incentives_2]
+    dialogue: "For some reason people have been taking advantage of this service more than other services. It would be good to investigate this further, perhaps providers are pushing the services too strongly."  
 
   coach:
-    dialogue: "The simplest solution is to just decrease the incentives for checkups. We could use that money elsewhere, to hire more staff, for example."
-    unlocks: [decrease_incentives_2]
-    unlocks_affects: [decrease_incentives_2]
+    dialogue: "We can reduce the fee for this, but we need to think carefully about what other effects that will have on the program."
     feedback:
-      decrease_incentives_2: "Makes sense to me. We can use that money to improve other services."
+      decrease_incentives_2: "I'll research the best way to do this without having any undesired effects."
 
   third_party_verifier: 
     dialogue: "They all seem to be legitimate, so I don't suspect fraud. Would you like me to go over the paperwork again?"
@@ -47,14 +43,16 @@ characters:
     unlocks: [warn_providers_to_follow_protocols_2]
     unlocks_affects: [warn_providers_to_follow_protocols_2]
 
-  clinic_manager:
-    feedback:
-      maintain_current_rates_2: "Smooth sailing ahead. Nice talking to you!"
-
   hospital_administrator:
-    dialogue: "Really? I haven't noticed anything like that at my hospital. Anyway, I thought vaccinating people was a good thing."
+    dialogue: "Really? We haven't yet achieved the WHO standard of less than 10 to 15 percent of cesarean sections, so I don't think you should be worried. I am keeping a close eye on this. I am glad to see more cesarean sections because I have been referring a lot of complicated deliveries."
+    unlocks: [maintain_current_rates_2]
+    unlocks_affects: [maintain_current_rates_2]
     feedback:
       warn_providers_to_follow_protocols_2: "I'll have my staff re-assess these practices."
 
   health_provider_3:
-    dialogue: "What's wrong with people getting vaccinated? It's better than the alternative."
+    dialogue: "What's wrong with people getting outpatient services? It's better than the alternative."
+    unlocks: [maintain_current_rates_2]
+    unlocks_affects: [maintain_current_rates_2]
+    feedback:
+      maintain_current_rates_2: "I'm glad to refer complicated cases to the hospital."

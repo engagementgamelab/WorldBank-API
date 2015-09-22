@@ -421,19 +421,19 @@ require_nurses_to_return_to_file_1:
 # Checkup Overload - S1_T1_Y3_P5
 # ------------------
 warn_providers_to_follow_protocols_2:
-  indicator_1: -1
-  indicator_2: -1
-  indicator_3: +3
+  indicator_1: +1
+  indicator_2: +3
+  indicator_3: +5
 
 decrease_incentives_2:
-  indicator_1: -2
-  indicator_2: -1
-  indicator_3: 0
+  indicator_1: 0
+  indicator_2: -3
+  indicator_3: -1
 
 maintain_current_rates_2:
-  indicator_1: +2
-  indicator_2: -1
-  indicator_3: +2
+  indicator_1: +1
+  indicator_2: +5
+  indicator_3: +7
 # ------------------- TWIST TWO --------------------- #
 # ------------------
 # Wrong Numbers - S1_T2_Y3_P1
