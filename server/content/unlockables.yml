@@ -508,9 +508,6 @@
 # ------------------
 # Field Records - S1_T1_Y3_P4
 # ------------------
-- symbol: increase_funding_for_verifiers_1
-  title: "Increase Funding for Community Verifiers"
-
 - symbol: centralize_control_over_travelling_nurses_1
   title: "Centralize Control Over Outreach Nurses"
 
@@ -519,6 +516,9 @@
 
 - symbol: require_nurses_to_return_to_file_1
   title: "Require Outreach Nurses to Return to Outreach Center to File"
+
+- symbol: data_capacity_building_1
+  title: "Build Capacity using Performance Data for Outreach"
 # ------------------
 # Checkup Overload - S1_T1_Y3_P5
 # ------------------
