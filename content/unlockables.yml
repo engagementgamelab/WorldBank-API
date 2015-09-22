@@ -309,6 +309,10 @@
 
 - symbol: audit_2
   title: "Conduct an Audit"
+
+- symbol: revise_business_plan_11
+  title: "Revise business plan"
+
 # ------------------
 # Lack of Transparency - S1_Y2_P2
 # ------------------
@@ -1076,17 +1080,14 @@
 #------------------
 # New Budget S4_Y3_1
 #------------------
-- symbol: move_authority_to_ministry_4
-  title: "Move Authority to the Ministry"
+- symbol: comply_with_ngo_budget_3
+  title: "Comply with NGO"
 
-- symbol: terminate_ngo_contract_9
-  title: "Terminate NGO Contract"
+- symbol: rework_business_plan_2
+  title: "Rework Business Plan"
 
-- symbol: loosen_drug_control_2
-  title: "Loosen Government Control of Drugs"
-
-- symbol: clarification_of_roles_12
-  title: "Clarification of Roles"
+- symbol: grant_autonomy_to_providers_6
+  title: "Grant Autonomy to Providers"
 #------------------
 # Process V Results Again S4_Y3_2
 #------------------
