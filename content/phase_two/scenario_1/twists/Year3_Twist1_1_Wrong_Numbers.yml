@@ -15,7 +15,7 @@ twist: 1
 
 
 initiating_npc: third_party_verifier # <--- character's symbol
-initiating_dialogue: "I have been reviewing the Hospital Administrator's records, and they do not check out. There is either fraud or accidental misreporting here."
+initiating_dialogue: "I have been reviewing the Clinic's records, and they do not check out. These problems with their numbers have been going on for two years now."
 
 starting_options: [warning_7, sanctions_5]
 starting_options_affects: [warning_7, sanctions_5]
@@ -29,19 +29,22 @@ characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
-    dialogue: "Sorry, I'm kind of up to my elbows in work here, I don't know if I have much advice to contribute to this situation."
+    dialogue: "If needed, we could end the contract, let us do some serious investigation if this is necessary."
 
   director_regional_health_services:
-    dialogue: "I've had some communication with Provider 2 in the past, but I believe he is honest. You should talk to him directly to see what the problem is."
-    narrows: [dep_minister_of_health, director_regional_health_services, third_party_verifier, community_verifier, clinic_manager]
+    dialogue: "I've had some communication with Mr. Todd in the past, but I believe he is honest. You should talk to him directly to see what the problem is."
+    narrows: [health_provider_3, coach]
 
   coach:
-    dialogue: "This is the first time we've seen this behavior from Provider 2. I'd recommend a warning."
+    dialogue: "This is the first time we've seen this behavior from Mr. Todd. I'd recommend a warning."
 
   community_verifier:
     dialogue: "I can confirm the numbers do not match up. Very suspicious."
 
   hospital_administrator:
+    dialogue: "I don't think the clinic should get preferential treatment over my hospital. Treat them just as you would treat us."
+
+  health_provider_3:
     dialogue: "I think my staff is confused about what to report. Frankly, I myself have been confused at times!"
     unlocks: [hold_meeting_to_retrain_on_reporting_practices_2]
     unlocks_affects: [hold_meeting_to_retrain_on_reporting_practices_2]

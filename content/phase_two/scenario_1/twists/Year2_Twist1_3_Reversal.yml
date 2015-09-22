@@ -9,19 +9,19 @@
 
 symbol: twist_reversal
 name: "Reversal"
-priority: 2
+priority: 3
 year: 2
 twist: 1
 
 initiating_npc: health_provider_3 # <--- character's symbol
-initiating_dialogue: "Hello! Again, I must say I am very pleased to be working with you. My customers though, are less happy. They are reluctant to go to your hospitals even though I refer them. Couldn't you train someone here to do the work of your nurses?"
+initiating_dialogue: "Hello! Again, I must say I am very pleased to be working with you. My customers though, are less happy. They are reluctant to go to your hospitals even though I refer them. Couldn't you train someone here to do the work?"
 
 starting_options: [train_locals_1, stick_to_the_plan_1]
 starting_options_affects: [train_locals_1, stick_to_the_plan_1]
 starting_options_cost: [small, small]
 
-final_options: [train_locals_1, stick_to_the_plan_1, embed_nurses_1, expand_travelling_nurses_1]
-final_options_affects: [train_locals_1, stick_to_the_plan_1, embed_nurses_1, expand_travelling_nurses_1]
+final_options: [train_locals_1, stick_to_the_plan_1, embed_nurses_1, expand_outreach_program_1]
+final_options_affects: [train_locals_1, stick_to_the_plan_1, embed_nurses_1, expand_outreach_program_1]
 final_options_cost: [small, small, small, small]
 
 characters:
@@ -37,10 +37,10 @@ characters:
 
   coach:
     dialogue: "If they won't come to facilities, having trained people near them is better than nothing. Why not expand our outreach program instead, though?"
-    unlocks: [expand_travelling_nurses_1]
-    unlocks_affects: [expand_travelling_nurses_1]
+    unlocks: [expand_outreach_program_1]
+    unlocks_affects: [expand_outreach_program_1]
     feedback:
-      embed_nurses_1: "An interesting idea. I'll help facilitate this as best I can, but we'll have to keep an eye on things."
+      embed_nurses_1: "An interesting idea. I'll help facilitate this as best I can, It would be much easier to increase outreach staff, though."
 
   third_party_verifier:
     dialogue: "Wow, uh, I'm not really sure what I would do in your shoes. That might be in somebody else's job description, though."
@@ -51,7 +51,7 @@ characters:
   hospital_administrator:
     dialogue: "Sorry, I'm kind of up to my elbows in work here. I don't know if I have much advice to contribute to this situation."
     feedback:
-      expand_travelling_nurses_1: "It will take some time to do this, and there is a shortage of qualified people, but it may be the best of our options."
+      expand_outreach_program_1: "It will take some time to do this, and there is a shortage of qualified people, but I will do my best."
 
   health_provider_3:
     feedback:
