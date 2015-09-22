@@ -1011,29 +1011,29 @@ deny_review_2:
 #------------------
 
 warning_16:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: +1
+  indicator_1: +2
+  indicator_2: +1
+  indicator_3: +3
 
 sanctions_15:
   indicator_1: 0
-  indicator_2: 0
-  indicator_3: +1
+  indicator_2: -2
+  indicator_3: -3
 
 terminate_contract_at_end_of_year_8:
-  indicator_1: -2
-  indicator_2: -4
-  indicator_3: 0
+  indicator_1: +1
+  indicator_2: -2
+  indicator_3: -3
 
 tie_incentives_directly_to_protocol:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: +4
+  indicator_1: +3
+  indicator_2: +4
+  indicator_3: +7
 
 reduce_incentives_for_customer_service:
   indicator_1: -1
-  indicator_2: 0
-  indicator_3: +2
+  indicator_2: -3
+  indicator_3: -4
 
 #------------------
 # Missing Goals - S3_Y3_4
