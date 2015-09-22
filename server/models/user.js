@@ -22,17 +22,24 @@ var mongoose = require('mongoose');
 
 // create a schema
 var userSchema = new mongoose.Schema({
+
   username: { type: String, required: true },
+  name: { type: String, required: true },
   email: { type: String, required: true, unique: true, index: true },
-  password: { type: String, required: true },
-  password_salt: { type: String, required: true, index: true },
-  location: { type: String, required: true },
-  created_at: { type: Date, required: true },
-  last_accessed: { type: Date, required: true },
-  tutorial_done: {type: Boolean, required: true, default: false },
+  
+  password: { type: String, required: false },
+  password_salt: { type: String, required: false, index: true },
+  
+  location: { type: String, required: false },
+  tutorial_1: {type: Boolean, required: true, default: false },
+  tutorial_2: {type: Boolean, required: true, default: false },
   submitted_plan: {type: Boolean, required: true, default: false },
   plan_id: { type: String, required: false },
-  current_scenario: { type: String, required: false }
+  current_scenario: { type: String, required: false },
+
+  created_at: { type: Date, required: true },
+  last_accessed: { type: Date, required: true }
+
 });
 
 userSchema.pre('validate', function(next) {

@@ -46,7 +46,8 @@ exports.create = {
     toDocument: true,
 
     inputs: {
-      required: ["username", "password", "email", "location"]
+      // "password"
+      required: ["first_name", "last_name", "email"]
     },
 
     /* GET game data. */
@@ -60,7 +61,8 @@ exports.create = {
         if(userCount === 0) {
 
           // Find count of users with this username (error if not zero)
-          api.mongo.user.count({ 'username': dataInput.username }, function(err, usernameCount) {
+          /*          
+            api.mongo.user.count({ 'username': dataInput.username }, function(err, usernameCount) {
 
             if(usernameCount === 0) {
 
@@ -78,6 +80,13 @@ exports.create = {
                 dataInput.created_at = new Date();
                 dataInput.password = passwordHash;
                 dataInput.password_salt = passwordSalt;
+                */
+
+                // Concat name
+                dataInput.name = dataInput.first_name + " " + dataInput.last_name;
+
+                delete dataInput.first_name;
+                delete dataInput.last_name;
 
                 // create a new user
                 var newUser = new api.mongo.user(
@@ -101,16 +110,16 @@ exports.create = {
                 
                 });
               
-              }
+              // }
 
-            }
+          /*}
             else
             {
               data.response.error = "A user with the specified username already exists.";
               next();
             }
 
-          });
+          });*/
 
         }
         else
@@ -145,7 +154,8 @@ exports.save =
     requiresUserLogin: true,
 
     inputs:  {
-      required: ["user_id", "plan"]
+      required: ["user_id"],
+      optional: ["plan", "save_plan", "save_tutorial"]
     },
 
     /* GET game data. */
@@ -154,122 +164,157 @@ exports.save =
       var dataInput = data.connection.rawConnection.params.body;
       var planInput = dataInput.plan;
 
-      var unlockablesConfig = api.readYaml("unlockables.yml");
-      var gradingConfig = api.readYaml("grading.yml");
-      var planKeysConfig = api.gameConfig.content.plan.scoring_keys;
+      // Saving plan?
+      if(dataInput.save_plan !== undefined) {
 
-      var gradeInfo = null;
+        var unlockablesConfig = api.readYaml("unlockables.yml");
+        var gradingConfig = api.readYaml("grading.yml");
+        var planKeysConfig = api.gameConfig.content.plan.scoring_keys;
 
-      if(planInput.tactics.length !== 6) {
-        data.response.error = "Incorrect number of tactics received.";
-        next();
-        return;
-      }
+        var gradeInfo = null;
 
-      // Score the plan
-      var planGrade = function(inputTactics) {
-
-        var planScore = 14;
-        var optionIndex = 0;
-
-        _.each(inputTactics, function (tactic_symbol) {
-
-          // Get the priority of this tactic
-          var tacticPriority = unlockablesConfig.filter(function(unlockable) {
-              return unlockable.symbol == tactic_symbol;
-          })[0].priority;
-
-          // Get the grading info for the plan score
-          gradeInfo = gradingConfig.filter(function(grade) {
-
-              // Scores in grading YML defined as range "x-x"
-              var scoreRange = grade.score.split('-');
-              var scoreAboveMin = planScore >= scoreRange[0];
-              var scoreUnderMax = planScore <= scoreRange[1];
-
-              // Score is within range of grading block?
-              return scoreAboveMin || scoreUnderMax;
-
-          })[0];
-
-          // Grade info not found for the score determined
-          if(gradeInfo === undefined){
-            data.response.error = "No grading info found for plan score: " + planScore + ". Something may be amiss in grading.yml";
-            next();
-            return;
-          }
-
-          // If no priority, default to 0
-          if(tacticPriority === undefined)
-            tacticPriority = 0;
-
-          // Calculate reduction for total score
-          var scoreReduction = Math.abs(tacticPriority - planKeysConfig[optionIndex]);
-
-          planScore -= scoreReduction;
-
-          optionIndex++;
-
-        });
-
-        // Output the score and plan info
-        return { score: planScore, grade_info: gradeInfo  };
-      }
-
-      // Calculate the plan's score ("grade")
-      var finalPlanGrade = planGrade(planInput.tactics);
-      planInput.score = finalPlanGrade.score;
-      planInput.default_affects = finalPlanGrade.grade_info.default_affects;
-      planInput.affects_bias = finalPlanGrade.grade_info.affects_bias;
-
-      planInput.created_at = new Date();
-
-      // Create a plan object to update inside user
-      var planModel = new api.mongo.plan( 
-        planInput
-      );
-
-      // Find specified user
-      api.mongo.user.findOne(dataInput.user_id, function (err, user) {
-
-        if(user == null) {
-          data.response.error = "User not found";
+        if(planInput.tactics.length !== 6) {
+          data.response.error = "Incorrect number of tactics received.";
           next();
+          return;
         }
 
-        // Save the plan
-        planModel.save(function(err) {
+        // Score the plan
+        var planGrade = function(inputTactics) {
 
-          if (err) {
-            data.response.error = err;
+          var planScore = 14;
+          var optionIndex = 0;
+
+          _.each(inputTactics, function (tactic_symbol) {
+
+            // Get the priority of this tactic
+            var tacticPriority = unlockablesConfig.filter(function(unlockable) {
+                return unlockable.symbol == tactic_symbol;
+            })[0].priority;
+
+            // Get the grading info for the plan score
+            gradeInfo = gradingConfig.filter(function(grade) {
+
+                // Scores in grading YML defined as range "x-x"
+                var scoreRange = grade.score.split('-');
+                var scoreAboveMin = planScore >= scoreRange[0];
+                var scoreUnderMax = planScore <= scoreRange[1];
+
+                // Score is within range of grading block?
+                return scoreAboveMin || scoreUnderMax;
+
+            })[0];
+
+            // Grade info not found for the score determined
+            if(gradeInfo === undefined){
+              data.response.error = "No grading info found for plan score: " + planScore + ". Something may be amiss in grading.yml";
+              next();
+              return;
+            }
+
+            // If no priority, default to 0
+            if(tacticPriority === undefined)
+              tacticPriority = 0;
+
+            // Calculate reduction for total score
+            var scoreReduction = Math.abs(tacticPriority - planKeysConfig[optionIndex]);
+
+            planScore -= scoreReduction;
+
+            optionIndex++;
+
+          });
+
+          // Output the score and plan info
+          return { score: planScore, grade_info: gradeInfo  };
+        }
+
+        // Calculate the plan's score ("grade")
+        var finalPlanGrade = planGrade(planInput.tactics);
+        planInput.score = finalPlanGrade.score;
+        planInput.default_affects = finalPlanGrade.grade_info.default_affects;
+        planInput.affects_bias = finalPlanGrade.grade_info.affects_bias;
+
+        planInput.created_at = new Date();
+
+        // Create a plan object to update inside user
+        var planModel = new api.mongo.plan( 
+          planInput
+        );
+
+        // Find specified user
+        api.mongo.user.findOne(dataInput.user_id, function (err, user) {
+
+          if(user == null) {
+            data.response.error = "User not found";
             next();
-            return;
           }
 
-          // Associate this plan w/ the uer
-          user.plan_id = planModel._id;
+          // Save the plan
+          planModel.save(function(err) {
 
-          user.save(function (err, updatedUser) {
-            
             if (err) {
               data.response.error = err;
               next();
               return;
             }
 
+            // Associate this plan w/ the user and mark user as having submitted plan
+            user.plan_id = planModel._id;
+            user.submitted_plan = true;
+
+            user.save(function (err, updatedUser) {
+              
+              if (err) {
+                data.response.error = err;
+                next();
+                return;
+              }
+
+            });
+
+            // Output grading info
+            data.response.score = finalPlanGrade.score;
+            data.response.grade = finalPlanGrade.grade_info.grade;
+            data.response.description = finalPlanGrade.grade_info.description;
+                
+            next();
+
           });
 
-          // Output grading info
-          data.response.score = finalPlanGrade.score;
-          data.response.grade = finalPlanGrade.grade_info.grade;
-          data.response.description = finalPlanGrade.grade_info.description;
-              
+        });
+
+      }
+
+      // Updating tutorial status?
+      else if(dataInput.save_tutorial !== undefined) {
+           
+        api.mongo.user.findById(dataInput.user_id, function (err, user) {
+      
+          if(user == null) {
+            data.response.error = "User not found";
+            next();
+          }
+
+          // Save which tutorial status (phase 1/2)
+          if(dataInput.tutorial_1)
+            user.tutorial_1 = true;
+
+          else if(dataInput.tutorial_2)
+            user.tutorial_2 = true;
+
+          user.save(function (err, updatedUser) {
+            
+            if (err) data.response.error = err;
+
+          });
+                
           next();
 
         });
 
-      });
-
+      }
+    
     }
 
 };
@@ -360,7 +405,7 @@ exports.auth =
   description: "auth",
   
   inputs: {
-    "required" : ["email", "password"],
+    "required" : ["email"],
     "optional" : []
   },
   
@@ -389,8 +434,8 @@ exports.auth =
       }
       // User was found
       else {
-        // Check password
-        var passwordHash = getPasswordHash(dataInput.password, user.password_salt);
+        // Check password (not used right now)
+        /* var passwordHash = getPasswordHash(dataInput.password, user.password_salt);
 
         if(passwordHash !== user.password) {
 
@@ -399,6 +444,7 @@ exports.auth =
 
         } 
         else {
+        */
 
           api.session.generateAuth(data.connection, function() {
 
@@ -425,7 +471,7 @@ exports.auth =
 
           });
 
-        }
+        //}
       }
     
     });
