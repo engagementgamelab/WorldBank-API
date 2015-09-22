@@ -7,20 +7,20 @@
 
 # Phase Two Scenario Card YML Example
 
-symbol: dodging_responsibility
+symbol: avoiding_responsibility 
 name: "Avoiding Responsibility"
 priority: 4
 year: 1
 
 initiating_npc: coach # <--- character's symbol
-initiating_dialogue: "I requested a meeting with the Clinic Manager recently to go over practices for making information on their performance publicly available. They keep rescheduling and canceling, but the performance score makes it clear that they are not performing on this."
+initiating_dialogue: "I requested a meeting with the Clinic Manager recently to go over practices for making information on their performance publicly available. They keep rescheduling and canceling, but the performance score makes it clear that they are not performing on this and losing out."
 
-starting_options: [warning_1]
-starting_options_affects: [warning_1]
+starting_options: [take_no_further_action_1]
+starting_options_affects: [take_no_further_action_1]
 starting_options_cost: [small]
 
-final_options: [warning_1, revise_business_plan_to_include_regular_meetings_1, continue_with_plan_2]
-final_options_affects: [warning_1, revise_business_plan_to_include_transparency_1, continue_with_plan_2]
+final_options: [take_no_further_action_1, revise_business_plan_to_include_transparency_1]
+final_options_affects: [take_no_further_action_1, revise_business_plan_to_include_transparency_1]
 final_options_cost: [small, large, large]
 
 
@@ -29,9 +29,6 @@ characters:
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
     dialogue: "I don't think this is a big issue, and we have other more urgent things to worry about."
-    unlocks: [continue_with_plan_2]
-    unlocks_affects: [continue_with_plan_2]
-
 
   director_regional_health_services:
     dialogue: "I have experienced similar problems with this provider. It is hard to schedule their time. Transparency to the community is a key priority to ensure in their next business plan."
@@ -40,7 +37,7 @@ characters:
 
   coach:
     feedback: 
-      continue_with_plan_2: "Quality is a very important area, this is a missed opportunity. They are losing out on many more resources linked to that indicator."
+      take_no_further_action_1: "I'm sure I'll have some time next quarter once our busiest time dies down."
 
   third_party_verifier:
     dialogue: "Community transparency does not seem to be high on their agenda, so, yes, they are performing low on their quality score." 
@@ -51,9 +48,8 @@ characters:
   clinic_manager:
     dialogue: "I think you underestimate just how busy we have been with outreach and patient care. We are not a large staff, and our time is very precious. Maybe next quarter things will be slower and we can focus on this."
     feedback: 
-      warning_1: "I'm sure I'll have some time next quarter once our busiest time dies down."
       revise_business_plan_to_include_transparency_1: "Hopefully things will be less busy so we can focus on that. If it can bring in more resources, then it's worth exploring."
 
   hospital_administrator:
-    dialogue: "I've observed the clinics we're talking about a number of times, and there's never enough time and money to go around."
+    dialogue: "I've observed the clinics we're talking about a number of times, and there's never enough time and money to go around. They are just not interested. "
 

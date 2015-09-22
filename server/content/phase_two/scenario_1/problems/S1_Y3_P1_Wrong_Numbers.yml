@@ -32,7 +32,7 @@ characters:
 
   director_regional_health_services:
     dialogue: "I've had some communication issues with the Clinic Manager in the past, but I believe he is honest. You should talk to him directly to see what the problem is."
-    narrows: [dep_minister_of_health, director_regional_health_services, third_party_verifier, community_verifier, clinic_manager]
+    narrows: [clinic_manager, coach]
 
   coach:
     dialogue: "This has been going on for several years now. I'd recommend to sanction."

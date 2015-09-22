@@ -9,18 +9,18 @@
 
 symbol: more_transparency
 name: "More Transparency"
-priority: 4
-year: 2
+priority: 2
+year: 3
 
 initiating_npc: coach # <--- character's symbol
-initiating_dialogue: "I was visiting one of the clinics in the network for my mentoring visit, and I was unhappy with their transparency. They do not display their performance indicators, or even contact details for the public in an emergency. The community representatives are also complaining that the clinics haven't held a single meeting with the Health Facility Management Committee."
+initiating_dialogue: "I was visiting one of the clinics for my mentoring visit and I was unhappy with their transparency. They do not display their performance indicators, or even contact details for the public in an emergency. The community representatives are also complaining that the clinics haven't held a single meeting with the Health Facility Management Committee."
 
-starting_options: [warning_4, terminate_contract_at_end_of_year_3]
-starting_options_affects: [warning_4, terminate_contract_at_end_of_year_3]
+starting_options: [warning_4]
+starting_options_affects: [warning_4]
 starting_options_cost: [small, medium]
 
-final_options: [warning_4, terminate_contract_at_end_of_year_3, audit, capacity_building]
-final_options_affects: [warning_4, terminate_contract_at_end_of_year_3, audit, capacity_building]
+final_options: [warning_4, terminate_contract_at_end_of_year_3, capacity_building]
+final_options_affects: [warning_4, terminate_contract_at_end_of_year_3, capacity_building]
 final_options_cost: [small, medium, medium, medium]
 
 

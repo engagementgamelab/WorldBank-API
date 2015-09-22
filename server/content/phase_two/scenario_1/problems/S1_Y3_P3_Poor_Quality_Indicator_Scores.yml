@@ -7,7 +7,7 @@
 
 # Phase Two Scenario Card YML Example
 
-symbol: failed_inspection
+symbol: poor_quality_indicator_scores
 name: "Poor Quality Indicator Scores"
 priority: 3
 year: 3
@@ -19,8 +19,8 @@ starting_options: [review_the_inspection]
 starting_options_affects: [review_the_inspection]
 starting_options_cost: [medium]
 
-final_options: [review_the_inspection, revise_business_plan_7, deny_review]
-final_options_affects: [review_the_inspection, revise_business_plan_7, deny_review]
+final_options: [review_the_inspection, revise_business_plan_10, deny_review]
+final_options_affects: [review_the_inspection, revise_business_plan_10, deny_review]
 final_options_cost: [medium, small, small]
 
 
@@ -35,8 +35,10 @@ characters:
 
   coach:
     dialogue: "Quality of care is not something we should grant leeway on. It is crucially important, but if they are under such strain, they may require extra staff."
-    unlocks: [revise_business_plan_7]
-    unlocks_affects: [revise_business_plan_7]
+    unlocks: [revise_business_plan_10]
+    unlocks_affects: [revise_business_plan_10]
+    Feedback: 
+      review_the_inspection: "Thank you! I think you'll find our quality is sufficient."
 
   third_party_verifier:
     dialogue: "They scored poorly, plain and simple. A review is not necessary."
@@ -48,8 +50,7 @@ characters:
 
   clinic_manager:
     Feedback: 
-      review_the_inspection: "Thank you! I think you'll find our quality is sufficient."
-      revise_business_plan_7: "I would appreciate some support from the coach to figure out how we can improve things here."
+      revise_business_plan_10: "I would appreciate some support from the coach to figure out how we can improve things here."
       deny_review: "If you aren't going to take me seriously, how can I have faith in this system?"
 
   hospital_administrator:

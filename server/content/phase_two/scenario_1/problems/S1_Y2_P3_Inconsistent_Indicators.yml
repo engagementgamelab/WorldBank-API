@@ -19,8 +19,8 @@ starting_options: [hire_more_outreach_staff]
 starting_options_affects: [hire_more_outreach_staff]
 starting_options_cost: [large]
 
-final_options: [hire_more_outreach_staff, raise_incentives_for_facility_births, review_indicators_at_end_of_year]
-final_options_affects: [hire_more_outreach_staff, raise_incentives_for_facility_births, review_indicators_at_end_of_year]
+final_options: [hire_more_outreach_staff, raise_incentives_for_facility_births, review_indicators_at_end_of_year, broaden_services]
+final_options_affects: [hire_more_outreach_staff, raise_incentives_for_facility_births, review_indicators_at_end_of_year, broaden_services]
 final_options_cost: [large, large, medium]
 
 
@@ -30,8 +30,6 @@ characters:
 
   director_regional_health_services:
     dialogue: "I suggest hiring more outreach staff to operate in facilities near these settlements."
-    unlocks: [hire_more_outreach_staff]
-    unlocks_affects: [hire_more_outreach_staff]
     feedback:
       hire_more_outreach_staff: "This makes a good deal of sense to me."
 
@@ -50,6 +48,10 @@ characters:
 
   clinic_manager:
     dialogue: "I admit, we haven't seen as many facility births as we'd like. We're doing everything we can to change that."
+    unlocks: [broaden_services]
+    unlocks_affects: [broaden_services]
+    feedback:
+      broaden_services: "I am sure this will help us meet our goals and raise indicators even though it changes the plan."
 
   hospital_administrator:
     dialogue: "Vaccinations are easier to manage. Births take more planning. More resources are likely required to make this work."
@@ -57,4 +59,3 @@ characters:
     unlocks_affects: [raise_incentives_for_facility_births]
     feedback:
       raise_incentives_for_facility_births: "That will make this a good deal easier for us."
-
