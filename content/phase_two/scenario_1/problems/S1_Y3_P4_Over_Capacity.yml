@@ -19,8 +19,8 @@ starting_options: [expand_hiring_of_hospital_staff]
 starting_options_affects: [expand_hiring_of_hospital_staff]
 starting_options_cost: [medium]
 
-final_options: [expand_hiring_of_hospital_staff, expand_hiring_at_all_facilities, award_bonuses_to_hospital_staff]
-final_options_affects: [expand_hiring_of_hospital_staff, expand_hiring_at_all_facilities, award_bonuses_to_hospital_staff]
+final_options: [expand_hiring_of_hospital_staff, increase_incentives_for_all_facilities, increase_incentives_to_hospital]
+final_options_affects: [expand_hiring_of_hospital_staff, increase_incentives_for_all_facilities, increase_incentives_to_hospital]
 final_options_cost: [medium, large, medium]
 
 
@@ -28,7 +28,7 @@ characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
-    dialogue: "It's great news that they've managed to improve their performance so much!"
+    dialogue: "It's great news that they've managed to improve their performance so much."
 
   coach:
     dialogue: "I agree they are doing very well, and they may need more resources, but why don't you leave it to the provider to decide they want to hire more staff? In line with their autonomy, I mean."
@@ -43,14 +43,14 @@ characters:
 
   clinic_manager:
     dialogue: "I'd love to have more staff too. Or is this just for the hospital? Wouldn't it be better if you gave us the money and let us decide how to get the best results?"
-    unlocks: [expand_hiring_at_all_facilities]
-    unlocks_affects: [expand_hiring_at_all_facilities]
+    unlocks: [increase_incentives_for_all_facilities]
+    unlocks_affects: [increase_incentives_for_all_facilities]
     feedback:
-      expand_hiring_at_all_facilities: "Thank you, this is fantastic news, I look forward to performing even better."
+      increase_incentives_for_all_facilities: "Thank you, this is fantastic news, I look forward to performing even better."
 
   hospital_administrator:
     dialogue: "I am worried about on-boarding and managing many new people. Why don't you just give us more resources so we can decide whether to reward existing staff or to hire new people?"
-    unlocks: [award_bonuses_to_hospital_staff]
-    unlocks_affects: [award_bonuses_to_hospital_staff]
+    unlocks: [increase_incentives_to_hospital]
+    unlocks_affects: [increase_incentives_to_hospital]
     feedback:
-      award_bonuses_to_hospital_staff: "This is great, now I can really address older problems and make this a star-performing hospital."
+      increase_incentives_to_hospital: "This is great, now I can really address older problems and make this a star-performing hospital."

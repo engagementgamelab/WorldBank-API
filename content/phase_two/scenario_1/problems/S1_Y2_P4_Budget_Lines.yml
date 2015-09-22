@@ -9,8 +9,8 @@
 
 symbol: budget_lines
 name: "Budget Lines"
-priority: 2
-year: 3
+priority: 4
+year: 2
 
 initiating_npc: clinic_manager # <--- character's symbol
 initiating_dialogue: "I received a memo today about policy guidance and the new national health budget. The ministry has released new purchasing guidelines for all providers, but that limits our autonomy. This is bad news for us."
@@ -19,8 +19,8 @@ starting_options: [comply_with_ministry_request]
 starting_options_affects: [comply_with_ministry_request]
 starting_options_cost: [small]
 
-final_options: [comply_with_ministry_request, clarify_separation_of_functions_2, revise_business_plan_2]
-final_options_affects: [comply_with_ministry_request, clarify_separation_of_functions_2, revise_business_plan_2]
+final_options: [comply_with_ministry_request, clarify_separation_of_functions_2, rework_rbf_manual_and_retrain]
+final_options_affects: [comply_with_ministry_request, clarify_separation_of_functions_2, rework_rbf_manual_and_retrain]
 final_options_cost: [small, small, medium]
 
 
@@ -30,12 +30,12 @@ characters:
   dep_minister_of_health: # <--- character's symbol
     dialogue: "Our auditors have found mismanagement of funds. The providers need strict guidelines to provide the necessary services, and use the funds appropriately."
     feedback:
-      clarify_separation_of_functions: "This revision to the procurement guidelines is within the scope of regulation, which is my role. But if you think it's essential for the providers to keep autonomy, we will step back on this."
+      clarify_separation_of_functions: "This revision to the procurement guideline is within the scope of regulation, which is my role. But if you think it's essential for the providers to keep autonomy, we will step back on this."
 
   director_regional_health_services:
     dialogue: "If the Ministry is claiming this is necessary, I would take it seriously. A compromise might be to re-work the RBF Manual, and training with Ministry oversight."
-    unlocks: [revise_business_plan_2]
-    unlocks_affects: [revise_business_plan_2]
+    unlocks: [rework_rbf_manual_and_retrain]
+    unlocks_affects: [rework_rbf_manual_and_retrain]
 
   coach:
     dialogue: "I have found some mismanagement of funds in the past as well, but appropriate actions were taken. We are supposed to be granting autonomy. Also, remember that the providers are paid for the services already provided."
@@ -55,4 +55,4 @@ characters:
     unlocks: [clarify_separation_of_functions_and_responsibilities_2]
     unlocks_affects: [clarify_separation_of_functions_and_responsibilities_2]
     feedback:
-      revise_business_plan_2: "I don't believe this will be constructive, but I'm willing to try."
+      rework_rbf_manual_and_retrain: "I don't believe this will be constructive, but I'm willing to try."

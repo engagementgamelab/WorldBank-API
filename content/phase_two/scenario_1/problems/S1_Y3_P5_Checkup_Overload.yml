@@ -13,7 +13,7 @@ priority: 5
 year: 3
 
 initiating_npc: dep_minister_of_health # <--- character's symbol
-initiating_dialogue: "We have been looking at the numbers, and caesarian sections in the hospital have risen much faster than projected. We can't explain it."
+initiating_dialogue: "We have been looking at the numbers, and cesarean sections in the hospital have risen much faster than projected. We can't explain it."
 
 starting_options: [decrease_incentives]
 starting_options_affects: [decrease_incentives]
@@ -29,14 +29,10 @@ characters:
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory") # <--- character's symbol
 
   director_regional_health_services:  
-    dialogue: "For some reason people in this region have been taking advantage of this service more than others. It would be good to investigate this further. Perhaps providers are pushing the services too strongly."  
-    unlocks: [decrease_incentives]
-    unlocks_affects: [decrease_incentives]
+    dialogue: "For some reason people have been taking advantage of this service more than other services. It would be good to investigate this further, perhaps providers are pushing the services too strongly."  
 
   coach:
     dialogue: "We can reduce the fee for this, but we need to think carefully about what other effects that will have on the program."
-    unlocks: [decrease_incentives]
-    unlocks_affects: [decrease_incentives]
     feedback:
       decrease_incentives: "I'll research the best way to do this without having any undesired effects."
 
@@ -56,7 +52,7 @@ characters:
       maintain_current_rates: "I'm glad to refer complicated cases to the hospital."
 
   hospital_administrator:
-    dialogue: "Really? We haven't yet achieved the WHO standard of less than 10 to 15 percent of caesarian sections, so I don't think you should be worried. I am keeping a close eye on this. I am glad to see more caesarian sections because I have been referring a lot of complicated deliveries."
+    dialogue: "Really? We haven't yet achieved the WHO standard of less than 10 to 15 percent of cesarean sections, so I don't think you should be worried. I am keeping a close eye on this. I am glad to see more cesarean sections because I have been referring a lot of complicated deliveries."
     unlocks: [maintain_current_rates]
     unlocks_affects: [maintain_current_rates]
     feedback:

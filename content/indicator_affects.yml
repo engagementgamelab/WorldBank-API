@@ -31,47 +31,42 @@ hold_payment_1:
   indicator_3: +1
 
 help_build_capacity_1:
-  indicator_1: +1
-  indicator_2: +1
-  indicator_3: +2
+  indicator_1: +2
+  indicator_2: +2
+  indicator_3: +3
 
 sanctions_1:
-  indicator_1: 0
+  indicator_1: -1
   indicator_2: -1
-  indicator_3: +1
+  indicator_3: -7
 
 # ------------------
 # Poor Management - S1_Y1_P3
 # ------------------
 
 warning_and_retraining_1:
-  indicator_1: +1
-  indicator_2: +1
-  indicator_3: +1
+  indicator_1: +2
+  indicator_2: +2
+  indicator_3: +3
 
 terminate_contract_effective_end_of_year_1:
-  indicator_1: -4
-  indicator_2: -6
+  indicator_1: -6
+  indicator_2: -4
   indicator_3: -5
 
 # ------------------
-# Dodging Responsibility - S1_Y1_P4
+# Avoiding Responsibility - S1_Y1_P4
 # ------------------
 
-warning_1:
-  indicator_1: +1
+take_no_further_action_1:
+  indicator_1: 0
   indicator_2: 0
-  indicator_3: +1
-
-continue_with_plan_2:
-  indicator_1: -2
-  indicator_2: -4
-  indicator_3: -3
+  indicator_3: -5
 
 revise_business_plan_to_include_transparency_1:
-  indicator_1: +1
+  indicator_1: +2
   indicator_2: +1
-  indicator_3: +2
+  indicator_3: +5
 
 #-------------------------------------------------THIS IS WHERE I STARTED ADDING NUMBERS RANDOMLY FYI!!!!
 
@@ -80,24 +75,19 @@ revise_business_plan_to_include_transparency_1:
 # ------------------
 
 sanctions_17:
-  indicator_1: +1
-  indicator_2: 0
-  indicator_3: +1
-
-retraining_on_use_of_financial_tools:
-  indicator_1: +2
-  indicator_2: +1
-  indicator_3: +1 
-
-revise_business_plan_1:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: -1
+
+retraining_on_use_of_financial_tools:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: -1 
 
 audit_2:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: +1
 
 # ------------------
 # Lack of Transparency - S1_Y2_P2
@@ -105,19 +95,19 @@ audit_2:
 
 warning_3: 
   indicator_1: +1
-  indicator_2: 0
-  indicator_3: +1
+  indicator_2: +1
+  indicator_3: +2
 
 
 mild_sanctions: 
-  indicator_1: 0
-  indicator_2: -1
-  indicator_3: +1
+  indicator_1: +2
+  indicator_2: +1
+  indicator_3: +3
 
 terminate_contract:
   indicator_1: 0
-  indicator_2: -1
-  indicator_3: +1
+  indicator_2: 0
+  indicator_3: 0
 
 # ------------------
 # Inconsistent Indicators - S1_Y2_P3
@@ -125,80 +115,83 @@ terminate_contract:
 
 hire_more_outreach_staff:
   indicator_1: +1
-  indicator_2: 0
-  indicator_3: +1
+  indicator_2: +2
+  indicator_3: +2
 
 raise_incentives_for_faciliity_births:
   indicator_1: 0
-  indicator_2: -1
-  indicator_3: +1
+  indicator_2: +5
+  indicator_3: +7
 
 review_indicators_at_end_of_year:
   indicator_1: 0
-  indicator_2: -1
-  indicator_3: +1
+  indicator_2: -4
+  indicator_3: +4
 
-
-# ------------------
-# More Transparency - S1_Y2_P4
-# ------------------
-
-warning_4:
+broaden_services:
   indicator_1: 0
-  indicator_2: -1
-  indicator_3: +7
+  indicator_2: -7
+  indicator_3: -7
 
-terminate_contract_at_end_of_year_3:
+# ------------------
+# Budget Lines - S1_Y2_P4
+# ------------------
+
+comply_with_ministry_request:
+  indicator_1: -4
+  indicator_2: -4
+  indicator_3: -6
+
+clarify_separation_of_functions_and_responsibilities_2:
+  indicator_1: +3
+  indicator_2: +2
+  indicator_3: +6
+
+rework_rbf_manual_and_retrain:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: 0
-
-capacity_building:
-  indicator_1: 0
-  indicator_2: +1
-  indicator_3: 0
+  indicator_3: +1
 
 # ------------------
 # Wrong Numbers - S1_Y3_P1
 # ------------------
 
 warning_5:
-  indicator_1: -1
-  indicator_2: 0
-  indicator_3: +1
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +2
 
 sanctions_3:
-  indicator_1: +1
-  indicator_2: 0
-  indicator_3: -1
+  indicator_1: +3
+  indicator_2: 2
+  indicator_3: +5
 
 hold_meeting_to_retrain_on_reporting_practices:
-  indicator_1: +1
-  indicator_2: +1
-  indicator_3: +2
+  indicator_1: +2
+  indicator_2: +2
+  indicator_3: +4
 
 # ------------------
-# Budget Lines - S1_Y3_P2
+# More Transparency - S1_Y3_P2
 # ------------------
 
-comply_with_ministry_request:
-  indicator_1: -1
-  indicator_2: -1
-  indicator_3: -2
-
-clarify_separation_of_functions_and_responsibilities_2:
-  indicator_1: +1
-  indicator_2: +1
-  indicator_3: +2
-
-Revise_business_plan_2:
+warning_4:
   indicator_1: 0
   indicator_2: 0
   indicator_3: -1
 
+terminate_contract_at_end_of_year_3:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: -1
+
+capacity_building:
+  indicator_1: +2
+  indicator_2: +3
+  indicator_3: +7
 
 # ------------------
-# Failed Inspection - S1_Y3_P3
+# Poor Quality Indicator Scores- S1_Y3_P3
 # ------------------
 
 review_the_inspection: 
@@ -206,34 +199,33 @@ review_the_inspection:
   indicator_2: +1
   indicator_3: +2
 
-revise_business_plan_7:
-  indicator_1: +1
-  indicator_2: 0
-  indicator_3: +1
+revise_business_plan_10:
+  indicator_1: 0
+  indicator_2: +3
+  indicator_3: +5
 
 deny_review:
   indicator_1: 0
   indicator_2: 0
   indicator_3: 0
 
-
 # ------------------
 # Over Capacity - S1_Y3_P4
 # ------------------
 
 expand_hiring_of_hospital_staff:
-  indicator_1: +2
-  indicator_2: +1
-  indicator_3: -1
+  indicator_1: -1
+  indicator_2: -4
+  indicator_3: -6
 
-expand_hiring_at_all_facilities:
-  indicator_1: 0
+increase_incentives_for_all_facilities:
+  indicator_1: +2
   indicator_2: +1
   indicator_3: +4
 
-award_bonuses_to_hospital_staff:
-  indicator_1: -1
-  indicator_2: -3
+increase_incentives_to_hospital:
+  indicator_1: +1
+  indicator_2: +5
   indicator_3: +5
 
 # ------------------
@@ -241,19 +233,19 @@ award_bonuses_to_hospital_staff:
 # ------------------
 
 decrease_incentives:
-  indicator_1: -2
-  indicator_2: -1
-  indicator_3: 0
+  indicator_1: 0
+  indicator_2: -3
+  indicator_3: -1
 
 warn_providers_to_follow_protocols:
-  indicator_1: -1
-  indicator_2: -1
-  indicator_3: +3
+  indicator_1: +1
+  indicator_2: +3
+  indicator_3: +5
 
 maintain_current_rates:
-  indicator_1: +2
-  indicator_2: +1
-  indicator_3: -4
+  indicator_1: +1
+  indicator_2: +5
+  indicator_3: +7
 
 # -------------------                       ------------------- #
 # -------------------  Scenario 1 - TWISTS  ------------------- #

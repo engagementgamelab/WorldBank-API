@@ -19,8 +19,8 @@ starting_options: [sanctions_17, retraining_on_use_of_financial_tools]
 starting_options_affects: [sanctions_17, retraining_on_use_of_financial_tools]
 starting_options_cost: [medium, medium]
 
-final_options: [sanctions_17, retraining_on_use_of_financial_tools, audit_2, revise_business_plan_1]
-final_options_affects: [sanctions_17, retraining_on_use_of_financial_tools, audit_2, revise_business_plan_1]
+final_options: [sanctions_17, retraining_on_use_of_financial_tools, audit_2]
+final_options_affects: [sanctions_17, retraining_on_use_of_financial_tools, audit_2]
 final_options_cost: [medium, medium, medium, medium]
 
 
@@ -34,12 +34,9 @@ characters:
 
   director_regional_health_services:
     dialogue: "Have you considered that there is a flaw in the business plan? If the Hospital Administrator is straying from it so often, it might need to be reevaluated."
-    unlocks: [revise_business_plan_1]
-    unlocks_affects: [revise_business_plan_1]
 
   coach:
     feedback: 
-      revise_business_plan_1: "I will schedule a meeting this week with the purchasing agency and begin the revision process for next quarter."
       retraining_on_use_of_financial_tools: "I hope the Hospital Administrator will see its importance. I'll make some time this week for a retraining session and try to drill down on exactly how these tools should be used."
 
   third_party_verifier:

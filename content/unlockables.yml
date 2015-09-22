@@ -280,22 +280,18 @@
 # Poor Management - S1_Y1_P3
 # ------------------
 - symbol: warning_and_retraining_1
-  title: "Warn and retrain staff" 
+  title: "Retrain staff" 
 
 - symbol: terminate_contract_effective_end_of_year_1
   title: "Terminate contract at the end of the year"
 # ------------------
 # Dodging Responsibility - S1_Y1_P4
 # ------------------
-- symbol: warning_1
-  title: "Give a warning"
+- symbol: take_no_further_action_1
+  title: "Take no further action"
 
-- symbol: revise_business_plan_to_include_regular_meetings_1
-  title: "Revise the business plan to include regular meetings"
-
-- symbol: terminate_contract_effective_end_of_year_2
-  title: "Terminate the contract at the end of this year"
-
+- symbol: revise_business_plan_to_include_transparency_1
+  title: "Include transparency in next business plan"
 
 # -------------------                       ------------------- #
 # -------------------  Scenario 1 - Year 2  ------------------- #
@@ -310,9 +306,6 @@
 
 - symbol: retraining_on_use_of_financial_tools
   title: "Retrain on using financial tools"
-
-- symbol: revise_business_plan_1
-  title: "Revise the business plan"
 
 - symbol: audit_2
   title: "Conduct an Audit"
@@ -338,23 +331,25 @@
 
 - symbol: review_indicators_at_end_of_year
   title: "Review indicators and take action at the end of this year"
-# ------------------
-# More Transparency - S1_Y2_P4
-# ------------------
-- symbol: warning_4
-  title: "Give warning"
 
-- symbol: terminate_contract_at_end_of_year_3
-  title: "Terminate this contract at the end of the year"
+- symbol: broaden_services
+  title: "Broaden services"
+# ------------------
+# Budget Lines - S1_Y2_P4
+# ------------------
+- symbol: comply_with_ministry_request
+  title: "Comply with the Ministry's request"
 
-- symbol: capacity_building
-  title: "Build capacity"
+- symbol: clarify_separation_of_functions_and_responsibilities_2
+  title: "Clarify the separation of functions and responsibilities"
+
+- symbol: rework_rbf_manual_and_retrain
+  title: "Revise RBF Manual and retrain"
 
 
 # -------------------                       ------------------- #
 # -------------------  Scenario 1 - Year 3  ------------------- #
 # -------------------                       ------------------- #
-
 
 # ------------------
 # Wrong Numbers - S1_Y3_P1
@@ -368,24 +363,24 @@
 - symbol: hold_meeting_to_retrain_on_reporting_practices
   title: "Hold meeting to retrain staff on reporting practices"
 # ------------------
-# Budget Lines - S1_Y3_P2
+# More Transparency - S1_Y3_P2
 # ------------------
-- symbol: comply_with_ministry_request
-  title: "Comply with the Ministry's request"
+- symbol: warning_4
+  title: "Give warning"
 
-- symbol: clarify_separation_of_functions_and_responsibilities_2
-  title: "Clarify the separation of functions and responsibilities"
+- symbol: terminate_contract_at_end_of_year_3
+  title: "Terminate this contract at the end of the year"
 
-- symbol: revise_business_plan_2
-  title: "Revise RBF Manual"
+- symbol: capacity_building
+  title: "Institute capacity building workshop"
 # ------------------
-# Failed Inspection - S1_Y3_P3
+# Poor Quality indicator Scores - S1_Y3_P3
 # ------------------
 - symbol: review_the_inspection
-  title: "Review the Quality Indicator Assessment"
+  title: "Review third party assessment on quality score"
 
-- symbol: warning_6
-  title: "Give warning"
+- symbol: revise_business_plan_10
+  title: "Revise business plan"
 
 - symbol: deny_review
   title: "Deny the contents of the review"
@@ -395,11 +390,11 @@
 - symbol: expand_hiring_of_hospital_staff 
   title: "Expand the hospital staff by hiring new employees"
 
-- symbol: expand_hiring_at_all_facilities
+- symbol: increase_incentives_for_all_facilities
   title: "Increase Incentives for all Facilities"
 
-- symbol: award_bonuses_to_hospital_staff
-  title: "Award bonuses to hospital staff"
+- symbol: increase_incentives_to_hospital
+  title: "Increase incentives to hospital"
 # ------------------
 # Checkup Overload - S1_Y3_P5
 # ------------------
