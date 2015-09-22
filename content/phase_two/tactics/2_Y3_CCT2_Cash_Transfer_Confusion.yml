@@ -19,7 +19,7 @@ initiating_dialogue: "I've been noticing a drop off in the fourth quarter of dem
 investigate_dialogue: "Some clients are having difficulty understanding. They do eventually receive their money, but it takes too long, and by then, they've complained to others, who are discouraged from coming."
 
 # The dialogue the player sees when further investigation has results to show
-investigate_further_dialogue: "It seems like  people expect to leave the hospital with money. When they don't receive it, they get mad, and say they'll tell others not to come."
+investigate_further_dialogue: "It seems like people expect to leave the hospital with money. When they don't receive it, they get mad, and say they'll tell others not to come."
 
 # These are special parameters that load a cooldown array, which is defined in content/config.yml under 'cooldown:'
 # For example, specifying $config_cooldown_long will choose the key found in config.yml under:

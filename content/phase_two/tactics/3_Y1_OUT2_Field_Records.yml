@@ -45,6 +45,6 @@ further_options_affects: [unlockable_retrain_outreach_nurses, unlockable_move_to
 feedback_dialogue:
   unlockable_warning_t3: "I will tell the providers that they must be responsible for their employees."
   unlockable_retrain_outreach_nurses: "I'll go ahead and block out some time for a training session."
-  unlockable_move_to_quarterly_basis: "Alright, with any luck shifting the pay-cycle might get the results we want."
+  unlockable_move_to_quarterly_basis: "Alright, with any luck adjusting the pay-cycle might get the results we want."
   # This key is required for every tactic card for when the player chooses observe instead of investigate
   observe: "OK, we'll wait and see if anything changes."

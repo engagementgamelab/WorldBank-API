@@ -7,7 +7,7 @@
 
 # Phase Two Tactic YML Template
 
-symbol: tactic_staff_trouble
+symbol: tactic_delayed_scores
 tactic_name: unlockable_improve_patient_and_provider_relationship  # <--- symbol of the tactic (stored in unlockables.yml) this card is using
 name: "Delayed Scores" # <--- display name for card
 year: 2

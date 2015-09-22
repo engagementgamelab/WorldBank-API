@@ -19,7 +19,7 @@ initiating_dialogue: "There is some confusion on who qualifies for cash transfer
 investigate_dialogue: "The policy itself seems to contain some ambiguities. A revision of the policy's inclusion/exclusion criterea could be the solution. I can look into hiring a third party to handle that. The policy also seems to be confusing to some providers. We could retrain them, and that might solve the problem."
 
 # The dialogue the player sees when further investigation has results to show
-investigate_further_dialogue: "One of the hospital administrators has offered to revise the inclusion/exclusion policies to make it cearer for their staff. With our approval, of course. This would save us the cost of hiring a third party to revise them, if you trust the administrator to do it. "
+investigate_further_dialogue: "One of the hospital administrators has offered to revise the inclusion/exclusion policies to make it clearer for their staff. With our approval, of course. This would save us the cost of hiring a third party to revise them, if you trust the administrator to do it. "
 
 # These are special parameters that load a cooldown array, which is defined in content/config.yml under 'cooldown:'
 # For example, specifying $config_cooldown_long will choose the key found in config.yml under:
