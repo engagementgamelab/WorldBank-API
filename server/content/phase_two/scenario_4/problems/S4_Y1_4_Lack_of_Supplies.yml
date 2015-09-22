@@ -34,7 +34,7 @@ characters:
       increase_supply_budget_2: "We have increased the budget every year. I am not optimistic this will solve the problem."
 
   ngo_manager:
-    dialogue: "If the government would just let us do the purchasing, then we would not run low on supplies, and we wouldn't have to turn patients away."
+    dialogue: "If the government would just let us do the purchasing, then we would not run low on supplies and have to turn patients away."
     unlocks: [increase_ngo_autonomy_1]
     unlocks_affects: [increase_ngo_autonomy_1]
     feedback:

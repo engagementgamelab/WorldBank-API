@@ -32,7 +32,7 @@ characters:
     dialogue: "Providers in my region have complained often of over-stressed staff. There are not enough workers, and supplies are still running out frequently."
 
   ngo_manager:
-    dialogue: "IAs long as the Ministry is not allowing us to hire staff it is difficult for us to improve the situation."
+    dialogue: "As long as the Ministry is not allowing us to hire staff it is difficult for us to improve the situation."
     unlocks: [increase_ngo_autonomy_2]
     unlocks_affects: [increase_ngo_autonomy_2]
     feedback:
