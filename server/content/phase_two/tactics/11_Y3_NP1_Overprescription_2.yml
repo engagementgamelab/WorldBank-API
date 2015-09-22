@@ -7,7 +7,7 @@
 
 # Phase Two Tactic YML Template
 
-symbol: tactic_wrong_procedures_2
+symbol: tactic_overprescription_2
 tactic_name: unlockable_incentivise_providers_to_follow_protocols # <--- symbol of the tactic (stored in unlockables.yml) this card is using
 name: "Overprescription 2" # <--- display name for card
 year: 3

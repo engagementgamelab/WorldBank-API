@@ -7,7 +7,7 @@
 
 # Phase Two Tactic YML Template
 
-symbol: tactic_home_births
+symbol: tactic_drop_off_in_promotional_services
 tactic_name: unlockable_outreach  # <--- symbol of the tactic (stored in unlockables.yml) this card is using
 name: "Drop-off in Promotional Services" # <--- display name for card
 year: 3

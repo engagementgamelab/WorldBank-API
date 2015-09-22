@@ -7,7 +7,7 @@
 
 # Phase Two Tactic YML Template
 
-symbol: tactic_confusion_of_roles
+symbol: tactic_resistance_to_outreach
 tactic_name: unlockable_outreach  # <--- symbol of the tactic (stored in unlockables.yml) this card is using
 name: "Resistance to Outreach" # <--- display name for card
 year: 1

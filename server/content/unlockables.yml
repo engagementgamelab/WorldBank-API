@@ -1163,12 +1163,12 @@
 # Voucher Acceptance - Y2_V1
 # -------------------------- #
 - symbol: unlockable_expedite_voucher_payment
-  title: "Expedite Voucher payment"
+  title: "Expedite Voucher Payment"
 
 - symbol: unlockable_sanction_the_provider
   title: "Sanction the Provider"
 
-- symbol: unlockable_warn_the_provider
+- symbol: unlockable_voucher_capacity_building
   title: "Capacity Building on Vouchers"
 # -------------------------- #
 # False Declarations - Y2_V2
@@ -1179,7 +1179,7 @@
 - symbol: unlockable_sanctions_t2
   title: "Sanctions"
 
-- symbol: unlockable_modify_business_plan_t1
+- symbol: unlockable_employee_capacity_building
   title: "Build Capacity for New Employees"
 # -------------------------- #
 # Running Out of Vouchers - Y3_V1

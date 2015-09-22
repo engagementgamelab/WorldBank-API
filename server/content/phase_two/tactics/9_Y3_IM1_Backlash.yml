@@ -13,7 +13,7 @@ name: "Backlash" # <--- display name for card
 year: 3
 
 # This dialogue the player sees first
-initiating_dialogue: "There has been some backlash about this campaign from users of traditional medecine. They consider it insulting and inflamatory."
+initiating_dialogue: "There has been some backlash about this campaign from users of traditional medicine. They consider it insulting and inflammatory."
 
 # The dialogue the player sees when investigation has results to show
 investigate_dialogue: "Some people want the campaign to be revised for cultural sensitivity, while others want it halted all together. It's a minority that is opposed to this, but very vocal. I wonder what has them so upset after more than two years?"
