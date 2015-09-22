@@ -38,12 +38,12 @@ characters:
     unlocks_affects: [sanctions_8]
 
   coach:
-    dialogue: "Honestly, Provider 4 has been terrible to work with. I do not look forward to working with them again in the future. Terminating the contract may be warranted."
+    dialogue: "Honestly, this clinic specialist has been terrible to work with. I do not look forward to working with them again in the future. Terminating the contract may be warranted."
     unlocks: [terminate_contract_at_end_of_year_7]
     unlocks_affects: [terminate_contract_at_end_of_year_7]
 
   community_verifier:
-    dialogue: "I have heard from some people that Provider 4 has the worst service in Zariba."
+    dialogue: "I have heard from some people that this clinic specialist has the worst service in Zariba."
 
   hospital_administrator:
     dialogue: "Sorry, I'm kind of up to my elbows in work here, I don't know if I have much advice to contribute to this situation."

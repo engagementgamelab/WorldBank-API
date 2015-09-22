@@ -53,14 +53,12 @@ characters:
     feedback:
       warn_community_verifiers_2: "We'll try to come up with a strategy to tackle this. It can't be insurmountable."
 
-  clinic_manager:
+  health_provider_4:
+    dialogue: "This is the job of the verifiers, not us."
+    narrows: [dep_minister_of_health, director_regional_health_services, coach, clinic_manager, hospital_administrator, health_provider_4]
     feedback:
       require_nurses_to_return_to_file_2: "Many of my facilities are not much better than the field, and it will add to our own filing burden."
 
   hospital_administrator:
     dialogue: "Our nurses are doing good work. If the Ministry can't confirm it's having an effect, then it's a verification issue."
-    narrows: [dep_minister_of_health, director_regional_health_services, coach, clinic_manager, hospital_administrator, health_provider_3, community_verifier]
-
-  health_provider_4:
-    dialogue: "This is the job of the verifiers, not us."
-    narrows: [dep_minister_of_health, director_regional_health_services, coach, clinic_manager, hospital_administrator, health_provider_3, community_verifier]
+    narrows: [dep_minister_of_health, director_regional_health_services, coach, clinic_manager, hospital_administrator, health_provider_4]
