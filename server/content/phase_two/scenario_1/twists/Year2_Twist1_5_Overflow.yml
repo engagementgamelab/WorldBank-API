@@ -9,7 +9,7 @@
 
 symbol: twist_overflow
 name: "Overflow"
-priority: 4
+priority: 5
 year: 2
 twist: 1
 

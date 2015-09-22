@@ -413,8 +413,20 @@
 
 # ------------- TWIST ONE ----------- #
 
+# ------------------
+# Money Troubles - S1_T1_Y2_P1
+# ------------------
+- symbol: increase_referral_incentives_1
+  title: "Increase Referral Incentives"
+
+- symbol: continue_with_plan_1
+  title: "Continue With Program As Written"
+
+- symbol: terminate_contract_at_end_of_year_5
+  title: "Terminate Contract at End of the Year"
+
 #------------------
-# Mismanagement - S1_T1_Y2_P1
+# Mismanagement - S1_T1_Y2_P2
 #------------------
 - symbol: warning_8
   title: "Warning"
@@ -423,9 +435,9 @@
   title: "Revise Business Plan"
 
 - symbol: retrain_1
-  title: "Retrain on Business Plan Concepts"
+  title: "Retrain on use of financial tools"
 #------------------
-# Reversal - S1_T1_Y2_P2
+# Reversal - S1_T1_Y2_P3
 #------------------
 - symbol: train_locals_1
   title: "Train Locals"
@@ -434,12 +446,12 @@
   title: "Stick to the Program"
 
 - symbol: embed_nurses_1
-  title: "Embed Nurses"
+  title: "Embed Nurses at Traditional Facilities"
 
-- symbol: expand_travelling_nurses_1
+- symbol: expand_outreach_program_1
   title: "Expand Outreach Program"
 #------------------
-# Inconsistent Indicators - S1_T1_Y2_P3
+# Inconsistent Indicators - S1_T1_Y2_P4
 #------------------
 - symbol: incentivise_facility_births_1
   title: "Incentivise Facility Births"
@@ -448,12 +460,12 @@
   title: "Expand Outreach Program"
 
 - symbol: revise_indicators_at_end_of_year_3
-  title: "Revise Indicators at End of the Year"
+  title: "Review Indicators at End of the Year"
 
 - symbol: broaden_services_1
   title: "Broaden Services, Effective Next Year"
 #------------------
-# Overflow - S1_T1_Y2_P4
+# Overflow - S1_T1_Y2_P5
 #------------------
 - symbol: warning_9
   title: "Warning"
@@ -492,17 +504,7 @@
 
 - symbol: revise_business_plan_4
   title: "Revise RBF Manual and Retraining"
-# ------------------
-# Money Troubles - S1_T1_Y3_P3
-# ------------------
-- symbol: increase_referral_incentives_1
-  title: "Increase Referral Incentives"
 
-- symbol: continue_with_plan_1
-  title: "Continue With Program As Written"
-
-- symbol: terminate_contract_at_end_of_year_5
-  title: "Terminate Contract at End of the Year"
 # ------------------
 # Field Records - S1_T1_Y3_P4
 # ------------------

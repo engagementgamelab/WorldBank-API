@@ -9,15 +9,15 @@
 
 symbol: twist_money_troubles
 name: "Money Troubles"
-priority: 3
-year: 3
+priority: 1
+year: 2
 twist: 1
 
 initiating_npc: health_provider_3 # <--- character's symbol
 initiating_dialogue: "Hello! Wonderful to talk to you today. I have a problem, however. Some of the traditional healers I work with are telling me they do not wish to refer to your facilities. They say they could make more money by selling the traditional remedies that you are replacing."
 
-starting_options: [increase_referral_incentives_1, continue_with_plan_1]
-starting_options_affects: [increase_referral_incentives_1, continue_with_plan_1]
+starting_options: [continue_with_plan_1]
+starting_options_affects: [continue_with_plan_1]
 starting_options_cost: [small, small]
 
 final_options: [increase_referral_incentives_1, continue_with_plan_1, terminate_contract_at_end_of_year_5]
@@ -37,6 +37,8 @@ characters:
 
   coach:
     dialogue: "Can we afford to pay them more? If so, that may just solve it."
+    unlocks: [increase_referral_incentives_1]
+    unlocks_affects: [increase_referral_incentives_1]
 
   third_party_verifier: 
     dialogue: "Sorry, I'm kind of up to my elbows in work here, I don't know if I have much advice to contribute to this situation."
@@ -46,6 +48,8 @@ characters:
 
   hospital_administrator:
     dialogue: "I would hate to lose their referrals. This program has been fairly successful."
+    unlocks: [increase_referral_incentives_1]
+    unlocks_affects: [increase_referral_incentives_1]
 
   health_provider_3:
     feedback:
