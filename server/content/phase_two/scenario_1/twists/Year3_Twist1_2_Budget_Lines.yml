@@ -51,7 +51,7 @@ characters:
   third_party_verifier: 
     dialogue: "We are verifying the result and ensure that the providers get paid accurately. So why take away their autonomy?"
 
-  hospital_administrator:
+  health_provider_3:
     dialogue: "I need to be able to purchase whatever is needed. This is a return to the bad old days, with many delays in receiving supplies from the central level, and I can't agree with it."
     feedback:
       revise_business_plan_4: "I don't believe this will be constructive, but I'm willing to try."

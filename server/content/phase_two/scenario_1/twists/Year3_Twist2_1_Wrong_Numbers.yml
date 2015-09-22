@@ -32,15 +32,18 @@ characters:
 
   director_regional_health_services:
     dialogue: "I've had some communication issues with the Clinic Manager in the past, but I believe he is honest. You should talk to him directly to see what the problem is."
-    narrows: [dep_minister_of_health, director_regional_health_services, third_party_verifier, community_verifier, clinic_manager]
+    narrows: [dep_minister_of_health, director_regional_health_services, third_party_verifier, community_verifier]
 
   coach:
     dialogue: "This has been going on for several years now. I'd recommend to sanction."
 
   community_verifier:
-    dialogue: "I can confirm the numbers do not match up. Very suspicious."
+    dialogue: "The sample I surveyed does not align with the numbers you say they reported. Very suspicious."
 
   hospital_administrator:
+    dialogue: "I don't think the clinic should get preferential treatment over my hospital. Treat them just as you would treat us."
+
+  health_provider_4:
     dialogue: "I have some new staff, maybe they are confused about what to report? Frankly, I myself have been confused at times!"
     unlocks: [hold_meeting_to_retrain_on_reporting_practices_3]
     unlocks_affects: [hold_meeting_to_retrain_on_reporting_practices_3]

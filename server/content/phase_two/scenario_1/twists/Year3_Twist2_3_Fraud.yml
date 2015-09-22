@@ -14,7 +14,7 @@ year: 3
 twist: 2
 
 initiating_npc: third_party_verifier # <--- character's symbol
-initiating_dialogue: "I just received the reports from Provider 4, and they are rife with fraudulent claims. It goes without saying that they should not be paid, but more needs to be done."
+initiating_dialogue: "I just received the reports from the clinic specialist and they are rife with fraudulent claims. It goes without saying that they should not be paid, but more needs to be done."
 
 starting_options: [warning_11, sanctions_7]
 starting_options_affects: [warning_11, sanctions_7]

@@ -444,35 +444,35 @@ maintain_current_rates_2:
 # Wrong Numbers - S1_T2_Y3_P1
 # ------------------
 warning_10:
-  indicator_1: -1
-  indicator_2: -2
-  indicator_3: +1
-
-sanctions_6:
-  indicator_1: -2
-  indicator_2: -3
-  indicator_3: 0
-
-hold_meeting_to_retrain_on_reporting_practices_3:
   indicator_1: +1
   indicator_2: +1
   indicator_3: +2
+
+sanctions_6:
+  indicator_1: +3
+  indicator_2: +2
+  indicator_3: +5
+
+hold_meeting_to_retrain_on_reporting_practices_3:
+  indicator_1: +2
+  indicator_2: +2
+  indicator_3: +4
 # ------------------
 # Budget Lines - S1_T2_Y3_P2
 # ------------------
 comply_with_ministry_budget_2:
-  indicator_1: -1
-  indicator_2: -2
-  indicator_3: 0
+  indicator_1: -4
+  indicator_2: -4
+  indicator_3: -6
 
 clarification_of_roles_10:
-  indicator_1: +1
+  indicator_1: +3
   indicator_2: +2
-  indicator_3: -1
+  indicator_3: +6
 
 revise_business_plan_5:
-  indicator_1: -3
-  indicator_2: -2
+  indicator_1: 0
+  indicator_2: 0
   indicator_3: +1
 # ------------------
 # Fraud - S1_T2_Y3_P3
@@ -494,25 +494,24 @@ terminate_contract_at_end_of_year_6:
 # ------------------
 # Field Records - S1_T2_Y3_P4
 # ------------------
-
-increase_funding_for_verifiers_2:
-  indicator_1: 0
-  indicator_2: +2
+data_capacity_building_2:
+  indicator_1: +5
+  indicator_2: +3
   indicator_3: +4
 
 centralize_control_over_travelling_nurses_2:
   indicator_1: -2
   indicator_2: -1
-  indicator_3: +2
+  indicator_3: -2
 
 warn_community_verifiers_2:
-  indicator_1: +2
-  indicator_2: +1
-  indicator_3: -1
-
-require_nurses_to_return_to_file_2:
   indicator_1: -1
   indicator_2: 0
+  indicator_3: 0
+
+require_nurses_to_return_to_file_2:
+  indicator_1: +2
+  indicator_2: +1
   indicator_3: +1
 # ------------------
 # More Fraud - S1_T2_Y3_P5
@@ -525,12 +524,12 @@ warning_12:
 sanctions_8:
   indicator_1: +1
   indicator_2: +1
-  indicator_3: +1
+  indicator_3: +2
 
 terminate_contract_at_end_of_year_7:
   indicator_1: +2
-  indicator_2: +2
-  indicator_3: +2
+  indicator_2: +3
+  indicator_3: +4
 #---------------------------------------------- THIS IS WHERE I ENDED ADDING RANDOM THINGS FYI!!#
 
 # ----------------            ---------------- #
