@@ -397,24 +397,25 @@ revise_business_plan_4:
 # ------------------
 # Field Records - S1_T1_Y3_P4
 # ------------------
-increase_funding_for_verifiers_1:
-  indicator_1: 0
-  indicator_2: +2
+
+data_capacity_building_1:
+  indicator_1: +5
+  indicator_2: +3
   indicator_3: +4
 
 centralize_control_over_travelling_nurses_1:
   indicator_1: -2
   indicator_2: -1
-  indicator_3: +2
+  indicator_3: -2
 
 warn_community_verifiers_1:
-  indicator_1: +2
-  indicator_2: +1
-  indicator_3: -1
-
-require_nurses_to_return_to_file_1:
   indicator_1: -1
   indicator_2: 0
+  indicator_3: 0
+
+require_nurses_to_return_to_file_1:
+  indicator_1: +2
+  indicator_2: +1
   indicator_3: +1
 # ------------------
 # Checkup Overload - S1_T1_Y3_P5

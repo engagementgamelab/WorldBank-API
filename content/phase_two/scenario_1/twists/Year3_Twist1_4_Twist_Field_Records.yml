@@ -26,11 +26,6 @@ final_options_cost: [small, small, small, medium]
 
 characters:
 
-  # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
-  dep_minister_of_health: # <--- character's symbol
-    feedback:
-      data_capacity_building_1: "Alright, if you really think this will help, I'm willing to give it a chance."
-
   director_regional_health_services:
     dialogue: "It might help if they were clearing their movements through my office. Then we would know where they are going, and that they are headed where they're needed."
     unlocks: [centralize_control_over_travelling_nurses_1]
@@ -42,6 +37,7 @@ characters:
     unlocks_affects: [data_capacity_building_1]
     feedback:
       centralize_control_over_travelling_nurses_1: "I'm wary of adding another level of bureaucracy to this, but it may help..."
+      data_capacity_building_1: "Alright, if you really think this will help, I'm willing to give it a chance."
 
   third_party_verifier: 
     dialogue: "The records filed by outreach nurses are sloppier and often late, since they are in the field instead of the hospital."
@@ -59,8 +55,8 @@ characters:
 
   hospital_administrator:
     dialogue: "Our nurses are doing good work. If the Ministry can't confirm it's having an effect, then it's a verification issue."
-    narrows: [dep_minister_of_health, director_regional_health_services, coach, clinic_manager, hospital_administrator, health_provider_3, community_verifier]
+    narrows: [dep_minister_of_health, director_regional_health_services, clinic_manager, hospital_administrator, health_provider_3, community_verifier]
 
   health_provider_3:
     dialogue: "This is the job of the verifiers, not us."
-    narrows: [dep_minister_of_health, director_regional_health_services, coach, clinic_manager, hospital_administrator, health_provider_3, community_verifier]
+    narrows: [dep_minister_of_health, director_regional_health_services, clinic_manager, hospital_administrator, health_provider_3, community_verifier]
