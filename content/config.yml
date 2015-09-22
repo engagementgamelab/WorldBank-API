@@ -36,7 +36,7 @@ plan:
       autonomy_false:
         scenario_3
 
-  end_score: [80, 85, 50]
+  end_score: [30, 35, 40]
 
 # All cooldowns are in seconds, and must be defined as arrays
 # If only one cooldown is needed (will not be chosen from a sequence), just use something like "[13]"

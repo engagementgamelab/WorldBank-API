@@ -10,56 +10,44 @@
 
 # Indicators: These are static numbers that will guide the player in knowing where the country starts, where they are at after phase 1, where they begin in phase 2, and what their ultimate results are at the end of phase 2.
 
-# Every beginning of phase 1 starts the same way with the same indicator numbers on average over the course of the year. I'm thinking it would make sense for them to be percentages since phase 2 operates within year benchmarks, so phase 1 will start with the previous year reports. These are:
+# Every beginning of phase 1 starts the same way with the same indicator numbers on average over the course of the year. 
 
-# Facility Births: 40%
-# Vaccinations: 20%
-# Quality of Care: 60%
 
-# Rationale: we want to guide the player into thinking that the problem is about the services having potential to be there, but the people are 1. being swayed from using them because of tradtional medicine and 2. hospitals aren't given enough autonmy which results in the lack of services/quality whne patients do go. The low vaccinations/facility births should clue the player into thinking that there is a supply problem.
+# Rationale: we want to guide the player into thinking that the problem is about the services having potential to be there, but the people are 1. being swayed from using them because of traditional medicine and 2. hospitals aren't given enough autonomy which results in the lack of services/quality when patients do go. The low vaccinations/facility births should clue the player into thinking that there is a supply problem.
 
 # There are four possible grades you can get for your plan.
 
 - score: 14-12
   grade: A
   description: "Congratulations on exceeding your goals. The pilot test we conducted has shown significant increases in all three major indicators. We are confident that over the next three years, this program will continue to bear fruit."
-  default_affects: [10, 20, 15]
+  default_affects: [10, 12, 20]
   affects_bias: [-2, -1, -2]
 
-# Facility births: +10%
-# Vaccinations: +20%
-# Quality of care: +15%
 
 - score: 11-9
   grade: B
   description: "The pilot test we ran showed some promising results. We have seen measurable increases in all three major indicators, especially in vaccinations. With proper implementation over the next three years, Facility Births and Quality of Care could rise to match it."
-  default_affects: [5, 15, 5]
+  default_affects: [7, 10, 15]
   affects_bias: [-1, -2, -1]
 
-# Facility births: +5%
-# Vaccinations: +15%
-# Quality of care: +5%
 
 - score: 8-6
   grade: C
   description: "The results of our pilot test were mixed to say the least. Indicators have barely budged and are within the margins of error. We recommend re-evaluation of the context. A second attempt could yield a program with greater efficacy."
-  default_affects: [0, -5, 0]
+  default_affects: [5, 5, 7]
   affects_bias: [-2, -1, -2]
 
-# Facility births: 0
-# Vaccinations: -5%
-# Quality of care: 0
+
 
 - score: 6-1
   grade: D
   description: "We ran a pilot test and somehow, your program has done more harm than good. Maybe RBF isn't the right answer after all. We strongly recommend re-evaluation of the context. More research and surveys should help. If this program is put into practice, the implementer will have their work cut out for them!" 
-  default_affects: [-8, -10, 0]
+  default_affects: [2, 4, 4]
   affects_bias: [-2, -2, -3]
 
-# Facility births: -8%
-# Vaccinations: -10%
-# Quality of care: 0%
+
 
 - score: 0-0
   grade: F
   description: "There are just not enough initiatives put into place for this program to move forward. Because of this, we weren't able to conduct an evaluation. I would recommend spending more time in the country in order to gather more information. Try visiting multiple cities and learning from many different people. You never know what you might learn."
+  default_affects: [0, 0, 0]
