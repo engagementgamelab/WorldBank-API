@@ -26,8 +26,8 @@ clarify_separation_of_functions_1:
 # ------------------
 
 hold_payment_1:
-  indicator_1: +0
-  indicator_2: +0
+  indicator_1: 0
+  indicator_2: 0
   indicator_3: +1
 
 help_build_capacity_1:
@@ -1341,7 +1341,7 @@ grant_autonomy_to_providers_5:
 
 unlockable_information_campaign:
   indicator_1: +1
-  indicator_2: 1 
+  indicator_2: +1 
   indicator_3: 0
 
 unlockable_add_travel_vouchers:
