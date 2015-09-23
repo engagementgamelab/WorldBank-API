@@ -111,16 +111,15 @@ phase_1_travel:
 phase_1_conversation_points:
   overlay_location: "Center"
   text: "You still have conversation points in this city! Remember, you can see your remaining interactions at the upper-left. Click on the map icon to return to the city."
-  spotlight_position: [-2.72, 0.27]
-  spotlight_size: [3.4, 2.54]
-  mask_position: [446, -256]
-  mask_size: [148, 71]
+  spotlight_position: [-2.72, 0.56]
+  spotlight_size: [3.22, 2.54]
+  mask_position: [724, -568]
+  mask_size: [60, 56]
 
 phase_1_end:
   overlay_location: "Center"
   text: "Congratulations! You finished your trip through Zariba, now it’s time to confirm the details of your plan using everything you learned. Once you’ve set the policies and their priority, click the submit plan button and we’ll see how the pilot year"
   confirm: true
-
 
 phase_2_start:
   overlay_location: "Center"

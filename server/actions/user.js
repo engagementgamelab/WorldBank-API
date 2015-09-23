@@ -77,13 +77,15 @@ exports.create = {
                 var passwordSalt = api.utils.randomString(64);
                 var passwordHash = getPasswordHash(dataInput.password, passwordSalt);
 
-                dataInput.created_at = new Date();
                 dataInput.password = passwordHash;
                 dataInput.password_salt = passwordSalt;
                 */
 
                 // Concat name
                 dataInput.name = dataInput.first_name + " " + dataInput.last_name;
+
+                // Date
+                dataInput.created_at = new Date();
 
                 delete dataInput.first_name;
                 delete dataInput.last_name;
@@ -97,7 +99,7 @@ exports.create = {
                 newUser.save(function(err) {
                   
                   if (err) 
-                    data.response.error = err;
+                    data.response.error = "Mongo error: " + err;
 
                   api.session.generateAuth(data.connection, function(){
 

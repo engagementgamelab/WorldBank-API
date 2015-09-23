@@ -23,9 +23,10 @@ var mongoose = require('mongoose');
 // create a schema
 var userSchema = new mongoose.Schema({
 
-  username: { type: String, required: true },
   name: { type: String, required: true },
   email: { type: String, required: true, unique: true, index: true },
+  
+  username: { type: String, required: false },
   
   password: { type: String, required: false },
   password_salt: { type: String, required: false, index: true },
