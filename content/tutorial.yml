@@ -8,26 +8,27 @@
 # PHASE TWO
 phase_1_initial:
   overlay_location: "Center"
-  text: "Welcome to Zariba! Your task is to explore the world, learn more about the health situation on the ground, and put together an RBF program proposal that will help increase the country’s indicators. Your indicators are as follows: vaccinations 40%, Facility births 20%, and quality of care 60%. Your goal is to raise these to 86%, 55%, and 90% over the next four years. "
+  text: "Welcome to Zariba! Explore the world, learn about the health situation, and put together an RBF program proposal to pilot in the next year. Raise your indicators by 30, 35, and 40%!"
   confirm: true
 
 phase_1_skip_tutorial:
   overlay_location: "Center"
-  text: "If you have played the game before, you can choose to skip these help messages and go directly to the map and begin making your plan. You will not be required to visit the Capital City and will automatically receive respective plan options found there. Skip tutorial and Capital City? (yes/no)"
+  text: "You can choose to skip these help messages and go directly to the map to begin making your plan. You will not visit the Capital City and will automatically receive respective plan options found there. Skip tutorial and Capital City? (yes/no)........this is not working correctly yet -Johnny"
   confirm: true
+  confirm_next: "phase_1_rahb"
+  choices: ["Yes", "No"]
 
 phase_1_rahb:
   overlay_location: "Bottom-Right"
-  text: "Click on Rahb, your RBF Plan Supervisor to speak to them. Once you do, click “learn more” to see what they have to say. To continue the conversation, click on a highlighted phrase (yellow, with an icon next to it) to hear about a specific topic. These are located near the bottom of the dialogue box. Click on Rahb, your RBF Plan Supervisor to speak to them. Once you do, click “learn more” to see what they have to say. To continue the conversation, click on a highlighted phrase (yellow, with an icon next to it) to hear about a specific topic. These are located near the bottom of the dialogue box. "
-  spotlight_position: [-0.49, -0.04]
+  text: "Click on Rahb, your RBF Plan Supervisor and then choose “learn more” to see what she has to say. To continue the conversation, choose a highlighted topic."
+  spotlight_position: [-0.88, -0.04]
   spotlight_size: [2.38, 1]
-  mask_position: [246, -62]
-  mask_size: [128, 180]
-  confirm: true
+  mask_position: [360.41, -62]
+  mask_size: [154.3, 289.8]
 
 phase_1_interactions_counter:
   overlay_location: "Center"
-  text: "Notice that when you select a dialogue option that has an icon next to it, the number in the upper-left decreases. This tells you how many conversations you can have before you need to leave the city. Use all your conversation points before leaving a city! Try asking Rahb something else."
+  text: "When you select a dialogue option that has an icon next to it, this number decreases. This indicates how many conversations you can have before you're forced to leave the city. Try asking Rahb something else."
   spotlight_position: [0.18, -2.72]
   spotlight_size: [5, 3.51]
   mask_position: [0, 0]
@@ -36,61 +37,59 @@ phase_1_interactions_counter:
 
 phase_1_move_around:
   overlay_location: "Center"
-  text: "There are others here for you to talk to. Click/drag or use the left/right arrows to take a look around. Go talk to the Ministry officials that Rahb has assembled for you. Remember, once you’ve heard about a topic, you can still ask about something else as long as you have conversation points left!"
-  spotlight_position: [-2.72, -0.09]
-  spotlight_size: [3.56, 1.2]
-  mask_position: [144, 0]
-  mask_size: [500, 295]
+  text: "Click, hold and drag or use the arrow keys to take a look around and talk to the Ministry officials to the right. Remember, once you’ve heard about a topic, you can still ask about something else, as long as you have conversation points left!"
   confirm: true
 
 phase_1_unlocked_something:
   overlay_location: "Center"
-  text: "The notification in the upper-right means you just unlocked something! Some topics can lead to new routes through the country, new options for your program proposal, and even new lines of conversations with other people! Try to find out as much as you can, while keeping in mind how many conversation points you have left before you need to leave the city.  "
-  spotlight_position: [-1.01, -1.58]
-  spotlight_size: [1.87, 2.43]
-  mask_position: [483, 0]
-  mask_size: [244, 98]
-  confirm: true
-
-phase_1_plan_creation_screen:
-  overlay_location: "Center"
-  text: "At any time you can access the program creation screen to organize the tactics you have unlocked and start forming your RBF proposal. Click the icon in the bottom left of the screen to open this screen. "
-  spotlight_position: [-2.72, 0.26]
-  spotlight_size: [3.3, 3.25]
+  text: "This notification means you just unlocked something! Some topics can lead to finding routes to new cities, new options for your program proposal, and new conversation points with other people! You never know what you might find!"
+  spotlight_position: [-0.48, -2.51]
+  spotlight_size: [1.32, 3.25]
   mask_position: [739, -331]
   mask_size: [46, 47]
   confirm: true
 
+phase_1_plan_creation_screen:
+  overlay_location: "Center"
+  text: "At any time you can access the program creation screen to start forming your RBF proposal. Click here to open this screen."
+  spotlight_position: [0.49, 0.45]
+  spotlight_size: [3.3, 3.25]
+  mask_position: [739, -331]
+  mask_size: [46, 47]
+
 phase_1_tactics:
   overlay_location: "Bottom-Right"
-  text: "Here are all the tactics you have unlocked so far. As you gather more tactics by talking to people, you can draft your program proposal by clicking on a tactic dragging it into a blank space on the right. Try dragging a tactic into the first slot now!  "
-  spotlight_position: [0.1, -1.32]
-  spotlight_size: [1.56, 2.43]
+  text: "Here are all the tactics you have unlocked so far. As you gather more tactics by talking to people, you can draft your program proposal by clicking on a tactic and dragging it into a blank space on the right."
+  spotlight_position: [0.1, -0.47]
+  spotlight_size: [1.56, 1.34]
   mask_position: [0, -38]
   mask_size: [302, 86]
   confirm: true
 
 phase_1_tactic_slots:
   overlay_location: "Bottom-Left"
-  text: "Each slot has a priority level. Policies placed higher up will be prioritized over those lower, meaning their benefits and consequences will be amplified. You can change your program proposal any time before the final submission.  Click on the “return” icon on the bottom right to close your notebook. "
+  text: "Each slot has a priority level. Policies placed higher up will be prioritized meaning their benefits and consequences will be amplified. You can change your program proposal any time before the final submission.  Click here to close your notebook."
   spotlight_position: [-0.56, -1.15]
   spotlight_size: [1.41, 2.28]
   mask_position: [400, -38]
   mask_size: [302, 105]
-  confirm: true
 
 phase_1_continue_talking:
-  overlay_location: "Bottom-Left"
-  text: "Talk to the rest of the Capitol city officials to learn more about Zariba and the challenges it faces! "
-  spotlight_position: [0.31, -1.27]
-  spotlight_size: [4.85, 1.87]
-  mask_position: [262, -389]
-  mask_size: [148, 71]
+  overlay_location: "Center"
+  text: "Talk to the rest of the Capitol city officials to learn more about Zariba and the challenges it faces!"
   confirm: true
+
+phase_1_capitol_end:
+  overlay_location: "Center"
+  text: "Now that you have run out of conversation points, it’s time to travel to other cities and meet new people. Click on the map icon."
+  spotlight_position: [-2.65, 0.43]
+  spotlight_size: [3.17, 3.15]
+  mask_position: [0, 0]
+  mask_size: [1, 1]
 
 phase_1_map:
   overlay_location: "Bottom-Right"
-  text: "This is your map of Zariba. You can click and drag to see different part of the map. The  green circle indicates where you are. Cities will unlock as you find new ways to travel across the country. Each city has different people with unique perspectives on the situation. "
+  text: "This is your map of Zariba. You can click and drag to see different part of the map. The green circle indicates where you are. Cities will unlock as you find new ways to travel across the country. Each city has different people with unique perspectives on the situation. "
   spotlight_position: [-0.83, -0.66]
   spotlight_size: [3.82, 1.82]
   mask_position: [623, -393]
