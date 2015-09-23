@@ -279,6 +279,7 @@ exports.save =
             data.response.score = finalPlanGrade.score;
             data.response.grade = finalPlanGrade.grade_info.grade;
             data.response.indicators = finalPlanGrade.grade_info.default_affects;
+            data.response.goal = api.gameConfig.content.plan.end_score;
             data.response.description = finalPlanGrade.grade_info.description;
                 
             next();
