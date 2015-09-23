@@ -1151,7 +1151,7 @@ increase_supply_budget_2:
 
 grant_facilities_autonomy_2:
   indicator_1: +1
-  indicator_2: +0
+  indicator_2: 0
   indicator_3: +1
 
 increase_ngo_autonomy_1:
@@ -1365,7 +1365,7 @@ unlockable_warning_t1:
   indicator_3: 0
 
 unlockable_sanctions_t1:
-  indicator_1: – 3 
+  indicator_1: –3 
   indicator_2: 0
   indicator_3: 0 
 
