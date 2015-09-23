@@ -1546,6 +1546,10 @@ unlockable_fund_info_campaign:
   indicator_1: +1
   indicator_2: +2
   indicator_3: 0
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 
 unlockable_embed_cct_officer_at_facilities:
   indicator_1: +2
