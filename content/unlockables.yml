@@ -673,9 +673,6 @@
 - symbol: hold_stakeholder_meeting_2
   title: "Hold Stakeholder meeting"
 
-- symbol: warn_ngo_2
-  title: "Warn NGO"
-
 - symbol: clarification_of_roles_3
   title: "Clarification of roles"
 
@@ -702,9 +699,6 @@
 - symbol: clarification_of_roles_5
   title: "Clarification of roles"
 
-- symbol: ask_ministry_to_speed_payment_1
-  title: "Ask Ministry of Finance to Speed NGO Payment"
-
 - symbol: expedite_payment_and_service_delivery
   title: "Expedite payment and service delivery"
 
@@ -729,9 +723,6 @@
 #------------------
 # Excuses - S2_Y3_P2
 #------------------
-- symbol: hold_stakeholder_meeting_4
-  title: "Hold Stakeholder Meeting"
-
 - symbol: warn_but_allow_payment_once_3
   title: "Warn but allow payment"
 
@@ -751,11 +742,8 @@
 
 - symbol: warn_ngo_6
   title: "Warn NGO"
-
-- symbol: allow_private_curriculum_1
-  title: "Allow NGO to Keep Curriculum Private"
 #------------------
-# Poor Stewardship - S2_Y3_P4
+# Over Reporting - S2_Y3_P4
 #------------------
 - symbol: warn_ngo_7
   title: "Warn NGO"
@@ -1271,13 +1259,13 @@
 # Resistance to Outreach - Y1_O1
 # -------------------------- #
 - symbol: unlockable_incentivize_midwives_home_delivery
-  title: "Incentivized Skilled Health Workers to do Home Deliveries"
+  title: "Incentivise Skilled Health Workers to do Home Deliveries"
 
 - symbol: unlockable_delivery_info_campaign
   title: "Start Information Campaign"
 
 - symbol: unlockable_incentivize_bring_women_to_facilities
-  title: "Incentivize Community Health Workers and TBAs to Bring Women to Deliver in Facilities"
+  title: "Incentivise Community Health Workers and TBAs to Bring Women to Deliver in Facilities"
 # -------------------------- #
 # Field Records - Y1_O2
 # -------------------------- #
@@ -1313,7 +1301,7 @@
 # Drop-off in Promotional Services - Y3_O1
 # -------------------------- #
 - symbol: unlockable_incentivize_promotional_services
-  title: "Incentivize Promotional Services"
+  title: "Incentivise Promotional Services"
 
 - symbol: unlockable_warn_outreach_staff
   title: "Warn Outreach Staff"
@@ -1343,7 +1331,7 @@
 # -------------------------- #
 
 - symbol: unlockable_incentivize_timely_scores
-  title: "Create a Contract to Incentivize Verifiers to Deliver Timely Scores"
+  title: "Create a Contract to Incentivise Verifiers to Deliver Timely Scores"
 
 - symbol: unlockable_shift_to_quarterly_basis_2
   title: "Reduce Payment Frequency From Monthly to Quarterly"
@@ -1370,7 +1358,7 @@
 # -------------------------- #
 
 - symbol: unlockable_directly_incensitive_service_improve
-  title: "Directly Incentivize Improved Service"
+  title: "Directly Incentivise Improved Service"
 
 - symbol: unlockable_increase_incentives_service_deliveries
   title: "Increase Incentives for Service Deliveries"
@@ -1380,7 +1368,7 @@
 # -------------------------- #
 
 - symbol: unlockable_directly_incensitive_service_better
-  title: "Directly Incentivize Better Service"
+  title: "Directly Incentivise Better Service"
 
 - symbol: unlockable_sensitization_campaign
   title: "Have a Sensitization Campaign for Health Workers"
@@ -1536,7 +1524,7 @@
   title: "Utilize Word of Mouth From Patients"  
 
 # -------------------------- #
-# Misnformation - Y2_IS1
+# Misinformation - Y2_IS1
 # -------------------------- #
 
 - symbol: unlockable_increase_funding_for_sensitization_strategy
@@ -1561,7 +1549,7 @@
 # ----------------                                                            ---------------- #
 
 # -------------------------- #
-# Overperscription - Y1_NP1
+# 0ver-prescription - Y1_NP1
 # -------------------------- #
 
 - symbol: unlockable_limit_prescriptions
@@ -1600,7 +1588,7 @@
   title: "Sanction Providers with High Infection Rates"
 
 # -------------------------- #
-# Overprescription 2 - Y3_NP1
+# Over-prescription 2 - Y3_NP1
 # -------------------------- #
 
 - symbol: unlockable_incentivise_best_practices_high_goals
@@ -1629,10 +1617,10 @@
 # -------------------------- #
 
 - symbol: unlockable_incentivize_bring_women_to_facilities_2
-  title: "Incentivize Outreach Staff and TBAs to Refer Women to Deliver In-Facility"
+  title: "Incentivise Outreach Staff and TBAs to Refer Women to Deliver In-Facility"
 
 - symbol: unlockable_incentivize_midwives_home_delivery_2
-  title: "Incentivize Skilled Health Workers to Assist Home Deliveries"
+  title: "Incentivise Skilled Health Workers to Assist Home Deliveries"
 
 - symbol: unlockable_leave_things_as_is_2
   title: "Continue the Campaign As-Is"

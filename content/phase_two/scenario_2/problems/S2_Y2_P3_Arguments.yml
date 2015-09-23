@@ -19,8 +19,8 @@ starting_options: [hold_stakeholder_meeting_2]
 starting_options_affects: [hold_stakeholder_meeting_2]
 starting_options_cost: [small]
 
-final_options: [hold_stakeholder_meeting_2, warn_ngo_2, clarification_of_roles_3, terminate_ngo_contract_2]
-final_options_affects: [hold_stakeholder_meeting_2, warn_ngo_2, clarification_of_roles_3, terminate_ngo_contract_2]
+final_options: [hold_stakeholder_meeting_2, clarification_of_roles_3, terminate_ngo_contract_2]
+final_options_affects: [hold_stakeholder_meeting_2, clarification_of_roles_3, terminate_ngo_contract_2]
 final_options_cost: [small, small, small, small]
 
 characters:
@@ -30,24 +30,23 @@ characters:
     unlocks: [terminate_ngo_contract_2]
     unlocks_affects: [terminate_ngo_contract_2]
     feedback:
-      clarification_of_roles_3: "That's sorted out. Just, you know, be sure you're writing all this down so next time these issues don't crop up. "
+      clarification_of_roles_3: "That's sorted out. Just, you know, be sure you're writing all this down so next time these issues don't crop up."
 
   director_regional_health_services:
-    dialogue: "The NGO keeps trying to order me around and I know how to do my job. It's like they don't know the roles and responsiblities!"
-    unlocks: [warn_ngo_2]
-    unlocks_affects: [warn_ngo_2]
+    dialogue: "The NGO keeps trying to order me around as if they don't know the roles and responsibilities"
+    unlocks: [clarification_of_roles_3]
+    unlocks_affects: [clarification_of_roles_3]
 
   ngo_manager: 
-    dialogue: "I didn't realize I was overstepping my boundaries. It would be good for everybody if we could clarify the roles again."
+    dialogue: "I didn't realize I was overstepping my boundaries. It would be good for everybody if we could clarify the roles and responsibilities."
     unlocks: [clarification_of_roles_3]
     unlocks_affects: [clarification_of_roles_3]
     feedback:
-      warn_ngo_2: "Why is it that whenever there's an issue, we're made out to be the bad guy? We're doing our best to help these people."
       terminate_ngo_contract_2: "I don't understand why you brought us on in the first place if you were going to fire us for doing the work."
 
   coach:
     feedback:
-      hold_stakeholder_meeting_2: "Considering that the problem in the first place was everyone sniping at each other, I guess the meeting went pretty well. "
+      hold_stakeholder_meeting_2: "Considering that the problem in the first place was everyone sniping at each other, I guess the meeting went pretty well."
 
   third_party_verifier:
     dialogue: "I can't be of much help with this. It helps for me to be pretty neutral."

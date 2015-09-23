@@ -19,8 +19,8 @@ starting_options: [clarification_of_roles_7]
 starting_options_affects: [clarification_of_roles_7]
 starting_options_cost: [small]
 
-final_options: [clarification_of_roles_7, include_approval_ngo_curriculum_1, warn_ngo_6, allow_private_curriculum_1]
-final_options_affects: [clarification_of_roles_7, include_approval_ngo_curriculum_1, warn_ngo_6, allow_private_curriculum_1]
+final_options: [clarification_of_roles_7, include_approval_ngo_curriculum_1, warn_ngo_6]
+final_options_affects: [clarification_of_roles_7, include_approval_ngo_curriculum_1, warn_ngo_6]
 final_options_cost: [small, small, small]
 
 characters:
@@ -32,21 +32,15 @@ characters:
 
   ngo_manager:
     dialogue: "Are we required by the contract to furnish this information? It's our property, after all, and we have a vested interest in keeping our processes private."
-    unlocks: [allow_private_curriculum_1]
-    unlocks_affects: [allow_private_curriculum_1]
     feedback:
         warn_ngo_6: "I hear what you're saying, but I don't intend to change our practices unless it's mandated."
         clarification_of_roles_7: "I thought our roles were already clear. I still see no reason to furnish this information. Why should the government approve something so granular?"
         include_approval_ngo_curriculum_1: "If you really think it's necessary, we'll make this information public and allow the Ministry to approve it."
-        allow_private_curriculum_1: "Thank you for respecting our right to proprietary information."
 
   coach:
     dialogue: "If the contract and the business plan do not state who has a right to this information, perhaps it should. At the start of the new year, let's revise this to make it clear."
     unlocks: [include_approval_ngo_curriculum_1]
     unlocks_affects: [include_approval_ngo_curriculum_1]
-
-  third_party_verifier:
-    dialogue: "*Helpless laugh* I don't know!"
 
   community_verifier:
     dialogue: "I have no idea how their organization operates internally, sorry."

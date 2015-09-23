@@ -13,14 +13,14 @@ priority: 5
 year: 2
 
 initiating_npc: ngo_manager
-initiating_dialogue: "We're still waiting on the fundholder to pay us. The Finance Minister's approval process has hamstrung us, and we need to get our money to pay our people."
+initiating_dialogue: "We're still waiting on the fund holder to pay us. The Finance Minister's approval process has hamstrung us, and we need to get our money to pay our people."
 
 starting_options: [terminate_ngo_contract_3]
 starting_options_affects: [terminate_ngo_contract_3]
 starting_options_cost: [small]
 
-final_options: [terminate_ngo_contract_3, clarification_of_roles_5, ask_ministry_to_speed_payment_1, expedite_payment_and_service_delivery]
-final_options_affects: [terminate_ngo_contract_3, clarification_of_roles_5, ask_ministry_to_speed_payment_1, expedite_payment_and_service_delivery]
+final_options: [terminate_ngo_contract_3, clarification_of_roles_5, expedite_payment_and_service_delivery]
+final_options_affects: [terminate_ngo_contract_3, clarification_of_roles_5, expedite_payment_and_service_delivery]
 final_options_cost: [small, small, small, small]
 
 characters:
@@ -40,11 +40,10 @@ characters:
 
   coach:
     dialogue: "The cause is obvious: bureaucracy in the Ministry of Finance. They should know that we pay for results, and every time they delay funding, it causes a feedback loop that hurts results down the line.."
-    unlocks: [ask_ministry_to_speed_payment_1]
-    unlocks_affects: [ask_ministry_to_speed_payment_1]
+    unlocks: [expedite_payment_and_service_delivery]
+    unlocks_affects: [expedite_payment_and_service_delivery]
     feedback:
       clarification_of_roles_5: "Sure, you can remind the Ministry and NGO, again, who's supposed to do what. But that will only work until the next argument."
-      ask_ministry_to_speed_payment_1: "I hope they heed your request. This is getting serious."
 
   third_party_verifier:
     dialogue: "I'm sure you're getting good advice from the people who are writing the checks. They are, at least, smart enough to know what they want."
