@@ -5,6 +5,12 @@
 # Miscellaneous UI Game Copy Definitions
 # ==============
 
+copy_byline: "A discovery game for teaching the principles of Results Based Financing"
+copy_email_error: "We couldn't find that email. If this is your first time playing, please register."
+copy_phase_selection: "choose phase 1 or 2 ya gloop dooper!1"
+copy_plan_selection: "gotta choose a '''frieakin''' plan holy mangus"
+copy_loading: "Loading"
+
 copy_plan_screen_instructions_tactics: "Drag and drop options into your program proposal. You can change your proposal at any time."
 copy_plan_screen_name_prompt: "Give your program proposal a name."
 
