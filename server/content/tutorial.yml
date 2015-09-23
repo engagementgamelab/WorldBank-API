@@ -30,7 +30,7 @@ phase_1_interactions_counter:
   overlay_location: "Center"
   text: "When you select a dialogue option that has an icon next to it, this number decreases. This indicates how many conversations you can have before you're forced to leave the city. Try asking Rahb something else."
   spotlight_position: [0.18, -2.72]
-  spotlight_size: [5, 3.51]
+  spotlight_size: [5, 3.31]
   mask_position: [0, 0]
   mask_size: [84, 54]
   confirm: true
@@ -54,7 +54,7 @@ phase_1_plan_creation_screen:
   text: "At any time you can access the program creation screen to start forming your RBF proposal. Click here to open this screen."
   spotlight_position: [0.49, 0.45]
   spotlight_size: [3.3, 3.25]
-  mask_position: [739, -331]
+  mask_position: [5, -573]
   mask_size: [46, 47]
 
 phase_1_tactics:
@@ -67,73 +67,58 @@ phase_1_tactics:
   confirm: true
 
 phase_1_tactic_slots:
-  overlay_location: "Bottom-Left"
+  overlay_location: "Bottom-Right"
   text: "Each slot has a priority level. Policies placed higher up will be prioritized meaning their benefits and consequences will be amplified. You can change your program proposal any time before the final submission.  Click here to close your notebook."
-  spotlight_position: [-0.56, -1.15]
-  spotlight_size: [1.41, 2.28]
-  mask_position: [400, -38]
-  mask_size: [302, 105]
+  spotlight_position: [0.35, 0.33]
+  spotlight_size: [5, 5]
+  mask_position: [5, -573]
+  mask_size: [46, 47]
 
 phase_1_continue_talking:
   overlay_location: "Center"
   text: "Talk to the rest of the Capitol city officials to learn more about Zariba and the challenges it faces!"
   confirm: true
 
-phase_1_capitol_end:
-  overlay_location: "Center"
-  text: "Now that you have run out of conversation points, it’s time to travel to other cities and meet new people. Click on the map icon."
-  spotlight_position: [-2.65, 0.43]
-  spotlight_size: [3.17, 3.15]
-  mask_position: [0, 0]
-  mask_size: [1, 1]
-
 phase_1_map:
-  overlay_location: "Bottom-Right"
-  text: "This is your map of Zariba. You can click and drag to see different part of the map. The green circle indicates where you are. Cities will unlock as you find new ways to travel across the country. Each city has different people with unique perspectives on the situation. "
-  spotlight_position: [-0.83, -0.66]
-  spotlight_size: [3.82, 1.82]
-  mask_position: [623, -393]
-  mask_size: [140, 66]
+  overlay_location: "Center"
+  text: "You can click and drag to see different parts of the Zaribian map."
   confirm: true
+  confirm_next: "phase_1_map_cost"
+
+phase_1_map_cost:
+  overlay_location: "Center"
+  text: "Every time you travel to a new city it will cost some number of days, depending on the route. When you run out of days you are forced to make your RBF proposal and this phase of the game ends."
+  confirm: true
+  confirm_next: "phase_1_city_routes"
 
 phase_1_city_routes:
   overlay_location: "Bottom-Right"
-  text: "Open routes are highlighted in yellow. You are free to travel these routes. Discover new routes to find the most effective path! Try clicking on Malcom or Crup now. "
-  spotlight_position: [-0.13, -0.04]
-  spotlight_size: [1.26, 1]
-  mask_position: [610, -384]
-  mask_size: [148, 67]
+  text: "You can travel to a new city if a yellow route is active between your location and the new city. Try clicking on Malcom or Crup now."
+  spotlight_position: [-0.58, -0.61]
+  spotlight_size: [3.87, 3.95]
+  mask_position: [138, -394]
+  mask_size: [140, 105]
   confirm: true
 
 phase_1_travel:
-  overlay_location: "Bottom-Left"
-  text: "Read the description to decide if you want to travel to this city. Click the visit button, or click cancel to return to the map. "
-  spotlight_position: [-0.34, -0.14]
-  spotlight_size: [1.66, 1.17]
-  mask_position: [236, -69]
-  mask_size: [263, 198]
-
-phase_1_travel_days:
-  overlay_location: "Center"
-  text: "This shows how many days you have left to explore Zariba. Every time you travel to a new city it will cost some number of days, depending on the route. When you run out of days the game ends, so choose routes carefully! "
-  spotlight_position: [0.31, -1.91]
-  spotlight_size: [3.92, 2.54]
-  mask_position: [434, -275]
-  mask_size: [156, 50]
-  confirm: true
+  overlay_location: "Top-Right"
+  text: "Read the description to decide whether you want to travel to this city. Click the visit button, or click cancel and choose another city."
+  spotlight_position: [-1.36, -0.85]
+  spotlight_size: [2.91, 4.84]
+  mask_position: [407.5, -427.5]
+  mask_size: [162.73, 56.7]
 
 phase_1_conversation_points:
   overlay_location: "Center"
-  text: "Hold on, you still have conversation points left in this city! Making the best proposal depends on gathering as much information as possible from people here. Remember, you can see your remaining interactions at the upper-left. Click on the map icon to return to the city. "
-  spotlight_position: [-2.72, 0.27]
-  spotlight_size: [3.4, 2.54]
-  mask_position: [446, -256]
-  mask_size: [148, 71]
-  confirm: true
+  text: "You still have conversation points in this city! Remember, you can see your remaining interactions at the upper-left. Click on the map icon to return to the city."
+  spotlight_position: [-2.72, 0.56]
+  spotlight_size: [3.22, 2.54]
+  mask_position: [724, -568]
+  mask_size: [60, 56]
 
-phase_1_start:
+phase_1_end:
   overlay_location: "Center"
-  text: "Let’s talk to Rahb, your RBF Plan Supervisor. Click on anybody highlighted to speak to them, and select from the available topics at the bottom of the dialogue. Notice that when you ask Rahb something, the number in the upper-left decreases."
+  text: "Congratulations! You finished your trip through Zariba, now it’s time to confirm the details of your plan using everything you learned. Once you’ve set the policies and their priority, click the submit plan button and we’ll see how the pilot year"
   confirm: true
 
 phase_2_start:
