@@ -13,10 +13,12 @@ phase_1_initial:
 
 phase_1_skip_tutorial:
   overlay_location: "Center"
-  text: "You can choose to skip these help messages and go directly to the map to begin making your plan. You will not visit the Capital City and will automatically receive respective plan options found there. Skip tutorial and Capital City? (yes/no)........this is not working correctly yet -Johnny"
-  confirm: true
-  confirm_next: "phase_1_rahb"
-  choices: ["Yes", "No"]
+  text: "You can choose to skip these help messages and go directly to the map to begin making your plan. You will not visit the Capital City and will automatically receive respective plan options found there. Skip tutorial and Capital City?"
+  yes_no: true
+  yes_label: "Yes"
+  no_label: "No"
+  yes_action: "skip_tutorial"
+  no_action: "phase_1_rahb"
 
 phase_1_rahb:
   overlay_location: "Bottom-Right"
