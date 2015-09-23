@@ -19,8 +19,8 @@ starting_options: [clarification_of_roles_4]
 starting_options_affects: [clarification_of_roles_4]
 starting_options_cost: [small]
 
-final_options: [clarification_of_roles_4, cancel_ngo_contract_1, loosen_drug_control_1]
-final_options_affects: [clarification_of_roles_4, cancel_ngo_contract_1, loosen_drug_control_1]
+final_options: [clarification_of_roles_4, move_authority_to_ministry_2, loosen_drug_control_1]
+final_options_affects: [clarification_of_roles_4, move_authority_to_ministry_2, loosen_drug_control_1]
 starting_options_cost: [small, small, small]
 
 characters:
@@ -30,8 +30,8 @@ characters:
 
   director_regional_health_services:
     dialogue: "We've been whittling down whose job is whose throughout this process, so you don't have to tell me this isn't my place, but were it up to me, I'd cancel the NGO contract."
-    unlocks: [cancel_ngo_contract_1]
-    unlocks_affects: [cancel_ngo_contract_1]
+    unlocks: [move_authority_to_ministry_2]
+    unlocks_affects: [move_authority_to_ministry_2]
 
   ngo_manager: 
     dialogue: "We are doing our best to deliver these services, but the government controls the drugs, not us. We try to treat as many patients as we can, but if the Ministry strangles our supply, it doesn't work."
@@ -39,11 +39,12 @@ characters:
     unlocks_affects: [loosen_drug_control_1]
     feedback:
       clarification_of_roles_4: "OK. I'm just trying to make this work as smoothly and efficiently as possible."
-      cancel_ngo_contract_1: "I don't understand why you brought us on in the first place if you were going to fire us for doing the work."
       loosen_drug_control_1: "That will help a great deal. This way we can ensure the proper medications get where they need to go, at the right cost."
 
   coach:
     dialogue: "I'll ask, because this seems to be an ongoing problem: is that the NGO's position? They seem to be overstepping their role."
+    feedback:
+      move_authority_to_ministry_2: "The Ministry already has a lot going on, but I guess they can handle local hospital budgeting, too."
 
   third_party_verifier:
     dialogue: "If they can't agree on a budget, I'm not going to have any cases to verify. And I like my job."
@@ -51,7 +52,3 @@ characters:
   community_verifier:
     dialogue: "If I were you, and I'm offering this as someone who lives here, ask the Ministry and your coach what to do. The Ministry gets the last call and the NGO doesn't."
     narrows: [director_regional_health_services, ngo_manager, third_party_verifier, community_verifier, hospital_administrator]
-
-  hospital_administrator:
-    feedback:
-      comply_with_ngo_budget_2: "I'll comply, but I'll have to cut that money from somewhere."

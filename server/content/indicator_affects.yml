@@ -638,24 +638,19 @@ contract_additional_ngo_at_years_end:
 # Arguments - S2_Y2_P3
 #------------------
 hold_stakeholder_meeting_2:
-  indicator_1: 0
+  indicator_1: +1
   indicator_2: 0
-  indicator_3: 0
-
-warn_ngo_2:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_3: +2
 
 clarification_of_roles_3:
-  indicator_1: -1
-  indicator_2: 0
-  indicator_3: -1
+  indicator_1: +3
+  indicator_2: +1
+  indicator_3: +4
 
 terminate_ngo_contract_2:
-  indicator_1: +2
-  indicator_2: +1
-  indicator_3: -2
+  indicator_1: -5
+  indicator_2: -5
+  indicator_3: -7
 
 #------------------
 # Unit Cost - S2_Y2_P4
@@ -665,61 +660,56 @@ clarification_of_roles_4:
   indicator_2: +1
   indicator_3: +1
 
-cancel_ngo_contract_1:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+move_authority_to_ministry_2:
+  indicator_1: -3
+  indicator_2: -3
+  indicator_3: -1
 
 loosen_drug_control_1:
-  indicator_1: -1
-  indicator_2: -2
-  indicator_3: -2
+  indicator_1: +4
+  indicator_2: +5
+  indicator_3: +1
 
 #------------------
 # Contract Management - S2_Y2_P5
 #------------------
 terminate_ngo_contract_3:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_1: -2
+  indicator_2: -2
+  indicator_3: -3
 
 clarification_of_roles_5:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
-
-ask_ministry_to_speed_payment_1:
-  indicator_1: +2
+  indicator_1: +1
   indicator_2: +1
-  indicator_3: +2
+  indicator_3: +1
 
 expedite_payment_and_service_delivery:
-  indicator_1: +1
-  indicator_2: 0
-  indicator_3: +1
+  indicator_1: +5
+  indicator_2: +5
+  indicator_3: +6
 
 #------------------
 # More Arguments - S2_Y3_P1
 #------------------
 hold_stakeholder_meeting_3:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_1: +3
+  indicator_2: +3
+  indicator_3: +1
 
 warn_ngo_3:
-  indicator_1: +1
-  indicator_2: 0
-  indicator_3: +1
+  indicator_1: -4
+  indicator_2: -3
+  indicator_3: -2
 
 clarification_of_roles_6:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_1: +3
+  indicator_2: +3
+  indicator_3: +1
 
 terminate_ngo_contract_4:
-  indicator_1: +1
-  indicator_2: +1
-  indicator_3: +1
+  indicator_1: -6
+  indicator_2: -5
+  indicator_3: -4
 
 #------------------
 # Excuses - S2_Y3_P2
@@ -727,7 +717,7 @@ terminate_ngo_contract_4:
 
 warn_but_allow_payment_once_3:
   indicator_1: -2
-  indicator_2: 3
+  indicator_2: -3
   indicator_3: -2
 
 deny_payment_3:
@@ -745,31 +735,26 @@ revise_indicators_at_end_of_year_2:
 #------------------
 clarification_of_roles_7:
   indicator_1: +1
-  indicator_2: 0
+  indicator_2: +1
   indicator_3: +1
 
-include_approval_ngo_curriculum:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+include_approval_ngo_curriculum_1:
+  indicator_1: +3
+  indicator_2: +3
+  indicator_3: +2
 
 warn_ngo_6:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: -1
-
-allow_private_curriculum:
-  indicator_1: -1
-  indicator_2: -1
-  indicator_3: -1
+  indicator_1: -3
+  indicator_2: -2
+  indicator_3: -4
 
 #------------------
-# Poor Stewardship - S2_Y3_P4
+# Over Reporting - S2_Y3_P4
 #------------------
 warn_ngo_7:
-  indicator_1: -1
-  indicator_2: -1
-  indicator_3: -1
+  indicator_1: -4
+  indicator_2: -3
+  indicator_3: -2
 
 terminate_ngo_contract_6:
   indicator_1: +1
