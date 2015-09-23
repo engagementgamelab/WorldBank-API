@@ -124,17 +124,13 @@ phase_1_end:
 ## PHASE 2
 
 phase_2_start:
-  overlay_location: "Center"
   text: "Welcome! You are the manager for Zariba’s new RBF program. The results of the pilot year were deemed acceptable, and now we’ll be implementing it at scale. You will be making operational decisions to make sure everything runs smoothly. Your goal will be to manage the program and increase the three main indicators: Vaccinations, Facility Births, and Quality of Care by 25, 30, and 35 percent respectively."
+  overlay_location: "Center"
   confirm: true
 
 phase_2_skip:
-  overlay_location: "Top-Left"
-  text: "Over the next three years, you will be contacted by colleagues in the field, presented with information, and given the opportunity to conference with others before making a decision. We’ll help you through your first challenge if you like. [yes/no]"
-  spotlight_position: [-2.11, -2.39]
-  spotlight_size: [3, 3]
-  mask_position: [593, 0]
-  mask_size: [142, 51]
+  overlay_location: "Center"
+  text: "Over the next three years, you will be contacted by colleagues in the field, presented with information, and given the opportunity to conference with others before making a decision. We’ll help you through your first challenge if you like."
   yes_no: true
   yes_label: "Begin"
   no_label: "Skip tutorial"
@@ -142,52 +138,64 @@ phase_2_skip:
   no_action: "skip_tutorial"
 
 phase_2_first_problem:
+  overlay_location: "Bottom-Right"
   text: "The year has just begun, and it looks like you’ve got your first problem. Take a moment to read the issue now. There is a default solution that you can decide upon, or you can contact colleagues in the field to get more information."
-  overlay_location: "Top-Left"
-  spotlight_position: [-0.105, -0.766]
-  spotlight_size: [1, 1]
-  mask_position: [20, 20]
-  mask_size: [40, 420]
+  spotlight_position: [0.04, -0.94]
+  spotlight_size: [1.27, 1.86]
+  mask_position: [0, 0]
+  mask_size: [1, 1]
+  confirm: true
+  confirm_next: "phase_2_conferencing"
 
 phase_2_conferencing:
+  overlay_location: "Top-Left"
   text: "You can receive advice from up to three people during any problem, so choose carefully. Look at your contacts and select one now."
-  overlay_location: "Top-Left"
-  spotlight_position: [-0.105, -0.766]
-  spotlight_size: [1, 1]
-  mask_position: [20, 20]
-  mask_size: [40, 420]
+  spotlight_position: [-0.98, -0.02]
+  spotlight_size: [1.88, 1]
+  mask_position: [510.87, -69]
+  mask_size: [185, 420]
 
-phase_2_supervisor_event:
+phase_2_conference_action:
+  overlay_location: "Center"
   text: "This contact has given you new information! Some contacts just provide background context, others give you ideas for new options you can take to solve the problem. You can conference with up to two more before you make your decision."
-  overlay_location: "Top-Left"
-  spotlight_position: [-0.105, -0.766]
-  spotlight_size: [1, 1]
-  mask_position: [20, 20]
-  mask_size: [40, 420]
+  confirm: true
+  confirm_next: "phase_2_actions"
 
 phase_2_actions:
-  text: "Once you know what course of actions you want to take or you have conferenced with three people, select an action  from the options below to implement it. We’ll let you finish this problem on your own."
-  overlay_location: "Top-Left"
+  overlay_location: "Top-Right"
+  text: "Once you know what course of actions you want to take or you have conferenced with three people, select an action from the options below to implement it. We’ll let you finish this problem on your own."
+  spotlight_position: [0.15, 0.52]
+  spotlight_size: [1, 1]
+  mask_position: [71, -488.8]
+  mask_size: [335, 119]
+  confirm: true
 
 phase_2_supervisor:
+  overlay_location: "Bottom-Right"
   text: "Well done! Your indicators have changed based on the decision you made. As you play, your Program Supervisor will have additional messages for you. Click this tab to talk to Rahb."
-  overlay_location: "Top-Left"
+  spotlight_position: [-0.54, -2.72]
+  spotlight_size: [1.84, 3.46]
+  mask_position: [303, 0]
+  mask_size: [232, 54]
 
 phase_2_supervisor_opened:
   text: "The problems Rahb brings you work a little differently. She will explain the situation and offer a solution. You can send her out to research the problem and come back with more information. This can open up new options for you, but it takes time. You decide on a solution just like the main screen problems. Try one now."
-  overlay_location: "Top-Left"
+  overlay_location: "Center"
+  confirm: true
+  confirm_next: "phase_2_timer"
 
 phase_2_timer:
+  overlay_location: "Center"
   text: "The year will pass in real time. This timer tells you how long you have to complete your main screen problem. Since time is ticking, you must be careful to work efficiently, and switch back and forth between the main screen and the Supervisor tab. Time will start now! Good luck!"
-  overlay_location: "Top-Left"
+  spotlight_position: [-1.55, -1.77]
+  spotlight_size: [2.14, 2.26]
+  mask_position: [0, 0]
+  mask_size: [1, 1]
   confirm: true
-  confirm_action: "skip_tutorial"
+  confirm_action: "close"
 
 phase_2_year_end:
   text: "Congratulations, you made it to the end of your first year! At the end of each year, you will be given a review of your work, and asked to make an important decision that will affect the future of the program in a more significant way. Choose wisely!"
-  overlay_location: "Top-Left"
-  spotlight_position: [-0.105, -0.766]
-  spotlight_size: [1, 1]
-  mask_position: [20, 20]
-  mask_size: [40, 420]
+  overlay_location: "Center"
+  confirm: true
 

@@ -278,6 +278,7 @@ exports.save =
             // Output grading info
             data.response.score = finalPlanGrade.score;
             data.response.grade = finalPlanGrade.grade_info.grade;
+            data.response.indicators = finalPlanGrade.grade_info.default_affects;
             data.response.description = finalPlanGrade.grade_info.description;
                 
             next();
