@@ -1455,7 +1455,7 @@ unlockable_sanction_voucher_agency:
 unlockable_broaden_what_is_covered:
   indicator_1: -3 
   indicator_2: –6 
-  indicator_3:  –7 
+  indicator_3: –7 
 
 unlockable_information_campaign_to_explain_what_is_covered:
   indicator_1: +4 
