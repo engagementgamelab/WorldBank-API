@@ -31,7 +31,7 @@ characters:
       clarification_of_roles_1: "Next time, let's try to avoid this by making everyone's job clear beforehand. Thanks."
 
   director_regional_health_services: 
-    dialogue: "I'm with the Dep. Minister on this, I want to know what the NGOs are doing."
+    dialogue: "I'm with the Minister on this, I want to know what the NGOs are doing."
 
   ngo_manager:
     dialogue: "We verify everything, I promise. We also give third-party access to the verification, there is no need for the government to also verify."
@@ -41,7 +41,7 @@ characters:
       pressure_the_ngo_to_comply_1: "It takes a lot of time for us to comply with all these verifications. I'm worried we won't have time to meet our targets if we're busy with paperwork."
 
   coach:
-    dialogue: "The problem doesn't have to do with anyone but the NGO and the Third Party Verifier. Hammer it out with them."
+    dialogue: "The issue of verification doesn't have to do with anyone but the NGO and the Third Party Verifier. Negotiate with them."
     narrows: [coach, dep_minister_of_health, director_regional_health_services, community_verifier, hospital_administrator]
 
   third_party_verifier:

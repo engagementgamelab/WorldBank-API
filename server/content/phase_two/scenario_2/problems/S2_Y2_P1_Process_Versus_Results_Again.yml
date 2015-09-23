@@ -10,10 +10,10 @@
 symbol: process_v_results_again
 name: "Process Versus Results"
 priority: 1
-year: 1
+year: 2
 
 initiating_npc: ngo_manager
-initiating_dialogue: "Fuel prices went up, so we had to reduce our outreach to manage costs, and then we couldn't reach our targets. But if we don't get our bonus, next quarter it'll be even worse."
+initiating_dialogue: "Fuel prices went up so we had to reduce our outreach to manage costs, and therefore we couldn't reach our targets. But if we don't get our bonus next quarter it'll be even worse."
 
 starting_options: [deny_payment_2]
 starting_options_affects: [deny_payment_2]
@@ -26,31 +26,31 @@ final_options_cost: [small, small, small]
 characters:
 
   dep_minister_of_health: 
-    dialogue: "The NGO wants autonomy, so you'll have to do your research on what to do."
+    dialogue: "The NGO wants autonomy so you'll have to do your research on what to do."
     narrows: [dep_minister_of_health, ngo_manager, coach, third_party_verifier, community_verifier]
 
   director_regional_health_services:
-    dialogue: "No, they didn't meet their targets, but that doesn't mean my providers and their patients should suffer for it. We're between a rock and hard place."
+    dialogue: "No, they didn't meet their targets, but that doesn't mean my providers and patients should suffer for it. We're between a rock and hard place."
     unlocks: [warn_but_allow_payment_once_2]
     unlocks_affects: [warn_but_allow_payment_once_2]
 
   ngo_manager:
     feedback:
-      warn_but_allow_payment_once_2: "It's good to know we can count on you, just like you can count on us--in an emergency."
+      warn_but_allow_payment_once_2: "It's good to know we can count on you in an emergency, just like you can count on us."
       deny_payment_2: "We're struggling with achieving these targets as it is. It hurts patients when we don't have enough money to work with." 
 
   coach:
-    dialogue: "I don't think the NGO is managing as well as they could--they really should have contingency funding--but maybe in the end they really do need more resources."
+    dialogue: "I don't think the NGO is managing as well as they could. They really should have contingency funding, but maybe in the end they really do need more resources."
     unlocks: [revise_indicators_at_end_of_year_1]
     unlocks_affects: [revise_indicators_at_end_of_year_1]
     feedback:
       revise_indicators: "OK, at year's end I'll sit the purchaser down together with the NGO and we'll figure out some realistic targets and prices."
 
   third_party_verifier:
-    dialogue: "I can confirm that they are not meeting their targets, but other than that, I'm not much help. I can only give you the data, not tell you what to do with it."
+    dialogue: "I can confirm that they are not meeting their targets, but other than that, I'm not much help."
 
   community_verifier:
-    dialogue: "The other day I followed up with a woman who vaccinated her son against dengue right before the mosquitos got bad. The numbers aren't great, but if the payments stop, it will make the situation worse."
+    dialogue: "The other day I followed up with a woman who vaccinated her son against dengue right before the mosquitoes got bad. The numbers aren't great, but if the payments stop, it will make the situation worse."
 
-  hospital_administrator:
-    dialogue: "If there isn't any money for outreach, I don't know how we can reach and treat people. I'd love to get more people in, but I'm glad for what we are doing."
+  clinic_manager:
+    dialogue: "If there is no money to do outreach, I don't know how we can reach and treat people. I'd love to get more people in, but I'm glad for what we are doing."

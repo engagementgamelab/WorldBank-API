@@ -13,7 +13,7 @@ priority: 1
 year: 2
 
 initiating_npc: dep_minister_of_health
-initiating_dialogue: "We're seeing underserved populations throughout the south. The NGO really seems to be falling short of their promises, at least in this area."
+initiating_dialogue: "We're seeing under-served populations throughout the south. The NGO really seems to be falling short of their promises, at least in this area."
 
 starting_options: [terminate_ngo_contract_1]
 starting_options_affects: [terminate_ngo_contract_1]
@@ -35,6 +35,7 @@ characters:
   ngo_manager: 
     dialogue: "It's been a lot harder to reach some populations than we expected, especially down there. The people in the South are more entrenched in traditional medicine, and that's a big obstacle for us to get over when we can only afford the health care itself."
     unlocks: [increase_funding_for_ngo]
+    unlocks_affects: [increase_funding_for_ngo]
     feedback:
       contract_additional_ngo_at_years_end: "I think we could have done it, but it would be a lot of work to reach that province in the south, so I think this is for the best."
       terminate_ngo_contract_1: "We cannot get to absolutely everyone, so you're making it impossible to get health care for everyone else." 
@@ -53,3 +54,5 @@ characters:
 
   hospital_administrator:
     dialogue: "That is why you brought this NGO in, to get people treated. There might be someone who could do it better."
+    unlocks: [contract_additional_ngo_at_years_end]
+    unlocks_affects: [contract_additional_ngo_at_years_end]

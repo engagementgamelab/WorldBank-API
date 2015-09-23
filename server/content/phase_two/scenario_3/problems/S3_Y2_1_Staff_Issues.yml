@@ -25,7 +25,7 @@ characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
-    dialogue: "This has gone on long enough. It is time to take action and reprimand the providers. "
+    dialogue: "This has gone on long enough. It is time to take action and reprimand the providers."
     unlocks: [sanctions_13] # <--- these probably will symbols
     unlocks_affects: [sanctions_13]
 

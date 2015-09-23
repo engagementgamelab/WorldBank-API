@@ -598,7 +598,6 @@
 # -------------------  Scenario 2 - Year 1  ------------------- #
 # -------------------                       ------------------- #
 
-
 #------------------
 # Lack of Procedure - S2_Y1_P1
 #------------------
@@ -608,8 +607,8 @@
 - symbol: create_manual
   title: "Update Manual"
 
-- symbol: give_ministry_more_power
-  title: "Give ministry more power"
+- symbol: clarify_roles_2
+  title: "Clarify roles and responsibilities"
 
 #------------------
 # Process Versus Results - S2_Y1_P2
@@ -635,11 +634,8 @@
 #------------------
 # Managerial Autonomy - S2_Y1_P4
 #------------------
-- symbol: comply_with_ngo_budget_1
-  title: "Advise to follow budget restrictions"
-
 - symbol: move_authority_to_ministry_1
-  title: "Revert power of budgeting to the Ministry"
+  title: "Revert power of staffing to the Ministry"
 
 - symbol: clarification_of_roles_2
   title: "Clarification of roles" 
@@ -652,13 +648,13 @@
 # Process Versus Results Again - S2_Y2_P1
 #------------------
 - symbol: deny_payment_2
-  title: "Deny payment"
+  title: "Deny Payment"
 
 - symbol: warn_but_allow_payment_once_2
-  title: "Warn but allow payment once"
+  title: "Warn but Allow Payment Once"
 
 - symbol: revise_indicators_at_end_of_year_1
-  title: "Revise Fees For Indicators at End of the Year"
+  title: "Revise Fee For Indicators at End of the Year"
 
 #------------------
 # Reach - S2_Y2_P2
