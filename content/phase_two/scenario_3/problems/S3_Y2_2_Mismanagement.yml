@@ -18,16 +18,16 @@ initiating_dialogue: "I was visiting the hospital for my coaching visit, and the
 starting_options: [sanctions_18, retraining_on_use_of_financial_tools_2]
 starting_options_affects: [sanctions_18, retraining_on_use_of_financial_tools_2]
 
-final_options: [sanctions_18, retraining_on_use_of_financial_tools_2, revise_business_plan_6, audit_3]
-final_options_affects: [sanctions_18, retraining_on_use_of_financial_tools_2, revise_business_plan_6, audit_3]
+final_options: [sanctions_18, retraining_on_use_of_financial_tools_2, revise_business_plan_6]
+final_options_affects: [sanctions_18, retraining_on_use_of_financial_tools_2, revise_business_plan_6]
 
 characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
-    dialogue: It sounds like funds have been mismanaged."
-    unlocks: [audit_3]
-    unlocks_affects: [audit_3]
+    dialogue: "It sounds like funds have been mismanaged."
+    unlocks: 
+    unlocks_affects: 
 
   director_regional_health_services: # <--- character's symbol
     dialogue: "Have you considered that there is a flaw in the business plan? If the Hospital Administrator is straying from it so often, it might need to be reevaluated."
@@ -52,4 +52,3 @@ characters:
     dialogue: "I can't control my hiring budget, and my supplies remain squeezed. I'm short staffed and constantly running out of things. So how can I possibly meet the demands of this business plan?"
     feedback: 
       sanctions_18: "I'm doing my best, but I don't know how long I can hold onto my staff like this." # <--- symbol of the option used and the feedback text for it
-      audit_3: "Very well, I'll clear some time. I'm sure you won't find anything wrong with our books."
