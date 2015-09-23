@@ -549,10 +549,10 @@ create_manual:
   indicator_2: +2
   indicator_3: +4
 
-give_ministry_more_power:
-  indicator_1: -2
-  indicator_2: -2
-  indicator_3: -2
+clarify_roles_2:
+  indicator_1: 0
+  indicator_2: +1
+  indicator_3: +2
 
 #------------------
 # Process Versus Results - S2_Y1_P2
@@ -563,22 +563,22 @@ deny_payment_1:
   indicator_3: 0
 
 warn_but_allow_payment_once_1:
-  indicator_1: -1
-  indicator_2: -1
-  indicator_3: -2
+  indicator_1: -2
+  indicator_2: -2
+  indicator_3: -4
 
 #------------------
 # Government Versus Organization - S2_Y1_P3
 #------------------
 pressure_the_ngo_to_comply_1:
-  indicator_1: -2
-  indicator_2: -2
-  indicator_3: -2
+  indicator_1: -3
+  indicator_2: -3
+  indicator_3: -5
 
 cease_counter_verification:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 3
+  indicator_1: -3
+  indicator_2: -3
+  indicator_3: -5
 
 clarification_of_roles_1:
   indicator_1: +2
@@ -588,20 +588,15 @@ clarification_of_roles_1:
 #------------------
 # Managerial Autonomy - S2_Y1_P4
 #------------------
-comply_with_ngo_budget_1:
-  indicator_1: -1
-  indicator_2: -2
-  indicator_3: -1
-
 move_authority_to_ministry_1:
-  indicator_1: -1
-  indicator_2: -1
-  indicator_3: -1
+  indicator_1: -2
+  indicator_2: -4
+  indicator_3: -6
 
 clarification_of_roles_2:
-  indicator_1: +1
-  indicator_2: 0
-  indicator_3: +2
+  indicator_1: +2
+  indicator_2: +4
+  indicator_3: +6
 
 #------------------
 # Process Versus Results Again - S2_Y2_P1
@@ -612,14 +607,14 @@ deny_payment_2:
   indicator_3: 0
 
 warn_but_allow_payment_once_2:
-  indicator_1: 3
-  indicator_2: 0
+  indicator_1: -2
+  indicator_2: -2
   indicator_3: -2
 
 revise_indicators_at_end_of_year_1:
-  indicator_1: -1
-  indicator_2: -1
-  indicator_3: 0
+  indicator_1: +3
+  indicator_2: +2
+  indicator_3: +4
 
 #------------------
 # Reach - S2_Y2_P2
@@ -629,20 +624,15 @@ terminate_ngo_contract_1:
   indicator_2: +1
   indicator_3: +1
 
-revise_operating_manual:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
-
 increase_funding_for_ngo:
-  indicator_1: -1
-  indicator_2: -1
-  indicator_3: -1
+  indicator_1: +2
+  indicator_2: +2
+  indicator_3: +4
 
 contract_additional_ngo_at_years_end:
-  indicator_1: +2
-  indicator_2: +1
-  indicator_3: +1
+  indicator_1: +3
+  indicator_2: +3
+  indicator_3: +5
 
 #------------------
 # Arguments - S2_Y2_P3

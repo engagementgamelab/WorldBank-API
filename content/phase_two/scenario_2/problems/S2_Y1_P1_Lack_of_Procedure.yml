@@ -19,8 +19,8 @@ starting_options: [hold_a_meeting_of_all_stakeholders_1]
 starting_options_affects: [hold_a_meeting_of_all_stakeholders_1]
 starting_options_cost: [small]
 
-final_options: [hold_a_meeting_of_all_stakeholders_1, create_manual, clarify_roles_1]
-final_options_affects: [hold_a_meeting_of_all_stakeholders_1, create_manual, clarify_roles_1]
+final_options: [hold_a_meeting_of_all_stakeholders_1, create_manual, clarify_roles_2]
+final_options_affects: [hold_a_meeting_of_all_stakeholders_1, create_manual, clarify_roles_2]
 final_options_cost: [small, small, small]
 
 characters:
@@ -28,8 +28,8 @@ characters:
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
     dialogue: "Let's get this clear once and for all, who does what."
-    unlocks: [clarify_roles_1]
-    unlocks_affects: [clarify_roles_1]
+    unlocks: [clarify_roles_2]
+    unlocks_affects: [clarify_roles_2]
     feedback: 
       create_manual: "This will make things much more clear. Thank you."
 
@@ -39,11 +39,6 @@ characters:
     unlocks_affects: [create_manual]
     feedback:
       clarify_roles_1: "Let's meet together with the ministry so that we make sure that it is really clear." # <--- symbol of the option used and the feedback text for it
-
-  coach:
-    dialogue: "It's always handy to have something written down for people to refer to."
-    feedback:
-      hold_a_meeting_of_all_stakeholders_1: I'll talk to everyone and make sure they understand what we tried to get across about the different roles.""
 
   third_party_verifier:
     dialogue: "It would be good to deal with this before the different agencies start getting testy with each other."
@@ -55,6 +50,8 @@ characters:
     dialogue: "It's always handy to have something written down for people to look at."
     unlocks: [create_manual]
     unlocks_affects: [create_manual]
+    feedback:
+      hold_a_meeting_of_all_stakeholders_1: "I'll talk to everyone and make sure they understand what we tried to get across about the different roles."
 
   hospital_administrator:
     dialogue: "I keep getting different answers from the NGO and the Ministry about roles. Can you talk to them about it?"
