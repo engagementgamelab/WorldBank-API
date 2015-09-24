@@ -57,7 +57,7 @@
   city1: valeria
   city2: zima
   unlocked: false
-  speed: 60
+  speed: 200
   cost: 1
   transportation_mode: airship
 
