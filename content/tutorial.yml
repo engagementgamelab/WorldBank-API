@@ -8,7 +8,7 @@
 # PHASE TWO
 phase_1_initial:
   overlay_location: "Center"
-  text: "Welcome to Zariba! Explore the world, learn about the health situation, and put together an RBF program proposal to pilot in the next year. Raise your indicators by 30, 35, and 40%!"
+  text: "Welcome to Zariba! Explore the world, learn about the health situation, and put together an RBF program proposal to pilot in the next year."
   confirm: true
 
 phase_1_skip_tutorial:
