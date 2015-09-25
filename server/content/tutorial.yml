@@ -8,7 +8,7 @@
 # PHASE TWO
 phase_1_initial:
   overlay_location: "Center"
-  text: "Welcome to Zariba! Explore the world, learn about the health situation, and put together an RBF program proposal to pilot in the next year. Raise your indicators by 30, 35, and 40%!"
+  text: "Welcome to Zariba! Explore the world, learn about the health situation, and put together an RBF program proposal to pilot in the next year."
   confirm: true
 
 phase_1_skip_tutorial:
@@ -89,7 +89,7 @@ phase_1_map:
 
 phase_1_map_cost:
   overlay_location: "Center"
-  text: "Every time you travel to a new city it will cost some number of days, depending on the route. When you run out of days you are forced to make your RBF proposal and this phase of the game ends."
+  text: "Every time you travel to a new city it will cost some number of days, depending on the route. When you run out of days, you will submit your health program proposal and receive your pilot year results.."
   confirm: true
   confirm_next: "phase_1_city_routes"
 

@@ -140,14 +140,14 @@
   title: "Incentivise Providers to Deliver Services"
   description:
     - "This gives bonuses to providers that deliver more services by incentivising providers to reach specific goals."
-  priority: 1
+  priority: 3
   type: supply_side_resource_allocation
 
 - symbol: unlockable_incentivise_providers_to_follow_protocols
   title: "Incentivise Providers to Follow Protocols"
   description:
     - "This would stress providers to follow protocols in order to receive incentives and create consequences for noncompliance."
-  priority: 1
+  priority: 3
   type: supply_side_resource_allocation
 
 - symbol: unlockable_contract_outside_organization_to_administer_plan
@@ -168,7 +168,7 @@
   title: "Grant Providers Autonomy"
   description: 
     - "This will allow providers the autonomy to suit the needs of their local communities instead of waiting on the Ministry decisions."
-  priority: 1
+  priority: 3
   type: supply_side_resource_allocation
 
 # ------------------
@@ -179,7 +179,7 @@
   title: "Improve Patient and Provider Relationship"
   description:
     - "This would help improve patient/provider relationships in order to increase use of important services long term."
-  priority: 3
+  priority: 1
   type: behavior_knowledge_and_professionalism
 
 - symbol: unlockable_make_aesthetic_improvements

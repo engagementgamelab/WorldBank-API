@@ -16,7 +16,7 @@ prompt_year_2:
   - "Good Job!"
 
 choices: # <---- The choices the player will see during a year break.
-  - text: "Change from a PBC-focused program to PBF-focused program by replacing the NGO with public services"
+  - text: "Now that the year is over, you have the option to alter the program. Do you think we should cancel the NGO's contract and work directly with providers instead? Review your work from the past year and decide."
     # This instructs the game to load the player into twist 1 if at end of year 1.
     # At end of year 2, it would load year 3's twist 1 OR 2 depending on if the player chose an option at end of year 1.
     # This can also be a scenario, e.g. "scenario_4", in which case the player is brought to the specified scenario, with its *default* problems loaded.
