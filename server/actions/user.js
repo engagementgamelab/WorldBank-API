@@ -197,26 +197,6 @@ exports.save =
                 return unlockable.symbol == tactic_symbol;
             })[0].priority;
 
-            // Get the grading info for the plan score
-            gradeInfo = gradingConfig.filter(function(grade) {
-
-                // Scores in grading YML defined as range "x-x"
-                var scoreRange = grade.score.split('-');
-                var scoreAboveMin = planScore >= scoreRange[0];
-                var scoreUnderMax = planScore <= scoreRange[1];
-
-                // Score is within range of grading block?
-                return scoreAboveMin || scoreUnderMax;
-
-            })[0];
-
-            // Grade info not found for the score determined
-            if(gradeInfo === undefined){
-              data.response.error = "No grading info found for plan score: " + planScore + ". Something may be amiss in grading.yml";
-              next();
-              return;
-            }
-
             // If no priority, default to 0
             if(tacticPriority === undefined)
               tacticPriority = 0;
@@ -226,9 +206,33 @@ exports.save =
 
             planScore -= scoreReduction;
 
+            console.log(tactic_symbol + ": " + scoreReduction)
+
             optionIndex++;
 
           });
+
+          // Get the grading info for the plan score
+          gradeInfo = gradingConfig.filter(function(grade) {
+
+              // Scores in grading YML defined as range "x-x"
+              var scoreRange = grade.score.split('-');
+              console.log(planScore + "<=" + scoreRange[0]);
+              console.log(planScore + ">=" + scoreRange[1]);
+              var scoreUnderMax = planScore <= scoreRange[0];
+              var scoreAboveMin = planScore >= scoreRange[1];
+
+              // Score is within range of grading block?
+              return scoreAboveMin && scoreUnderMax;
+
+          })[0];
+
+          // Grade info not found for the score determined
+          if(gradeInfo === undefined){
+            data.response.error = "No grading info found for plan score: " + planScore + ". Something may be amiss in grading.yml";
+            next();
+            return;
+          }
 
           // Determine which filtering flags the plan meets
           var hasPbc = planInput.tactics.indexOf(scenarioFilters.pbc) !== -1;
@@ -240,11 +244,13 @@ exports.save =
 
         // Calculate the plan's score ("grade")
         var finalPlanGrade = planGrade(planInput.tactics);
-        planInput.score = finalPlanGrade.score;
+        planInput.grade = finalPlanGrade.grade_info.grade;
         planInput.default_affects = finalPlanGrade.grade_info.default_affects;
         planInput.affects_bias = finalPlanGrade.grade_info.affects_bias;
         planInput.pbc = finalPlanGrade.pbc;
         planInput.autonomy = finalPlanGrade.autonomy;
+
+        console.log( finalPlanGrade.grade_info )
 
         planInput.created_at = new Date();
 
