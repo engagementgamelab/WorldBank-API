@@ -89,7 +89,7 @@ phase_1_map:
 
 phase_1_map_cost:
   overlay_location: "Center"
-  text: "Every time you travel to a new city it will cost some number of days, depending on the route. When you run out of days you are forced to make your RBF proposal and this phase of the game ends."
+  text: "Every time you travel to a new city it will cost some number of days, depending on the route. When you run out of days, you will submit your health program proposal and receive your pilot year results.."
   confirm: true
   confirm_next: "phase_1_city_routes"
 
