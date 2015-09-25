@@ -83,7 +83,7 @@ phase_1_continue_talking:
 
 phase_1_map:
   overlay_location: "Center"
-  text: "You can click and drag to see different parts of the Zaribian map."
+  text: "You can click and drag to see different parts of Zariba on the map."
   confirm: true
   confirm_next: "phase_1_map_cost"
 
