@@ -19,7 +19,7 @@ character: regional_director_of_health_services_capitol_city
 dialogue:
     Initial:
       text: 
-        - "The Regional Director speaks up. \"I have been trying to improve the health system in the Highlands region for a few years now, but there are [[many obstacles]]. The main referral hospital is in Zima, which is far from the highlands and has its own logistical problems. If we want to improve the health of the people in Zariba, we need to start in the highlands, but even if these obstacles could be overcome, there is much [[confusion]]. The situation is not good, and we lag behind the rest of the country, and our neighbors,\" he says. \"More than 80% of the people in the highlands live in extreme poverty, and cannot purchase even basic health services."
+        - "The Regional Director speaks up. \"I have been trying to improve the health system in the Highlands region for a few years now, but there are [[many obstacles]]. The main referral hospital is in Zima, which is far from the Highlands and has its own logistical problems. If we want to improve the health of the people in Zariba, we need to start in the Highlands, but even if these obstacles could be overcome, there is much [[confusion]]. The situation is not good, and we lag behind the rest of the country, and our neighbors,\" he says. \"More than 80% of the people in the Highlands live in extreme poverty, and cannot purchase even basic health services."
         - "I still have more to tell you."
     Many Obstacles:
       text:
@@ -28,6 +28,6 @@ dialogue:
       unlocks_context: ["The Regional Director of Health Services for the Highlands says 80% of people live in extreme poverty."]
     Confusion:
       text:
-        - "When you ask about the confusion, he nods. \"Those with little money also have little time to educate themselves on matters of health,\" he says. \"If we are going to be implementing radical changes, I'm honestly not sure how people in the rural communities of the highlands will be able to keep up.\""
+        - "When you ask about the confusion, he nods. \"Those with little money also have little time to educate themselves on matters of health,\" he says. \"If we are going to be implementing radical changes, I'm honestly not sure how people in the rural communities of the Highlands will be able to keep up.\""
       unlocks: [unlockable_information_campaign_to_explain_changes_to_system]
       unlocks_context: ["It will be difficult to sensitize the population on changes, so good communication strategies will help."]

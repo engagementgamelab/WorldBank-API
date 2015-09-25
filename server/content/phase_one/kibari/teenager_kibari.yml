@@ -27,6 +27,6 @@ dialogue:
       unlocks_context: ["Hiring nurses from local communities could encourage people to visit facilities."]
     This Area: 
       text: 
-        - "\"You must know where you are. We are in the heart of the highlands. People here are used to doing things the old way. That means Mr. Todd.\" He points to the lavish domicile further along the road where a well-dressed man stands."
+        - "\"You must know where you are. We are in the heart of the Highlands. People here are used to doing things the old way. That means Mr. Todd.\" He points to the lavish domicile further along the road where a well-dressed man stands."
       unlocks: [unlockable_information_campaign_to_explain_changes_to_system]
       unlocks_context: ["People are ingrained in the old ways of doing things. You have to work hard to promote a new way of working."]

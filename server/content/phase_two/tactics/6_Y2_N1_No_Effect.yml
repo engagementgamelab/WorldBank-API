@@ -13,10 +13,10 @@ name: "No Effect" # <--- display name for card
 year: 2
 
 # This dialogue the player sees first
-initiating_dialogue: "Health facilities have been hiring more nurses from the highlands as requested, but they now claim the extra time it takes to train them and to relocate them is not worth the incentives we are offering for this."
+initiating_dialogue: "Health facilities have been hiring more nurses from the Highlands as requested, but they now claim the extra time it takes to train them and to relocate them is not worth the incentives we are offering for this."
 
 # The dialogue the player sees when investigation has results to show
-investigate_dialogue: "People from the highlands do like seeing people from their region when they go to the hospital. The incentives for this could be increased to make it more attractive. However, it might be prudent to analyze the effect they are having in a more detailed way to see if they are worth it, though."
+investigate_dialogue: "People from the Highlands do like seeing people from their region when they go to the hospital. The incentives for this could be increased to make it more attractive. However, it might be prudent to analyze the effect they are having in a more detailed way to see if they are worth it, though."
 
 investigate_further_dialogue: "The impact of the nurses seems to be negligible so far. We could increase the incentives to encourage more of them to be hired and see if the impact increases, or we could just let facilities hire whoever they wish to attain the results."
 
