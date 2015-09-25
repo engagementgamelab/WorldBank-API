@@ -13,7 +13,7 @@ name: "Voucher Acceptance" # <--- display name for card
 year: 2 
 
 # This dialogue the player sees first
-initiating_dialogue: "The community verifier tells me that some people were turned away from a hospital in the highlands when they tried to pay with vouchers. They demanded cash!"
+initiating_dialogue: "The community verifier tells me that some people were turned away from a hospital in the Highlands when they tried to pay with vouchers. They demanded cash!"
 
 # The dialogue the player sees when investigation has results to show
 investigate_dialogue: "I spoke with the administrator of the hospital, and they said they don't have the money they need to keep the hospital open without the cash. It takes weeks for them to be paid for the vouchers, so they can't afford to accept them."

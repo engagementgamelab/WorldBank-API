@@ -27,6 +27,6 @@ dialogue:
       unlocks_context: ["Bad customer service discourages patients."]
     Government Incompetence: 
       text: 
-        - "\"The governor claims they are increasing the budget for health care and doing many great things for people in the highlands, but where are the results? I do not see them.\""
+        - "\"The governor claims they are increasing the budget for health care and doing many great things for people in the Highlands, but where are the results? I do not see them.\""
       unlocks: [unlockable_contract_outside_organization_to_administer_plan]
       unlocks_context: ["If the government is not a competent, reliable regulator, an NGO might fill this role instead."]

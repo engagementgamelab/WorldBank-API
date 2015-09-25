@@ -23,7 +23,7 @@ dialogue:
         - "\"Was there something else you needed?\" the Merchant asks. \"Whatever you need, I have it!\""
     Kibari:
       text: 
-        - "You approach the man and ask about Kibari: \"Kibari is the heart of the highlands, and the center of commerce and traditional knowledge for the nation. From Kibari, the whole nation is wide open to you. It is easy enough to get to. Just hitch a ride with one of the local farm transports. They come and go every day.\""
+        - "You approach the man and ask about Kibari: \"Kibari is the heart of the Highlands, and the center of commerce and traditional knowledge for the nation. From Kibari, the whole nation is wide open to you. It is easy enough to get to. Just hitch a ride with one of the local farm transports. They come and go every day.\""
       unlocks: [unlockable_route_malcom_to_kibari]
       unlocks_context: ["You've discovered a new route to Kibari."]
     Mr. Todd: 
