@@ -54,10 +54,10 @@ phase_1_unlocked_something:
 phase_1_plan_creation_screen:
   overlay_location: "Center"
   text: "At any time you can access the program creation screen to start forming your RBF proposal. Click here to open this screen."
-  spotlight_position: [0.49, 0.45]
+  spotlight_position: [0.29, 0.29]
   spotlight_size: [3.3, 3.25]
-  mask_position: [5, -573]
-  mask_size: [46, 47]
+  mask_position: [5, -537]
+  mask_size: [72, 82]
 
 phase_1_tactics:
   overlay_location: "Bottom-Right"
@@ -71,10 +71,10 @@ phase_1_tactics:
 phase_1_tactic_slots:
   overlay_location: "Bottom-Right"
   text: "Each slot has a priority level. Policies placed higher up will be prioritized meaning their benefits and consequences will be amplified. You can change your program proposal any time before the final submission.  Click here to close your notebook."
-  spotlight_position: [0.35, 0.33]
-  spotlight_size: [5, 5]
-  mask_position: [5, -573]
-  mask_size: [46, 47]
+  spotlight_position: [0.29, 0.29]
+  spotlight_size: [3.3, 3.25]
+  mask_position: [5, -537]
+  mask_size: [72, 82]
 
 phase_1_continue_talking:
   overlay_location: "Center"
