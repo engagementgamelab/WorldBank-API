@@ -173,6 +173,9 @@ exports.save =
         var gradingConfig = api.readYaml("grading.yml");
         var planKeysConfig = api.gameConfig.content.plan.scoring_keys;
 
+        // Obtain scenario filtering flags 
+        var scenarioFilters = api.gameConfig.content.plan.scenario_filters;
+
         var gradeInfo = null;
 
         if(planInput.tactics.length !== 6) {
@@ -227,8 +230,12 @@ exports.save =
 
           });
 
+          // Determine which filtering flags the plan meets
+          var hasPbc = planInput.tactics.indexOf(scenarioFilters.pbc) !== -1;
+          var hasAutonomy = planInput.tactics.indexOf(scenarioFilters.autonomy) !== -1;
+
           // Output the score and plan info
-          return { score: planScore, grade_info: gradeInfo  };
+          return { score: planScore, grade_info: gradeInfo, pbc: hasPbc, autonomy: hasAutonomy  };
         }
 
         // Calculate the plan's score ("grade")
@@ -236,6 +243,8 @@ exports.save =
         planInput.score = finalPlanGrade.score;
         planInput.default_affects = finalPlanGrade.grade_info.default_affects;
         planInput.affects_bias = finalPlanGrade.grade_info.affects_bias;
+        planInput.pbc = finalPlanGrade.pbc;
+        planInput.autonomy = finalPlanGrade.autonomy;
 
         planInput.created_at = new Date();
 
@@ -253,7 +262,7 @@ exports.save =
           }
 
           // Save the plan
-          planModel.save(function(err) {
+          planModel.save(function(err, updatedPlan) {
 
             if (err) {
               data.response.error = err;
@@ -261,8 +270,7 @@ exports.save =
               return;
             }
 
-            // Associate this plan w/ the user and mark user as having submitted plan
-            user.plan_id = planModel._id;
+            user.plan_id = planModel.id;
             user.submitted_plan = true;
 
             user.save(function (err, updatedUser) {

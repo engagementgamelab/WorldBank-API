@@ -172,9 +172,17 @@ phase_2_actions:
   mask_size: [335, 119]
   confirm: true
 
+phase_2_feedback:
+  overlay_location: "Bottom-Right"
+  text: "Well done! Your indicators have changed based on the decision you made. You must confirm the feedback you have received about your decision."
+  spotlight_position: [0.16, -0.1]
+  spotlight_size: [1.59, 3.46]
+  mask_position: [42, -489]
+  mask_size: [200, 54]
+
 phase_2_supervisor:
   overlay_location: "Bottom-Right"
-  text: "Well done! Your indicators have changed based on the decision you made. As you play, your Program Supervisor will have additional messages for you. Click this tab to talk to Rahb."
+  text: "Somebody has come to you with a new problem. First, though, let's go talk to Rahb, your Program Supervisor, who will have additional messages for you. Click the tab."
   spotlight_position: [-0.54, -2.72]
   spotlight_size: [1.84, 3.46]
   mask_position: [303, 0]

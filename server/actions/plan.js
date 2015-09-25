@@ -10,6 +10,8 @@ Created by Engagement Lab, 2015
 */
 "use strict";
 
+var _ = require('underscore');
+
 /**
 * @class plan
 **/
@@ -18,7 +20,7 @@ Created by Engagement Lab, 2015
 * @method getAll
 * @attribute POST
 * @required
-* @return {Object} All plan IDs if successful (200).
+* @return {Object} Plan for each scenario type and player's last plan if successful (200).
 * @throws {Object} Returns error if missing required field(s) or invalid data.
 */
 exports.getAll = 
@@ -33,24 +35,71 @@ exports.getAll =
     toDocument: true,
     // requiresAuth: true,
 
-    inputs: {},
+    inputs:  {
+      required: ["user_id"]
+    },
 
-    /* GET all plan IDs. */
     run: function (api, data, next) {
+        var arrPlanOutput = [];
 
-      api.mongo.plan.find({}, function(err, plans) {
-        
-        var planIDs = [];
+        var queryDone = _.after(4, randomResponse);
+        var recordLimit = {limit: 1};
 
-        plans.forEach(function(plan) {
-          planIDs.push({id: plan._id, name: plan.name});
-        });
+        var dataInput = data.connection.rawConnection.params.body;
 
-        data.response = planIDs;
+        function getPlanWithFilter(filter) {
+
+          api.mongo.plan.findRandom(filter, {},  recordLimit, function(err, planResult) {
             
-        next();
+            if (err) {
+                data.response.error = "Mongo error: " + err;
+                next();
+            }
 
-      });
+            arrPlanOutput.push(planResult[0]);
+
+            queryDone();
+
+          });
+
+        }
+
+        getPlanWithFilter({'pbc': true, 'autonomy': true});
+        getPlanWithFilter({'pbc': true, 'autonomy': false});
+        getPlanWithFilter({'pbc': false, 'autonomy': true});
+        getPlanWithFilter({'pbc': false, 'autonomy': false});
+
+        function randomResponse() {
+
+/*            api.mongo.user.findById(dataInput.user_id, function (err, user) {
+                // Database error
+                if(err) {
+                    data.response.error = err;
+
+                    next();
+                }
+                // User not found
+                else if(user == null) {
+                    data.response.error = "The user with the specified id was not found.";
+
+                    next();
+                };
+
+                api.mongo.plan.findById(user.plan_id, function (err, userPlan) {
+
+                    arrPlanOutput.splice(1, 0, userPlan);
+
+                    
+                });
+            
+            });*/
+
+            data.response = {plans: JSON.stringify(arrPlanOutput)};
+            next();
+
+
+        }
+
 
     }
 

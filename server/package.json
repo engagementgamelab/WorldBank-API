@@ -19,12 +19,13 @@
     "path": "latest",
     "grunt": "latest",
     "node-dir": "latest",
-    "mongoose": "latest",
+    "mongoose": "4.1.8",
     "forever": "latest",
     "passport": "latest",
     "passport-local": "latest",
     "newrelic": "latest",
-    "universal-analytics": "0.3.8"
+    "universal-analytics": "0.3.8",
+    "mongoose-simple-random": "0.3.3"
   },
   "devDependencies": {
     "mocha": "latest",

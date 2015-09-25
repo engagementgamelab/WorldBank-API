@@ -13,8 +13,7 @@ exports.default = {
       */
 
       get: [
-        { path: '/gameData', action: 'gameData' }, // (GET) /api/user/create
-        { path: '/plan/all', action: 'allPlans' }, // (GET) /api/plan/all
+        { path: '/gameData', action: 'gameData' } // (GET) /api/user/create
       ],
       post: [
         // { path: '/login/:userID(^\\d{3}$)', action: 'login' } // (POST) /api/login/123
@@ -25,7 +24,8 @@ exports.default = {
         { path: '/user/scenario', action: 'userAssignScenario' }, // (POST) /api/user/scenario
         
         { path: '/analytics/event', action: 'analyticsEvent' }, // (POST) /api/analytics/event
-        { path: '/auth', action: 'apiAuth' } // (POST) /api/auth
+        { path: '/auth', action: 'apiAuth' }, // (POST) /api/auth
+        { path: '/plan/all', action: 'allPlans' } // (POST) /api/plan/all
       ]
 
       /* ---------------------
