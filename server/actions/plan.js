@@ -83,6 +83,12 @@ exports.getAll =
 
                 // Find user's plan
                 api.mongo.plan.findById(user.plan_id, function (err, userPlan) {
+                    // Database error
+                    if(err) {
+                        data.response.error = "Mongo error: " + err;
+
+                        next();
+                    }
 
                     // Put plan at front of output array
                     arrPlanOutput.splice(0, 0, userPlan);

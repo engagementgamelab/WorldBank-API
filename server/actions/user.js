@@ -206,8 +206,6 @@ exports.save =
 
             planScore -= scoreReduction;
 
-            console.log(tactic_symbol + ": " + scoreReduction)
-
             optionIndex++;
 
           });
@@ -217,8 +215,7 @@ exports.save =
 
               // Scores in grading YML defined as range "x-x"
               var scoreRange = grade.score.split('-');
-              console.log(planScore + "<=" + scoreRange[0]);
-              console.log(planScore + ">=" + scoreRange[1]);
+              
               var scoreUnderMax = planScore <= scoreRange[0];
               var scoreAboveMin = planScore >= scoreRange[1];
 
@@ -249,8 +246,6 @@ exports.save =
         planInput.affects_bias = finalPlanGrade.grade_info.affects_bias;
         planInput.pbc = finalPlanGrade.pbc;
         planInput.autonomy = finalPlanGrade.autonomy;
-
-        console.log( finalPlanGrade.grade_info )
 
         planInput.created_at = new Date();
 
@@ -395,7 +390,7 @@ exports.scenario =
 
             if (err) data.response.error = err;
 
-            user.plan_id = plan._id;
+            // user.plan_id = plan._id;
             data.response.current_scenario = user.current_scenario = assignUserScenario(plan);
             data.response.tactics = plan.tactics;
             data.response.default_affects = plan.default_affects;
