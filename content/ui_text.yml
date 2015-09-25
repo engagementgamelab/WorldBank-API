@@ -37,3 +37,9 @@ copy_city_pass_through_extra_day: "Do you want to go this way? From here, you co
 
 copy_blocked_route: "You return to the train station and learn that bad weather has triggered a landslide to the east. The train tracks between Mile and Zima have been destroyed.\nA young man tugs on your shirt and grins. He says he drives a produce truck and can get you to Kibari, the heart of the Highlands. \"From there,\" he says, \"you can get anywhere!\""
 copy_unlock_blocked_route: "Route to Kibari unlocked"
+
+# Unlockable content for capital city (used when player skips tutorial)
+copy_unlockable_grant_providers_autonomy: "The Finance Minister suggests more autonomy is needed for health staff in the region."
+copy_unlockable_incentivise_providers_to_deliver_services: "Facilities are not providing enough services. If they are incentivised to provide more, they probably will."
+copy_unlockable_vouchers_for_services: "The Regional Director of Health Services for the Highlands says 80% of people live in extreme poverty."
+copy_unlockable_information_campaign_to_explain_changes_to_system: "It will be difficult to sensitize the population on changes, so good communication strategies will help."
