@@ -27,7 +27,7 @@ dialogue:
       unlocks_context: ["A midwife might have more to say about this. Find her."]
     Disagreements: 
       text: 
-        - "\"In Zariba, it is customary that women give birth in their own homes with a traditional attendant in the room. My daughter in law does not want to travel to Valeria and does not want a midwife. It is frustrating.\" When you ask about whether her employees can afford the same care, she shrugs. \"I would be willing to pay for my employees to deliver with a midwife, but they don't want to change their practices anyway.\""
+        - "\"In Zariba, it is customary that women give birth in their own homes with a traditional attendant in the room. My daughter-in-law does not want to travel to Valeria and does not want a midwife. It is frustrating.\" When you ask about whether her employees can afford the same care, she shrugs. \"I would be willing to pay for my employees to deliver with a midwife, but they don't want to change their practices anyway.\""
       unlocks: [unlockable_information_campaign_to_change_cultural_customs_and_behavior]
       unlocks_context: ["The plantation owner says that women give birth in their own homes, even when this is dangerous."]
     unlockable_dialogue_plantation_owner:

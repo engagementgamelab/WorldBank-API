@@ -18,7 +18,7 @@ character: dep_minister_of_health_capitol_city
 dialogue:
   Initial:
     text:
-      - "Thank you again for coming all the way here. [[Your expertise]] is much appreciated. Our health system has been drastically underperforming despite concerted efforts. Our mortality rates for children under five are unacceptable. "
+      - "Thank you again for coming all the way here. [[Your expertise]] is much appreciated. Our health system has been drastically underperforming despite concerted efforts. Our mortality rate for children under five are unacceptable. "
       - "Thank you again for all your help!"
   Your Expertise:
     text:
