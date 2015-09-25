@@ -16,7 +16,7 @@ prompt_year_2:
   - "Good Job!"
 
 choices: # <---- The choices the player will see during a year break.
-  - text: "Suggest replacing the Clinic Manager"
+  - text: "Now that the year is over, you have the option to alter the program by terminating a provider's contract. Do you want to terminate the clinic manager's contract and replace them with a new provider? Take a look at your work from the past year and decide."
     # This instructs the game to load the player into twist 1 if at end of year 1.
     # At end of year 2, it would load year 3's twist 1 OR 2 depending on if the player chose an option at end of year 1.
     # This can also be a scenario, e.g. "scenario_4", in which case the player is brought to the specified scenario, with its *default* problems loaded.
