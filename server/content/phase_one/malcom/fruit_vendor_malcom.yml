@@ -27,6 +27,6 @@ dialogue:
       unlocks_context: ["People like the fruit farmers can't afford services, so vouchers may be necessary."]
     Valerian: 
       text: 
-        - "You ask about Valeria. \"Valeria never used to be part of Zariba, but now that we have road access there is a whole new market! The airship port is somthing you wont want to miss. A bus leaves for Valeria every hour until sunset.\""
+        - "You ask about Valeria. \"Valeria never used to be part of Zariba, but now that we have road access there is a whole new market! The airship port is something you will not want to miss. A bus leaves for Valeria every hour until sunset.\""
       unlocks: [unlockable_route_malcom_to_valeria]
       unlocks_context: ["You have discovered a route to Valeria"]

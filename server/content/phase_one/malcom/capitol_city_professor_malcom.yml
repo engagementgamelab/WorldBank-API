@@ -19,11 +19,11 @@ character: capitol_city_professor_malcom
 dialogue:
     Initial:
       text: 
-        - "He introduces himself enthusiastically and tells you about his work studying political science and the old Zariban empire. His friendly demeanor shifts into annoyance as he speaks about his need to get to [[Mile]] and sighs as he holds up a picture of the [[Prime Minister]] on the front page of his paper."
+        - "He introduces himself enthusiastically and tells you about his work studying political science and the old Zariban empire. His friendly demeanor shifts into annoyance as he speaks about his need to get to [[Mile]]. He sighs,  holding up a picture of the [[Prime Minister]] on the front page of his paper."
         - "The professor closes the window on his tablet and looks you square in the eye. \"Back to continue our conversation?\""
     Mile: 
       text: 
-        - "You ask him about Mile: \"I have not been down that far south in decades but I hear the life hasn't changed much. Good people who still remember life before the current regime took power.\" He indicates the Prime Minister's photo as he speaks. \"You can take the train through Mile into Zima, though the tracks have been terrible for years.\""
+        - "You ask him about Mile: \"I have not been down that far south in decades but I hear the life hasn't changed much. Good people who still remember life before the current regime took power.\" He motions toward the Prime Minister's photo as he speaks. \"You can take the train through Mile into Zima, though the tracks have been terrible for years.\""
       unlocks: [unlockable_dialogue_refugee]
       unlocks_context: ["Find someone in Mile who has traveled. They can confirm this..."]
     Prime Minister: 

@@ -18,7 +18,7 @@ character: old_men_gaming_crup
 dialogue:
   Initial:
     text: 
-      - "You stand a little closer and are able to hear their conversation. \"Damn arthritis,\" one says, grabbing at a tile. The other replies, \"You should visit Kibari and see Mr. Todd. Best medicine man in Zariba!\" You realize they haven't noticed your presence. Do you [[Keep listening]] or interrupt to [[ask about kibari]] or [[ask about Zima]]."
+      - "You stand a little closer and are able to hear their conversation. \"Damn arthritis,\" one says, grabbing at a tile. The other replies, \"You should visit Kibari and see Mr. Todd. Best medicine man in Zariba!\" You realize they haven't noticed your presence. Do you [[Keep listening]] or interrupt to [[ask about Kibari]] or [[ask about Zima]]."
       - "\"Excellent move,\" one says. \"I have you on the run, now,\" replies the second. \"Ouch... damn arthritis.\" \"You need to see Mr. Todd.\""
   Keep Listening:
     text:
