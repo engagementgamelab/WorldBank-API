@@ -36,15 +36,6 @@ var planSchema = new mongoose.Schema({
 
 planSchema.plugin(random);
 
-planSchema.pre('validate', function(next) {
-  // get the current date
-  // var currentDate = new Date();
-  
-  // this.last_accessed = currentDate;
-
-  next();
-});
-
 // Create the Plan model
 var Plan = mongoose.model('Plan', planSchema);
 module.exports = Plan;

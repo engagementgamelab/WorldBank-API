@@ -42,7 +42,7 @@ exports.getAll =
     run: function (api, data, next) {
         var arrPlanOutput = [];
 
-        var queryDone = _.after(4, randomResponse);
+        var queryDone = _.after(4, getUserPlan);
         var recordLimit = {limit: 1};
 
         var dataInput = data.connection.rawConnection.params.body;
@@ -64,17 +64,13 @@ exports.getAll =
 
         }
 
-        getPlanWithFilter({'pbc': true, 'autonomy': true});
-        getPlanWithFilter({'pbc': true, 'autonomy': false});
-        getPlanWithFilter({'pbc': false, 'autonomy': true});
-        getPlanWithFilter({'pbc': false, 'autonomy': false});
+        function getUserPlan() {
 
-        function randomResponse() {
-
-/*            api.mongo.user.findById(dataInput.user_id, function (err, user) {
+            // Lookup user requested to get their current plan
+            api.mongo.user.findById(dataInput.user_id, function (err, user) {
                 // Database error
                 if(err) {
-                    data.response.error = err;
+                    data.response.error = "Mongo error: " + err;
 
                     next();
                 }
@@ -85,21 +81,25 @@ exports.getAll =
                     next();
                 };
 
+                // Find user's plan
                 api.mongo.plan.findById(user.plan_id, function (err, userPlan) {
 
-                    arrPlanOutput.splice(1, 0, userPlan);
+                    // Put plan at front of output array
+                    arrPlanOutput.splice(0, 0, userPlan);
 
-                    
+                    // Send plans
+                    data.response = {plans: JSON.stringify(arrPlanOutput)};
+                    next();
+                  
                 });
             
-            });*/
-
-            data.response = {plans: JSON.stringify(arrPlanOutput)};
-            next();
-
-
+            });
         }
 
+        getPlanWithFilter({'pbc': true, 'autonomy': true});
+        getPlanWithFilter({'pbc': true, 'autonomy': false});
+        getPlanWithFilter({'pbc': false, 'autonomy': true});
+        getPlanWithFilter({'pbc': false, 'autonomy': false}); 
 
     }
 

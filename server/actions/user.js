@@ -157,7 +157,7 @@ exports.save =
 
     inputs:  {
       required: ["user_id"],
-      optional: ["plan", "save_plan", "save_tutorial"]
+      optional: ["plan", "save_plan", "save_tutorial", "tutorial_1", "tutorial_2"]
     },
 
     /* GET game data. */
@@ -270,7 +270,7 @@ exports.save =
               return;
             }
 
-            user.plan_id = planModel.id;
+            user.plan_id = planModel._id;
             user.submitted_plan = true;
 
             user.save(function (err, updatedUser) {
