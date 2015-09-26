@@ -432,7 +432,7 @@ warn_providers_to_follow_protocols_2:
 
 decrease_incentives_2:
   indicator_1: 0
-  indicator_2: 3
+  indicator_2: -3
   indicator_3: -1
 
 maintain_current_rates_2:
@@ -1935,7 +1935,7 @@ unlockable_create_informational_pamphlets:
 
 unlockable_provide_health_facilities_with_equipment_to_print_materials:
   indicator_1: -1
-  indicator_2: -2
+  indicator_2: 2
   indicator_3: 0
 
 
