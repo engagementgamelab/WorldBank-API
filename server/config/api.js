@@ -5,7 +5,7 @@
 exports.default = {
   general: function(api){
     return {
-      apiVersion: '0.0.17',
+      apiVersion: '0.0.18',
       serverName: 'World Bank API',
       // id can be set here, or it will be generated dynamically.
       //  Be sure that every server you run has a unique ID (which will happen when generated dynamically)

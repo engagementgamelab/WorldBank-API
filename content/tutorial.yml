@@ -31,8 +31,8 @@ phase_1_rahb:
 phase_1_interactions_counter:
   overlay_location: "Center"
   text: "When you select a dialogue option that has an icon next to it, this number decreases. This indicates how many conversations you can have before you're forced to leave the city. Try asking Rahb something else."
-  spotlight_position: [0.18, -2.72]
-  spotlight_size: [5, 3.31]
+  spotlight_position: [0.36, -2.28]
+  spotlight_size: [2.51, 3.08]
   mask_position: [0, 0]
   mask_size: [84, 54]
   confirm: true

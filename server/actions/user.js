@@ -318,7 +318,7 @@ exports.save =
 
           user.save(function (err, updatedUser) {
             
-            if (err) data.response.error = err;
+            if (err) data.response.error = "Mongo error: " + err;
 
           });
                 
