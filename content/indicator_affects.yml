@@ -239,7 +239,7 @@ increase_incentives_to_hospital:
 
 decrease_incentives:
   indicator_1: 0
-  indicator_2: 3
+  indicator_2: +3
   indicator_3: -1
 
 warn_providers_to_follow_protocols:
@@ -298,7 +298,7 @@ retrain_1:
 train_locals_1:
   indicator_1: +1
   indicator_2: -1
-  indicator_3: 3
+  indicator_3: -3
 
 stick_to_the_plan_1:
   indicator_1: +1
