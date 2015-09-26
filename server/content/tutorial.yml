@@ -30,7 +30,7 @@ phase_1_rahb:
 
 phase_1_interactions_counter:
   overlay_location: "Center"
-  text: "When you select a dialogue option that has an icon next to it, this number decreases. This indicates how many conversations you can have before you're forced to leave the city. Try asking Rahb something else."
+  text: "When you select a dialogue option that has an icon next to it, this number decreases. This indicates how many conversations you can have before you're forced to leave the city."
   spotlight_position: [0.36, -2.28]
   spotlight_size: [2.51, 3.08]
   mask_position: [0, 0]
@@ -96,10 +96,10 @@ phase_1_map_cost:
 phase_1_city_routes:
   overlay_location: "Bottom-Right"
   text: "You can travel to a new city if a yellow route is active between your location and the new city. Try clicking on Malcom or Crup now."
-  spotlight_position: [-0.58, -0.61]
-  spotlight_size: [3.87, 3.95]
-  mask_position: [138, -394]
-  mask_size: [140, 105]
+  spotlight_position: [0.08, 0.35]
+  spotlight_size: [1.1, 0.35]
+  mask_position: [67, 0]
+  mask_size: [369, 475]
   confirm: true
 
 phase_1_travel:
@@ -114,10 +114,10 @@ phase_1_travel:
 phase_1_conversation_points:
   overlay_location: "Center"
   text: "You still have conversation points in this city! Remember, you can see your remaining interactions at the upper-left. Click on the map icon to return to the city."
-  spotlight_position: [-2.72, 0.56]
-  spotlight_size: [3.22, 2.54]
-  mask_position: [724, -568]
-  mask_size: [60, 56]
+  spotlight_position: [-2.64, 0.61]
+  spotlight_size: [3.3, -2.5]
+  mask_position: [700, -508]
+  mask_size: [82, 82]
 
 phase_1_end:
   overlay_location: "Center"
