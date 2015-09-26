@@ -6,29 +6,29 @@
 # ==============
 
 prompt_year_1: 
-  - "You did nothing!!"
-  - "Thank you for joining us for the end of year meeting. According to these reports, some of your indicator numbers have dropped. We would like to know if you need anything approved through us to make the program run more efficiently."
-  - "Thank you for joining us for the end of year meeting. It seems like your program implementation is going smoothly, yes? That said, we would like to know if you need anything approved through us to make the program run more efficiently."
+  - "Now that the year is over, you have the option to alter the program by terminating a provider's contract. Do you want to terminate the clinic manager's contract and replace them with a new provider?"
+  - "Now that the year is over, you have the option to alter the program by terminating a provider's contract. Do you want to terminate the clinic manager's contract and replace them with a new provider?"
+  - "Now that the year is over, you have the option to alter the program by terminating a provider's contract. Do you want to terminate the clinic manager's contract and replace them with a new provider?"
 
 prompt_year_2: 
-  - "You did nothing!!"
-  - "Thank you for joining us for the end of year meeting. According to these reports, some of your indicator numbers have dropped. We would like to know if you need anything approved through us to make the program run more efficiently."
-  - "Thank you for joining us for the end of year meeting. It seems like your program implementation is going smoothly, yes? That said, we would like to know if you need anything approved through us to make the program run more efficiently."
+  - "Now that the year is over, you have the option to alter the program by terminating a provider's contract. Do you want to terminate the clinic manager's contract and replace them with a new provider?"
+  - "Now that the year is over, you have the option to alter the program by terminating a provider's contract. Do you want to terminate the clinic manager's contract and replace them with a new provider?."
+  - "Now that the year is over, you have the option to alter the program by terminating a provider's contract. Do you want to terminate the clinic manager's contract and replace them with a new provider?"
 
 prompt_year_2_twist: 
-  - "You did nothing!!"
-  - "Thank you for joining us for the end of year meeting. According to these reports, some of your indicator numbers have dropped. We would like to know if you need anything approved through us to make the program run more efficiently."
-  - "Thank you for joining us for the end of year meeting. It seems like your program implementation is going smoothly, yes? That said, we would like to know if you need anything approved through us to make the program run more efficiently."
+  - "You have one more year to go before we see if you have met your goals. If you are having complications with this new traditional clinic manager, we do have another provider at the ready. Would you like to replace him?"
+  - "You have one more year to go before we see if you have met your goals. If you are having complications with this new traditional clinic manager, we do have another provider at the ready. Would you like to replace him?"
+  - "You have one more year to go before we see if you have met your goals. If you are having complications with this new traditional clinic manager, we do have another provider at the ready. Would you like to replace him?"
 
 choices: # <---- The choices the player will see during a year break.
-  - text: "Now that the year is over, you have the option to alter the program by terminating a provider's contract. Do you want to terminate the clinic manager's contract and replace them with a new provider? Take a look at your work from the past year and decide."
+  - text: "Replace Clinic Manager with new provider"
     # This instructs the game to load the player into twist 1 if at end of year 1.
     # At end of year 2, it would load year 3's twist 1 OR 2 depending on if the player chose an option at end of year 1.
     # This can also be a scenario, e.g. "scenario_4", in which case the player is brought to the specified scenario, with its *default* problems loaded.
     load: "twist" 
 
 choices_twist:
-  - text: "You have one more year to go before we see if you have met your goals. If you are having complications with this new traditional clinic manager, we do have another provider at the ready. Would you like to replace him?"
+  - text: "Replace Mr. Todd with new provider"
     # This instructs the game to load the player into twist 1 if at end of year 1.
     # At end of year 2, it would load year 3's twist 1 OR 2 depending on if the player chose an option at end of year 1.
     # This can also be a scenario, e.g. "scenario_4", in which case the player is brought to the specified scenario, with its *default* problems loaded.
