@@ -82,7 +82,7 @@ sanctions_17:
 retraining_on_use_of_financial_tools:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: -1 
+  indicator_3: -1
 
 audit_2:
   indicator_1: 0
@@ -1340,7 +1340,7 @@ unlockable_warning_t1:
   indicator_3: 0
 
 unlockable_sanctions_t1:
-  indicator_1: –3
+  indicator_1: -3
   indicator_2: 0
   indicator_3: 0
 
