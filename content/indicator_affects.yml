@@ -82,7 +82,7 @@ sanctions_17:
 retraining_on_use_of_financial_tools:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: -1 
+  indicator_3: -1
 
 audit_2:
   indicator_1: 0
@@ -998,3 +998,1096 @@ terminate_contract_at_end_of_year_8:
   indicator_1: +1
   indicator_2: -2
   indicator_3: -3
+
+tie_incentives_directly_to_protocol:
+  indicator_1: +3
+  indicator_2: +4
+  indicator_3: +7
+
+reduce_incentives_for_customer_service:
+  indicator_1: -1
+  indicator_2: -3
+  indicator_3: -4
+
+#------------------
+# Missing Goals - S3_Y3_4
+#------------------
+
+return_to_traditional_financing:
+  indicator_1: -1
+  indicator_2: -2
+  indicator_3: -1
+
+terminate_both_health_contracts_of_providers:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: -1
+
+terminate_hospital_contract_and_redirect_resources:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: -2
+
+grant_providers_autonomy:
+  indicator_1: +3
+  indicator_2: +2
+  indicator_3: +3
+# ----------------               ---------------- #
+# ----------------   SCENARIO 4  ---------------- #
+# ----------------               ---------------- #
+#------------------
+# Slow Verification - S4_Y1_1
+#------------------
+warn_verifier_2:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: -1
+
+revert_counterverification:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+revert_counterverification:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+streamline_speed_verification_process_2:
+  indicator_1: +1
+  indicator_2: 0
+  indicator_3: 0
+
+circulate_memo_reaffirming_ministry_authority:
+  indicator_1: -1
+  indicator_2: -1
+  indicator_3: 0
+
+ask_reduce_oversight:
+  indicator_1: 0
+  indicator_2: +2
+  indicator_3: +1
+#------------------
+# Process V Results - S4_Y1_2
+#------------------
+deny_payment_4:
+  indicator_1: +1
+  indicator_2: 0
+  indicator_3: +1
+
+increase_budget_for_supplies_1:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+allow_payments_once_4:
+  indicator_1: -1
+  indicator_2: -2
+  indicator_3: -1
+#------------------
+# Government V Organization - S4_Y1_3
+#------------------
+hold_stakeholder_meeting_5:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+clarification_of_roles_11:
+  indicator_1: +1
+  indicator_2: 0
+  indicator_3: +1
+
+warning_17:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: +1
+
+terminate_ngo_contract_7:
+  indicator_1: +1
+  indicator_2: 0
+  indicator_3: +2
+#------------------
+# Lack of Supplies - S4_Y1_4
+#------------------
+warn_ngo_4:
+  indicator_1: -2
+  indicator_2: -1
+  indicator_3: -2
+
+sanction_ngo_3:
+  indicator_1: +3
+  indicator_2: +2
+  indicator_3: +3
+
+increase_supply_budget_2:
+  indicator_1: +2
+  indicator_2: +1
+  indicator_3: +2
+
+grant_facilities_autonomy_2:
+  indicator_1: +1
+  indicator_2: 0
+  indicator_3: +1
+
+increase_ngo_autonomy_1:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: -2
+#------------------
+# Staff Issues - S4_Y2_1
+#------------------
+warn_ngo_5:
+  indicator_1: -2
+  indicator_2: -1
+  indicator_3: -2
+
+increase_ngo_autonomy_2:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: -2
+
+sanction_ngo_4:
+  indicator_1: -3
+  indicator_2: -2
+  indicator_3: -3
+
+increase_customer_service_incentives_2:
+  indicator_1: +2
+  indicator_2: +1
+  indicator_3: +3
+
+reorganize_staff_2:
+  indicator_1: -1
+  indicator_2: -1
+  indicator_3: +2
+#------------------
+# Reach - S4_Y2_2
+#------------------
+
+increase_funding_for_ngo_2:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+terminate_contract_at_end_of_year_9:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +1
+
+contract_additional_ngo_2:
+  indicator_1: +2
+  indicator_2: +2
+  indicator_3: 0
+#------------------
+# Budget Lines - S4_Y2_3
+#------------------
+advise_to_follow_budget_restrictions_1:
+  indicator_1: -1
+  indicator_2: -2
+  indicator_3: -1
+
+move_authority_to_ministry_3:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+grant_autonomy_to_providers_2:
+  indicator_1: +3
+  indicator_2: +3
+  indicator_3: +3
+
+clarify_roles_1:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+#------------------
+# Midwives S4_Y2_4
+#------------------
+request_budget_for_more_midwives_1:
+  indicator_1: 0
+  indicator_2: +1
+  indicator_3: 0
+
+travel_vouchers_1:
+  indicator_1: 0
+  indicator_2: +2
+  indicator_3: -5
+
+grant_autonomy_to_providers_3:
+  indicator_1: 0
+  indicator_2: +3
+  indicator_3: +2
+#------------------
+# New Budget S4_Y3_1
+#------------------
+comply_with_ngo_budget_3:
+  indicator_1: -1
+  indicator_2: -1
+  indicator_3: -1
+
+rework_business_plan_2:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+grant_autonomy_to_providers_6:
+  indicator_1: +2
+  indicator_2: +1
+  indicator_3: +2
+#------------------
+# Process V Results Again S4_Y3_1
+#------------------
+deny_payment_5:
+  indicator_1: +1
+  indicator_2: 0
+  indicator_3: 0
+
+allow_payments_once_5:
+  indicator_1: -2
+  indicator_2: 0
+  indicator_3: -2
+
+revise_indicators_at_end_of_year_4:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+#------------------
+# Prescriptions S4_Y3_3
+#------------------
+warning_18:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: +1
+
+sanctions_16:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: +1
+
+terminate_contract_at_end_of_year_10:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +1
+
+tie_incentives_directly_to_protocol_2:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: +4
+
+reduce_incentives_for_customer_service_2:
+  indicator_1: -1
+  indicator_2: 0
+  indicator_3: +1
+#------------------
+# Missing Goals S4_Y3_4
+#------------------
+return_to_traditional_financing_2:
+  indicator_1: -1
+  indicator_2: -1
+  indicator_3: -1
+
+terminate_hospital_contract_1:
+  indicator_1: -1
+  indicator_2: -2
+  indicator_3: -3
+
+terminate_ngo_contract_8:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +1
+
+grant_autonomy_to_providers_5:
+  indicator_1: +2
+  indicator_2: +2
+  indicator_3: +2
+# ----------------            ---------------- #
+# ----------------   TACTICS  ---------------- #
+# ----------------            ---------------- #
+
+
+# ----------------                          ---------------- #
+# ----------------   VOUCHERS FOR SERVICES  ---------------- #
+# ----------------                          ---------------- #
+
+
+# -------------------------- 
+# Poor voucher usage - Y1_V1
+# -------------------------- 
+
+unlockable_information_campaign:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: 0
+
+unlockable_add_travel_vouchers:
+  indicator_1: +3
+  indicator_2: +5
+  indicator_3: 0
+
+
+unlockable_increase_budget_for_outreach:
+  indicator_1: +2
+  indicator_2: 0
+  indicator_3: 0
+
+# -------------------------- 
+# Wrong number of Cases - Y1_V2
+# -------------------------- 
+
+unlockable_warning_t1:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: 0
+
+unlockable_sanctions_t1:
+  indicator_1: -3
+  indicator_2: 0
+  indicator_3: 0
+
+# -------------------------- 
+# Voucher Acceptance - Y2_V1
+# -------------------------- 
+
+unlockable_expedite_voucher_payment:
+  indicator_1: +2
+  indicator_2: +3
+  indicator_3: +3
+
+unlockable_sanction_the_provider:
+  indicator_1: -3
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_voucher_capacity_building:
+  indicator_1: +1
+  indicator_2: +2
+  indicator_3: +1
+
+# -------------------------- 
+# False Declarations - Y2_V2
+# -------------------------- 
+
+unlockable_warning_t2:
+  indicator_1: +3
+  indicator_2: +3
+  indicator_3: 0
+
+unlockable_sanctions_t2:
+  indicator_1: +4
+  indicator_2: +5
+  indicator_3: +6
+
+
+unlockable_employee_capacity_building:
+  indicator_1: +2
+  indicator_2: +2
+  indicator_3: +2
+
+# -------------------------- 
+# Running Out of Vouchers - Y3_V1
+# -------------------------- 
+
+unlockable_seek_another_printer:
+  indicator_1: -2
+  indicator_2: -1
+  indicator_3: 0
+
+unlockable_contract_multiple_printers:
+  indicator_1: +2
+  indicator_2: +1
+  indicator_3: 0
+
+unlockable_print_vouchers_locally:
+  indicator_1: +3
+  indicator_2: +2
+  indicator_3: +1
+
+# -------------------------- 
+# Voucher Issues - Y3_V2
+# -------------------------- 
+
+unlockable_contract_organization_to_help_distribute:
+  indicator_1: +3
+  indicator_2: +5
+  indicator_3: +1
+
+
+unlockable_sanction_voucher_agency:
+  indicator_1: -1
+  indicator_2: -1
+  indicator_3: -1
+
+
+# ----------------                                    ---------------- #
+# ----------------   Conditional Cash Transfer (CCT)  ---------------- #
+# ----------------                                    ---------------- #
+
+
+# -------------------------- #
+# What is Covered? - Y1_CCT1
+# -------------------------- #
+
+unlockable_broaden_what_is_covered:
+  indicator_1: -3
+  indicator_2: -6
+  indicator_3: -7
+
+unlockable_information_campaign_to_explain_what_is_covered:
+  indicator_1: +4
+  indicator_2: +3
+  indicator_3: +1
+
+# -------------------------- #
+# Qualification Confusion - Y1_CCT2
+# -------------------------- #
+
+unlockable_retrain:
+  indicator_1: +2
+  indicator_2: +3
+  indicator_3: 0
+
+unlockable_hire_third_party_to_rewrite:
+  indicator_1: +2
+  indicator_2: +3
+  indicator_3: 0
+
+unlockable_hospital_administrator_revises_policy:
+  indicator_1: +2
+  indicator_2: +3
+  indicator_3: 0
+
+# -------------------------- #
+# CCT Penetration - Y2_CCT1
+# -------------------------- #
+
+unlockable_increase_incentives:
+  indicator_1: +1
+  indicator_2: +2
+  indicator_3: 0
+
+
+unlockable_cultural_campaign:
+  indicator_1: +1
+  indicator_2: +3
+  indicator_3: 0
+
+
+unlockable_incentivise_traditional_midwives:
+  indicator_1: +1
+  indicator_2: +5
+  indicator_3: +1
+
+
+# -------------------------- #
+# Underutilization- Y2_CCT2
+# -------------------------- #
+
+unlockable_increase_incentives_t2:
+  indicator_1: +1
+  indicator_2: +4
+  indicator_3: 0
+
+
+unlockable_use_a_different_incentive:
+  indicator_1: +1
+  indicator_2: +4
+  indicator_3: 0
+
+
+# -------------------------- #
+# Payment Inconsistency - Y3_CCT1
+# -------------------------- #
+
+unlockable_cut_back_cct:
+  indicator_1: -3
+  indicator_2: -3
+  indicator_3: 0
+
+unlockable_push_minfin_to_expedite_payments:
+  indicator_1: +6
+  indicator_2: +6
+  indicator_3: +1
+
+# -------------------------- #
+# Cash Transfer Confusion- Y3_CCT2
+# -------------------------- #
+
+unlockable_expedite_cct_payment:
+  indicator_1: +2
+  indicator_2: +4
+  indicator_3: 0
+
+unlockable_fund_info_campaign:
+  indicator_1: +1
+  indicator_2: +2
+  indicator_3: 0
+
+unlockable_embed_cct_officer_at_facilities:
+  indicator_1: +2
+  indicator_2: +4
+  indicator_3: 0
+
+# ----------------              ---------------- #
+# ----------------   OUTREACH   ---------------- #
+# ----------------              ---------------- #
+
+
+# -------------------------- #
+# Resistance to Outreach - Y1_O1
+# -------------------------- #
+
+unlockable_incentivize_bring_women_to_facilities:
+  indicator_1: +2
+  indicator_2: +7
+  indicator_3: +7
+
+
+unlockable_incentivize_midwives_home_delivery:
+  indicator_1: 0
+  indicator_2: +3
+  indicator_3: +2
+
+unlockable_delivery_info_campaign:
+  indicator_1: 0
+  indicator_2: +1
+  indicator_3: +1
+
+
+# -------------------------- #
+# Field Records - Y1_O2
+# -------------------------- #
+
+unlockable_warning_t3:
+  indicator_1: +1
+  indicator_2: 0
+  indicator_3: +1
+
+unlockable_retrain_outreach_nurses:
+  indicator_1: +2
+  indicator_2: +1
+  indicator_3: +2
+
+unlockable_move_to_quarterly_basis:
+  indicator_1: +1
+  indicator_2: 0
+  indicator_3: +1
+# -------------------------- #
+# Supply Chain - Y2_O1
+# -------------------------- #
+
+unlockable_introduce_quality_of_care_incentives_at_community_level:
+  indicator_1: +3
+  indicator_2: +2
+  indicator_3: +7
+
+unlockable_strengthen_supply_chain:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +3
+
+# -------------------------- #
+# Organizational Inefficiency - Y2_O2
+# -------------------------- #
+
+unlockable_reduce_outreach_staff:
+  indicator_1: +5
+  indicator_2: +5
+  indicator_3: +2
+
+unlockable_leave_things_as_is:
+  indicator_1: -3
+  indicator_2: -1
+  indicator_3: +1
+
+unlockable_increase_outreach_incentive_level:
+  indicator_1: +3
+  indicator_2: +2
+  indicator_3: +2
+# -------------------------- #
+# Drop-off in Promotional Services - Y3_O1
+# -------------------------- #
+
+unlockable_incentivize_promotional_services:
+  indicator_1: +3
+  indicator_2: +2
+  indicator_3: +7
+
+unlockable_warn_outreach_staff:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +4
+
+unlockable_change_nothing:
+  indicator_1: -2
+  indicator_2: -2
+  indicator_3: 0
+
+# ----------------                                               ---------------- #
+# ----------------   Improve Patient and Provider Relationship   ---------------- #
+# ----------------                                               ---------------- #
+
+# -------------------------- #
+# Unusual Claims - Y1_P1
+# ------------------------- #
+
+unlockable_train_community_verifiers:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_revise_cv_surveys:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +3
+
+unlockable_reorganize_cv_staff:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +2
+
+# -------------------------- #
+# Delayed Scores - Y2_P1
+# ------------------------- #
+
+unlockable_incentivize_timely_scores:
+  indicator_1: +2
+  indicator_2: +2
+  indicator_3: +4
+
+unlockable_shift_to_quarterly_basis_2:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +2
+
+unlockable_hire_local_verifiers:
+  indicator_1: +1
+  indicator_2: 0
+  indicator_3: +2
+
+# -------------------------- #
+# Patient Satisfaction Not Improving - Y3_P1
+# ------------------------- #
+
+unlockable_retrain_verifiers_on_data:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +3
+
+unlockable_retrain_providers_on_data:
+  indicator_1: +2
+  indicator_2: +4
+  indicator_3: +7
+
+# ----------------                                                            ---------------- #
+# ----------------   Improve Patient and Provider Relationship Not Selected   ---------------- #
+# ----------------                                                            ---------------- #
+
+# -------------------------- #
+# Complaints - Y1_NNIPR1
+# -------------------------- #
+
+unlockable_directly_incensitive_service_improve:
+  indicator_1: +2
+  indicator_2: +2
+  indicator_3: +2
+
+unlockable_increase_incentives_service_deliveries:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: 0
+
+# -------------------------- #
+# Poor Surveys - Y1_NNIPR1
+# -------------------------- #
+
+unlockable_directly_incensitive_service_better:
+  indicator_1: +2
+  indicator_2: +3
+  indicator_3: +1
+
+unlockable_sensitization_campaign:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+# -------------------------- #
+# Fraud Alert - Y1_NNIPR1
+# -------------------------- #
+
+unlockable_sanction_these_providers:
+  indicator_1: +2
+  indicator_2: +2
+  indicator_3: +2
+
+unlockable_cut_incentives:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: +2
+
+unlockable_cancel_contracts:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+# ----------------                                            ---------------- #
+# ----------------   Hire More Nurses From Highlands Region   ---------------- #
+# ----------------                                            ---------------- #
+
+# -------------------------- #
+# Candidates - Y1_N2
+# -------------------------- #
+
+unlockable_enhance_highland_training_facilities:
+  indicator_1: +1
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_lower_requirements_and_increase_training:
+  indicator_1: -1
+  indicator_2: -2
+  indicator_3: -3
+
+# -------------------------- #
+# Training Problems - Y1_N1
+# -------------------------- #
+
+unlockable_increase_incentives_for_attractive_facilities:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_let_hospitals_select_hires:
+  indicator_1: +1
+  indicator_2: 0
+  indicator_3: +2
+
+# ----------------                                 ---------------- #
+# ----------------   Make Aesthetic Improvements   ---------------- #
+# ----------------                                 ---------------- #
+
+# -------------------------- #
+# Aesthetic improvements - Y1_AE1
+# -------------------------- #
+
+unlockable_continue_with_plan_aesthetic:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: -2
+
+unlockable_grant_permission:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +4
+
+# ----------------                                                  ---------------- #
+# ----------------   Contract Private Company to Deliver Supplies   ---------------- #
+# ----------------                                                  ---------------- #
+
+# -------------------------- #
+# Road Issues - Y1_D1
+# ------------------------- #
+
+unlockable_penalize_delivery_co:
+  indicator_1: +1
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_switch_to_train_service:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +1
+
+# -------------------------- #
+# Strike - Y2_D1
+# ------------------------- #
+
+unlockable_terminate_contract_at_end_of_year:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +2
+
+unlockable_hire_another_ground_based_service:
+  indicator_1: +2
+  indicator_2: +1
+  indicator_3: +2
+
+unlockable_hire_air_service:
+  indicator_1: +2
+  indicator_2: +2
+  indicator_3: +2
+
+# -------------------------- #
+# Raising Rates - Y3_D1
+# ------------------------- #
+
+unlockable_pay_new_rate:
+  indicator_1: -1
+  indicator_2: 0
+  indicator_3: -1
+
+unlockable_negotiate:
+  indicator_1: +1
+  indicator_2: 0
+  indicator_3: +1
+
+unlockable_return_to_train_shipping:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +1
+
+# ----------------                                                    ---------------- #
+# ----------------   Information Campaign to Counter Misinformation   ---------------- #
+# ----------------                                                    ---------------- #
+
+# -------------------------- #
+# Short Staff - Y1_IM1
+# ------------------------- #
+
+unlockable_provide_funding_to_hire_new_staff:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_increase_incentives_for_meeting_campaign_goals:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: 0
+
+unlockable_reevaluate_whether_this_campaign_is_necessary:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +1
+
+# -------------------------- #
+# Overexposure - Y2_IM1
+# ------------------------- #
+
+unlockable_refocus_campaign_staff:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: 0
+
+unlockable_end_campaign:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: +1
+
+# -------------------------- #
+# Backlash - Y3_IM1
+# ------------------------- #
+
+unlockable_revise_language_in_campaign:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: 0
+
+unlockable_halt_campaign:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: +1
+
+
+unlockable_request_meeting_with_candidate:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+# ----------------                                                                    ---------------- #
+# ----------------   Information Campaign to Explain Changes to System NOT SELECTED   ---------------- #
+# ----------------                                                                    ---------------- #
+
+# -------------------------- #
+# Lack of Information - Y1_IS1
+# ------------------------- #
+
+unlockable_provider_ambassadors:
+  indicator_1: +1
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_invite_community_leaders:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: 0
+
+unlockable_word_of_mouth:
+  indicator_1: -1
+  indicator_2: -1
+  indicator_3: -1
+
+# -------------------------- #
+# Misnformation - Y2_IS1
+# ------------------------- #
+
+unlockable_increase_funding_for_sensitization_strategy:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: 0
+
+unlockable_create_informational_pamphlets:
+  indicator_1: +1
+  indicator_2: 0
+  indicator_3: 0
+
+# -------------------------- #
+# Printing Issues - Y3_IS1
+# ------------------------- #
+
+unlockable_provide_health_facilities_with_equipment_to_print_materials:
+  indicator_1: -1
+  indicator_2: -2
+  indicator_3: 0
+
+
+unlockable_increase_budget_for_printing_informational_collateral:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: 0
+
+# ----------------                                                            ---------------- #
+# ----------------   Incentivise Providers to Follow Protocols NOT SELECTED   ---------------- #
+# ----------------                                                            ---------------- #
+
+# -------------------------- #
+# Overperscription - Y1_NP1
+# -------------------------- #
+
+unlockable_limit_prescriptions:
+  indicator_1: -1
+  indicator_2: -1
+  indicator_3: -1
+
+unlockable_incentivise_following_set_protocols:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +4
+
+
+unlockable_retrain_doctors:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: +1
+
+# -------------------------- #
+# Wrong Procedures - Y1_NP2
+# -------------------------- #
+
+unlockable_create_robust_referral_system:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: +2
+
+unlockable_incentivise_following_set_protocols_rewards:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +4
+
+unlockable_incentivise_referrals:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: +1
+
+# -------------------------- #
+# Infection Rates - Y2_NP1
+# -------------------------- #
+
+unlockable_incentivise_sanitization_protocols:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: +2
+
+unlockable_incentivise_best_practices:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: +4
+
+unlockable_sanction_providers_with_high_infection_rates:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: +1
+
+# -------------------------- #
+# Overprescription 2 - Y3_NP1
+# -------------------------- #
+
+unlockable_incentivise_best_practices_high_goals:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: +2
+
+unlockable_sanction_providers_performing_unnecessary_procedures:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: +2
+
+# -------------------------- #
+# Inspection Failure - Y3_NP2
+# -------------------------- #
+
+unlockable_incentivise_best_practices_long_term:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +2
+
+unlockable_sanction_providers_who_fail_safety_inspection:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: +2
+
+# ----------------                                                       ---------------- #
+# ----------------   Information Campaign to Change Cultural Behaviors   ---------------- #
+# ----------------                                                       ---------------- #
+
+# -------------------------- #
+# Poor Campaign Coverage - Y1_ICB1
+# -------------------------- #
+
+unlockable_incentivize_bring_women_to_facilities_2:
+  indicator_1: +1
+  indicator_2: +3
+  indicator_3: +4
+
+unlockable_incentivize_midwives_home_delivery_2:
+  indicator_1: 0
+  indicator_2: +2
+  indicator_3: +2
+
+unlockable_leave_things_as_is_2:
+  indicator_1: 0
+  indicator_2: -3
+  indicator_3: -4
+
+# -------------------------- #
+# Inconclusive Metrics - Y2_ICB2
+# -------------------------- #
+unlockable_provide_family_transport_incentive:
+  indicator_1: 0
+  indicator_2: +1
+  indicator_3: +2
+
+unlockable_end_campaign_t2:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
+unlockable_leave_things_as_is_3:
+  indicator_1: 0
+  indicator_2: -3
+  indicator_3: -4
+# -------------------------- #
+# Nationalist Backlash - Y3_ICB3
+# -------------------------- #
+unlockable_revise_language_in_campaign_t2:
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: 0
+
+unlockable_halt_campaign_t2:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: +1
+
+unlockable_request_meeting_with_candidate_t2:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
