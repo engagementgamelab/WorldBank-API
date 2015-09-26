@@ -6,17 +6,17 @@
 # ==============
 
 prompt_year_1: 
-  - "You did nothing!!"
-  - "Thank you for joining us for the end of year meeting. According to these reports, some of your indicator numbers have dropped. We would like to know if you need anything approved through us to make the program run more efficiently."
-  - "Thank you for joining us for the end of year meeting. It seems like your program implementation is going smoothly, yes? That said, we would like to know if you need anything approved through us to make the program run more efficiently."
+  - "Now that the year is over, you have the option to alter the program. Do you think we should cancel the NGO's contract and work directly with providers instead?"
+  - "Now that the year is over, you have the option to alter the program. Do you think we should cancel the NGO's contract and work directly with providers instead?"
+  - "Now that the year is over, you have the option to alter the program. Do you think we should cancel the NGO's contract and work directly with providers instead?"
 
 prompt_year_2: 
-  - "You did nothing!!"
-  - "Thank you for joining us for the end of year meeting. According to these reports, some of your indicator numbers have dropped. We would like to know if you need anything approved through us to make the program run more efficiently."
-  - "Thank you for joining us for the end of year meeting. It seems like your program implementation is going smoothly, yes? That said, we would like to know if you need anything approved through us to make the program run more efficiently."
+  - "Now that the year is over, you have the option to alter the program. Do you think we should cancel the NGO's contract and work directly with providers instead?"
+  - "Now that the year is over, you have the option to alter the program. Do you think we should cancel the NGO's contract and work directly with providers instead?"
+  - "Now that the year is over, you have the option to alter the program. Do you think we should cancel the NGO's contract and work directly with providers instead?"
 
 choices: # <---- The choices the player will see during a year break.
-  - text: "Now that the year is over, you have the option to alter the program. Do you think we should cancel the NGO's contract and work directly with providers instead? Review your work from the past year and decide."
+  - text: "Cancel NGO Contract"
     # This instructs the game to load the player into twist 1 if at end of year 1.
     # At end of year 2, it would load year 3's twist 1 OR 2 depending on if the player chose an option at end of year 1.
     # This can also be a scenario, e.g. "scenario_4", in which case the player is brought to the specified scenario, with its *default* problems loaded.
