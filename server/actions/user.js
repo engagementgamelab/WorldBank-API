@@ -157,7 +157,7 @@ exports.save =
 
     inputs:  {
       required: ["user_id"],
-      optional: ["plan", "save_plan", "save_tutorial", "tutorial_1", "tutorial_2"]
+      optional: ["plan", "save_plan", "save_phase_2"]
     },
 
     /* GET game data. */
@@ -299,8 +299,8 @@ exports.save =
 
       }
 
-      // Updating tutorial status?
-      else if(dataInput.save_tutorial !== undefined) {
+      // Updating phase 2 status?
+      else if(dataInput.save_phase_2 !== undefined) {
            
         api.mongo.user.findById(dataInput.user_id, function (err, user) {
       
@@ -309,18 +309,16 @@ exports.save =
             next();
           }
 
-          // Save which tutorial status (phase 1/2)
-          if(dataInput.tutorial_1)
-            user.tutorial_1 = true;
-
-          else if(dataInput.tutorial_2)
-            user.tutorial_2 = true;
+          // Save phase two tutorial status
+          user.phase_two_done = true;
 
           user.save(function (err, updatedUser) {
             
             if (err) data.response.error = "Mongo error: " + err;
 
           });
+
+          data.response.phase_two_done = true;
                 
           next();
 
@@ -431,7 +429,7 @@ exports.auth =
 
     data.response.auth = false;
 
-    api.mongo.user.findOne({ 'email': dataInput.email }, '_id username password password_salt plan_id', function (err, user) {
+    api.mongo.user.findOne({ 'email': dataInput.email }, '_id username submitted_plan phase_two_done plan_id', function (err, user) {
 
       // Database error
       if(err) {

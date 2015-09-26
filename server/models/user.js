@@ -32,9 +32,10 @@ var userSchema = new mongoose.Schema({
   password_salt: { type: String, required: false, index: true },
   
   location: { type: String, required: false },
-  tutorial_1: {type: Boolean, required: false, default: false },
-  tutorial_2: {type: Boolean, required: false, default: false },
+  
   submitted_plan: {type: Boolean, required: false, default: false },
+  phase_two_done: {type: Boolean, required: false, default: false },
+  
   plan_id: { type: String, required: false },
   current_scenario: { type: String, required: false },
 
