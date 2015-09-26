@@ -1360,7 +1360,7 @@
 - symbol: unlockable_directly_incentivise_service_improve
   title: "Directly Incentivise Improved Service"
 
-- symbol: unlockable_increase_incentivise_service_deliveries
+- symbol: unlockable_increase_incentives_service_deliveries
   title: "Increase Incentives for Service Deliveries"
 
 # -------------------------- #
