@@ -133,8 +133,8 @@
 - symbol: settled_refugee_mile
   display_name: Settled Refugee
   description: 
-    - "You see a man in his forties reading a news magazine in the shade, slight perspiration beading along his receding hairline. The magazine looks like one from the newsstand at the train station, perhaps dropped by a careless traveler some time ago."
-    - "You look at the magazine. The man's reading an article about fall fashions, probably just to pass the time."
+    - "You see a man in his forties reading a newspaper in the shade, slight perspiration beading along his receding hairline. The newspaper looks like one from the newsstand at the train station, perhaps dropped by a careless traveler some time ago."
+    - "You look at the newpaper. The man's reading an article about fall fashions, probably just to pass the time."
     - "You want to talk with him some more, but you can't trust yourself not to remind him of what he's lost."
 
 - symbol: midwife_mile
