@@ -9,7 +9,7 @@
 
 symbol: reach
 name: "Reach"
-priority: 1
+priority: 2
 year: 2
 
 initiating_npc: dep_minister_of_health
