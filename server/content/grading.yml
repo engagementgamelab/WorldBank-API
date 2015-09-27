@@ -37,7 +37,7 @@
 
 - score: 6-1
   grade: D
-  description: "We our pilot test results were not as impressive as we would have liked. We will save this program proposal in our system, but recommend re-evaluation of the context. A second attempt could yield a program with greater efficacy." 
+  description: "Pilot test results were not as impressive as we would have liked. We will save this program proposal in our system, but recommend re-evaluation of the context. A second attempt could yield a program with greater efficacy." 
   default_affects: [2, 4, 4]
   affects_bias: [-2, -2, -3]
 
