@@ -13,7 +13,7 @@ name: "Poor Surveys" # <--- display name for card
 year: 2
 
 # This dialogue the player sees first
-initiating_dialogue: "Surveys are showing that trust in healthcare facilities is not rising."
+initiating_dialogue: "According to the Community Verifier, Surveys are showing that trust in healthcare facilities is not rising. What should we do in this situation?"
 
 # The dialogue the player sees when investigation has results to show
 investigate_dialogue: "The problem may be caused by bad personal interactions with individual health workers."
