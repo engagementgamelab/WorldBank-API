@@ -127,7 +127,7 @@ phase_1_end:
 ## PHASE 2
 
 phase_2_start:
-  text: "The results of the pilot year were deemed acceptable, and now we’ll be implementing at scale. Your goal is to increase the three main indicators: Vaccinations, Facility Births, and Quality of Care by 25, 30, and 35 percent respectively."
+  text: "The results of the pilot year were deemed acceptable, and now we’ll be implementing at scale. Your goal is to increase the three main indicators: Vaccinations, Facility Births, and Quality of Care to 25, 30, and 35 percent respectively."
   overlay_location: "Center"
   confirm: true
 
@@ -142,7 +142,7 @@ phase_2_skip:
 
 phase_2_first_problem:
   overlay_location: "Bottom-Right"
-  text: "The year has just begun, and it looks like you’ve got your first problem. Take a moment to read the issue now. There is a default solution that you can decide upon, or you can contact colleagues in the field to get more information."
+  text: "The year has just begun, and you’ve got your first problem. Take a moment to read the issue now. There is a one action available that you can choose to solve the problem, or you can contact colleagues in the field to get more information."
   spotlight_position: [0.04, -0.94]
   spotlight_size: [1.27, 1.86]
   mask_position: [0, 0]
@@ -190,7 +190,7 @@ phase_2_supervisor:
   mask_size: [232, 54]
 
 phase_2_supervisor_opened:
-  text: "The problems Rahb brings you work differently. She will explain the situation and offer a solution. You can ask her to find new solutions for you, but this takes time. You decide on a solution just like the main screen. Try one now."
+  text: "The problems Rahb brings you work differently. She will explain the situation and offer a solution. You can ask her to find alternative solutions for you, but this takes time. When ready, choose an action to resolove the problem."
   overlay_location: "Center"
   confirm: true
   confirm_next: "phase_2_timer"
