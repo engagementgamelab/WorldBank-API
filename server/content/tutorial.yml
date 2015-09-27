@@ -165,6 +165,7 @@ phase_2_conference_action:
   spotlight_size: [1.19, 2.75]
   mask_position: [0, 0]
   mask_size: [1, 1]
+  confirm: true
 
 phase_2_actions:
   overlay_location: "Top-Right"
