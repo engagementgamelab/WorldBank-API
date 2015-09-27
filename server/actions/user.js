@@ -255,7 +255,7 @@ exports.save =
         );
 
         // Find specified user
-        api.mongo.user.findOne(dataInput.user_id, function (err, user) {
+        api.mongo.user.findOne({_id: dataInput.user_id}, function (err, user) {
 
           if(user == null) {
             data.response.error = "User not found";
@@ -427,6 +427,7 @@ exports.auth =
 
     var dataInput = data.connection.rawConnection.params.body;
 
+    console.log(dataInput.email);
     data.response.auth = false;
 
     api.mongo.user.findOne({ 'email': dataInput.email }, '_id username submitted_plan phase_two_done plan_id', function (err, user) {
@@ -460,6 +461,7 @@ exports.auth =
           api.session.generateAuth(data.connection, function() {
 
             user.save();
+
 
             var userRecord = user.toObject();
 

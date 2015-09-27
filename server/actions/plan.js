@@ -136,7 +136,7 @@ exports.save =
 
       var dataInput = data.connection.rawConnection.params.body;
 
-      api.mongo.plan.findOne(dataInput.plan_id, function(err, plan) {
+      api.mongo.plan.findOne({_id: dataInput.plan_id}, function(err, plan) {
 
         // plan
 
