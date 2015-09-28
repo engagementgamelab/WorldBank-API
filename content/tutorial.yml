@@ -142,7 +142,7 @@ phase_2_skip:
 
 phase_2_first_problem:
   overlay_location: "Bottom-Right"
-  text: "The year has just begun, and you've got your first problem. Take a moment to read the issue now. There is a one action available that you can choose to solve the problem, or you can contact colleagues in the field to get more information."
+  text: "The year has just begun, and you've got your first problem. Take a moment to read the issue now. There is one action available that you can choose to solve the problem, or you can contact colleagues in the field to get more information."
   spotlight_position: [0.04, -0.94]
   spotlight_size: [1.27, 1.86]
   mask_position: [0, 0]
