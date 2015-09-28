@@ -38,7 +38,7 @@ characters:
     unlocks: [create_manual]
     unlocks_affects: [create_manual]
     feedback:
-      clarify_roles_1: "Let's meet together with the ministry so that we make sure that it is really clear." # <--- symbol of the option used and the feedback text for it
+      clarify_roles_2: "Let's meet together with the ministry so that we make sure that it is really clear." # <--- symbol of the option used and the feedback text for it
 
   third_party_verifier:
     dialogue: "It would be good to deal with this before the different agencies start getting testy with each other."
