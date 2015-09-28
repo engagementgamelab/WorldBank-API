@@ -33,15 +33,10 @@ characters:
   director_regional_health_services:
     dialogue: "I'm not sure what the delay is. I'd speak with the Deputy Minister or the Third Party Verifier."
 
-  ngo_manager:
-    feedback:
-      speed_third_party_hire_1: "You hired us to manage this! Why not give us a chance?"
-
   coach:
     dialogue: "These delays will cause a cascade of failures. Without the funds, the NGO cannot improve their services and it goes down from there."
     feedback:
       request_expedited_payment_1: "We're working at capacity to get this done. Things are just taking a little longer than we planned."
-
 
   third_party_verifier:
     dialogue: "We're waiting on some paperwork to clear before we're officially on the job. As soon as this decision is finalized and we get our contract, we'll take care of it."

@@ -1045,16 +1045,16 @@ request_expedited_payment_1:
 
 speed_third_party_hire_1:
   indicator_1: +2
-  indicator_2: +1
+  indicator_2: +10
   indicator_3: +4
 
 #------------------
 # Process V Results - S4_Y1_2
 #------------------
 deny_payment_4:
-  indicator_1: +1
-  indicator_2: 0
-  indicator_3: +1
+  indicator_1: +3
+  indicator_2: +2
+  indicator_3: +3
 
 increase_budget_for_supplies_1:
   indicator_1: 0
@@ -1069,24 +1069,19 @@ allow_payments_once_4:
 # Government V Organization - S4_Y1_3
 #------------------
 hold_stakeholder_meeting_5:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_1: +2
+  indicator_2: +1
+  indicator_3: +1
 
 clarification_of_roles_11:
-  indicator_1: +1
-  indicator_2: 0
-  indicator_3: +1
-
-warning_17:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: +1
+  indicator_1: +3
+  indicator_2: +3
+  indicator_3: +3
 
 terminate_ngo_contract_7:
-  indicator_1: +1
-  indicator_2: 0
-  indicator_3: +2
+  indicator_1: -6
+  indicator_2: -5
+  indicator_3: -4
 #------------------
 # Lack of Supplies - S4_Y1_4
 #------------------

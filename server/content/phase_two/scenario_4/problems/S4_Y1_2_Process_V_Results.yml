@@ -26,7 +26,7 @@ characters:
   dep_minister_of_health: # <--- character's symbol
     dialogue: "If they didn't hit the targets, we shouldn't pay them."
     feedback: 
-      increase_budget_for_supplies_1: "This will need approval from the Finance Ministry, but it could improve things. Still, the claims should not be paid this quarter." # <--- symbol of the option used and the feedback text for it
+      increase_budget_for_supplies_1: "I am not sure this will solve it as we haven't seen the full budget used last year but I am willing to see if it could improve things. Still, the claims should not be paid this quarter." # <--- symbol of the option used and the feedback text for it
 
   director_regional_health_services:
     dialogue: "If they think giving them the money for what they did get done will help next time, we can pay them this once."
