@@ -953,10 +953,10 @@
 #------------------
 
 - symbol: request_expedited_payment_1
-  title: "Request Expedited Payment from Ministry"
+  title: "Request Payment From Ministry Without Verification"
 
 - symbol: speed_third_party_hire_1
-  title: "Speed Hire of Third Party Verifier"
+  title: "Expedite Hiring of Third Party Verifier"
 #------------------
 # Process V Results - S4_Y1_2
 #------------------
@@ -1110,7 +1110,7 @@
   title: "Terminate Hospital Contract"
 
 - symbol: terminate_ngo_contract_8
-  title: "Terminate NGO Contract and Hire New Providers"
+  title: "Terminate NGO's Contract and Hire Providers Directly"
 
 - symbol: grant_autonomy_to_providers_5
   title: "Grant Autonomy to Providers"
