@@ -13,7 +13,7 @@ name: "Transport Issues" # <--- display name for card
 year: 2
 
 # This dialogue the player sees first
-initiating_dialogue: "Incentivizing community health workers to do an IEC on BCC for deliveries still doesn't appear to be having the effect we'd hoped for. It's not causing any harm but we also can't prove it is helping."
+initiating_dialogue: "Incentivizing community health workers to do an IEC for deliveries still doesn't appear to be having the effect we'd hoped for. It's not causing any harm but we also can't prove it is helping."
 
 # The dialogue the player sees when investigation has results to show
 investigate_dialogue: "Apart from cultural issues, it appears transport costs are preventing women from delivering in facilities. The health facilities seem to have some ideas for how address them."

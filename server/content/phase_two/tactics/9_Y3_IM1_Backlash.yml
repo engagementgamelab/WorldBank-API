@@ -19,7 +19,7 @@ initiating_dialogue: "There has been some backlash about this campaign from user
 investigate_dialogue: "Some people want the campaign to be revised for cultural sensitivity, while others want it halted all together. It's a minority that is opposed to this, but very vocal. I wonder what has them so upset after more than two years?"
 
 # The dialogue the player sees when further investigation has results to show
-investigate_further_dialogue: "It turns out there is an election for regional governor coming up, and the conservative candidate is stirring the pot against foreign influences, including us! We could speak with him directly, perhaps."
+investigate_further_dialogue: "It turns out there is an election for regional governor coming up, and the conservative candidate is stirring the pot against those promoting non-traditional ways, including us! We could speak with him directly, perhaps."
 
 # These are special parameters that load a cooldown array, which is defined in content/config.yml under 'cooldown:'
 # For example, specifying $config_cooldown_long will choose the key found in config.yml under:
@@ -43,7 +43,7 @@ further_options_affects: [unlockable_request_meeting_with_candidate]
 
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
-  unlockable_revise_language_in_campaign: "We could write some copy about how our language is inflammatory, but if you have actual inflammation, real medicine helps! No? OK. I'll tone down the copy."
+  unlockable_revise_language_in_campaign: "We could write some copy about how our language is inflammatory, but if you have actual inflammation, real medicine helps! No? OK. I'll tone down the language."
   unlockable_halt_campaign: "It's not going to raise awareness to stop advertising. Some nationalist politician is jeopardizing public health to gain traction."
   unlockable_request_meeting_with_candidate: "I admire you wanting to sit down with this politico. I think it'll frustrate you to no end, but I respect you for it."
   # This key is required for every tactic card for when the player chooses observe instead of investigate

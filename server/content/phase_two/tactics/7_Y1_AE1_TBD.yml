@@ -44,6 +44,6 @@ further_options_affects: [unlockable_grant_permission]
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
   unlockable_continue_with_plan_aesthetic: "I'll tell them to follow the program as it was designed."
-  unlockable_grant_permission: "I'll let them know that they can cease renovations and concentrate on services."
+  unlockable_grant_permission: "I'll let them know that they can cease with the gardening and concentrate on delivering services to patients."
   # This key is required for every tactic card for when the player chooses observe instead of investigate
   observe: "OK, we'll wait and see if anything changes."

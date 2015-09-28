@@ -13,7 +13,7 @@ name: "No Effect" # <--- display name for card
 year: 3
 
 # This dialogue the player sees first
-initiating_dialogue: "This BCC campaign does not seem to add value. We have tried different things, but the indicators don't seem to be improving. There are some religious and political pressures to halt this campaign as well."
+initiating_dialogue: "This IEC campaign does not seem to add value. We have tried different things, but the indicators don't seem to be improving. There are some religious and political pressures to halt this campaign as well."
 
 # The dialogue the player sees when investigation has results to show
 investigate_dialogue: "Some people say the campaign should be ended; they want more children to vote and feel the promotion of family planning goes against this. Maybe the campaign messages need to be revised accordingly for cultural sensitivity, with a focus on family spacing rather than a focus on averting pregnancies. Others want it halted altogether. It's a minority that is opposed to this, but very vocal with the elections coming up."
@@ -44,7 +44,7 @@ further_options_affects: [unlockable_request_meeting_with_candidate_t2]
 
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
-  unlockable_revise_language_in_campaign_t2: "We could write some copy about how our language is inflammatory, but if you have actual inflammation, real medicine helps! No? Okay, I'll tone down the copy."
+  unlockable_revise_language_in_campaign_t2: "We could write some copy about how our language is inflammatory, but if you have actual inflammation, real medicine helps! No? Okay, I'll tone down the language."
   unlockable_halt_campaign_t2: "It's not going to raise awareness to stop advertising. Some nationalist politician is jeopardizing public health to gain traction."
   unlockable_request_meeting_with_candidate_t2: "I admire you wanting to sit down with this politico. I think it'll frustrate you to no end, but I respect you for it."
   # This key is required for every tactic card for when the player chooses observe instead of investigate

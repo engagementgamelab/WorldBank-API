@@ -13,12 +13,12 @@ name: "Delayed Scores" # <--- display name for card
 year: 2
 
 # This dialogue the player sees first
-initiating_dialogue: "The health facilities have been complaining that they are not receiving payments on time for their client satisfaction scores. If they're not being paid on time, their staff might decide it's not worth doing any longer, and the program could fall apart."
+initiating_dialogue: "The health facilities have been complaining that they are not receiving payments on time for their patient satisfaction scores. If they're not being paid on time, their staff might decide it's not worth doing any longer, and the program could fall apart."
 
 # The dialogue the player sees when investigation has results to show
 investigate_dialogue: "I checked with the Ministry of Finance, and this time it doesn't look like it's their fault. The community verifiers seem to be the bottleneck. They're not returning scores on time, which leads to delays. If payments were quarterly, this could give them some flexibility, but they may not be incentivized strongly enough to act. "
 
-investigate_further_dialogue: "I interviewed some of the community verifiers, and they say that when they go to neighboring communities, it's hard to find patients' houses. Streed addresses are missing in rural areas, and the road conditions are bad in Zariba, as you know. Contracting verifiers for each community would counteract this."
+investigate_further_dialogue: "I interviewed some of the community verifiers, and they say that when they go to neighboring communities, it's hard to find patients' houses. Street addresses are missing in rural areas, and the road conditions are bad in Zariba, as you know. Contracting verifiers for each community would counteract this."
 
 # These are special parameters that load a cooldown array, which is defined in content/config.yml under 'cooldown:'
 # For example, specifying $config_cooldown_long will choose the key found in config.yml under:
