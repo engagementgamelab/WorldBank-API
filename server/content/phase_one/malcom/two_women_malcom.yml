@@ -24,7 +24,7 @@ dialogue:
       text: 
         - "\"How has your organization dealt with the growing gap in vaccination rates?\" one women says to the other. The other woman responds proudly, \"Our program greatly improved the number of children vaccinated in the north. It incentivized the providers to improve quality of care instead of increasing only the quantity of services. This worked especially well when we emphasized protocol and therapeutic guidelines.\""
       unlocks: [unlockable_incentivise_providers_to_follow_protocols]
-      unlocks_context: ["NGO managers suggested it is important to incentivize providers to follow protocols and therapeutic guidelines."]
+      unlocks_context: ["NGO managers suggested it is important to incentivise providers to follow protocols and therapeutic guidelines."]
     An Epidemic:
       text: 
         - "\"Have you heard? In the Highlands, access to services is limited and people do not value the importance of preventive services like vaccinations. Instead they only go to the clinic when they are sick.\" The first woman says this with a slight agitation. The second woman chimes in \"They should be utilizing outreach in this region and detecting epidemic casess. In the north, this has been is crucial to helping the area get back on its feet.\""

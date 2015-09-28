@@ -6,19 +6,19 @@
 # ==============
 
 prompt_year_1: 
-  - "Now that the year is over, you have the option to alter the program by terminating a provider's contract. Do you want to terminate the clinic manager's contract and replace them with a new provider?"
-  - "Now that the year is over, you have the option to alter the program by terminating a provider's contract. Do you want to terminate the clinic manager's contract and replace them with a new provider?"
-  - "Now that the year is over, you have the option to alter the program by terminating a provider's contract. Do you want to terminate the clinic manager's contract and replace them with a new provider?"
+  - "You can alter the program if you so choose. Do you want to terminate the clinic manager's contract and replace them with a new provider?"
+  - "You can alter the program if you so choose. Do you want to terminate the clinic manager's contract and replace them with a new provider?"
+  - You can alter the program if you so choose. Do you want to terminate the clinic manager's contract and replace them with a new provider?"
 
 prompt_year_2: 
-  - "Now that the year is over, you have the option to alter the program by terminating a provider's contract. Do you want to terminate the clinic manager's contract and replace them with a new provider?"
-  - "Now that the year is over, you have the option to alter the program by terminating a provider's contract. Do you want to terminate the clinic manager's contract and replace them with a new provider?."
-  - "Now that the year is over, you have the option to alter the program by terminating a provider's contract. Do you want to terminate the clinic manager's contract and replace them with a new provider?"
+  - "You can alter the program if you so choose. Do you want to terminate the clinic manager's contract and replace them with a new provider?"
+  - "You can alter the program if you so choose. Do you want to terminate the clinic manager's contract and replace them with a new provider?"
+  - "You can alter the program if you so choose. Do you want to terminate the clinic manager's contract and replace them with a new provider?"
 
 prompt_year_2_twist: 
-  - "You have one more year to go before we see if you have met your goals. If you are having complications with this new traditional clinic manager, we do have another provider at the ready. Would you like to replace him?"
-  - "You have one more year to go before we see if you have met your goals. If you are having complications with this new traditional clinic manager, we do have another provider at the ready. Would you like to replace him?"
-  - "You have one more year to go before we see if you have met your goals. If you are having complications with this new traditional clinic manager, we do have another provider at the ready. Would you like to replace him?"
+  - "You have one more year left. If you are having complications with this new clinic manager, we have another provider at the ready. Would you like to replace him?"
+  - "You have one more year left. If you are having complications with this new clinic manager, we have another provider at the ready. Would you like to replace him?"
+  - "You have one more year left. If you are having complications with this new clinic manager, we have another provider at the ready. Would you like to replace him?"
 
 choices: # <---- The choices the player will see during a year break.
   - text: "Replace Clinic Manager with new provider"
