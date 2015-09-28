@@ -1220,7 +1220,7 @@
   title: "Campaign to Shift Traditional Birthing Behaviors"
 
 - symbol: unlockable_incentivise_traditional_midwives
-  title: "Incentivise Traditional Midwives to Refer Women to Facilities"
+  title: "Incentivise Traditional birth attendants to Refer Women to Facilities"
 # -------------------------- #
 # Underutilization- Y2_CCT2
 # -------------------------- #
@@ -1358,7 +1358,7 @@
 # -------------------------- #
 
 - symbol: unlockable_directly_incentivise_service_improve
-  title: "Directly Incentivise Improved Service"
+  title: "Directly Incentivise Patient Satisfaction"
 
 - symbol: unlockable_increase_incentives_service_deliveries
   title: "Increase Incentives for Service Deliveries"
@@ -1368,7 +1368,7 @@
 # -------------------------- #
 
 - symbol: unlockable_directly_incentivise_service_better
-  title: "Directly Incentivise Better Service"
+  title: "Directly Incentivise Patient Satisfaction"
 
 - symbol: unlockable_sensitization_campaign
   title: "Have a Sensitization Campaign for Health Workers"
@@ -1422,7 +1422,7 @@
   title: "Continue With Program Aesthetic"
 
 - symbol: unlockable_grant_permission
-  title: "Grant Permission"
+  title: "Grant Permission to stop Aesthetic Improvements"
 
 # ----------------                                                  ---------------- #
 # ----------------   Contract Private Company to Deliver Supplies   ---------------- #
@@ -1480,7 +1480,7 @@
   title: "Increase Incentivise for Meeting Campaign Goals"
 
 - symbol: unlockable_reevaluate_whether_this_campaign_is_necessary
-  title: "Halt Campaign to Assess Challenges and Goals"
+  title: "Halt Campaign to re-assess usefulness campaign"
 
 
 # -------------------------- #
@@ -1488,7 +1488,7 @@
 # -------------------------- #
 
 - symbol: unlockable_refocus_campaign_staff
-  title: "Instruct Campaign Staff to Focus on Delivering Information"
+  title: "Focus on delivering information"
 
 - symbol: unlockable_end_campaign
   title: "End Campaign"
@@ -1553,10 +1553,10 @@
 # -------------------------- #
 
 - symbol: unlockable_limit_prescriptions
-  title: "Limit Prescriptions"
+  title: "Inform Patients About Medicine Needs"
 
 - symbol: unlockable_incentivise_following_set_protocols
-  title: "Incentivise Following Set Protocols"
+  title: "Create Incentives for Following Protocols"
 
 - symbol: unlockable_retrain_doctors
   title: "Retrain Doctors"
@@ -1569,7 +1569,7 @@
   title: "Create Robust Referral System"
 
 - symbol: unlockable_incentivise_following_set_protocols_rewards
-  title: "Incentivise Following Set Protocols Rewards"
+  title: "Incentivise Following Protocols"
 
 - symbol: unlockable_incentivise_referrals
   title: "Incentivise Referrals"

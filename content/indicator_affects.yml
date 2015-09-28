@@ -1414,7 +1414,7 @@ unlockable_contract_organization_to_help_distribute:
 
 unlockable_sanction_voucher_agency:
   indicator_1: -1
-  indicator_2: -1
+  indicator_2: -3
   indicator_3: -1
 
 
@@ -1462,20 +1462,20 @@ unlockable_hospital_administrator_revises_policy:
 
 unlockable_increase_incentives:
   indicator_1: +1
-  indicator_2: +2
+  indicator_2: +1
   indicator_3: 0
 
 
 unlockable_cultural_campaign:
   indicator_1: +1
-  indicator_2: +3
-  indicator_3: 0
+  indicator_2: +1
+  indicator_3: +1
 
 
 unlockable_incentivise_traditional_midwives:
   indicator_1: +1
   indicator_2: +5
-  indicator_3: +1
+  indicator_3: +4
 
 
 # -------------------------- #
@@ -1489,9 +1489,9 @@ unlockable_increase_incentives_t2:
 
 
 unlockable_use_a_different_incentive:
-  indicator_1: +1
-  indicator_2: +4
-  indicator_3: 0
+  indicator_1: +2
+  indicator_2: +5
+  indicator_3: +1
 
 
 # -------------------------- #
@@ -1501,7 +1501,7 @@ unlockable_use_a_different_incentive:
 unlockable_cut_back_cct:
   indicator_1: -3
   indicator_2: -3
-  indicator_3: 0
+  indicator_3: -1
 
 unlockable_push_minfin_to_expedite_payments:
   indicator_1: +6
@@ -1558,12 +1558,12 @@ unlockable_delivery_info_campaign:
 # -------------------------- #
 
 unlockable_warning_t3:
-  indicator_1: +1
-  indicator_2: 0
-  indicator_3: +1
+  indicator_1: -1
+  indicator_2: -1
+  indicator_3: 0
 
 unlockable_retrain_outreach_nurses:
-  indicator_1: +2
+  indicator_1: +4
   indicator_2: +1
   indicator_3: +2
 
@@ -1597,7 +1597,7 @@ unlockable_reduce_outreach_staff:
 unlockable_leave_things_as_is:
   indicator_1: -3
   indicator_2: -1
-  indicator_3: +1
+  indicator_3: +4
 
 unlockable_increase_outreach_incentive_level:
   indicator_1: +3
@@ -1641,9 +1641,9 @@ unlockable_revise_cv_surveys:
   indicator_3: +3
 
 unlockable_reorganize_cv_staff:
-  indicator_1: +1
-  indicator_2: +1
-  indicator_3: +2
+  indicator_1: +3
+  indicator_2: +5
+  indicator_3: +7
 
 # -------------------------- #
 # Delayed Scores - Y2_P1
@@ -1660,9 +1660,9 @@ unlockable_shift_to_quarterly_basis_2:
   indicator_3: +2
 
 unlockable_hire_local_verifiers:
-  indicator_1: +1
-  indicator_2: 0
-  indicator_3: +2
+  indicator_1: +2
+  indicator_2: +3
+  indicator_3: +5
 
 # -------------------------- #
 # Patient Satisfaction Not Improving - Y3_P1
@@ -1671,7 +1671,7 @@ unlockable_hire_local_verifiers:
 unlockable_retrain_verifiers_on_data:
   indicator_1: +1
   indicator_2: +1
-  indicator_3: +3
+  indicator_3: +2
 
 unlockable_retrain_providers_on_data:
   indicator_1: +2
@@ -1748,18 +1748,18 @@ unlockable_lower_requirements_and_increase_training:
   indicator_3: -3
 
 # -------------------------- #
-# Training Problems - Y1_N1
+# No Effect - Y1_N1
 # -------------------------- #
 
 unlockable_increase_incentives_for_attractive_facilities:
-  indicator_1: 0
-  indicator_2: 0
+  indicator_1: +1
+  indicator_2: +2
   indicator_3: 0
 
 unlockable_let_hospitals_select_hires:
-  indicator_1: +1
-  indicator_2: 0
-  indicator_3: +2
+  indicator_1: +3
+  indicator_2: +2
+  indicator_3: +4
 
 # ----------------                                 ---------------- #
 # ----------------   Make Aesthetic Improvements   ---------------- #

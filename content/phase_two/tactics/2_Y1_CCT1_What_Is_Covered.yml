@@ -34,7 +34,7 @@ new_options_affects: [unlockable_broaden_what_is_covered, unlockable_information
 
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
-  unlockable_broaden_what_is_covered: "I'll add this to the itinerary when contracts come up for review. This could get more people into facilities to receive the services we are emphasizing."
+  unlockable_broaden_what_is_covered: "I'll add this to the list for when contracts come up for review. This could get more people into facilities to receive the services we are emphasizing, but it may take resources away from improving low-performing services."
   unlockable_information_campaign_to_explain_what_is_covered: "I'll inform providers they need to act on this. Once people understand how this program works, this problem should go away."
   # This key is required for every tactic card for when the player chooses observe instead of investigate
   observe: "OK, we'll wait and see if anything changes."
