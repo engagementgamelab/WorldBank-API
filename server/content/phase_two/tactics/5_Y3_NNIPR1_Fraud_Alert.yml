@@ -13,7 +13,7 @@ name: "Fraud Alert" # <--- display name for card
 year: 3
 
 # This dialogue the player sees first
-initiating_dialogue: "There has been an increase in fraudulent service claims since the first year."
+initiating_dialogue: "There has been an increase in fraudulent service claims since the first year. This is a serious issue that is worth looking into don't you think?"
 
 # The dialogue the player sees when investigation has results to show
 investigate_dialogue: "It seems that when we raised incentives near the end of the first year, this tempted some providers to file fraudulent claims."

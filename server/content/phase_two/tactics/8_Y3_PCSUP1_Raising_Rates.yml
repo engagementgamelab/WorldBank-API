@@ -13,7 +13,7 @@ name: "Raising Rates" # <--- display name for card
 year: 3
 
 # This dialogue the player sees first
-initiating_dialogue: "The shipping company we hired says they have to raise their rates starting at the next contract year."
+initiating_dialogue: "The shipping company we hired says they have to raise their rates starting at the next contract year. This could cause potential problems with our projections."
 
 # The dialogue the player sees when investigation has results to show
 investigate_dialogue: "Our only options seem to be paying the new rate, which would have to come out of our discretionary budget, or trying to find a cheaper option."

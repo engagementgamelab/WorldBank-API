@@ -44,7 +44,7 @@ characters:
     unlocks: [revise_indicators_at_end_of_year_1]
     unlocks_affects: [revise_indicators_at_end_of_year_1]
     feedback:
-      revise_indicators: "OK, at year's end I'll sit the purchaser down together with the NGO and we'll figure out some realistic targets and prices."
+      revise_indicators_at_end_of_year_1: "OK, at year's end I'll sit the purchaser down together with the NGO and we'll figure out some realistic targets and prices."
 
   third_party_verifier:
     dialogue: "I can confirm that they are not meeting their targets, but other than that, I'm not much help."

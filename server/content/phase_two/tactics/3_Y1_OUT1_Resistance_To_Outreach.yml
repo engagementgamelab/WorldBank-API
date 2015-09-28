@@ -13,7 +13,7 @@ name: "Resistance to Outreach" # <--- display name for card
 year: 1
 
 # This dialogue the player sees first
-initiating_dialogue: "So far, our outreach team has not made a meaningful impact on facility births. There seems to be resistance to the program."
+initiating_dialogue: "So far, our outreach team has not made a meaningful impact on facility births. There seems to be resistance to the program. What should we do?"
 
 # The dialogue the player sees when investigation has results to show
 investigate_dialogue: "The women culturally are supposed to deliver at home and stay in the house for the first week. This is why we have very low numbers on institutional delivery. The tradition is to deliver in the house with a traditional birth assistant, often pressured by the mother-in-law. These unskilled deliveries lead to a lot of maternal deaths in the home."

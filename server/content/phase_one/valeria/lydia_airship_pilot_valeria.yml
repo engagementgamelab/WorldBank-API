@@ -18,14 +18,14 @@ character: lydia_airship_pilot_valeria
 dialogue:
     Initial:
       text: 
-        - "She seems very at ease as you approach, and introduces herself as Lydia, an airship pilot. \"These airships are pretty new, so not many people can fly one. This one here is [[mine]],\" she says with some pride, pointing to a floating craft. \"I'm about to depart on a [[personal trip]] to [[Zima]], and I'm just going through my flight checklist.\""
+        - "She seems very at ease as you approach, and introduces herself as Lydia, an airship pilot. \"These airships are pretty new, so not many people can fly one. This [[airship]] here is mine,\" she says with some pride, pointing to a floating craft. \"I'm about to depart on a [[personal trip]] to [[Zima]], and I'm just going through my flight checklist.\""
         - "\"I am about to head out. Was there something else you wanted to talk about?\""
     Zima:
       text:
         - "You ask about Zima. \"I do have room for a passenger if you are headed that way...\""
       unlocks: [unlockable_route_valeria_to_zima]
       unlocks_context: ["You discovered a new route to Zima."]
-    Mine:
+    Airship:
       text:
         - "You ask how she was able to afford the airship, and she tells you about an entrepreneurial loan she received from the government last year. \"I could not have afforded it otherwise. They do a lot of good in this region. They have my vote.\""
       unlocks: [unlockable_dialogue_plantation_owner]

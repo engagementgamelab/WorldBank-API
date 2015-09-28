@@ -51,5 +51,5 @@ characters:
   community_verifier:
     dialogue: "The other day I followed up with a woman who vaccinated her son against dengue right before the mosquitos got bad. The numbers aren't great, but if the payments stop, it will make the situation worse."
 
-  hospital_administrator:
-    dialogue: "I'm worried that it's not just the prices of these services that's the problem. Even if I had all the money in the world, I couldn't spend it on the supplies I need, since my budget is handed to me by the NGO."
+  clinic_manager:
+    dialogue: "I am not sure what the NGO is spending the money on but I have not been able to do outreach for the past months. Without that I don't know how we can reach and then treat people."

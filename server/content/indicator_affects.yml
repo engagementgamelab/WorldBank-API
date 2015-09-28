@@ -123,7 +123,7 @@ hire_more_outreach_staff:
   indicator_2: +2
   indicator_3: +2
 
-raise_incentives_for_faciliity_births:
+raise_incentives_for_facility_births:
   indicator_1: +2
   indicator_2: +5
   indicator_3: +7
@@ -1038,35 +1038,16 @@ grant_providers_autonomy:
 #------------------
 # Slow Verification - S4_Y1_1
 #------------------
-warn_verifier_2:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: -1
+request_expedited_payment_1:
+  indicator_1: -5
+  indicator_2: -6
+  indicator_3: -7
 
-revert_counterverification:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+speed_third_party_hire_1:
+  indicator_1: +2
+  indicator_2: +1
+  indicator_3: +4
 
-revert_counterverification:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
-
-streamline_speed_verification_process_2:
-  indicator_1: +1
-  indicator_2: 0
-  indicator_3: 0
-
-circulate_memo_reaffirming_ministry_authority:
-  indicator_1: -1
-  indicator_2: -1
-  indicator_3: 0
-
-ask_reduce_oversight:
-  indicator_1: 0
-  indicator_2: +2
-  indicator_3: +1
 #------------------
 # Process V Results - S4_Y1_2
 #------------------
@@ -1239,8 +1220,8 @@ grant_autonomy_to_providers_6:
 #------------------
 deny_payment_5:
   indicator_1: +1
-  indicator_2: 0
-  indicator_3: 0
+  indicator_2: +1
+  indicator_3: +1
 
 allow_payments_once_5:
   indicator_1: -2
@@ -1249,7 +1230,7 @@ allow_payments_once_5:
 
 revise_indicators_at_end_of_year_4:
   indicator_1: 0
-  indicator_2: 0
+  indicator_2: +1
   indicator_3: 0
 #------------------
 # Prescriptions S4_Y3_3
@@ -1260,18 +1241,18 @@ warning_18:
   indicator_3: +1
 
 sanctions_16:
-  indicator_1: 0
+  indicator_1: -1
   indicator_2: 0
-  indicator_3: +1
+  indicator_3: -1
 
 terminate_contract_at_end_of_year_10:
-  indicator_1: +1
-  indicator_2: +1
+  indicator_1: +3
+  indicator_2: +2
   indicator_3: +1
 
 tie_incentives_directly_to_protocol_2:
   indicator_1: 0
-  indicator_2: 0
+  indicator_2: +1
   indicator_3: +4
 
 reduce_incentives_for_customer_service_2:
@@ -1297,9 +1278,9 @@ terminate_ngo_contract_8:
   indicator_3: +1
 
 grant_autonomy_to_providers_5:
-  indicator_1: +2
+  indicator_1: +3
   indicator_2: +2
-  indicator_3: +2
+  indicator_3: +4
 # ----------------            ---------------- #
 # ----------------   TACTICS  ---------------- #
 # ----------------            ---------------- #
