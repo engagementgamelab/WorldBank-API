@@ -127,7 +127,7 @@ phase_1_end:
 ## PHASE 2
 
 phase_2_start:
-  text: "The results of the pilot year were deemed acceptable, and now we’ll be implementing at scale. Your goal is to increase the three main indicators: Vaccinations, Facility Births, and Quality of Care to 25, 30, and 35 percent respectively."
+  text: "The results of the pilot year were deemed acceptable, and now we’ll be implementing at scale. Your goal is to increase the three main indicators: Vaccinations, Facility Births, and Quality of Care by 25, 30, and 35 percent respectively."
   overlay_location: "Center"
   confirm: true
 
