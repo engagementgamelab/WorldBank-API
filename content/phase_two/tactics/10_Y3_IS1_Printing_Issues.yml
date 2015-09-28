@@ -13,7 +13,7 @@ name: "Printing Issues" # <--- display name for card
 year: 3
 
 # This dialogue the player sees first
-initiating_dialogue: "We are running out of pamphlets at most facilities."
+initiating_dialogue: "It has come to my attention that many facilities are running out of pamphlets. We should look into why this is happening as it is slowing down our information campaign."
 
 # The dialogue the player sees when investigation has results to show
 investigate_dialogue: "The printer we hired to create them is unreliable and keeps missing print deadlines, sometimes by many weeks. I could look for new printers, or we could let facilities produce their own materials. We'd need to provide equipment and materials, though."

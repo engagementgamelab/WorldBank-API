@@ -13,7 +13,7 @@ name: "Voucher Issues" # <--- display name for card
 year: 3 
 
 # This dialogue the player sees first
-initiating_dialogue: "The community verifier tells me they've seen eligible people looking for vouchers and not being able to get them."
+initiating_dialogue: "The community verifier tells me they've seen eligible people looking for vouchers and not being able to get them. We should look into this."
 
 # The dialogue the player sees when investigation has results to show
 investigate_dialogue: "It seems that supply problems have been mostly solved, so it must be a distribution problem. They offered to put us in contact with another community organization to help distrubute these, we can inform the voucher agency. Another option would be to sanction the agency."

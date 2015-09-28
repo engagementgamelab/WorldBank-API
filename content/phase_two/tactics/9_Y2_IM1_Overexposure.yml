@@ -13,7 +13,7 @@ name: "Overexposure" # <--- display name for card
 year: 2
 
 # This dialogue the player sees first
-initiating_dialogue: "The response to our campaign seems to be dropping off significantly. Should I look into the cause of this?"
+initiating_dialogue: "According to reports, the response to our campaign seems to be dropping off significantly. There must be a very specific reason this is happening. Should I look into the cause of this?"
 
 # The dialogue the player sees when investigation has results to show
 investigate_dialogue: "From what I have been able to discover, the campaigners are focusing a bit too strongly on what misinformation is being spread, and what the sources are. This is creating more suspicion about what the health facilities are doing and why."

@@ -13,7 +13,7 @@ name: "Cash Transfer Confusion" # <--- display name for card
 year: 3
 
 # This dialogue the player sees first
-initiating_dialogue: "I've been noticing a drop off in the fourth quarter of demand-side incentive customers. Thought you should know."
+initiating_dialogue: "I've been noticing a drop off in the fourth quarter of demand-side incentive customers. This might not be a good or bad thing, but worth investigating."
 
 # The dialogue the player sees when investigation has results to show
 investigate_dialogue: "Some clients are having difficulty understanding. They do eventually receive their money, but it takes too long, and by then, they've complained to others, who are discouraged from coming."

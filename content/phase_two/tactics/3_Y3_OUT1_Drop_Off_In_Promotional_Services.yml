@@ -13,7 +13,7 @@ name: "Drop-off in Promotional Services" # <--- display name for card
 year: 3
 
 # This dialogue the player sees first
-initiating_dialogue: "The Community Verifier tells me that there has been a large drop-off in simple health activities such as promoting hand-washing and sanitation at the household level. These aren't incentivized services, but they are very important."
+initiating_dialogue: "The Community Verifier tells me that there has been a large drop-off in simple health activities such as promoting hand-washing and sanitation at the household level. These aren't Incentivised services, but they are very important."
 
 # The dialogue the player sees when investigation has results to show
 investigate_dialogue: "The outreach staff has been spending time searching out the last children in each community who have not been vaccinated, and hanging around pregnant women's homes so they can refer them for the incentive bonus. They do this instead of the promotional services, since that's where the incentives push them."

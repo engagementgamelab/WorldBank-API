@@ -13,7 +13,7 @@ name: "Lack of Information" # <--- display name for card
 year: 1
 
 # This dialogue the player sees first
-initiating_dialogue: "Community verifier says opinions about health care facilities aren't changing, and people are not changing much."
+initiating_dialogue: "Community verifier says opinions about health care facilities aren't changing, and the campaign doesn't seem to be taking hold. Is this worth investigating?"
 
 # The dialogue the player sees when investigation has results to show
 investigate_dialogue: "Most people have not heard about the changes."
