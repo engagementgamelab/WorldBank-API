@@ -964,7 +964,7 @@
   title: "Deny Payment"
 
 - symbol: increase_budget_for_supplies_1
-  title: "Increase Budget for Hospital Supplies"
+  title: "Increase Ministry's Budget for Hospital Supplies"
 
 - symbol: allow_payments_once_4
   title: "Warn, but Allow Payments Once"
@@ -975,10 +975,7 @@
   title: "Hold Meeting of Stakeholders"
 
 - symbol: clarification_of_roles_11
-  title: "Clarification of Roles"
-
-- symbol: warning_17
-  title: "Warning"
+  title: "Clarification On Use of Protocols"
 
 - symbol: terminate_ngo_contract_7
   title: "Terminate NGO Contract"
@@ -995,7 +992,7 @@
   title: "Increase Supply Budget"
 
 - symbol: grant_facilities_autonomy_2
-  title: "Grant Facilities Autonomy to Order or Purchase Supplies"
+  title: "Grant NGO Autonomy to Purchase Supplies"
 
 - symbol: increase_ngo_autonomy_1
   title: "Increase NGO Autonomy"
