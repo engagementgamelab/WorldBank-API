@@ -6,14 +6,14 @@
 # ==============
 
 prompt_year_1: 
-  - "Now that the year's over, you have the option to alter the program. Do you think the program should explicitly grant providers more autonomy? Review your work from the past year and decide."
-  - "Now that the year's over, you have the option to alter the program. Do you think the program should explicitly grant providers more autonomy? Review your work from the past year and decide."
-  - "Now that the year's over, you have the option to alter the program. Do you think the program should explicitly grant providers more autonomy? Review your work from the past year and decide."
+  - "You have the option to alter the program. Do you think the program should explicitly grant providers more autonomy?"
+  - "You have the option to alter the program. Do you think the program should explicitly grant providers more autonomy?"
+  - "You have the option to alter the program. Do you think the program should explicitly grant providers more autonomy?"
 
 prompt_year_2: 
-  - "Now that the year's over, you have the option to alter the program. Do you think the program should explicitly grant providers more autonomy? Review your work from the past year and decide."
-  - "Now that the year's over, you have the option to alter the program. Do you think the program should explicitly grant providers more autonomy? Review your work from the past year and decide."
-  - "Now that the year's over, you have the option to alter the program. Do you think the program should explicitly grant providers more autonomy? Review your work from the past year and decide."
+  - "You have the option to alter the program. Do you think the program should explicitly grant providers more autonomy?"
+  - "You have the option to alter the program. Do you think the program should explicitly grant providers more autonomy?"
+  - "You have the option to alter the program. Do you think the program should explicitly grant providers more autonomy?"
 
 choices: # <---- The choices the player will see during a year break.
   - text: "Grant Providers Autonomy"

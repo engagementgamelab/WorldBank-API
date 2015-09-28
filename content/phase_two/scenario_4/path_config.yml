@@ -6,14 +6,14 @@
 # ==============
 
 prompt_year_1: 
-  - "Now that the year is over, you have the option to alter the program. Do you think we should cancel the NGO's contract and work directly with providers instead? Review your work from the past year and decide."
-  - "Now that the year is over, you have the option to alter the program. Do you think we should cancel the NGO's contract and work directly with providers instead? Review your work from the past year and decide."
-  - "Now that the year is over, you have the option to alter the program. Do you think we should cancel the NGO's contract and work directly with providers instead? Review your work from the past year and decide."
+  - "You have the option to alter the program. Do you think we should cancel the NGO's contract and work directly with providers instead?"
+  - "You have the option to alter the program. Do you think we should cancel the NGO's contract and work directly with providers instead?"
+  - "You have the option to alter the program. Do you think we should cancel the NGO's contract and work directly with providers instead?"
 
 prompt_year_2: 
-  - "Now that the year is over, you have the option to alter the program. Do you think we should cancel the NGO's contract and work directly with providers instead? Review your work from the past year and decide."
-  - "Now that the year is over, you have the option to alter the program. Do you think we should cancel the NGO's contract and work directly with providers instead? Review your work from the past year and decide."
-  - "Now that the year is over, you have the option to alter the program. Do you think we should cancel the NGO's contract and work directly with providers instead? Review your work from the past year and decide."
+  - "You have the option to alter the program. Do you think we should cancel the NGO's contract and work directly with providers instead?"
+  - "You have the option to alter the program. Do you think we should cancel the NGO's contract and work directly with providers instead?"
+  - "You have the option to alter the program. Do you think we should cancel the NGO's contract and work directly with providers instead?"
 
 choices: # <---- The choices the player will see during a year break.
   - text: "Cancel NGO Contract"
