@@ -36,6 +36,6 @@ new_options_affects: [unlockable_incentivise_best_practices_long_term, unlockabl
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
   unlockable_incentivise_best_practices_long_term: "There's no excuse for this: there are plenty of people to treat. We have to nip this in the bud."
-  unlockable_sanction_providers_who_fail_safety_inspection: "It's going to cost some money to make best practices possible, but it makes sense long-term."
+  unlockable_sanction_providers_who_fail_safety_inspection: "It's going to cost some money to make best practices possible, but it makes sense long-term. I will get on this right away."
   # This key is required for every tactic card for when the player chooses observe instead of investigate
   observe: "OK, we'll wait and see if anything changes."

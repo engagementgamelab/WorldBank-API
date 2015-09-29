@@ -32,7 +32,7 @@ new_options: [unlockable_create_robust_referral_system, unlockable_incentivise_f
 # The affects for each new option
 new_options_affects: [unlockable_create_robust_referral_system, unlockable_incentivise_following_set_protocols_rewards, unlockable_incentivise_referrals]
 
-
+#
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
   unlockable_create_robust_referral_system: "If the problem persists, then our providers are not leveling with us. It should fix the problem, though."

@@ -55,4 +55,4 @@ characters:
     unlocks: [maintain_current_rates_2]
     unlocks_affects: [maintain_current_rates_2]
     feedback:
-      maintain_current_rates_2: "I'm glad to refer complicated cases to the hospital."
+      maintain_current_rates_2: "Very well, this will be no problem for me. I'm glad to refer complicated cases to the hospital."

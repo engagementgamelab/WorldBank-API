@@ -43,3 +43,9 @@ copy_unlockable_grant_providers_autonomy: "The Finance Minister suggests more au
 copy_unlockable_incentivise_providers_to_deliver_services: "Facilities are not providing enough services. If they are incentivised to provide more, they probably will."
 copy_unlockable_vouchers_for_services: "The Regional Director of Health Services for the Highlands says 80% of people live in extreme poverty."
 copy_unlockable_information_campaign_to_explain_changes_to_system: "It will be difficult to sensitize the population on changes, so good communication strategies will help."
+
+#=====
+# PHASE 2
+#=====
+copy_no_action_taken_problem: "You did not take any action for this problem! Your indicators have not changed."
+copy_waiting_for_feedback: "Waiting for feedback..."

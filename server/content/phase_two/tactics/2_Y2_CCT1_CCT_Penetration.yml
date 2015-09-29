@@ -45,6 +45,6 @@ further_options_affects: [unlockable_cultural_campaign, unlockable_incentivise_t
 feedback_dialogue:
   unlockable_increase_incentives: "By raising the incentives, we can bring more women into these clinics."
   unlockable_cultural_campaign: "It will be a challenge to convince women to change their ways. I hope we are up to it!"
-  unlockable_incentivise_traditional_midwives: "This is an interesting approach!"
+  unlockable_incentivise_traditional_midwives: "This is an interesting approach! I think this will be a good balance between achieving our financial goals and keeping people healthy."
   # This key is required for every tactic card for when the player chooses observe instead of investigate
   observe: "OK, we'll wait and see if anything changes."
