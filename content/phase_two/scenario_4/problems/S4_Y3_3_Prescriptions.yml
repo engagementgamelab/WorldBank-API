@@ -15,11 +15,11 @@ year: 3
 initiating_npc: community_verifier # <--- character's symbol
 initiating_dialogue: "I've been interviewing patients, and at least at the clinics there's a serious quality of care issue. People have been leaving with what appears to be completely wrong prescriptions."
 
-starting_options: [warning_18, sanctions_16]
-starting_options_affects: [warning_18, sanctions_16]
+starting_options: [sanctions_16]
+starting_options_affects: [sanctions_16]
 
-final_options: [warning_18, sanctions_16, terminate_contract_at_end_of_year_10, tie_incentives_directly_to_protocol_2, reduce_incentives_for_customer_service_2]
-final_options_affects: [warning_18, sanctions_16, terminate_contract_at_end_of_year_10, tie_incentives_directly_to_protocol_2, reduce_incentives_for_customer_service_2]
+final_options: [sanctions_16, terminate_contract_at_end_of_year_10, tie_incentives_directly_to_protocol_2, reduce_incentives_for_customer_service_2]
+final_options_affects: [sanctions_16, terminate_contract_at_end_of_year_10, tie_incentives_directly_to_protocol_2, reduce_incentives_for_customer_service_2]
 
 characters:
 
@@ -37,7 +37,6 @@ characters:
   ngo_manager:
     dialogue: "I run the entire health network of Zariba and can't be everywhere at once. In the end, I am responsible, but I'm not being given the support I need."
     feedback:
-      warning_18: "Everyone who works for me is doing their best. I don't know what I can do without an increase in resources."
       sanctions_16: "I need an increase in resources to deal with this, not a cut! How can I fix this problem if I'm hamstrung by sanctions?"
 
   coach:
