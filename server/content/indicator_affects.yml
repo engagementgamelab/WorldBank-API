@@ -354,11 +354,6 @@ increase_scrutiny_1:
   indicator_2: 0
   indicator_3: 0
 
-terminate_contract_at_end_of_year_4:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
-
 create_new_guidelines_1:
   indicator_1: +3
   indicator_2: +2
@@ -879,7 +874,7 @@ warning_13:
   indicator_2: +1
   indicator_3: +1
 
-sanctions_and_retraining_on_use_of_financial_tools_2:
+retraining_on_use_of_financial_tools_2:
   indicator_1: +2
   indicator_2: +2
   indicator_3: +2
@@ -976,11 +971,6 @@ warning_16:
 
 sanctions_15:
   indicator_1: 0
-  indicator_2: -2
-  indicator_3: -3
-
-terminate_contract_at_end_of_year_8:
-  indicator_1: +1
   indicator_2: -2
   indicator_3: -3
 
@@ -1111,11 +1101,6 @@ increase_customer_service_incentives_2:
   indicator_1: +1
   indicator_2: +1
   indicator_3: +2
-
-reorganize_staff_2:
-  indicator_1: -1
-  indicator_2: -1
-  indicator_3: -1
 #------------------
 # Reach - S4_Y2_2
 #------------------
@@ -1206,11 +1191,6 @@ revise_indicators_at_end_of_year_4:
 #------------------
 # Prescriptions S4_Y3_3
 #------------------
-warning_18:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: +1
-
 sanctions_16:
   indicator_1: -1
   indicator_2: 0
@@ -1266,7 +1246,7 @@ grant_autonomy_to_providers_5:
 # Poor voucher usage - Y1_V1
 # -------------------------- 
 
-unlockable_information_campaign:
+unlockable_information_campaign_69:
   indicator_1: +1
   indicator_2: +1
   indicator_3: 0

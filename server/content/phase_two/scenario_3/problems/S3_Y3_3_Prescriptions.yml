@@ -18,22 +18,18 @@ initiating_dialogue: "I've been interviewing patients, and at least at the clini
 starting_options: [warning_16, sanctions_15]
 starting_options_affects: [warning_16, sanctions_15]
 
-final_options: [warning_16, sanctions_15, terminate_contract_at_end_of_year_8, tie_incentives_directly_to_protocol, reduce_incentives_for_customer_service]
-final_options_affects: [warning_16, sanctions_15, terminate_contract_at_end_of_year_8, tie_incentives_directly_to_protocol, reduce_incentives_for_customer_service]
+final_options: [warning_16, sanctions_15, tie_incentives_directly_to_protocol, reduce_incentives_for_customer_service]
+final_options_affects: [warning_16, sanctions_15, tie_incentives_directly_to_protocol, reduce_incentives_for_customer_service]
 
 characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
     dialogue: "That's unacceptable. I think it's time we looked for someone else to fulfill these duties. There are other health care providers in Zariba. "
-    unlocks: [terminate_contract_at_end_of_year_8] # <--- these probably will symbols
-    unlocks_affects: [terminate_contract_at_end_of_year_8]
 
   director_regional_health_services: # <--- character's symbol
     dialogue: "We must conduct an investigation right away. Begin by speaking directly with the health providers and find out why this is happening."
     narrows: [clinic_manager, hospital_administrator, coach] # <--- this probably will be a symbol
-    feedback: 
-      terminate_contract_at_end_of_year_8: "I understand. I will inform the Clinic Manager of this, and begin the search for a replacement ASAP." # <--- symbol of the option used and the feedback text for it
 
   coach:
     dialogue: "Maybe we've been incentivising the wrong things. Prescriptions make patients happy, whether or not they're correct. I've prioritized satisfied patients, perhaps to the detriment of best practices."

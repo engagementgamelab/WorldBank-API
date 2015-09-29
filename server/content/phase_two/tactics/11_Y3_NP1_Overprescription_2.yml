@@ -36,6 +36,6 @@ new_options_affects: [unlockable_incentivise_best_practices_high_goals, unlockab
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
   unlockable_incentivise_best_practices_high_goals: "Just make sure to include patient treatment charts against protocols. We do not want to pay for services below standard."
-  unlockable_sanction_providers_performing_unnecessary_procedures: "This is a serious problem. I hope this will solve it."
+  unlockable_sanction_providers_performing_unnecessary_procedures: "This is a serious problem. I hope showing the provider we won't stand for this will solve the problem."
   # This key is required for every tactic card for when the player chooses observe instead of investigate
   observe: "OK, we'll wait and see if anything changes."

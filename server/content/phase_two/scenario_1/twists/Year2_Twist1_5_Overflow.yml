@@ -30,8 +30,6 @@ characters:
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
     dialogue: "I'm not sure working with these people was the best idea. Maybe we should seek another partner for next year."
-    unlocks: [terminate_contract_at_end_of_year_4]
-    unlocks_affects: [terminate_contract_at_end_of_year_4]
 
   director_regional_health_services:
     dialogue: "We need to send a clear message that this is unacceptable. Strong sanctions are what I recommend."
@@ -63,4 +61,3 @@ characters:
     feedback:
       warning_9: "Many apologies! I think I now understand the problem."
       sanctions_4: "Why do I even refer people if you punish me afterwards? This is foolish."
-      terminate_contract_at_end_of_year_4: "But we have only just begun! Pray, please reconsider."
