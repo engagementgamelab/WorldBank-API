@@ -35,7 +35,7 @@ new_options_affects: [unlockable_directly_incentivise_service_better, unlockable
 
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
-  unlockable_directly_incensitive_service_better: "Patients can be really demanding, but if you get paid for making them happy, that should prioritize that for them."
+  unlockable_directly_incentivise_service_better: "Patients can be really demanding, but if you get paid for making them happy, that should prioritize that for them."
   unlockable_sensitization_campaign: "I'm thinking, for effectiveness' sake, we shouldn't just tell doctors to not be jerks. But sometimes they could stand to hear just that."
   # This key is required for every tactic card for when the player chooses observe instead of investigate
   observe: "OK, we'll wait and see if anything changes."
