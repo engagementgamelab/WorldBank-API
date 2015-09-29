@@ -47,7 +47,7 @@ characters:
     dialogue: "Wow, uh, I'm not really sure what I would do in your shoes. That might be in somebody else's job description, though."
 
   hospital_administrator:
-    dialogue: "TWe need to spend money where it's needed, and I know where it is needed. That was the purpose of granting us autonomy in the first place."
+    dialogue: "We need to spend money where it's needed, and I know where it is needed. That was the purpose of granting us autonomy in the first place."
     feedback:
       warning_8: "I will do my best, but I don't see a sustainable path forward with the current plan."
 
