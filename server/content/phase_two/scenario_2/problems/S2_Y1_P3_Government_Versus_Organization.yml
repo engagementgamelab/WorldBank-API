@@ -35,8 +35,8 @@ characters:
 
   ngo_manager:
     dialogue: "We verify everything, I promise. We also give third-party access to the verification, there is no need for the government to also verify."
-    unlocks: [cease_counter_verification_1]
-    unlocks_affects: [cease_counter_verification_1]
+    unlocks: [cease_counter_verification]
+    unlocks_affects: [cease_counter_verification]
     feedback:
       pressure_the_ngo_to_comply_1: "It takes a lot of time for us to comply with all these verifications. I'm worried we won't have time to meet our targets if we're busy with paperwork."
 
