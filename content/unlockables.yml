@@ -1106,7 +1106,7 @@
 # -------------------------- #
 # Poor voucher usage - Y1_V1
 # -------------------------- #
-- symbol: unlockable_information_campaign
+- symbol: unlockable_information_campaign_69
   title: "Information Campaign"
 
 - symbol: unlockable_add_travel_vouchers
