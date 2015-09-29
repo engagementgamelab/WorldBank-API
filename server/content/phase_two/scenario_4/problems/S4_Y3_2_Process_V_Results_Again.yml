@@ -9,7 +9,8 @@
 
 symbol: process_v_results_again
 name: "Process V Results Again"
-priority: 10
+priority: 2
+year: 3
 
 initiating_npc: ngo_manager # <--- character's symbol
 initiating_dialogue: "Fuel prices went up, so we had to reduce our outreach because of costs, and then we couldn't reach our targets... But if we don't get our bonus, next quarter it'll be even worse..."

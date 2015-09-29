@@ -9,10 +9,11 @@
 
 symbol: reach
 name: "Reach"
-priority: 6
+priority: 2
+year: 2
 
 initiating_npc: dep_minister_of_health # <--- character's symbol
-initiating_dialogue: "We're seeing underserved populations throughout the South. The NGO is falling short of their promises, especially in this one area."
+initiating_dialogue: "We're seeing underserved populations throughout the south. The NGO is falling short of their promises, at least in this area."
 
 starting_options: [terminate_contract_at_end_of_year_9]
 starting_options_affects: [terminate_contract_at_end_of_year_9]

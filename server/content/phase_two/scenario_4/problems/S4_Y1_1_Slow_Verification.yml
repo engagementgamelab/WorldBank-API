@@ -10,6 +10,7 @@
 symbol: slow_verification
 name: "Slow Verification"
 priority: 1
+year: 1
 
 initiating_npc: ngo_manager # <--- character's symbol
 initiating_dialogue: "I need a little help here. The program has just begun and already we're seeing delays in payments. This does not bode well."

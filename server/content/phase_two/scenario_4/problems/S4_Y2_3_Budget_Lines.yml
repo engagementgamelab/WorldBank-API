@@ -9,43 +9,50 @@
 
 symbol: budget_lines
 name: "Budget"
-priority: 7
+priority: 3
+year: 2
 
-initiating_npc: director_regional_health_services # <--- character's symbol
-initiating_dialogue: "The NGOs will not reach their targets unless they hire more staff to work in the hospitals, as otherwise they are not able to provide good quality of care."
+initiating_npc: dep_minister_of_health # <--- character's symbol
+initiating_dialogue: "The NGO is giving us the run around when we ask to counter-verify their reports. You need to get them to realize their presence here depends on their transparency."
 
-starting_options: [clarify_roles_1]
-starting_options_affects: [clarify_roles_1]
+starting_options: [pressure_ngo_to_comply_10]
+starting_options_affects: [pressure_ngo_to_comply_10]
 
-final_options: [clarify_roles_1, move_authority_to_ministry_3, grant_autonomy_to_providers_2]
-final_options_affects: [clarify_roles_1, move_authority_to_ministry_3, grant_autonomy_to_providers_2]
+final_options: [pressure_ngo_to_comply_10, clarification_of_roles_10, cease_counterverification_by_government]
+final_options_affects: [pressure_ngo_to_comply_10, clarification_of_roles_10,  cease_counterverification_by_government]
 
 characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory"
 
   dep_minister_of_health:
-    dialogue: "We have a pretty good sense of how staffing was working and where we can improve it if you give us back the authority to recruit."
-    unlocks: [move_authority_to_ministry_3]
-    unlocks_affects: [move_authority_to_ministry_3]
+    feedback:
+      cease_counterverification_by_government: "If you think they don't need more looking into, that's fine, I trust you."
+      clarification_of_roles_10: "Next time, let's try to avoid this by making everyone's job clear beforehand. Thanks."
+
+  director_regional_health_services:
+    dialogue: "I'm with the Minister on this, I want to know what the NGOs are doing. I would advise speaking to them directly."
 
   ngo_manager:
-    dialogue: "This is results-based financing. We're responsible for the results, so let us decide on how to use the financing."
+    dialogue: "We verify everything I promise. We also give the third party access to verify so there is no need for the government to also verify."
+    unlocks: [cease_counterverification_by_government]
+    unlocks_affects: [cease_counterverification_by_government]
     feedback:
-      grant_autonomy_to_providers_2: "That's fine by me, but let's discuss it at the end of the year. It's a pretty big change."
-      move_authority_to_ministry_3: "I really thought we were supposed to handle this, but if the Ministry wants to, that's fine."
+      pressure_ngo_to_comply_10: "It takes a lot of time for us to comply with all these verifications. I'm worried we won't have time to meet our targets if we're busy with paperwork."
 
   coach:
     dialogue: "Hate to say it, but the NGO has too much power over the budget. We should alter the program to allow providers to make these decisions at their level."
-    unlocks: [grant_autonomy_to_providers_2] # <--- these probably will symbols
-    unlocks_affects: [grant_autonomy_to_providers_2]
+    narrows: [director_regional_health_services, coach, community_verifier, hospital_administrator]
 
   third_party_verifier:
-    dialogue: "I'm seeing the hospitals struggling, but that might just be growing pains. Missing goals for one quarter isn't the end of the world."
+    dialogue: "We really don't need the government to counter-verify. We are handling this process just fine."
+    unlocks: [clarification_of_roles_10]
+    unlocks_affects: [clarification_of_roles_10]
 
   community_verifier:
-    dialogue: "My only concern is people not getting care because the budget keeps getting tied up in arguments."
+    dialogue: "I think there's enough oversight. This shouldn't be the role of the Ministry, and we should really let them know that directly."
+    unlocks: [clarification_of_roles_10]
+    unlocks_affects: [clarification_of_roles_10]
 
   hospital_administrator:
-    dialogue: "We definitely need more staff, I have already highlighted this to the NGO."
-    narrows: [director_regional_health_services, third_party_verifier, community_verifier, hospital_administrator]
+    dialogue: "It wouldn't be a lot more paperwork for us to submit for counter-verification, but I don't know that it's necessary. Is the Third Party not providing a copy to the government?"

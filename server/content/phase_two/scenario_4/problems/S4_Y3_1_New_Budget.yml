@@ -9,7 +9,8 @@
 
 symbol: new_budget
 name: "New Budget"
-priority: 9
+priority: 1
+year: 3
 
 initiating_npc: hospital_administrator # <--- character's symbol
 initiating_dialogue: "Look, I don't really know what you and the NGO have worked out, but I need to be authorized to purchase supplies at the right costs. Can you tell them to lighten these restrictions some?"
