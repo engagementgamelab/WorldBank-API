@@ -10,6 +10,7 @@
 symbol: lack_of_supplies
 name: "Lack of Supplies"
 priority: 4
+year: 1
 
 initiating_npc: community_verifier # <--- character's symbol
 initiating_dialogue: "Bad news. We have surveyed many patients from the hospitals and clinics, and at every focus group, someone reports being turned away without services."
@@ -17,8 +18,8 @@ initiating_dialogue: "Bad news. We have surveyed many patients from the hospital
 starting_options: [warn_ngo_4]
 starting_options_affects: [warn_ngo_4]
 
-final_options: [warn_ngo_4, sanction_ngo_3, increase_supply_budget_2, grant_facilities_autonomy_2, increase_ngo_autonomy_1]
-final_options_affects: [warn_ngo_4, sanction_ngo_3, increase_supply_budget_2, grant_facilities_autonomy_2, increase_ngo_autonomy_1]
+final_options: [warn_ngo_4, sanction_ngo_3, increase_supply_budget_2, increase_ngo_autonomy_1]
+final_options_affects: [warn_ngo_4, sanction_ngo_3, increase_supply_budget_2,increase_ngo_autonomy_1]
 
 characters:
 
@@ -39,7 +40,6 @@ characters:
     unlocks_affects: [increase_ngo_autonomy_1]
     feedback:
       warn_ngo_4: "Warning received. I'll discuss this with our health providers and work on a solution."
-      grant_facilities_autonomy_2: "I'll see to this. In addition, we should issue a recommendation to the ministry about the usefulness of autonomy in RBF, as this is clearly not well understood."
       sanction_ngo_3: "How are we supposed to accomplish anything if you keep handicapping us? You understand this is going to affect care outcomes."
 
   coach:
@@ -54,5 +54,3 @@ characters:
 
   hospital_administrator:
     dialogue: "We put in requests for supplies, but they are not filled in a timely way. We get too much of some things, and not enough of others. Maybe the NGO can help, they seem pretty well organized."
-    unlocks: [grant_facilities_autonomy_2]
-    unlocks_affects: [grant_facilities_autonomy_2]

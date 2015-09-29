@@ -9,7 +9,8 @@
 
 symbol: staff_issues
 name: "Staff Issues"
-priority: 5
+priority: 1
+year: 2
 
 initiating_npc: community_verifier # <--- character's symbol
 initiating_dialogue: "In many of my focus groups, there's an air of mistrust with the hospitals and clinics. People who go there have experienced terrible service, and word's getting around."
@@ -37,10 +38,10 @@ characters:
     unlocks_affects: [increase_ngo_autonomy_2]
     feedback:
       warn_ngo_5: "I'll do what I can, but we're struggling as it is. I don't know how we can improve without being able to hire staff ourselves."
-      increase_ngo_autonomy_2: "Thank you! Hopefully we can start to make some progress here!"
+      increase_ngo_autonomy_2: "This will really help us improve quality and I assure you patients will be treated better when staff are less stressed with the workload."
 
   coach:
-    dialogue: "Customer service is a huge part of quality of care. If staff aren't doing it now, we need to increase incentives."
+    dialogue: "Patient satisfaction is a huge part of quality of care. If staff aren't doing it now, maybe we need to increase incentives."
     unlocks: [increase_customer_service_incentives_2] # <--- these probably will symbols
     unlocks_affects: [increase_customer_service_incentives_2]
     feedback:
@@ -51,8 +52,8 @@ characters:
     unlocks: [reorganize_staff_2]
     unlocks_affects: [reorganize_staff_2]
 
-  hospital_administrator:
+  clinic_manager:
     dialogue: "I have less control over my staff than you might think. When we struggle to fill demand on a day to day basis, there isn't much time left over for morale-building and discipline."
     feedback:
-      reorganize_staff_2: "More orders from on high about who I can hire? Just thinking about how long it will take to train all these people to where my current staff is makes me mad. And that will happen after I fire my people."
+      reorganize_staff_2: "More orders from on high about who can be hired? Just thinking about how long it will take to train all these people to where my current staff is makes me mad. As long as we keep running out of supplies, new staff will get frustrated soon too."
       sanction_ngo_4: "You realize that when you sanction the NGO, the money tends to come out of my budget? You cannot keep doing this to us."

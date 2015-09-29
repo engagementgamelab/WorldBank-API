@@ -10,6 +10,7 @@
 symbol: government_vs_organization
 name: "Government Vs. Organization"
 priority: 3
+year: 1
 
 initiating_npc: director_regional_health_services # <--- character's symbol
 initiating_dialogue: "I'm getting a different answer from everyone, so I'll ask you to straighten them out. The Ministry, NGO, and health care providers can't agree on who has jurisdiction where and what we're supposed to do for patients."

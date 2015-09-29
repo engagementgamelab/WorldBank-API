@@ -1087,40 +1087,35 @@ terminate_ngo_contract_7:
 #------------------
 warn_ngo_4:
   indicator_1: -2
-  indicator_2: -1
-  indicator_3: -2
+  indicator_2: -2
+  indicator_3: 0
 
 sanction_ngo_3:
   indicator_1: +3
   indicator_2: +2
-  indicator_3: +3
+  indicator_3: -3
 
 increase_supply_budget_2:
-  indicator_1: +2
-  indicator_2: +1
-  indicator_3: +2
-
-grant_facilities_autonomy_2:
-  indicator_1: +1
-  indicator_2: 0
-  indicator_3: +1
-
-increase_ngo_autonomy_1:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: -2
+  indicator_3: 0
+
+increase_ngo_autonomy_1:
+  indicator_1: +3
+  indicator_2: +4
+  indicator_3: +7
 #------------------
 # Staff Issues - S4_Y2_1
 #------------------
 warn_ngo_5:
-  indicator_1: -2
+  indicator_1: -1
   indicator_2: -1
-  indicator_3: -2
+  indicator_3: -1
 
 increase_ngo_autonomy_2:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: -2
+  indicator_1: +3
+  indicator_2: +5
+  indicator_3: +7
 
 sanction_ngo_4:
   indicator_1: -3
@@ -1128,54 +1123,50 @@ sanction_ngo_4:
   indicator_3: -3
 
 increase_customer_service_incentives_2:
-  indicator_1: +2
+  indicator_1: +1
   indicator_2: +1
-  indicator_3: +3
+  indicator_3: +2
 
 reorganize_staff_2:
   indicator_1: -1
   indicator_2: -1
-  indicator_3: +2
+  indicator_3: -1
 #------------------
 # Reach - S4_Y2_2
 #------------------
 
 increase_funding_for_ngo_2:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
-
-terminate_contract_at_end_of_year_9:
   indicator_1: +1
   indicator_2: +1
   indicator_3: +1
 
+terminate_contract_at_end_of_year_9:
+  indicator_1: -1
+  indicator_2: -1
+  indicator_3: -1
+
 contract_additional_ngo_2:
-  indicator_1: +2
-  indicator_2: +2
-  indicator_3: 0
+  indicator_1: +3
+  indicator_2: +3
+  indicator_3: +5
 #------------------
 # Budget Lines - S4_Y2_3
 #------------------
-advise_to_follow_budget_restrictions_1:
-  indicator_1: -1
-  indicator_2: -2
-  indicator_3: -1
 
-move_authority_to_ministry_3:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+pressure_ngo_to_comply_10:
+  indicator_1: -3
+  indicator_2: -3
+  indicator_3: -5
 
-grant_autonomy_to_providers_2:
+clarification_of_roles_10:
+  indicator_1: +2
+  indicator_2: +1
+  indicator_3: +2
+
+cease_counterverification_by_government:
   indicator_1: +3
   indicator_2: +3
-  indicator_3: +3
-
-clarify_roles_1:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
+  indicator_3: +5
 #------------------
 # Midwives S4_Y2_4
 #------------------

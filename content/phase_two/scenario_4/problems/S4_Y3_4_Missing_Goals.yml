@@ -9,10 +9,11 @@
 
 symbol: missing_goals
 name: "Missing Goals"
-priority: 12
+priority: 4
+year: 3
 
 initiating_npc: dep_minister_of_health # <--- character's symbol
-initiating_dialogue: "I hate to say it, but things are not going well. The NGO is underperforming, and our indicators have not risen as predicted. We're thinking about cancelling the program next year, and returning to traditional financing."
+initiating_dialogue: "I hate to say it, but things are not going well. The NGO is under performing, and our indicators have not risen as predicted. We're thinking about canceling the program next year, and returning to traditional financing."
 
 starting_options: [return_to_traditional_financing_2]
 starting_options_affects: [return_to_traditional_financing_2]

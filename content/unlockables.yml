@@ -991,7 +991,7 @@
 - symbol: increase_supply_budget_2
   title: "Increase Supply Budget"
 
-- symbol: grant_facilities_autonomy_2
+- symbol: increase_ngo_autonomy_1
   title: "Grant NGO Autonomy to Purchase Supplies"
 
 # ------------------- #
@@ -1010,7 +1010,7 @@
   title: "Sanction NGO"
 
 - symbol: increase_customer_service_incentives_2
-  title: "Increase Incentives for Customer Service"
+  title: "Increase Patient Satisfaction Incentives"
 
 - symbol: reorganize_staff_2
   title: "Reorganize Staff"
@@ -1021,26 +1021,20 @@
   title: "Terminate Contract at End of Year"
 
 - symbol: increase_funding_for_ngo_2
-  title: "Revise Fees for Indicators"
-
-- symbol: terminate_contract_at_end_of_year_9
-  title: "Terminate Contract at End of Year"
+  title: "Revise Indicator Fees for NGO At End of Year"
 
 - symbol: contract_additional_ngo_2
   title: "Contract Additional NGO"
 #------------------
 # Budget Lines S4_Y2_3
 #------------------
-- symbol: advise_to_follow_budget_restrictions_1
-  title: "Advise to Follow Budget Restrictions"
+- symbol: pressure_ngo_to_comply_10
+  title: "Pressure The NGO To Comply"
 
-- symbol: move_authority_to_ministry_3
-  title: "Move Authority to Ministry"
+- symbol: cease_counterverification_by_government
+  title: "Cease Counter-Verification By Government"
 
-- symbol: grant_autonomy_to_providers_2
-  title: "Grant Autonomy to Providers"
-
-- symbol: clarify_roles_1
+- symbol: clarification_of_roles_10
   title: "Clarification of Roles"
 #------------------
 # Midwives S4_Y2_4
