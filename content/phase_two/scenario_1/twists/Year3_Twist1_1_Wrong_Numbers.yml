@@ -15,7 +15,7 @@ twist: 1
 
 
 initiating_npc: third_party_verifier # <--- character's symbol
-initiating_dialogue: "I have been reviewing the Clinic's records, and they do not check out. These problems with their numbers have been going on for two years now."
+initiating_dialogue: "I have been reviewing the traditional practitioner's records, and they do not check out. These problems with their numbers have been going on for two years now."
 
 starting_options: [warning_7, sanctions_5]
 starting_options_affects: [warning_7, sanctions_5]
@@ -42,10 +42,10 @@ characters:
     dialogue: "I can confirm the numbers do not match up. Very suspicious."
 
   hospital_administrator:
-    dialogue: "I don't think the clinic should get preferential treatment over my hospital. Treat them just as you would treat us."
+    dialogue: "I don't think traditional practitioners should get preferential treatment over my hospital. Treat them just as you would treat us."
 
   health_provider_3:
-    dialogue: "I think my staff is confused about what to report. Frankly, I myself have been confused at times!"
+    dialogue: "The rest of you have been doing this for two years, but I have only just begun! These forms are not direct enough. Mistakes are easy to make."
     unlocks: [hold_meeting_to_retrain_on_reporting_practices_2]
     unlocks_affects: [hold_meeting_to_retrain_on_reporting_practices_2]
     feedback:

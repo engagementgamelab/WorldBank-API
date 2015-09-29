@@ -37,6 +37,8 @@ characters:
     dialogue: "If the Ministry is claiming this is necessary, I would take it seriously. A compromise might be to re-work the RBF Manual, and training with Ministry oversight."
     unlocks: [revise_business_plan_4]
     unlocks_affects: [revise_business_plan_4]
+    feedback:
+      revise_business_plan_4: "It is a little late in the process to be doing this, but it's the only option that makes sense."
 
   coach:
     dialogue: "I have found some mismanagement of funds in the past as well, but appropriate actions were taken. We are supposed to be granting autonomy. Also, remember that the providers are paid for the services already provided."
@@ -52,6 +54,4 @@ characters:
     dialogue: "We are verifying the result and ensure that the providers get paid accurately. So why take away their autonomy?"
 
   health_provider_3:
-    dialogue: "I need to be able to purchase whatever is needed. This is a return to the bad old days, with many delays in receiving supplies from the central level, and I can't agree with it."
-    feedback:
-      revise_business_plan_4: "I don't believe this will be constructive, but I'm willing to try."
+    dialogue: "I do not know what the issue is, but this is making me look bad. I refer my customers to your facilities, and I hear back from them that there were no supplies there! This is what I told you about three years ago. It's why people don't trust you."
