@@ -994,8 +994,6 @@
 - symbol: grant_facilities_autonomy_2
   title: "Grant NGO Autonomy to Purchase Supplies"
 
-- symbol: increase_ngo_autonomy_1
-  title: "Increase NGO Autonomy"
 # ------------------- #
 # Scenario 4 - Year 2
 # ------------------- #
