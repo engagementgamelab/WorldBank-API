@@ -19,8 +19,8 @@ starting_options: [comply_with_ministry_request]
 starting_options_affects: [comply_with_ministry_request]
 starting_options_cost: [small]
 
-final_options: [comply_with_ministry_request, clarify_separation_of_functions_2, rework_rbf_manual_and_retrain]
-final_options_affects: [comply_with_ministry_request, clarify_separation_of_functions_2, rework_rbf_manual_and_retrain]
+final_options: [comply_with_ministry_request, clarify_separation_of_functions_and_responsibilities_2, rework_rbf_manual_and_retrain]
+final_options_affects: [comply_with_ministry_request, clarify_separation_of_functions_and_responsibilities_2, rework_rbf_manual_and_retrain]
 final_options_cost: [small, small, medium]
 
 
@@ -30,7 +30,7 @@ characters:
   dep_minister_of_health: # <--- character's symbol
     dialogue: "Our auditors have found mismanagement of funds. The providers need strict guidelines to provide the necessary services, and use the funds appropriately."
     feedback:
-      clarify_separation_of_functions: "This revision to the procurement guideline is within the scope of regulation, which is my role. But if you think it's essential for the providers to keep autonomy, we will step back on this."
+      clarify_separation_of_functions_and_responsibilities_2: "This revision to the procurement guideline is within the scope of regulation, which is my role. But if you think it's essential for the providers to keep autonomy, we will step back on this."
 
   director_regional_health_services:
     dialogue: "If the Ministry is claiming this is necessary, I would take it seriously. A compromise might be to re-work the RBF Manual, and training with Ministry oversight."
