@@ -753,6 +753,8 @@
 
 - symbol: sanction_ngo_2
   title: "Sanction NGO"
+
+
 # ------------------- #
 # Scenario 3 - Year 1 
 # ------------------- #
@@ -761,36 +763,24 @@
 # Slow Verification - S3_Y1_1
 #------------------
 
-- symbol: warn_verifier_1
-  title: "Warn Verifier"
+- symbol: introduce_incentives_for_timely_verification
+  title: "Introduce Incentives for Timely Verification"
 
-- symbol: reaffirm_ministry_authority
-  title: "Reaffirm Ministry's Authority"
-
-- symbol: ask_reduce_oversight
-  title: "Ask to Reduce Regulatory Measure"
-
-- symbol: circulate_memo_reaffirming_ministry_authority
-  title: "Circulate Memo Reaffirming Ministry Authority"
-
-- symbol: streamline_speed_verification_process
-  title: "Streamline Ministry Constraints to Speed Verification"
-
-- symbol: verification_1
-  title: "Verification"
+- symbol: request_payment_without_verification_5
+  title: "Request Payment Without Verification"
 
 #------------------
 # Poor Management - S3_Y1_2
 #------------------
 
-- symbol: warning_and_retraining_2
-  title: "Warning and Retraining"
+- symbol: grant_autonomy_to_providers_2
+  title: "Grant Autonomy to Providers"
 
-- symbol: sanctions_11
-  title: "Sanctions"
+- symbol: retrain_staff_on_business_plan
+  title: "Retrain Staff on the Business Plan"
 
-- symbol: review_business_plan
-  title: "Review Business Plan"
+- symbol: improve_guidance_on_approval_processes
+  title: "Improve Guidance on The Approval Process"
 
 #------------------
 # Bad Record Keeping - S3_Y1_3
