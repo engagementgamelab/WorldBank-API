@@ -37,6 +37,6 @@ new_options_affects: [unlockable_create_robust_referral_system, unlockable_incen
 feedback_dialogue:
   unlockable_create_robust_referral_system: "If the problem persists, then our providers are not leveling with us. It should fix the problem, though."
   unlockable_incentivise_following_set_protocols_rewards: "I get it's annoying to reward people for not breaking the rules, but if they feel the referral process is such a pain, that's what we have to do."
-  unlockable_incentivise_referrals: "I hope we don't hear about unnecessary referrals next."
+  unlockable_incentivise_referrals: "Sounds like a good way to move forward. I just hope we don't hear about unnecessary referrals next."
   # This key is required for every tactic card for when the player chooses observe instead of investigate
   observe: "OK, we'll wait and see if anything changes."
