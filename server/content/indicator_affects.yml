@@ -371,7 +371,7 @@ warning_7:
   indicator_2: +1
   indicator_3: +2
 
-sanctions_4:
+sanctions_5:
   indicator_1: +3
   indicator_2: +2
   indicator_3: +5
@@ -1178,29 +1178,29 @@ request_budget_for_more_midwives_1:
 travel_vouchers_1:
   indicator_1: 0
   indicator_2: +2
-  indicator_3: -5
+  indicator_3: -7
 
 grant_autonomy_to_providers_3:
-  indicator_1: 0
+  indicator_1: +2
   indicator_2: +3
-  indicator_3: +2
+  indicator_3: +6
 #------------------
 # New Budget S4_Y3_1
 #------------------
-comply_with_ngo_budget_3:
-  indicator_1: -1
-  indicator_2: -1
-  indicator_3: -1
+comply_with_ministry_11:
+  indicator_1: -4
+  indicator_2: -4
+  indicator_3: -6
 
 rework_business_plan_2:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: 0
+  indicator_3: +1
 
 grant_autonomy_to_providers_6:
-  indicator_1: +2
-  indicator_2: +1
-  indicator_3: +2
+  indicator_1: +3
+  indicator_2: +2
+  indicator_3: +6
 #------------------
 # Process V Results Again S4_Y3_1
 #------------------

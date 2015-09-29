@@ -1040,7 +1040,7 @@
 # Midwives S4_Y2_4
 #------------------
 - symbol: request_budget_for_more_midwives_1
-  title: "Request Budget Line for More Midwives"
+  title: "Request Ministry for More Midwives"
 
 - symbol: travel_vouchers_1
   title: "Allow Outreach Staff to Act as Midwives"
@@ -1053,11 +1053,11 @@
 #------------------
 # New Budget S4_Y3_1
 #------------------
-- symbol: comply_with_ngo_budget_3
-  title: "Comply with NGO"
+- symbol: comply_with_ministry_11
+  title: "Comply With Ministry"
 
 - symbol: rework_business_plan_2
-  title: "Rework Business Plan"
+  title: "Rework RBF Manual and Retrain"
 
 - symbol: grant_autonomy_to_providers_6
   title: "Grant Autonomy to Providers"

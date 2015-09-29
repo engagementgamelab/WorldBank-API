@@ -12,46 +12,45 @@ name: "Midwives"
 priority: 4
 year: 2
 
-initiating_npc: hospital_administrator # <--- character's symbol
+initiating_npc: clinic_manager # <--- character's symbol
 initiating_dialogue: "We're having a lot of trouble increasing facility births. We're short-staffed, especially when it comes to midwives."
 
 starting_options: [request_budget_for_more_midwives_1]
 starting_options_affects: [request_budget_for_more_midwives_1]
 
-final_options: [request_budget_for_more_midwives_1, allow_outreach_staff_to_act_as_midwives_2, grant_autonomy_to_providers_3]
-final_options_affects: [request_budget_for_more_midwives_1, allow_outreach_staff_to_act_as_midwives_2, grant_autonomy_to_providers_3]
+final_options: [request_budget_for_more_midwives_1, grant_autonomy_to_providers_3, travel_vouchers_1]
+final_options_affects: [request_budget_for_more_midwives_1, grant_autonomy_to_providers_3, travel_vouchers_1]
 
 characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory"
 
   dep_minister_of_health:
-    dialogue: "This might be our most important indicator. Our infant mortality rate is abysmal, and if more money gets those numbers down, I'll argue for it."
+    dialogue: "This might be our most important indicator as our maternal mortality rate is abysmal. If you can explore what is the real problem, we'd be willing to discuss the budget for this to be improved."
+    narrows: [dep_minister_of_health, director_regional_health_services, ngo_manager,third_party_verifier]
 
   director_regional_health_services:
     dialogue: "That would explain the struggling indicators on facility births. An alternative I've considered is giving more assistance for travel, to get people to come to the facilities."
     unlocks: [travel_vouchers_1]
     unlocks_affects: [travel_vouchers_1]
-    feedback:
-      advise_to_follow_budget_restrictions_1: "OK, we'll make do. We always have."
 
   ngo_manager:
-    dialogue: "If you can verify this, we'd be willing to discuss the budget."
-    narrows: [dep_minister_of_health, director_regional_health_services, ngo_manager,third_party_verifier]
-    feedback:
-      grant_autonomy_to_providers_3: "We'll do whatever you think is best, though this is a pretty major change. Let's discuss this at the end of the year."
-      request_budget_for_more_midwives_1: "We can allow this, but we'll pay close attention to the results."
-
-  coach:
-    dialogue: "The Hospital Administrator has complained to me in private about not being able to hire staff members without NGO approval. The program is set up that way, but if we granted them autonomy to make hiring choices, things would run more smoothly."
+    dialogue: "If the Ministry would give us the money and let us hire midwives, I am sure we can improve this."
     unlocks: [grant_autonomy_to_providers_3] # <--- these probably will symbols
     unlocks_affects: [grant_autonomy_to_providers_3]
     feedback:
-      travel_vouchers_1: "This will remove an important barrier, though I still worry that we are short-staffed at facilities."
+      grant_autonomy_to_providers_3: "We'll do whatever you think is best, though this is a pretty major change. Let's discuss this at the end of the year."
+      request_budget_for_more_midwives_1: "I hope this will improve the situation but their recruitment processes are lengthy so I won't hold my breath."
+
+  coach:
+    dialogue: "The Hospital Administrator has complained to me in private about this too, as have many of the clinic managers. The NGO may be better placed to do the hiring than the Ministry but it would be even better if we allow providers to make these decisions at their level. It will provide an extra challenge for the NGO to help implement this but may be worth it."
+    unlocks: [grant_autonomy_to_providers_3] # <--- these probably will symbols
+    unlocks_affects: [grant_autonomy_to_providers_3]
+    feedback:
+      travel_vouchers_1: "This will remove an important barrier, though I still worry that we are short staffed at facilities."
 
   third_party_verifier:
-    dialogue: "The RBF Coach has been in regular contact with the Hospital Administrator, they might be able to offer a perspective on things."
-    narrows: [dep_minister_of_health, director_regional_health_services, ngo_manager, third_party_verifier, community_verifier]
+    dialogue: "Talk to the clinicians. They should have a pretty good idea if the facilities actually need more staff. And whatever they say, keep your coach in the loop; that's what they're here for."
 
   community_verifier:
     dialogue: "I've heard this complaint from several women in my community. They say there are long waits to meet with midwives. It puts strain on everyone. Pregnancy is trying even in the best of conditions."
