@@ -13,32 +13,24 @@ priority: 2
 year: 1
 
 initiating_npc: coach # <--- character's symbol
-initiating_dialogue: "The hospital administrator and I were reviewing the hospital's business plan and they do not seem to manage funds well. Even with our payments they're operating at a loss."
+initiating_dialogue: "I have been reviewing the health facilities business plans with the clinic managers, and most of them do not seem to carry out their planned activities. The managers say this is because of delays in getting approval to spend."
 
-starting_options: [warning_and_retraining_2]
-starting_options_affects: [warning_and_retraining_2]
+starting_options: [improve_guidance_on_approval_processes]
+starting_options_affects: [improve_guidance_on_approval_processes]
 
-final_options: [review_business_plan, warning_and_retraining_2, sanctions_11]
-final_options_affects: [review_business_plan, warning_and_retraining_2, sanctions_11]
+final_options: [grant_autonomy_to_providers_2, retrain_staff_on_business_plan, improve_guidance_on_approval_processes]
+final_options_affects: [grant_autonomy_to_providers_2, retrain_staff_on_business_plan, improve_guidance_on_approval_processes]
 
 characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
-    dialogue: "There are other health providers in the region we could use. A sanction will remind them."
-    unlocks: [sanctions_11]
-    unlocks_affects: [sanctions_11]
-
-  director_regional_health_services: # <--- character's symbol
-    dialogue: "The plan's faltering a bit. Are you sure this is the hospital's administrator's fault and not some issue with the business plan? It might be on us."
-    unlocks: [review_business_plan]
-    unlocks_affects: [review_business_plan]
-    feedback: 
-      review_business_plan: "Making a reasonable plan with things we can achieve together will put us on the right path." # <--- symbol of the option used and the feedback text for it
+    dialogue: "The clinic managers may just be late in their requests. If needs be we can improve the guidance for approval processes to see if it can be faster. New technology could play a role maybe."
 
   coach:
     feedback: 
-      sanctions_11: "Alright, but I think this is a little much for so early in the game. I'll keep an eye out and maybe we can avoid this happening again." # <--- symbol of the option used and the feedback text for it
+      improve_guidance_on_approval_processes: "I will get onto this. Hope it will make a difference. Granting the providers autonomy may be an easier way to fix it."
+      retrain_staff_on_business_plan: "I will be happy to have another round of trainings but I think the problem may lie elsewhere."
 
   third_party_verifier:
     dialogue: "It seems this hospital has not been able to increase their performance very well."
@@ -47,9 +39,13 @@ characters:
     dialogue: "I would talk directly to them if I were you. Maybe they're seeing something we aren't."
 
   clinic_manager:
-    dialogue: "I don't know about the hospital, we're trying to meet goals without a lot of supplies or money to buy more."
+    dialogue: "If only we were able to decide and use the resources as we see fit this would help us being able to carry out the activities and improve performance."
+    unlocks: [grant_autonomy_to_providers_2]
+    unlocks_affects: [grant_autonomy_to_providers_2]
+    feedback: 
+      grant_autonomy_to_providers_2: "This will really help. I am so excited as now we can make a real difference to get the people the health services they need."
 
   hospital_administrator:
-    dialogue: "We're doing our best here. The program is complicated, and not all my people have had time to look at it while treating patients, filing their records, that sort of thing. We'll get used to operating within the budget soon."
-    feedback:
-      warning_and_retraining_2: "We are trying to work with the money we have. We don't need to be chastised for that."
+    dialogue: "We're doing our best here. There are many intricacies to the business plan, and not everyone on my staff understands them. Maybe the coach can help retrain them."
+    unlocks: [retrain_staff_on_business_plan]
+    unlocks_affects: [retrain_staff_on_business_plan]

@@ -774,68 +774,53 @@ sanction_ngo_2:
 #------------------
 # Slow Verification - S3_Y1_1
 #------------------
-warn_verifier_1:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: -1
+request_payment_without_verification_5:
+  indicator_1: -5
+  indicator_2: -6
+  indicator_3: -7
 
-reaffirm_ministry_authority:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
-
-ask_reduce_oversight:
-  indicator_1: +1
-  indicator_2: 0
-  indicator_3: +1
-
-circulate_memo_reaffirming_ministry_authority:
-  indicator_1: -1
-  indicator_2: -1
-  indicator_3: 0
-
-streamline_speed_verification_process:
-  indicator_1: +1
-  indicator_2: 0
-  indicator_3: 0
+introduce_incentives_for_timely_verification:
+  indicator_1: +5
+  indicator_2: +6
+  indicator_3: +7
 
 #------------------
 # Poor Management - S3_Y1_2
 #------------------
 
-warning_and_retraining_2:
-  indicator_1: +1
-  indicator_2: 0
+grant_autonomy_to_providers_2:
+  indicator_1: +6
+  indicator_2: +6
+  indicator_3: +7
+
+retrain_staff_on_business_plan:
+  indicator_1: -1
+  indicator_2: -2
+  indicator_3: -4
+
+improve_guidance_on_approval_processes:
+  indicator_1: +2
+  indicator_2: +1
   indicator_3: +1
-
-sanctions_11:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: -1
-
-review_business_plan:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
 
 #------------------
 # Bad Record Keeping - S3_Y1_3
 #------------------
 
 hold_payment_2:
-  indicator_1: +1
-  indicator_2: 0
-  indicator_3: 0
-
-sanctions_12:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: -2
+  indicator_3: +1
+
+sanctions_12:
+  indicator_1: -1
+  indicator_2: -1
+  indicator_3: -7
 
 capacity_building_help:
-  indicator_1: +1
-  indicator_2: 0
-  indicator_3: +1
+  indicator_1: +2
+  indicator_2: +2
+  indicator_3: +3
 
 #------------------
 # Lack of Supplies - S3_Y1_4

@@ -13,47 +13,40 @@ priority: 1
 year: 1
 
 initiating_npc: dep_minister_of_health # <--- character's symbol
-initiating_dialogue: "The independent verifier and the health providers seem to have built a coalition to box us out of the verification process. This RBF program gives us the authority to verify any and all reports, but they're pushing back."
+initiating_dialogue: "The program has just begun and already we're seeing delays in delays in payments. These delays will cause a cascade of failures."
 
-starting_options: [warn_verifier_1]
-starting_options_affects: [warn_verifier_1]
+starting_options: [request_payment_without_verification_5]
+starting_options_affects: [request_payment_without_verification_5]
 
-final_options: [warn_verifier_1, ask_reduce_oversight, circulate_memo_reaffirming_ministry_authority, streamline_speed_verification_process]
-final_options_affects: [warn_verifier_1, ask_reduce_oversight, circulate_memo_reaffirming_ministry_authority, streamline_speed_verification_process]
+final_options: [request_payment_without_verification_5, introduce_incentives_for_timely_verification]
+final_options_affects: [request_payment_without_verification_5, introduce_incentives_for_timely_verification]
 
 characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
-    feedback:
-      ask_reduce_oversight: "This isn't what we had in mind when we started the project. I don't see how we can, in good faith, approve costs we haven't verified."
+    dialogue: "The delay is in our verification, unfortunately. The health team on the ground responsible for the first level of verification has many responsibilities. If it is that important maybe the providers should just be paid."
 
   director_regional_health_services: # <--- character's symbol
-    dialogue: "We need the authority to verify like we always have. It seems unethical to OK payments that we haven't verified."
-    feedback:
-      streamline_speed_verification_process: "This will put some strain on our office, but I think we can get the extra work done."
+    dialogue: "The Deputy Minister is correct, the regional team has many responsibilities and looking at figures is not necessarily the priority"
+    feedback: 
+      introduce_incentives_for_timely_verification: "This will certainly make it the teams’ priority. The incentives can also be used to strengthen the team with extra resources to help ensure verification is done in time."
 
   coach:
-    dialogue: "The program spreads authority across multiple stakeholders, including the Ministry of Health. Whether it's a good thing or a bad thing, that's their concern. Let's send a memo gently reminding everyone of that."
-    unlocks: [circulate_memo_reaffirming_ministry_authority]
-    unlocks_affects: [circulate_memo_reaffirming_ministry_authority]
-    feedback: 
-      circulate_memo_reaffirming_ministry_authority: "I'll make sure this gets into everyone's mailbox as a high priority. Don't worry: I won't write the subject in caps lock again."
+    dialogue: "It is important that verification is done prior to payment. A solution may be to Incentivise the regional team to do the first-level verification in a timely manner."
+    unlock: [introduce_incentives_for_timely_verification]
+    unlock_affects: [introduce_incentives_for_timely_verification]
+    feedback:
+      request_payment_without_verification_5: "This does not set a good precedent I think but of course it is not my decision."
 
   third_party_verifier:
-    dialogue: "It's my job to verify reports. Having someone else double everything we're doing is worse than redundant: it's counter-productive."
-    unlocks: [ask_reduce_oversight]
-    unlocks_affects: [ask_reduce_oversight]
-    feedback:
-      warn_verifier_1: "All right. We'll let everyone look over our shoulders all they want. But to say it's inefficient is an understatement."
+    dialogue: "You understand that if there is no first-level of verification, there is nothing for us to verify, right?"
 
   community_verifier:
-    dialogue: "We're tired of submitting our reports in triplicate. We have enough to do without all this paperwork."
+    dialogue: "The Ministry takes forever to do anything. They need to be prodded, I think. It is important this is done in a timely manner."
 
   clinic_manager:
     dialogue: "I like working with the government, I do. But doubling verification doubles the time before I get my money, and my budget is pretty tight as it is."
-    unlocks: [streamline_speed_verification_process]
-    unlocks_affects: [streamline_speed_verification_process]
 
   hospital_administrator:
     dialogue: "Having three levels of verification sounds like overkill to me. And my staff is confused about who's actually in charge."
