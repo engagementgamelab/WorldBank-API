@@ -37,7 +37,7 @@ characters:
     dialogue: "Quality of care is not something we should grant leeway on. It is crucially important, but if they are under such strain, they may require extra staff."
     unlocks: [revise_business_plan_10]
     unlocks_affects: [revise_business_plan_10]
-    Feedback: 
+    feedback: 
       review_the_inspection: "Thank you! I think you'll find our quality is sufficient."
 
   third_party_verifier:
@@ -49,7 +49,7 @@ characters:
     dialogue: "These are small clinics, with very little operating budget. Denying payment will cause immediate harm to the community."
 
   clinic_manager:
-    Feedback: 
+    feedback: 
       revise_business_plan_10: "I would appreciate some support from the coach to figure out how we can improve things here."
       deny_review: "If you aren't going to take me seriously, how can I have faith in this system?"
 

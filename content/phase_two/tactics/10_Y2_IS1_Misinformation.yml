@@ -16,7 +16,7 @@ year: 2
 initiating_dialogue: "People have been coming to facilities totally confused as they hear facilities are paid for service delivery, and yet they also pay for the services."
 
 # The dialogue the player sees when investigation has results to show
-investigate_dialogue: "Misinformation is circulating about how the program works."
+investigate_dialogue: "Misinformation is circulating about how the program works. We should definitely find a way to resolve this problem."
 
 # These are special parameters that load a cooldown array, which is defined in content/config.yml under 'cooldown:'
 # For example, specifying $config_cooldown_long will choose the key found in config.yml under:
