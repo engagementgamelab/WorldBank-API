@@ -27,15 +27,15 @@ investigate_further_cooldown: $config_cooldown_long
 
 # These are the usable player options added after investigation is done
 # Note that each key (e.g. 'information_campaign') MUST correspond to the one under "_affects" and feedback"
-new_options: [unlockable_information_campaign, unlockable_add_travel_vouchers, unlockable_increase_budget_for_outreach]
+new_options: [unlockable_information_campaign_69, unlockable_add_travel_vouchers, unlockable_increase_budget_for_outreach]
 
 # The affects for each new option
-new_options_affects: [unlockable_information_campaign, unlockable_add_travel_vouchers, unlockable_increase_budget_for_outreach]
+new_options_affects: [unlockable_information_campaign_69, unlockable_add_travel_vouchers, unlockable_increase_budget_for_outreach]
 
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
   unlockable_add_travel_vouchers: "That's a worthwhile idea, and it should help people reach health facilities."
-  unlockable_information_campaign: "I'll contact the providers and let them know they must do more to explain their services."
+  unlockable_information_campaign_69: "I'll contact the providers and let them know they must do more to explain their services."
   unlockable_increase_budget_for_outreach: "I will make the arrangements. As long as there are enough nurses available to carry out these outreach activities, this should help."
   # This key is required for every tactic card for when the player chooses observe instead of investigate
   observe: "OK, we'll wait and see if anything changes."

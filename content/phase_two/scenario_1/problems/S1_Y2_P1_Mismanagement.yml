@@ -36,6 +36,7 @@ characters:
     dialogue: "Have you considered that there is a flaw in the business plan? If the Hospital Administrator is straying from it so often, it might need to be reevaluated."
 
   coach:
+    dialogue: "Aren't there other people you can ask about this? One of them might have a better idea."
     feedback: 
       retraining_on_use_of_financial_tools: "I hope the Hospital Administrator will see its importance. I'll make some time this week for a retraining session and try to drill down on exactly how these tools should be used."
 

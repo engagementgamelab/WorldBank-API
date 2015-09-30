@@ -18,8 +18,8 @@ initiating_dialogue: "In many of my focus groups, there's an air of mistrust wit
 starting_options: [warn_ngo_5]
 starting_options_affects: [warn_ngo_5]
 
-final_options: [warn_ngo_5, sanction_ngo_4, increase_customer_service_incentives_2, reorganize_staff_2, increase_ngo_autonomy_2]
-final_options_affects: [warn_ngo_5, sanction_ngo_4, increase_customer_service_incentives_2, reorganize_staff_2, increase_ngo_autonomy_2]
+final_options: [warn_ngo_5, sanction_ngo_4, increase_customer_service_incentives_2, increase_ngo_autonomy_2]
+final_options_affects: [warn_ngo_5, sanction_ngo_4, increase_customer_service_incentives_2, increase_ngo_autonomy_2]
 
 characters:
 
@@ -49,11 +49,8 @@ characters:
 
   third_party_verifier:
     dialogue: "Providers struggle to meet their quality of care milestones. Bad service is half the problem. It might not be my place to say so, but firing staff and hiring new people might be the best way to go."
-    unlocks: [reorganize_staff_2]
-    unlocks_affects: [reorganize_staff_2]
 
   clinic_manager:
     dialogue: "I have less control over my staff than you might think. When we struggle to fill demand on a day to day basis, there isn't much time left over for morale-building and discipline."
     feedback:
-      reorganize_staff_2: "More orders from on high about who can be hired? Just thinking about how long it will take to train all these people to where my current staff is makes me mad. As long as we keep running out of supplies, new staff will get frustrated soon too."
       sanction_ngo_4: "You realize that when you sanction the NGO, the money tends to come out of my budget? You cannot keep doing this to us."

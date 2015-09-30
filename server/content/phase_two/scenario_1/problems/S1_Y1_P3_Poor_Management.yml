@@ -8,7 +8,7 @@
 # Phase Two Scenario Card YML Example
 
 symbol: poor_management_1
-name: "Poor Management"
+name: "Poor Management 1"
 priority: 3
 year: 1
 
@@ -34,6 +34,7 @@ characters:
     dialogue: "The staff at the hospital have been slow to adapt to new practices."
 
   coach:
+    dialogue: "Aren't there other people you can ask about this? One of them might have a better idea."
     feedback: 
       terminate_contract_effective_end_of_year_1: "It seems early to terminate their contract, but let's review at year's end. In the meantime, I will be observing and offering ways to improve."
 

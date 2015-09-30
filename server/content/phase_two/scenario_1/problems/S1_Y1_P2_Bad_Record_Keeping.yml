@@ -34,12 +34,13 @@ characters:
 
   director_regional_health_services:
     dialogue: "All providers in my region should know the requirements for keeping records. Something must be wrong. I'd talk to them."
-    narrows: [dep_minister_of_health, director_regional_health_services, community_manager, third_party_verifier, coach] # <--- these probably will symbols
+    narrows: [dep_minister_of_health, community_manager, third_party_verifier, coach] # <--- these probably will symbols
 
   coach:
     dialogue: "I don't know why they aren't keeping records. When I spoke with them last, they said everything was fine and they didn't want my help."
 
   third_party_verifier:
+    dialogue: "Aren't there other people you can ask about this? One of them might have a better idea."
     feedback: 
       help_build_capacity_1: "I will strengthen on the spot training during the verification for them to see the mistakes they are making."
 

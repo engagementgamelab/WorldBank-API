@@ -480,9 +480,6 @@
 - symbol: increase_scrutiny_1
   title: "Increase Scrutiny"
 
-- symbol: terminate_contract_at_end_of_year_4
-  title: "Terminate Contract at End of the Year"
-
 - symbol: create_new_guidelines_1
   title: "Create New Guidelines"
 # ------------------
@@ -910,9 +907,6 @@
 - symbol: sanctions_15
   title: "Sanctions"
 
-- symbol: terminate_contract_at_end_of_year_8
-  title: "Terminate Contract at End of Year"
-
 - symbol: tie_incentives_directly_to_protocol
   title: "Tie Incentives Directly to Protocol"
 
@@ -1001,9 +995,6 @@
 
 - symbol: increase_customer_service_incentives_2
   title: "Increase Patient Satisfaction Incentives"
-
-- symbol: reorganize_staff_2
-  title: "Reorganize Staff"
 #------------------
 # Reach S4_Y2_2
 #------------------
@@ -1065,9 +1056,6 @@
 #------------------
 # Prescriptions S4_Y3_3
 #------------------
-- symbol: warning_18
-  title: "Warning"
-
 - symbol: sanctions_16
   title: "Sanctions"
 
@@ -1106,7 +1094,7 @@
 # -------------------------- #
 # Poor voucher usage - Y1_V1
 # -------------------------- #
-- symbol: unlockable_information_campaign
+- symbol: unlockable_information_campaign_69
   title: "Information Campaign"
 
 - symbol: unlockable_add_travel_vouchers

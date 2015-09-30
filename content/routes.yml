@@ -89,6 +89,6 @@
   city1: crup
   city2: zima
   unlocked: false
-  speed: 30
-  cost: 2
+  speed: 15
+  cost: 3
   transportation_mode: truck #fruit truck specifically#
