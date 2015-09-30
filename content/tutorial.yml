@@ -195,7 +195,7 @@ phase_2_supervisor_opened:
 
 phase_2_timer:
   overlay_location: "Center"
-  text: "This timer tells you how long you have to complete your main screen problem. Since time is ticking, you must work efficiently and switch back and forth between the main screen and the Supervisor tab. Time will start now. Good luck!"
+  text: "This timer tells you how long you have to complete your main screen problem. Since time is ticking, you must work efficiently and switch back and forth between the Group Chat screen and the Supervisor tab. Time will start now. Good luck!"
   spotlight_position: [-1.55, -1.77]
   spotlight_size: [2.14, 2.26]
   mask_position: [0, 0]
