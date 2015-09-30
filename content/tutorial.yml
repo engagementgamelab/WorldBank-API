@@ -23,10 +23,10 @@ phase_1_skip_tutorial:
 phase_1_rahb:
   overlay_location: "Bottom-Right"
   text: "Click on Rahb, your RBF Plan Supervisor and then choose “learn more” to see what she has to say – be sure to scroll down to see everything in her dialogue box. To continue the conversation, choose a highlighted topic."
-  spotlight_position: [-1.12, -0.04]
-  spotlight_size: [2.38, 1]
-  mask_position: [360.41, -62]
-  mask_size: [154.3, 289.8]
+  spotlight_position: [-1.23, -0.04]
+  spotlight_size: [2.36, 1]
+  mask_position: [432, -62]
+  mask_size: [191, 289.8]
 
 phase_1_interactions_counter:
   overlay_location: "Center"
@@ -54,9 +54,9 @@ phase_1_unlocked_something:
 phase_1_plan_creation_screen:
   overlay_location: "Center"
   text: "At any time you can access the program creation screen to start forming your RBF proposal. Click here to open this screen."
-  spotlight_position: [0.29, 0.29]
+  spotlight_position: [0.31, 0.36]
   spotlight_size: [3.3, 3.25]
-  mask_position: [5, -537]
+  mask_position: [0, -517]
   mask_size: [72, 82]
 
 phase_1_tactics:
@@ -73,8 +73,8 @@ phase_1_tactic_slots:
   text: "Each slot has a priority level. Policies placed higher up will make their benefits and consequences amplified. You can change your program proposal any time before the final submission.  Click here to close your notebook."
   spotlight_position: [0.29, 0.29]
   spotlight_size: [3.3, 3.25]
-  mask_position: [5, -537]
-  mask_size: [72, 82]
+  mask_position: [0, -512]
+  mask_size: [69, 71]
 
 phase_1_continue_talking:
   overlay_location: "Center"
@@ -105,11 +105,10 @@ phase_1_city_routes:
 phase_1_travel:
   overlay_location: "Top-Right"
   text: "Read the description to decide whether you want to travel to this city. Click the visit button, or click cancel and choose another city."
-  spotlight_position: [-1.36, -0.85]
+  spotlight_position: [-1.37, -0.85]
   spotlight_size: [2.91, 4.84]
-  mask_position: [407.5, -427.5]
+  mask_position: [382, -395]
   mask_size: [162.73, 56.7]
-  confirm: true
 
 phase_1_conversation_points:
   overlay_location: "Center"
@@ -127,7 +126,7 @@ phase_1_end:
 ## PHASE 2
 
 phase_2_start:
-  text: "The results of the pilot year were deemed acceptable, and now We’ll be implementing at scale. Your goal is to increase the three main indicators: Vaccinations, Facility Births, and Quality of Care by 25, 30, and 35 percent respectively."
+  text: "The results of the pilot year were deemed acceptable, and now we’ll be implementing at scale. Your goal is to increase the three main indicators: Vaccinations, Facility Births, and Quality of Care by 25, 30, and 35 percent respectively."
   overlay_location: "Center"
   confirm: true
 
