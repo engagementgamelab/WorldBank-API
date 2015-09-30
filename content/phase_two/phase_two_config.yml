@@ -17,3 +17,10 @@ tactics_not_selected:
   - unlockable_improve_patient_and_provider_relationship_not_selected
   - unlockable_information_campaign_to_explain_changes_to_system
   - unlockable_incentivise_providers_to_follow_protocols
+
+# Prompt for end of game
+prompt_year_3: 
+  - "All work and no play makes johnny a dull boy."
+  - "you hit one goal"
+  - "you hit two goals"
+  - "you hit all goals"
