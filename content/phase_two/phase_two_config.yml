@@ -20,7 +20,7 @@ tactics_not_selected:
 
 # Prompt for end of game
 prompt_year_3: 
-  - "All work and no play makes johnny a dull boy."
-  - "you hit one goal"
-  - "you hit two goals"
-  - "you hit all goals"
+  - "Unfortunately we did not meet our goals. Vaccination rates, facility births, and overall quality of care all fell short. You can return to the main menu to try again or implement a new program."
+  - "You did some good, but unfortunately we fell short on most of our goals. We're encouraged by some of your results. Try implementing a different program, or designing a new one."
+  - "Good work! You met or exceeded two of the three goals, but we believe you can do better. Try Implementing a different program, or designing a new one."
+  - "Amazing! You exceeded all of your goals for vaccination rates, facility births, and overall quality of care. You have proven that this approach was the right choice."
