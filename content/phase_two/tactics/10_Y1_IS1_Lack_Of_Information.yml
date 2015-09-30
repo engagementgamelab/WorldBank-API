@@ -35,7 +35,7 @@ new_options_affects: [unlockable_provider_ambassadors, unlockable_invite_communi
 
 # This is the feedback dialogue the player sees based on the option they select
 feedback_dialogue:
-  unlockable_provider_ambassadors: "This can begin next year if we revise the contracts to include it.                 "
+  unlockable_provider_ambassadors: "This can begin next year if we revise the contracts to include it. I will make sure that happens.                "
   unlockable_invite_community_leaders: "Like it or not, we're still outsiders or working for outsiders. It's a good idea to get some leaders on our side."
   unlockable_word_of_mouth: "This will only work if we keep doing good work, but word of mouth campaigns have worked in the past."
   # This key is required for every tactic card for when the player chooses observe instead of investigate

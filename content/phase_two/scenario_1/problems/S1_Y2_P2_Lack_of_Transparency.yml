@@ -13,7 +13,7 @@ priority: 2
 year: 2
 
 initiating_npc: third_party_verifier # <--- character's symbol
-initiating_dialogue: "There is an ongoing issue with the Clinic Manager. They are small things, but since they have been having issues with record keeping, I looked more closely and found some forms that seem like exact duplicates of others."
+initiating_dialogue: "There are ongoing issues with the Clinic Manager. They are small things, but since they have been having issues with record keeping, I looked more closely and found some forms that seem like exact duplicates of others."
 
 starting_options: [warning_3, mild_sanctions]
 starting_options_affects: [warning_3, mild_sanctions]
