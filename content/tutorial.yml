@@ -99,16 +99,16 @@ phase_1_city_routes:
   spotlight_position: [0.08, 0.35]
   spotlight_size: [1.1, 0.35]
   mask_position: [67, 0]
-  mask_size: [369, 475]
+  mask_size: [319, 430]
   confirm: true
 
 phase_1_travel:
   overlay_location: "Top-Right"
   text: "Read the description to decide whether you want to travel to this city. Click the visit button, or click cancel and choose another city."
-  spotlight_position: [-1.37, -0.85]
-  spotlight_size: [2.91, 4.84]
-  mask_position: [382, -395]
-  mask_size: [162.73, 56.7]
+  spotlight_position: [-0.15, -0.46]
+  spotlight_size: [1.32, 3.53]
+  mask_position: [197, -400]
+  mask_size: [311, 57]
 
 phase_1_conversation_points:
   overlay_location: "Center"
