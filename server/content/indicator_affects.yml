@@ -874,6 +874,11 @@ warning_13:
   indicator_2: +1
   indicator_3: +1
 
+sanctions_18:
+  indicator_1: -1
+  indicator_2: -1
+  indicator_3: -2
+
 retraining_on_use_of_financial_tools_2:
   indicator_1: +2
   indicator_2: +2
