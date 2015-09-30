@@ -39,7 +39,7 @@ characters:
     dialogue: "I would talk directly to them if I were you. Maybe they're seeing something we aren't."
 
   clinic_manager:
-    dialogue: "If only we were able to decide and use the resources as we see fit this would help us being able to carry out the activities and improve performance."
+    dialogue: "If only we were able to decide and use the resources as we see fit. This would help us carry out our activities and improve performance."
     unlocks: [grant_autonomy_to_providers_2]
     unlocks_affects: [grant_autonomy_to_providers_2]
     feedback: 
