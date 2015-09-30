@@ -440,7 +440,7 @@ exports.auth =
       }
       // User not found
       else if(user == null) {
-        data.response.error = "The user with the specified email was not found.";
+        data.response.error = "Sorry, that email address was not recognized. Have you registered?";
 
         next();
       }

@@ -22,3 +22,8 @@ Once that's all set, if you run:
 The server should start, and if you go to http://localhost:3000/api/gameData you should see a ton of JSON content.
 
 Please see docs (forthcoming) for details on all API endpoints and features.
+
+---------
+
+To start server in production:
+```sudo NODE_ENV=production forever start -o out.log -e err.log -c "npm start" ./```
