@@ -36,7 +36,7 @@ characters:
     unlocks_affects: [revise_business_plan_to_include_transparency_1]
 
   coach:
-    dialogue: "I'm really not able to help with this. Maybe someone else would have a better idea of how to address this?"
+    dialogue: "Maybe you can contact the clinic manager directly as I haven't been able to get in touch."
     feedback: 
       take_no_further_action_1: "I'm sure I'll have some time next quarter once our busiest time dies down."
 
