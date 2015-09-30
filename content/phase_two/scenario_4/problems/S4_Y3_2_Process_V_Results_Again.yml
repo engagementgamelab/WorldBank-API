@@ -27,7 +27,6 @@ characters:
 
   dep_minister_of_health:
     dialogue: "You can ask the Regional Director and providers directly. The NGO wants autonomy, so you'll have to do your research."
-    narrows: [dep_minister_of_health, ngo_manager, coach, third_party_verifier, community_verifier]
 
   director_regional_health_services:
     dialogue: "No, they didn't meet their targets, but that doesn't mean my providers and their patients should suffer for it."
@@ -35,6 +34,7 @@ characters:
     unlocks_affects: [allow_payments_once_5]
 
   ngo_manager:
+    dialogue: "I really need some advice on this as this situation might spiral out of control. I really think you should allow this payment to go through this one time."
     feedback:
       allow_payments_once_5: "It's good to know we can count on you just like you can count on us in case of emergency."
       deny_payment_5: "We're struggling with these numbers as it is. It hurts patients when we don't have money to work with."
@@ -44,13 +44,13 @@ characters:
     unlocks: [revise_indicators_at_end_of_year_4] # <--- these probably will symbols
     unlocks_affects: [revise_indicators_at_end_of_year_4]
     feedback:
-      revise_indicators_at_end_of_year_4: "Okay, at year's end I'll sit the fundholder down with the NGO and we'll figure out some realistic targets and prices."
+      revise_indicators_at_end_of_year_4: "Okay, at year's end I'll sit the fund-holder down with the NGO and we'll figure out some realistic targets and prices."
 
   third_party_verifier:
     dialogue: "I can confirm that they are not meeting their targets, but other than that I'm not much help."
 
   community_verifier:
-    dialogue: "The other day I followed up with a woman who vaccinated her son against dengue right before the mosquitos got bad. The numbers aren't great, but if the payments stop, it will make the situation worse."
+    dialogue: "The other day I followed up with a woman who vaccinated her son against dengue right before the mosquitoes got bad. The numbers aren't great, but if the payments stop, it will make the situation worse."
 
   clinic_manager:
     dialogue: "I am not sure what the NGO is spending the money on but I have not been able to do outreach for the past months. Without that I don't know how we can reach and then treat people."

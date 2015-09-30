@@ -7,7 +7,7 @@
 
 # Phase Two Scenario Card YML Example
 
-symbol: midwives
+symbol: midwives_s3
 name: "Midwives"
 priority: 4
 year: 2
@@ -26,7 +26,6 @@ characters:
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
     dialogue: "If you can verify this, we'd be willing to discuss the budget."
-    narrows: [dep_minister_of_health, director_regional_health_services, third_party_verifier, clinic_manager, hospital_administrator] # <--- this probably will be a symbol
     feedback: 
       grant_providers_autonomy_to_hire_staff: "This is a significant change to the program. Let's discuss this at the end of the year once we see how it's panned out." # <--- symbol of the option used and the feedback text for it
       request_a_budget_line_from_ministry: "We can allow this, but I want to see reports on the results." # <--- symbol of the option used and the feedback text for it
@@ -43,7 +42,6 @@ characters:
 
   third_party_verifier:
     dialogue: "You should talk to the Clinic Manager: they're working under similar conditions and should have insight. Run it by your RBF Coach, too."
-    narrows: [dep_minister_of_health, director_regional_health_services, third_party_verifier, community_verifier, hospital_administrator]
 
   community_verifier:
     dialogue: "I've heard this complaint from several women in my community. They say there are long waits to meet with midwives. Everyone seems stressed out. Pregnancy is trying even in the best of conditions."

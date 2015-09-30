@@ -47,4 +47,4 @@ characters:
 
   hospital_administrator:
     dialogue: "We definitely need more staff. I've already highlighted this to the NGO."
-    narrows: [director_regional_health_services, dep_minister_of_health, third_party_verifier, community_verifier, hospital_administrator]
+    narrows: [third_party_verifier, community_verifier, coach]

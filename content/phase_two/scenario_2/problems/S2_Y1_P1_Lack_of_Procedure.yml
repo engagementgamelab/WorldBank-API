@@ -27,14 +27,14 @@ characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
-    dialogue: "Let's get this clear once and for all, who does what."
+    dialogue: "Let's get this clear once and for all. It is really important to know who does what."
     unlocks: [clarify_roles_2]
     unlocks_affects: [clarify_roles_2]
     feedback: 
-      create_manual: "This will make things much more clear. Thank you."
+      create_manual: "This will make things much more clear. Thank you for doing our due diligence."
 
   ngo_manager:
-    dialogue: "I can improve on the manual the ministry has put out."
+    dialogue: "I can improve on the manual the ministry has put out. This might make things more clear for everyone involved."
     unlocks: [create_manual]
     unlocks_affects: [create_manual]
     feedback:
@@ -44,10 +44,10 @@ characters:
     dialogue: "It would be good to deal with this before the different agencies start getting testy with each other."
 
   community_verifier:
-    dialogue: "I'm worried this confusion is going to affect the care people are getting."
+    dialogue: "I'm worried this confusion is going to affect the care people are getting.      "
 
   coach:
-    dialogue: "It's always handy to have something written down for people to look at."
+    dialogue: "It's always handy to have something written down for people to look at.        "
     unlocks: [create_manual]
     unlocks_affects: [create_manual]
     feedback:
@@ -55,4 +55,4 @@ characters:
 
   hospital_administrator:
     dialogue: "I keep getting different answers from the NGO and the Ministry about roles. Can you talk to them about it?"
-    narrows: [coach, third_party_verifier, community_verifier, hospital_administrator]
+    narrows: [third_party_verifier, community_verifier]

@@ -13,7 +13,7 @@ priority: 4
 year: 3
 
 initiating_npc: dep_minister_of_health # <--- character's symbol
-initiating_dialogue: "I'm disappointed to say this, but things are not going well. Providers are not performing well, and our indicators have not risen as predicted. We're thinking about cancelling the program for next year. This would mean a return to traditional financing."
+initiating_dialogue: "I'm disappointed to say this, but things are not going well. Providers are not performing well, and our indicators have not risen as predicted. We're thinking about canceling the program for next year. This would mean a return to traditional financing."
 
 starting_options: [return_to_traditional_financing]
 starting_options_affects: [return_to_traditional_financing]
@@ -25,6 +25,7 @@ characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
+    dialogue: "Thinking more about this, there might be another way to achieve our goals without terminating contracts, but I would advise you to think through the potential consequences of each decision."
     feedback: 
       grant_providers_autonomy: "Let's schedule a meeting to discuss this at the end of the year. I might be able to persuade the Minister to give us one more year with an altered program." # <--- symbol of the option used and the feedback text for it
 

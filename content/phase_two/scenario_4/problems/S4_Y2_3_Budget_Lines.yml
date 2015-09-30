@@ -7,7 +7,7 @@
 
 # Phase Two Scenario Card YML Example
 
-symbol: budget_lines
+symbol: budget_lines_s4
 name: "Budget"
 priority: 3
 year: 2
@@ -26,6 +26,7 @@ characters:
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory"
 
   dep_minister_of_health:
+    dialogue: "I really think you need to figure this one out on your own."
     feedback:
       cease_counterverification_by_government: "If you think they don't need more looking into, that's fine, I trust you."
       clarification_of_roles_10: "Next time, let's try to avoid this by making everyone's job clear beforehand. Thanks."
@@ -42,7 +43,7 @@ characters:
 
   coach:
     dialogue: "Hate to say it, but the NGO has too much power over the budget. We should alter the program to allow providers to make these decisions at their level."
-    narrows: [director_regional_health_services, coach, community_verifier, hospital_administrator]
+    narrows: [director_regional_health_services, community_verifier, hospital_administrator]
 
   third_party_verifier:
     dialogue: "We really don't need the government to counter-verify. We are handling this process just fine."

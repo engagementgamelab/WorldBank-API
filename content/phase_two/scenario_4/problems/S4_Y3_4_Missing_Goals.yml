@@ -27,7 +27,7 @@ characters:
 
   director_regional_health_services:
     dialogue: "As much as it pains me to say so, I agree with the Deputy Minister. We need to change our approach. Maybe we can just contract the providers directly."
-    narrows: [dep_minister_of_health, director_regional_health_services, ngo_manager, third_party_verifier]
+    narrows: [director_regional_health_services, ngo_manager, third_party_verifier]
     feedback:
       return_to_traditional_financing_2: "Part of me feels like the past three years have been wasted, but I guess there's no sense in throwing good money out after bad. It's been a pleasure working with you."
 

@@ -43,7 +43,7 @@ characters:
     unlocks_affects: [terminate_contract_at_end_of_year_7]
 
   community_verifier:
-    dialogue: "I have heard from some people that this clinic specialist has the worst service in Zariba."
+    dialogue: "I have heard from some people that this clinic specialist has the worst service in Zariba.  "
 
   hospital_administrator:
     dialogue: "Sorry, I'm kind of up to my elbows in work here, I don't know if I have much advice to contribute to this situation."
@@ -51,6 +51,6 @@ characters:
   health_provider_4:
     dialogue: "The mistake is on the other party. I have been doing everything by the book."
     feedback:
-      warning_12: "I'll pass this on to my staff."
-      sanctions_8: "So I pay for the verifier's mistakes? Ridiculous."
-      terminate_contract_at_end_of_year_7: "Who else will you contract? You've chased everyone away."
+      warning_12: "I'll pass this on to my staff.             " 
+      sanctions_8: "So I pay for the verifier's mistakes? Ridiculous.             "
+      terminate_contract_at_end_of_year_7: "Who else will you contract? You've chased everyone away.           "

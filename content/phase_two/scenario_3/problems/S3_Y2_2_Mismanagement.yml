@@ -7,13 +7,13 @@
 
 # Phase Two Scenario Card YML Example
 
-symbol: mismanagement
+symbol: mismanagement_s3
 name: "Mismanagement"
 priority: 2
 year: 2
 
 initiating_npc: coach # <--- character's symbol
-initiating_dialogue: "I was visiting the hospital for my coaching visit, and they are still not following the clear guidelines about how to manage the funds. I think the guidelines are pretty clear, why are they not sticking to them? The business plan has clear guidelines they are not sticking to."
+initiating_dialogue: "I was visiting the hospital for my coaching visit, and they are still not following the clear guidelines about how to manage the funds. I think the guidelines are pretty clear, why are they not sticking to them?"
 
 starting_options: [sanctions_18, retraining_on_use_of_financial_tools_2]
 starting_options_affects: [sanctions_18, retraining_on_use_of_financial_tools_2]
@@ -26,8 +26,6 @@ characters:
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
     dialogue: "It sounds like funds have been mismanaged."
-    unlocks: 
-    unlocks_affects: 
 
   director_regional_health_services: # <--- character's symbol
     dialogue: "Have you considered that there is a flaw in the business plan? If the Hospital Administrator is straying from it so often, it might need to be reevaluated."
@@ -35,18 +33,19 @@ characters:
     unlocks_affects: [revise_business_plan_6]
 
   coach:
+    dialogue: "As I said, the business plan is pretty clear. Maybe you could speak directly to the provider?"
     feedback: 
       revise_business_plan_6: "I will schedule a meeting this week with the purchasing agency and begin the revision process for next quarter." # <--- symbol of the option used and the feedback text for it
       retraining_on_use_of_financial_tools_2: "I hope the Hospital Administrator will see its importance. I'll make some time this week for a retraining session and try to drill down on exactly how these tools should be used." # <--- symbol of the option used and the feedback text for it
 
   third_party_verifier:
-    dialogue: "I'm not saying the coach isn't perceptive, but if a cursory look around the hospital is all you need to tell something's not right, it's probably not fraudulent. "
+    dialogue: "I'm not saying the coach isn't perceptive, but if a cursory look around the hospital is all you need to tell somethings not right, it's probably not fraudulent. "
 
   community_verifier:
     dialogue: "I doubt they're trying to pull one over on you. I had the worst time with my finances all through my 20s; managing money is hard."
 
   clinic_manager:
-    dialogue: "We're all short staffed, but I've found ways to make it work."
+    dialogue: "We're all short staffed, but I've found ways to make it work.     "
 
   hospital_administrator:
     dialogue: "I can't control my hiring budget, and my supplies remain squeezed. I'm short staffed and constantly running out of things. So how can I possibly meet the demands of this business plan?"

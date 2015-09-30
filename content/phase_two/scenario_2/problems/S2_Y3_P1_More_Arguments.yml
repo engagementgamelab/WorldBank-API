@@ -42,7 +42,7 @@ characters:
 
   coach:
     dialogue: "The contract says that the NGO should be using the national protocols, but it looks like they are using their own set of guidelines. You should talk to them, and the ministry, to work this out."
-    narrows: [director_regional_health_services, coach, third_party_verifier, community_verifier, hospital_administrator]
+    narrows: [third_party_verifier, community_verifier]
     feedback:
       hold_stakeholder_meeting_3: "For a problem like this, a truce is about as good as we can hope for. Well, maybe not a truce, as such. More of a cease fire."
 

@@ -32,7 +32,7 @@ characters:
 
   director_regional_health_services:
     dialogue: "We must conduct an investigation right away. Begin by speaking directly with the health providers and find out why this is happening."
-    narrows: [dep_minister_of_health, director_regional_health_services, ngo_manager, third_party_verifier]
+    narrows: [dep_minister_of_health, ngo_manager, third_party_verifier]
 
   ngo_manager:
     dialogue: "I run the entire health network of Zariba and can't be everywhere at once. In the end, I am responsible, but I'm not being given the support I need."

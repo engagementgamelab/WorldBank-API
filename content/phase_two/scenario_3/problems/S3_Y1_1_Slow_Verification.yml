@@ -7,7 +7,7 @@
 
 # Phase Two Scenario Card YML Example
 
-symbol: slow_verification
+symbol: slow_verification_s3
 name: "Slow Verification"
 priority: 1
 year: 1

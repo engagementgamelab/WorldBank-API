@@ -7,7 +7,7 @@
 
 # Phase Two Scenario Card YML Example
 
-symbol: midwives
+symbol: midwives_s4
 name: "Midwives"
 priority: 4
 year: 2
@@ -27,7 +27,6 @@ characters:
 
   dep_minister_of_health:
     dialogue: "This might be our most important indicator as our maternal mortality rate is abysmal. If you can explore what is the real problem, we'd be willing to discuss the budget for this to be improved."
-    narrows: [dep_minister_of_health, director_regional_health_services, ngo_manager,third_party_verifier]
 
   director_regional_health_services:
     dialogue: "That would explain the struggling indicators on facility births. An alternative I've considered is giving more assistance for travel, to get people to come to the facilities."

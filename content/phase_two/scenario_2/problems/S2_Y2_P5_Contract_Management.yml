@@ -34,6 +34,7 @@ characters:
     unlocks_affects: [clarification_of_roles_5]
 
   ngo_manager: 
+    dialogue: "I understand there is a process that needs to be followed, but we really need help to get these people the services they need."
     feedback:
       terminate_ngo_contract_3: "I get it that this has been stressful, so this might be for the best, but I hope you can handle this. For the patients' sakes."
       expedite_payment_and_service_delivery: "Thank you. This is going to work much better."
@@ -47,11 +48,11 @@ characters:
 
   third_party_verifier:
     dialogue: "I'm sure you're getting good advice from the people who are writing the checks. They are, at least, smart enough to know what they want."
-    narrows: [director_regional_health_services, ngo_manager, third_party_verifier, community_verifier, hospital_administrator]
+    narrows: [ngo_manager, community_verifier]
 
   community_verifier:
     dialogue: "The people that will know this best are the coach and the health provider. They deal with the impact of these decisions every day."
-    narrows: [dep_minister_of_health, director_regional_health_services, ngo_manager, third_party_verifier, community_verifier]
+    narrows: [dep_minister_of_health, ngo_manager, third_party_verifier, community_verifier]
 
   hospital_administrator:
     dialogue: "Get the NGO their money! I have no empty beds! The doctors and nurses keep asking me when we're going to be able to do something about it and the best I can tell them is, well, I try to explain how all this is supposed to work. And that explanation doesn't do anything for a head wound."

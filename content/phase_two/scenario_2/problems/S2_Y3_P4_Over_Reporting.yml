@@ -44,7 +44,7 @@ characters:
 
   coach:
     dialogue: "This is very troubling. I would refer you to the Ministry for advice, as the responsibility of the project eventually rests with them."
-    narrows: [ngo_manager, coach, third_party_verifier, community_verifier, hospital_administrator]
+    narrows: [ngo_manager, community_verifier, hospital_administrator]
 
   community_verifier:
     dialogue: "This is kind of a mess. I don't want this to turn into a bigger problem than it has to be."

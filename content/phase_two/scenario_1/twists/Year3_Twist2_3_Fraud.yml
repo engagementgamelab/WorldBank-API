@@ -47,6 +47,6 @@ characters:
   health_provider_4:
     dialogue: "What are you accusing me of, exactly? I'd like a record of this for my attorneys."
     feedback:
-      warning_11: "Fine, fine."
-      sanctions_7: "What is this? I can sue you for breach of contract."
-      terminate_contract_at_end_of_year_6: "Who else will you contract? You've chased everyone away."
+      warning_11: "Fine, fine.                "
+      sanctions_7: "What is this? I can sue you for breach of contract.            "
+      terminate_contract_at_end_of_year_6: "Who else will you contract? You've chased everyone away.            "

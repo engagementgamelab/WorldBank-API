@@ -28,10 +28,10 @@ characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
-    dialogue: "I really don't think that this is in my wheelhouse; maybe somebody else on your team would have a better idea?"
+    dialogue: "I really don't think that this is in my wheelhouse; maybe somebody else on your team would have a better idea?                "
 
   director_regional_health_services:
-    dialogue: "I am not comfortable with procedures taking place by new workers and trainees unsupervised. I might approve stationing a nurse at traditional medicine facilities."
+    dialogue: "I am not comfortable with procedures taking place by new workers and trainees unsupervised. I might approve stationing a nurse at traditional medicine facilities.   "
     unlocks: [embed_nurses_1]
     unlocks_affects: [embed_nurses_1]
 
@@ -40,20 +40,21 @@ characters:
     unlocks: [expand_outreach_program_1]
     unlocks_affects: [expand_outreach_program_1]
     feedback:
-      embed_nurses_1: "An interesting idea. I'll help facilitate this as best I can, It would be much easier to increase outreach staff, though."
+      embed_nurses_1: "An interesting idea. I'll help facilitate this as best I can, It would be much easier to increase outreach staff, though.          "
 
   third_party_verifier:
-    dialogue: "Wow, uh, I'm not really sure what I would do in your shoes. That might be in somebody else's job description, though."
+    dialogue: "Wow, uh, I'm not really sure what I would do in your shoes. That might be in somebody else's job description, though.       "
 
   community_verifier:
     dialogue: "People are reluctant but I believe they could be swayed to come to facilities. I recommend keeping the program as it is."
 
   hospital_administrator:
-    dialogue: "Sorry, I'm kind of up to my elbows in work here. I don't know if I have much advice to contribute to this situation."
+    dialogue: "Sorry, I'm kind of up to my elbows in work here. I don't know if I have much advice to contribute to this situation.       "
     feedback:
-      expand_outreach_program_1: "It will take some time to do this, and there is a shortage of qualified people, but I will do my best."
+      expand_outreach_program_1: "It will take some time to do this, and there is a shortage of qualified people, but I will do my best.             "
 
   health_provider_3:
+    dialogue: "I really believe my clinic will be much more useful if someone here is trained to do the work.    "
     feedback:
-      train_locals_1: "Excellent! I have a good feeling about you, friend."
-      stick_to_the_plan_1: "I warn you, they will not accept it."
+      train_locals_1: "Excellent! I have a good feeling about you, friend.          "
+      stick_to_the_plan_1: "I warn you, they will not accept it.                    "

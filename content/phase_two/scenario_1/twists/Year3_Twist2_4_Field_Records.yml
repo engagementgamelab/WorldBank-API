@@ -28,6 +28,7 @@ characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
+    dialogue: "This could turn into a serious problem. We should really make sure there isn't foul play."
     feedback:
       data_capacity_building_2: "Alright, if you really think this will help, I'm willing to give it a chance."
 
@@ -55,10 +56,10 @@ characters:
 
   health_provider_4:
     dialogue: "This is the job of the verifiers, not us."
-    narrows: [dep_minister_of_health, director_regional_health_services, coach, clinic_manager, hospital_administrator, health_provider_4]
+    narrows: [dep_minister_of_health, hospital_administrator]
     feedback:
       require_nurses_to_return_to_file_2: "Many of my facilities are not much better than the field, and it will add to our own filing burden."
 
   hospital_administrator:
     dialogue: "Our nurses are doing good work. If the Ministry can't confirm it's having an effect, then it's a verification issue."
-    narrows: [dep_minister_of_health, director_regional_health_services, coach, clinic_manager, hospital_administrator, health_provider_4]
+    narrows: [dep_minister_of_health, health_provider_4]

@@ -26,6 +26,7 @@ final_options_cost: [small, small, small]
 characters:
 
   dep_minister_of_health:
+    dialogue: "I am just trying to make sure things are being verified and triple checked so we know funds are being allocated effectively"
     feedback:
       cease_counter_verification: "If you think they don't need more looking into, that's fine, I trust you."
       clarification_of_roles_1: "Next time, let's try to avoid this by making everyone's job clear beforehand. Thanks."
@@ -42,7 +43,7 @@ characters:
 
   coach:
     dialogue: "The issue of verification doesn't have to do with anyone but the NGO and the Third Party Verifier. Negotiate with them."
-    narrows: [coach, dep_minister_of_health, director_regional_health_services, community_verifier, hospital_administrator]
+    narrows: [dep_minister_of_health, director_regional_health_services, hospital_administrator]
 
   third_party_verifier:
     dialogue: "We don't need the government to counter-verify. We're handling it."

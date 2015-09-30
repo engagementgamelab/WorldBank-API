@@ -7,7 +7,7 @@
 
 # Phase Two Scenario Card YML Example
 
-symbol: process_v_results
+symbol: process_v_results_s2
 name: "Process versus Results"
 priority: 2
 year: 1
@@ -26,6 +26,7 @@ final_options_cost: [small, small]
 characters:
 
   ngo_manager:
+    dialogue: "We are really doing good work out here. It is unfortunate for us not to get paid simply due to not hitting projections."
     feedback: 
       warn_but_allow_payment_once_1: "This will help us do even more good work!"
       deny_payment_1: "We're working with little enough as it is."

@@ -7,7 +7,7 @@
 
 # Phase Two Scenario Card YML Example
 
-symbol: reach
+symbol: reach_s2
 name: "Reach"
 priority: 2
 year: 2
@@ -26,6 +26,7 @@ final_options_cost: [small, small, small]
 characters:
 
   dep_minister_of_health:
+    dialogue: "I'm not sure if having the NGO manage the delivery of services was a good idea in the long run. Maybe we should re-evaluate?"
     feedback:
       increase_funding_for_ngo: "You realize you're rewarding these people for failure? Please make sure that this is the right decision. "
 
@@ -50,7 +51,7 @@ characters:
 
   community_verifier:
     dialogue: "You can always just guide the NGO on how they should address this. It might be kind of micro-manage-y, but that's what you have a coach for, right?"
-    narrows: [dep_minister_of_health, director_regional_health_services, third_party_verifier, community_verifier]
+    narrows: [dep_minister_of_health, director_regional_health_services, third_party_verifier]
 
   hospital_administrator:
     dialogue: "That is why you brought this NGO in, to get people treated. There might be someone who could do it better."

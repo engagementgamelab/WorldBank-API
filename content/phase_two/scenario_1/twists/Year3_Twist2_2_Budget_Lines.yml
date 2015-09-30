@@ -29,7 +29,7 @@ characters:
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
     dialogue: "Our auditors have found mismanagement of funds. The providers need strict guidelines to provide the necessary services, and use the funds appropriately."
-    narrows: [dep_minister_of_health, director_regional_health_services, coach, community_verifier]
+    narrows: [third_party_verifier, community_verifier]
     feedback: 
       clarification_of_roles_10: "This revision to the procurement guidelines is within the scope of regulation, which is my role. But if you think it's essential for the providers to keep autonomy, we will step back on this."
 

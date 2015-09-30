@@ -7,7 +7,7 @@
 
 # Phase Two Scenario Card YML Example
 
-symbol: lack_of_supplies
+symbol: lack_of_supplies_s3
 name: "Lack of Supplies"
 priority: 4
 year: 1
@@ -46,7 +46,7 @@ characters:
 
   clinic_manager:
     dialogue: "I've spoken to the RBF coach about this a number of times. If we don't have basic supplies, we cannot treat patients."
-    narrows: [dep_minister_of_health, director_regional_health_services, clinic_manager, third_party_verifier, community_verifier] # <--- this probably will be a symbol
+    narrows: [director_regional_health_services, third_party_verifier] # <--- this probably will be a symbol
     feedback: 
       unlocks_sanction_providers: "You can't seriously be asking us to do more with even less. It costs money to provide quality care." # <--- symbol of the option used and the feedback text for it
 
