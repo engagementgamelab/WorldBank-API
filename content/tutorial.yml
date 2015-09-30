@@ -44,7 +44,7 @@ phase_1_move_around:
 
 phase_1_unlocked_something:
   overlay_location: "Center"
-  text: "This notification means you just unlocked something! Some topics can lead to finding routes to new cities, new options for your program proposal, and new conversation points with other people! You never know what you might find!"
+  text: "This notification means you just unlocked something. Some topics can lead to finding routes to new cities, new options for your program proposal, and new conversation points with other people. You never know what you might find!"
   spotlight_position: [-0.48, -2.51]
   spotlight_size: [1.32, 3.25]
   mask_position: [739, -331]
@@ -78,7 +78,7 @@ phase_1_tactic_slots:
 
 phase_1_continue_talking:
   overlay_location: "Center"
-  text: "Talk to the rest of the Capitol city officials to learn more about Zariba and the challenges it faces!"
+  text: "Talk to the rest of the Capitol city officials to learn more about Zariba and the challenges it faces."
   confirm: true
 
 phase_1_map:
@@ -195,7 +195,7 @@ phase_2_supervisor_opened:
 
 phase_2_timer:
   overlay_location: "Center"
-  text: "This timer tells you how long you have to complete your main screen problem. Since time is ticking, you must work efficiently and switch back and forth between the main screen and the Supervisor tab. Time will start now! Good luck!"
+  text: "This timer tells you how long you have to complete your main screen problem. Since time is ticking, you must work efficiently and switch back and forth between the main screen and the Supervisor tab. Time will start now. Good luck!"
   spotlight_position: [-1.55, -1.77]
   spotlight_size: [2.14, 2.26]
   mask_position: [0, 0]
