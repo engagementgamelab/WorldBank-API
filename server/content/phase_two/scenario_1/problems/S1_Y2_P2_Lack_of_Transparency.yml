@@ -13,7 +13,7 @@ priority: 2
 year: 2
 
 initiating_npc: third_party_verifier # <--- character's symbol
-initiating_dialogue: "There is an ongoing issue with the Clinic Manager. They are small things, but since they have been having issues with record keeping, I looked more closely and found some forms that seem like exact duplicates of others."
+initiating_dialogue: "There are ongoing issues with the Clinic Manager. They are small things, but since they have been having issues with record keeping, I looked more closely and found some forms that seem like exact duplicates of others."
 
 starting_options: [warning_3, mild_sanctions]
 starting_options_affects: [warning_3, mild_sanctions]
@@ -39,6 +39,7 @@ characters:
     dialogue: "This is a big deal. If these records are not accurate, we have no way of measuring progress. We need to send a very clear message. Unvalidated reports cannot be paid."
 
   third_party_verifier:
+    dialogue: "I'm curious as to what the clinic manager has to say about this. Either way, he should be held responsible."
     feedback: 
       warning_3: "I'll warn them. Hopefully we will see some improvement next quarter."
 
