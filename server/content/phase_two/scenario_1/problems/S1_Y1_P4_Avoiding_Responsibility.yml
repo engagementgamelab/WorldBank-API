@@ -36,7 +36,7 @@ characters:
     unlocks_affects: [revise_business_plan_to_include_transparency_1]
 
   coach:
-    dialogue: "Aren't there other people you can ask about this? One of them might have a better idea."
+    dialogue: "I'm really not able to help with this. Maybe someone else would have a better idea of how to address this?"
     feedback: 
       take_no_further_action_1: "I'm sure I'll have some time next quarter once our busiest time dies down."
 

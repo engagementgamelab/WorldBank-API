@@ -25,7 +25,7 @@ characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
-    dialogue: "We cannot afford this kind of impropriety. Deal with this."
+    dialogue: "We cannot afford this kind of impropriety. I would advise you to deal with this harshly."
 
   director_regional_health_services: # <--- character's symbol
     dialogue: "This is troubling. I may begin looking into other providers for you to contract next year."
@@ -36,17 +36,18 @@ characters:
     dialogue: "This is a big deal. Honesty aside, we need accurate numbers to know what kind of progress we're making. We need to send a very clear message: unvalidated reports will not be paid."
 
   third_party_verifier:
+    dialogue: "I think the director of regional services might have a worthwhile approach to this situation. Still, the choice is up to you."
     feedback: 
       warning_14: "I'll warn them. Hopefully we won't see this again." # <--- symbol of the option used and the feedback text for it
 
   community_verifier:
-    dialogue: "That's not my department, exactly, but it sounds pretty suspicious."
+    dialogue: "That's not my department, exactly, but it sounds pretty suspicious. Talk directly to the Clinic Manager if you haven't yet."
 
   clinic_manager:
     dialogue: "I told my staff to start keeping better records. I can talk to them again and stress its importance..."
     feedback: 
       sanctions_14: "Our budget is strained as it is. I'll have to fire people. Which will make it harder to meet your goals. And so on until we have to close and your program fails." # <--- symbol of the option used and the feedback text for it
-      terminate_contract_1: "This is a disaster! For such a small error?" # <--- symbol of the option used and the feedback text for it
+      terminate_contract_1: "This is a disaster! For such a small error? I feel this is not appropriate." # <--- symbol of the option used and the feedback text for it
 
   hospital_administrator:
-    dialogue: "Don't go too hard on them. These clinics do good work."
+    dialogue: "I wouldn't go too hard on them. These clinics do good work and help the population with medical needs."

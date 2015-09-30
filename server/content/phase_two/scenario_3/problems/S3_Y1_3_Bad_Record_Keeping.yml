@@ -7,7 +7,7 @@
 
 # Phase Two Scenario Card YML Example
 
-symbol: bad_record_keeping
+symbol: bad_record_keeping_s3
 name: "Bad Record Keeping"
 priority: 3
 year: 1
@@ -31,14 +31,12 @@ characters:
 
   director_regional_health_services: # <--- character's symbol
     dialogue: "All providers in my region know the requirements for keeping records. Something must be wrong. I'd talk to them."
-    narrows: [dep_minister_of_health, director_regional_health_services, coach, third_party_verifier, community_verifier] # <--- this probably will be a symbol
+    narrows: [coach, community_verifier] # <--- this probably will be a symbol
 
   coach:
     dialogue: "Can't imagine why they aren't keeping records. Last time I talked to them, they said everything was fine and they didn't want my help."
     feedback: 
       capacity_building_help: "When I'm over there next I'll check on their on-the-spot training, figure out where they're making mistakes." # <--- symbol of the option used and the feedback text for it
-
-
 
   community_verifier:
     dialogue: "My team has had no issue keeping records. I wonder what the issue is at the clinics?"

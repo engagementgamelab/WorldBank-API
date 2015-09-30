@@ -25,7 +25,7 @@ characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
-    dialogue: "Best way to win an argument? End the conversation."
+    dialogue: "You want to know the best way to win an argument? End the conversation."
     unlocks: [terminate_ngo_contract_7]
     unlocks_affects: [terminate_ngo_contract_7] # <--- this probably will be a symbol
     feedback: 
@@ -38,7 +38,7 @@ characters:
       terminate_ngo_contract_7: "The whole reason you brought us on was nothing was getting accomplished. That's what we were doing."
   coach:
     dialogue: "The contract says that the NGO should be using the national protocols, but it looks like they are using their own set of guidelines. You should talk to them, and the ministry to work this out."
-    narrows: [coach, third_party_verifier, community_verifier, hospital_administrator]
+    narrows: [third_party_verifier, community_verifier, hospital_administrator]
     feedback:
       hold_stakeholder_meeting_5: "For a problem like this, a truce is about as good as we can hope for. Well, maybe not a truce, as such. More of a cease fire."
 

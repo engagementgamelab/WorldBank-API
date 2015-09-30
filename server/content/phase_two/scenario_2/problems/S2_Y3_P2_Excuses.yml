@@ -27,7 +27,7 @@ characters:
 
   dep_minister_of_health: 
     dialogue: "They claim they're doing a terrific job. Are they?"
-    narrows: [dep_minister_of_health, coach, third_party_verifier, community_verifier]
+    narrows: [third_party_verifier, community_verifier]
 
   director_regional_health_services:
     dialogue: "It's a lot easier to work with people when they're getting paid."

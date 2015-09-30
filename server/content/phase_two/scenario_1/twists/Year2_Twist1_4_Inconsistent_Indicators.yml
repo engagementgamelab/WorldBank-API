@@ -42,18 +42,18 @@ characters:
     dialogue: "Wow, uh, I'm not really sure what I would do in your shoes. That might be in somebody else's job description, though."
 
   community_verifier:
-    dialogue: "People here are still reluctant to travel to facilities."
+    dialogue: "People here are still reluctant to travel to facilities.       "
 
   hospital_administrator:
     dialogue: "Vaccinations are easier to manage. Births take more planning. More resources are likely required to make this work."
     unlocks: [incentivise_facility_births_1]
     unlocks_affects: [incentivise_facility_births_1]
     feedback:
-      incentivise_facility_births_1: "That will make this a good deal easier for us."
+      incentivise_facility_births_1: "That will make this a good deal easier for us.          "
 
   health_provider_3:
     dialogue: "You should accept more traditional techniques into your program. People should have the choice, don't you think?"
     unlocks: [broaden_services_1]
     unlocks_affects: [broaden_services_1]
     feedback:
-      broaden_services_1: "An excellent decision!"
+      broaden_services_1: "An excellent decision!             "

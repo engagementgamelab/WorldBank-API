@@ -48,7 +48,7 @@ characters:
     unlocks: [maintain_current_rates_2]
     unlocks_affects: [maintain_current_rates_2]
     feedback:
-      warn_providers_to_follow_protocols_2: "I'll have my staff re-assess these practices."
+      warn_providers_to_follow_protocols_2: "I'll have my staff re-assess these practices.             "
 
   health_provider_3:
     dialogue: "What's wrong with people getting outpatient services? It's better than the alternative."

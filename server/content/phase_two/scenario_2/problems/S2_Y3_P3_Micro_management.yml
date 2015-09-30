@@ -47,4 +47,4 @@ characters:
 
   hospital_administrator:
     dialogue: "This seems like a dispute between the NGO and the ministry. Talk to them about it."
-    narrows: [director_regional_health_services, third_party_verifier, community_verifier, hospital_administrator]
+    narrows: [community_verifier]

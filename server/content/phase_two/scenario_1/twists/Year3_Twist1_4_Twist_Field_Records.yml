@@ -55,8 +55,6 @@ characters:
 
   hospital_administrator:
     dialogue: "Our nurses are doing good work. If the Ministry can't confirm it's having an effect, then it's a verification issue."
-    narrows: [dep_minister_of_health, director_regional_health_services, clinic_manager, hospital_administrator, health_provider_3, community_verifier]
 
   health_provider_3:
     dialogue: "This is the job of the verifiers, not us."
-    narrows: [dep_minister_of_health, director_regional_health_services, clinic_manager, hospital_administrator, health_provider_3, community_verifier]

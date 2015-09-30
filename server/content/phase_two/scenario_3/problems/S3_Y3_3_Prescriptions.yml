@@ -29,7 +29,6 @@ characters:
 
   director_regional_health_services: # <--- character's symbol
     dialogue: "We must conduct an investigation right away. Begin by speaking directly with the health providers and find out why this is happening."
-    narrows: [clinic_manager, hospital_administrator, coach] # <--- this probably will be a symbol
 
   coach:
     dialogue: "Maybe we've been incentivising the wrong things. Prescriptions make patients happy, whether or not they're correct. I've prioritized satisfied patients, perhaps to the detriment of best practices."
@@ -49,6 +48,6 @@ characters:
       sanctions_15: "You cut our funds when patients complain, which they do because we don't prescribe them drugs. Then, when we give them what they want, you cut our funds again. You need to figure out what you want." # <--- symbol of the option used and the feedback text for it
 
   hospital_administrator:
-    dialogue: "At first I was shocked to hear this, but the more I thought about it, the more it makes sense. Patients don't know the difference, and if we're incentivizing happy patients, the wrong medicine is better than no medicine."
+    dialogue: "At first I was shocked to hear this, but the more I thought about it, the more it makes sense. Patients don't know the difference, and if we're incentivising happy patients, the wrong medicine is better than no medicine."
     unlocks: [reduce_incentives_for_customer_service] # <--- these probably will symbols
     unlocks_affects: [reduce_incentives_for_customer_service]

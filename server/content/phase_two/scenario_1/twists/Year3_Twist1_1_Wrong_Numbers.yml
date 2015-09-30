@@ -33,13 +33,13 @@ characters:
 
   director_regional_health_services:
     dialogue: "I've had some communication with Mr. Todd in the past, but I believe he is honest. You should talk to him directly to see what the problem is."
-    narrows: [health_provider_3, coach]
+    narrows: [hospital_administrator, coach]
 
   coach:
-    dialogue: "This is the first time we've seen this behavior from Mr. Todd. I'd recommend a warning."
+    dialogue: "This is the first time we've seen this behavior from Mr. Todd. I'd recommend a warning.         "
 
   community_verifier:
-    dialogue: "I can confirm the numbers do not match up. Very suspicious."
+    dialogue: "I can confirm the numbers do not match up. Very suspicious.          "
 
   hospital_administrator:
     dialogue: "I don't think traditional practitioners should get preferential treatment over my hospital. Treat them just as you would treat us."
@@ -49,6 +49,6 @@ characters:
     unlocks: [hold_meeting_to_retrain_on_reporting_practices_2]
     unlocks_affects: [hold_meeting_to_retrain_on_reporting_practices_2]
     feedback:
-      warning_7: "I'll talk to my staff and try to settle this."
+      warning_7: "I'll talk to my staff and try to settle this.            "
       sanctions_4: "I just put in orders for new equipment. Now I won't be able to afford to pay for them. I think you are taking this too far. It was an honest mistake."
       hold_meeting_to_retrain_on_reporting_practices_2: "I think that will probably help. Let me know when works for you and I'll clear some time."

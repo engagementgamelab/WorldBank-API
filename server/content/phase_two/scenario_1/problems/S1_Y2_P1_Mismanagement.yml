@@ -7,7 +7,7 @@
 
 # Phase Two Scenario Card YML Example
 
-symbol: mismanagement
+symbol: mismanagement_s1
 name: "Mismanagement"
 priority: 1
 year: 2

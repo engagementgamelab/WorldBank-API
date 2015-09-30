@@ -7,7 +7,7 @@
 
 # Phase Two Scenario Card YML Example
 
-symbol: budget_lines
+symbol: budget_lines_s3
 name: "Budget Lines"
 priority: 1
 year: 3
@@ -26,7 +26,6 @@ characters:
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
     dialogue: "Our monitors have found mismanagement of funds. Hospitals should provide the necessary services with what we give them to work with. "
-    narrows: [dep_minister_of_health, director_regional_health_services, coach, community_verifier, hospital_administrator] # <--- this probably will be a symbol
     feedback: 
       grant_autonomy_to_providers: "Hiring and firing is within the scope of regulation, which is my role. But if you think it's essential, we'll step back." # <--- symbol of the option used and the feedback text for it
 
@@ -51,6 +50,7 @@ characters:
     unlocks_affects: [grant_autonomy_to_providers]
 
   hospital_administrator:
+    dialogue: "I'm really not sure why these aren't matching. Maybe you can talk to someone who will have more information?"
     feedback: 
       rework_business_plan: "I don't believe this will be constructive, but I'm willing to try." # <--- symbol of the option used and the feedback text for it
-      comply_with_ministry_2: "If you insist..." # <--- symbol of the option used and the feedback text for it
+      comply_with_ministry_2: "Complying with the ministry is something we can do, though I am not sure it is the best way forward for us."# <--- symbol of the option used and the feedback text for it

@@ -7,7 +7,7 @@
 
 # Phase Two Scenario Card YML Example
 
-symbol: process_v_results_again
+symbol: process_v_results_again_s2
 name: "Process Versus Results"
 priority: 1
 year: 2
@@ -27,7 +27,7 @@ characters:
 
   dep_minister_of_health: 
     dialogue: "The NGO wants autonomy so you'll have to do your research on what to do."
-    narrows: [dep_minister_of_health, ngo_manager, coach, third_party_verifier, community_verifier]
+    narrows: [ngo_manager, coach, third_party_verifier, community_verifier]
 
   director_regional_health_services:
     dialogue: "No, they didn't meet their targets, but that doesn't mean my providers and patients should suffer for it. We're between a rock and hard place."
@@ -35,6 +35,7 @@ characters:
     unlocks_affects: [warn_but_allow_payment_once_2]
 
   ngo_manager:
+    dialogue: "We really need this payment. I would advise you to make an exception this one time."
     feedback:
       warn_but_allow_payment_once_2: "It's good to know we can count on you in an emergency, just like you can count on us."
       deny_payment_2: "We're struggling with achieving these targets as it is. It hurts patients when we don't have enough money to work with." 

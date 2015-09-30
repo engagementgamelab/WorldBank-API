@@ -31,10 +31,10 @@ characters:
     dialogue: "There are other health providers in the region we could use. This is the largest, but it doesn't mean it is the best. "
 
   director_regional_health_services:
-    dialogue: "The staff at the hospital have been slow to adapt to new practices."
+    dialogue: "The staff at the hospital have been slow to adapt to new practices.          "
 
   coach:
-    dialogue: "Aren't there other people you can ask about this? One of them might have a better idea."
+    dialogue: "You are right to investigate this further, as I am not 100% sure it is because of unwise spending."
     feedback: 
       terminate_contract_effective_end_of_year_1: "It seems early to terminate their contract, but let's review at year's end. In the meantime, I will be observing and offering ways to improve."
 
@@ -42,12 +42,12 @@ characters:
     dialogue: "It seems this hospital has not been able to increase their performance very well." 
 
   community_verifier:
-    dialogue: "I would talk directly to them if I were you."
+    dialogue: "I would talk directly to the health providers if I were you. They might have reasons for doing this."
 
   clinic_manager:
-    dialogue: "I don't really have time to talk about this right now. Sorry."
+    dialogue: "I don't really have time to talk about this right now as I have other important things to attend to. Sorry."
 
   hospital_administrator:
-    dialogue: "We're doing our best here.  There are many intricacies to the business plan, and not everyone on my staff understands them. I'm sure they'll get used to it soon, though."
+    dialogue: "We're doing our best here. There are many intricacies to the business plan, and not everyone on my staff understands them. I'm sure they'll get used to it soon, though."
     feedback: 
-      warning_and_retraining_1: "Do you really think this is necessary?"
+      warning_and_retraining_1: "Do you really think this is necessary?            "
