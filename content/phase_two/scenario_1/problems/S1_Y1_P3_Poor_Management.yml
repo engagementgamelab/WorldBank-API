@@ -34,11 +34,7 @@ characters:
     dialogue: "The staff at the hospital have been slow to adapt to new practices.          "
 
   coach:
-<<<<<<< HEAD
     dialogue: "You are right to investigate this further, as I am not 100% sure it is because of unwise spending."
-=======
-    dialogue: "Aren't there other people you can ask about this? One of them might have a better idea."
->>>>>>> origin/master
     feedback: 
       terminate_contract_effective_end_of_year_1: "It seems early to terminate their contract, but let's review at year's end. In the meantime, I will be observing and offering ways to improve."
 
