@@ -41,7 +41,7 @@
   display_name: Zima
   description: "Located on the sea, Zima is one of the largest and most industrialized cities in Zariba. Its most important landmark is the National Hospital, the most advanced in the country."#"Zima is a skin cleanser marketed by Unilever. It contains camphor, menthol, phenol and eucalyptus, among other ingredients. Originally developed as a sunburn remedy, it is popular among women as a facial cleanser and make-up remover. It can also be used for cleaning chapped, sunburned, or otherwise irritated skin."
   enabled: true
-  npc_interactions: [7, 4]
+  npc_interactions: [7, 3]
 
 - symbol: capitol
   display_name: Capitol City
