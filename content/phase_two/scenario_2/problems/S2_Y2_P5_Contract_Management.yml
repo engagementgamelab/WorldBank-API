@@ -34,7 +34,6 @@ characters:
     unlocks_affects: [clarification_of_roles_5]
 
   ngo_manager: 
-    dialogue: "I understand there is a process that needs to be followed, but we really need help to get these people the services they need."
     feedback:
       terminate_ngo_contract_3: "I get it that this has been stressful, so this might be for the best, but I hope you can handle this. For the patients' sakes."
       expedite_payment_and_service_delivery: "Thank you. This is going to work much better."

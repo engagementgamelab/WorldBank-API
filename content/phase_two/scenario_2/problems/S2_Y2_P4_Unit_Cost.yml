@@ -51,4 +51,3 @@ characters:
 
   community_verifier:
     dialogue: "If I were you, and I'm offering this as someone who lives here, ask the Ministry and your coach what to do. The Ministry gets the last call and the NGO doesn't."
-    narrows: [third_party_verifier, coach]
