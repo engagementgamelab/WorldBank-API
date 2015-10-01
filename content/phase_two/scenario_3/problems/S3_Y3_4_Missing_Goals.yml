@@ -25,7 +25,6 @@ characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
-    dialogue: "Thinking more about this, there might be another way to achieve our goals without terminating contracts, but I would advise you to think through the potential consequences of each decision."
     feedback: 
       grant_providers_autonomy: "Let's schedule a meeting to discuss this at the end of the year. I might be able to persuade the Minister to give us one more year with an altered program." # <--- symbol of the option used and the feedback text for it
 

@@ -24,8 +24,6 @@ final_options_affects: [request_payment_without_verification_5, introduce_incent
 characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
-  dep_minister_of_health: # <--- character's symbol
-    dialogue: "The delay is in our verification, unfortunately. The health team on the ground responsible for the first level of verification has many responsibilities. If it is that important maybe the providers should just be paid."
 
   director_regional_health_services: # <--- character's symbol
     dialogue: "The Deputy Minister is correct, the regional team has many responsibilities and looking at figures is not necessarily the priority"
