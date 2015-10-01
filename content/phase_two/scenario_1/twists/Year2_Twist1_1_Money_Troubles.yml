@@ -52,7 +52,6 @@ characters:
     unlocks_affects: [increase_referral_incentives_1]
 
   health_provider_3:
-    dialogue: "Ahoy! As I have described to you, my friend, these merchants are just trying to make ends meet. Maybe we could help them out, yes?"
     feedback:
       increase_referral_incentives_1: "Excellent, my friend! Everything will continue to run smoothly."
       continue_with_plan_1: "I warned you! Do not say I didn't warn you, friend!"

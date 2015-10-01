@@ -26,9 +26,6 @@ final_options_cost: [small, small, small, medium]
 
 characters:
 
-  dep_minister_of_health: 
-    dialogue: "I'm not sure I can offer any help in this situation. Best contact someone who is on the ground."
-
   director_regional_health_services:
     dialogue: "It might help if they were clearing their movements through my office. Then we would know where they are going, and that they are headed where they're needed."
     unlocks: [centralize_control_over_travelling_nurses_1]

@@ -29,9 +29,6 @@ characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
 
-  third_party_verifier:
-    dialogue: "It could be possible that the clinic's staff are confused about how to file accurate records. Still, I think a warning might be needed."
-
   dep_minister_of_health: # <--- character's symbol
     dialogue: "If needed, we could impose sanctions. Let us do some serious investigation if this is necessary."
 

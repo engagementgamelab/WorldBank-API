@@ -36,7 +36,6 @@ characters:
     unlocks_affects: [revise_business_plan_3]
 
   coach:
-    dialogue: "I really believe there is a clear documented approach, so maybe there is a retraining of the staff that needs to happen?"
     feedback:
       revise_business_plan_3: "I will schedule a meeting this week and begin the revision process for next quarter."
       retrain_1: "I will make some time this week for a retraining session."

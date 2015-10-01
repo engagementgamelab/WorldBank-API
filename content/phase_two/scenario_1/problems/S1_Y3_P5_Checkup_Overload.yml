@@ -28,9 +28,6 @@ characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory") # <--- character's symbol
 
-  dep_minister_of_health: 
-    dialogue: "Maybe the Director of Regional Health Services might have a better grasp on the situation."
-
   director_regional_health_services:  
     dialogue: "For some reason people have been taking advantage of this service more than other services. It would be good to investigate this further, perhaps providers are pushing the services too strongly."  
 

@@ -49,7 +49,6 @@ characters:
     dialogue: "These are small clinics, with very little operating budget. Denying payment will cause immediate harm to the community."
 
   clinic_manager:
-    dialogue: "The patients are the most important, and if we do not have payment they will suffer."
     feedback: 
       revise_business_plan_10: "I would appreciate some support from the coach to figure out how we can improve things here."
       deny_review: "If you aren't going to take me seriously, how can I have faith in this system?"

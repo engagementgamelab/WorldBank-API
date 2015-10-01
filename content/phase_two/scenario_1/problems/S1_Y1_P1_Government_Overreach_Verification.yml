@@ -51,6 +51,5 @@ characters:
     dialogue: "Honestly, we've been ignoring the ministry's requests. We've got too much actual work to worry about."
 
   hospital_administrator:
-    dialogue: "Still unsure what to do. Maybe we need to clear up some confusion of who is responsible for what?"
     feedback:
       comply_with_ministry_1: "This seems reasonable and I will make sure we adjust according. We'll do our best."

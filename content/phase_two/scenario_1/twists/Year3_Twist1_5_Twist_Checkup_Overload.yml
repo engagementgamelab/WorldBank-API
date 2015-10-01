@@ -28,9 +28,6 @@ characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
 
-  dep_minister_of_health: 
-    dialogue: "I would suggest asking someone who might be able to verify whether these numbers accurately reflect real world outcomes."
-
   director_regional_health_services:
     dialogue: "For some reason people have been taking advantage of this service more than other services. It would be good to investigate this further, perhaps providers are pushing the services too strongly."  
 

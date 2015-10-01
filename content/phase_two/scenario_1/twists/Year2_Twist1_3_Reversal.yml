@@ -54,7 +54,6 @@ characters:
       expand_outreach_program_1: "It will take some time to do this, and there is a shortage of qualified people, but I will do my best.             "
 
   health_provider_3:
-    dialogue: "I really believe my clinic will be much more useful if someone here is trained to do the work.    "
     feedback:
       train_locals_1: "Excellent! I have a good feeling about you, friend.          "
       stick_to_the_plan_1: "I warn you, they will not accept it.                    "
