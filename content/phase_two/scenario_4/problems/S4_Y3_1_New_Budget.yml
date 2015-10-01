@@ -52,6 +52,5 @@ characters:
     dialogue: "I don't understand the need for these new guidelines, but then again, I am not working in the clinic."
 
   clinic_manager: 
-    dialogue: "I need to be able to purchase whatever is needed. This is a return to the previous bad situation with a lot of delays in receiving supplies from the central level. I do not agree with this decision."
     feedback:
       rework_business_plan_2: "I don't believe this will be constructive, but I'm willing to try. We'll see how it goes."
