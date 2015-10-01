@@ -26,6 +26,10 @@ final_options_cost: [small, small, small]
 characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
+
+  director_regional_health_services:
+    dialogue: 
+
   dep_minister_of_health: # <--- character's symbol
     dialogue: "Let's get this clear once and for all. It is really important to know who does what."
     unlocks: [clarify_roles_2]
