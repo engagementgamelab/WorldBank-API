@@ -30,9 +30,6 @@ characters:
   dep_minister_of_health: # <--- character's symbol
     dialogue: "If needed, we could end the contract. Let's do some serious investigation into if this is necessary."
 
-  third_party_verifier:
-    dialogue: "It could be possible that the clinic's staff are confused about how to file accurate records, but this has been happening for years now."
-
   director_regional_health_services:
     dialogue: "I've had some communication issues with the Clinic Manager in the past, but I believe he is honest. You should talk to him directly to see what the problem is."
     narrows: [dep_minister_of_health, director_regional_health_services, third_party_verifier, community_verifier, clinic_manager]

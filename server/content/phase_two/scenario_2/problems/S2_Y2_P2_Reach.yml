@@ -26,7 +26,6 @@ final_options_cost: [small, small, small]
 characters:
 
   dep_minister_of_health:
-    dialogue: "I'm not sure if having the NGO manage the delivery of services was a good idea in the long run. Maybe we should re-evaluate?"
     feedback:
       increase_funding_for_ngo: "You realize you're rewarding these people for failure? Please make sure that this is the right decision. "
 

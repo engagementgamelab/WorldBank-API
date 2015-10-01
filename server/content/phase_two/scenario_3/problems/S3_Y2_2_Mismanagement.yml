@@ -33,7 +33,6 @@ characters:
     unlocks_affects: [revise_business_plan_6]
 
   coach:
-    dialogue: "As I said, the business plan is pretty clear. Maybe you could speak directly to the provider?"
     feedback: 
       revise_business_plan_6: "I will schedule a meeting this week with the purchasing agency and begin the revision process for next quarter." # <--- symbol of the option used and the feedback text for it
       retraining_on_use_of_financial_tools_2: "I hope the Hospital Administrator will see its importance. I'll make some time this week for a retraining session and try to drill down on exactly how these tools should be used." # <--- symbol of the option used and the feedback text for it

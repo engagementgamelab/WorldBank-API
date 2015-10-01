@@ -35,7 +35,6 @@ characters:
     unlocks_affects: [warn_but_allow_payment_once_2]
 
   ngo_manager:
-    dialogue: "We really need this payment. I would advise you to make an exception this one time."
     feedback:
       warn_but_allow_payment_once_2: "It's good to know we can count on you in an emergency, just like you can count on us."
       deny_payment_2: "We're struggling with achieving these targets as it is. It hurts patients when we don't have enough money to work with." 

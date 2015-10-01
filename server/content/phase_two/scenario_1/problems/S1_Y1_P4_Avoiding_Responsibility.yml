@@ -36,7 +36,6 @@ characters:
     unlocks_affects: [revise_business_plan_to_include_transparency_1]
 
   coach:
-    dialogue: "Maybe you can contact the Director of Regional Health Services as they might have a better way to approach this."
     feedback: 
       take_no_further_action_1: "I'm sure I'll have some time next quarter once our busiest time dies down."
 

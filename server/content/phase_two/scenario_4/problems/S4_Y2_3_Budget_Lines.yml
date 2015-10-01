@@ -26,7 +26,6 @@ characters:
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory"
 
   dep_minister_of_health:
-    dialogue: "I really think you need to figure this one out on your own."
     feedback:
       cease_counterverification_by_government: "If you think they don't need more looking into, that's fine, I trust you."
       clarification_of_roles_10: "Next time, let's try to avoid this by making everyone's job clear beforehand. Thanks."

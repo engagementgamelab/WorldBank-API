@@ -35,7 +35,6 @@ characters:
     unlocks_affects: [warn_but_allow_payment_once_3]
 
   ngo_manager: 
-    dialogue: "I'm only doing what I thought you asked me to. If I'm not, let me know."
     feedback:
       warn_but_allow_payment_once_3: "It's good to know we can count on you, just like you're counting on us."
       deny_payment_3: "We're struggling with these numbers as it is. It hurts patients when we don't have money to work with."

@@ -26,7 +26,6 @@ characters:
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory"
 
   dep_minister_of_health:
-    dialogue: "I think speaking directly to the NGO manager about this problem will be more useful, don't you think?"
     feedback:
       increase_funding_for_ngo_2: "You realize you're rewarding these people for failure? Please make sure that this is the right decision."
 

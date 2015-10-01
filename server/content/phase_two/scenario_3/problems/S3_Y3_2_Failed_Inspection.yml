@@ -46,7 +46,6 @@ characters:
     dialogue: "These are small clinics, with very little operating budget. Denying payment will cause immediate harm to the community."
 
   clinic_manager:
-    dialogue: ""
     feedback: 
       revise_business_plan_7: "I would appreciate some support from the coach on how we can improve things here." # <--- symbol of the option used and the feedback text for it
       deny_review_2: "You are not taking me seriously. How can I have faith in this system?" # <--- symbol of the option used and the feedback text for it

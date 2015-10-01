@@ -28,7 +28,6 @@ characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
-    dialogue: "This could turn into a serious problem. We should really make sure there isn't foul play."
     feedback:
       data_capacity_building_2: "Alright, if you really think this will help, I'm willing to give it a chance."
 

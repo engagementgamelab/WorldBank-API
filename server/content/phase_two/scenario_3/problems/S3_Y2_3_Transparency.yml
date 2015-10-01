@@ -36,7 +36,6 @@ characters:
     dialogue: "This is a big deal. Honesty aside, we need accurate numbers to know what kind of progress we're making. We need to send a very clear message: unvalidated reports will not be paid."
 
   third_party_verifier:
-    dialogue: "I think the director of regional services might have a worthwhile approach to this situation. Still, the choice is up to you."
     feedback: 
       warning_14: "I'll warn them. Hopefully we won't see this again." # <--- symbol of the option used and the feedback text for it
 
