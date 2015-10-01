@@ -31,7 +31,7 @@ characters:
     dialogue: "There are other health providers in the region we could use. This is the largest, but it doesn't mean it is the best. "
 
   director_regional_health_services:
-    dialogue: "The staff at the hospital have been slow to adapt to new practices.          "
+    dialogue: "The staff at the hospital have been slow to adapt to new practices."
 
   coach:
     feedback: 
@@ -49,4 +49,4 @@ characters:
   hospital_administrator:
     dialogue: "We're doing our best here. There are many intricacies to the business plan, and not everyone on my staff understands them. I'm sure they'll get used to it soon, though."
     feedback: 
-      warning_and_retraining_1: "Do you really think this is necessary?            "
+      warning_and_retraining_1: "Do you really think this is necessary?"

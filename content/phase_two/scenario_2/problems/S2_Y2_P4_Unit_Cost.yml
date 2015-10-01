@@ -12,42 +12,46 @@ name: "Unit Costs"
 priority: 4
 year: 2
 
-initiating_npc: hospital_administrator
-initiating_dialogue: "Look, I don't really know what you and the NGO have worked out, but I need to be authorized to purchase supplies at the right costs. Can you tell them to lighten these restrictions some?"
+initiating_npc: clinic_manager
+initiating_dialogue: "Look, I don't really know what you and the NGO have worked out, but I need to have medicines in my clinic to treat patients and currently I am running out. The NGO tells me the Ministry is now responsible for supplying medicines. We had no shortage of medicines since they were contracted but now I have a problem."
 
-starting_options: [clarification_of_roles_4]
-starting_options_affects: [clarification_of_roles_4]
+starting_options: [clarification_of_roles_4, move_authority_to_ministry_2]
+starting_options_affects: [clarification_of_roles_4, move_authority_to_ministry_2]
 starting_options_cost: [small]
 
-final_options: [clarification_of_roles_4, move_authority_to_ministry_2, loosen_drug_control_1]
-final_options_affects: [clarification_of_roles_4, move_authority_to_ministry_2, loosen_drug_control_1]
+final_options: [clarification_of_roles_4, move_authority_to_ministry_2, loosen_drug_control_1, terminate_ngo_contract_9]
+final_options_affects: [clarification_of_roles_4, move_authority_to_ministry_2, loosen_drug_control_1, terminate_ngo_contract_9]
 starting_options_cost: [small, small, small]
 
 characters:
 
   dep_minister_of_health: 
-    dialogue: "We've spoken directly with the NGO a number of times on this. We are emphatic when we say we control the drugs, not them. They should focus on delivering services."
+    dialogue: "We've spoken directly with the NGO a number of times on this. Centralized ordering and supply of medicines is much more efficient. it will save us money and they should just focus on delivering services or we will terminate their contract."
+    unlocks: [terminate_ngo_contract_9]
+    unlocks_affects: [terminate_ngo_contract_9]
+    feedback: 
+      terminate_ngo_contract_9: "I think this is the best choice we have in this situation."
 
   director_regional_health_services:
-    dialogue: "We've been whittling down whose job is whose throughout this process, so you don't have to tell me this isn't my place, but were it up to me, I'd cancel the NGO contract."
-    unlocks: [move_authority_to_ministry_2]
-    unlocks_affects: [move_authority_to_ministry_2]
+    dialogue: "I understand the Ministry's perspective and saving money is important. However, patients should be treated and currently this is becoming a problem without supplies."
 
   ngo_manager: 
-    dialogue: "We are doing our best to deliver these services, but the government controls the drugs, not us. We try to treat as many patients as we can, but if the Ministry strangles our supply, it doesn't work."
+    dialogue: "We are doing our best to deliver these services, but the government now controls the medicines, not us. We try to treat as many patients as we can, but if the Ministry strangles our supply, it doesn't work"
     unlocks: [loosen_drug_control_1]
     unlocks_affects: [loosen_drug_control_1]
     feedback:
-      clarification_of_roles_4: "OK. I'm just trying to make this work as smoothly and efficiently as possible."
+      clarification_of_roles_4: "OK. I'm hoping we can work out how we can ensure the clinics receive their medicines as smoothly and efficiently as possible."
       loosen_drug_control_1: "That will help a great deal. This way we can ensure the proper medications get where they need to go, at the right cost."
 
   coach:
-    dialogue: "I'll ask, because this seems to be an ongoing problem: is that the NGO's position? They seem to be overstepping their role."
+    dialogue: "I am not sure why the Ministry decided to take this responsibility back from the NGO. There were no problems with medical supplies so why change it in the middle of the contract? Maybe we should re-discuss the importance of autonomy for the NGO to achieve results."
+    unlocks: [loosen_drug_control_1]
+    unlocks_affects: [loosen_drug_control_1]
     feedback:
       move_authority_to_ministry_2: "The Ministry already has a lot going on, but I guess they can handle local hospital budgeting, too."
 
   third_party_verifier:
-    dialogue: "If they can't agree on a budget, I'm not going to have any cases to verify. And I like my job."
+    dialogue: "If they can't resolve this, I'm not going to have any cases to verify. And I like my job."
 
   community_verifier:
-    dialogue: "If I were you, and I'm offering this as someone who lives here, ask the Ministry and your coach what to do. The Ministry gets the last call and the NGO doesn't."
+    dialogue: "If I were you, and I'm offering this as someone who lives here, ask the Ministry and your coach what to do."

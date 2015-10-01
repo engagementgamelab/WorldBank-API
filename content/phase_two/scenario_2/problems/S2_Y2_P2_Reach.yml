@@ -41,7 +41,7 @@ characters:
       terminate_ngo_contract_1: "We cannot get to absolutely everyone, so you're making it impossible to get health care for everyone else." 
 
   coach:
-    dialogue: "Look, we have one group running things pretty well for most of the country. Maybe we need another NGO who is more used to this kind of region, to focus our efforts on the population."
+    dialogue: "Look, we have one group running things pretty well for most of the country. Maybe we need another NGO who is more used to this region, to focus our efforts on the population."
     unlocks: [contract_additional_ngo_at_years_end]
     unlocks_affects: [contract_additional_ngo_at_years_end]
 

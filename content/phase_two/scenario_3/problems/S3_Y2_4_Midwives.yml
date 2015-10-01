@@ -12,7 +12,7 @@ name: "Midwives"
 priority: 4
 year: 2
 
-initiating_npc: hospital_administrator # <--- character's symbol
+initiating_npc: clinic_manager # <--- character's symbol
 initiating_dialogue: "We're having a lot of trouble increasing our numbers for facility births. We're short staffed, especially when it comes to midwives."
 
 starting_options: [request_a_budget_line_from_ministry]
@@ -25,7 +25,7 @@ characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
-    dialogue: "If you can verify this, we'd be willing to discuss the budget."
+    dialogue: "If you can explore whether this is the real problem, we'd be willing to discuss the budget to make this happen."
     feedback: 
       grant_providers_autonomy_to_hire_staff: "This is a significant change to the program. Let's discuss this at the end of the year once we see how it's panned out." # <--- symbol of the option used and the feedback text for it
       request_a_budget_line_from_ministry: "We can allow this, but I want to see reports on the results." # <--- symbol of the option used and the feedback text for it
@@ -41,12 +41,12 @@ characters:
       offer_vouchers_for_travel: "This will remove an important barrier, though I still worry that we are short-staffed at facilities." # <--- symbol of the option used and the feedback text for it
 
   third_party_verifier:
-    dialogue: "You should talk to the Clinic Manager: they're working under similar conditions and should have insight. Run it by your RBF Coach, too."
+    dialogue: "You should talk to the Hospital Administrator: they're working under similar conditions and should have insight. Run it by your RBF Coach, too."
 
   community_verifier:
     dialogue: "I've heard this complaint from several women in my community. They say there are long waits to meet with midwives. Everyone seems stressed out. Pregnancy is trying even in the best of conditions."
 
-  clinic_manager:
-    dialogue: "We have had a similar problem here. And since you mention it, granting us the autonomy to hire whatever staff would go a long way to fix this. "
+  hospital_administrator:
+    dialogue: "We have had a similar problem here. And since you mention it, granting us the autonomy to make staff changes ourselves would go a long way to fix this. "
     unlocks: [grant_providers_autonomy_to_hire_staff]
     unlocks_affects: [grant_providers_autonomy_to_hire_staff]

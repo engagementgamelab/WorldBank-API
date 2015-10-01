@@ -37,7 +37,7 @@ characters:
     unlocks: [increase_customer_service_incentives] # <--- these probably will symbols
     unlocks_affects: [increase_customer_service_incentives]
     feedback: 
-      increase_customer_service_incentives: "I'll let everyone know. I wouldn't mind something like this around here, linking the patient satisfaction to the bonuses. Hey, if I smile more, will you give me a raise?" # <--- symbol of the option used and the feedback text for it
+      increase_customer_service_incentives: "I'll let everyone know that we are going to be linking patient satisfaction to bonuses. Hey, if I smile more, will you give me a raise?" # <--- symbol of the option used and the feedback text for it
 
   third_party_verifier:
     dialogue: "I keep hearing these horror stories. A man told me a nurse yelled at his son when he was scared of getting an injection. That's unacceptable. It might not be my place to say so, but firing staff and hiring new people might be appropriate."
@@ -48,7 +48,7 @@ characters:
     dialogue: "I've spoken with my staff about this on a number of occasions. Even with incentives in place, if they can't meet expectations patients can't be made happy. Sure, understaffing is part of it, but we don't have the medicine we need half the time. People get angry when we don't have anything to give them."
     feedback: 
       warn_providers_2: "We're overworked as it is. But fine. I'll see what I can do." # <--- symbol of the option used and the feedback text for it
-      reorganize_staff: "It's great that you can hand down these decrees of who I may and may not hire. I'm sure that while my new phlebotomist keeps sticking people, they'll do it with a smile." # <--- symbol of the option used and the feedback text for it
+      reorganize_staff: "It's great that you can hand down these decrees of who I may and may not hire. My staff is under a lot of stress and we keep on running out of supplies so I doubt the solution is just to hire a new nurse as they will get frustrated soon too." # <--- symbol of the option used and the feedback text for it
 
   hospital_administrator:
     dialogue: "I can tell my staff to be nicer, but they're working hard to meet goals, deal with patients who come in frustrated, and all on a shoestring budget."

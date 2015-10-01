@@ -36,7 +36,7 @@ characters:
     unlocks_affects: [sanction_ngo_2]
 
   ngo_manager:
-    dialogue: "We made a lot of new hires this quarter to meet increased demand. This is a good thing! Our new staff members aren't executing the program as planned, but we can deal with that. I'll pass your warning on."
+    dialogue: "We made a lot of new hires this quarter to meet increased demand. This is a good thing! Our new staff members aren't reporting as they are supposed to, but we can rectify that. I'll pass your warning on."
     feedback:
       terminate_ngo_contract_6: "We've been getting kids vaccinated against fatal diseases, improving care, saving lives. That is what you are screwing up here."
       sanction_ngo_2: "I don't know what you expect me to do with more sanctions. I'm trying to manage a complex network!"
