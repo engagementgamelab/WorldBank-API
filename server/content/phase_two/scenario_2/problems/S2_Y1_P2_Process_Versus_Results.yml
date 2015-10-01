@@ -45,7 +45,7 @@ characters:
     dialogue: "They were upfront about not meeting your goals, but it's your decision."
 
   community_verifier:
-    dialogue: "I understand that results get paid, but if we don't pay them, my people won't get any treatment, let alone too little."
+    dialogue: "I understand that results get paid, but if we don't pay them, my people won't get any treatment."
 
   hospital_administrator:
     dialogue: "They're trying. I'm seeing it in my hospitals."  

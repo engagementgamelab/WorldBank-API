@@ -34,7 +34,7 @@ characters:
     dialogue: "I'm with the Minister on this, I want to know what the NGOs are doing."
 
   ngo_manager:
-    dialogue: "We verify everything, I promise. We also give third-party access to the verification, there is no need for the government to also verify."
+    dialogue: "We verify everything, I promise. We also give the third-party access to the verification, there is no need for the government to also verify."
     unlocks: [cease_counter_verification]
     unlocks_affects: [cease_counter_verification]
     feedback:

@@ -44,6 +44,10 @@ copy_unlockable_incentivise_providers_to_deliver_services: "Facilities are not p
 copy_unlockable_vouchers_for_services: "The Regional Director of Health Services for the Highlands says 80% of people live in extreme poverty."
 copy_unlockable_information_campaign_to_explain_changes_to_system: "It will be difficult to sensitize the population on changes, so good communication strategies will help."
 
+# Server errors
+copy_server_session_lost_header: "Not logged in!" 
+copy_server_session_lost_body: "Your session has been lost. This may have happened due to server downtime. Please close the game and try again."
+
 #=====
 # PHASE 2
 #=====

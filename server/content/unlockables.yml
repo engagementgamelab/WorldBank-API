@@ -685,7 +685,10 @@
   title: "Move budgeting authority to Ministry"
 
 - symbol: loosen_drug_control_1
-  title: "Loosen Government Control of Drugs"
+  title: "Loosen Government Control over Medicine"
+
+- symbol: terminate_ngo_contract_9
+  title: "Terminate NGO Contract"
 
 #------------------
 # Contract Management - S2_Y2_P5
@@ -697,7 +700,7 @@
   title: "Clarification of roles"
 
 - symbol: expedite_payment_and_service_delivery
-  title: "Expedite payment and service delivery"
+  title: "Expedite Payment"
 
 # -------------------                       ------------------- #
 # -------------------  Scenario 2 - Year 3  ------------------- #
@@ -713,7 +716,7 @@
   title: "Warn NGO"
 
 - symbol: clarification_of_roles_6
-  title: "Clarification of Roles"
+  title: "Clarification on Use of Protocols"
 
 - symbol: terminate_ngo_contract_4
   title: "Terminate NGO Contract"
@@ -823,7 +826,7 @@
   title: "Sanctions"
 
 - symbol: increase_customer_service_incentives
-  title: "Increase Incentives for Customer Service"
+  title: "Increase Incentives for Patient Satisfaction"
 
 - symbol: reorganize_staff
   title: "Reorganize Staff"
@@ -833,7 +836,7 @@
 #------------------
 
 - symbol: retraining_on_use_of_financial_tools_2
-  title: "Retraining on Use of Financial Tools"
+  title: "Retrain on Use of Business Plan"
 
 - symbol: revise_business_plan_6
   title: "Revise Business Plan"
@@ -846,7 +849,7 @@
 #------------------
 
 - symbol: request_a_budget_line_from_ministry
-  title: "Request a Budget Line from Ministry"
+  title: "Request More Midwives from Ministry"
 
 - symbol: offer_vouchers_for_travel
   title: "Offer Vouchers For Travel"
@@ -876,7 +879,7 @@
 #------------------
 
 - symbol: comply_with_ministry_2
-  title: "Comply With Ministry"
+  title: "Comply With Ministry's Staffing Policy"
 
 - symbol: rework_business_plan
   title: "Rework Business Plan"
@@ -889,7 +892,7 @@
 #------------------
 
 - symbol: review_the_inspection_2
-  title: "Review the third party assessment on the quality score"
+  title: "Review the Third Party Assessment"
 
 - symbol: revise_business_plan_7
   title: "Revise Business Plan"
@@ -911,8 +914,10 @@
   title: "Tie Incentives Directly to Protocol"
 
 - symbol: reduce_incentives_for_customer_service
-  title: "Reduce Incentives for Customer Service"
+  title: "Reduce Incentives for Patient Satisfaction"
 
+- symbol: terminate_contract_at_end_of_year_8
+  title: "Terminate Contract Effective End of Year"
 #------------------
 # Missing Goals - S3_Y3_4
 #------------------
@@ -920,11 +925,8 @@
 - symbol: return_to_traditional_financing
   title: "Return to Traditional Financing"
 
-- symbol: terminate_both_health_contracts_of_providers
-  title: "Terminate Both Health Contracts of Providers And Hire New Ones"
-
 - symbol: terminate_hospital_contract_and_redirect_resources
-  title: "Terminate Hospital Contract and Redirect Resources"
+  title: "Terminate Hospital Contract and Redirect Resources to Clinics"
 
 - symbol: grant_providers_autonomy
   title: "Grant Providers Autonomy"

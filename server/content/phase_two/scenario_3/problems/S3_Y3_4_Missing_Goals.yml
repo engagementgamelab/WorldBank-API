@@ -18,8 +18,8 @@ initiating_dialogue: "I'm disappointed to say this, but things are not going wel
 starting_options: [return_to_traditional_financing]
 starting_options_affects: [return_to_traditional_financing]
 
-final_options: [return_to_traditional_financing, terminate_both_health_contracts_of_providers, grant_providers_autonomy, terminate_hospital_contract_and_redirect_resources]
-final_options_affects: [return_to_traditional_financing, terminate_both_health_contracts_of_providers, grant_providers_autonomy, terminate_hospital_contract_and_redirect_resources]
+final_options: [return_to_traditional_financing, grant_providers_autonomy, terminate_hospital_contract_and_redirect_resources]
+final_options_affects: [return_to_traditional_financing, grant_providers_autonomy, terminate_hospital_contract_and_redirect_resources]
 
 characters:
 
@@ -34,9 +34,7 @@ characters:
       return_to_traditional_financing: "Part of me feels like the past three years have been wasted, but I guess there's no sense in throwing good money out after bad. It's been a pleasure working with you." # <--- symbol of the option used and the feedback text for it
 
   coach:
-    dialogue: "There must be another solution here. I'm committed to making this program work. Even with new health providers taking on contracts."
-    unlocks: [terminate_both_health_contracts_of_providers]
-    unlocks_affects: [terminate_both_health_contracts_of_providers]
+    dialogue: "There must be another solution here. I'm committed to making this program work."
 
   third_party_verifier:
     dialogue: "I'm seeing some good done at the ground level, but I have no idea how that reflects nationally."
@@ -48,11 +46,9 @@ characters:
     dialogue: "My clinics could handle this better if you shifted some resources away from the hospital to us. Let me do my job and I will show you."
     unlocks: [terminate_hospital_contract_and_redirect_resources]
     unlocks_affects: [terminate_hospital_contract_and_redirect_resources]
-    feedback: 
-      terminate_both_health_contracts_of_providers: "If I couldn't make this work, nobody can. But I wish you good luck." # <--- symbol of the option used and the feedback text for it
 
   hospital_administrator:
-    dialogue: "I heard through the grapevine what's happening. I know there have been issues, but I believe the problem is and has been bureaucracy from the Ministry's offices. If you grant us autonomy to hire staff as needed and order supplies to fill our patients' needs, things have to improve."
+    dialogue: "I heard through the grapevine what's happening. I know there have been issues, but I believe the problem is and has been bureaucracy from the Ministry's offices. If you grant us autonomy to hire staff as needed and purchase supplies to fill our patients' needs, things have to improve."
     unlocks: [grant_providers_autonomy]
     unlocks_affects: [grant_providers_autonomy]
     feedback: 

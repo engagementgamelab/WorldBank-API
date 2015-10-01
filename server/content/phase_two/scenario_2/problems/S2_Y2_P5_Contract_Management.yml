@@ -13,7 +13,7 @@ priority: 5
 year: 2
 
 initiating_npc: ngo_manager
-initiating_dialogue: "We're still waiting on the fund holder to pay us. The Finance Minister's approval process has hamstrung us, and we need to get our money to pay our people."
+initiating_dialogue: "We're still waiting on the fund holder to pay us. The Finance Minister's approval process has hamstrung us, and we need to get our money to pay our people and purchase our supplies."
 
 starting_options: [terminate_ngo_contract_3]
 starting_options_affects: [terminate_ngo_contract_3]
@@ -43,10 +43,10 @@ characters:
     unlocks: [expedite_payment_and_service_delivery]
     unlocks_affects: [expedite_payment_and_service_delivery]
     feedback:
-      clarification_of_roles_5: "Sure, you can remind the Ministry and NGO, again, who's supposed to do what. But that will only work until the next argument."
+      clarification_of_roles_5: "Sure, we can remind the Ministry and NGO, again, who's supposed to do what, but that will only work until the next argument. We really need to educate the Ministry of Finance. Let's ensure we get them involved."
 
   third_party_verifier:
-    dialogue: "I'm sure you're getting good advice from the people who are writing the checks. They are, at least, smart enough to know what they want."
+    dialogue: "I'm sure you're getting good advice from the people who are writing the checks."
     narrows: [ngo_manager, community_verifier]
 
   community_verifier:
@@ -54,6 +54,6 @@ characters:
     narrows: [dep_minister_of_health, ngo_manager, third_party_verifier, community_verifier]
 
   hospital_administrator:
-    dialogue: "Get the NGO their money! I have no empty beds! The doctors and nurses keep asking me when we're going to be able to do something about it and the best I can tell them is, well, I try to explain how all this is supposed to work. And that explanation doesn't do anything for a head wound."
+    dialogue: "Get the NGO their money! I have no empty beds! The doctors and nurses are worried they will not be paid and that we will run out of supplies next month. This situation is not good for anyone."
     unlocks: [expedite_payment_and_service_delivery]
     unlocks_affects: [expedite_payment_and_service_delivery]

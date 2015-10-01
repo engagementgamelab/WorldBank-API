@@ -25,13 +25,13 @@ characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
-    dialogue: "Quality of care is important insofar as it enables better and more services to be delivered. It might be that the clinic is delivering as much good care as they can given their circumstances."
+    dialogue: "Quality of care is important insofar as it enables better and more services to be delivered. It might be that the clinic is delivering the best care they can, given the circumstances."
 
   director_regional_health_services: # <--- character's symbol
     dialogue: "I recognize that their job is difficult, but quality of care is one of the indicators we are working to improve."
 
   coach:
-    dialogue: "Quality of care is not something we should grant leeway on. It is crucially important. If they are under such strain, they may require extra staff."
+    dialogue: "Quality of care is not something we should grant leeway on. It is crucially important. Maybe I can work with them to see how they can improve and revise their business plan accordingly"
     unlocks: [revise_business_plan_7]
     unlocks_affects: [revise_business_plan_7]
     feedback:
@@ -51,4 +51,4 @@ characters:
       deny_review_2: "You are not taking me seriously. How can I have faith in this system?" # <--- symbol of the option used and the feedback text for it
 
   hospital_administrator:
-    dialogue: "I can tell you it is painful to lose out in the payment because of the quality score, especially when things are busy. What harm is there in reviewing the inspection?"
+    dialogue: "I can tell you it is painful to lose out in the payment because of the quality score, especially when things are busy. What harm is there in reviewing the quality assessment?"

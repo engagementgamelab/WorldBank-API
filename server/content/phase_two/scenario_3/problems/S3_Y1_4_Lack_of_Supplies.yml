@@ -13,7 +13,7 @@ priority: 4
 year: 1
 
 initiating_npc: community_verifier # <--- character's symbol
-initiating_dialogue: "Bad news: We're running surveys of patients from the hospitals and local clinics, and at every focus group, someone reports being turned away without services."
+initiating_dialogue: "Bad news: We're running surveys of patients from the hospitals and clinics, and at every focus group, someone reports being turned away without services."
 
 starting_options: [warn_providers]
 starting_options_affects: [warn_providers]
@@ -30,28 +30,28 @@ characters:
     unlocks_affects: [unlocks_sanction_providers]
 
   director_regional_health_services: # <--- character's symbol
-    dialogue: "This is a serious problem. Even if services were abundant, it's hard to get people to come to the hospital."
-    feedback: 
-      increase_supply_budget: "We've increased the budget every year and that hasn't solved the problem yet. That isn't to say our health care providers are the problem, only that it might not be budgetary." # <--- symbol of the option used and the feedback text for it
-
-  coach:
     dialogue: "I'm not sure why, but these facilities are always low on supplies. Maybe they just need more money."
     unlocks: [increase_supply_budget]
     unlocks_affects: [increase_supply_budget]
+
+  coach:
+    dialogue: "This is a serious problem. Even if services were abundant, it's hard to get people to come to the hospital."
     feedback: 
-      grant_facilities_autonomy: "I'll see to this. In addition, we should issue a recommendation to the Ministry about the usefulness of autonomy in these facilities in general, as this is clearly not well-understood." # <--- symbol of the option used and the feedback text for itA
+      grant_facilities_autonomy: "I'll see to this. In addition, we should issue a recommendation to the Ministry about the usefulness of autonomy in these facilities in general, as this is clearly not well-understood." 
+      increase_supply_budget: "The Ministry has increased the budget every year and that hasn't solved the problem yet. That isn't to say our health care providers are the problem, only that it might not be budgetary."
+      # <--- symbol of the option used and the feedback text for itA
 
   third_party_verifier:
-    dialogue: "The numbers are poor, but at least the facilities are being honest about it."
+    dialogue: "The numbers are poor, but at least the facilities are being honest about the numbers they report."
 
   clinic_manager:
-    dialogue: "I've spoken to the RBF coach about this a number of times. If we don't have basic supplies, we cannot treat patients."
-    narrows: [director_regional_health_services, third_party_verifier] # <--- this probably will be a symbol
+    dialogue: "I've spoken to the Regional Director of Health Services about this a number of times. If we don't have basic supplies, we cannot treat patients."
+    narrows: [coach, third_party_verifier, dep_minister_of_health] # <--- this probably will be a symbol
     feedback: 
       unlocks_sanction_providers: "You can't seriously be asking us to do more with even less. It costs money to provide quality care." # <--- symbol of the option used and the feedback text for it
 
   hospital_administrator:
-    dialogue: "We put in requests for supplies, but it's forever before they're filled. And when they do, we get too much of some things, and not enough of others. If we could simply order or purchase our own supplies directly, this wouldn't be a problem, but the Ministry says what we're allowed to get down to the last syringe."
+    dialogue: "We put in requests for supplies, but it's forever before they're filled. And when they do, we get too much of some things, and not enough of others. If we could simply order or purchase our own supplies directly, this wouldn't be a problem, but the Ministry decides what we're allowed to get down to the last syringe."
     unlocks: [grant_facilities_autonomy] # <--- these probably will symbols
     unlocks_affects: [grant_facilities_autonomy]
     feedback: 

@@ -13,7 +13,7 @@ priority: 1
 year: 3
 
 initiating_npc: hospital_administrator # <--- character's symbol
-initiating_dialogue: "I received a memo today on the new national health budget. The ministry released new hiring guidelines for all providers, but they don't match the goals you gave us. "
+initiating_dialogue: "I received a memo today about the new national health budget and policy guidance. The ministry released new staffing policy which show that hospitals and clinics will get even less staff."
 
 starting_options: [comply_with_ministry_2]
 starting_options_affects: [comply_with_ministry_2]
@@ -25,29 +25,30 @@ characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
-    dialogue: "Our monitors have found mismanagement of funds. Hospitals should provide the necessary services with what we give them to work with. "
-    feedback: 
-      grant_autonomy_to_providers: "Hiring and firing is within the scope of regulation, which is my role. But if you think it's essential, we'll step back." # <--- symbol of the option used and the feedback text for it
+    dialogue: "We are just reallocating the funds where we see them fit. Providers should provide the necessary services with what we give them to work with."
+    narrows: [coach, community_verifier, hospital_administrator]
+       # <--- symbol of the option used and the feedback text for it
 
   director_regional_health_services: # <--- character's symbol
-    dialogue: "If the Ministry is claiming this is necessary, I would take it seriously. A compromise might be to re-work the business plan with Ministry oversight."
+    dialogue: "If the Ministry is claiming this is necessary, I would take it seriously. The providers may just need to re-work the business plan to achieve their goals with less staff."
     unlocks: [rework_business_plan]
     unlocks_affects: [rework_business_plan]
 
   coach:
-    dialogue: "We've been running into this problem for three years now. The only way I see this working in the future is cutting the Ministry out of the picture and letting providers hire staff."
-    narrows: [dep_minister_of_health, coach, third_party_verifier, community_verifier, hospital_administrator] # <--- this probably will be a symbol
+    dialogue: "We've been running into this problem for three years now. The only way I see this working in the future is letting providers hire staff directly."
 
   third_party_verifier:
-    dialogue: "I have noticed some inconsistencies in the data that indicate funds are being mismanaged. The providers might benefit from tighter rules."
+    dialogue: " I have looked around the hospital and clinics and see the lengthy lines of patients waiting to see a nurse or doctor so this will be a challenge for them. Then again I cannot look into the challenges the Ministry faces with budgets and resource needs."
 
   community_verifier:
-    dialogue: "I don't understand the need for these new guidelines, but then again, I don't work in the hospital."
+    dialogue: "I don't understand the need for these new guidelines, but then again, I don't work in the Ministry."
 
   clinic_manager:
     dialogue: "The RBF Coach shares my concerns about micromanagement, so I know that I'm not going crazy seeing a problem in how things are getting run. We need you to do something before this becomes a real fight."
     unlocks: [grant_autonomy_to_providers]
     unlocks_affects: [grant_autonomy_to_providers]
+    feedback:
+      grant_autonomy_to_providers: "This will really help us in achieving our goals. I know the Ministry meant well, but those of us on the ground know best of where the needs are."
 
   hospital_administrator:
     feedback: 
