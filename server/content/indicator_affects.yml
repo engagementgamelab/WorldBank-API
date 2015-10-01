@@ -1025,7 +1025,7 @@ request_expedited_payment_1:
 
 speed_third_party_hire_1:
   indicator_1: +2
-  indicator_2: +10
+  indicator_2: +1
   indicator_3: +4
 
 #------------------
