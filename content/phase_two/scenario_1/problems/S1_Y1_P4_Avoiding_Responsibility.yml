@@ -43,7 +43,7 @@ characters:
     dialogue: "Community transparency does not seem to be high on their agenda, so, yes, they are performing low on their quality score." 
 
   community_verifier:
-    dialogue: "This is a little outside of my purview."
+    dialogue: "This is a little outside of my purview but I know the community is keen to gain a better understanding in what goes on at the clinic."
 
   clinic_manager:
     dialogue: "I think you underestimate just how busy we have been with outreach and patient care. We are not a large staff, and our time is very precious. Maybe next quarter things will be slower and we can focus on this."
@@ -51,5 +51,5 @@ characters:
       revise_business_plan_to_include_transparency_1: "Hopefully things will be less busy so we can focus on that. If it can bring in more resources, then it's worth exploring."
 
   hospital_administrator:
-    dialogue: "I've observed the clinics we're talking about a number of times, and there's never enough time and money to go around. They are just not interested. "
+    dialogue: "I've observed the clinics we're talking about a number of times, and there's never enough time and staff to go around. They are just not interested. "
 
