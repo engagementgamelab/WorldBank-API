@@ -19,8 +19,8 @@ starting_options: [hire_more_outreach_staff]
 starting_options_affects: [hire_more_outreach_staff]
 starting_options_cost: [large]
 
-final_options: [hire_more_outreach_staff, raise_incentives_for_facility_births, review_indicators_at_end_of_year, broaden_services]
-final_options_affects: [hire_more_outreach_staff, raise_incentives_for_facility_births, review_indicators_at_end_of_year, broaden_services]
+final_options: [hire_more_outreach_staff, raise_incentives_for_facility_births, review_indicators_at_end_of_year]
+final_options_affects: [hire_more_outreach_staff, raise_incentives_for_facility_births, review_indicators_at_end_of_year]
 final_options_cost: [large, large, medium]
 
 
@@ -29,7 +29,7 @@ characters:
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory") # <--- character's symbol
 
   director_regional_health_services:
-    dialogue: "I suggest hiring more outreach staff to operate in facilities near these settlements."
+    dialogue: "I suggest hiring more outreach staff to operate in facilities near these villages."
     feedback:
       hire_more_outreach_staff: "This makes a good deal of sense to me."
 
@@ -39,7 +39,7 @@ characters:
     unlocks_affects: [review_indicators_at_end_of_year]
     feedback:
       review_indicators_at_end_of_year: "It might make sense to revise goals down, or at the very least, perform another survey to make sure our population estimates were correct."
-
+      
   third_party_verifier:
     dialogue: "Are you concerned about fraud? I haven't seen direct evidence of it."
 
@@ -48,10 +48,6 @@ characters:
 
   clinic_manager:
     dialogue: "I admit, we haven't seen as many facility births as we'd like. We're doing everything we can to change that."
-    unlocks: [broaden_services]
-    unlocks_affects: [broaden_services]
-    feedback:
-      broaden_services: "I am sure this will help us meet our goals and raise indicators even though it changes the plan."
 
   hospital_administrator:
     dialogue: "Vaccinations are easier to manage. Births take more planning. More resources are likely required to make this work."

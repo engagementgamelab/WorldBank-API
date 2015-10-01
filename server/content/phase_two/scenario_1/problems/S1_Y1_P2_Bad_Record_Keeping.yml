@@ -38,10 +38,8 @@ characters:
 
   coach:
     dialogue: "I don't know why they aren't keeping records. When I spoke with them last, they said everything was fine and they didn't want my help."
-
-  third_party_verifier:
     feedback: 
-      help_build_capacity_1: "I will strengthen on the spot training during the verification for them to see the mistakes they are making."
+      help_build_capacity_1: "I will work with the Third Party Verifier to strengthen on the spot training during the verification. This way they can see the mistakes they are making."
 
   community_verifier:
     dialogue: "My team has had no issue keeping records. I wonder what the issue is at the clinics?"

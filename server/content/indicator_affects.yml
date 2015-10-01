@@ -80,19 +80,14 @@ sanctions_17:
   indicator_3: -1
 
 retraining_on_use_of_financial_tools:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: -1
+  indicator_1: +2
+  indicator_2: +2
+  indicator_3: +3
 
 audit_2:
   indicator_1: 0
   indicator_2: 0
   indicator_3: +1
-
-revise_business_plan_11:
-  indicator_1: +1
-  indicator_2: +1
-  indicator_3: +2
 
 # ------------------
 # Lack of Transparency - S1_Y2_P2
@@ -131,12 +126,7 @@ raise_incentives_for_facility_births:
 review_indicators_at_end_of_year:
   indicator_1: 0
   indicator_2: -4
-  indicator_3: +4
-
-broaden_services:
-  indicator_1: 0
-  indicator_2: -7
-  indicator_3: -7
+  indicator_3: +1
 
 # ------------------
 # Budget Lines - S1_Y2_P4
@@ -181,9 +171,9 @@ hold_meeting_to_retrain_on_reporting_practices:
 # ------------------
 
 warning_4:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: -1
+  indicator_1: +1
+  indicator_2: +1
+  indicator_3: +1
 
 terminate_contract_at_end_of_year_3:
   indicator_1: 0

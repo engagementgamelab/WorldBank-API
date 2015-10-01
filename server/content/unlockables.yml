@@ -310,9 +310,6 @@
 - symbol: audit_2
   title: "Conduct an Audit"
 
-- symbol: revise_business_plan_11
-  title: "Revise business plan"
-
 # ------------------
 # Lack of Transparency - S1_Y2_P2
 # ------------------
@@ -320,7 +317,7 @@
   title: "Give warning"
 
 - symbol: mild_sanctions 
-  title: "Establish mild sanctions"
+  title: "Establish Sanctions"
 
 - symbol: terminate_contract
   title:  "Terminate Contract at End of Year"
@@ -335,9 +332,6 @@
 
 - symbol: review_indicators_at_end_of_year
   title: "Review indicators and take action at the end of this year"
-
-- symbol: broaden_services
-  title: "Broaden services"
 # ------------------
 # Budget Lines - S1_Y2_P4
 # ------------------

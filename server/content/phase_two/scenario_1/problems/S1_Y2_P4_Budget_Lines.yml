@@ -48,7 +48,7 @@ characters:
     dialogue: "We are verifying the result and ensure that the providers get paid accurately. So why take away their autonomy?"
 
   community_verifier:
-    dialogue: "I don't understand the need for these new guidelines, but then again, I am not working in the hospital."
+    dialogue: "I don't understand the need for these new guidelines, but then again, I am not working in the clinic."
 
   clinic_manager:
     unlocks: [clarify_separation_of_functions_and_responsibilities_2]

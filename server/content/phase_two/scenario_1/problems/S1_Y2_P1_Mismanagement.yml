@@ -28,7 +28,7 @@ characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
-    dialogue: "It sounds like funds have gone missing."
+    dialogue: "It sounds like funds have gone missing. It is important we look into this. "
     unlocks: [audit_2]
     unlocks_affects: [audit_2]
 

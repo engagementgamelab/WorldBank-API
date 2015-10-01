@@ -29,7 +29,7 @@ characters:
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory") # <--- character's symbol
 
   director_regional_health_services:  
-    dialogue: "For some reason people have been taking advantage of this service more than other services. It would be good to investigate this further, perhaps providers are pushing the services too strongly."  
+    dialogue: "It would be good to investigate this further, perhaps providers are pushing the services too strongly."  
 
   coach:
     dialogue: "We can reduce the fee for this, but we need to think carefully about what other effects that will have on the program."
@@ -45,7 +45,7 @@ characters:
     unlocks_affects: [warn_providers_to_follow_protocols]
 
   clinic_manager:
-    dialogue: "What's wrong with people getting outpatient services? It's better than the alternative."
+    dialogue: "What's wrong with people getting caesarian sections? It's probably preventing women from dying. I am glad to see that the hospital has been able to provide more cesarean sections because I have been referring a lot of complicated deliveries."
     unlocks: [maintain_current_rates]
     unlocks_affects: [maintain_current_rates]
     feedback:

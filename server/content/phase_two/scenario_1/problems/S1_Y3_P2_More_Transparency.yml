@@ -28,7 +28,7 @@ characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
-    dialogue: "I was under the impression that the program required transparency."
+    dialogue: "I was under the impression that RBF required transparency."
 
   director_regional_health_services:
     dialogue: "This has gone far enough. I will start looking for other providers."
