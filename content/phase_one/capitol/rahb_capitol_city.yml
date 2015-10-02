@@ -14,7 +14,7 @@ character: rahb_capitol_city
 dialogue:
     Initial:
       text: 
-        - "Welcome to Zariba! I hope you've had some time to yourself in the Capitol City to get your bearings, but of course, you are here to work. You will [[make a program]] that will transform our health system over the next four years, but to figure out what should be in that program, you will need to explore the country and [[talk to people]]."
+        - "Welcome to Zariba! I hope you've had some time to yourself in the Capital City to get your bearings, but of course, you are here to work. You will [[make a program]] that will transform our health system over the next four years, but to figure out what should be in that program, you will need to explore the country and [[talk to people]]."
         - "I still have more to tell you!"
     Make a Program: 
       text: 

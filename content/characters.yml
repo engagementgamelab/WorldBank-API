@@ -40,14 +40,14 @@
 # Malcom
 # -------------
 - symbol: capitol_city_traveler_malcom
-  display_name: Traveler from the Capitol City
+  display_name: Traveler from the Capital City
   description: 
-    - "A woman you imagine might come from the capitol stands before you. At first glance you notice she seems a bit annoyed and visibly distracted."
+    - "A woman you imagine might come from the capital stands before you. At first glance you notice she seems a bit annoyed and visibly distracted."
     - "She's still waiting for her train, and looks like she's given up hope that it will ever come."
     - "As you pass the well-dressed woman, you wish her luck on her trip to Zima."
 
 - symbol: capitol_city_professor_malcom
-  display_name: Professor from the Capitol City
+  display_name: Professor from the Capital City
   description: 
     - "A well-dressed middle-aged man sits on a bench, casually reading the world news. Next to him is a small bag filled with textbooks on the history of Zariba. You  notice a pin from a university on his jacket."
     - "The professor looks eager to continue your conversation. He has more to say."
@@ -173,7 +173,7 @@
 - symbol: traveling_merchant_kibari
   display_name: Traveling Merchant
   description: 
-    - "This man is clearly a merchant of some sort, with wares from all over Zariba. He calls out to people on the street, \"Fresh fruit from Mile! Cigars from Crup! Technology from the Capitol! I have it all!\""
+    - "This man is clearly a merchant of some sort, with wares from all over Zariba. He calls out to people on the street, \"Fresh fruit from Mile! Cigars from Crup! Technology from the Capital! I have it all!\""
     - "While you talk with the merchant you admire his clothes. They aren't especially nice. They're plain, actually. But just fasionable enough to look presentable without evoking any one region of Zariba."
     - "You would talk with the merchant more, ask him about travel around Zariba, but he's caught up in haggling with a customer over a Milean vase."
 
