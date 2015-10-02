@@ -34,7 +34,7 @@ characters:
 
   director_regional_health_services:
     dialogue: "I've had some communication with Mr. Todd in the past, but I believe he is honest. You should talk to him directly to see what the problem is."
-    narrows: [hospital_administrator, coach]
+    narrows: [hospital_administrator, coach, community_verifier]
 
   coach:
     dialogue: "This is the first time we've seen this behavior from Mr. Todd. I'd recommend a warning.         "
@@ -51,5 +51,5 @@ characters:
     unlocks_affects: [hold_meeting_to_retrain_on_reporting_practices_2]
     feedback:
       warning_7: "I'll talk to my staff and try to settle this.            "
-      sanctions_4: "I just put in orders for new equipment. Now I won't be able to afford to pay for them. I think you are taking this too far. It was an honest mistake."
+      sanctions_5: "I just put in orders for new equipment. Now I won't be able to afford to pay for them. I think you are taking this too far. It was an honest mistake."
       hold_meeting_to_retrain_on_reporting_practices_2: "I think that will probably help. Let me know when works for you and I'll clear some time."

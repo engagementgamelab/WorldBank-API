@@ -16,12 +16,12 @@ twist: 1
 initiating_npc: dep_minister_of_health # <--- character's symbol
 initiating_dialogue: "We believe that the outreach nurses in the field could be used more effectively. Currently, there's not sufficient data that shows they are going to where they are most needed. Better record keeping could help us use them to their fullest potential. We can't confirm they are meeting goals or having positive impacts on indicators."
 
-starting_options: [warn_community_verifiers_1]
-starting_options_affects: [warn_community_verifiers_1]
+starting_options: [require_nurses_to_return_to_file_1]
+starting_options_affects: [require_nurses_to_return_to_file_1]
 starting_options_cost: [small]
 
-final_options: [centralize_control_over_travelling_nurses_1, warn_community_verifiers_1, require_nurses_to_return_to_file_1, data_capacity_building_1]
-final_options_affects: [centralize_control_over_travelling_nurses_1, warn_community_verifiers_1, require_nurses_to_return_to_file_1, data_capacity_building_1]
+final_options: [centralize_control_over_travelling_nurses_1,require_nurses_to_return_to_file_1, data_capacity_building_1]
+final_options_affects: [centralize_control_over_travelling_nurses_1, require_nurses_to_return_to_file_1, data_capacity_building_1]
 final_options_cost: [small, small, small, medium]
 
 characters:
@@ -40,9 +40,7 @@ characters:
       data_capacity_building_1: "Alright, if you really think this will help, I'm willing to give it a chance."
 
   third_party_verifier: 
-    dialogue: "The records filed by outreach nurses are sloppier and often late, since they are in the field instead of the hospital."
-    unlocks: [require_nurses_to_return_to_file_1]
-    unlocks_affects: [require_nurses_to_return_to_file_1]
+    dialogue: "The records filed by outreach nurses are sloppier and often late, since they are in the field instead of the clinic."
 
   community_verifier:
     dialogue: "I really wish I had an answer for you, but I can only give you data, not tell you what to do with it."

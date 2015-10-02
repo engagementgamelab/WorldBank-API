@@ -320,34 +320,30 @@ expand_travelling_nurses_2:
 revise_indicators_at_end_of_year_3:
   indicator_1: 0
   indicator_2: -4
-  indicator_3: +4
+  indicator_3: +1
 
 broaden_services_1:
   indicator_1: 0
-  indicator_2: -7
-  indicator_3: -7
+  indicator_2: -2
+  indicator_3: -2
 #------------------
 # Overflow - S1_T1_Y2_P5
 #------------------
 warning_9:
-  indicator_1: -3
-  indicator_2: -5
+  indicator_1: -2
+  indicator_2: -2
   indicator_3: -3
-
-sanctions_4:
-  indicator_1: -4
-  indicator_2: -6
-  indicator_3: -7
-
-increase_scrutiny_1:
-  indicator_1: 0
-  indicator_2: 0
-  indicator_3: 0
 
 create_new_guidelines_1:
   indicator_1: +3
   indicator_2: +2
   indicator_3: +5
+
+terminate_contract_at_end_of_year_4:
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
+
 # ------------------
 # Wrong Numbers - S1_T1_Y3_P1
 # ------------------
@@ -370,9 +366,9 @@ hold_meeting_to_retrain_on_reporting_practices_2:
 # Budget Lines - S1_T1_Y3_P2
 # ------------------
 comply_with_ministry_budget_1:
-  indicator_1: -4
-  indicator_2: -4
-  indicator_3: -6
+  indicator_1: -3
+  indicator_2: -3
+  indicator_3: -4
 
 clarification_of_roles_9:
   indicator_1: +3
@@ -382,7 +378,7 @@ clarification_of_roles_9:
 revise_business_plan_4:
   indicator_1: 0
   indicator_2: 0
-  indicator_3: -1
+  indicator_3: +1
 
 # ------------------
 # Field Records - S1_T1_Y3_P4
@@ -397,11 +393,6 @@ centralize_control_over_travelling_nurses_1:
   indicator_1: -2
   indicator_2: -1
   indicator_3: -2
-
-warn_community_verifiers_1:
-  indicator_1: -1
-  indicator_2: 0
-  indicator_3: 0
 
 require_nurses_to_return_to_file_1:
   indicator_1: +2
@@ -473,9 +464,9 @@ sanctions_7:
   indicator_3: +1
 
 terminate_contract_at_end_of_year_6:
-  indicator_1: +2
-  indicator_2: +2
-  indicator_3: +1
+  indicator_1: 0
+  indicator_2: 0
+  indicator_3: 0
 # ------------------
 # Field Records - S1_T2_Y3_P4
 # ------------------
@@ -488,11 +479,6 @@ centralize_control_over_travelling_nurses_2:
   indicator_1: -2
   indicator_2: -1
   indicator_3: -2
-
-warn_community_verifiers_2:
-  indicator_1: -1
-  indicator_2: 0
-  indicator_3: 0
 
 require_nurses_to_return_to_file_2:
   indicator_1: +2

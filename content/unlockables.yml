@@ -468,14 +468,11 @@
 - symbol: warning_9
   title: "Warning"
 
-- symbol: sanctions_4
-  title: "Enact Sanctions"
-
-- symbol: increase_scrutiny_1
-  title: "Increase Scrutiny"
-
 - symbol: create_new_guidelines_1
   title: "Create New Guidelines"
+
+- symbol: terminate_contract_at_end_of_year_4
+  title: "Terminate Contract At End of Year"
 # ------------------
 # Wrong Numbers - S1_T1_Y3_P1
 # ------------------
@@ -483,7 +480,7 @@
   title: "Warning"
 
 - symbol: sanctions_5
-  title: "Enact Sanctions"
+  title: "Sanction Mr. Todd"
 
 - symbol: hold_meeting_to_retrain_on_reporting_practices_2
   title: "Hold Meeting to Retrain on Reporting Practices"
@@ -505,9 +502,6 @@
 # ------------------
 - symbol: centralize_control_over_travelling_nurses_1
   title: "Centralize Control Over Outreach Nurses"
-
-- symbol: warn_community_verifiers_1
-  title: "Warn Community Verifiers"
 
 - symbol: require_nurses_to_return_to_file_1
   title: "Require Outreach Nurses to Return to Outreach Center to File"
@@ -568,9 +562,6 @@
 
 - symbol: centralize_control_over_travelling_nurses_2
   title: "Centralize Control Over Outreach Nurses"
-
-- symbol: warn_community_verifiers_2
-  title: "Warn Community Verifiers"
 
 - symbol: require_nurses_to_return_to_file_2
   title: "Require Outreach Nurses to Return to Outreach Center to File"
