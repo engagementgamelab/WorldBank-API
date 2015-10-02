@@ -26,4 +26,5 @@ Please see docs (forthcoming) for details on all API endpoints and features.
 ---------
 
 To start server in production:
-```sudo NODE_ENV=production forever start -o out.log -e err.log -c "npm start" ./```
+```sudo NODE_ENV=production /usr/lib/node_modules/forever start -o out.log -e err.log -c "npm start" ./```
+
