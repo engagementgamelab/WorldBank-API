@@ -22,7 +22,7 @@ dialogue:
         - "\"Anything else you need?\" he asks, watching as you approach."
     Mile: 
       text:
-        - "You ask about Mile, and he offers some advice. \"In Mile, no one has any money at all, but it is on the route to the capitol city, so I pass through from time to time. If you want to get there, just hop on one of the produce trucks that makes the rounds from here to there. They leave pretty frequently.\""
+        - "You ask about Mile, and he offers some advice. \"In Mile, no one has any money at all, but it is on the route to the capital city, so I pass through from time to time. If you want to get there, just hop on one of the produce trucks that makes the rounds from here to there. They leave pretty frequently.\""
       unlocks: [unlockable_route_kibari_to_mile]
       unlocks_context: ["You discovered a new route to Mile."]
     Crup:

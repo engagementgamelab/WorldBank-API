@@ -9,7 +9,7 @@
 
 - symbol: malcom
   display_name: Malcom
-  description: "Malcom is the line between more urbanized city environment and traditional farmland. The train station runs between Mile and the Capitol, and rumors suggest that Malcom now provides access to Valeria . "
+  description: "Malcom is the line between more urbanized city environment and traditional farmland. The train station runs between Mile and the Capital, and rumors suggest that Malcom now provides access to Valeria . "
   enabled: true
   npc_interactions: [6, 4]
 
@@ -44,7 +44,7 @@
   npc_interactions: [7, 3]
 
 - symbol: capitol
-  display_name: Capitol City
-  description: "This is the Capitol City of Zariba. Home to the offices of the Ministry of Health and where your journey to help Zariba begins! The Capitol sits on the main transportation line. With easy access to the glorious rail system, travelers can go from the Capitol to the most southern city, Zima, in only a few days time."
+  display_name: Capital City
+  description: "This is the Capital City of Zariba. Home to the offices of the Ministry of Health and where your journey to help Zariba begins! The Capital sits on the main transportation line. With easy access to the glorious rail system, travelers can go from the Capital to the most southern city, Zima, in only a few days time."
   enabled: true
   npc_interactions: [6, 0]

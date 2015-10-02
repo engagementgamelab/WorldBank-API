@@ -17,12 +17,12 @@ twist: 1
 initiating_npc: third_party_verifier # <--- character's symbol
 initiating_dialogue: "We have more referrals than expected from the traditional medicine practitioners. It looks like some people are visiting clinics when it is not necessarily needed."
 
-starting_options: [warning_9, sanctions_4]
-starting_options_affects: [warning_9, sanctions_4]
+starting_options: [warning_9]
+starting_options_affects: [warning_9]
 starting_options_cost: [small, small]
 
-final_options: [warning_9, sanctions_4, increase_scrutiny_1, terminate_contract_at_end_of_year_4, create_new_guidelines_1]
-final_options_affects: [warning_9, sanctions_4, increase_scrutiny_1, terminate_contract_at_end_of_year_4, create_new_guidelines_1]
+final_options: [warning_9, terminate_contract_at_end_of_year_4, create_new_guidelines_1]
+final_options_affects: [warning_9, terminate_contract_at_end_of_year_4, create_new_guidelines_1]
 final_options_cost: [small, small, small, small, small]
 
 characters:
@@ -30,11 +30,11 @@ characters:
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health: # <--- character's symbol
     dialogue: "I'm not sure working with these people was the best idea. Maybe we should seek another partner for next year."
+    unlocks: [terminate_contract_at_end_of_year_4]
+    unlocks_affects: [terminate_contract_at_end_of_year_4]
 
   director_regional_health_services:
-    dialogue: "We need to send a clear message that this is unacceptable. Strong sanctions are what I recommend."
-    unlocks: [sanctions_4]
-    unlocks_affects: [sanctions_4]
+    dialogue: "We need to send a clear message that this is unacceptable. Strong warning is what I would recommend."
 
   coach:
     dialogue: "The guidelines are obviously not clear enough to either the new provider, the patients, or both. We need to issue updated guidelines that are clear."
@@ -48,13 +48,9 @@ characters:
 
   hospital_administrator:
     dialogue: "Maybe I should stop honoring these referrals, or scrutinize them more carefully at my level?"
-    unlocks: [increase_scrutiny_1]
-    unlocks_affects: [increase_scrutiny_1]
-    feedback:
-      increase_scrutiny_1: "I will need some assistance to put these protocols in place."
 
   health_provider_3:
     dialogue: "I am only doing what you asked, and referring people to the hospitals. What is the problem?"
     feedback:
       warning_9: "Many apologies! I think I now understand the problem."
-      sanctions_4: "Why do I even refer people if you punish me afterwards? This is foolish."
+      terminate_contract_at_end_of_year_4: "Why do I even refer people if you punish me afterwards? This is foolish."

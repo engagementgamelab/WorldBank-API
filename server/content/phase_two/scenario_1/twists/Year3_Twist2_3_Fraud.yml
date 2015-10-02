@@ -14,7 +14,7 @@ year: 3
 twist: 2
 
 initiating_npc: third_party_verifier # <--- character's symbol
-initiating_dialogue: "I just received the reports from the clinic specialist and they are rife with fraudulent claims. It goes without saying that they should not be paid, but more needs to be done."
+initiating_dialogue: "I just received the reports from the new Clinic Manager and they are rife with fraudulent claims again. It goes without saying that they should not be paid, but more needs to be done."
 
 starting_options: [warning_11, sanctions_7]
 starting_options_affects: [warning_11, sanctions_7]
@@ -28,7 +28,7 @@ characters:
 
   # The below blocks would contain each character that you can interact with (we'll enable/disable them based on the player's "inventory")
   dep_minister_of_health:
-    dialogue: "Quite the mess. This is the worst partner yet. Do what you need to do, but I recommend terminating this contract."
+    dialogue: "Quite the mess. Do what you need to do, but I recommend terminating this contract."
     unlocks: [terminate_contract_at_end_of_year_6]
     unlocks_affects: [terminate_contract_at_end_of_year_6]
 
@@ -36,7 +36,7 @@ characters:
     dialogue: "A warning might not be enough here. Sanctions seem appropriate."
 
   coach:
-    dialogue: "This is only their first year. A warning might do the trick."
+    dialogue: "I agree that this is serious problem. They should be sanctioned as spelled out in the contract."
 
   community_verifier:
     dialogue: "Sorry, I'm kind of up to my elbows in work here, I don't know if I have much advice to contribute to this situation."
@@ -47,6 +47,6 @@ characters:
   health_provider_4:
     dialogue: "What are you accusing me of, exactly? I'd like a record of this for my attorneys."
     feedback:
-      warning_11: "Fine, fine.                "
-      sanctions_7: "What is this? I can sue you for breach of contract.            "
+      warning_11: "I'm just doing what I am told to do with the resources I have."
+      sanctions_7: "What is this? We are really working hard and this is what you do to us."
       terminate_contract_at_end_of_year_6: "Who else will you contract? You've chased everyone away.            "

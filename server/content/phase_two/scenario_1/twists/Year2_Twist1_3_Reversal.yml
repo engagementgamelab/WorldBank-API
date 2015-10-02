@@ -14,7 +14,7 @@ year: 2
 twist: 1
 
 initiating_npc: health_provider_3 # <--- character's symbol
-initiating_dialogue: "Hello! Again, I must say I am very pleased to be working with you. My customers though, are less happy. They are reluctant to go to your hospitals even though I refer them. Couldn't you train someone here to do the work?"
+initiating_dialogue: "Hello! Again, I must say I am very pleased to be working with you. My customers though, are less happy. They are reluctant to go to the health facilities even though I refer them. Couldn't you train someone here to do the work?"
 
 starting_options: [train_locals_1, stick_to_the_plan_1]
 starting_options_affects: [train_locals_1, stick_to_the_plan_1]
@@ -50,10 +50,9 @@ characters:
 
   hospital_administrator:
     dialogue: "Sorry, I'm kind of up to my elbows in work here. I don't know if I have much advice to contribute to this situation.       "
-    feedback:
-      expand_outreach_program_1: "It will take some time to do this, and there is a shortage of qualified people, but I will do my best.             "
 
   health_provider_3:
     feedback:
       train_locals_1: "Excellent! I have a good feeling about you, friend.          "
       stick_to_the_plan_1: "I warn you, they will not accept it.                    "
+      expand_outreach_program_1: "It will take some time to do this, and there is a shortage of qualified people, but I will do my best.             "
