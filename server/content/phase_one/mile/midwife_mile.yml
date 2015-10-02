@@ -22,7 +22,7 @@ dialogue:
         - "She looks frustrated and ready to continue venting. \"I will tell you something else.\""
     Thought I Did:
       text: 
-        - "She is clearly still upset about what happened at the hospital as she tells you the story in an angry tone. \"I traveled more than a day to get there, and did the entire interview, only to be told that suddenly there were no resources available to hire me! The hospital administrator said she would love to have me on their staff, but bureaucrats in the capitol suddenly decided there was no budget for that.\""
+        - "She is clearly still upset about what happened at the hospital as she tells you the story in an angry tone. \"I traveled more than a day to get there, and did the entire interview, only to be told that suddenly there were no resources available to hire me! The hospital administrator said she would love to have me on their staff, but bureaucrats in the capital suddenly decided there was no budget for that.\""
       unlocks: [unlockable_dialogue_hospital_administrator]
       unlocks_context: ["Ask the Hospital Administrator in Zima more about this."]
     Midwife: 

@@ -22,7 +22,7 @@ dialogue:
         - "The twins are still chatting with each other. \"I can't wait to get out of here. This airship dock isn't my idea of fun.\""
     Listen:
       text:
-        - "\"I wish Lydia was flying to the capitol instead of Zima. Who cares about some boring hospital? The nightclub in that city is so over.\" \"Her airship is so tiny anyway. We barely fit,\" the other says."
+        - "\"I wish Lydia was flying to the capital instead of Zima. Who cares about some boring hospital? The nightclub in that city is so over.\" \"Her airship is so tiny anyway. We barely fit,\" the other says."
       unlocks: [unlockable_route_valeria_to_zima]
       unlocks_context: ["You discovered a new route to Zima."]
     Interrupt:

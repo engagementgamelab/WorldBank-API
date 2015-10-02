@@ -31,7 +31,7 @@ characters:
     dialogue: "Sorry, I'm kind of up to my elbows in work here, I don't know if I have much advice to contribute to this situation."
 
   director_regional_health_services:
-    dialogue: "Have you considered that there is a flaw in the business plan? If Provider 2 is straying from it so often, it might need to be reevaluated."
+    dialogue: "Have you considered that there is a flaw in the business plan? If The Hospital is straying from it so often, it might need to be reevaluated."
     unlocks: [revise_business_plan_3]
     unlocks_affects: [revise_business_plan_3]
 

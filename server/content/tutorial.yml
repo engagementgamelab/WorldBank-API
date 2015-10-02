@@ -78,7 +78,7 @@ phase_1_tactic_slots:
 
 phase_1_continue_talking:
   overlay_location: "Center"
-  text: "Talk to the rest of the Capitol city officials to learn more about Zariba and the challenges it faces."
+  text: "Talk to the rest of the Capital city officials to learn more about Zariba and the challenges it faces."
   confirm: true
 
 phase_1_map:
