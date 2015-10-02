@@ -159,7 +159,7 @@ phase_2_conferencing:
 
 phase_2_conference_action:
   overlay_location: "Bottom-Right"
-  text: "This contact has given you new information! Some contacts just provide background context, others give you ideas for new options you can take to solve the problem. You can conference with up to two more before you make your decision."
+  text: "This contact has given you new information! Some contacts provide background context, others give you new options you can take to solve the problem. You can conference with up to two more before you make your decision."
   spotlight_position: [0.09, -0.94]
   spotlight_size: [1.19, 2.75]
   mask_position: [0, 0]
