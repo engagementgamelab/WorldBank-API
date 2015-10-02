@@ -179,7 +179,7 @@
   title: "Improve Patient and Provider Relationship"
   description:
     - "This would help improve patient/provider relationships in order to increase use of important services long term."
-  priority: 1
+  priority: 2
   type: behavior_knowledge_and_professionalism
 
 - symbol: unlockable_make_aesthetic_improvements
