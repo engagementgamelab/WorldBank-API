@@ -34,7 +34,7 @@
   },
   "scripts": {
     "help": "actionhero help",
-    "start": "actionhero start",
+    "start": "actionhero --config=./config start",
     "debug": "sh debug.sh",
     "staging": "sh staging.sh",
     "actionhero": "actionhero",
