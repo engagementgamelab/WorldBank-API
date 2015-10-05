@@ -1,0 +1,21 @@
+#!/bin/sh
+#/etc/init.d/apiprod
+
+export PATH=$PATH:/usr/bin
+export NODE_PATH=$NODE_PATH:/usr/lib/node_modules
+export NODE_ENV=production
+
+case "$1" in
+  start)
+  exec sudo NODE_ENV=production forever start --sourceDir=/srv/api/server -p /usr/lib/node_modules/forever -o out.log -e err.log -c "npm start" ./
+  ;;
+stop)
+  PROCESSES="$(forever list | grep npm)"
+  PROCESS_ID=$($PROCESSES| awk "$(print $6)")
+  exec forever stop $PROCESS_ID
+  ;;
+*)
+  echo "Usage: /etc/init.d/apiprod {start|stop}"
+  exit 1
+  ;;
+esac
