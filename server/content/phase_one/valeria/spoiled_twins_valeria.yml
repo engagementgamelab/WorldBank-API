@@ -18,7 +18,7 @@ character: spoiled_twins_valeria
 dialogue:
     Initial:
       text: 
-        - "The two are having a conversation about where they'd like to go this weekend, and whether to take an airship ride or not. [[Listen]] [[Interrupt]]"
+        - "The two are having a conversation about where they'd like to go this weekend, and whether to take an airship ride or not. You can [[Listen]] in on them speak, or [[Interrupt]] to ask them about Zariba."
         - "The twins are still chatting with each other. \"I can't wait to get out of here. This airship dock isn't my idea of fun.\""
     Listen:
       text:

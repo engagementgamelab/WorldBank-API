@@ -34,7 +34,6 @@ characters:
     unlocks_affects: [allow_payments_once_5]
 
   ngo_manager:
-    dialogue: "I really need some advice on this as this situation might spiral out of control. I really think you should allow this payment to go through this one time."
     feedback:
       allow_payments_once_5: "It's good to know we can count on you just like you can count on us in case of emergency."
       deny_payment_5: "We're struggling with these numbers as it is. It hurts patients when we don't have money to work with."

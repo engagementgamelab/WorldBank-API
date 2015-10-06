@@ -51,7 +51,5 @@ characters:
     dialogue: "I don't understand the need for these new guidelines, but then again, I am not working in the clinic."
 
   clinic_manager:
-    unlocks: [clarify_separation_of_functions_and_responsibilities_2]
-    unlocks_affects: [clarify_separation_of_functions_and_responsibilities_2]
     feedback:
       rework_rbf_manual_and_retrain: "I don't believe this will be constructive, but I'm willing to try."

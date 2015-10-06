@@ -27,6 +27,6 @@ dialogue:
       unlocks_context: ["NGO managers suggested it is important to incentivise providers to follow protocols and therapeutic guidelines."]
     An Epidemic:
       text: 
-        - "\"Have you heard? In the Highlands, access to services is limited and people do not value the importance of preventive services like vaccinations. Instead, they only go to the clinic when they are sick.\" The first woman says this with a slight agitation. The second woman chimes in, \"They should be utilizing outreach in this region and detecting epidemic cases. In the north, this has been is crucial to helping the area get back on its feet.\""
+        - "\"Have you heard? In the Highlands, access to services is limited and people do not value the importance of preventive services like vaccinations. Instead, they only go to the clinic when they are sick.\" The first woman says this with a slight agitation. The second woman chimes in, \"They should be utilizing outreach in this region and detecting epidemic cases. In the north, this has been crucial in helping the area get back on its feet.\""
       unlocks: [unlockable_outreach]
       unlocks_context: ["Bringing healthcare workers directly to communities and providing services like vaccinations can prevent an epidemic."]

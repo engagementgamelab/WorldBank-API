@@ -37,9 +37,6 @@ characters:
     feedback: 
       warning_14: "I'll get the purchaser to warn them. Hopefully we won't see this again."
 
-  third_party_verifier:
- # <--- symbol of the option used and the feedback text for it
-
   community_verifier:
     dialogue: "That's not my department, exactly, but it sounds pretty suspicious. Talk directly to the Clinic Manager if you haven't yet."
 

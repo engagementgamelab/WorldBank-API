@@ -30,7 +30,7 @@ copy_city_visit: "Click Visit to travel here and enter the city."
 copy_city_pass_through: "You've already visited this city, but you can pass through it by clicking Continue."
 
 # Current city, extra day unspent
-copy_city_extra_day: "You've already been here, but you can re-enter the city to talk to people you may have missed. Click Re-enter below to spend an extra day."
+copy_city_extra_day: "You've already been here, but you can re-enter the city to unlock new routes and program options. Click Re-enter to spend an extra day."
 
 # Adjacent city, visited, extra day unspent
 copy_city_pass_through_extra_day: "Do you want to go this way? From here, you could re-enter the city, or just continue on to your next destination."
