@@ -52,8 +52,7 @@ characters:
       warn_providers_to_follow_protocols_2: "I'll have my staff re-assess these practices.             "
 
   health_provider_3:
-    dialogue: "What's wrong with people getting outpatient services? It's better than the alternative."
-    unlocks: [maintain_current_rates_2]
-    unlocks_affects: [maintain_current_rates_2]
+    dialogue: "This reminds me of these rumors that were spreading a few years ago. No offense meant, of course. Ask someone who is close to the community what's been happening."
+    narrows: [third_party_verifier, coach, director_regional_health_services, dep_minister_of_health]
     feedback:
       maintain_current_rates_2: "I am glad that we have been referring women who need emergency care to the hospital."
