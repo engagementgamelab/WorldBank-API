@@ -13,7 +13,7 @@ priority: 1
 year: 1
 
 initiating_npc: dep_minister_of_health # <--- character's symbol
-initiating_dialogue: "The program has just begun and already we're seeing delays in delays in payments. These delays will cause a cascade of failures."
+initiating_dialogue: "The program has just begun and already we're seeing delays in payments. These delays will cause a cascade of failures."
 
 starting_options: [request_payment_without_verification_5]
 starting_options_affects: [request_payment_without_verification_5]
