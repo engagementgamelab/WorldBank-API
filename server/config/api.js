@@ -89,7 +89,7 @@ exports.production = {
       // configuration for your actionhero project structure
       paths: {
         // Engagement Lab API: This is a custom folder for our YAML content
-        'content':      [ 'content' ]
+        'content':      [ '../content' ]
       }
     }
   }
