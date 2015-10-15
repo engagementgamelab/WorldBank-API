@@ -107,7 +107,7 @@ phase_1_travel:
   text: "Read the description to decide whether you want to travel to this city. Click the visit button, or click cancel and choose another city."
   spotlight_position: [-0.15, -0.46]
   spotlight_size: [1.32, 3.53]
-  mask_position: [197, -400]
+  mask_position: [111, -400]
   mask_size: [311, 57]
 
 phase_1_conversation_points:
