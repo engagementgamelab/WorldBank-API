@@ -430,7 +430,7 @@ exports.auth =
     console.log(dataInput.email);
     data.response.auth = false;
 
-    api.mongo.user.findOne({ 'email': dataInput.email }, '_id username submitted_plan phase_two_done plan_id', function (err, user) {
+    api.mongo.user.findOne({ 'email': dataInput.email.toLowerCase() }, '_id username submitted_plan phase_two_done plan_id', function (err, user) {
 
       // Database error
       if(err) {
