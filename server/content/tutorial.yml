@@ -154,7 +154,7 @@ phase_2_conferencing:
   text: "You can receive advice from up to three people during any problem, so choose carefully. Look at your contacts and select one now."
   spotlight_position: [-0.98, -0.02]
   spotlight_size: [1.88, 1]
-  mask_position: [510.87, -69]
+  mask_position: [393.94, -69]
   mask_size: [185, 420]
 
 phase_2_conference_action:
