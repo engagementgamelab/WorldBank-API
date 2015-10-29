@@ -116,8 +116,10 @@ phase_1_conversation_points:
   overlay_location: "Center"
   text: "You still have conversation points in this city! Remember, you can see your remaining interactions at the upper-left. Click on the map icon to return to the city."
   spotlight_position: [-2.64, 0.61]
+  spotlight_position_mobile: [-2.26, 0.61]
   spotlight_size: [3.16, 1.31]
   mask_position: [454.3, -397]
+  mask_position_mobile: [484.6, -397]
   mask_size: [166, 189]
 
 phase_1_end:
