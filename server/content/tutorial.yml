@@ -24,8 +24,10 @@ phase_1_rahb:
   overlay_location: "Bottom-Right"
   text: "Click on Rahb, your RBF Plan Supervisor and then choose “learn more” to see what she has to say – be sure to scroll down to see everything in her dialogue box. To continue the conversation, choose a highlighted topic."
   spotlight_position: [-1.23, -0.04]
+  spotlight_position_mobile: [-0.7, -0.04]
   spotlight_size: [2.36, 1]
   mask_position: [346, -62]
+  mask_position_mobile: [273, -62]
   mask_size: [191, 289.8]
 
 phase_1_interactions_counter:
