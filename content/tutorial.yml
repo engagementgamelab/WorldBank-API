@@ -23,6 +23,7 @@ phase_1_skip_tutorial:
 phase_1_rahb:
   overlay_location: "Bottom-Right"
   text: "Click on Rahb, your RBF Plan Supervisor and then choose “learn more” to see what she has to say – be sure to scroll down to see everything in her dialogue box. To continue the conversation, choose a highlighted topic."
+  text_mobile: "Tap on Rahb, your RBF Plan Supervisor and then choose “learn more” to see what she has to say – be sure to scroll down to see everything in her dialogue box. To continue the conversation, choose a highlighted topic."
   spotlight_position: [-1.23, -0.04]
   spotlight_position_4x3: [-1.1, -0.04]
   spotlight_position_16x9: [-0.73, -0.04]
@@ -40,10 +41,12 @@ phase_1_interactions_counter:
   mask_position: [0, 0]
   mask_size: [84, 54]
   confirm: true
+  confirm_next: "phase_1_move_around"
 
 phase_1_move_around:
   overlay_location: "Center"
   text: "Click, hold and drag or use the arrow keys to look around and talk to the Ministry officials to the right. Remember, once you’ve heard about a topic, you can still ask about something else, as long as you have conversation points left!"
+  text_mobile: "Tap and drag to look around and talk to the Ministry officials to the right. Remember, once you’ve heard about a topic, you can still ask about something else, as long as you have conversation points left!"
   confirm: true
 
 phase_1_unlocked_something:
@@ -58,6 +61,7 @@ phase_1_unlocked_something:
 phase_1_plan_creation_screen:
   overlay_location: "Center"
   text: "At any time you can access the program creation screen to start forming your RBF proposal. Click here to open this screen."
+  text_mobile: "At any time you can access the program creation screen to start forming your RBF proposal. Tap on the highlighted icon to open this screen."
   spotlight_position: [0.31, 0.36]
   spotlight_position_16x9: [0.5, 0.36]
   spotlight_size: [3.3, 3.25]
@@ -68,6 +72,7 @@ phase_1_plan_creation_screen:
 phase_1_tactics:
   overlay_location: "Bottom-Right"
   text: "Here are all the tactics you have unlocked so far. As you gather more tactics by talking to people, you can draft your program proposal by clicking on a tactic and dragging it into a blank space on the right."
+  text_mobile: "Here are all the tactics you have unlocked so far. As you gather more tactics by talking to people, you can draft your program proposal by dragging it into a blank space on the right."
   spotlight_position: [0.1, -0.47]
   spotlight_size: [1.56, 1.34]
   mask_position: [0, -38]
@@ -76,7 +81,8 @@ phase_1_tactics:
 
 phase_1_tactic_slots:
   overlay_location: "Bottom-Right"
-  text: "Each slot has a priority level. Policies placed higher up will make their benefits and consequences amplified. You can change your program proposal any time before the final submission.  Click here to close your notebook."
+  text: "Each slot has a priority level. Policies placed higher up will make their benefits and consequences amplified. You can change your program proposal any time before the final submission. Click here to close your notebook."
+  text_mobile: "Each slot has a priority level. Policies placed higher up will make their benefits and consequences amplified. You can change your program proposal any time before the final submission. Tap here to close your notebook."
   spotlight_position: [0.31, 0.36]
   spotlight_position_16x9: [0.5, 0.36]
   spotlight_size: [3.3, 3.25]
@@ -92,6 +98,7 @@ phase_1_continue_talking:
 phase_1_map:
   overlay_location: "Center"
   text: "You can click and drag to see different parts of Zariba on the map."
+  text_mobile: "You can drag to see different parts of Zariba on the map."
   confirm: true
   confirm_next: "phase_1_map_cost"
 
@@ -104,6 +111,7 @@ phase_1_map_cost:
 phase_1_city_routes:
   overlay_location: "Bottom-Right"
   text: "You can travel to a new city if a yellow route is active between your location and the new city. Try clicking on Malcom or Crup now."
+  text_mobile: "You can travel to a new city if a yellow route is active between your location and the new city. Try tapping on Malcom or Crup now."
   spotlight_position: [0.08, 0.35]
   spotlight_size: [1.1, 0.35]
   mask_position: [67, 0]
@@ -113,14 +121,20 @@ phase_1_city_routes:
 phase_1_travel:
   overlay_location: "Top-Right"
   text: "Read the description to decide whether you want to travel to this city. Click the visit button, or click cancel and choose another city."
+  text_mobile: "Read the description to decide whether you want to travel to this city. Tap the visit button, or tap cancel and choose another city."
   spotlight_position: [-0.15, -0.46]
+  spotlight_position_16x9: [-0.15, -0.46]
+  spotlight_position_4x3: [-0.15, -0.46]
   spotlight_size: [1.32, 3.53]
   mask_position: [111, -400]
+  mask_position_16x9: [280, -400]
+  mask_position_4x3: [111, -400]
   mask_size: [311, 57]
 
 phase_1_conversation_points:
   overlay_location: "Center"
   text: "You still have conversation points in this city! Remember, you can see your remaining interactions at the upper-left. Click on the map icon to return to the city."
+  text_mobile: "You still have conversation points in this city! Remember, you can see your remaining interactions at the upper-left. Tap on the map icon to return to the city."
   spotlight_position: [-2.64, 0.61]
   spotlight_position_16x9: [-2.64, 0.61]
   spotlight_position_4x3: [-2.64, 0.61]
@@ -133,6 +147,7 @@ phase_1_conversation_points:
 phase_1_end:
   overlay_location: "Center"
   text: "Congratulations! You finished your trip through Zariba, now it's time to confirm the details of your plan using everything you learned. Once you've set the policies and their priority, click the submit button and we’ll see how the results."
+  text_mobile: "Congratulations! You finished your trip through Zariba, now it's time to confirm the details of your plan using everything you learned. Once you've set the policies and their priority, tap the submit button and we’ll see how the results."
   confirm: true
 
 ## PHASE 2
@@ -199,6 +214,7 @@ phase_2_feedback:
 phase_2_supervisor:
   overlay_location: "Bottom-Right"
   text: "Somebody has come to you with a new problem. First, though, let's go talk to Rahb, your Program Supervisor, who will have additional messages for you. Click the tab."
+  text_mobile: "Somebody has come to you with a new problem. First, though, let's go talk to Rahb, your Program Supervisor, who will have additional messages for you. Tap the highlighted area."
   spotlight_position: [-0.54, -2.72]
   spotlight_size: [1.84, 3.46]
   mask_position: [303, 0]
