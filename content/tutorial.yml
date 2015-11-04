@@ -24,10 +24,12 @@ phase_1_rahb:
   overlay_location: "Bottom-Right"
   text: "Click on Rahb, your RBF Plan Supervisor and then choose “learn more” to see what she has to say – be sure to scroll down to see everything in her dialogue box. To continue the conversation, choose a highlighted topic."
   spotlight_position: [-1.23, -0.04]
-  spotlight_position_mobile: [-0.7, -0.04]
+  spotlight_position_4x3: [-1.1, -0.04]
+  spotlight_position_16x9: [-0.73, -0.04]
   spotlight_size: [2.36, 1]
   mask_position: [346, -62]
-  mask_position_mobile: [273, -62]
+  mask_position_4x3: [420.85, -62]
+  mask_position_16x9: [440.49, -62]
   mask_size: [191, 289.8]
 
 phase_1_interactions_counter:
@@ -57,8 +59,10 @@ phase_1_plan_creation_screen:
   overlay_location: "Center"
   text: "At any time you can access the program creation screen to start forming your RBF proposal. Click here to open this screen."
   spotlight_position: [0.31, 0.36]
+  spotlight_position_16x9: [0.5, 0.36]
   spotlight_size: [3.3, 3.25]
   mask_position: [0, -517]
+  mask_position_16x9: [0, -517]
   mask_size: [72, 82]
 
 phase_1_tactics:
@@ -73,10 +77,12 @@ phase_1_tactics:
 phase_1_tactic_slots:
   overlay_location: "Bottom-Right"
   text: "Each slot has a priority level. Policies placed higher up will make their benefits and consequences amplified. You can change your program proposal any time before the final submission.  Click here to close your notebook."
-  spotlight_position: [0.29, 0.29]
+  spotlight_position: [0.31, 0.36]
+  spotlight_position_16x9: [0.5, 0.36]
   spotlight_size: [3.3, 3.25]
-  mask_position: [0, -512]
-  mask_size: [69, 71]
+  mask_position: [0, -517]
+  mask_position_16x9: [0, -517]
+  mask_size: [72, 82]
 
 phase_1_continue_talking:
   overlay_location: "Center"
@@ -116,10 +122,12 @@ phase_1_conversation_points:
   overlay_location: "Center"
   text: "You still have conversation points in this city! Remember, you can see your remaining interactions at the upper-left. Click on the map icon to return to the city."
   spotlight_position: [-2.64, 0.61]
-  spotlight_position_mobile: [-2.14, 0.61]
+  spotlight_position_16x9: [-2.64, 0.61]
+  spotlight_position_4x3: [-2.64, 0.61]
   spotlight_size: [3.16, 1.31]
   mask_position: [454.3, -397]
-  mask_position_mobile: [484.6, -397]
+  mask_position_16x9: [866, -397]
+  mask_position_4x3: [589, -397]
   mask_size: [166, 189]
 
 phase_1_end:
@@ -157,21 +165,26 @@ phase_2_conferencing:
   overlay_location: "Bottom-Left"
   text: "You can receive advice from up to three people during any problem, so choose carefully. Look at your contacts and select one now."
   spotlight_position: [-0.98, -0.02]
+  spotlight_position_16x9: [-0.98, -0.02]
+  spotlight_position_4x3: [-0.98, -0.02]
   spotlight_size: [1.88, 1]
   mask_position: [393.94, -69]
+  mask_position_16x9: [697.4, -69]
+  mask_position_4x3: [589, -69]
   mask_size: [185, 420]
 
 phase_2_conference_action:
   overlay_location: "Bottom-Right"
   text: "This contact has given you new information! Some contacts provide background context, others give you new options you can take to solve the problem. You can conference with up to two more before you make your decision."
-  spotlight_position: [0.09, -0.94]
+  spotlight_position: [0.09, -1.12]
   spotlight_size: [1.19, 2.75]
   mask_position: [0, 0]
   mask_size: [1, 1]
   confirm: true
+  confirm_next: "phase_2_actions"
 
 phase_2_actions:
-  overlay_location: "Top-Right"
+  overlay_location: "Center"
   text: "Once you know what course of actions you want to take or you have conferenced with three people, select an action from the options below to implement it. We’ll let you finish this problem on your own."
   confirm: true
 
