@@ -15,9 +15,10 @@ exports.default = {
         // Any additional headers you want actionhero to respond with
         httpHeaders : {
           'X-Powered-By'                : api.config.general.serverName,
+          'Access-Control-Allow-Credentials': 'true',
           'Access-Control-Allow-Origin' : '*',
           'Access-Control-Allow-Methods': 'HEAD, GET, POST, PUT, PATCH, DELETE, OPTIONS, TRACE',
-          'Access-Control-Allow-Headers': 'Content-Type',
+          'Access-Control-Allow-Headers': 'Content-Type, Accept, X-Access-Token, X-Application-Name, X-Request-Sent-Time',
         },
         // Route that actions will be served from; secondary route against this route will be treated as actions,
         //  IE: /api/?action=test == /api/test/
