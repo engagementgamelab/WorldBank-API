@@ -26,7 +26,7 @@ phase_1_rahb:
   text_mobile: "Tap on Rahb, your RBF Plan Supervisor and then choose “learn more” to see what she has to say – be sure to scroll down to see everything in her dialogue box. To continue the conversation, choose a highlighted topic."
   spotlight_position: [-1.23, -0.04]
   spotlight_position_4x3: [-1.1, -0.04]
-  spotlight_position_16x9: [-0.73, -0.04]
+  spotlight_position_16x9: [-0.84, -0.04]
   spotlight_size: [2.36, 1]
   mask_position: [346, -62]
   mask_position_4x3: [420.85, -62]
