@@ -18,7 +18,7 @@ exports.default = {
           'Access-Control-Allow-Credentials': 'true',
           'Access-Control-Allow-Origin' : '*',
           'Access-Control-Allow-Methods': 'HEAD, GET, POST, PUT, PATCH, DELETE, OPTIONS, TRACE',
-          'Access-Control-Allow-Headers': 'Content-Type, Accept, X-Access-Token, X-Application-Name, X-Request-Sent-Time, X-Requested-With',
+          'Access-Control-Allow-Headers': 'Content-Type, Accept, X-Access-Token, X-Application-Name, X-Request-Sent-Time, X-Requested-With, x-sessionid',
         },
         // Route that actions will be served from; secondary route against this route will be treated as actions,
         //  IE: /api/?action=test == /api/test/
@@ -41,7 +41,7 @@ exports.default = {
         bootAttempts: 1,
         // Settings for determining the id of an http(s) request (browser-fingerprint)
         fingerprintOptions : {
-          cookieKey: 'sessionID',
+          cookieKey: 'sessionid',
           toSetCookie: true,
           onlyStaticElements: true,
           settings: {
