@@ -19,6 +19,7 @@ exports.default = {
           'Access-Control-Allow-Origin' : '*',
           'Access-Control-Allow-Methods': 'HEAD, GET, POST, PUT, PATCH, DELETE, OPTIONS, TRACE',
           'Access-Control-Allow-Headers': 'Content-Type, Accept, X-Access-Token, X-Application-Name, X-Request-Sent-Time, X-Requested-With, x-sessionid',
+          'Accept-Encoding': 'gzip'
         },
         // Route that actions will be served from; secondary route against this route will be treated as actions,
         //  IE: /api/?action=test == /api/test/
@@ -66,7 +67,10 @@ exports.default = {
         },
         // When true, returnErrorCodes will modify the response header for http(s) clients if connection.error is not null.
         //  You can also set connection.rawConnection.responseHttpCode to specify a code per request.
-        returnErrorCodes: true
+        returnErrorCodes: true,
+        // should this node server attempt to gzip responses if the client can accept them?
+        // this will slow down the performance of actionhero, and if you need this funcionality, it is recommended that you do this upstream with nginx or your load balancer
+        compress: true
       }
     }
   }

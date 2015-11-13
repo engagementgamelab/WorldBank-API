@@ -9,7 +9,7 @@
     "node": ">=0.10.0"
   },
   "dependencies": {
-    "actionhero": "11.2.4",
+    "actionhero": "12.2.2",
     "ws": "0.8.0",
     "grunt": "0.4.5",
     "serve-favicon": "2.3.0",
