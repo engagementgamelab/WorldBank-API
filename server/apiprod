@@ -10,12 +10,15 @@ case "$1" in
   exec sudo NODE_ENV=production forever start --sourceDir=/srv/api/server -p /usr/lib/node_modules/forever -o out.log -e err.log -c "npm start" ./
   ;;
 stop)
+  PROCESS_ID=$(forever list | grep 'npm' | awk '{print $7}')
+  exec sudo forever stop $PROCESS_ID
+  ;;
+list)
   PROCESSES="$(forever list | grep npm)"
-  PROCESS_ID=$($PROCESSES| awk "$(print $6)")
-  exec forever stop $PROCESS_ID
+  echo $PROCESSES
   ;;
 *)
-  echo "Usage: /etc/init.d/apiprod {start|stop}"
+  echo "Usage: /etc/init.d/apiprod {start|stop|list}"
   exit 1
   ;;
 esac
