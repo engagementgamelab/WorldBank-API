@@ -437,8 +437,6 @@ exports.auth =
 
     data.response.auth = false;
 
-    console.log(api.mongo.user)
-
     api.mongo.user.findOne({ 'email': dataInput.email.toLowerCase() }, '_id username submitted_plan phase_two_done plan_id', function (err, user) {
 
       // Database error
@@ -467,7 +465,7 @@ exports.auth =
         else {
         */
 
-        api.log("User '" + dataInput.email.toLowerCase() + "' found.", "notice");
+          api.log("User '" + dataInput.email.toLowerCase() + "' found.", "notice");
 
           api.session.generateAuth(data.connection, function() {
 
