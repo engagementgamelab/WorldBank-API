@@ -27,13 +27,15 @@ module.exports = {
     next();
   },
   start: function(api, next) {
-
-      var connection = mongoose.createConnection(
+      
+      mongoose.connect(
         'mongodb://' + 
         api.config.mongo.host + ':' + 
         api.config.mongo.port + '/' + 
         api.config.mongo.db
-      ).db;
+      );
+
+      var connection = mongoose.connection.db;
 
       connection.on('error',  function callback (err) {
           api.log('Mongo connection failed: ' + err, 'crit');
