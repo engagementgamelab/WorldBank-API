@@ -53,10 +53,10 @@ module.exports = {
       global: true,
       preProcessor: function(data, next) {
 
-        api.log("Checking if user authenticated", "notice");
-
         // Check to see if an action being accessed has requiresUserLogin property set to true
         if(data.actionTemplate.requiresUserLogin === true) {
+
+          api.log("Checking if user authenticated", "notice");
 
           // Is this session's user authenticated?
           api.session.checkAuth(

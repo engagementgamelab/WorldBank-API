@@ -331,7 +331,7 @@ exports.save =
 };
 
 /**
-* @method plan
+* @method userAssignScenario
 * @attribute POST
 * @type {form-data} form containing all required 
 * @required
@@ -410,6 +410,14 @@ exports.scenario =
 
 };
 
+/**
+* @method userAuth
+* @attribute POST
+* @type {form-data} form containing user email
+* @required
+* @return {Object} User's data if successful (200).
+* @throws {Object} Returns error if missing required field(s) or invalid data.
+*/
 exports.auth =
 {
   name: "userAuth",
@@ -427,8 +435,9 @@ exports.auth =
 
     var dataInput = data.connection.rawConnection.params.body;
 
-    console.log(dataInput.email);
     data.response.auth = false;
+
+    console.log(api.mongo.user)
 
     api.mongo.user.findOne({ 'email': dataInput.email.toLowerCase() }, '_id username submitted_plan phase_two_done plan_id', function (err, user) {
 
@@ -458,10 +467,11 @@ exports.auth =
         else {
         */
 
+        api.log("User '" + dataInput.email.toLowerCase() + "' found.", "notice");
+
           api.session.generateAuth(data.connection, function() {
 
             user.save();
-
 
             var userRecord = user.toObject();
 
@@ -472,6 +482,8 @@ exports.auth =
             data.response.auth = true;
             data.response.user = userRecord;
             data.response.user_cookie = data.connection.fingerprint;
+
+            api.log("User '" + dataInput.email.toLowerCase() + "' logged in.", "notice");
 
             api.trackEvent(user._id, "User Login", "API", function(error) {
 
