@@ -30,7 +30,7 @@ exports.action = {
     outputExample: {},
     matchExtensionMimeType: false,
     version: 1.4,
-    toDocument: true
+    toDocument: true,
 
     inputs: {},
 
