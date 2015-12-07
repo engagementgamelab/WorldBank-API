@@ -5,11 +5,21 @@ Created by Engagement Lab, 2015
  auth.middleware.js
  API authenication middleware initializer.
 
- Created by Johnny Richardson on 7/2/15.
+ Created by Johnny Richardson on 8/9/15.
 ==============
 */
 "use strict";
 
+/**
+ *
+ * Defines authentication middleware.
+ * If an action uses 'requiresAuth' in template, this middleware first checks if the client has authenticated.
+ * Or, if an action uses 'requiresUserLogin' in template, checks if the user has authenticated.
+ * @namespace initializers
+ * @class auth.middleware
+ * @constructor
+ * @static
+ **/
 module.exports = {
 
   initialize: function(api, next) {

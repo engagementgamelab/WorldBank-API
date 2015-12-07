@@ -10,6 +10,19 @@ Created by Engagement Lab, 2015
 */
 "use strict";
 
+/**
+ *
+ * Defines MongoDB config.
+ * @namespace api.config
+ * @class mongo
+ * @constructor
+ * @static
+ **/
+
+/**
+* Base mongo config. Suitable for non-PAAS servers.
+* @method default
+*/
 exports.default = { 
   mongo: function(api){
     return {
@@ -21,13 +34,17 @@ exports.default = {
   }
 }
 
+/**
+* Staging mongo config. PAAS example provided by default.
+* @method staging
+*/
 exports.staging = { 
   mongo: function(api){
     return {
         enable: true,
-        host: 'heroku_npvs26cw:ak1h7ut2fgjsgs7lr6nt3lukkb@ds053370.mongolab.com',
+        host: 'npvs26cw:xxxxxxyyyyyzzz@aa0111111.mongo.com',
         port: 53370,
-        db: 'heroku_npvs26cw'
+        db: 'db_npvs26cw'
     }
   }
 }

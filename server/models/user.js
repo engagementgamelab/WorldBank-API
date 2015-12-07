@@ -11,9 +11,13 @@ Created by Engagement Lab, 2015
 "use strict";
 
 /**
-* @class userModel
+* User models.
+* @class user
+* @namespace models
+* @constructor 
+* @static
 * @example
-*	var User = require('../models/user');
+* var User = require('../models/user');
 * @return User model
 */
 

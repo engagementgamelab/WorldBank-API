@@ -9,6 +9,23 @@ Created by Engagement Lab, 2015
 ==============
 */
 
+/**
+  Defines API-level authentication.
+  @class auth
+  @namespace actions
+  @constructor
+  @requires 
+  @static
+**/
+
+/**
+* Authenticate the client.
+* @method apiAuth
+* @param key {String} The unique server token the client uses to identify credentials.
+* @requires api.config.serverToken
+* @return {Object} Session cookie and authed response (200).
+* @throws {Object} Returns error if missing required field(s) or incorrect token.
+*/
 exports.apiAuth = {
   name: "apiAuth",
   description: "auth",
@@ -28,7 +45,7 @@ exports.apiAuth = {
       next();
     }
     else if (api.config.general.serverToken != dataInput.key) {
-      data.response.error = "incorrect server key";
+      data.response.error = "incorrect server token";
       next();
     }
     else {

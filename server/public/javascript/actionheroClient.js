@@ -203,10 +203,10 @@ EventEmitter.prototype.listeners = function listeners(event, exists) {
 
   if (exists) return !!available;
   if (!available) return [];
-  if (this._events[evt].fn) return [this._events[evt].fn];
+  if (available.fn) return [available.fn];
 
-  for (var i = 0, l = this._events[evt].length, ee = new Array(l); i < l; i++) {
-    ee[i] = this._events[evt][i].fn;
+  for (var i = 0, l = available.length, ee = new Array(l); i < l; i++) {
+    ee[i] = available[i].fn;
   }
 
   return ee;
@@ -405,7 +405,9 @@ EventEmitter.prefixed = prefix;
 //
 // Expose the module.
 //
-module.exports = EventEmitter;
+if ('undefined' !== typeof module) {
+  module.exports = EventEmitter;
+}
 
 },{}],4:[function(_dereq_,module,exports){
 'use strict';
@@ -693,6 +695,38 @@ Recovery.prototype.destroy = destroy('timers attempt _fn');
 module.exports = Recovery;
 
 },{"demolish":1,"eventemitter3":3,"millisecond":6,"one-time":7,"tick-tock":8}],6:[function(_dereq_,module,exports){
+'use strict';
+
+var regex = new RegExp('^((?:\\d+)?\\.?\\d+) *('+ [
+  'milliseconds?',
+  'msecs?',
+  'ms',
+  'seconds?',
+  'secs?',
+  's',
+  'minutes?',
+  'mins?',
+  'm',
+  'hours?',
+  'hrs?',
+  'h',
+  'days?',
+  'd',
+  'weeks?',
+  'wks?',
+  'w',
+  'years?',
+  'yrs?',
+  'y'
+].join('|') +')?$', 'i');
+
+var second = 1000
+  , minute = second * 60
+  , hour = minute * 60
+  , day = hour * 24
+  , week = day * 7
+  , year = day * 365;
+
 /**
  * Parse a time string and return the number value of it.
  *
@@ -701,15 +735,9 @@ module.exports = Recovery;
  * @api private
  */
 module.exports = function millisecond(ms) {
-  'use strict';
-
   if ('string' !== typeof ms || '0' === ms || +ms) return +ms;
 
-  var match = /^((?:\d+)?\.?\d+) *(milliseconds?|msecs?|ms|seconds?|secs?|s|minutes?|mins?|m|hours?|hrs?|h|days?|d|years?|yrs?|y)?$/i.exec(ms)
-    , second = 1000
-    , minute = second * 60
-    , hour = minute * 60
-    , day = hour * 24
+  var match = regex.exec(ms)
     , amount;
 
   if (!match) return 0;
@@ -717,6 +745,20 @@ module.exports = function millisecond(ms) {
   amount = parseFloat(match[1]);
 
   switch (match[2].toLowerCase()) {
+    case 'years':
+    case 'year':
+    case 'yrs':
+    case 'yr':
+    case 'y':
+      return amount * year;
+
+    case 'weeks':
+    case 'week':
+    case 'wks':
+    case 'wk':
+    case 'w':
+      return amount * week;
+
     case 'days':
     case 'day':
     case 'd':
@@ -799,14 +841,37 @@ var has = Object.prototype.hasOwnProperty
  * @constructor
  * @param {Object} timer New timer instance.
  * @param {Function} clear Clears the timer instance.
+ * @param {Function} duration Duration of the timer.
  * @param {Function} fn The functions that need to be executed.
  * @api private
  */
-function Timer(timer, clear, fn) {
+function Timer(timer, clear, duration, fn) {
+  this.start = +(new Date());
+  this.duration = duration;
   this.clear = clear;
   this.timer = timer;
   this.fns = [fn];
 }
+
+/**
+ * Calculate the time left for a given timer.
+ *
+ * @returns {Number} Time in milliseconds.
+ * @api public
+ */
+Timer.prototype.remaining = function remaining() {
+  return this.duration - this.taken();
+};
+
+/**
+ * Calculate the amount of time it has taken since we've set the timer.
+ *
+ * @returns {Number}
+ * @api public
+ */
+Timer.prototype.taken = function taken() {
+  return +(new Date()) - this.start;
+};
 
 /**
  * Custom wrappers for the various of clear{whatever} functions. We cannot
@@ -856,6 +921,7 @@ Tick.prototype.tock = function ticktock(name, clear) {
       , i = 0;
 
     if (clear) tock.clear(name);
+    else tock.start = +new Date();
 
     for (; i < l; i++) {
       fns[i].call(tock.context);
@@ -873,16 +939,19 @@ Tick.prototype.tock = function ticktock(name, clear) {
  * @api public
  */
 Tick.prototype.setTimeout = function timeout(name, fn, time) {
-  var tick = this;
+  var tick = this
+    , tock;
 
   if (tick.timers[name]) {
     tick.timers[name].fns.push(fn);
     return tick;
   }
 
+  tock = ms(time);
   tick.timers[name] = new Timer(
     setTimeout(tick.tock(name, true), ms(time)),
     unsetTimeout,
+    tock,
     fn
   );
 
@@ -899,16 +968,19 @@ Tick.prototype.setTimeout = function timeout(name, fn, time) {
  * @api public
  */
 Tick.prototype.setInterval = function interval(name, fn, time) {
-  var tick = this;
+  var tick = this
+    , tock;
 
   if (tick.timers[name]) {
     tick.timers[name].fns.push(fn);
     return tick;
   }
 
+  tock = ms(time);
   tick.timers[name] = new Timer(
     setInterval(tick.tock(name), ms(time)),
     unsetInterval,
+    tock,
     fn
   );
 
@@ -936,6 +1008,7 @@ Tick.prototype.setImmediate = function immediate(name, fn) {
   tick.timers[name] = new Timer(
     setImmediate(tick.tock(name, true)),
     unsetImmediate,
+    0,
     fn
   );
 
@@ -990,6 +1063,29 @@ Tick.prototype.clear = function clear() {
 };
 
 /**
+ * Adjust a timeout or interval to a new duration.
+ *
+ * @returns {Tick}
+ * @api public
+ */
+Tick.prototype.adjust = function adjust(name, time) {
+  var interval
+    , tick = this
+    , tock = ms(time)
+    , timer = tick.timers[name];
+
+  if (!timer) return tick;
+
+  interval = timer.clear === unsetInterval;
+  timer.clear(timer.timer);
+  timer.start = +(new Date());
+  timer.duration = tock;
+  timer.timer = (interval ? setInterval : setTimeout)(tick.tock(name, !interval), tock);
+
+  return tick;
+};
+
+/**
  * We will no longer use this module, prepare your self for global cleanups.
  *
  * @returns {Boolean}
@@ -1004,29 +1100,10 @@ Tick.prototype.end = Tick.prototype.destroy = function end() {
   return true;
 };
 
-/**
- * Adjust a timeout or interval to a new duration.
- *
- * @returns {Tick}
- * @api public
- */
-Tick.prototype.adjust = function adjust(name, time) {
-  var interval
-    , tick = this
-    , timer = tick.timers[name];
-
-  if (!timer) return tick;
-
-  interval = timer.clear === unsetInterval;
-  timer.clear(timer.timer);
-  timer.timer = (interval ? setInterval : setTimeout)(tick.tock(name, !interval), ms(time));
-
-  return tick;
-};
-
 //
 // Expose the timer factory.
 //
+Tick.Timer = Timer;
 module.exports = Tick;
 
 },{"millisecond":9}],9:[function(_dereq_,module,exports){
@@ -1185,7 +1262,10 @@ URL.prototype.set = function set(part, value, fn) {
   var url = this;
 
   if ('query' === part) {
-    if ('string' === typeof value) value = (fn || qs.parse)(value);
+    if ('string' === typeof value && value.length) {
+      value = (fn || qs.parse)(value);
+    }
+
     url[part] = value;
   } else if ('port' === part) {
     url[part] = value;
@@ -1242,12 +1322,8 @@ URL.prototype.toString = function toString(stringify) {
 
   result += url.pathname;
 
-  if (url.query) {
-    if ('object' === typeof url.query) query = stringify(url.query);
-    else query = url.query;
-
-    result += (query.charAt(0) === '?' ? '' : '?') + query;
-  }
+  query = 'object' === typeof url.query ? stringify(url.query) : url.query;
+  if (query) result += '?' !== query.charAt(0) ? '?'+ query : query;
 
   if (url.hash) result += url.hash;
 
@@ -1352,6 +1428,76 @@ module.exports = function required(port, protocol) {
 };
 
 },{}],13:[function(_dereq_,module,exports){
+'use strict';
+
+var alphabet = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz-_'.split('')
+  , length = 64
+  , map = {}
+  , seed = 0
+  , i = 0
+  , prev;
+
+/**
+ * Return a string representing the specified number.
+ *
+ * @param {Number} num The number to convert.
+ * @returns {String} The string representation of the number.
+ * @api public
+ */
+function encode(num) {
+  var encoded = '';
+
+  do {
+    encoded = alphabet[num % length] + encoded;
+    num = Math.floor(num / length);
+  } while (num > 0);
+
+  return encoded;
+}
+
+/**
+ * Return the integer value specified by the given string.
+ *
+ * @param {String} str The string to convert.
+ * @returns {Number} The integer value represented by the string.
+ * @api public
+ */
+function decode(str) {
+  var decoded = 0;
+
+  for (i = 0; i < str.length; i++) {
+    decoded = decoded * length + map[str.charAt(i)];
+  }
+
+  return decoded;
+}
+
+/**
+ * Yeast: A tiny growing id generator.
+ *
+ * @returns {String} A unique id.
+ * @api public
+ */
+function yeast() {
+  var now = encode(+new Date());
+
+  if (now !== prev) return seed = 0, prev = now;
+  return now +'.'+ encode(seed++);
+}
+
+//
+// Map each character to its index.
+//
+for (; i < length; i++) map[alphabet[i]] = i;
+
+//
+// Expose the `yeast`, `encode` and `decode` functions.
+//
+yeast.encode = encode;
+yeast.decode = decode;
+module.exports = yeast;
+
+},{}],14:[function(_dereq_,module,exports){
 /*globals require, define */
 'use strict';
 
@@ -1360,6 +1506,7 @@ var EventEmitter = _dereq_('eventemitter3')
   , Recovery = _dereq_('recovery')
   , qs = _dereq_('querystringify')
   , destroy = _dereq_('demolish')
+  , yeast = _dereq_('yeast')
   , u2028 = /\u2028/g
   , u2029 = /\u2029/g;
 
@@ -1468,7 +1615,6 @@ function Primus(url, options) {
   primus.timers = new TickTock(this);           // Contains all our timers.
   primus.socket = null;                         // Reference to the internal connection.
   primus.latency = 0;                           // Latency between messages.
-  primus.stamps = 0;                            // Counter to make timestamps unique.
   primus.disconnect = false;                    // Did we receive a disconnect packet?
   primus.transport = options.transport;         // Transport options.
   primus.transformers = {                       // Message transformers.
@@ -1727,9 +1873,9 @@ Primus.prototype.initialise = function initialise(options) {
 
   primus.recovery
   .on('reconnected', primus.emits('reconnected'))
-  .on('reconnect failed', primus.emits('reconnect failed', function failed(data) {
+  .on('reconnect failed', primus.emits('reconnect failed', function failed(next) {
     primus.emit('end');
-    return data;
+    next();
   }))
   .on('reconnect timeout', primus.emits('reconnect timeout'))
   .on('reconnect scheduled', primus.emits('reconnect scheduled'))
@@ -1944,7 +2090,7 @@ Primus.prototype.initialise = function initialise(options) {
    *
    * @api private
    */
-  function offline() {
+  primus.offlineHandler = function offline() {
     if (!primus.online) return; // Already or still offline, bailout.
 
     primus.online = false;
@@ -1957,14 +2103,14 @@ Primus.prototype.initialise = function initialise(options) {
     // when the user goes online, it will attempt to reconnect freshly again.
     //
     primus.recovery.reset();
-  }
+  };
 
   /**
    * Handler for online notifications.
    *
    * @api private
    */
-  function online() {
+  primus.onlineHandler = function online() {
     if (primus.online) return; // Already or still online, bailout.
 
     primus.online = true;
@@ -1973,14 +2119,14 @@ Primus.prototype.initialise = function initialise(options) {
     if (~primus.options.strategy.indexOf('online')) {
       primus.recovery.reconnect();
     }
-  }
+  };
 
   if (window.addEventListener) {
-    window.addEventListener('offline', offline, false);
-    window.addEventListener('online', online, false);
+    window.addEventListener('offline', primus.offlineHandler, false);
+    window.addEventListener('online', primus.onlineHandler, false);
   } else if (document.body.attachEvent){
-    document.body.attachEvent('onoffline', offline);
-    document.body.attachEvent('ononline', online);
+    document.body.attachEvent('onoffline', primus.offlineHandler);
+    document.body.attachEvent('ononline', primus.onlineHandler);
   }
 
   return primus;
@@ -2351,7 +2497,17 @@ Primus.prototype.end = function end(data) {
  */
 Primus.prototype.destroy = destroy('url timers options recovery socket transport transformers', {
   before: 'end',
-  after: 'removeAllListeners'
+  after: ['removeAllListeners', function detach() {
+    if (!this.NETWORK_EVENTS) return;
+
+    if (window.addEventListener) {
+      window.removeEventListener('offline', this.offlineHandler);
+      window.removeEventListener('online', this.onlineHandler);
+    } else if (document.body.attachEvent){
+      document.body.detachEvent('onoffline', this.offlineHandler);
+      document.body.detachEvent('ononline', this.onlineHandler);
+    }
+  }]
 });
 
 /**
@@ -2461,7 +2617,7 @@ Primus.prototype.uri = function uri(options) {
   // forcing an cache busting query string in to the URL.
   //
   var querystring = this.querystring(options.query || '');
-  querystring._primuscb = +new Date() +'-'+ this.stamps++;
+  querystring._primuscb = yeast();
   options.query = this.querystringify(querystring);
 
   //
@@ -2666,7 +2822,7 @@ Primus.prototype.decoder = function decoder(data, fn) {
 
   fn(err, data);
 };
-Primus.prototype.version = "3.1.1";
+Primus.prototype.version = "4.0.1";
 
 if (
      'undefined' !== typeof document
@@ -2715,7 +2871,7 @@ if (
 //
 module.exports = Primus;
 
-},{"demolish":1,"emits":2,"eventemitter3":3,"querystringify":4,"recovery":5,"tick-tock":8,"url-parse":10}]},{},[13])(13);
+},{"demolish":1,"emits":2,"eventemitter3":3,"querystringify":4,"recovery":5,"tick-tock":8,"url-parse":10,"yeast":13}]},{},[14])(14);
   return Primus;
 });
 
@@ -2739,6 +2895,7 @@ var ActionheroClient = function(options, client){
   }
 
   if(client){
+    self.externalClient = true;
     self.client = client;
   }
 }
@@ -2762,12 +2919,19 @@ ActionheroClient.prototype.defaults = function(){
 ActionheroClient.prototype.connect = function(callback){
   var self = this;
   self.messageCount = 0;
-  
-  if(!self.client){
+
+
+  if(self.client && self.externalClient !== true){
+    self.client.end();
+    self.client.removeAllListeners();
+    delete self.client;
     self.client = Primus.connect(self.options.url, self.options);
-  }else{
+  }
+  if(self.client && self.externalClient === true){
     self.client.end();
     self.client.open();
+  }else{
+    self.client = Primus.connect(self.options.url, self.options);
   }
 
   self.client.on('open', function(){
@@ -2795,6 +2959,19 @@ ActionheroClient.prototype.connect = function(callback){
     self.emit('reconnecting');
     self.state = 'reconnecting';
     self.emit('disconnected');
+  });
+
+  self.client.on('timeout', function(){
+    self.state = 'timeout';
+    self.emit('timeout');
+  });
+
+  self.client.on('close', function(){
+    self.messageCount = 0;
+    if(self.state !== 'disconnected'){
+      self.state = 'disconnected';
+      self.emit('disconnected');
+    }
   });
 
   self.client.on('end', function(){
@@ -2881,13 +3058,18 @@ ActionheroClient.prototype.action = function(action, params, callback){
 ActionheroClient.prototype.actionWeb = function(params, callback) {
   var xmlhttp = new XMLHttpRequest();
   xmlhttp.onreadystatechange = function () {
+    var response;
     if(xmlhttp.readyState === 4) {
       if(xmlhttp.status === 200) {
-        var response = JSON.parse(xmlhttp.responseText);
-        callback(null, response);
-      } else {
-        callback(xmlhttp.statusText, xmlhttp.responseText);
+        response = JSON.parse(xmlhttp.responseText);
+      }else{
+        try{
+          response = JSON.parse(xmlhttp.responseText);
+        }catch(e){
+          response = { error: {statusText: xmlhttp.statusText, responseText: xmlhttp.responseText} };
+        }
       }
+      callback(response);
     }
   };
   
@@ -2895,7 +3077,7 @@ ActionheroClient.prototype.actionWeb = function(params, callback) {
   var url = this.options.url + this.options.apiPath + '?action=' + params.action;
   xmlhttp.open(method, url, true);
   xmlhttp.setRequestHeader('Content-Type', 'application/json');
-  xmlhttp.send(JSON.stringify(params));	
+  xmlhttp.send(JSON.stringify(params)); 
 }
 
 
@@ -2926,7 +3108,7 @@ ActionheroClient.prototype.roomView = function(room, callback){
 ActionheroClient.prototype.roomAdd = function(room, callback){
   var self = this;
   self.send({event: 'roomAdd', room: room}, function(data){
-    self.configure(function(details){
+    self.configure(function(){
       if(typeof callback === 'function'){ callback(data); }
     });
   });
@@ -2937,7 +3119,7 @@ ActionheroClient.prototype.roomLeave = function(room, callback){
   var index = self.rooms.indexOf(room);
   if(index > -1){ self.rooms.splice(index, 1); }
   this.send({event: 'roomLeave', room: room}, function(data){
-    self.configure(function(details){
+    self.configure(function(){
       if(typeof callback === 'function'){ callback(data); }
     });
   });

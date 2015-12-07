@@ -11,7 +11,11 @@ Created by Engagement Lab, 2015
 "use strict";
 
 /**
-* @class userCreate
+  Contains all user-related endpoints.
+  @class user
+  @namespace actions
+  @constructor
+  @static
 **/
 
 var crypto = require('crypto');
@@ -28,10 +32,12 @@ var cacheKey = function(user){
 }
 
 /**
+* Create a new user.
 * @method userCreate
-* @attribute POST
-* @type {form-data} form containing all required 
-* @required
+* @param first_name {String} User's first name
+* @param last_name {String} User's last name
+* @param email {String} User's email
+* 
 * @return {Object} Empty if successful (200).
 * @throws {Object} Returns error if missing required field(s) or invalid data.
 */
@@ -46,7 +52,6 @@ exports.create = {
     toDocument: true,
 
     inputs: {
-      // "password"
       required: ["first_name", "last_name", "email"]
     },
 
@@ -59,70 +64,38 @@ exports.create = {
       api.mongo.user.count({ 'email': dataInput.email }, function(err, userCount) {
 
         if(userCount === 0) {
+    
+          // Concat name
+          dataInput.name = dataInput.first_name + " " + dataInput.last_name;
 
-          // Find count of users with this username (error if not zero)
-          /*          
-            api.mongo.user.count({ 'username': dataInput.username }, function(err, usernameCount) {
+          // Date
+          dataInput.created_at = new Date();
 
-            if(usernameCount === 0) {
+          delete dataInput.first_name;
+          delete dataInput.last_name;
 
-              if(dataInput.password.length < 6)
-              {
-                data.response.error = "Password must be longer than 6 characters.";
-                next();
-              }
-              else
-              {
-                // Generate password salt and hash
-                var passwordSalt = api.utils.randomString(64);
-                var passwordHash = getPasswordHash(dataInput.password, passwordSalt);
+          // create a new user
+          var newUser = new api.mongo.user(
+            dataInput
+          );
 
-                dataInput.password = passwordHash;
-                dataInput.password_salt = passwordSalt;
-                */
+          // save the user
+          newUser.save(function(err) {
+            
+            if (err) 
+              data.response.error = "Mongo error: " + err;
 
-                // Concat name
-                dataInput.name = dataInput.first_name + " " + dataInput.last_name;
+            api.session.generateAuth(data.connection, function(){
 
-                // Date
-                dataInput.created_at = new Date();
+              data.response.auth = true;
+              data.response.user = newUser;
 
-                delete dataInput.first_name;
-                delete dataInput.last_name;
-
-                // create a new user
-                var newUser = new api.mongo.user(
-                  dataInput
-                );
-
-                // save the user
-                newUser.save(function(err) {
-                  
-                  if (err) 
-                    data.response.error = "Mongo error: " + err;
-
-                  api.session.generateAuth(data.connection, function(){
-
-                    data.response.auth = true;
-                    data.response.user = newUser;
-
-                    next();
-
-                  });
-                
-                });
-              
-              // }
-
-          /*}
-            else
-            {
-              data.response.error = "A user with the specified username already exists.";
               next();
-            }
 
-          });*/
-
+            });
+          
+          });
+            
         }
         else
         {
@@ -136,12 +109,15 @@ exports.create = {
 };
 
 /**
+* Save the user's state.
 * @method userSave
-* @attribute POST
-* @type {form-data} form containing all required 
-* @required
-* @return {Object} Empty if successful (200).
-* @throws {Object} Returns error if missing required field(s) or invalid data.
+* @param user_id {String} User's ID
+* @param save_plan {Boolean} True if saving user's "plan"
+*   @param plan {Object} Input data containing the plan; must be included when using save_plan
+* @param save_phase_2 {Boolean} True if setting user's phase two state to finished.
+* 
+* @return {Object} User's plan grade if save_plan used, or 'phase_two_done' confirmation if save_phase_2 used.
+* @throws {Object} Returns error if missing required field(s), invalid data, or database exception.
 */
 exports.save = 
 {
@@ -165,6 +141,14 @@ exports.save =
 
       var dataInput = data.connection.rawConnection.params.body;
       var planInput = dataInput.plan;
+
+      if(dataInput.save_plan !== undefined && dataInput.save_phase_2 !== undefined)
+      {
+        data.response.error = "Cannot save both plan and phase two state simultaneosly!";
+        next();
+        return;
+      }
+
 
       // Saving plan?
       if(dataInput.save_plan !== undefined) {
@@ -331,12 +315,13 @@ exports.save =
 };
 
 /**
+* Assign the user's phase two scenario.
 * @method userAssignScenario
-* @attribute POST
-* @type {form-data} form containing all required 
-* @required
-* @return {Object} Empty if successful (200).
-* @throws {Object} Returns error if missing required field(s) or invalid data.
+* @param user_id {String} User's ID
+* @param plan_id {String} Plan ID the user selected
+* 
+* @return {Object} Response containing current_scenario, tactics, default_affects, affects_goal.
+* @throws {Object} Returns error if missing required field(s), invalid data, or database exception.
 */
 exports.scenario = 
 {
@@ -355,7 +340,6 @@ exports.scenario =
       required: ["user_id", "plan_id"]
     },
 
-    /* GET game data. */
     run: function (api, data, next) {
 
       var dataInput = data.connection.rawConnection.params.body;
@@ -388,7 +372,6 @@ exports.scenario =
 
             if (err) data.response.error = err;
 
-            // user.plan_id = plan._id;
             data.response.current_scenario = user.current_scenario = assignUserScenario(plan);
             data.response.tactics = plan.tactics;
             data.response.default_affects = plan.default_affects;
@@ -411,12 +394,13 @@ exports.scenario =
 };
 
 /**
+* Authenticate a user and obtain user data if successful.
 * @method userAuth
-* @attribute POST
-* @type {form-data} form containing user email
-* @required
-* @return {Object} User's data if successful (200).
-* @throws {Object} Returns error if missing required field(s) or invalid data.
+* @param email {String} User's email.
+* @param password {String} User's password (optional). This is not used currently as we do not store sensitive data.
+* 
+* @return {Object} Response containg user's id, username, submitted_plan, phase_two_done, plan_id fields
+* @throws {Object} Returns error if missing required field(s), invalid data, or database exception.
 */
 exports.auth =
 {
@@ -425,7 +409,7 @@ exports.auth =
   
   inputs: {
     "required" : ["email"],
-    "optional" : []
+    "optional" : ["password"]
   },
   
   blockedConnectionTypes: [],

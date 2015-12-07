@@ -10,6 +10,14 @@ Created by Engagement Lab, 2015
 */
 "use strict";
 
+/**
+ *
+ * Defines global mongoosejs config. It is NOT recommended to modify this configuration.
+ * @namespace initializers
+ * @class mongo
+ * @constructor
+ * @static
+ **/
 var mongoose = require('mongoose');
 
 module.exports = {

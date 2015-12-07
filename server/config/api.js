@@ -1,16 +1,29 @@
 /**
+* The World Bank/Engagement Lab API, for use with any World Bank projects.
+* Built on the MEAN stack and the actionHero.js framework (http://www.actionherojs.com/).
+* Please see README for install guide.
+*
 * @module api
 */
+
+/**
+ *
+ * Defines base API config
+ * @namespace api.config.global
+ * @class default
+ * @constructor
+ *
+ * @param serverToken {String} A unique token to the application that servers will use to authenticate the client
+ * @static
+ * @type string
+ **/
 // BASE SERVER CONFIG
 exports.default = {
   general: function(api){
     return {
-      apiVersion: '0.0.18',
+      apiVersion: '0.0.20',
       serverName: 'World Bank API',
-      // id can be set here, or it will be generated dynamically.
-      //  Be sure that every server you run has a unique ID (which will happen when generated dynamically)
-      //  id: 'myActionHeroServer',
-      // A unique token to your application that servers will use to authenticate to each other
+      // A unique token to the application that servers will use to authenticate the client
       serverToken: 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855',
       // The welcome message seen by TCP and webSocket clients upon connection
       welcomeMessage: 'Hello! Welcome to the Engagement Lab API!',
@@ -46,7 +59,7 @@ exports.default = {
         'server':      [ __dirname + '/../servers'      ] ,
         'initializer': [ __dirname + '/../initializers' ] ,
         'plugin':      [ __dirname + '/../node_modules' ],
-        // Engagement Lab API: This is a custom folder for our YAML content
+        // WB/Engagement Lab API: This is a custom folder for our YAML content
         'content':      [ '../content' ]
       },
       // hash containing chat rooms you wish to be created at server boot
@@ -60,27 +73,41 @@ exports.default = {
   }
 }
 
+/**
+ *
+ * Defines staging API config
+ * @class staging
+ * @namespace api.config.global
+ * @constructor
+ **/
 // STAGING SERVER CONFIG
 exports.staging = { 
   general: function(api){
-    // New Relic RPM init
+    // New Relic RPM init (optional, remove the line below if not used)
     require('newrelic');
     
     return {
       developmentMode: false,
       // configuration for your actionhero project structure
       paths: {
-        // Engagement Lab API: This is a custom folder for our YAML content
+        // WB/Engagement Lab API: This is a custom folder for our YAML content
         'content':      [ 'content' ]
       }
     }
   }
 }
 
+/**
+ *
+ * Defines production API config
+ * @class production
+ * @namespace api.config.global
+ * @constructor
+ **/
 // PRODUCTION SERVER CONFIG
 exports.production = { 
   general: function(api){
-    // New Relic RPM init
+    // New Relic RPM init (optional, remove the line below if not used)
     require('newrelic');
 
     return {  

@@ -1,8 +1,28 @@
+/* 
+World Bank API
+Created by Engagement Lab, 2015
+==============
+ redis.js
+ Redis config file.
+
+ Created by Johnny Richardson on 4/18/15.
+==============
+*/
+"use strict";
+
+/**
+ *
+ * Defines Redis config. It is NOT recommended to modify this configuration.
+ * @namespace api.config
+ * @class redis
+ * @constructor
+ * @static
+ **/
+
 // You can use many types redis connection packages, including:
 // node redis | https://github.com/mranney/node_redis
 // fake redis | https://github.com/hdachev/fakeredis
 // sentinel redis | https://github.com/ortoo/node-redis-sentinel
-
 exports.default = { 
   redis: function(api){
     var redisDetails = {

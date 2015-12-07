@@ -1,4 +1,23 @@
-exports.default = {
+/* 
+World Bank API
+Created by Engagement Lab, 2015
+==============
+ web.js
+ Web server config file.
+
+ Created by Johnny Richardson on 4/18/15.
+==============
+*/
+
+/**
+ *
+ * Defines base server config
+ * @namespace api.config.servers
+ * @class default
+ * @constructor
+ * @static
+ **/
+ exports.default = {
   servers: {
     web: function(api){
       return {
@@ -76,6 +95,14 @@ exports.default = {
   }
 }
 
+/**
+ *
+ * Defines production server config
+ * @namespace api.config.servers
+ * @class production
+ * @constructor
+ * @static
+ **/
 exports.production = { 
   servers: {
     web: function(api){

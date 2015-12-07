@@ -13,15 +13,19 @@ Created by Engagement Lab, 2015
 var _ = require('underscore');
 
 /**
-* @class plan
+  Contains all user plan-related endpoints.
+  @class plan
+  @namespace actions
+  @constructor
+  @static
 **/
 
 /**
+* Retrive 4 random plans for each scenario type and player's last used plan.
 * @method getAll
-* @attribute POST
-* @required
-* @return {Object} Plan for each scenario type and player's last plan if successful (200).
-* @throws {Object} Returns error if missing required field(s) or invalid data.
+* @param user_id {String} User's ID
+* @return {Object} 4 random plans and player's last plan if successful (200).
+* @throws {Object} Returns error if missing required field(s), invalid data, or database exception.
 */
 exports.getAll = 
 {
@@ -106,45 +110,6 @@ exports.getAll =
         getPlanWithFilter({'pbc': true, 'autonomy': false});
         getPlanWithFilter({'pbc': false, 'autonomy': true});
         getPlanWithFilter({'pbc': false, 'autonomy': false}); 
-
-    }
-
-};
-
-/**
-* @method save
-* @attribute POST
-* @required
-* @return {Object}
-* @throws {Object} Returns error if missing required field(s) or invalid data.
-*/
-exports.save = 
-{
-
-    name: 'save',
-    description: 'Saves the specified plan.',
-    blockedConnectionTypes: [],
-    outputExample: {},
-    matchExtensionMimeType: false,
-    version: 1.0,
-    toDocument: true,
-
-    inputs: {},
-
-    /* GET all plan IDs. */
-    run: function (api, data, next) {
-
-      var dataInput = data.connection.rawConnection.params.body;
-
-      api.mongo.plan.findOne({_id: dataInput.plan_id}, function(err, plan) {
-
-        // plan
-
-        data.response = planIDs;
-            
-        next();
-
-      });
 
     }
 

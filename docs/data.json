@@ -1,0 +1,3462 @@
+{
+    "project": {
+        "name": "Engagement Lab World Bank API",
+        "url": "https://github.com/engagementgamelab/WorldBank-API",
+        "description": "Engagement Lab's WorldBank API",
+        "version": "0.0.18"
+    },
+    "files": {
+        "server/actions/analytics.js": {
+            "name": "server/actions/analytics.js",
+            "modules": {},
+            "classes": {
+                "actions.analytics": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "actions": 1
+            }
+        },
+        "server/actions/auth.js": {
+            "name": "server/actions/auth.js",
+            "modules": {},
+            "classes": {
+                "actions.auth": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "actions": 1
+            }
+        },
+        "server/actions/gameData.js": {
+            "name": "server/actions/gameData.js",
+            "modules": {},
+            "classes": {
+                "actions.gameData": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "actions": 1
+            }
+        },
+        "server/actions/plan.js": {
+            "name": "server/actions/plan.js",
+            "modules": {},
+            "classes": {
+                "actions.plan": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "actions": 1
+            }
+        },
+        "server/actions/user.js": {
+            "name": "server/actions/user.js",
+            "modules": {},
+            "classes": {
+                "actions.user": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "actions": 1
+            }
+        },
+        "server/config/servers/web.js": {
+            "name": "server/config/servers/web.js",
+            "modules": {},
+            "classes": {
+                "api.config.servers.default": 1,
+                "api.config.servers.production": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "api.config.servers": 1
+            }
+        },
+        "server/config/api.js": {
+            "name": "server/config/api.js",
+            "modules": {
+                "api": 1
+            },
+            "classes": {
+                "api.config.global.default": 1,
+                "api.config.global.staging": 1,
+                "api.config.global.production": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "api.config.global": 1
+            }
+        },
+        "server/config/mongo.js": {
+            "name": "server/config/mongo.js",
+            "modules": {},
+            "classes": {
+                "api.config.mongo": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "api.config": 1
+            }
+        },
+        "server/config/redis.js": {
+            "name": "server/config/redis.js",
+            "modules": {},
+            "classes": {
+                "api.config.redis": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "api.config": 1
+            }
+        },
+        "server/config/routes.js": {
+            "name": "server/config/routes.js",
+            "modules": {},
+            "classes": {
+                "api.config.routes": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "api.config": 1
+            }
+        },
+        "server/initializers/auth.middleware.js": {
+            "name": "server/initializers/auth.middleware.js",
+            "modules": {},
+            "classes": {
+                "initializers.auth.middleware": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "initializers": 1
+            }
+        },
+        "server/initializers/config.js": {
+            "name": "server/initializers/config.js",
+            "modules": {},
+            "classes": {
+                "initializers.config": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "initializers": 1
+            }
+        },
+        "server/initializers/mongo.js": {
+            "name": "server/initializers/mongo.js",
+            "modules": {},
+            "classes": {
+                "initializers.mongo": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "initializers": 1
+            }
+        },
+        "server/models/plan.js": {
+            "name": "server/models/plan.js",
+            "modules": {},
+            "classes": {
+                "models.plan": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "models": 1
+            }
+        },
+        "server/models/user.js": {
+            "name": "server/models/user.js",
+            "modules": {},
+            "classes": {
+                "models.user": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "models": 1
+            }
+        },
+        "server/public/javascript/actionheroClient.js": {
+            "name": "server/public/javascript/actionheroClient.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "server/public/uh/TemplateData/CSSPlugin.js": {
+            "name": "server/public/uh/TemplateData/CSSPlugin.js",
+            "modules": {
+                "TweenJS": 1
+            },
+            "classes": {
+                "CSSPlugin": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "server/newrelic.js": {
+            "name": "server/newrelic.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {
+        "api": {
+            "name": "api",
+            "submodules": {},
+            "elements": {},
+            "classes": {
+                "actions.analytics": 1,
+                "actions.auth": 1,
+                "actions.gameData": 1,
+                "actions.plan": 1,
+                "actions.user": 1,
+                "api.config.servers.default": 1,
+                "api.config.servers.production": 1,
+                "api.config.global.default": 1,
+                "api.config.global.staging": 1,
+                "api.config.global.production": 1,
+                "api.config.mongo": 1,
+                "api.config.redis": 1,
+                "api.config.routes": 1,
+                "initializers.auth.middleware": 1,
+                "initializers.config": 1,
+                "initializers.mongo": 1,
+                "models.plan": 1,
+                "models.user": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "api.config.global": 1,
+                "api.config": 1,
+                "initializers": 1,
+                "models": 1
+            },
+            "tag": "module",
+            "file": "server/models/user.js",
+            "line": 13,
+            "description": "The World Bank/Engagement Lab API, for use with any World Bank projects.\nBuilt on the MEAN stack and the actionHero.js framework (http://www.actionherojs.com/).\nPlease see README for install guide."
+        },
+        "TweenJS": {
+            "name": "TweenJS",
+            "submodules": {},
+            "elements": {},
+            "classes": {
+                "CSSPlugin": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "server/public/uh/TemplateData/CSSPlugin.js",
+            "line": 39
+        }
+    },
+    "classes": {
+        "actions.analytics": {
+            "name": "actions.analytics",
+            "shortname": "actions.analytics",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "api",
+            "namespace": "actions",
+            "file": "server/actions/analytics.js",
+            "line": 13,
+            "description": "Handles all server-side analytics calls.",
+            "is_constructor": 1,
+            "static": 1
+        },
+        "actions.auth": {
+            "name": "actions.auth",
+            "shortname": "actions.auth",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "api",
+            "namespace": "actions",
+            "file": "server/actions/auth.js",
+            "line": 12,
+            "description": "Defines API-level authentication.",
+            "is_constructor": 1,
+            "requires": [
+                ""
+            ],
+            "static": 1
+        },
+        "actions.gameData": {
+            "name": "actions.gameData",
+            "shortname": "actions.gameData",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "api",
+            "namespace": "actions",
+            "file": "server/actions/gameData.js",
+            "line": 18,
+            "description": "Game data (content) endpoint. Loads all YAML found in /content. Should be called only once per session.",
+            "is_constructor": 1,
+            "return": {
+                "description": "All game data if succcessful (200).",
+                "type": "Object"
+            },
+            "throws": {
+                "description": "Returns error if missing required field(s) or invalid data.",
+                "type": "Object"
+            }
+        },
+        "actions.plan": {
+            "name": "actions.plan",
+            "shortname": "actions.plan",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "api",
+            "namespace": "actions",
+            "file": "server/actions/plan.js",
+            "line": 15,
+            "description": "Contains all user plan-related endpoints.",
+            "is_constructor": 1,
+            "static": 1
+        },
+        "actions.user": {
+            "name": "actions.user",
+            "shortname": "actions.user",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "api",
+            "namespace": "actions",
+            "file": "server/actions/user.js",
+            "line": 13,
+            "description": "Contains all user-related endpoints.",
+            "is_constructor": 1,
+            "static": 1
+        },
+        "api.config.servers.default": {
+            "name": "api.config.servers.default",
+            "shortname": "api.config.servers.default",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "api",
+            "namespace": "api.config.servers",
+            "file": "server/config/servers/web.js",
+            "line": 12,
+            "description": "Defines base server config",
+            "is_constructor": 1,
+            "static": 1
+        },
+        "api.config.servers.production": {
+            "name": "api.config.servers.production",
+            "shortname": "api.config.servers.production",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "api",
+            "namespace": "api.config.servers",
+            "file": "server/config/servers/web.js",
+            "line": 98,
+            "description": "Defines production server config",
+            "is_constructor": 1,
+            "static": 1
+        },
+        "api.config.global.default": {
+            "name": "api.config.global.default",
+            "shortname": "api.config.global.default",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "api",
+            "namespace": "api.config.global",
+            "file": "server/config/api.js",
+            "line": 9,
+            "description": "Defines base API config",
+            "is_constructor": 1,
+            "params": [
+                {
+                    "name": "serverToken",
+                    "description": "A unique token to the application that servers will use to authenticate the client",
+                    "type": "String"
+                }
+            ],
+            "static": 1,
+            "type": "string"
+        },
+        "api.config.global.staging": {
+            "name": "api.config.global.staging",
+            "shortname": "api.config.global.staging",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "api",
+            "namespace": "api.config.global",
+            "file": "server/config/api.js",
+            "line": 76,
+            "description": "Defines staging API config",
+            "is_constructor": 1
+        },
+        "api.config.global.production": {
+            "name": "api.config.global.production",
+            "shortname": "api.config.global.production",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "api",
+            "namespace": "api.config.global",
+            "file": "server/config/api.js",
+            "line": 100,
+            "description": "Defines production API config",
+            "is_constructor": 1
+        },
+        "api.config.mongo": {
+            "name": "api.config.mongo",
+            "shortname": "api.config.mongo",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "api",
+            "namespace": "api.config",
+            "file": "server/config/mongo.js",
+            "line": 13,
+            "description": "Defines MongoDB config.",
+            "is_constructor": 1,
+            "static": 1
+        },
+        "api.config.redis": {
+            "name": "api.config.redis",
+            "shortname": "api.config.redis",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "api",
+            "namespace": "api.config",
+            "file": "server/config/redis.js",
+            "line": 13,
+            "description": "Defines Redis config. It is NOT recommended to modify this configuration.",
+            "is_constructor": 1,
+            "static": 1
+        },
+        "api.config.routes": {
+            "name": "api.config.routes",
+            "shortname": "api.config.routes",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "api",
+            "namespace": "api.config",
+            "file": "server/config/routes.js",
+            "line": 14,
+            "description": "Defined RESTful mapping to help route requests to actions, for web-based clients.\n If the client doesn't specify an action in a param, and the base route isn't a named action, the action will attempt to be discerned from this routes.js file.\n Route should be added for every action in api.actions namespace.",
+            "is_constructor": 1,
+            "static": 1
+        },
+        "initializers.auth.middleware": {
+            "name": "initializers.auth.middleware",
+            "shortname": "initializers.auth.middleware",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "api",
+            "namespace": "initializers",
+            "file": "server/initializers/auth.middleware.js",
+            "line": 13,
+            "description": "Defines authentication middleware.\n If an action uses 'requiresAuth' in template, this middleware first checks if the client has authenticated.\n Or, if an action uses 'requiresUserLogin' in template, checks if the user has authenticated.",
+            "is_constructor": 1,
+            "static": 1
+        },
+        "initializers.config": {
+            "name": "initializers.config",
+            "shortname": "initializers.config",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "api",
+            "namespace": "initializers",
+            "file": "server/initializers/config.js",
+            "line": 17,
+            "description": "Defines global config middleware. It is NOT recommended to modify this configuration.",
+            "is_constructor": 1,
+            "static": 1
+        },
+        "initializers.mongo": {
+            "name": "initializers.mongo",
+            "shortname": "initializers.mongo",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "api",
+            "namespace": "initializers",
+            "file": "server/initializers/mongo.js",
+            "line": 13,
+            "description": "Defines global mongoosejs config. It is NOT recommended to modify this configuration.",
+            "is_constructor": 1,
+            "static": 1
+        },
+        "models.plan": {
+            "name": "models.plan",
+            "shortname": "models.plan",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "api",
+            "namespace": "models",
+            "file": "server/models/plan.js",
+            "line": 14,
+            "description": "User plan model.",
+            "is_constructor": 1,
+            "static": 1,
+            "example": [
+                "\n\tvar Plan = require('../models/plan');"
+            ],
+            "return": {
+                "description": "Plan model"
+            }
+        },
+        "models.user": {
+            "name": "models.user",
+            "shortname": "models.user",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "api",
+            "namespace": "models",
+            "file": "server/models/user.js",
+            "line": 13,
+            "description": "User models.",
+            "is_constructor": 1,
+            "static": 1,
+            "example": [
+                "\nvar User = require('../models/user');"
+            ],
+            "return": {
+                "description": "User model"
+            }
+        },
+        "CSSPlugin": {
+            "name": "CSSPlugin",
+            "shortname": "CSSPlugin",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "TweenJS",
+            "namespace": "",
+            "file": "server/public/uh/TemplateData/CSSPlugin.js",
+            "line": 39,
+            "description": "A TweenJS plugin for working with numeric CSS string properties (ex. top, left). To use simply install after\nTweenJS has loaded:\n\n     createjs.CSSPlugin.install();\n\nYou can adjust the CSS properties it will work with by modifying the <code>cssSuffixMap</code> property. Currently,\nthe top, left, bottom, right, width, height have a \"px\" suffix appended.\n\nPlease note that the CSS Plugin is not included in the TweenJS minified file.",
+            "is_constructor": 1
+        }
+    },
+    "elements": {},
+    "classitems": [
+        {
+            "file": "server/actions/analytics.js",
+            "line": 21,
+            "description": "Record a custom analytics event.",
+            "itemtype": "method",
+            "name": "event",
+            "params": [
+                {
+                    "name": "userId",
+                    "description": "The ID of the logged in user.",
+                    "type": "String"
+                }
+            ],
+            "required": 1,
+            "return": {
+                "description": "Success reponse (200).",
+                "type": "Object"
+            },
+            "throws": {
+                "description": "Returns error if missing required field(s) or invalid data.",
+                "type": "Object"
+            },
+            "class": "actions.analytics",
+            "namespace": "actions"
+        },
+        {
+            "file": "server/actions/auth.js",
+            "line": 21,
+            "description": "Authenticate the client.",
+            "itemtype": "method",
+            "name": "apiAuth",
+            "params": [
+                {
+                    "name": "key",
+                    "description": "The unique server token the client uses to identify credentials.",
+                    "type": "String"
+                }
+            ],
+            "requires": [
+                "api.config.serverToken"
+            ],
+            "return": {
+                "description": "Session cookie and authed response (200).",
+                "type": "Object"
+            },
+            "throws": {
+                "description": "Returns error if missing required field(s) or incorrect token.",
+                "type": "Object"
+            },
+            "class": "actions.auth",
+            "namespace": "actions"
+        },
+        {
+            "file": "server/actions/plan.js",
+            "line": 23,
+            "description": "Retrive 4 random plans for each scenario type and player's last used plan.",
+            "itemtype": "method",
+            "name": "getAll",
+            "params": [
+                {
+                    "name": "user_id",
+                    "description": "User's ID",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "4 random plans and player's last plan if successful (200).",
+                "type": "Object"
+            },
+            "throws": {
+                "description": "Returns error if missing required field(s), invalid data, or database exception.",
+                "type": "Object"
+            },
+            "class": "actions.plan",
+            "namespace": "actions"
+        },
+        {
+            "file": "server/actions/user.js",
+            "line": 34,
+            "description": "Create a new user.",
+            "itemtype": "method",
+            "name": "userCreate",
+            "params": [
+                {
+                    "name": "first_name",
+                    "description": "User's first name",
+                    "type": "String"
+                },
+                {
+                    "name": "last_name",
+                    "description": "User's last name",
+                    "type": "String"
+                },
+                {
+                    "name": "email",
+                    "description": "User's email",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Empty if successful (200).",
+                "type": "Object"
+            },
+            "throws": {
+                "description": "Returns error if missing required field(s) or invalid data.",
+                "type": "Object"
+            },
+            "class": "actions.user",
+            "namespace": "actions"
+        },
+        {
+            "file": "server/actions/user.js",
+            "line": 111,
+            "description": "Save the user's state.",
+            "itemtype": "method",
+            "name": "userSave",
+            "params": [
+                {
+                    "name": "user_id",
+                    "description": "User's ID",
+                    "type": "String"
+                },
+                {
+                    "name": "save_plan",
+                    "description": "True if saving user's \"plan\"",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "plan",
+                    "description": "Input data containing the plan; must be included when using save_plan",
+                    "type": "Object"
+                },
+                {
+                    "name": "save_phase_2",
+                    "description": "True if setting user's phase two state to finished.",
+                    "type": "Boolean"
+                }
+            ],
+            "return": {
+                "description": "User's plan grade if save_plan used, or 'phase_two_done' confirmation if save_phase_2 used.",
+                "type": "Object"
+            },
+            "throws": {
+                "description": "Returns error if missing required field(s), invalid data, or database exception.",
+                "type": "Object"
+            },
+            "class": "actions.user",
+            "namespace": "actions"
+        },
+        {
+            "file": "server/actions/user.js",
+            "line": 317,
+            "description": "Assign the user's phase two scenario.",
+            "itemtype": "method",
+            "name": "userAssignScenario",
+            "params": [
+                {
+                    "name": "user_id",
+                    "description": "User's ID",
+                    "type": "String"
+                },
+                {
+                    "name": "plan_id",
+                    "description": "Plan ID the user selected",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Response containing current_scenario, tactics, default_affects, affects_goal.",
+                "type": "Object"
+            },
+            "throws": {
+                "description": "Returns error if missing required field(s), invalid data, or database exception.",
+                "type": "Object"
+            },
+            "class": "actions.user",
+            "namespace": "actions"
+        },
+        {
+            "file": "server/actions/user.js",
+            "line": 396,
+            "description": "Authenticate a user and obtain user data if successful.",
+            "itemtype": "method",
+            "name": "userAuth",
+            "params": [
+                {
+                    "name": "email",
+                    "description": "User's email.",
+                    "type": "String"
+                },
+                {
+                    "name": "password",
+                    "description": "User's password (optional). This is not used currently as we do not store sensitive data.",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Response containg user's id, username, submitted_plan, phase_two_done, plan_id fields",
+                "type": "Object"
+            },
+            "throws": {
+                "description": "Returns error if missing required field(s), invalid data, or database exception.",
+                "type": "Object"
+            },
+            "class": "actions.user",
+            "namespace": "actions"
+        },
+        {
+            "file": "server/config/mongo.js",
+            "line": 22,
+            "description": "Base mongo config. Suitable for non-PAAS servers.",
+            "itemtype": "method",
+            "name": "default",
+            "class": "api.config.mongo",
+            "module": "api",
+            "namespace": "api.config"
+        },
+        {
+            "file": "server/config/mongo.js",
+            "line": 37,
+            "description": "Staging mongo config. PAAS example provided by default.",
+            "itemtype": "method",
+            "name": "staging",
+            "class": "api.config.mongo",
+            "module": "api",
+            "namespace": "api.config"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 13,
+            "description": "Create a function that will cleanup the instance.",
+            "params": [
+                {
+                    "name": "keys",
+                    "description": "Properties on the instance that needs to be cleared.",
+                    "type": "Array|String"
+                },
+                {
+                    "name": "options",
+                    "description": "Additional configuration.",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "Destroy function",
+                "type": "Function"
+            },
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 29,
+            "description": "Run addition cleanup hooks.",
+            "params": [
+                {
+                    "name": "key",
+                    "description": "Name of the clean up hook to run.",
+                    "type": "String"
+                },
+                {
+                    "name": "selfie",
+                    "description": "Reference to the instance we're cleaning up.",
+                    "type": "Mixed"
+                }
+            ],
+            "api": "private",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 53,
+            "description": "Destroy the instance completely and clean up all the existing references.",
+            "return": {
+                "description": "",
+                "type": "Boolean"
+            },
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 86,
+            "description": "Returns a function that when invoked executes all the listeners of the\ngiven event with the given arguments.",
+            "return": {
+                "description": "The function that emits all the things.",
+                "type": "Function"
+            },
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 114,
+            "description": "The actual function that emits the given event. It returns a boolean\nindicating if the event was emitted.",
+            "return": {
+                "description": "",
+                "type": "Boolean"
+            },
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 126,
+            "description": "Async completion method for the parser.",
+            "params": [
+                {
+                    "name": "err",
+                    "description": "Optional error when parsing failed.",
+                    "type": "Error"
+                },
+                {
+                    "name": "returned",
+                    "description": "Emit instructions.",
+                    "type": "Mixed"
+                }
+            ],
+            "api": "private",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 161,
+            "description": "Representation of a single EventEmitter function.",
+            "params": [
+                {
+                    "name": "fn",
+                    "description": "Event handler to be called.",
+                    "type": "Function"
+                },
+                {
+                    "name": "context",
+                    "description": "Context for function execution.",
+                    "type": "Mixed"
+                },
+                {
+                    "name": "once",
+                    "description": "Only emit once",
+                    "type": "Boolean"
+                }
+            ],
+            "api": "private",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 175,
+            "description": "Minimal EventEmitter interface that is molded against the Node.js\nEventEmitter interface.",
+            "is_constructor": 1,
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 184,
+            "description": "Holds the assigned EventEmitters by name.",
+            "type": "{Object}",
+            "access": "private",
+            "tagname": "",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 192,
+            "description": "Return a list of assigned event listeners.",
+            "params": [
+                {
+                    "name": "event",
+                    "description": "The events that should be listed.",
+                    "type": "String"
+                },
+                {
+                    "name": "exists",
+                    "description": "We only need to know if there are listeners.",
+                    "type": "Boolean"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Array|Boolean"
+            },
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 215,
+            "description": "Emit an event to all registered event listeners.",
+            "params": [
+                {
+                    "name": "event",
+                    "description": "The name of the event.",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Indication if we've emitted an event.",
+                "type": "Boolean"
+            },
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 273,
+            "description": "Register a new EventListener for the given event.",
+            "params": [
+                {
+                    "name": "event",
+                    "description": "Name of the event.",
+                    "type": "String"
+                },
+                {
+                    "name": "fn",
+                    "description": "Callback function.",
+                    "type": "Functon"
+                },
+                {
+                    "name": "context",
+                    "description": "The context of the function.",
+                    "type": "Mixed"
+                }
+            ],
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 297,
+            "description": "Add an EventListener that's only called once.",
+            "params": [
+                {
+                    "name": "event",
+                    "description": "Name of the event.",
+                    "type": "String"
+                },
+                {
+                    "name": "fn",
+                    "description": "Callback function.",
+                    "type": "Function"
+                },
+                {
+                    "name": "context",
+                    "description": "The context of the function.",
+                    "type": "Mixed"
+                }
+            ],
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 321,
+            "description": "Remove event listeners.",
+            "params": [
+                {
+                    "name": "event",
+                    "description": "The event we want to remove.",
+                    "type": "String"
+                },
+                {
+                    "name": "fn",
+                    "description": "The listener that we need to find.",
+                    "type": "Function"
+                },
+                {
+                    "name": "context",
+                    "description": "Only remove listeners matching this context.",
+                    "type": "Mixed"
+                },
+                {
+                    "name": "once",
+                    "description": "Only remove once listeners.",
+                    "type": "Boolean"
+                }
+            ],
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 372,
+            "description": "Remove all listeners or only the listeners for the specified event.",
+            "params": [
+                {
+                    "name": "event",
+                    "description": "The event want to remove all listeners for.",
+                    "type": "String"
+                }
+            ],
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 417,
+            "description": "Simple query string parser.",
+            "params": [
+                {
+                    "name": "query",
+                    "description": "The query string that needs to be parsed.",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Object"
+            },
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 442,
+            "description": "Transform a query string to an object.",
+            "params": [
+                {
+                    "name": "obj",
+                    "description": "Object that should be transformed.",
+                    "type": "Object"
+                },
+                {
+                    "name": "prefix",
+                    "description": "Optional prefix.",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "String"
+            },
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 484,
+            "description": "Returns sane defaults about a given value.",
+            "params": [
+                {
+                    "name": "name",
+                    "description": "Name of property we want.",
+                    "type": "String"
+                },
+                {
+                    "name": "selfie",
+                    "description": "Recovery instance that got created.",
+                    "type": "Recovery"
+                },
+                {
+                    "name": "opts",
+                    "description": "User supplied options we want to check.",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "Some default value.",
+                "type": "Number"
+            },
+            "api": "private",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 499,
+            "description": "Attempt to recover your connection with reconnection attempt.",
+            "is_constructor": 1,
+            "params": [
+                {
+                    "name": "options",
+                    "description": "Configuration",
+                    "type": "Object"
+                }
+            ],
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 533,
+            "description": "Start a new reconnect procedure.",
+            "return": {
+                "description": "",
+                "type": "Recovery"
+            },
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 551,
+            "description": "Exponential back off algorithm for retry operations. It uses a randomized\nretry so we don't DDOS our server when it goes down under pressure.",
+            "params": [
+                {
+                    "name": "fn",
+                    "description": "Callback to be called after the timeout.",
+                    "type": "Function"
+                },
+                {
+                    "name": "opts",
+                    "description": "Options for configuring the timeout.",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Recovery"
+            },
+            "api": "private",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 648,
+            "description": "Check if the reconnection process is currently reconnecting.",
+            "return": {
+                "description": "",
+                "type": "Boolean"
+            },
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 658,
+            "description": "Tell our reconnection procedure that we're passed.",
+            "params": [
+                {
+                    "name": "err",
+                    "description": "Reconnection failed.",
+                    "type": "Error"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Recovery"
+            },
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 670,
+            "description": "Reset the reconnection attempt so it can be re-used again.",
+            "return": {
+                "description": "",
+                "type": "Recovery"
+            },
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 683,
+            "description": "Clean up the instance.",
+            "type": "{Function}",
+            "return": {
+                "description": "",
+                "type": "Boolean"
+            },
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 730,
+            "description": "Parse a time string and return the number value of it.",
+            "params": [
+                {
+                    "name": "ms",
+                    "description": "Time string.",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Number"
+            },
+            "api": "private",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 796,
+            "description": "Wrap callbacks to prevent double execution.",
+            "params": [
+                {
+                    "name": "fn",
+                    "description": "Function that should only be called once.",
+                    "type": "Function"
+                }
+            ],
+            "return": {
+                "description": "A wrapped callback which prevents execution.",
+                "type": "Function"
+            },
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 807,
+            "description": "The function that prevents double execution.",
+            "api": "private",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 838,
+            "description": "Timer instance.",
+            "is_constructor": 1,
+            "params": [
+                {
+                    "name": "timer",
+                    "description": "New timer instance.",
+                    "type": "Object"
+                },
+                {
+                    "name": "clear",
+                    "description": "Clears the timer instance.",
+                    "type": "Function"
+                },
+                {
+                    "name": "duration",
+                    "description": "Duration of the timer.",
+                    "type": "Function"
+                },
+                {
+                    "name": "fn",
+                    "description": "The functions that need to be executed.",
+                    "type": "Function"
+                }
+            ],
+            "api": "private",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 856,
+            "description": "Calculate the time left for a given timer.",
+            "return": {
+                "description": "Time in milliseconds.",
+                "type": "Number"
+            },
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 866,
+            "description": "Calculate the amount of time it has taken since we've set the timer.",
+            "return": {
+                "description": "",
+                "type": "Number"
+            },
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 876,
+            "description": "Custom wrappers for the various of clear{whatever} functions. We cannot\ninvoke them directly as this will cause thrown errors in Google Chrome with\nan Illegal Invocation Error",
+            "see": [
+                "#2"
+            ],
+            "type": "{Function}",
+            "api": "private",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 889,
+            "description": "Simple timer management.",
+            "is_constructor": 1,
+            "params": [
+                {
+                    "name": "context",
+                    "description": "Context of the callbacks that we execute.",
+                    "type": "Mixed"
+                }
+            ],
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 903,
+            "description": "Return a function which will just iterate over all assigned callbacks and\noptionally clear the timers from memory if needed.",
+            "params": [
+                {
+                    "name": "name",
+                    "description": "Name of the timer we need to execute.",
+                    "type": "String"
+                },
+                {
+                    "name": "clear",
+                    "description": "Also clear from memory.",
+                    "type": "Boolean"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Function"
+            },
+            "api": "private",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 932,
+            "description": "Add a new timeout.",
+            "params": [
+                {
+                    "name": "name",
+                    "description": "Name of the timer.",
+                    "type": "String"
+                },
+                {
+                    "name": "fn",
+                    "description": "Completion callback.",
+                    "type": "Function"
+                },
+                {
+                    "name": "time",
+                    "description": "Duration of the timer.",
+                    "type": "Mixed"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Tick"
+            },
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 961,
+            "description": "Add a new interval.",
+            "params": [
+                {
+                    "name": "name",
+                    "description": "Name of the timer.",
+                    "type": "String"
+                },
+                {
+                    "name": "fn",
+                    "description": "Completion callback.",
+                    "type": "Function"
+                },
+                {
+                    "name": "time",
+                    "description": "Interval of the timer.",
+                    "type": "Mixed"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Tick"
+            },
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 990,
+            "description": "Add a new setImmediate.",
+            "params": [
+                {
+                    "name": "name",
+                    "description": "Name of the timer.",
+                    "type": "String"
+                },
+                {
+                    "name": "fn",
+                    "description": "Completion callback.",
+                    "type": "Function"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Tick"
+            },
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 1018,
+            "description": "Check if we have a timer set.",
+            "params": [
+                {
+                    "name": "name",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Boolean"
+            },
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 1029,
+            "description": "Properly clean up all timeout references. If no arguments are supplied we\nwill attempt to clear every single timer that is present.",
+            "params": [
+                {
+                    "name": "..args..",
+                    "description": "The names of the timeouts we need to clear",
+                    "type": "Arguments"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Tick"
+            },
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 1065,
+            "description": "Adjust a timeout or interval to a new duration.",
+            "return": {
+                "description": "",
+                "type": "Tick"
+            },
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 1088,
+            "description": "We will no longer use this module, prepare your self for global cleanups.",
+            "return": {
+                "description": "",
+                "type": "Boolean"
+            },
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 1119,
+            "description": "These are the parse instructions for the URL parsers, it informs the parser\nabout:\n\n0. The char it Needs to parse, if it's a string it should be done using\n   indexOf, RegExp using exec and NaN means set as current value.\n1. The property we should set when parsing this value.\n2. Indication if it's backwards or forward parsing, when set as number it's\n   the value of extra chars that should be split off.\n3. Inherit from location if non existing in the parser.\n4. `toLowerCase` the resulting value.",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 1142,
+            "description": "The actual URL instance. Instead of returning an object we've opted-in to\ncreate an actual constructor as it's much more memory efficient and\nfaster and it pleases my CDO.",
+            "is_constructor": 1,
+            "params": [
+                {
+                    "name": "address",
+                    "description": "URL we want to parse.",
+                    "type": "String"
+                },
+                {
+                    "name": "parser",
+                    "description": "Parser for the query string.",
+                    "type": "Boolean|function"
+                },
+                {
+                    "name": "location",
+                    "description": "Location defaults for relative paths.",
+                    "type": "Object"
+                }
+            ],
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 1252,
+            "description": "This is convenience method for changing properties in the URL instance to\ninsure that they all propagate correctly.",
+            "params": [
+                {
+                    "name": "prop",
+                    "description": "Property we need to adjust.",
+                    "type": "String"
+                },
+                {
+                    "name": "value",
+                    "description": "The newly assigned value.",
+                    "type": "Mixed"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "URL"
+            },
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 1300,
+            "description": "Transform the properties back in to a valid and full URL string.",
+            "params": [
+                {
+                    "name": "stringify",
+                    "description": "Optional query stringify function.",
+                    "type": "Function"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "String"
+            },
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 1345,
+            "description": "These properties should not be copied or inherited from. This is only needed\nfor all non blob URL's as the a blob URL does not include a hash, only the\norigin.",
+            "type": "{Object}",
+            "access": "private",
+            "tagname": "",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 1356,
+            "description": "The location object differs when your code is loaded through a normal page,\nWorker or through a worker using a blob. And with the blobble begins the\ntrouble as the location object will contain the URL of the blob, not the\nlocation of the page where our code is loaded in. The actual origin is\nencoded in the `pathname` so we can thankfully generate a good \"default\"\nlocation from it so we can generate proper relative URL's again.",
+            "params": [
+                {
+                    "name": "loc",
+                    "description": "Optional default location object.",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "lolcation object.",
+                "type": "Object"
+            },
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 1393,
+            "description": "Check if we're required to add a port number.",
+            "see": [
+                "https://url.spec.whatwg.org/#default-port"
+            ],
+            "params": [
+                {
+                    "name": "port",
+                    "description": "Port number we need to check",
+                    "type": "Number|String"
+                },
+                {
+                    "name": "protocol",
+                    "description": "Protocol we need to check against.",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Is it a default port for the given protocol",
+                "type": "Boolean"
+            },
+            "api": "private",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 1440,
+            "description": "Return a string representing the specified number.",
+            "params": [
+                {
+                    "name": "num",
+                    "description": "The number to convert.",
+                    "type": "Number"
+                }
+            ],
+            "return": {
+                "description": "The string representation of the number.",
+                "type": "String"
+            },
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 1458,
+            "description": "Return the integer value specified by the given string.",
+            "params": [
+                {
+                    "name": "str",
+                    "description": "The string to convert.",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "The integer value represented by the string.",
+                "type": "Number"
+            },
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 1475,
+            "description": "Yeast: A tiny growing id generator.",
+            "return": {
+                "description": "A unique id.",
+                "type": "String"
+            },
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 1513,
+            "description": "Context assertion, ensure that some of our public Primus methods are called\nwith the correct context to ensure that",
+            "params": [
+                {
+                    "name": "self",
+                    "description": "The context of the function.",
+                    "type": "Primus"
+                },
+                {
+                    "name": "method",
+                    "description": "The method name.",
+                    "type": "String"
+                }
+            ],
+            "api": "private",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 1550,
+            "description": "Primus is a real-time library agnostic framework for establishing real-time\nconnections with servers.\n\nOptions:\n- reconnect, configuration for the reconnect process.\n- manual, don't automatically call `.open` to start the connection.\n- websockets, force the use of WebSockets, even when you should avoid them.\n- timeout, connect timeout, server didn't respond in a timely manner.\n- ping, The heartbeat interval for sending a ping packet to the server.\n- pong, The heartbeat timeout for receiving a response to the ping.\n- network, Use network events as leading method for network connection drops.\n- strategy, Reconnection strategies.\n- transport, Transport options.\n- url, uri, The URL to use connect with the server.",
+            "is_constructor": 1,
+            "params": [
+                {
+                    "name": "url",
+                    "description": "The URL of your server.",
+                    "type": "String"
+                },
+                {
+                    "name": "options",
+                    "description": "The configuration.",
+                    "type": "Object"
+                }
+            ],
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 1688,
+            "description": "Simple require wrapper to make browserify, node and require.js play nice.",
+            "params": [
+                {
+                    "name": "name",
+                    "description": "The module to require.",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "The module that we required.",
+                "type": "Object|Undefined"
+            },
+            "api": "private",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 1726,
+            "description": "Primus readyStates, used internally to set the correct ready state.",
+            "type": "{Number}",
+            "access": "private",
+            "tagname": "",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 1736,
+            "description": "Are we working with a potentially broken WebSockets implementation? This\nboolean can be used by transformers to remove `WebSockets` from their\nsupported transports.",
+            "type": "{Boolean}",
+            "access": "private",
+            "tagname": "",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 1746,
+            "description": "Some browsers support registering emitting `online` and `offline` events when\nthe connection has been dropped on the client. We're going to detect it in\na simple `try {} catch (e) {}` statement so we don't have to do complicated\nfeature detection.",
+            "type": "{Boolean}",
+            "access": "private",
+            "tagname": "",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 1769,
+            "description": "The Ark contains all our plugins definitions. It's namespaced by\nname => plugin.",
+            "type": "{Object}",
+            "access": "private",
+            "tagname": "",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 1778,
+            "description": "Simple emit wrapper that returns a function that emits an event once it's\ncalled. This makes it easier for transports to emit specific events.",
+            "return": {
+                "description": "A function that will emit the event when called.",
+                "type": "Function"
+            },
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 1787,
+            "description": "A small wrapper around `emits` to add a default parser when one is not\nsupplied. The default parser will defer the emission of the event to make\nsure that the event is emitted at the correct time.",
+            "return": {
+                "description": "A function that will emit the event when called.",
+                "type": "Function"
+            },
+            "api": "private",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 1807,
+            "description": "Return the given plugin.",
+            "params": [
+                {
+                    "name": "name",
+                    "description": "The name of the plugin.",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "The plugin or undefined.",
+                "type": "Object|undefined"
+            },
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 1828,
+            "description": "Checks if the given event is an emitted event by Primus.",
+            "params": [
+                {
+                    "name": "evt",
+                    "description": "The event name.",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Indication of the event is reserved for internal use.",
+                "type": "Boolean"
+            },
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 1840,
+            "description": "The actual events that are used by the client.",
+            "type": "{Object}",
+            "access": "public",
+            "tagname": "",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 1863,
+            "description": "Initialise the Primus and setup all parsers and internal listeners.",
+            "params": [
+                {
+                    "name": "options",
+                    "description": "The original options object.",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Primus"
+            },
+            "api": "private",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 2088,
+            "description": "Handler for offline notifications.",
+            "api": "private",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 2108,
+            "description": "Handler for online notifications.",
+            "api": "private",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 2135,
+            "description": "Really dead simple protocol parser. We simply assume that every message that\nis prefixed with `primus::` could be used as some sort of protocol definition\nfor Primus.",
+            "params": [
+                {
+                    "name": "msg",
+                    "description": "The data.",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Is a protocol message.",
+                "type": "Boolean"
+            },
+            "api": "private",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 2183,
+            "description": "Execute the set of message transformers from Primus on the incoming or\noutgoing message.\nThis function and it's content should be in sync with Spark#transforms in\nspark.js.",
+            "params": [
+                {
+                    "name": "primus",
+                    "description": "Reference to the Primus instance with message transformers.",
+                    "type": "Primus"
+                },
+                {
+                    "name": "connection",
+                    "description": "Connection that receives or sends data.",
+                    "type": "Spark|Primus"
+                },
+                {
+                    "name": "type",
+                    "description": "The type of message, 'incoming' or 'outgoing'.",
+                    "type": "String"
+                },
+                {
+                    "name": "data",
+                    "description": "The data to send or that has been received.",
+                    "type": "Mixed"
+                },
+                {
+                    "name": "raw",
+                    "description": "The raw encoded data.",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Primus"
+            },
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 2247,
+            "description": "Retrieve the current id from the server.",
+            "params": [
+                {
+                    "name": "fn",
+                    "description": "Callback function.",
+                    "type": "Function"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Primus"
+            },
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 2261,
+            "description": "Establish a connection with the server. When this function is called we\nassume that we don't have any open connections. If you do call it when you\nhave a connection open, it could cause duplicate connections.",
+            "return": {
+                "description": "",
+                "type": "Primus"
+            },
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 2284,
+            "description": "Send a new message.",
+            "params": [
+                {
+                    "name": "data",
+                    "description": "The data that needs to be written.",
+                    "type": "Mixed"
+                }
+            ],
+            "return": {
+                "description": "Always returns true as we don't support back pressure.",
+                "type": "Boolean"
+            },
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 2298,
+            "description": "The actual message writer.",
+            "params": [
+                {
+                    "name": "data",
+                    "description": "The message that needs to be written.",
+                    "type": "Mixed"
+                }
+            ],
+            "return": {
+                "description": "Successful write to the underlaying transport.",
+                "type": "Boolean"
+            },
+            "api": "private",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 2351,
+            "description": "Send a new heartbeat over the connection to ensure that we're still\nconnected and our internet connection didn't drop. We cannot use server side\nheartbeats for this unfortunately.",
+            "return": {
+                "description": "",
+                "type": "Primus"
+            },
+            "api": "private",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 2364,
+            "description": "Exterminate the connection as we've timed out.",
+            "api": "private",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 2382,
+            "description": "We should send a ping message to the server.",
+            "api": "private",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 2400,
+            "description": "Start a connection timeout.",
+            "return": {
+                "description": "",
+                "type": "Primus"
+            },
+            "api": "private",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 2409,
+            "description": "Remove all references to the timeout listener as we've received an event\nthat can be used to determine state.",
+            "api": "private",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 2446,
+            "description": "Close the connection completely.",
+            "params": [
+                {
+                    "name": "data",
+                    "description": "last packet of data.",
+                    "type": "Mixed"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Primus"
+            },
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 2492,
+            "description": "Completely demolish the Primus instance and forcefully nuke all references.",
+            "return": {
+                "description": "",
+                "type": "Boolean"
+            },
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 2513,
+            "description": "Create a shallow clone of a given object.",
+            "params": [
+                {
+                    "name": "obj",
+                    "description": "The object that needs to be cloned.",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "Copy.",
+                "type": "Object"
+            },
+            "api": "private",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 2524,
+            "description": "Merge different objects in to one target object.",
+            "params": [
+                {
+                    "name": "target",
+                    "description": "The object where everything should be merged in.",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "Original target with all merged objects.",
+                "type": "Object"
+            },
+            "api": "private",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 2545,
+            "description": "Parse the connection string.",
+            "type": "{Function}",
+            "params": [
+                {
+                    "name": "url",
+                    "description": "Connection URL.",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Parsed connection.",
+                "type": "Object"
+            },
+            "api": "private",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 2555,
+            "description": "Parse a query string.",
+            "params": [
+                {
+                    "name": "query",
+                    "description": "The query string that needs to be parsed.",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Parsed query string.",
+                "type": "Object"
+            },
+            "api": "private",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 2563,
+            "description": "Transform a query string object back into string equiv.",
+            "params": [
+                {
+                    "name": "obj",
+                    "description": "The query string object.",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "String"
+            },
+            "api": "private",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 2572,
+            "description": "Generates a connection URI.",
+            "params": [
+                {
+                    "name": "protocol",
+                    "description": "The protocol that should used to crate the URI.",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "The URL.",
+                "type": "String|options"
+            },
+            "api": "private",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 2647,
+            "description": "Register a new message transformer. This allows you to easily manipulate incoming\nand outgoing data which is particularity handy for plugins that want to send\nmeta data together with the messages.",
+            "params": [
+                {
+                    "name": "type",
+                    "description": "Incoming or outgoing",
+                    "type": "String"
+                },
+                {
+                    "name": "fn",
+                    "description": "A new message transformer.",
+                    "type": "Function"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Primus"
+            },
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 2668,
+            "description": "A critical error has occurred, if we have an `error` listener, emit it there.\nIf not, throw it, so we get a stack trace + proper error message.",
+            "params": [
+                {
+                    "name": "err",
+                    "description": "The critical error.",
+                    "type": "Error"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Primus"
+            },
+            "api": "private",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/javascript/actionheroClient.js",
+            "line": 2685,
+            "description": "Syntax sugar, adopt a Socket.IO like API.",
+            "params": [
+                {
+                    "name": "url",
+                    "description": "The URL we want to connect to.",
+                    "type": "String"
+                },
+                {
+                    "name": "options",
+                    "description": "Connection options.",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Primus"
+            },
+            "api": "public",
+            "class": "CSSPlugin",
+            "module": "api",
+            "namespace": "models"
+        },
+        {
+            "file": "server/public/uh/TemplateData/CSSPlugin.js",
+            "line": 58,
+            "description": "Defines the default suffix map for CSS tweens. This can be overridden on a per tween basis by specifying a\ncssSuffixMap value for the individual tween. The object maps CSS property names to the suffix to use when\nreading or setting those properties. For example a map in the form {top:\"px\"} specifies that when tweening\nthe \"top\" CSS property, it should use the \"px\" suffix (ex. target.style.top = \"20.5px\"). This only applies\nto tweens with the \"css\" config property set to true.",
+            "itemtype": "property",
+            "name": "cssSuffixMap",
+            "type": "Object",
+            "static": 1,
+            "class": "CSSPlugin",
+            "module": "TweenJS"
+        },
+        {
+            "file": "server/public/uh/TemplateData/CSSPlugin.js",
+            "line": 70,
+            "itemtype": "property",
+            "name": "priority",
+            "access": "protected",
+            "tagname": "",
+            "static": 1,
+            "class": "CSSPlugin",
+            "module": "TweenJS"
+        },
+        {
+            "file": "server/public/uh/TemplateData/CSSPlugin.js",
+            "line": 79,
+            "description": "Installs this plugin for use with TweenJS. Call this once after TweenJS is loaded to enable this plugin.",
+            "itemtype": "method",
+            "name": "install",
+            "static": 1,
+            "class": "CSSPlugin",
+            "module": "TweenJS"
+        },
+        {
+            "file": "server/public/uh/TemplateData/CSSPlugin.js",
+            "line": 90,
+            "itemtype": "method",
+            "name": "init",
+            "access": "protected",
+            "tagname": "",
+            "static": 1,
+            "class": "CSSPlugin",
+            "module": "TweenJS"
+        },
+        {
+            "file": "server/public/uh/TemplateData/CSSPlugin.js",
+            "line": 108,
+            "itemtype": "method",
+            "name": "step",
+            "access": "protected",
+            "tagname": "",
+            "static": 1,
+            "class": "CSSPlugin",
+            "module": "TweenJS"
+        },
+        {
+            "file": "server/public/uh/TemplateData/CSSPlugin.js",
+            "line": 117,
+            "itemtype": "method",
+            "name": "tween",
+            "access": "protected",
+            "tagname": "",
+            "static": 1,
+            "class": "CSSPlugin",
+            "module": "TweenJS"
+        },
+        {
+            "file": "server/newrelic.js",
+            "line": 1,
+            "description": "New Relic agent configuration.\n\nSee lib/config.defaults.js in the agent distribution for a more complete\ndescription of configuration variables and their potential values.",
+            "class": "",
+            "module": "TweenJS"
+        },
+        {
+            "file": "server/newrelic.js",
+            "line": 8,
+            "description": "Array of application names.",
+            "class": "",
+            "module": "TweenJS"
+        },
+        {
+            "file": "server/newrelic.js",
+            "line": 12,
+            "description": "Your New Relic license key.",
+            "class": "",
+            "module": "TweenJS"
+        },
+        {
+            "file": "server/newrelic.js",
+            "line": 17,
+            "description": "Level at which to log. 'trace' is most useful to New Relic when diagnosing\nissues with the agent, 'info' and higher will impose the least overhead on\nproduction applications.",
+            "class": "",
+            "module": "TweenJS"
+        }
+    ],
+    "warnings": [
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:13"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:13"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:29"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:53"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:53"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:86"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:86"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:114"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:114"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:126"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:161"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:175"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:192"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:192"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:215"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:215"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:273"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:297"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:321"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:372"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:417"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:417"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:442"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:442"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:484"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:484"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:499"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:533"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:533"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:551"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:551"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:648"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:648"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:658"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:658"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:670"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:670"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:683"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:683"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:730"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:730"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:796"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:796"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:807"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:838"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:856"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:856"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:866"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:866"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:876"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:889"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:903"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:903"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:932"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:932"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:961"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:961"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:990"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:990"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:1018"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:1018"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:1029"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:1029"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:1065"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:1065"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:1088"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:1088"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:1142"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:1252"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:1252"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:1300"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:1300"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:1356"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:1356"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:1393"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:1393"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:1440"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:1440"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:1458"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:1458"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:1475"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:1475"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:1513"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:1550"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:1688"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:1688"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:1778"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:1778"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:1787"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:1787"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:1807"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:1807"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:1828"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:1828"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:1863"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:1863"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:2088"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:2108"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:2135"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:2135"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:2183"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:2183"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:2247"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:2247"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:2261"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:2261"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:2284"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:2284"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:2298"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:2298"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:2351"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:2351"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:2364"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:2382"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:2400"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:2400"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:2409"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:2446"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:2446"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:2492"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:2492"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:2513"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:2513"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:2524"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:2524"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:2545"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:2545"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:2555"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:2555"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:2563"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:2563"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:2572"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:2572"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:2647"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:2647"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:2668"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:2668"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " server/public/javascript/actionheroClient.js:2685"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " server/public/javascript/actionheroClient.js:2685"
+        },
+        {
+            "message": "Missing item type\nCreate a function that will cleanup the instance.",
+            "line": " server/public/javascript/actionheroClient.js:13"
+        },
+        {
+            "message": "Missing item type\nRun addition cleanup hooks.",
+            "line": " server/public/javascript/actionheroClient.js:29"
+        },
+        {
+            "message": "Missing item type\nDestroy the instance completely and clean up all the existing references.",
+            "line": " server/public/javascript/actionheroClient.js:53"
+        },
+        {
+            "message": "Missing item type\nReturns a function that when invoked executes all the listeners of the\ngiven event with the given arguments.",
+            "line": " server/public/javascript/actionheroClient.js:86"
+        },
+        {
+            "message": "Missing item type\nThe actual function that emits the given event. It returns a boolean\nindicating if the event was emitted.",
+            "line": " server/public/javascript/actionheroClient.js:114"
+        },
+        {
+            "message": "Missing item type\nAsync completion method for the parser.",
+            "line": " server/public/javascript/actionheroClient.js:126"
+        },
+        {
+            "message": "Missing item type\nRepresentation of a single EventEmitter function.",
+            "line": " server/public/javascript/actionheroClient.js:161"
+        },
+        {
+            "message": "Missing item type\nMinimal EventEmitter interface that is molded against the Node.js\nEventEmitter interface.",
+            "line": " server/public/javascript/actionheroClient.js:175"
+        },
+        {
+            "message": "Missing item type\nHolds the assigned EventEmitters by name.",
+            "line": " server/public/javascript/actionheroClient.js:184"
+        },
+        {
+            "message": "Missing item type\nReturn a list of assigned event listeners.",
+            "line": " server/public/javascript/actionheroClient.js:192"
+        },
+        {
+            "message": "Missing item type\nEmit an event to all registered event listeners.",
+            "line": " server/public/javascript/actionheroClient.js:215"
+        },
+        {
+            "message": "Missing item type\nRegister a new EventListener for the given event.",
+            "line": " server/public/javascript/actionheroClient.js:273"
+        },
+        {
+            "message": "Missing item type\nAdd an EventListener that's only called once.",
+            "line": " server/public/javascript/actionheroClient.js:297"
+        },
+        {
+            "message": "Missing item type\nRemove event listeners.",
+            "line": " server/public/javascript/actionheroClient.js:321"
+        },
+        {
+            "message": "Missing item type\nRemove all listeners or only the listeners for the specified event.",
+            "line": " server/public/javascript/actionheroClient.js:372"
+        },
+        {
+            "message": "Missing item type\nSimple query string parser.",
+            "line": " server/public/javascript/actionheroClient.js:417"
+        },
+        {
+            "message": "Missing item type\nTransform a query string to an object.",
+            "line": " server/public/javascript/actionheroClient.js:442"
+        },
+        {
+            "message": "Missing item type\nReturns sane defaults about a given value.",
+            "line": " server/public/javascript/actionheroClient.js:484"
+        },
+        {
+            "message": "Missing item type\nAttempt to recover your connection with reconnection attempt.",
+            "line": " server/public/javascript/actionheroClient.js:499"
+        },
+        {
+            "message": "Missing item type\nStart a new reconnect procedure.",
+            "line": " server/public/javascript/actionheroClient.js:533"
+        },
+        {
+            "message": "Missing item type\nExponential back off algorithm for retry operations. It uses a randomized\nretry so we don't DDOS our server when it goes down under pressure.",
+            "line": " server/public/javascript/actionheroClient.js:551"
+        },
+        {
+            "message": "Missing item type\nCheck if the reconnection process is currently reconnecting.",
+            "line": " server/public/javascript/actionheroClient.js:648"
+        },
+        {
+            "message": "Missing item type\nTell our reconnection procedure that we're passed.",
+            "line": " server/public/javascript/actionheroClient.js:658"
+        },
+        {
+            "message": "Missing item type\nReset the reconnection attempt so it can be re-used again.",
+            "line": " server/public/javascript/actionheroClient.js:670"
+        },
+        {
+            "message": "Missing item type\nClean up the instance.",
+            "line": " server/public/javascript/actionheroClient.js:683"
+        },
+        {
+            "message": "Missing item type\nParse a time string and return the number value of it.",
+            "line": " server/public/javascript/actionheroClient.js:730"
+        },
+        {
+            "message": "Missing item type\nWrap callbacks to prevent double execution.",
+            "line": " server/public/javascript/actionheroClient.js:796"
+        },
+        {
+            "message": "Missing item type\nThe function that prevents double execution.",
+            "line": " server/public/javascript/actionheroClient.js:807"
+        },
+        {
+            "message": "Missing item type\nTimer instance.",
+            "line": " server/public/javascript/actionheroClient.js:838"
+        },
+        {
+            "message": "Missing item type\nCalculate the time left for a given timer.",
+            "line": " server/public/javascript/actionheroClient.js:856"
+        },
+        {
+            "message": "Missing item type\nCalculate the amount of time it has taken since we've set the timer.",
+            "line": " server/public/javascript/actionheroClient.js:866"
+        },
+        {
+            "message": "Missing item type\nCustom wrappers for the various of clear{whatever} functions. We cannot\ninvoke them directly as this will cause thrown errors in Google Chrome with\nan Illegal Invocation Error",
+            "line": " server/public/javascript/actionheroClient.js:876"
+        },
+        {
+            "message": "Missing item type\nSimple timer management.",
+            "line": " server/public/javascript/actionheroClient.js:889"
+        },
+        {
+            "message": "Missing item type\nReturn a function which will just iterate over all assigned callbacks and\noptionally clear the timers from memory if needed.",
+            "line": " server/public/javascript/actionheroClient.js:903"
+        },
+        {
+            "message": "Missing item type\nAdd a new timeout.",
+            "line": " server/public/javascript/actionheroClient.js:932"
+        },
+        {
+            "message": "Missing item type\nAdd a new interval.",
+            "line": " server/public/javascript/actionheroClient.js:961"
+        },
+        {
+            "message": "Missing item type\nAdd a new setImmediate.",
+            "line": " server/public/javascript/actionheroClient.js:990"
+        },
+        {
+            "message": "Missing item type\nCheck if we have a timer set.",
+            "line": " server/public/javascript/actionheroClient.js:1018"
+        },
+        {
+            "message": "Missing item type\nProperly clean up all timeout references. If no arguments are supplied we\nwill attempt to clear every single timer that is present.",
+            "line": " server/public/javascript/actionheroClient.js:1029"
+        },
+        {
+            "message": "Missing item type\nAdjust a timeout or interval to a new duration.",
+            "line": " server/public/javascript/actionheroClient.js:1065"
+        },
+        {
+            "message": "Missing item type\nWe will no longer use this module, prepare your self for global cleanups.",
+            "line": " server/public/javascript/actionheroClient.js:1088"
+        },
+        {
+            "message": "Missing item type\nThese are the parse instructions for the URL parsers, it informs the parser\nabout:\n\n0. The char it Needs to parse, if it's a string it should be done using\n   indexOf, RegExp using exec and NaN means set as current value.\n1. The property we should set when parsing this value.\n2. Indication if it's backwards or forward parsing, when set as number it's\n   the value of extra chars that should be split off.\n3. Inherit from location if non existing in the parser.\n4. `toLowerCase` the resulting value.",
+            "line": " server/public/javascript/actionheroClient.js:1119"
+        },
+        {
+            "message": "Missing item type\nThe actual URL instance. Instead of returning an object we've opted-in to\ncreate an actual constructor as it's much more memory efficient and\nfaster and it pleases my CDO.",
+            "line": " server/public/javascript/actionheroClient.js:1142"
+        },
+        {
+            "message": "Missing item type\nThis is convenience method for changing properties in the URL instance to\ninsure that they all propagate correctly.",
+            "line": " server/public/javascript/actionheroClient.js:1252"
+        },
+        {
+            "message": "Missing item type\nTransform the properties back in to a valid and full URL string.",
+            "line": " server/public/javascript/actionheroClient.js:1300"
+        },
+        {
+            "message": "Missing item type\nThese properties should not be copied or inherited from. This is only needed\nfor all non blob URL's as the a blob URL does not include a hash, only the\norigin.",
+            "line": " server/public/javascript/actionheroClient.js:1345"
+        },
+        {
+            "message": "Missing item type\nThe location object differs when your code is loaded through a normal page,\nWorker or through a worker using a blob. And with the blobble begins the\ntrouble as the location object will contain the URL of the blob, not the\nlocation of the page where our code is loaded in. The actual origin is\nencoded in the `pathname` so we can thankfully generate a good \"default\"\nlocation from it so we can generate proper relative URL's again.",
+            "line": " server/public/javascript/actionheroClient.js:1356"
+        },
+        {
+            "message": "Missing item type\nCheck if we're required to add a port number.",
+            "line": " server/public/javascript/actionheroClient.js:1393"
+        },
+        {
+            "message": "Missing item type\nReturn a string representing the specified number.",
+            "line": " server/public/javascript/actionheroClient.js:1440"
+        },
+        {
+            "message": "Missing item type\nReturn the integer value specified by the given string.",
+            "line": " server/public/javascript/actionheroClient.js:1458"
+        },
+        {
+            "message": "Missing item type\nYeast: A tiny growing id generator.",
+            "line": " server/public/javascript/actionheroClient.js:1475"
+        },
+        {
+            "message": "Missing item type\nContext assertion, ensure that some of our public Primus methods are called\nwith the correct context to ensure that",
+            "line": " server/public/javascript/actionheroClient.js:1513"
+        },
+        {
+            "message": "Missing item type\nPrimus is a real-time library agnostic framework for establishing real-time\nconnections with servers.\n\nOptions:\n- reconnect, configuration for the reconnect process.\n- manual, don't automatically call `.open` to start the connection.\n- websockets, force the use of WebSockets, even when you should avoid them.\n- timeout, connect timeout, server didn't respond in a timely manner.\n- ping, The heartbeat interval for sending a ping packet to the server.\n- pong, The heartbeat timeout for receiving a response to the ping.\n- network, Use network events as leading method for network connection drops.\n- strategy, Reconnection strategies.\n- transport, Transport options.\n- url, uri, The URL to use connect with the server.",
+            "line": " server/public/javascript/actionheroClient.js:1550"
+        },
+        {
+            "message": "Missing item type\nSimple require wrapper to make browserify, node and require.js play nice.",
+            "line": " server/public/javascript/actionheroClient.js:1688"
+        },
+        {
+            "message": "Missing item type\nPrimus readyStates, used internally to set the correct ready state.",
+            "line": " server/public/javascript/actionheroClient.js:1726"
+        },
+        {
+            "message": "Missing item type\nAre we working with a potentially broken WebSockets implementation? This\nboolean can be used by transformers to remove `WebSockets` from their\nsupported transports.",
+            "line": " server/public/javascript/actionheroClient.js:1736"
+        },
+        {
+            "message": "Missing item type\nSome browsers support registering emitting `online` and `offline` events when\nthe connection has been dropped on the client. We're going to detect it in\na simple `try {} catch (e) {}` statement so we don't have to do complicated\nfeature detection.",
+            "line": " server/public/javascript/actionheroClient.js:1746"
+        },
+        {
+            "message": "Missing item type\nThe Ark contains all our plugins definitions. It's namespaced by\nname => plugin.",
+            "line": " server/public/javascript/actionheroClient.js:1769"
+        },
+        {
+            "message": "Missing item type\nSimple emit wrapper that returns a function that emits an event once it's\ncalled. This makes it easier for transports to emit specific events.",
+            "line": " server/public/javascript/actionheroClient.js:1778"
+        },
+        {
+            "message": "Missing item type\nA small wrapper around `emits` to add a default parser when one is not\nsupplied. The default parser will defer the emission of the event to make\nsure that the event is emitted at the correct time.",
+            "line": " server/public/javascript/actionheroClient.js:1787"
+        },
+        {
+            "message": "Missing item type\nReturn the given plugin.",
+            "line": " server/public/javascript/actionheroClient.js:1807"
+        },
+        {
+            "message": "Missing item type\nChecks if the given event is an emitted event by Primus.",
+            "line": " server/public/javascript/actionheroClient.js:1828"
+        },
+        {
+            "message": "Missing item type\nThe actual events that are used by the client.",
+            "line": " server/public/javascript/actionheroClient.js:1840"
+        },
+        {
+            "message": "Missing item type\nInitialise the Primus and setup all parsers and internal listeners.",
+            "line": " server/public/javascript/actionheroClient.js:1863"
+        },
+        {
+            "message": "Missing item type\nHandler for offline notifications.",
+            "line": " server/public/javascript/actionheroClient.js:2088"
+        },
+        {
+            "message": "Missing item type\nHandler for online notifications.",
+            "line": " server/public/javascript/actionheroClient.js:2108"
+        },
+        {
+            "message": "Missing item type\nReally dead simple protocol parser. We simply assume that every message that\nis prefixed with `primus::` could be used as some sort of protocol definition\nfor Primus.",
+            "line": " server/public/javascript/actionheroClient.js:2135"
+        },
+        {
+            "message": "Missing item type\nExecute the set of message transformers from Primus on the incoming or\noutgoing message.\nThis function and it's content should be in sync with Spark#transforms in\nspark.js.",
+            "line": " server/public/javascript/actionheroClient.js:2183"
+        },
+        {
+            "message": "Missing item type\nRetrieve the current id from the server.",
+            "line": " server/public/javascript/actionheroClient.js:2247"
+        },
+        {
+            "message": "Missing item type\nEstablish a connection with the server. When this function is called we\nassume that we don't have any open connections. If you do call it when you\nhave a connection open, it could cause duplicate connections.",
+            "line": " server/public/javascript/actionheroClient.js:2261"
+        },
+        {
+            "message": "Missing item type\nSend a new message.",
+            "line": " server/public/javascript/actionheroClient.js:2284"
+        },
+        {
+            "message": "Missing item type\nThe actual message writer.",
+            "line": " server/public/javascript/actionheroClient.js:2298"
+        },
+        {
+            "message": "Missing item type\nSend a new heartbeat over the connection to ensure that we're still\nconnected and our internet connection didn't drop. We cannot use server side\nheartbeats for this unfortunately.",
+            "line": " server/public/javascript/actionheroClient.js:2351"
+        },
+        {
+            "message": "Missing item type\nExterminate the connection as we've timed out.",
+            "line": " server/public/javascript/actionheroClient.js:2364"
+        },
+        {
+            "message": "Missing item type\nWe should send a ping message to the server.",
+            "line": " server/public/javascript/actionheroClient.js:2382"
+        },
+        {
+            "message": "Missing item type\nStart a connection timeout.",
+            "line": " server/public/javascript/actionheroClient.js:2400"
+        },
+        {
+            "message": "Missing item type\nRemove all references to the timeout listener as we've received an event\nthat can be used to determine state.",
+            "line": " server/public/javascript/actionheroClient.js:2409"
+        },
+        {
+            "message": "Missing item type\nClose the connection completely.",
+            "line": " server/public/javascript/actionheroClient.js:2446"
+        },
+        {
+            "message": "Missing item type\nCompletely demolish the Primus instance and forcefully nuke all references.",
+            "line": " server/public/javascript/actionheroClient.js:2492"
+        },
+        {
+            "message": "Missing item type\nCreate a shallow clone of a given object.",
+            "line": " server/public/javascript/actionheroClient.js:2513"
+        },
+        {
+            "message": "Missing item type\nMerge different objects in to one target object.",
+            "line": " server/public/javascript/actionheroClient.js:2524"
+        },
+        {
+            "message": "Missing item type\nParse the connection string.",
+            "line": " server/public/javascript/actionheroClient.js:2545"
+        },
+        {
+            "message": "Missing item type\nParse a query string.",
+            "line": " server/public/javascript/actionheroClient.js:2555"
+        },
+        {
+            "message": "Missing item type\nTransform a query string object back into string equiv.",
+            "line": " server/public/javascript/actionheroClient.js:2563"
+        },
+        {
+            "message": "Missing item type\nGenerates a connection URI.",
+            "line": " server/public/javascript/actionheroClient.js:2572"
+        },
+        {
+            "message": "Missing item type\nRegister a new message transformer. This allows you to easily manipulate incoming\nand outgoing data which is particularity handy for plugins that want to send\nmeta data together with the messages.",
+            "line": " server/public/javascript/actionheroClient.js:2647"
+        },
+        {
+            "message": "Missing item type\nA critical error has occurred, if we have an `error` listener, emit it there.\nIf not, throw it, so we get a stack trace + proper error message.",
+            "line": " server/public/javascript/actionheroClient.js:2668"
+        },
+        {
+            "message": "Missing item type\nSyntax sugar, adopt a Socket.IO like API.",
+            "line": " server/public/javascript/actionheroClient.js:2685"
+        },
+        {
+            "message": "Missing item type\nNew Relic agent configuration.\n\nSee lib/config.defaults.js in the agent distribution for a more complete\ndescription of configuration variables and their potential values.",
+            "line": " server/newrelic.js:1"
+        },
+        {
+            "message": "Missing item type\nArray of application names.",
+            "line": " server/newrelic.js:8"
+        },
+        {
+            "message": "Missing item type\nYour New Relic license key.",
+            "line": " server/newrelic.js:12"
+        },
+        {
+            "message": "Missing item type\nLevel at which to log. 'trace' is most useful to New Relic when diagnosing\nissues with the agent, 'info' and higher will impose the least overhead on\nproduction applications.",
+            "line": " server/newrelic.js:17"
+        }
+    ]
+}

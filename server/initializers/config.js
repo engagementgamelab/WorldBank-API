@@ -14,6 +14,14 @@ var fs = require('fs');
 var yaml = require('yamljs');
 var analytics = require('universal-analytics');
 
+/**
+ *
+ * Defines global config middleware. It is NOT recommended to modify this configuration.
+ * @namespace initializers
+ * @class config
+ * @constructor
+ * @static
+ **/
 module.exports = {
   loadPriority:  1000,
   startPriority: 1000,

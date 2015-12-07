@@ -12,7 +12,11 @@ Created by Engagement Lab, 2015
 var random = require('mongoose-simple-random');
 
 /**
-* @class planModel
+* User plan model.
+* @class plan
+* @namespace models
+* @constructor 
+* @static
 * @example
 *	var Plan = require('../models/plan');
 * @return Plan model

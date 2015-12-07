@@ -10,17 +10,19 @@ Created by Engagement Lab, 2015
 */
 "use strict";
 
-/**
-* @module api
-* @class gameData
-* @return {Object} Raw JSON containing all current static game data.
-*/
-
 var fs = require('fs');
 var path = require('path')
 var dir = require('node-dir');
 var _ = require('underscore');
 
+/**
+  Game data (content) endpoint. Loads all YAML found in /content. Should be called only once per session.
+  @class gameData
+  @namespace actions
+  @constructor
+  @return {Object} All game data if succcessful (200).
+  @throws {Object} Returns error if missing required field(s) or invalid data.
+*/
 exports.action = {
     name: 'gameData',
     description: 'Retrieve all current game data.',
@@ -28,9 +30,7 @@ exports.action = {
     outputExample: {},
     matchExtensionMimeType: false,
     version: 1.4,
-    toDocument: true,
-    // requiresAuth: true,
-    // requiresUserLogin: true,
+    toDocument: true
 
     inputs: {},
 

@@ -11,15 +11,21 @@ Created by Engagement Lab, 2015
 "use strict";
 
 /**
-* @class plan
+    Handles all server-side analytics calls.
+    @class analytics
+    @namespace actions
+    @constructor
+    @static
 **/
 
 /**
-* @method event
-* @attribute POST
-* @required
-* @return {Object} All plan IDs if successful (200).
-* @throws {Object} Returns error if missing required field(s) or invalid data.
+    * Record a custom analytics event.
+    * @method event
+    * @param userId {String} The ID of the logged in user.
+    * @required
+
+    * @return {Object} Success reponse (200).
+    * @throws {Object} Returns error if missing required field(s) or invalid data.
 */
 exports.event = 
 {
