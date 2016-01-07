@@ -8,7 +8,7 @@ exports.config = {
   /**
    * Array of application names.
    */
-  app_name: ['Engagement Lab Staging'],
+  app_name: ['Engagement Lab API'],
   /**
    * Your New Relic license key.
    */
@@ -19,6 +19,7 @@ exports.config = {
      * issues with the agent, 'info' and higher will impose the least overhead on
      * production applications.
      */
-    level: 'info'
+    level: 'trace',
+    filepath : process.cwd() + '/log/newrelic_agent.log',
   }
 }

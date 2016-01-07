@@ -4,9 +4,9 @@
   "type": "git",
   "repository": "https://github.com/engagementgamelab/WorldBank-API.git",
   "description": "Engagement Lab's WorldBank API",
-  "version": "0.0.18",
+  "version": "0.0.20",
   "engines": {
-    "node": ">=0.10.0"
+    "node": "0.12.9"
   },
   "dependencies": {
     "actionhero": "12.2.2",
@@ -27,10 +27,11 @@
     "mongoose-simple-random": "0.3.3"
   },
   "devDependencies": {
+    "heapdump": "^0.3.7",
     "mocha": "latest",
+    "request": "latest",
     "should": "latest",
-    "should-http": "0.0.2",
-    "request": "latest"
+    "should-http": "0.0.2"
   },
   "scripts": {
     "help": "actionhero help",

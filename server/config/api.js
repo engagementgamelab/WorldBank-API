@@ -108,7 +108,7 @@ exports.staging = {
 exports.production = { 
   general: function(api){
     // New Relic RPM init (optional, remove the line below if not used)
-    require('newrelic');
+    // require('newrelic');
 
     return {  
       serverToken: '27a3996e6c59d6f1c38331517732eebdd879d4574eae2c6d7a7290be7d1bd49e',
