@@ -25,23 +25,23 @@
 
 - score: 11-9
   grade: B
-  description: "The pilot test shows some promising results. We have seen measurable increases in all three indicators, especially in quality of care. With proper implementation over the next three years, facility births and vaccinations could rise."
+  description: "The pilot test shows some promising results. We have seen measurable increases in all three indicators, especially in quality of care. Perhaps on another return to the region you should visit different cities and speak to different people to get a better picture of the whole situation. Still, with proper implementation over the next three years, facility births and vaccinations could rise. "
   default_affects: [7, 10, 15]
   affects_bias: [-1, -2, -1]
 
 - score: 8-6
   grade: C
-  description: "The results of our pilot test were mixed to say the least. Indicators have slighty increased, but we expected better numbers at this point in the process. Still, monitoring this RBF program effectively could still yield impressive results."
+  description: "The results of our pilot test were mixed to say the least. Indicators have slightly increased, but we expected better numbers at this point in the process. Perhaps on another return to the region you should visit different cities and speak to different people. Still, monitoring this RBF program effectively could yield impressive results in the future."
   default_affects: [5, 5, 7]
   affects_bias: [-2, -1, -2]
 
 - score: 6-1
   grade: D
-  description: "Pilot test results were not as impressive as we would have liked. We will save this program proposal in our system, but recommend re-evaluation of the context. A second attempt could yield a program with greater efficacy." 
+  description: "Pilot test results were not as impressive as we would have liked. We will save this program proposal in our system, but recommend re-evaluation of the context. Perhaps on another return to the region you should visit different cities and speak to different people. A second attempt could yield a program with greater efficacy." 
   default_affects: [2, 4, 4]
   affects_bias: [-2, -2, -3]
 
 - score: 0-0
   grade: F
-  description: "Our results show that this is doing more harm than good. Achieving indicator goals by year 4 with this program will be difficult. We highly recommend constructing a new program or implementing another RBF specialist's program."
+  description: "Our results show that this is doing more harm than good. Achieving indicator goals by year 4 with this program will be difficult. We highly recommend constructing a new program or implementing another RBF specialist's program. Perhaps on another return to the region you should visit different cities and speak to different people."
   default_affects: [0, 0, 0]
