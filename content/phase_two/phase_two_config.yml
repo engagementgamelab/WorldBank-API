@@ -9,8 +9,8 @@
 # tactic_card_intervals: [15, 20, 35]
 tactic_card_intervals: [5, 5, 5]
 
-# The length of phase two
-phase_length_seconds: 900
+# The length of phase two (/36 to determine problem duration)
+phase_length_seconds: 2700
 
 # The array of tactic symbols that correspond to supervisor "tactics" problems, if the tactic is not part of player's selected plan
 tactics_not_selected: 
