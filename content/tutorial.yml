@@ -10,6 +10,7 @@ phase_1_initial:
   overlay_location: "Center"
   text: "Welcome to Zariba! Explore the world, learn about the health situation, and put together an RBF program proposal to pilot in the next year."
   confirm: true
+  confirm_next: "phase_1_skip_tutorial"
 
 phase_1_skip_tutorial:
   overlay_location: "Center"
@@ -18,7 +19,13 @@ phase_1_skip_tutorial:
   yes_label: "Yes"
   no_label: "No"
   yes_action: "skip_tutorial"
-  no_action: "phase_1_rahb"
+  no_action: "phase_1_movement"
+
+phase_1_movement:
+  overlay_location: "Center"
+  text: "On most screens, you can hold (left click) and drag to navigate to the right or the left to find more people to speak with, or move the map of Zuriba."
+  confirm: true
+  confirm_next: "phase_1_rahb"
 
 phase_1_rahb:
   overlay_location: "Bottom-Right"
@@ -60,7 +67,7 @@ phase_1_unlocked_something:
 
 phase_1_plan_creation_screen:
   overlay_location: "Center"
-  text: "At any time you can access the program creation screen to start forming your RBF proposal. Click here to open this screen."
+  text: "At any time you can access the program creation screen to start forming your RBF proposal. Click on the icon in the bottom-left to open this screen."
   text_mobile: "At any time you can access the program creation screen to start forming your RBF proposal. Tap on the highlighted icon to open this screen."
   spotlight_position: [0.31, 0.36]
   spotlight_position_16x9: [0.5, 0.36]
@@ -81,7 +88,7 @@ phase_1_tactics:
 
 phase_1_tactic_slots:
   overlay_location: "Bottom-Right"
-  text: "Each slot has a priority level. Policies placed higher up will make their benefits and consequences amplified. You can change your program proposal any time before the final submission. Click here to close your notebook."
+  text: "Each slot has a priority level. Policies placed higher up will make their benefits and consequences amplified. You can change your program proposal any time before the final submission. Click on the icon in the bottom-left to close your notebook."
   text_mobile: "Each slot has a priority level. Policies placed higher up will make their benefits and consequences amplified. You can change your program proposal any time before the final submission. Tap here to close your notebook."
   spotlight_position: [0.31, 0.36]
   spotlight_position_16x9: [0.5, 0.36]
@@ -153,7 +160,7 @@ phase_1_end:
 ## PHASE 2
 
 phase_2_start:
-  text: "The results of the pilot year were deemed acceptable, and now we’ll be implementing at scale. Your goal is to increase the three main indicators: Vaccinations, Facility Births, and Quality of Care by 25, 30, and 35 percent respectively."
+  text: "The results of the pilot year were deemed acceptable. Now we’ll be implementing at scale. Your goal is to increase the main indicators: Vaccinations, Facility Births, and Quality of Care by 25, 30, and 35 percent respectively."
   overlay_location: "Center"
   confirm: true
 

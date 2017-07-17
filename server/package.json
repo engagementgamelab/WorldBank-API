@@ -23,7 +23,7 @@
     "passport": "latest",
     "passport-local": "latest",
     "newrelic": "latest",
-    "universal-analytics": "0.3.8",
+    "universal-analytics": "0.4.13",
     "mongoose-simple-random": "0.3.3"
   },
   "devDependencies": {

@@ -107,6 +107,7 @@ exports.production = {
   servers: {
     web: function(api){
       return {
+        port: 3001,
         padding: null,
         metadataOptions: {
           serverInformation: false,

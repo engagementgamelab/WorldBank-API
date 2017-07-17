@@ -8,7 +8,7 @@
 copy_byline: "A discovery game for teaching the principles of Results Based Financing"
 copy_email_error: "We couldn't find that email. If this is your first time playing, please register."
 copy_phase_selection: "Welcome back to Zariba! You can explore the world again and create a new proposal, or implement a program created by you or another player."
-copy_plan_selection: "Select one of these programs to implement."
+copy_plan_selection: "Select one of the programs in the white box by clicking on the right or left arrow, then click Next."
 copy_loading: "Loading"
 
 copy_plan_screen_instructions_tactics: "Drag and drop options into your program proposal. You can change your proposal at any time."
